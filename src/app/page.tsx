@@ -48,25 +48,6 @@ export default function Home() {
         </a>
 
         <div className="mt-12 space-y-8">
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 text-sm font-mono text-muted-foreground opacity-50 hover:opacity-100 transition-opacity">
-            <div className="flex flex-col items-center gap-1">
-              <span className="font-bold text-foreground text-lg sm:text-base">17</span>
-              <span className="text-xs sm:text-sm">Departments</span>
-            </div>
-            <div className="flex flex-col items-center gap-1">
-              <span className="font-bold text-foreground text-lg sm:text-base">{courses.length}</span>
-              <span className="text-xs sm:text-sm">Courses</span>
-            </div>
-            <div className="flex flex-col items-center gap-1">
-              <span className="font-bold text-foreground text-lg sm:text-base">2025</span>
-              <span className="text-xs sm:text-sm">Academic Year</span>
-            </div>
-            <div className="flex flex-col items-center gap-1">
-              <span className="font-bold text-foreground text-lg sm:text-base">MIT</span>
-              <span className="text-xs sm:text-sm">Manipal</span>
-            </div>
-          </div>
-
           <div className="space-y-4 text-sm text-muted-foreground">
             <div className="p-4 bg-secondary/20 rounded-lg border border-border/50 max-w-md mx-auto">
               <p className="text-sm mb-3 opacity-80">
