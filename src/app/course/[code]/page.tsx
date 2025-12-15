@@ -58,7 +58,7 @@ export default async function CoursePage({ params }: Props) {
                 {/* Header */}
                 <header className="space-y-4">
                     <div className="flex flex-wrap gap-2 items-center max-w-full">
-                        <Badge variant="outline" className="font-mono text-xs uppercase tracking-wider text-muted-foreground border-accent-foreground/20 max-w-[200px] sm:max-w-none">
+                        <Badge variant="outline" className="font-mono text-xs uppercase tracking-wider text-muted-foreground border-accent-foreground/20 max-w-[200px] truncate" title={course.department}>
                             {course.department}
                         </Badge>
                         {course.tags?.map(tag => (
@@ -145,7 +145,7 @@ export default async function CoursePage({ params }: Props) {
 
                 </div>
             </main>
-        </div>
+        </div >
     );
 }
 
