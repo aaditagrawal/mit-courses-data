@@ -13,10 +13,15 @@ interface Props {
     params: Promise<{ code: string }>;
 }
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
     const courses = getAllCourses();
-    return courses.map((course) => ({
-        code: course.code,
+    // Deduplicate codes to avoid build errors
+    const uniqueCodes = Array.from(new Set(courses.map(c => c.code))).filter(Boolean);
+
+    return uniqueCodes.map((code) => ({
+        code: code,
     }));
 }
 
