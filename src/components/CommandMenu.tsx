@@ -23,6 +23,12 @@ export function CommandMenu({ data = [] }: Props) {
     const [query, setQuery] = React.useState("");
     const router = useRouter();
 
+    const [randomizedData, setRandomizedData] = React.useState<SearchResult[]>([]);
+
+    React.useEffect(() => {
+        setRandomizedData([...data].sort(() => 0.5 - Math.random()));
+    }, [data]);
+
     React.useEffect(() => {
         const down = (e: KeyboardEvent) => {
             if (e.key === 'k' && (e.metaKey || e.ctrlKey)) {
@@ -36,7 +42,7 @@ export function CommandMenu({ data = [] }: Props) {
     }, []);
 
     const filteredCourses = React.useMemo(() => {
-        if (!query) return data.slice(0, 50);
+        if (!query) return randomizedData.slice(0, 50);
         const lowerQuery = query.toLowerCase();
 
         return data.filter(course => {
@@ -48,7 +54,7 @@ export function CommandMenu({ data = [] }: Props) {
 
             return matchesCode || matchesTitle || matchesSyllabus || matchesTags || matchesDepartment;
         }).slice(0, 50); // Slice AFTER filtering
-    }, [query, data]);
+    }, [query, data, randomizedData]);
 
     const getSnippet = (course: SearchResult, q: string) => {
         if (!q) return course.department;

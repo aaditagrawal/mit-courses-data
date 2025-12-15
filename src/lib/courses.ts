@@ -27,23 +27,35 @@ export function getDepartmentData(filename: string): Department | null {
 
 export function getAllCourses(): SearchResult[] {
     const files = getAllFiles();
-    let allCourses: SearchResult[] = [];
+    const courseMap = new Map<string, SearchResult>();
 
     files.forEach(file => {
         const dept = getDepartmentData(file);
         if (dept && dept.courses) {
-            // Enrich course with department info if needed, or just flatten
-            // We might want to add department slug/name to the course object for context
-            const deptCourses = dept.courses.map(c => ({
-                ...c,
-                department: dept.name,
-                branchFile: file.replace('.json', '')
-            })) as SearchResult[];
-            allCourses = allCourses.concat(deptCourses);
+            dept.courses.forEach(c => {
+                // specific fix for some courses having spaces in code
+                const normalizedCode = c.code.trim();
+                const existing = courseMap.get(normalizedCode);
+                const currentCourse: SearchResult = {
+                    ...c,
+                    code: normalizedCode, // Ensure clean code is used
+                    department: dept.name,
+                    branchFile: file.replace('.json', '')
+                };
+
+                if (!existing) {
+                    courseMap.set(normalizedCode, currentCourse);
+                } else {
+                    // If existing has empty department but current has one, update it
+                    if (!existing.department && currentCourse.department) {
+                        courseMap.set(normalizedCode, currentCourse);
+                    }
+                }
+            });
         }
     });
 
-    return allCourses;
+    return Array.from(courseMap.values());
 }
 
 export interface SearchResult extends Course {
