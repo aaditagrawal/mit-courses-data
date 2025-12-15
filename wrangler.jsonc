@@ -1,5 +1,5 @@
 {
-    "name": "course-web",
+    "name": "mit-courses-data",
     "compatibility_date": "2024-12-16",
     "assets": {
         "directory": "./out"
