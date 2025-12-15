@@ -56,7 +56,7 @@ export default function Home() {
                 Data has been extracted from curriculum published by Manipal Institute of Technology, Manipal.
               </p>
               <a 
-                href="mailto:courses.dev@aaditagrawal.com?subject=Course%20Data%20Discrepancy&body=Hey!%0A%0AFound%20the%20following%20issues%20in%20the%20site%20data%3A%0A%0ACourse%20Code%3A%0AIssue%20found%3A"
+                href="mailto:aadit.mitmpl2023@learner.manipal.edu?subject=COURSE%20WEBSITE%20BUG%20REPORT&body=Hey!%0A%0AFound%20the%20following%20issues%20in%20the%20site%20data%3A%0A%0ACourse%20Code%3A%0AIssue%20found%3A"
                 className="inline-flex items-center gap-2 text-xs bg-background border border-border/50 px-3 py-2 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
               >
                 Report Discrepancies (via Email)
