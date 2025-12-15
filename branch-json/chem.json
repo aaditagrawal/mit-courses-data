@@ -1,0 +1,2412 @@
+{
+  "department": {
+    "name": "Department of CHEMICAL ENGINEERING",
+    "courses": [
+      {
+        "sem": null,
+        "code": "MAT 2124",
+        "title": "ENGINEERING MATHEMATICS-III",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Fourier series and transforms: Periodic Functions, odd and even functions, Euler's formulae, Half range expansions, Harmonic analysis, Fourier integrals & transforms, Parseval's identity",
+          "Complex Variable: Functions of complex variable, Analytic function, C-R equations, differentiation, Integration of complex function, Cauchy's integral formula, Taylor's and Laurent Series, Singular points, Residues, Cauchy's residue theorem, Conformal mappings, bilinear transformations",
+          "Vector Calculus: Gradient, divergence and curl, their physical meaning and vector identities, Line, surface and volume integrals, Green's theorem, divergence and Stokes' theorem, applications",
+          "Partial differential equations: Formation, solutions of equations involving derivatives with respect to one variable only, Solutions by indicated transformations and separation of Variables, Derivation of one dimensional wave equation (vibrating string) and its solution by using the method of separation of Variables, D'Alembert's solution of wave equation, Derivation of one dimensional heat equation using Gauss divergence theorem and solution of one dimensional heat equation, Solution by separation of variables"
+        ],
+        "references": [
+          "E ewin Kreyszig, Advanced Engineering Mathematics, 7th edition, 993, John Wiley & Sons, Inc.",
+          "Murray R.Spiegel : Vector Analysis, 2nd edition, 2009, Schaum Publishing Co.",
+          "B.S.Grewal: Higher Engg.Mathematics, 43rd edition, 2014, Khanna Publishers.",
+          "Ramana B.V., Engineering Mathematics, 2nd edition, 2007, Tata McGraw Hill Publishing Company limited."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 2121",
+        "title": "CHEMICAL ENGINEERING THERMODYNAMICS",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Basic concepts and definition: internal energy, work, heat, equilibrium, reversible process, intensive and extensive function",
+          "First law of thermodynamics for non-flow and flow process",
+          "Volumetric properties of pure fluids: PVT behaviour of pure substances, ideal gas law, isobaric, isothermal, adiabatic and Polytropic process, equation of state for real gases, the principles of corresponding states, compressibility factors",
+          "Second law of thermodynamics: Spontaneous process, qualitative difference between heat and work, Kelvin Plank statement, Clausius statement, Carnot principle, irreversibility, entropy, third law of thermodynamics",
+          "Thermodynamic relations: Classification of thermodynamic processes, fundamental property relations, Maxwell's relations and their applications, modified equations for U, H and S, relationship between Cp and Cv, Gibbs Helmholtz equations, Clausius Clapeyron equation",
+          "Phase equilibria: Thermodynamic properties of pure substances: Fugacity and Fugacity Coefficients, Activity and Activity Coefficients, partial molar properties, chemical potential, Gibbs-Duhem equation, Property changes of mixing",
+          "Chemical reaction equilibria: criteria of equilibrium, reaction stoichiometry, effect of temperature on equilibrium constant, Relation of equilibrium constants to composition: gas-phase reactions, liquid-phase reactions, equilibrium conversions for single reactions"
+        ],
+        "references": [
+          "K.V.Narayanan, A Text Book of Chemical Engineering Thermodynamics, Second Edition, Prentice Hall of India, 2013",
+          "J.M Smith, H.C.Van Ness and M.M.Abbot, Introduction to Chemical Engineering Thermodynamics,(7e), McGraw Hill, 2004",
+          "T.E. Daubert, Chemical Engineering Thermodynamics, McGraw \u2013Hill, 1985",
+          "Y.V.C.Rao, Chemical Engineering Thermodynamics, Universities Press, 1997"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "code": "CHE 2122",
+        "title": "CHEMICAL PROCESS CALCULATIONS",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Units and dimensions \u2013 Conversion of units",
+          "Physico-chemical properties of compounds and mixtures, Chemical equations and stoichiometry",
+          "Properties of gases and mixtures \u2013Ideal and real gases calculations",
+          "Humidity and Saturation \u2013 Humidity charts and their use",
+          "Material balances involving unit operations and unit processes \u2013 Material balances with recycle, bypass and purge",
+          "Energy and energy balances \u2013 Balances on non-reactive and reactive systems, Heat capacities, Heat of reaction, formation and combustion, Standard state, Hess law, Adiabatic reaction temperature and theoretical flame Temperature"
+        ],
+        "references": [
+          "David M. Himmelblau, James B. Riggs, Basic Principles and Calculations in Chemical Engineering, 8th Edition, Pearson Education, Inc. 2012.",
+          "Richard Felder, Ronald W. Rausseau, Lisa G. Bullard, Elementary Principles of Chemical Processes, 4th Edition, John Wiley and Sons, 2018.",
+          "A. Hougen, K.M. Watson and R.A. Ragatz, Chemical Process Principles, Part \u2013 I, John Wiley and Asia Publishing Co. 1970.",
+          "K.V. Narayana, B. Laxmikutty, Stoichiometry and Process Calculation, 2nd Edition, PHI Learning Pvt. Ltd. Delhi, 2017."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CHE 2123",
+        "title": "MOMENTUM TRANSFER",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Properties of fluids",
+          "Fluid statics",
+          "Static pressure",
+          "Introduction to fluid flow",
+          "Types of flow",
+          "Rheological classification",
+          "Basic equations of fluid flow",
+          "Continuity equation",
+          "One dimensional Euler and Bernoulli equation and applications",
+          "Flow measurement",
+          "Hagen-Poiseuille equation",
+          "Turbulence",
+          "velocity profile and shear stress",
+          "Darcy equation",
+          "Fluid flow past immersed bodies",
+          "Flow of fluids thorough bed of solids",
+          "Fluidization",
+          "Dimensional analysis",
+          "Flow of compressible fluids",
+          "Fluid transportation machinery",
+          "Pneumatic conveyance",
+          "Agitation and mixing of liquids"
+        ],
+        "references": [
+          "Warren McCabe, Julian Smith & Peter Harriott \u201cUnit Operations in Chemical Engineering\u201d, (7e), McGraw-Hill, NY,2017",
+          "J F Ricardson & J H Harker with J R Backhurt \u201cCoulson and Richardson's Chemical Engineering\u201d \u2013 Vol. I, Asian Books, New Delhi, 6e, 2006",
+          "L. Bryce Andersen Alan S. Foust, Leonard A. Wenzel, Curtis W. Clump, Louis Maus, \u201cPrinciples of Unit Operations\u201d, (2e), John Wiley and Sons, NY, 2015",
+          "Badger, Walter L.; Banchero, Julius T.; Bancheo, Julius T. \u201cIntroduction to Chemical Engineering\u201d, Tata McGraw Hill, Singapore, 1e, 2017"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 2124",
+        "title": "MASS TRANSFER -I",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to mass transfer operations",
+          "Diffusion and mass Transfer: Molecular diffusion in fluids and solid, mass transfer coefficients, interphase mass transfer coefficient",
+          "Gas Liquid Operations: Equipment for gas liquid operations, Gas absorption",
+          "Solid-Fluid Operations: Crystallisation, Adsorption, Drying"
+        ],
+        "references": [
+          "Treybal, R.E. Mass Transfer Operations (3e), McGraw Hill Education, 2017",
+          "McCabe, W., Smith, J., Harriott, P., Unit Operations of Chemical Engineering (7e), McGraw Hill Education, 2017",
+          "Dutta, B.K., Principles of Mass Transfer and Separation Processes, Prentice Hall India Learning Private Limited, 2006"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHM 2121",
+        "title": "PHYSICAL AND ORGANIC CHEMISTRY",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Thermodynamic treatment of solutions",
+          "Ideal mixtures",
+          "Partial molal quantities",
+          "Liquid-vapor free energies",
+          "Vapour pressure and solution properties",
+          "Colligative properties",
+          "Phase diagrams",
+          "Phase rule",
+          "Surface tension and vapor pressure",
+          "Immiscible liquids",
+          "Eutectic formation",
+          "Solid compound formation",
+          "Boiling point diagrams",
+          "Distillation",
+          "Adsorption of gases",
+          "Adsorption of liquids",
+          "Basic principles and applications of conductometric titrations",
+          "Basic principles and applications of potentiometric titrations",
+          "Chemical Kinetics",
+          "First-order rate equations",
+          "Second order rate equations",
+          "Half-life",
+          "Stereochemistry",
+          "Constitutional isomerism",
+          "Geometrical isomerism",
+          "Optical isomerism",
+          "Reaction intermediates",
+          "Structure of free radicals",
+          "Stability of free radicals",
+          "Reactions of free radicals",
+          "Carbocations",
+          "Carbanions",
+          "Carbenes",
+          "Strength of organic acids and bases",
+          "Factors affecting strength of organic acids and bases",
+          "Structure of benzene",
+          "Aromaticity",
+          "Effect of substituents in mono and disubstituted benzene",
+          "Classification of Heterocyclic compounds",
+          "Basicity of Heterocyclic compounds",
+          "Sources of monosaccharides",
+          "Structure of monosaccharides",
+          "Properties of monosaccharides",
+          "Disaccharides",
+          "Polysaccharides",
+          "Classification of amino acids",
+          "Synthesis of amino acids",
+          "Synthesis of proteins",
+          "Physical properties of peptides",
+          "Chemical properties of peptides",
+          "Color tests of proteins",
+          "Enzymes - Theories of enzymatic actions",
+          "Properties of enzymes",
+          "Applications of enzymes in industry",
+          "Theories of dyes",
+          "Bathochromic shift",
+          "Hypsochromic shift",
+          "Classification of dyes based on applications"
+        ],
+        "references": [
+          "B.R. Puri, L.R. Sharma, M.S. Pathania, Principles of Physical Chemistry, 48th edition, Vishal Publications, Jalandhar, 2021.",
+          "P. Atkins, J. de Paula, Physical Chemistry, 11th edition, Oxford Publication, New York, 2018.",
+          "D. A. Skoog, D. M. West, F. J. Holler, S. R. Gouch, Fundamentals of Analytical Chemistry, 9th edition, Cengage Learning Andover, 2014.",
+          "G.M. Barrow, Physical Chemistry, 5th edition, Tata McGrow-Hill Education private limited, New Delhi, 2007.",
+          "I.L. Finar, Organic Chemistry, Vol I, 6th edn. Pearson Education, Singapore, 2012."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "CHM 2141",
+        "title": "PHYSICAL AND ORGANIC CHEMISTRY LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Titration using conductometric method",
+          "Potentiometric method",
+          "Percentage composition of binary mixture using viscometer and Abbe's refractometer",
+          "Bimolecular kinetics",
+          "Preparation of m-dinitrobenzene, benzoic acid, and salicylic acid",
+          "Determination of the % purity of phenol and acetic acid"
+        ],
+        "references": [],
+        "flags": [
+          "credits_mismatch",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 2224",
+        "title": "ENGINEERING MATHEMATICS-IV",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Optimization Techniques: Formation of Linear Programming problem, Graphical method, Simplex method, Penalty cost and two phase methods",
+          "Probability & Random variables: Finite sample spaces, conditional probability and independence, Bayes' theorem One dimensional random variable, mean, variance, Chebyshev's inequality",
+          "Two and higher dimensional random variables, covariance, correlation coefficient, regression, least squares principles of curve fitting",
+          "Probability distributions: Binomial, Poisson, uniform, normal, gamma, Chi-square and exponential",
+          "Numerical methods: Finite difference expressions for first and second order derivatives (ordinary and partial). Solution of BVP's in ODE. Classification of second order linear partial differential equations. Numerical solutions of two dimensional Laplace and Poisson equations by standard five point formula. Solution of one dimensional heat and wave equations by explicit methods. Crank-Nicolson method",
+          "Finite element method, Introduction, simple applications",
+          "Z transform: Difference equations representing physical systems, the z transforms, properties of z transforms, initial and final value theorems, solution of difference equations by the method of z transforms, convolution theorem"
+        ],
+        "references": [
+          "E rwin Kreyszig, Advanced Engineering Mathematics, 7th edition, 1993, John Wiley & Sons, Inc.",
+          "Meyer P.L., Introduction to probability and Statistical applications, 2nd edition, 1970, American Publishing Co.",
+          "Hamdy A Taha - Operation research, 7th edition, 2002, Pearson Education, Inc.",
+          "Grewal B.S - Higher Engineering Mathematics, 43rd edition, 2014, Khanna Publishers.",
+          "Sastry S.S - Introductory methods for Numerical Analysis, 5th edition, 2012, PHI Learning Private Limited."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 2221",
+        "title": "PARTICLE TECHNOLOGY",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Particle size analysis",
+          "Sphericity of particle",
+          "Shape factor",
+          "Specific surface area and specific number of particle in the sample mixture",
+          "Sieve methods of analysis",
+          "Ideal and actual screen",
+          "Effectiveness and capacity of screen",
+          "Screening equipment",
+          "Size reduction",
+          "Energy relationships",
+          "Size reduction equipment",
+          "Crushers",
+          "Grinders",
+          "Separation based on motion of particle through fluids",
+          "Settling",
+          "Free and hindered settling",
+          "Terminal settling velocity of solid particles",
+          "Classifier",
+          "Sedimentation",
+          "Clarifier",
+          "Design of continuous thickener",
+          "Filtration and Centrifugation operation"
+        ],
+        "references": [
+          "Warren L. McCabe, Julian C. Smith, and Peter Harriott, Unit Operations of Chemical Engineering (7e), McGraw Hill Publication, NY, 2017",
+          "Alan S. Foust, Leonard A. Wenzel, Curtis W. Clump, Louis Maus, and L. Bryce Andersen, Principles of Unit Operations, (2e), John Wiley and Sons, NY, 2015",
+          "Walter L. Badger and Julius T. Banchero, Introduction to Chemical Engineering, Tata McGraw-Hill, NY, 2017",
+          "J.M. Coulson, J.R. Richardson J.R. Backhurst, and J.H. Harker, Chemical Engineering \u2013Volume 2, Particle Technology and Separation Processes, (6e), 2019"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 2222",
+        "title": "MASS TRANSFER II",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Phase equilibrium",
+          "Vapour liquid equilibrium",
+          "Phase diagrams for binary solutions",
+          "Dew point and bubble point calculations",
+          "T-xy, P-xy diagrams",
+          "Deviations from ideality",
+          "Azeotropes and its types",
+          "Distillation: binary component distillation - Flash vaporization, simple distillation, steam distillation, multicomponent distillation",
+          "Multi stage tray towers: Ponchon and Savarit & McCabe and Thiele",
+          "Liquid-Liquid Extraction: Liquid Equilibria, separation of solute by stage-wise, cross current and continuous contact of solvent",
+          "Solid-Liquid Extraction: Introduction, applications, cross current and counter current leaching"
+        ],
+        "references": [
+          "Treybal R.E., Mass Transfer Operations (3e), McGraw Hill Education, 2017",
+          "McCabe W., Smith J., Harriott P., Unit Operations of Chemical Engineering (7e), McGraw Hill Education, 2017",
+          "Dutta B.K., Principles of Mass Transfer and Separation Processes, Prentice Hall India Learning Private Limited, 2006"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CHE 2223",
+        "title": "CHEMICAL REACTION ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Elementary and Non elementary reaction kinetics",
+          "Kinetics of homogeneous chemical reactions",
+          "Rate expressions",
+          "Temperature dependence of rate",
+          "differential, integral, half-life and total pressure method",
+          "Isothermal reactor design",
+          "Design of batch, semi-batch, CSTR and PFR",
+          "Reactors in series or/and parallel",
+          "Recycle reactor",
+          "Series and parallel reactions in flow reactors",
+          "Product distribution",
+          "Yield and selectivity",
+          "Maximizing the desired product in parallel, series reactions, series-parallel reactions and Denbigh reactions",
+          "Enzymatic Reaction - Michaelis-Menten Kinetics",
+          "Competitive and Non-competitive inhibition",
+          "Microbial Fermentation- substrate limiting and product limiting- batch/ plug flow and mixed flow fermentors"
+        ],
+        "references": [
+          "Fogler S. H., Elements of Chemical Reaction Engineering, Pearson; 6th edition 2020",
+          "Levenspiel O., Chemical Reaction Engineering (3e), Wiley; Third edition ,2006",
+          "Rawlings J.B. and Ekerd, J.G., Chemical Reactor Analysis and Design Fundamentals, Nob Hill Pub, Llc; 2 nd edition ,2013",
+          "Smith, J.M, Chemical Engineering Kinetics (3e), McGraw-Hill, 3rd edition",
+          "Davis M.E., Davis R.E., Fundamentals of Chemical Reaction Engineering (1e), Dover Publications Inc.; Illustrated edition. 2012",
+          "Missen R.W., Mims C.A., Saville B.A., Introduction to chemical reaction engineering and kinetics, John Wiley & Sons Inc."
+        ],
+        "flags": [
+          "sem_inferred_from_code"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 2224",
+        "title": "POLLUTION CONTROL AND SAFETY IN CHEMICAL INDUSTRY",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Biosphere- Nutrient and hydrologic cycles",
+          "Types of pollution and pollution control aspects in general and environmental legislation",
+          "Evaluation and characterisation of air and water pollutants",
+          "Treatment methods for air, water pollution",
+          "Sludge treatment and disposal",
+          "Principles of air pollution Plume behaviour- Meteorological factors affecting air Pollution",
+          "Pollution control aspects in specific chemical industry",
+          "Scientific and engineering aspects of safety in industries- considerations"
+        ],
+        "references": [
+          "Mahajan S.P.,\u201cPollution Control in Process Industries\u201d, Tata Mc Graw Hill, 2008",
+          "Rao C.S., \u201cEnvironmental Pollution Control Engineering\u201d (2e), New Age International Publishers, 2006",
+          "Cavaseno V, \u201cIndustrial Air Pollution Engineering\u201d, McGraw Hill, NY, 1980"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 2225",
+        "title": "HEAT TRANSFER OPERATIONS",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Mechanism of heat transfer; Heat transfer flux and resistance",
+          "Thermal conductivity; Fourier's law of conduction; Conduction through the plane, cylindrical and spherical and composite walls",
+          "Natural and forced convection; Individual film and overall heat transfer coefficients; Convection in laminar and turbulent flows",
+          "Heat exchanger: Types of heat exchangers; Co-current and counter-current flows; Evaporators",
+          "Radiant energy distribution, Black body; Emissive power; Exchange of energy between two surfaces; Radiosity, Spectral Irradiation"
+        ],
+        "references": [
+          "F.P. Incropera and D.P. Dewitt \u2013 Introduction to Heat and Mass Transfer, 7th Edition (Wiley), 2007",
+          "McCabe and Smith \u2013Unit Operations of Chemical Engineering, 7th edition",
+          "Donald Q Kern- Process Heat Transfer, McGraw Hill, 2017",
+          "William Henry McAdams- Heat Transmission, 3rd Edition, McGraw Hill"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 2241",
+        "title": "MOMENTUM TRANSFER LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Bernoulli's Experiment \u2013 Calibration of flow meters",
+          "Flow through circular pipe",
+          "Flow through annulus",
+          "Flow through v-notch",
+          "Flow through packed bed",
+          "Flow through fluidized bed",
+          "Centrifugal pump characteristics"
+        ],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 5,
+        "code": "CHE 2242",
+        "title": "NUMERICAL METHODS FOR CHEMICAL ENGINEERS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Chemical engineering problems related to Process Calculations",
+          "Momentum Transfer",
+          "Heat Transfer",
+          "Mass Transfer-I",
+          "Bisection method",
+          "False position method",
+          "Secant method",
+          "Newton-Raphson method",
+          "Linear Algebraic Equations",
+          "Runge-Kutta method",
+          "Predictor-Corrector method",
+          "Shooting method",
+          "Finite difference method",
+          "Crank-Nicholson method",
+          "Bender Schmidt method",
+          "Use of computer software such as MATLAB and EXCEL"
+        ],
+        "references": [],
+        "flags": [
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 3021",
+        "title": "ENGG ECONOMICS AND FINANCIAL MANAGEMENT",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Nature and significance",
+          "Micro & macro differences",
+          "Law of demand and supply",
+          "Elasticity & equilibrium of demand & supply",
+          "Time value of money",
+          "Interest factors for discrete compounding",
+          "Nominal & effective interest rates",
+          "Present and future worth of single, Uniform gradient cash flow",
+          "Bases for comparison of alternatives",
+          "Present worth amount",
+          "Capitalized equivalent amount",
+          "Annual equivalent amount",
+          "Future worth amount",
+          "Capital recovery with return",
+          "Rate of return method",
+          "Incremental approach for economic analysis of alternatives",
+          "Replacement analysis",
+          "Break even analysis for single product and multi product firms",
+          "Break even analysis for evaluation of investment alternatives",
+          "Physical & functional depreciation",
+          "Straight line depreciation",
+          "Declining balance method of depreciation",
+          "Sum-of-the-years digits method of depreciation",
+          "Sinking fund and service output methods",
+          "Introduction to balance sheet and profit & loss statement",
+          "Ratio analysis - Financial ratios such as liquidity ratios, Leverage ratios, Turn over ratios, and profitability ratios"
+        ],
+        "references": [
+          "Prasanna Chandra (2005), \u201cFundamentals of Financial Management\u201d, Tata Mc-Graw Hill Companies, New Delhi.",
+          "James L Riggs, David D Bedworth and Sabah U Randhawa, (2004), \u201cEngineering Economics\u201d, Tata McGraw \u2013 Hill Publishing Company Ltd, New Delhi",
+          "T. Ramachandran (2001), \u201cAccounting and Financial Management\u201d, Scitech Publications Pvt. Ltd. India.",
+          "Eugene F. B. & Joel F. H. (2009), \u201cFundamentals of Financial Management\u201d, 12th ed., Cengage Learning Publisher.",
+          "M. Y. Khan & P. K. Jain (2008), \u201cFinancial Management\u201d, 5th edition Tata McGraw Hill Publication, New Delhi.",
+          "Thuesen G.J (2005), \u201cEngineering Economics\u201d Prentice Hall of India, New Delhi.",
+          "Blank Leland T. Tarquin Anthony J. (2002), \u201cEngineering Economy\u201d, McGraw Hill, Delhi.",
+          "Chan S. Park, (2013), \u201cFundamentals of Engineering Economics\u201d, 3rd edition, Pearson Publication."
+        ],
+        "flags": [
+          "sem_inferred_from_code"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CHE 3121",
+        "title": "PROCESS DYNAMICS AND CONTROL",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to process control: components of control system, control relevant process modelling",
+          "Laplace Transform",
+          "Linearization",
+          "Transfer function models: effect of poles, zeros and time delays on system response",
+          "Dynamics of First, Second and Higher order systems",
+          "Control system instrumentation",
+          "Introduction to Feedback control: effect of proportional, integral and derivative action, responses of P, PI and PID controllers",
+          "Controller selection, design and tuning",
+          "Stability analysis of closed loop systems",
+          "Frequency response: Bode diagrams; Nyquist Plot",
+          "Multivariable and advanced control strategies"
+        ],
+        "references": [
+          "Stephanopoulos G., Chemical Process Control: An Introduction to Theory and Practice (1e), Pearson Education India, 2015",
+          "Seborg D.E., Edgar T.F., Mellichamp D.A., Doyle III F. J., Process Dynamics and Control (4e), John Wiley and Sons, 2016",
+          "Coughanowr D.R., LeBlanc E.S., Process Systems Analysis and Control (3e), McGraw Hill, 2009",
+          "Marlin T.E., Process Control: Designing of Processes and Control Systems for dynamic performance (2e), Mc Grew Hill, 2000",
+          "Bequette B.W., Process Control, Modelling, Design and Simulation, Prentice Hall International, 2003"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CHE 3122",
+        "title": "PROCESS MODELLING AND SIMULATION",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Models and model building, principles of model formulation, precautions in model building, Classification of models",
+          "Lumped parameter Models: steady and unsteady state- tank model, Reaction \u2013 kinetic systems, Vapour \u2013liquid equilibrium operation",
+          "Distributed parameter models (steady state): solution of split boundary value problems, counter current heat exchanger, tubular reactor with axial dispersion",
+          "Distributed parameter models (unsteady state, one dimension): Finite difference method, convection problems- explicit and implicit centred difference methods; diffusive problems- Crank Nicolson finite difference scheme, heat exchanger, gas absorbers and dynamics of tubular reactor with dispersion"
+        ],
+        "references": [
+          "Ramirez W.F., Computational Methods in Process Simulations (2e), Butterworth publishers, 1997.",
+          "Franks R.E., Modelling and simulation in Chemical Engineering, John Wiley & Sons, 1972.",
+          "Hangos K., Cameron I., Process Modelling and Model Analysis, Academic Press, 2001.",
+          "Ramakrishna D., Population Balance-Theory and Applications to Particulate systems in Engineering (1e), Academic Press, 2000."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CHE 3123",
+        "title": "PROCESS DESIGN OF CHEMICAL EQUIPMENT",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to mechanical design",
+          "Vessel classification",
+          "Design codes and general design consideration",
+          "Design of cylindrical and spherical vessels under internal pressure",
+          "Design of heads and closures",
+          "Design of cylindrical and spherical vessels under external pressure",
+          "Design of shell and tube heat exchangers",
+          "Design of condensers",
+          "Design of single and multiple effect evaporators",
+          "Design of distillation columns & absorption columns"
+        ],
+        "references": [
+          "Coulson and Richardson's Volume 6, Chemical Engineering design (4e), Elsevier Butterworth-Heinemann Publishers, 2005",
+          "Kern D.Q., Process Heat transfer, McGraw-Hill Publishers, 2017",
+          "Joshi M.V., Mahajani V.V., Process Equipment Design (4e), MacMillan Publishers, 2009",
+          "Indian Standard for unfired pressure vessel, IS 2825-1969",
+          "Indian Standard for Heat Exchangers, BIS 4503-1967",
+          "Bhattacharya B.C., Introduction to Chemical Equipment Design \u2013 Mechanical aspects, CBS Publishers, 2017",
+          "Brownell L.E., Young E.H., Process Equipment Design, Wiley Publications, 2009"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CHE 3124",
+        "title": "TRANSPORT PHENOMENA",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Prediction of transport coefficients: viscosity, thermal conductivity and diffusivity and their dependence with temperature, pressure and composition",
+          "Kinetic theories of viscosity, thermal conductivity and diffusivity",
+          "Shell balance for momentum, energy and mass transfer: unidimensional velocity-temperature and concentration profiles momentum, energy and mass flux at the surface",
+          "Introduction to general transport equations for momentum, energy and mass transfer in Cartesian -cylindrical and spherical co-ordinates- solutions in one dimension",
+          "Velocity, temperature, concentration distribution with more than one independent variable"
+        ],
+        "references": [
+          "Bird R.B., Stewart W.E., Lightfoot E.W., Transport Phenomena (2e), John-Wiley, 2006",
+          "Brodkey R.S., Hershey C.,Transport Phenomena- A unified approach, McGraw Hill Book Company, 2003",
+          "Slattery J.C., Advanced Transport Phenomena, Cambridge University Press, 2012",
+          "Geankoplis C.J, Transport Process and Unit Operation (3e) , Prentice-Hall , 2015"
+        ],
+        "flags": [
+          "sem_inferred_from_course_code"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 3141",
+        "title": "HEAT TRANSFER LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "conduction",
+          "convection",
+          "radiation",
+          "overall heat transfer coefficient",
+          "dirt resistance calculation",
+          "Surface renewable coefficients",
+          "bare and finned tube heat exchangers",
+          "film and drop condensation"
+        ],
+        "references": [],
+        "flags": [
+          "missing_semester",
+          "credits_mismatch",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 6,
+        "code": "CHE 3142",
+        "title": "MASS TRANSFER LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Vapour-liquid equilibria",
+          "Simple distillation",
+          "vaporization and thermal efficiency of steam distillation",
+          "distillation under total reflux in a packed column",
+          "studies in batch adsorption",
+          "diffusivity by Stephen's method",
+          "mass transfer coefficient in dissolution of solid",
+          "liquid-liquid extraction",
+          "simple and cross flow leaching",
+          "experimental determination of liquid-liquid equilibrium data",
+          "drying of solids in fluidized bed dryer",
+          "extraction of solute in packed bed column",
+          "crystallization process in an batch crystallizer",
+          "tray efficiency of bubble cap distillation column"
+        ],
+        "references": [],
+        "flags": [
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 3022",
+        "title": "ESSENTIALS OF MANAGEMENT",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Definition of management and systems approach, Nature & scope",
+          "The functions of managers",
+          "Corporate social responsibility",
+          "Planning: Types of plans, Steps in planning, Process of MBO, how to set objectives, Strategies, Policies & planning premises",
+          "Strategic planning process and tools",
+          "Nature & purpose of organising, Span of management, Factors determining the span, Basic departmentation, Line & staff concepts, Functional authority, Art of delegation, Decentralization of authority",
+          "HR planning, Recruitment, Development and training",
+          "Theories of motivation, Special motivational techniques",
+          "Leadership- leadership behaviour & styles, Managerial grid",
+          "Basic control process, Critical control points & standards, Budgets, Non-budgetary control devices",
+          "Profit & loss control, Control through ROI, Direct, Preventive control",
+          "Managerial practices in Japan & USA, Application of Theory Z",
+          "The nature & purpose of international business & multinational corporations, Unified global theory of management",
+          "Entrepreneurial traits, Creativity, Innovation management, Market analysis, Business plan concepts, Development of financial projections"
+        ],
+        "references": [
+          "Harold Koontz & Heinz Weihrich (2012), \u201cEssentials of Management\u201d, McGraw Hill, New Delhi",
+          "Peter Drucker (1993), \u201cManagement: Tasks, Responsibilities and Practices\u201d, Harper and Row, New York",
+          "Peter Drucker (2004),\u201cThe Practice of Management\u201d, Harper and Row, New York"
+        ],
+        "flags": [
+          "department_mismatch (HUM course in Department of CHEMICAL ENGINEERING)"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CHE 3221",
+        "title": "CHEMICAL PROCESS INDUSTRIES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Indian industry - A brief review",
+          "Industrial gases",
+          "Chloralkali industry",
+          "Hydrochloric acid, Soda ash",
+          "Fertilizer industry: Ammonia, Nitric acid, Urea",
+          "Oils, fats and waxes: Hydrogenation of oil, Soaps and detergents, Glycerin recovery",
+          "Petroleum industry",
+          "Pulp and paper - Pulping methods, black liquor \u2013 Paper and paperboard",
+          "Sugar and starch: Sugar \u2013 Starch and modified starches, Glucose \u2013 Fermentation, Industrial alcohol \u2013 Absolute alcohol \u2013 Acetone and Butanol",
+          "Polyethylene \u2013 Viscose rayon, Nylon 6 and Nylon 66",
+          "Natural and synthetic rubber"
+        ],
+        "references": [
+          "Charles E. Dryden, Outlines of Chemical Technology, Edited and Revised by M. Gopala Rao and Marshall Sittig, Affiliated East Press Ltd., 3rd Edn., 1997.",
+          "Austin G.T., Shreve's Chemical Process Industries, 5th Edn, McGraw-Hill, 2017.",
+          "Groggins, P .H, Unit processes in organic synthesis Tata McGraw-Hill, 2004."
+        ],
+        "flags": []
+      },
+      {
+        "code": "CHE 3222",
+        "title": "Extraction Failed",
+        "sem": null,
+        "credits": null,
+        "tags": [
+          "error"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "extraction_failed"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 3223",
+        "title": "CHEMICAL REACTOR THEORY",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "RTD in chemical reactors, distribution functions and models",
+          "Temperature effects",
+          "Design of adiabatic/non-adiabatic and non-isothermal batch and flow reactors",
+          "Optimum temperature progression",
+          "multiple steady states",
+          "Heterogeneous reactions",
+          "Rate equations",
+          "F-S non-catalytic reactions",
+          "models",
+          "Kinetic regimes",
+          "Heterogeneous catalysis",
+          "classification of catalysts",
+          "Kinetics of heterogeneous solid catalyzed gas reactions",
+          "Mathematical models",
+          "mechanism",
+          "External transport processes",
+          "Intra pellet mass transfer",
+          "Multiphase reactors kinetics and design"
+        ],
+        "references": [
+          "Scott Fogler, H, Elements of Chemical Reaction Engg \u2013 PH- 6th Edition- 2020",
+          "Octave Levenspiel, Chemical Reaction Engineering, Wiley & Sons - 3rd Edition, 2021",
+          "Rawlings J.B. and Ekerd, J.G., Chemical Reactor Analysis and Design Fundamentals, Nob Hill \u2013 2nd Edition, 2022",
+          "Smith, J.M, Chemical Engineering Kinetics, 3rd edition, McGrawl-Hill, International student edition",
+          "Mark E Davis, Robert E Davis, Fundamentals of Chemical Reaction Engineering, 1st edition, McGrawl-Hill, 2003",
+          "Ronald W. Missen, Charles A. Mims, Bradley A. Saville; Introduction to chemical reaction engineering and kinetics, John Wiley & Sons, Inc."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CHE 3224",
+        "title": "ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING IN CHEMICAL ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to AI & ML, supervised and unsupervised learning",
+          "Linear regression, Cost/Objective function",
+          "Gradient descent algorithm",
+          "Linear regression with multiple variables-gradient descent algorithm",
+          "Classification, objective function of logistic regression",
+          "Concept of regularization",
+          "Neural networks",
+          "Bias-Variance trade-off, Support vector machines, Clustering algorithm",
+          "Orthogonal projection, PCA, PLS",
+          "An algorithm developed and analyzed in MATLAB / PYTHON software",
+          "Application in process system engineering"
+        ],
+        "references": [
+          "Stephen Marsland, \u201cMachine Learning\u201d , Second edition CRC Press, 2014",
+          "Steven L. Brunton and J. Nathan Kutz, \u201cData-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control\u201d Edn., 2, Cambridge University Press; 2022",
+          "Alpaydin Ethem, \u201cIntroduction to Machine Learning\u201d, Edn. 2, PHI, New Delhi",
+          "Shalev-Shwartz Shai;Ben-David Shai, \u201cUnderstanding machine learning\u201d, Cambridge Univerwity Press, 2017",
+          "Saikat Dutt, Subramanian Chandramouli and Amit Kumar Das, \u201cMachine Learning\u201d 1st edition, Pearson, 2018"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CHE 3241",
+        "title": "PROCESS MODELLING AND SIMULATION LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Experiments based on simulation of steady state \u2013 flash drum, reactors, distillation column, absorber, heat exchanger and chemical plants using ASPEN PLUS",
+          "Simulation of unsteady state operation of chemical plants using ASPEN DYNAMICS"
+        ],
+        "references": [],
+        "flags": [
+          "credits_mismatch (L+T+P=3 \u2260 C=1)",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 7,
+        "code": "CHE 3242",
+        "title": "REACTION ENGINEERING AND PROCESS CONTROL LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Homogeneous non-catalytic liquid phase kinetic studies using batch reactor",
+          "Semi-batch reactor",
+          "PFR and CSTR",
+          "Studies on recycle reactor",
+          "RTD Studies in PFR and CSTR",
+          "Dynamic response of systems: first order non-linear, thermometric",
+          "Second order non-interacting and interacting by introducing a step input",
+          "Linearization of a non-linear system and comparison of dynamic response with the actual response",
+          "Valve characteristics",
+          "Studies on P, PI, and PID controllers",
+          "Control of systems with cascading and ratio effects"
+        ],
+        "references": [],
+        "flags": [
+          "credits_mismatch",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "CHE 4291",
+        "title": "INDUSTRIAL TRAINING",
+        "credits": {
+          "l": null,
+          "t": null,
+          "p": null,
+          "c": null
+        },
+        "tags": [
+          "core"
+        ],
+        "syllabus": [
+          "Undergo industrial training for a minimum period of 4 weeks",
+          "Training may be taken in a phased manner during the vacation starting from the end of third semester to the end of seventh semester",
+          "Submit training report in prescribed format to the department",
+          "Make presentation of the training report",
+          "Report should include certificates issued by the industry"
+        ],
+        "references": [],
+        "flags": [
+          "missing_credits",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4292",
+        "title": "PROJECT WORK",
+        "credits": null,
+        "tags": [
+          "core"
+        ],
+        "syllabus": [
+          "Project work may be carried out in the institution/industry/research laboratory or any other competent institutions",
+          "Duration of the project work shall be a minimum of 16 weeks which may be extended up to 24 weeks",
+          "Mid-semester evaluation of the project work shall be done after about 8 weeks",
+          "An interim project report on the progress of the work shall be submitted to the department during the mid-semester evaluation",
+          "Final evaluation and viva-voice will be conducted after submission of the final project report in the prescribed form",
+          "Student has to make a presentation on the work carried out before the department committee as part of project evaluation"
+        ],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_credits",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4401",
+        "title": "OIL AND GAS RESERVOIR ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Basic concepts of reservoir engineering: calculation of hydrocarbon volumes, fluid pressure regimes, recovery factor, volumetric gas reservoir, hydrocarbon phase behaviour",
+          "PVT analysis for oil: definition of parameters, fluid sampling, laboratory testing",
+          "Material balance applied to oil reservoirs",
+          "Reservoir drive mechanisms, solution gas drive, gas cap drive, natural water drive",
+          "Darcy's law and applications: fluid potential, radial steady state flow, well stimulation",
+          "Two phase flow: effective and relative permeability",
+          "Radial flow differential equation, conditions of solution",
+          "Application of the stabilized inflow equations",
+          "Enhanced oil recovery"
+        ],
+        "references": [
+          "Dake L. P., Fundamental of Reservoir Engineering, Elsevier, 2007.",
+          "Smith H. C., Tracy G. W., and Farrar R. L., Applied Reservoir Engineering: Volume I and II, OGCI, 2008.",
+          "Satter A., Baldwin J., and Jespersen R., Computer-Aided Reservoir Management, Pennwell, 2000.",
+          "Ahmed Tarek, Reservoir Engineering Handbook (4e), Gulf professional publishers, 2010."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "CHE 4402",
+        "title": "PETROLEUM REFINERY ENGINEERING",
+        "credits": {
+          "l": 2,
+          "t": 0,
+          "p": 3,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Crude oil origin, composition, characterization and classification",
+          "Refinery products and test methods",
+          "Design of crude oil distillation column",
+          "Refinery processes: thermal, catalytic, and hydrocracking",
+          "Catalytic reforming",
+          "Isomerization",
+          "Alkylation",
+          "Polymerization",
+          "Lube oil processing",
+          "Coking",
+          "Hydro treatment",
+          "Gas processing",
+          "Laboratory: Experiments are based on determination of vapour pressure, flash point, fire point, pour point, smoke point, aniline point, viscosity, viscosity index, calorific value, carbon residue, softening point, and penetration index of petroleum fractions"
+        ],
+        "references": [
+          "James G Speight, The Chemistry and Technology of Petroleum (4e), CRC Press, 2006",
+          "Nelson W. L., Petroleum Refining Engineering (4e), McGraw-Hill, 1974",
+          "Bhaskara Rao B. K., Modern Petroleum Refining Processes (5e), Oxford & IBH, 2009",
+          "Meyers R. A., Handbook of petroleum refining processes (3e), McGraw-Hill, 2004"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "CHE 4403",
+        "title": "NATURAL GAS ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Types of natural gas resources; properties of natural gas",
+          "gas reservoir deliverability",
+          "construction of IPR curve, well deliverability testing",
+          "well bore performance",
+          "choke performance: sonic and subsonic flow",
+          "well deliverability: nodal analysis, production forecast",
+          "Natural gas processing: gas- liquid separators, low temperature separation",
+          "gas sweetening & dehydration",
+          "measurement and transportation",
+          "liquid loading, hydrate cleaning and pipeline cleaning",
+          "advances in natural gas production engineering"
+        ],
+        "references": [
+          "Guo B., Ghalambor A., Natural Gas Engineering Handbook, Gulf Publishing Company, 2nd Edition - 2012",
+          "Katz D. L., Lee R. L., Natural Gas Engineering, McGraw Hill, 1990",
+          "Guo B., Lyons W. C., Ghalambor A., Petroleum Production Engineering: A Computer Assisted Approach, 1st Edition, Elsevier, 2007",
+          "Ahmed T., McKinney P. D., Advanced Reservoir Engineering, Elsevier, 1st Edition \u2013 2004"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4404",
+        "title": "PROCESS INTEGRATION FOR PETROLEUM INDUSTRIES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Understand the importance of energy integration in a petroleum industry",
+          "Energy integration",
+          "Focus on Pinch Analysis",
+          "Key Steps of Pinch Technology",
+          "Basic Elements of Pinch Technology: Grid diagram, Composite curve, Problem table algorithm, Grand composite curve",
+          "Heat Exchanger Network (HEN): Energy targeting, Area targeting",
+          "Number of units targeting",
+          "Designing of HEN: Pinch design methods, Heuristic rules, Stream splitting, Design of maximum energy recovery (MER)",
+          "Heat Integration of Equipment's"
+        ],
+        "references": [
+          "Kemp I. C., Analysis and Process Integration: A User Guide on Process Integration for the efficient use of energy (2e), Butterworth-Heinemann (Elsevier) publisher, 2007",
+          "Smith R. M., Chemical Process: Design and Integration, John Wiley & Sons, 2005",
+          "Biegler, L. T.; Grossmann I. E.; Wasterberg, A. W., Systematic Methods of Chemical Process Design, Prentice Hall, New-Jersey, 1997"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4405",
+        "title": "INDUSTRIAL WASTEWATER ENGINEERING",
+        "credits": {
+          "l": 2,
+          "t": 0,
+          "p": 3,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Wastewater treatment quality criteria and effluent standards",
+          "Preliminary treatment processes",
+          "Primary treatment process",
+          "Biological treatment processes",
+          "microbial kinetics",
+          "nitrification and denitrification",
+          "Activated Sludge process",
+          "trickling filters and rotating biological contactors",
+          "advanced treatment processes",
+          "Concept of zero liquid discharge"
+        ],
+        "references": [
+          "Metcalf and Eddy, Wastewater Engineering: Treatment and Reuse (5e), McGraw Hill, 2013.",
+          "E dwards J. D., Industrial Waste Water Treatment: A Guide Book (1e), CRC Press, 2019.",
+          "Patwardhan A. D., Industrial Waste Water Treatment, Prentice Hall India, 2009.",
+          "Ranade V. V., Bhandari V. M., Industrial Wastewater Treatment, Recycling and Reuse (2e), Prentice Hall India, 2017.",
+          "D roste R. L., Theory and Practice of Water and Wastewater Treatment, John Wiley & Sons, 2018.",
+          "L arry .D. Benefield, Clifford W. Randall \u201cBiological process design for wastewater treatment\u201d, Prentice Hall publishers,1989"
+        ],
+        "flags": [
+          "missing_sem",
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4406",
+        "title": "SOLID AND HAZARDOUS WASTE MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Classification of solid wastes",
+          "Functional elements of Solid Waste Management (SWM)",
+          "Regulatory aspects of SWM",
+          "Waste Characteristics",
+          "Environmental and health effects",
+          "Solid waste storage and collection",
+          "Transfer stations",
+          "Waste Processing techniques",
+          "Source reduction, recycle and recovery",
+          "Sanitary landfill",
+          "Landfill liners",
+          "Leachate and landfill gas management",
+          "Composting",
+          "Biogasification",
+          "Incineration",
+          "Introduction to Hazardous Waste Management (HWM)",
+          "Guidelines for (HWM)",
+          "International regulatory framework for HWM",
+          "Characterization of hazardous wastes",
+          "Packing and labelling of hazardous wastes",
+          "Storage, transport and disposal of hazardous wastes",
+          "Concept of Integrated waste management"
+        ],
+        "references": [
+          "Tchobanoglous G., Theisen H., Eliassen R., Solid Wastes: Engineering Principles and Management Issues, McGraw Hill, 1977.",
+          "Freeman H. W., Standard Handbook of Hazardous waste Treatment and Disposal (2e), McGraw Hill, 1997.",
+          "McBean E. A., Rovers F. A., Farquhar G. J., Solid Waste landfill Engineering and Design, Prentice Hall, 1995.",
+          "Lees F., Lees' Loss Prevention in the Process Industries: Hazard identification, assessment and control (3e), Butterworth-Heinemann, 2004.",
+          "Rao M. N., Sultana R., Kota S. H., Solid and Hazardous Waste Management: Science and Engineering (1e), B S Publications (imprinted by Elsevier), 2016."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "CHE 4407",
+        "title": "AIR POLLUTION MONITORING AND CONTROL",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "The earth's atmosphere, structure and composition",
+          "air pollution history, sources and emissions",
+          "meteorology and instruments",
+          "gas sampling",
+          "atmospheric motion and pollutant transport",
+          "atmospheric stability",
+          "gas phase chemistry and photochemical smog",
+          "air pollution monitoring",
+          "aerosols and particulate matter",
+          "SOx, NOx, VOCs, CO2, CO, particulate matter and their reduction",
+          "exposure and health effects",
+          "climate change",
+          "air pollution modelling",
+          "fixed box, Gaussian plume models"
+        ],
+        "references": [
+          "Air Pollution, M N Rao and H V N Rao, McGraw Hill Education Pvt Ltd 2013",
+          "Martin Crawford, Pollution control theory, McGraw Hill, NY, 1976",
+          "Joe LedBetter, Air Pollution Part A & B, Marcel and Dekker, 1972",
+          "S. M. Khopkar, Environmental pollution Monitoring and control, New age Int, ND -2004",
+          "K.E Noll and T.L.Miller, Air Monitoring survey design, (1e), Ann Arber Science, 1977"
+        ],
+        "flags": [
+          "sem_inferred_from_course_code"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CHE 4408",
+        "title": "ENVIRONMENTAL IMPACT ASSESSMENT AND MANAGEMENT PLAN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Environmental impact assessment (EIA), history",
+          "Environmental movements",
+          "EIA laws and acts",
+          "EIA Methodologies",
+          "Adhoc methods",
+          "Matrix methods",
+          "Network method",
+          "Cost/benefit Analysis",
+          "EIA 1994, 2006, 2020",
+          "Methodology for the assessment of ground water, air, soil, water",
+          "Case studies",
+          "Environmental management principles, problems and strategies",
+          "Environmental audit",
+          "Introduction to ISO and ISO 14000",
+          "Life cycle assessment",
+          "Triple bottom line approach",
+          "Ecological foot print",
+          "Carbon trading",
+          "Sustainable development",
+          "Case studies"
+        ],
+        "references": [
+          "L. W. Canter, Environmental Impact Assessment, (2e), McGraw-Hill, 1997",
+          "Environmental Impact Assessment Methodologies, by Y. Anjaneyulu, B.S. Publication, Sultan Bazar, Hyderabad (2006)",
+          "Environmental Impact Assessment, New age publishers, Barathwal 2012"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "CHE 4409",
+        "title": "RENEWABLE ENERGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Solar radiation, measurement and estimation; empirical relations, solar collectors and types, Solar drying, Active and passive heating and cooling of buildings, Solar thermal power generation, and Solar pond",
+          "wind power density, power in a wind stream, wind turbine efficiency, solidity, HAWT, VAWT, and tower design",
+          "Biomass classification, handling of biomass",
+          "Biogas technology, Pyrolysis, and Gasification techniques",
+          "Hydroelectric power plants, types and components, site feasibility studies"
+        ],
+        "references": [
+          "Goswami D.Y., Frank Kreith, Jan. F. Kreider, \u201cPrinciples of Solar Engineering\u201d, 3rd Edition, Taylor & Francis.2015.",
+          "Mukund & Patel R., Wind and Solar Power Systems., 3rd Edition, Taylor & Francis, 2021.",
+          "Chakravarthy A, \u201cBiotechnology and Alternative Technologies for Utilization of Biomass or Agricultural Wastes\u201d, Oxford & IBH publishing Co 1989."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "code": "CHE 4410",
+        "title": "SOLAR ENERGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Solar spectrum",
+          "Solar radiation data",
+          "collection of solar energy",
+          "Flat plate collectors",
+          "parabolic collectors",
+          "compound parabolic collectors",
+          "Solar air heater",
+          "Solar water heater",
+          "Solar concentrators",
+          "characteristic parameters",
+          "types of concentrators materials in concentrators",
+          "Solar cooking",
+          "Solar drying",
+          "Solar distillation and solar refrigeration",
+          "Solar Chimney",
+          "Solar thermal power generation",
+          "Central Power Station System",
+          "Distributed PV System",
+          "Standalone PV system",
+          "grid Interactive PV System",
+          "hybrid solar PV system",
+          "materials for solar PV cells"
+        ],
+        "references": [
+          "Sukhatme. S.P., J.K.Nayak \u201cSolar Energy\u201d, 4th edition,Tata McGraw Hill Publishing Company Ltd., New Delhi,2017.",
+          "Tiwari. G.N., Solar Energy \u2013 \u201cFundamentals Design, Modelling & Applications\u201d, Narosa Publishing House, New Delhi, 2020.",
+          "Chetan Singh Solanki, Solar Photovoltaics, \u201cFundamentals, Technologies and Applications\u201d, PHI Learning Private Limited, New Delhi, 2015.",
+          "John R. Balfour, Michael L. Shaw, Sharlave Jarosek., \u201cIntroduction to Photovoltaics\u201d, Jones & Bartlett Publishers, Burlington, 2011.",
+          "D. Yogi Goswami, Frank Kreith, Jan. F. Kreider, \u201cPrinciples of Solar Engineering\u201d, 2nd edition, Taylor & Francis, 2000",
+          "Garg.H.P, Prakash .J, \u201cSolar Energy Fundamentals and Applications\u201d, Tata McGraw-Hill, 2005.",
+          "Duffie J. A and Beckman, W.A., \u201cSolar Engineering of Thermal Process\u201d, John Wiley,2006."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4411",
+        "title": "FUEL CELL & HYDROGEN ENERGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Hydrogen production methods",
+          "Fuel cell BASICS",
+          "Fuel cell thermodynamics",
+          "Fuel cell types",
+          "Fuel Cell Performance",
+          "Activation",
+          "Ohmic and Concentration over potential",
+          "Fuel cell design and components",
+          "Overview of intermediate/high-temperature fuel cells",
+          "Current issues in fuel cells"
+        ],
+        "references": [
+          "Larminie J. and Dicks A., Fuel Cell Systems Explained, 2nd Edition, Wiley (2003)",
+          "Xianguo Li, Principles of Fuel Cells, Taylor and Francis (2005)",
+          "Srinivasan S., Fuel Cells: From fundamentals to Applications, Springer (2006)",
+          "O'Hayre, S.W.Cha, W.Colella and F.B.Prinz, Fuel Cell Fundamentals, Wiley (2005)",
+          "Bard A.J. and.Faulkner L.R, Electrochemical Methods: Fundamentals and Applications, 2nd Edition, Wiley 2000.",
+          "Faghri A and Zhang Y., Transport Phenomena in Multiphase Systems, Elsevier 2006."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4412",
+        "title": "BIO ENERGY ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Biomass sources and classification",
+          "Characteristics preparation",
+          "Chemical composition and properties of different biomass materials and bio-fuels",
+          "Sugarcane molasses and other sources for fermentation ethanol",
+          "Sources and processing of oils and fats for liquid fuels",
+          "Energy plantations",
+          "Briquette of loose biomass",
+          "Drying storage and handling of biomass",
+          "Biogas technology",
+          "Feedstock for biogas production",
+          "Aqueous waste containing biodegradable organic matter",
+          "Animal residues",
+          "Microbial and biochemical aspects",
+          "Operating parameters for biogas production",
+          "Kinetics and mechanism",
+          "Dry and wet fermentation",
+          "Digesters for natural applications",
+          "High rate digesters for industrial waste water treatment",
+          "Bio-ethanol and bio-diesel technology",
+          "Production of fuel ethanol by fermentation of sugars",
+          "Gasohol as a substitute for petro",
+          "Trans-esterification of oils to produce bio-fuels",
+          "Pyrolysis and gasification of biomass",
+          "Thermochemical conversion lignocelluloses biomass",
+          "Biomass processing for liquid fuel production",
+          "Pyrolysis of biomass",
+          "Pyrolysis regime",
+          "Effect of particle size",
+          "Temperature",
+          "Products obtained",
+          "Thermo-chemical gasification principles",
+          "Effect of pressure",
+          "Introduction of steam and oxygen",
+          "Combustion of biomass and co-generation systems",
+          "Combustion of woody biomass",
+          "Theory, calculation and design of equipment",
+          "Co-generation in biomass processing industries",
+          "Combustion of rice husk",
+          "Use of bagasse for cogeneration"
+        ],
+        "references": [
+          "A Chakraverthy, Biotechnology and alternative technologies for utilization of biomass or agricultural wastes, (1e), Oxford & IBA, New Delhi. 1989.",
+          "K M Mittal, Biogas systems: Principles and applications, (1e), New Age International Publishers (P) Ltd. 1996.",
+          "P. Venkata Ramana, S. N. Srinivas, Biomass energy systems, (1e),Tata energy Research Institute New Delhi, 1996."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "code": "CHE 4441",
+        "title": "ADAVANCED PROCESS CONTROL",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Review of classical control, Enhancement of single loop control performance and MIMO system analysis",
+          "Design of feed forward and ratio controls",
+          "Study of cascade control system",
+          "Design of Time delay compensator (Smith predictor)",
+          "Interaction Analysis in MIMO systems",
+          "RGA Analysis",
+          "Design of De-couplers",
+          "Introduction to adaptive control strategy",
+          "State space representation of continuous time systems & its analysis",
+          "Review of Matrix algebra",
+          "Development of state space models",
+          "Analysis of state space models",
+          "Linearization of nonlinear system",
+          "Concept of Controllability and Observability",
+          "Controller design using pole placement approach",
+          "Stability of linear control system (Jury's stability criteria and Eigen value approach)",
+          "Introduction to discrete time system and analysis using Z-transform",
+          "Development pulse transfer function",
+          "Discrete state space representation",
+          "Stability of linear discrete systems",
+          "Design of experiments for development of control relevant models",
+          "Models for computer control from input-output data",
+          "Discrete dynamic models",
+          "Impulse response models and step response models",
+          "Parameter estimation problem",
+          "Parameter estimation of Black box models (ARX, ARMAX Models)",
+          "Development of model based control",
+          "Design of State estimation and Observers",
+          "Soft sensors",
+          "Recursive least square estimation",
+          "Kalman Filter",
+          "Linear quadratic optimal control (LQOC)",
+          "Model predictive control (MPC)",
+          "Introduction to statistical process control"
+        ],
+        "references": [
+          "Seborg D.E., Edgar T.F., Mellichamp, Process dynamics and control, (2e), John Wiley & sons, 2004",
+          "Harmon Ray W., Babatunde Ogunnaike. Process dynamics, modeling and control, Oxford University press. 1994",
+          "Ogata K., Discrete Time Control systems (2e), Pearson Education, 2005",
+          "Astrom K. J. and Wittermark B., Computer-Controlled Systems: Theory and Design (3e) Prentice Hall; 1996",
+          "Tangirala A. K., Principles of System Identification: Theory and Practice, CRC Press, 2005",
+          "Lennart Ljung, System Identification: Theory for the users (3e), Prentice Hall; 2005"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4442",
+        "title": "APLLIED INTERFACIAL ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "General introduction of colloids and interfaces, the role of mixing and entropy",
+          "Colloid stability",
+          "Colloid behavior at surfaces",
+          "Experimental interrogation of colloids and surfaces",
+          "Understanding adsorption at surfaces (Thermodynamics of interfaces), and its application",
+          "Self \u2013assembly of Amphiphiles (surfactants)",
+          "Particles at interfaces and Applications",
+          "Novel fabrication of nano structured particles and applications",
+          "Electron transfer across interfaces and applications",
+          "Latest trends in interfacial science and latest innovation in interfacial engineering applications"
+        ],
+        "references": [
+          "Hiemenz, P. C, Rajagopalan, R., Principles of Colloid and Surface Chemistry, (3e), Marcel Dekker, New York, 1997.",
+          "Rosen M. J., Surfactants and Interfacial Phenomena, Wiley-Interscience Publication, New York, 1978.",
+          "Adamson, A. W. Gast, A. P., Physical Chemistry of Surfaces, Wiley-Interscience, New York, 1997.",
+          "Evans D. F., Kakan Wennerstrom, The Colloidal Domain: Where Physics, Chemistry, Biology, and Technology Meet (Advances in Interfacial Engineering), Wiley-VCH, 1999",
+          "Israechvili J., Intermolecular & Surface Forces (2e), Academic Press,1992"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4443",
+        "title": "CLEAN TECHNOLOGIES IN PROCESS INDUSTRIES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction: Chemical technology and environmental concerns, environmental impact of chemicals, half-life and fate of chemicals, life-cycle assessment of chemicals, concept of clean technology",
+          "Evaluation of Technology: Evaluation of existing process technologies of ammonia, sulphuric acid, caustic soda, rayon, pulp and paper, leather, plastics, polymers and organic chemicals. Analysis of raw materials, intermediates, final products, bye-products and waste generation; Emissions and effluents from the process plants and their ultimate fate",
+          "Technology Modification: Modification in processes, use of new catalysts, waste to wealth approach, recycling, and reuse technologies in chemical process industries (petroleum, petrochemical, pulp and paper, chlor-alkali, sugar and distillery)",
+          "Alternative Technology: Alternative raw materials; Low temperature, low pressure and energy-efficient routes for the manufacture of caustic soda, leather, plastics, pulp and paper and rayon; Use of CO2 for valuable chemicals",
+          "Advanced Technology: Development of biodegradable end-products of polymers and plastics, eco-friendly technologies for oil extraction and chemical manufacturing"
+        ],
+        "references": [
+          "S chaltegger S., Bennett M., Burritt R.L. and Jasch C.M., \u201cEnvironmental management Accounting for Cleaner Production\u201d, Springer, 2008",
+          "Freeman H.M., Puskas Z. and Olbina R., \u201cCleaner Technologies and Cleaner Products for Sustainable Development\u201d, Springer, 1995",
+          "Mukhopadhyay P.K. and Roy T.K., \u201cEcofriendly and Clean Technologies\u201d Indian National Academy of Engineering, 1997",
+          "Johansson A., \u201cClean Technology\u201d, CRC Press, 1992",
+          "Kafarov V.V., \u201cWasteless Chemical Processes\u201d, Mir, 1985",
+          "Guisnet M. and Gilson J.P., \u201cZeolites for Cleaner Production\u201d, World Scientific, 2002"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4444",
+        "title": "ENERGY ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Classification. characterisation and testing of solid liquid and gaseous fuels.",
+          "Theories on the origin and processing of solid and liquid fuels.",
+          "Gaseous fuels- manufacture and properties.",
+          "Terminology and types of combustion techniques - calculation of air requirement, grates, burners and stokers.",
+          "Furnaces- Classification, construction and types used in process industries.",
+          "Energy scenario in India, renewable sources of energy.",
+          "Energy audit and energy conservation in different sectors."
+        ],
+        "references": [
+          "Sharma, S.P., Chander Mohan, \u201cFuels and Combustion\u201d, Tata McGraw-Hill,",
+          "Saha, A.K., \u201cCombustion Engineering and Fuel technology\u201d, Oxford Press.",
+          "Gilchrist, J.D., \u201cFuels, Furnaces and Refractories\u201d, Pergamon Press,",
+          "Manson L. Smith, Keri W. Stinson, \u201cFuels and Combustion\u201d, McGraw-Hill,"
+        ],
+        "flags": [
+          "missing_semester",
+          "incomplete_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4445",
+        "title": "GREEN PROCESSES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction: Definition, the twelve basic principles of green chemistry",
+          "Green synthetic methods: Microwave synthesis, electro-organic synthesis",
+          "The design and development of environmentally friendly chemical pathways: challenges and opportunities. High-yield and zero-waste chemical processes. Representative processes",
+          "Materials for green chemistry and technology: Catalysis, environmental friendly catalysts, Bio-catalysis, biodegradable polymers, alternative solvents, ionic liquids",
+          "Bio-energy: Thermo-chemical conversion: direct combustion, gasification, pyrolysis and liquefaction; Biochemical conversion: anaerobic digestion, alcohol production from biomass; Chemical conversion process: hydrolysis and hydrogenation; Biophotolysis: Hydrogen generation from algae biological pathways; Storage and transportation; Applications"
+        ],
+        "references": [
+          "Mikami K., Green Reaction Media in Organic Synthesis, Wiley-Blackwell 2005",
+          "Koichi T., Solvent-free Organic Synthesis Green chemistry, Wiley-VCH; 2003",
+          "Maartje F. K. and Thierry M., Supercritical Carbon Dioxide: in Polymer Reaction Engineering Green Chemistry, Wiley VCH 2005",
+          "Alvise P., Fulvio Z., and Pietro T., Methods and Reagents for Green Chemistry: An Introduction, Wiley Inter science 2007",
+          "Lancaster M, Green Chemistry, RSC 2002",
+          "Stanely E. Manahan, Green Chemistry and the Ten Commandments of Sustainability, ChemChar 2005",
+          "David T. A. and David R. S., Green Engineering: Environmentally conscious Design of Chemical Processes, Prentice Hall PTR 2001",
+          "Roger A. S., Isabel A., and Hanefeld U., Green Chemistry and Catalysis, Wiley VCH, 2007",
+          "James V. B., Heat Conduction Using Green's Function (Series in Computational and Physical Processes in Mechanics and Thermal Sciences) Taylor & Francis, 1992"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4446",
+        "title": "INDUSTRIAL SAFETY AND RISK MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Management of safety in Industry- Concept of Safety, Applicable areas, unsafe actions & Conditions",
+          "Safety Committee - Membership, Functions & Scope of Safety committee",
+          "Guidelines for safeguarding personnel",
+          "Safety education and training - Safety managements, fundamentals of safety tenets, measuring safety performance, motivating safety performance, legal aspects of industrial safety, safety audits",
+          "Disaster Management - Designing, Importance & implementation of Disaster Control Action Plan",
+          "Hazard identification methodologies",
+          "Risk assessment methods - PHA, HAZOP, MCA, ETA, FTA",
+          "Consequence analysis",
+          "Probit Analysis",
+          "Hazards in work places",
+          "Worker's exposures to hazardous chemicals",
+          "Hazards peculiar in industries"
+        ],
+        "references": [
+          "F.P.Lees, Loss prevention in process industries, 2/e, Butterworth-Heinemann, 1996",
+          "W.Handley, Industrial Safety hand book, 2/e, McGraw- Hill, 1977",
+          "King R W; Magid J, Industrial hazards and safety hand book, Butterworth, London, 1980"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4447",
+        "title": "INTRODUCTION TO BIOCHEMICAL ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction",
+          "Principles of Microbiology",
+          "Chemicals of Life: Carbohydrates, Amino acids, Proteins, Lipids, Nucleic acids",
+          "Cell Nutrients, Growth Media",
+          "Kinetics of enzymes; Inhibition, production, purification, immobilization and application of enzymes",
+          "Metabolic pathways and energetic of the cell: Glucose, Nitrogen, and Hydrocarbon metabolism",
+          "Overview of biosynthesis, Anaerobic metabolism, Autotropic metabolism",
+          "Transport across cell membranes",
+          "Cell growth: Batch growth and Quantification of growth kinetics"
+        ],
+        "references": [
+          "Bailey J.S., Ollis D.F., Biochemical Engineering Fundamentals (2e), McGraw-Hill, 2017",
+          "Shuler M.L., Kargi F., Delisa M., Bioprocess Engineering: Basic Concepts (3e), 2017",
+          "Blanch H.W., Clark D.S., Biochemical Engineering (2e), CRC Press, 1997"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4448",
+        "title": "MATERIALS SCIENCE AND ENGINEERING",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Historical perspective, scope of materials science and engineering",
+          "Atomic structure and interatomic bonding",
+          "Lattices, basic idea of symmetry",
+          "Bravais lattices, unit cells",
+          "Crystal structures",
+          "Crystal planes and directions",
+          "Co-ordination number",
+          "Single crystals",
+          "Polycrystalline materials",
+          "Non-crystalline materials",
+          "Nanocrystalline materials",
+          "Imperfections in solids: point defects",
+          "Imperfections in solids: line defects",
+          "Imperfections in solids: surface defects",
+          "Solid solutions",
+          "Phases",
+          "Phase diagrams",
+          "Diffusion phenomenon",
+          "Phase transformations",
+          "Strengthening mechanisms",
+          "Classification of materials",
+          "Properties of materials",
+          "Structure, properties and applications of different metals and alloys",
+          "Structure, properties and applications of ceramics",
+          "Structure, properties and applications of polymers"
+        ],
+        "references": [
+          "Callister W. D. Materials Science and Engineering, an Introduction, John Willey and Sons Inc. Singapore 2014",
+          "Raghavan. V., Physical Metallurgy: Principle and Practice, Prentice Hall India Pvt Ltd, 2004",
+          "Dieter G. E, Mechanical Metallurgy, 3rd Ed, Mcgraw Hill, London, 2017"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4449",
+        "title": "MEMBRANE SCIENCE AND TECHNOLOGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Membrane preparation and structure",
+          "membrane permeability",
+          "flow pattern and classification",
+          "micro filtration",
+          "ultra filtration",
+          "nano filtration",
+          "reverse osmosis",
+          "electrodyalysis",
+          "dialysis",
+          "membrane modules and plant configuration",
+          "liquid separation",
+          "pervaporation",
+          "vacuum membrane distillation",
+          "transport through membrane",
+          "solution diffusion model and Donnan equilibrium",
+          "Kimura-Sourirajan model",
+          "Spiegler and Kedem model",
+          "Extended Nernst-Planck model",
+          "Gas separation",
+          "complete mixing model (binary and multi component) for gas separation",
+          "cross flow model",
+          "counter current flow model",
+          "single stage membrane separation",
+          "multistage membrane separation",
+          "analogy with multi component distillation",
+          "differential permeation with point permeate withdrawal",
+          "bubble point type curve",
+          "dew point type curve",
+          "Membrane reactor",
+          "perovskite type",
+          "bio catalytic membrane reactor",
+          "application of membrane in separation of optical isomers of valued bioactive materials",
+          "Transport through bio membrane like kidney"
+        ],
+        "references": [
+          "E. J. Hoffman, Membrane separations Technology: single-stage, Multistage, and Differential Permeation, (1e), Gulf Professional Publishing, 2003",
+          "M.H.V. Mulder, Membrane Separation, (1e), Springer Publ. -2007",
+          "K.S. Scott, Robert Hughes (Editors), Industrial Membrane Separation Technology, (1e), Blackie Academic & Professional Chapmann & Hall, Glasgaw, 1996"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4450",
+        "title": "MOLECULAR MODELLING AND SIMULATION",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to molecular modelling",
+          "Potential energy surfaces",
+          "Molecular orbital theory",
+          "Density functional theory",
+          "Molecular mechanics and force fields",
+          "Introduction to programming methods and algorithms used in the course",
+          "Molecular dynamics simulations",
+          "Molecular dynamics of hard spheres",
+          "Periodic boundaries",
+          "Ensembles",
+          "Monte Carlo simulations",
+          "Free energy calculations",
+          "Phase equilibria calculations",
+          "Interfacial properties",
+          "Rare events"
+        ],
+        "references": [
+          "M. P. Allen & D. J. Tildesley Computer Simulation of Liquids, Oxford University Press, 1987.",
+          "Daan Frenkel & Berend Smit Understanding Molecular Simulation, 2nd Ed. Elsevier 2002.",
+          "Anthony Stone, The Theory of Intermolecular Forces, 2nd Ed. Pearson, 2013.",
+          "Andrew Leach; Molecular Modelling \u2013 Principles and Applications, 2nd Ed. Prentice Hall, 2001."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4451",
+        "title": "NON-NEWTONIAN FLUID FLOW IN PROCESS INDUSTRIES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Classification of fluid behaviour and types of non-Newtonian fluids and their mathematical model representation",
+          "Rheometry for non-Newtonian fluids: capillary, rotational, normal stress, controlled stress, yield stress rheometers",
+          "Generalized Reynolds number of power law and Bingham plastic fluids and pressure drop calculation of Power law fluids and Bingham plastic fluids in pipes",
+          "Flow of Power law fluids in noncircular pipes",
+          "Flow regimes of gas \u2013non-Newtonian fluids in pipes"
+        ],
+        "references": [
+          "Chhabra R. P. and Richardson J. F., Non-Newtonian flow in the process Industries, Butterworth and Heinemann, 1999.",
+          "McCabe W., Smith J., Harriott P., Unit Operations of Chemical Engineering (7e), McGraw Hill Education, 2017.",
+          "Carreau P. J., DeKee D. C. R., Chhabra R. P., Rheology of Polymeric Systems: Principles and Applications, Hanser Publishers, 1997."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4452",
+        "title": "PETROCHEMICALS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "General introduction \u2013 Economics and future prospects of petrochemicals \u2013 Energy crisis and petrochemical industry \u2013 Sources and classification of petrochemicals",
+          "First generation petrochemicals \u2013 Alkanes \u2013 Alkenes and alkynes \u2013 BTX aromatics \u2013 Diene base petrochemicals",
+          "Second generation petrochemicals \u2013 Synthesis gas \u2013 Methanol \u2013 Formaldehyde \u2013 Chloromethanes \u2013 Ethanol \u2013 Acetaldehyde \u2013 Acetic acid \u2013 Acetic anhydride \u2013 Isopropyl alcohol \u2013 Ethylene oxide \u2013 Propylene oxide \u2013 Acetone \u2013 Vinyl chloride \u2013 Phenol \u2013 Aniline \u2013 Styrene",
+          "Third generation petrochemicals \u2013 Plastics \u2013 Rubber \u2013 fibres \u2013 olefinic polymers \u2013 Polyethylene \u2013 Polypropylene \u2013 Poly-isobutylene \u2013 Diene polymers \u2013 Polybutadiene \u2013 Neoprene \u2013 Polyisoprene \u2013 SBR \u2013 Synthetic fibres"
+        ],
+        "references": [
+          "Maiti, S., Introduction to Petrochemicals, Oxford and IBH Publishing Co. Ltd., 1992",
+          "B K Bhaskar rao, A text on Petrochemicals, Khanna Publishers (5e), 2015",
+          "Saikat Mitra and Om Prakash Gupta, Elements of Petrochemical Engineering, Khanna Publishing House, 2017"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4453",
+        "title": "PROCESS DATA ANALYSIS",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Fundamental statistical analysis, Simple regression analysis, Multiple regression analysis, Parameter estimation, grey model, black box model, Statistical properties of linear regression",
+          "Analysis of variance, Determine model adequacy, Statistical inferences based on multivariate linear regression models, Weighted least squares",
+          "Nonlinear Regression Analysis: linearization through data transformation, nonlinear regression, Statistical analysis of nonlinear regression, Determine model adequacy, Statistical inferences based on nonlinear regression models, Linear versus nonlinear regression",
+          "Design of Experiments: Strategies for experimentation, Single factor experiments, Two-level factorial experiments, Fractional factorial design, multiple level factorial experiments, Analysis of variance, Interpretation of results from experiments",
+          "Selected Advanced Topics: Response surface methods for optimal experimentation decision making, Statistical quality Control, Introduction to control monitoring charts",
+          "Laboratory exercises: Computational Experiment & Pilot-scale Experiments (laboratory experiments on linear and nonlinear regression analysis)"
+        ],
+        "references": [
+          "Montgomery D.C., Design and Analysis of Experiments (8e), Wiley, 2012.",
+          "Montgomery D.C. and Runger G.C., Applied Statistics and Probability for Engineers, 1994",
+          "Box G.E.P., Hunter W.G. and Hunter J.S., Statistics for Experimenters, John Wiley & Sons, 1978."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4454",
+        "title": "PROCESS INSTRUMENTATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Functions and Elements of measuring instruments: Static and Dynamic characteristics, Errors in measuring instruments",
+          "Temperature measurement: Filled system thermometers, Metallic expansion thermometers, Resistance thermometers, Thermistors, Thermocouples, Radiation pyrometers, Temperature transducers",
+          "Pressure measurement: Mechanical pressure instruments \u2013 Manometers, Elastic type pressure gauge; Electrical methods of pressure measurements; Strain gauge, Capacitance pressure transducer, Potentiometric, Piezoelectric, Magnetic, Optical pressure transducers",
+          "Vacuum sensors: Mechanical vacuum gauges, Thermal vacuum gauges, Ionization gauges",
+          "Flow measurement: Variable Head type flow meters: Orifice meters, Venture meters, Flow nozzle, Pilot tube, Variable area flow meters, Differential pressure transmitters, Quantity meters, Mass flow meters, Electrical flow meters: Electro-magnetic, Ultrasonic, Laser Doppler, Vortex shedding flow meter, Anemometer",
+          "Level measurement: Gauge glass, Float, Displace and Torque type, Air purge/bubbler type, Level measurements by electric methods: Resistance, Capacitance, Radiation, Ultrasonic, Microwave, Optical, Radar, and Laser",
+          "Density measurement: Displacement & float type, Hydrometers, Ultrasonic and Sonic, Radiation densitometers, Gas densitometers",
+          "Viscosity measurement: Capillary, Efflux cup, Falling ball, Float, Rotational, Gyrating, Vibrating rod, Plastometers",
+          "Humidity measurement: Dry & wet bulb Psychrometer, Hair Hydrometers, Thin film capacitance, Humidity sensor, Dew-point Hydrometers"
+        ],
+        "references": [
+          "K Krishnaswamy, S Vijayachitra, Industrial Instrumentation, New Age International (P) Limited, 2005",
+          "Donald Eckman, Industrial Instrumentation, Wiley Eastern Limited",
+          "S K Singh, Industrial Instrumentation & control, Tata McGraw Hill Educational Private Limited, 2009"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4455",
+        "title": "PROJECT ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Preliminary data on projects",
+          "Process engineering",
+          "Block flow diagram",
+          "Process flow diagram",
+          "Piping and instrumentation diagram",
+          "Pilot plants",
+          "General considerations for plant location and layout",
+          "Piping design",
+          "Project engineering management",
+          "Project scheduling and its importance",
+          "PERT and CPM techniques",
+          "Plant utilities",
+          "Insulation",
+          "Instrumentation",
+          "Safety in chemical plant",
+          "Gantt chart",
+          "Optimum project design",
+          "Optimum production rates",
+          "Selected examples such as heat exchangers, pumps, vessels, evaporators, and driers"
+        ],
+        "references": [
+          "Howard F. Rase, M.H. Barrow, Project Engineering of Process Plants, John Wiley, 1968",
+          "Warren Sieder, J.D. Seader, Daniel Lewin, Product and Process Design Principles, John Wiley, 2004",
+          "Peters M. S, Klaus D. T., Ronald E. W., Plant Design and Economics for Chemical Engineers, McGraw- Hill, 2003",
+          "Gavin T. & Ray S., Chemical Engineering Design-Principles, Practice and Economics of Plant and Process Design, Butterworth and Heinemann (Elsevier), 2020"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4456",
+        "title": "SYSTEM IDENTIFICATION",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Identification and models for linear Deterministic systems: Motivation, Incentives in model developments, Benefits, System identification \u2013Terminology and notation, types of models, System identification procedure. Modelling example using MATLAB.",
+          "Mathematical description of process models: Definition of model, classification of models, Input excitation types, Criteria for input excitation.",
+          "Sampling and discretization: Sampled data system, zero order hold, sampler, sampling criteria. Examples using MATLAB.",
+          "Models for discrete Time LTI systems: Transfer function operator and transfer function, Convolution models, Response models- Finite Impulse Response (FIR) Model, Step Response Models, state space descriptions, Forma of state space representation, controllability, observability, example in MATLAB for estimating LTI models. Stability of linear discrete systems. Examples using MATLAB.",
+          "Models for Random Process: Introductory remarks, Random variables, Random signals and processes, Application of time series analysis, Time domain analysis, Models for linear stationary processes, MA, AR models. Examples using MATLAB.",
+          "Estimation Methods: Least square estimators, linear least square, weighted least square, output error models, and equation error models, Predictions: one step ahead predictor, L-step ahead predictor.",
+          "Identification of time series parametric models: ARX, ARMAX. Examples using MATLAB."
+        ],
+        "references": [
+          "Tangirala A. K., Principles of System Identification: Theory and Practice, CRC Press, 2005",
+          "Ljung L., System Identification: Theory for the users (3e), Prentice Hall, 2005.",
+          "Astrom K. J. and Wittermark B., Computer-Controlled Systems: Theory and Design (3e), Prentice Hall, 1996",
+          "Seborg D.E., Edgar T.F., Mellichamp, Process dynamics and control (2e), John Wiley & sons, 2004",
+          "Harmon Ray W., Babatunde Ogunnaike. Process dynamics, modelling and control, Oxford University press. 1994",
+          "Ogata K., Discrete Time Control systems (2e), Pearson Education, 2005."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHM 4441",
+        "title": "ANALYTICAL TECHNIQUES AND INSTRUMENTATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Spectroscopic methods of analysis: Properties of EMR, General features of spectroscopy, types of molecular spectra, Interaction of EMR with matter, Instrumentation, Applications, Theory, Instrumentation and applications of Microwave, Raman, Infrared, UV-Visible, NMR spectroscopic techniques",
+          "Chromatographic Techniques: General concepts, Classification, Principles, Experimental techniques of CC, HPLC, TLC, GC and their applications",
+          "Electroanalytical methods: Basic principles and applications of conductometric, potentiometric titrations"
+        ],
+        "references": [
+          "D.A. Skoog, J. Holler, F.T.A. Nieman, Principles of instrumental analysis, 5th Edn, Saunders, Philadelphia, 1992",
+          "D.A. Skoog, D.M. West and F.J. Holler, Fundamentals of analytical Chemistry, 5th Edn, Saunders college Publishing, Philadelphia, 1988",
+          "Vogel's Textbook of Quantitative Chemical Analysis, GH Jeffery, John Wiley & Sons Inc, 5th Edn, 1989"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4311",
+        "title": "INDUSTRIAL POLLUTION CONTROL",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Symbiosis between man and environment",
+          "Nutrient and hydrologic cycles",
+          "Types of pollution",
+          "Legislation to environmental pollution",
+          "Phases involved in establishment of plant monitoring and control system",
+          "Evaluation and characterization of wastewater",
+          "Treatment methods",
+          "Concept of Zero Liquid Discharge",
+          "Sludge treatment and disposal",
+          "Solid waste management",
+          "Noise pollution and control",
+          "E-waste \u2013 sources and effects",
+          "e-waste management",
+          "Ambient air and stack gas sampling",
+          "Analysis of air pollutants",
+          "Plume behaviour",
+          "Meteorological factors affecting air pollution",
+          "Equipment for control and abatement of air pollution",
+          "Pollution from automobiles \u2013 control mechanisms"
+        ],
+        "references": [
+          "Mahajan S.P., Pollution Control in Process Industries, Tata McGraw Hill, 1990",
+          "Rao C.S., Environmental Pollution Control Engineering, Wiley Eastern, 1992",
+          "Noel De Nevers, Air pollution Control Engineering, (2e), McGraw-Hill, 1999",
+          "M etcalf and Eddy, Wastewater Engineering: Treatment and Reuse, (2e), McGraw-Hill, 2002"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHE 4312",
+        "title": "RISK AND SAFETY MANAGEMENT IN INDUSTRIES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Safety in plants: Hazard analysis, damage minimization, fires, fire extinguishers, handling, contamination removal, reduction methods, personal protective devices, Plant and personal safety",
+          "Pressure vessels, handling and transportations of liquids and gases under high pressure, explosive chemicals and handling",
+          "First aid principles and methods, plant inspection",
+          "Engineering design for safety considerations",
+          "Hazards in work places, workers' exposure to hazardous chemicals, threshold limit values of chemicals, engineering control of hazards and accidents due to fire, explosives and natural causes in different industries",
+          "Safety management, safety performance, motivation of employees, supervisors, managers and management, legal aspects of safety"
+        ],
+        "references": [
+          "Willie Hammer, Dennis Price, Occupational Safety Management and Engineering, Prentice Hall, fifth edition",
+          "Safety Analysis: Principles and Practice in Occupational Safety, Harms-Ringdahl, Lars, CRC Press; 2nd edition (19 September 2019)",
+          "Muir G.D, Hazards in Chemical Laboratory, (2e), The Chemical Society, London, 2nd edition",
+          "Handley W., Industrial Safety Handbook, McGraw-Hill Companies; 2nd Revised edition"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "CHE 4313",
+        "title": "WATER TREATMENT TECHNOLOGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Water demand per capita",
+          "drinking water standards (BIS and WHO)",
+          "drinking water treatment\u2013Nalgonda process",
+          "Water distribution networks",
+          "Sanitary and storm sewerage systems",
+          "Wastewater treatment quality and quantity estimation",
+          "Preliminary treatment",
+          "Primary treatment",
+          "Biological treatment processes",
+          "advanced treatment processes",
+          "concept of zero liquid discharge",
+          "wastewater disposal in receiving bodies",
+          "water recycling and reuse"
+        ],
+        "references": [
+          "Metcalf and Eddy, Wastewater Engineering: Treatment and Reuse (5e), McGraw Hill, 2013",
+          "Edwards J. D., Industrial Waste Water Treatment: A Guide Book (1e), CRC Press, 2019",
+          "Patwardhan A. D., Industrial Waste Water Treatment, Prentice Hall India, 2009",
+          "Ranade V. V., Bhandari V. M., Industrial Wastewater Treatment, Recycling and Reuse (2e), Prentice Hall India, 2017",
+          "Droste R. L., Theory and Practice of Water and Wastewater Treatment, John Wiley & Sons, 2018",
+          "Hammer, M.J., Water and Wastewater Technology \u2013SI Version, (2e), John Wiley and Sons, 2012",
+          "Larry .D. Benefield, Clifford W. Randall \u201cBiological process design for wastewater treatment\u201d, Prentice Hall publishers,1989"
+        ],
+        "flags": [
+          "reference_number_skip (missing reference number 5)",
+          "uncertain_tag_classification"
+        ]
+      },
+      {
+        "code": "CHE 4314",
+        "title": "INTRODUCTION TO PETROLEUM ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Overview and history of the petroleum industry \u2013 Petroleum reserves, production and consumption statistics of the world",
+          "Crude oil \u2013 Origin, exploration techniques, drilling operations and components, crude oil composition, classification and properties",
+          "Reservoir \u2013 types, and properties of reservoir, various reservoir drive mechanisms and recovery methods, estimation of oil and gas in place, enhanced oil recovery (EOR) methods",
+          "Fundamentals of refinery, major operations and processes",
+          "Refinery products and test methods"
+        ],
+        "references": [
+          "John R. Fanchi, Richard L. Christiansen, Introduction to Petroleum Engineering. (1e) Wiley, 2016",
+          "Mark J. Kaiser, Arno de Klerk, James H. Gary, Glenn E. Handwerk, Petroleum Refining Technology, Economics and Markets, (6e), CRC Press, 2019",
+          "O.P. Gupta, Elements of Petroleum Refinery Engineering, Published by Khanna Publishing House, 2019",
+          "Ahmed Tarek, Reservoir Engineering Handbook, (5e), Gulf professional publishers, 2018",
+          "Uttam R. Chaudhuri, Fundamentals of Petroleum and Petrochemical Engineering, CRC Press 2011",
+          "L. P. Dake, Fundamental of Reservoir Engineering, Elsevier, 2011",
+          "Wilbur L. Nelson, Petroleum Refining Engineering, (4e), McGraw-Hill, 1990"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      }
+    ]
+  }
+}

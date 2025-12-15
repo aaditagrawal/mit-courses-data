@@ -1,0 +1,2986 @@
+{
+  "department": {
+    "name": "Industrial Engineering",
+    "courses": [
+      {
+        "sem": null,
+        "code": "MAT 2121",
+        "title": "ENGINEERING MATHEMATICS III",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Gradient, divergence and curl, Line, surface and volume integrals",
+          "Green's, divergence and Stoke's theorems",
+          "Fourier series of periodic functions. Half range expansions. Harmonic analysis. Fourier integrals",
+          "Sine and cosine integrals, Fourier transform, Sine and cosine transforms",
+          "Partial differential equation- Basic concepts, solutions of equations involving derivatives with respect to one variable only",
+          "Solutions by indicated transformations and separation of variables",
+          "One-dimensional wave equation, one dimensional heat equation and their solutions",
+          "Numerical solutions of boundary valued problems, Laplace and Poisson equations and heat and wave equations by explicit methods"
+        ],
+        "references": [
+          "Erwin Kreyszig: Advanced Engineering Mathematics, 5thedn. 1985 Wiley Eastern",
+          "S. S. Sastry: Introductory Methods of Numerical Analysis 2nd edn.1990, Prentice Hall",
+          "B. S. Grewal: Higher Engg.Mathematics, edn., 1989 Khanna Publishers",
+          "Murray R.Spiegel: Vector Analysis, edn.1959, Schaum Publishing Co."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 2126",
+        "title": "INDUSTRIAL INTERNET OF THINGS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Basic concepts of IoT",
+          "IoT architecture",
+          "Application-based IoT protocols",
+          "Cloud computing",
+          "Introduction to Big data",
+          "Design requirements of industry 4.0",
+          "Drivers of industry 4.0",
+          "Cybersecurity \u2013 threats and requirements",
+          "Impacts of industry 4.0 \u2013 economic, business, and global perspective",
+          "IIOT and industry 4.0",
+          "Industrial internet consortium (IIC)",
+          "Industrial internet systems",
+          "Industrial sensing",
+          "Digital enterprise",
+          "Introduction and definitions of business model and reference architecture",
+          "Reference architecture of IoT",
+          "Reference architecture of IIoT",
+          "Industrial internet reference architecture (IIRA)",
+          "Basics of offsite key technologies",
+          "Fog computing",
+          "Augmented reality (AR)",
+          "Virtual reality (VR)",
+          "Smart factories\u2013characteristics and technologies",
+          "Lean manufacturing system",
+          "Data transmission",
+          "Data acquisition",
+          "Distributed control system",
+          "Power line communication (PLC)",
+          "Supervisory control and data acquisition (SCADA)",
+          "Introduction to analytics, ML, DL and data science"
+        ],
+        "references": [
+          "Roy, C., Introduction to Industrial Internet of Things and Industry 4.0. United States, CRC Press, 2021.",
+          "Veneri, G. and Capasso, A., Hands-On Industrial Internet of Things: Create a Powerful Industrial IoT Infrastructure Using Industry 4.0. United Kingdom, Packt Publishing, 2018.",
+          "Gilchrist, A., Industry 4.0: The Industrial Internet of Things. United States, Apress, 2016.",
+          "Bhattacharjee, S., Practical Industrial Internet of Things Security: A Practitioner's Guide to Securing Connected Industries. United Kingdom, Packt Publishing, 2018."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 2127",
+        "title": "DATA ANALYTICS AND VISUALISATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction: Functions-logical, summarizing, text, lookup and reference, statistical and financial",
+          "Analysis of quantitative data: Tools, analysis for time series data and cross-sectional data using visual analysis and descriptive statistics, data relationship tools",
+          "Analysis of qualitative data: dealing with data errors, pivot chart or pivot table reports",
+          "Inferential statistical analysis of data: statistical techniques to fit the data-chi square test, z-test and t-test, test of hypothesis, Analysis of variance",
+          "Presentation of quantitative data: data classification, data context and data orientation, charts and graphs, macros",
+          "Presentation of qualitative data"
+        ],
+        "references": [
+          "Dick Kusleika, Data Visualization with Excel Dashboards and Reports, Wiley, 2021",
+          "Hector Guerrero, Excel Data Analysis: Modeling and Simulation, Springer, 2019",
+          "Manisha Nigam, Advanced Analytics with Excel 2019, BPB publications, 2020",
+          "Paul Mcfedries, Excel data analysis for dummies, Wiley, 2022"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 2128",
+        "title": "CONTROL SYSTEMS ENGINEERING",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Control system terminologies and basic structures",
+          "Feedforward-feedback control structure",
+          "Multivariable control systems",
+          "Block diagram of a feedback system",
+          "Signal flow graphs and the Mason's gain rule",
+          "Models of industrial control devices and systems",
+          "Feedback and non-feedback systems",
+          "Control over system dynamics",
+          "Time response analysis",
+          "Frequency response analysis",
+          "Nyquist stability criterion"
+        ],
+        "references": [
+          "Gopal, M. and Nagrath, I. J., Control Systems, New Age International (P) Limited, 2009",
+          "Gopal, M. Control Systems: Principles and Design. United Kingdom, McGraw-Hill, 2008",
+          "Kumar, A. A., Control Systems. India, PHI Learning, 2014",
+          "Ogata, K., Modern Control Engineering. United Kingdom, Prentice Hall, 2010"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 2129",
+        "title": "3D PRINTING & DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "3D Printing: Introduction, Process, Classifications, Advantages, comparison of 3D printing with Conventional Manufacturing processes, Applications",
+          "CAD for 3D Printing: CAD Data formats, Data translation, Data loss, STL format",
+          "3D Printing Techniques: Stereo-Lithography, LOM, FDM, SLS, SLM, Binder Jet technology, Process, Process parameter, Process Selection for various applications",
+          "3D Printing Application in various domains",
+          "Materials for 3D Printing: Polymers, Metals, Non-Metals, Ceramics Process, Process parameter, Process Selection for various applications",
+          "Various forms of raw material- Liquid, Solid, Wire, Powder; Powder Preparation and their desired properties, Polymers and their properties, Support Materials",
+          "3D Printing Equipment: Process Equipment- Design and process parameters, Governing Bonding Mechanism, Common faults and troubleshooting, Process Design",
+          "Post Processing: Requirement and Techniques, Support Removal, Sanding, Acetone treatment, polishing",
+          "Product Quality: Inspection and testing, Defects and their causes"
+        ],
+        "references": [
+          "Lan Gibson, David W. Rosen and Brent Stucker, Additive Manufacturing Technologies: Rapid Prototyping to Direct Digital Manufacturing, Springer, 2010",
+          "Andreas Gebhardt, Understanding Additive Manufacturing: Rapid Prototyping, Rapid Tooling, Rapid Manufacturing, Hanser Publisher, 2011",
+          "Sabrie Soloman, 3D Printing and Design, Khanna Publishing House, Delhi, 2020",
+          "Chee Kai Chua; Kah Fai Leong, 3D Printing and Rapid Prototyping- Principles and Applications, World Scientific, 5th Edition, 2017"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 2130",
+        "title": "INDUSTRIAL AUTOMATION AND ROBOTICS",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Structure and signal flow of pneumatic systems, Constructional details and working of Filter, Lubricator and Pressure regulator. Pneumatic actuators, Control valves for direction and flow, Symbols of pneumatic valves, Traverse time diagram, Design of manually operated circuits, Control of multiple actuators",
+          "Structure and signal flow of electro pneumatic systems, Limit switches, magnetic, Inductive, Capacitive, Optical, Ultrasonic, Pneumatic proximity sensors, Electrically actuated direction control valves, Relay control systems. Design of electro pneumatic circuits",
+          "Pascal's law, Force transmission in hydraulics, Hydraulic power pack and accessories. Hydraulic fluids, Filters, Types of hydraulic pumps, Calculation of force, Speed, Power developed. Construction and working of Direction control valves, Pressure control valves, Flow control valves. Hydraulic circuits, Pressure reducing circuits, Electro hydraulic circuits",
+          "Anatomy of Robot, Robot configuration, Robot Motions, Work Volume, Drive System, Control System, Specification of a robot. Joint Notations in kinematics, Position Representation, Robot arm/manipulator, Forward and reverse transformation of 2 degree of freedom arm, Arm manipulation for 3 degree of freedom arm, Homogeneous transformations and robot kinematics, Mechanical grippers and their mechanisms, Force analysis of gripper, vacuum cups, magnetic grippers etc. Different types of sensors and their working principle. Requirements for drives, Classification of actuators, Robot transmission systems"
+        ],
+        "references": [
+          "Espositio A., Fluid Power with Applications, Pearson, 2002.",
+          "Majumdar S. R., Oil Hydraulic Systems, Tata McGraw Hill 2000",
+          "Majumdar S. R., Pneumatic systems-principles and Maintenance, Tata McGraw Hill, 2000.",
+          "Janakiraman P.A., Robotics and image processing, Tata McGraw Hill, 1995."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "code": "MIE 2143",
+        "title": "DATA ANALYTICS AND VISUALIZATION LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction to spreadsheets",
+          "basics of formula and functions",
+          "Data cleaning and wrangling",
+          "Data sorting",
+          "filtering and Lookup using spreadsheets",
+          "Data visualizing using spreadsheet",
+          "descriptive statistics",
+          "2-sample and paired t-test",
+          "Correlation test",
+          "Covariance test",
+          "Analysis of variance (ANOVA) tests",
+          "Regression analysis"
+        ],
+        "references": [
+          "Montgomery, D. C., Design and Analysis of Experiments. United Kingdom, John Wiley & Sons, Limited, 2021.",
+          "Ragsdale, C., Spreadsheet Modelling & Decision Analysis: A Practical Introduction to Business Analytics. United States, Cengage Learning, 2021.",
+          "Jones, B. and Goos, P., Optimal Design of Experiments: A Case Study Approach. United Kingdom, Wiley, 2011."
+        ],
+        "flags": [
+          "missing_semester",
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "MIE 2144",
+        "title": "AUTOMATION AND ROBOTICS LABORATORY",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Understanding the working principle of single and double acting hydraulic and pneumatic cylinders",
+          "Working of pressure control valves and direction control valves",
+          "Use of sensors",
+          "Working of simulation and offline programming software - Robot studio",
+          "Working with Collaborative robot to perform task such as pick and place etc."
+        ],
+        "references": [
+          "Waller D, and Werner H, Pneumatics - Workbook Basic Level, Festo Didactic GMBH & Co. Germany, 1983.",
+          "Rouff C, Waller D, and Werner H, Electropneumatic - Workbook Basic Level, Festo Didactic GMBH & Co.",
+          "Germany, 1983.",
+          "Bosch Rexroth A G, Project Manual Industrial Hydraulics, RE 00845/04.07.",
+          "Bosch Rexroth A G, Trainer's Manual Electro Hydraulics, R900071655."
+        ],
+        "flags": [
+          "incomplete_reference (reference #3 appears fragmented)"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 2229",
+        "title": "ENGINEERING MATHEMATICS IV",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Measures of central tendency",
+          "Measures of dispersion",
+          "Mean, median, mode",
+          "Standard deviation",
+          "Correlation coefficient",
+          "Introduction to probability",
+          "Finite sample space",
+          "Conditional probability and independence",
+          "Bayes' theorem",
+          "One dimensional random variable: mean and variance",
+          "Chebyshev's inequality",
+          "Two and higher dimensional random variables",
+          "Covariance",
+          "Correlation coefficient",
+          "Regression",
+          "Least square principle of curve fitting",
+          "Distributions: binomial, Poisson, uniform, normal, gamma, chi-square and exponential",
+          "Moment generating function",
+          "Functions of one dimensional and two-dimensional random variables",
+          "Sampling theory",
+          "Central limit theorem and applications"
+        ],
+        "references": [
+          "Kreyzig E-Advanced Engineering Mathematics, 7th edn. Wiley Eastern.",
+          "Meyer P.L. - Introduction to probability and Statistical applications, 2nd edn. American Publishing Co.",
+          "Hogg & Craig - Introduction of Mathematical Statistics, 4th edn.1975 MacMillan.",
+          "B.S.Grewal:Higher Engg.Mathematics, edn., 1989 Khanna Publishers"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 2226",
+        "title": "OPERATIONS RESEARCH",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Linear programming: Formulation of L.P.P. for different applications, graphical solution, simplex algorithm, the concept of dual, sensitivity analysis",
+          "Transportation algorithm: solution algorithm using North-West corner, Least Cost, Vogel's Approximation method, testing solution using Modified Distribution method",
+          "Assignment algorithm: Hungarian assignment method, traveling salesman problems",
+          "Dynamic programming: the concept of stages, Applications in deterministic situations",
+          "Game theory: Two-person zero-sum games; solution methods for 2 x 2 games; 2 x n games; m x 2 games",
+          "Network analysis: Critical path method, Project evaluation and review technique, project crashing",
+          "Queuing theory: System characteristics, Poisson arrival rate and Exponential service times, Simulation of queuing models, Monte-Carlo Technique"
+        ],
+        "references": [
+          "Taha H. A., Operations Research, (7e), Pearson Education, 2002",
+          "W.L. Winston, Operations Research, Thomson Asia, 2003",
+          "Vohra N. D., Quantitative Techniques in Management, New Delhi, 2007",
+          "Sharma S. D., Operations Research, (14e), KedarNathRamnath Publications, 2005"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 2227",
+        "title": "WORK SYSTEMS ENGINEERING AND ERGONOMICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Productivity in the individual enterprise",
+          "Total time of a job",
+          "Factors tending to reduce productivity",
+          "Techniques for reducing excess work content and ineffective time",
+          "Basic procedure of Work study and Method study",
+          "Construction of Outline Process Chart",
+          "Flow process chart",
+          "Flow diagram",
+          "Two handed process chart",
+          "Multiple activity chart",
+          "Travel chart",
+          "String diagram",
+          "The questioning technique",
+          "The principles of motion economy",
+          "Micromotion study",
+          "SIMO chart",
+          "Work measurement",
+          "Time study",
+          "Types of elements",
+          "Methods of timing the elements",
+          "Methods of rating",
+          "Standard time determination",
+          "Work sampling",
+          "Predetermined time standards",
+          "Standard Data",
+          "Restricted work",
+          "Definition and objectives of Ergonomics/Human factors",
+          "Types and characteristics of systems",
+          "Stages of information processing",
+          "Types of Visual displays and Auditory displays",
+          "Biomechanics of motion",
+          "NIOSH lifting guidelines",
+          "Types of controls",
+          "Anthropometry",
+          "Principles of arranging components",
+          "Principles of seat design",
+          "Working environment"
+        ],
+        "references": [
+          "International Labour Office (ILO), Introduction to Work study, 3rd Edition, Oxford & IBH Publishers, Geneva, 2008",
+          "Niebel B.W. and Frievalds, A., Methods, Standards, and Work design, 12th Edition, McGraw-Hill, New York, 2009",
+          "Sanders M.S. and McCormic E.J., Human Factors in Engineering Design, 7th Edition, Mc Graw Hill, 1992",
+          "Lakhwinder Pal Singh, Work Study and Ergonomics, Cambridge University Press, New Delhi, 2016"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 2228",
+        "title": "SUPPLY CHAIN AND LOGISTICS MANAGEMENT",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to supply chain management",
+          "Enablers of supply chain performance",
+          "Supply chain performance in India",
+          "Customer service and cost trade-offs",
+          "Supply chain performance measures",
+          "Enhancing SC performance",
+          "Nature, concepts, and importance of procurement",
+          "Strategic procurement models",
+          "Make-or-buy decision making",
+          "Sourcing and vendor management strategy",
+          "Vendor selection",
+          "Vendor rating",
+          "Vendor development",
+          "Elements of transportation cost",
+          "Modes of Transport",
+          "Multimodal transportation system",
+          "Containerization",
+          "Factors for selection",
+          "Devising a strategy for transportation \u2013 distribution network design options",
+          "Cross-docking",
+          "Vehicle scheduling",
+          "Transportation cost in E-retailing",
+          "Nature and concepts of outsourcing",
+          "Third-party logistics (3PL)",
+          "Fourth party logistics (4PL)",
+          "Concepts of warehousing",
+          "Elements of warehousing costs",
+          "Operational mechanisms of warehousing",
+          "Automated warehousing system",
+          "Green supply chain management",
+          "Reverse logistics"
+        ],
+        "references": [
+          "Agarwal, D., Supply Chain Management: Strategy, Cases and Best Practices. India, Macmillan Publishers India Limited, 2010.",
+          "Shah, J., Supply Chain Management: Text and Cases. India, Pearson Education India, 2016.",
+          "Sople, V., Supply Chain Management: Text and Cases. India, Dorling Kindersley (India), 2012.",
+          "Meindl, P. and Chopra, S., Supply Chain Management: Strategy, Planning, and Operation. India, Pearson, 2016."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "code": "MIE 2229",
+        "title": "DESIGN OF EXPERIMENTS",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to experimental design: Strategy of experimentation, Typical applications of experimental design, Basic principles, Guidelines",
+          "Screening Design: Two level fractional factorial designs, Plackett-Burman designs and definitive screening designs. Two-level factorial design for two factors and three factors",
+          "Higher-level factorial design: Three level experimental design for two factors and three factors, fractional factorial design, saturated designs",
+          "Mixture design: simplex design",
+          "Quality by experimental design: Quality, western and Taguchi's quality philosophy, Quadratic loss function, Robust design, Reliability improvement through experiments",
+          "Experimental design using Taguchi: selection of standard orthogonal array, linear graphs and interaction assignment, compound factor method, Signal to Noise ratio",
+          "Response Surface design: Central composite design, Box-Behnken design"
+        ],
+        "references": [
+          "Douglas C. Montgomery, Design and Analysis of Experiments, Wiley India Pvt. Ltd. 2021",
+          "Madhav S Phadke, Quality Engineering using Robust design, Pearson education,2008",
+          "Thomas Barker and Marcel Dekker, Quality by experimental design, Inc ASQC quality press, 2000",
+          "C.F. Jeff Wu and Michel Hamada, Experiments planning, analysis and parameter design optimisation, John Wiley 2nd Ed., 2011"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 2230",
+        "title": "LEAN MANUFACTURING AND SIX SIGMA",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Basic elements of lean manufacturing",
+          "Continuous improvement",
+          "5S implementation process",
+          "Total productive maintenance",
+          "Process mapping",
+          "Value stream mapping concept",
+          "Work cell concept",
+          "Manpower \u2013 calculation and selection",
+          "Employee training",
+          "Preventive maintenance schedule",
+          "Quality standard formulation",
+          "Production control system and automated testing",
+          "Cause and effect diagram",
+          "Pareto chart",
+          "Spider/radar chart",
+          "Poke Yoke",
+          "Kanban",
+          "Automation",
+          "SMED",
+          "Standardized fixtures",
+          "DFMA",
+          "JIT concept",
+          "Visual workplace",
+          "Hoshin planning",
+          "Tree diagram",
+          "Operator productivity improvement",
+          "Process improvement",
+          "Improving machinery and Equipment utilization",
+          "Workplace organization",
+          "Avoidance of excess production and inventory",
+          "Evolution of six sigma",
+          "Six sigma definition",
+          "DPMO and sigma level",
+          "Six sigma and quality certification",
+          "Voice of customer",
+          "Guidelines for selecting and defining six sigma projects",
+          "Project prioritization matrix"
+        ],
+        "references": [
+          "Gopalakrishnan, N., Simplified Lean Manufacture. India, Prentice-Hall of India Pvt. Limited, 2010.",
+          "Socconini, L., Lean Manufacturing. Step by Step. Spain, Marge Books, 2021.",
+          "Rother, M., and Shook, J., Learning to See: Value Stream Mapping to Add Value and Eliminate Muda. Germany, Taylor & Francis, 2003.",
+          "Urdhwareshe, H., Six Sigma for Business Excellence: Approach, Tools and Applications. India, Pearson India, 2011."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 2243",
+        "title": "WORK SYSTEM ENGINEERING AND ERGONOMICS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Outline process charting",
+          "Two-handed process charting",
+          "Performance rating",
+          "Time study",
+          "Synthetic time study",
+          "Bicycle ergometer",
+          "Tread mill ergometer",
+          "Anthropometric experiment",
+          "Work-related musculoskeletal disorder gauging",
+          "Information Processing"
+        ],
+        "references": [
+          "Gilbreth, F.B., Motion Study: A Method for Increasing the Efficiency of the Workman (1911). United States, Literary Licensing, LLC, 2014.",
+          "Barnes, R.M., Motion And Time Study Design And Measurement of Work, 7Th Ed. India, Wiley India Pvt.",
+          "Limited, 2009.",
+          "Singh, L.P., Work Study and Ergonomics. India, Cambridge University Press, 2018."
+        ],
+        "flags": [
+          "missing_sem",
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": 5,
+        "code": "MIE 2244",
+        "title": "COMPUTER AIDED OPERATIONS RESEARCH LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Formulating and solving real-world problems into a linear problem with suitable assumption, objective functions and constraints using graphical, Simplex method, transportation and assignment method and conducting sensitivity analysis.",
+          "Solving problems related to game theory, waiting line models, network analysis, dynamic programming and simulation model using the Monte Carlo Simulation Technique."
+        ],
+        "references": [
+          "Taha H. A., Operations Research (7e), Pearson Education, 2002.",
+          "Winston W.L., Operations Research, Thomson Asia, 2003.",
+          "Vohra N. D., Quantitative Techniques in Management, Tata McGraw-Hill Education, 2007.",
+          "Sharma S. D., Operations Research (14e), Kedar Nath Ramnath Publications, 2005."
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "HUM 3021",
+        "title": "ENGINEERING ECONOMICS AND FINANCIAL MANAGEMENT",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Time value of money, Interest factors for discrete compounding, Nominal & effective interest rates, Present and future worth of Single, Uniform, and Gradient cash flow. Related problems and case studies",
+          "Bases for comparison of alternatives, Present worth amount, Capitalized equivalent amount, Annual equivalent amount, Future worth amount, Capital recovery with return, Rate of return method, Incremental approach for economic analysis of alternatives, Replacement analysis",
+          "Break even analysis for single product and multi product firms, Break even analysis for evaluation of investment alternatives",
+          "Physical & functional depreciation, Straight line depreciation, declining and double declining balance method of depreciation, Sum-of-the-Years Digits, Sinking Fund and Service Output Methods, Case Study",
+          "Balance sheet and profit & loss statement. Meaning & Contents. Ratio analysis, financial ratios such as liquidity ratios, Leverage ratios, Turn over ratios, and profitability ratios, Drawbacks",
+          "Safety and Risk, Assessment of Risk and safety, Case study, Risk Benefit Analysis and Reducing Risk"
+        ],
+        "references": [
+          "Chan S. Park, \"Contemporary Engineering Economics\", 4th Edition, Pearson Prentice Hall, 007",
+          "Thuesen G. J, \u201cEngineering Economics\u201d, Prentice Hall of India, New Delhi, 2005",
+          "Blank Leland T. and Tarquin Anthony J., \u201cEngineering Economy\u201d, McGraw Hill, Delhi, 2002",
+          "Prasanna Chandra, \u201cFundamentals of Financial Management\u201d, Tata McGraw Hill, Delhi, 2006"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "MIE 3130",
+        "title": "ACCOUNTING FOR MANAGERS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Concepts of accounting",
+          "types of accounting-financial accounting",
+          "cost accounting",
+          "expenses",
+          "elements of cost",
+          "transactions",
+          "classification of ledgers",
+          "preparation of financial statements-trial balance",
+          "profit loss accounts",
+          "balance sheet",
+          "Concepts of overhead",
+          "significance of overhead costs",
+          "apportionment of overhead costs",
+          "absorption overhead costs",
+          "Direct and indirect labour costs",
+          "incentive wage plans",
+          "work study",
+          "job evaluation and merit rating",
+          "elements of labour cost",
+          "problems",
+          "Nature of costing-job",
+          "contract and batch",
+          "cost sheet",
+          "recording costs on jobs/contract",
+          "value and profit of contract",
+          "economic batch quantity",
+          "problems",
+          "Nature of process costing",
+          "costing procedure",
+          "preparation of process cost accounts",
+          "joint and b product",
+          "problems",
+          "Budgeting concepts",
+          "differential costing",
+          "standard costing",
+          "variable costing",
+          "problems"
+        ],
+        "references": [
+          "Jawaharlal, Cost Accounting; McGraw-Hill Education(India) Ltd, 2008.",
+          "S.P. Jain & K.L. Narang, Cost and Management Accounting; Kalyani Publishers, New Delhi, 2007.",
+          "V.K. Saxena & C.D. Vashist Cost and Management Accounting; Sultan Chand & Sons, New Delhi, 2006.",
+          "M.N. Arora, Cost and Management Accounting (Theory and Problems); Himalaya Publishing House, Mumbai. 2009."
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "MIE 3131",
+        "title": "TECHNOLOGY MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to technology management",
+          "Concept of environment and technological environment",
+          "Globalization",
+          "Time compression and Technology integration",
+          "Definition and components of innovation",
+          "Innovation dynamics",
+          "Definition of diffusion",
+          "Dynamics of diffusion",
+          "Competitive domains",
+          "Competitive consequences of technology change",
+          "Framework for analysis of technological emergence",
+          "Concept and definition of technology intelligence",
+          "Signals of new technology",
+          "Significance of technology intelligence",
+          "Levels of technology intelligence",
+          "External versus internal technology intelligence",
+          "Key principles of technology strategy",
+          "Types of technology strategy",
+          "Intellectual property strategy"
+        ],
+        "references": [
+          "Narayanan, V.K., Managing Technology and Innovation for Competitive Advantage. India, Pearson Education, 2001.",
+          "Phaal, R. et al. Technology Management: Activities and Tools. United Kingdom, Palgrave Macmillan.",
+          "Rastogi, P N. Management of Technology and Innovation: Competing Through Technological Excellence. India, SAGE Publications, 2009.",
+          "Daim, T. U., Managing Technological Innovation: Tools And Methods. Singapore, World Scientific Publishing Company, 2017."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "MIE 3132",
+        "title": "PERSONNEL MANAGEMENT AND INDUSTRIAL RELATIONS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Human Resource Planning: Importance of Human Resource, Manpower Planning Defined, Promotions, Demotions, Transfers, Separation",
+          "Absenteeism and turn over: Promotions. Job Evaluation and Wage and Salary administration: Introduction. Definition of Job Evaluation Objectives of Job Evaluation. Principles of Wage and Salary Administration, Wages, Theory of Wages",
+          "Grievances and Discipline and Disciplinary Action: Definition of Grievance. Causes/Sources of Grievances Need for a Grievance Procedure, Basic Elements of a Grievance Procedure. Meaning and Features of Discipline, Aims and Objectives of Discipline, Forms and Types of Discipline",
+          "Employee Safety and Industrial Health: Employee Safety and Industrial Health, Employee Safety. Industrial Accident and Industrial Injury, Safety Organisation",
+          "Industrial Relations: Introduction, Definition of Industrial Relations, Objectives of Industrial Relations, Aspects of Industrial Relations, Industrial Relations Program",
+          "Trade Unions: Definition and Characteristics, Principles of Trade Unionism"
+        ],
+        "references": [
+          "Mamoria, C.B. Personnel management, Himalaya Publishing House.",
+          "Megginson, Leon C., Personnel and Human Resource Administration.",
+          "Beach, D.S., Personnel: The Management of People at Work,1977.",
+          "Yoder, Dale, Personnel Management, and Industrial Relations,1972."
+        ],
+        "flags": [
+          "semester_inferred_from_course_code"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "MIE 3127",
+        "title": "SIMULATION MODELING AND ANALYSIS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Simulation: Concepts, nature of simulation, model classification, types of simulation, steps in a simulation study, discrete event simulation, time keeping mechanisms, software, simulation examples",
+          "Statistical models in simulation: random variable, discrete and continuous distributions, queuing systems, Markovian models, generation of random numbers and testing its randomness",
+          "Analysis of input data: Input modeling, sample independence, parameter estimation, goodness of fitness of tests",
+          "Output data analysis: Model building, verification, calibration and validation of models, design of simulation experiment, statistical independence, variance reduction techniques, regression analysis, analysis of variance"
+        ],
+        "references": [
+          "Banks, J., J.S. Carson, B.L. Nelson, and D.M. Nicol, Discrete-Event System Simulation, 5th Edition, Prentice Hall, 2010",
+          "Law, A.M., Simulation Modeling and Analysis, 5th Edition, McGraw-Hill, New York, 2015",
+          "Frank L. Severance, System Modeling and Simulation, Wiley, 2001",
+          "D. S. Hira, System simulation, S. Chand Publications, 2001"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "MIE 3128",
+        "title": "TOTAL QUALITY MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Definition Total quality management (TQM)",
+          "Basic concepts of TQM",
+          "Contributions of Gurus of TQM",
+          "Characteristics of successful quality leaders",
+          "The Deming philosophy",
+          "Quality statements",
+          "Strategic planning",
+          "Customer satisfaction",
+          "Juran Trilogy",
+          "PDSA cycle",
+          "Kaizen",
+          "Supplier partnership",
+          "Performance measures",
+          "Quality costs",
+          "General quality control engineering fundamentals",
+          "Frequency distribution",
+          "Inequality theorems",
+          "The seven tools of quality control",
+          "Control charts for variables (X, R and s charts) and attributes (p, np, c and u charts)",
+          "Process capability indexes",
+          "Concept of six sigma quality",
+          "Acceptance sampling by attributes",
+          "Operating characteristic curve",
+          "Some aspects of specifications and tolerances",
+          "Equipment failure pattern",
+          "System reliability",
+          "Benchmarking",
+          "Quality function deployment (QFD)",
+          "Failure Mode and Effect Analysis (FMEA)",
+          "Total Productive Maintenance (TPM)",
+          "Management tools",
+          "Taguchi's quality loss function",
+          "Quality and Environmental management systems",
+          "Case Studies"
+        ],
+        "references": [
+          "Dale H. Besterfield, Carol Besterfield-Michna, Glen Besterfield, Mary Besterfield-Sacre, Hemant Urdhwarshe, Rashmi Urdhwarshe, Total Quality Management, Revised 3rd Edition, Pearson Education, New Delhi, 2012",
+          "Mukherjee P.N., Total Quality Management, PHI Learning, New Delhi, 2010",
+          "Grant E. L and Levenworth R., Statistical Quality Control, McGraw Hill Publications, New York, 2005",
+          "Mahajan M. S., Statistical Quality Control, Dhanpat Rai and Co. Pvt. Ltd., Delhi, 2012"
+        ],
+        "flags": [
+          "inferred_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 3129",
+        "title": "ENGINEERING SYSTEM DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction Morphology of Design: Design by evolution, System approach of engineering problems",
+          "Morphology of Design: Structure of design process, decision making and iteration",
+          "Identification and Analysis of Need: Preliminary need statement, analysis of need, specifications and standards of performance and constraints",
+          "Origination of Design Concept: Process of idealization, mental fixity, and various design methods",
+          "Preliminary Design: Mathematical modeling for functional design, concept of sensitivity, compatibility and stability analysis",
+          "Evaluation of Alternatives and Design Decisions: Physical reliability, DESIGN TREE: Quality of design, Concept of utility",
+          "Reliability Considerations in Design: Bath tub curve, exponential reliability function, system reliability concept",
+          "Economics and Optimization in Engineering design Optimization: Economics and Optimization in Engineering design: Economics in Engineering Design, Man Machine Interaction: Designing for use and maintenance, Man-Machine Cycle, Design of displays and controls"
+        ],
+        "references": [
+          "V. Gupta and P. Murthy, An Introduction to Engineering Design Method, Tata McGraw Hill, 2000",
+          "T. Woodson, Introduction of Engineering Design, McGraw Hill, 2001",
+          "D. D. Meredith, K.W. Wong, R.W. Wood head and K. K. Worthman, Design & Planning of Engineering systems, 2000",
+          "M. A. Asimov, Introduction to Design, Prentice Hall, 1996"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "MIE 3143",
+        "title": "COMPUTER AIDED QUALITY ENGINEERING LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab",
+          "core"
+        ],
+        "syllabus": [
+          "Distribution Identification",
+          "Evaluation of Measurement Process Capability",
+          "Evaluation of Variations in Measurement System",
+          "Process Stability Monitoring",
+          "Test for Over-dispersion or Under-dispersion",
+          "Process Variability Monitoring",
+          "Normal capability Sixpack Analysis",
+          "Acceptance Sampling"
+        ],
+        "references": [
+          "Besterfield D. H., Total Quality Management, (Revised Edition). India, Pearson, 2011.",
+          "Qiu, P., Introduction to Statistical Process Control. United Kingdom, CRC Press, 2013.",
+          "Neubauer, D. V., and Schilling, E. G., Acceptance Sampling in Quality Control. United States, CRC Press, 2009."
+        ],
+        "flags": [
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": 6,
+        "code": "MIE 3144",
+        "title": "SYSTEM MODELING AND ANALYSIS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction to Simulation Packages",
+          "identifying probability distributions for given data",
+          "Monte-Carlo simulation",
+          "Simulation model of banking service",
+          "Simulation model of Production line",
+          "Simulation model of job shop production",
+          "Simulation model of airport operations",
+          "Simulation model of government office",
+          "Simulation model of movie theatre and restaurant",
+          "Simulation model of transportation system",
+          "Simulation model of material handling system",
+          "Simulation model of educational service"
+        ],
+        "references": [
+          "Jerry Banks, John S Carson, II, Berry L Nelson, David M Nicol \u2013 Discrete - Event System Simulation, 4th Edition, Pearson Education,2005",
+          "Geoffrey Gordon, System Simulation, Pearson India Education Services Pvt Ltd, 2015",
+          "Averill M. Law, Simulation Modelling and Analysis, 4th Edition, Tata McGraw-Hill, New Delhi, 2008",
+          "Narsingh Deo, Systems Simulation with Digital Computer, PHI Publication (EEE), 3rd Edition, 2004"
+        ],
+        "flags": [
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 3022",
+        "title": "ESSENTIALS OF MANAGEMENT",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Definition of management and systems approach, Nature & scope",
+          "Functions of managers, Principles of Management",
+          "Planning: Types of plans, steps in planning, Process of MBO, how to set objectives, strategies, policies and planning premises, Strategic planning process and tools",
+          "Nature and purpose of organizing, Span of management, factors determining the span, Basic departmentation, Line and staff concepts, Functional authority, Art of delegation, Decentralization of authority",
+          "HR theories of planning, Recruitment, Development and training",
+          "Theories of motivation, Special motivational techniques",
+          "Leadership \u2013 leadership behavior & styles, Managerial grid",
+          "Basic Control Process, Critical Control Points & Standards, Budgets, Non-budgetary control devices, Profit and Loss control, Control through ROI, Direct, Preventive control",
+          "PROFESSIONAL ETHICS - Senses of Engineering Ethics, Variety of moral issues, Types of inquiry, Moral dilemmas, Moral Autonomy, Kohlberg's theory, Gilligan's theory, Consensus and Controversy, Models of professional roles, Theories about right action, Self-interest, Customs and Religion, Uses of Ethical Theories",
+          "GLOBAL ISSUES - Managerial practices in Japan and USA & application of Theory Z, The nature and purpose of international business & multinational corporations, unified global theory of management, Entrepreneurship and writing business plans, Multinational Corporations, Environmental Ethics, Computer Ethics, Weapons Development, Engineers as Managers, Consulting Engineers, Engineers as Expert Witnesses and Advisers, Moral Leadership, Code of Conduct, Corporate Social Responsibility"
+        ],
+        "references": [
+          "Harold Koontz & Heinz Weihrich (2020), \u201cEssentials of Management\u201d, McGraw Hill, New Delhi.",
+          "Peter Drucker (2004), \u201cThe practice of management\u201d, Harper and Row, New York.",
+          "Vasant Desai (2007), \u201cDynamics of entrepreneurial development & management\u201d, Himalaya Publishing House.",
+          "Poornima M Charantimath (2006), \u201cEntrepreneurship Development\u201d, Pearson Education."
+        ],
+        "flags": [
+          "sem_inferred_from_course_code"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "MIE 3228",
+        "title": "STATISTICS FOR MANAGERS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Statistics, functions, scope and limitations",
+          "Collection and presentation of data",
+          "Frequency distribution",
+          "Measures of central tendency",
+          "Measures of dispersion: Range \u2013 Quartile Deviation \u2013 Mean Deviation Standard Deviation \u2013 Variance-Coefficient of Variance - Comparison of various measures of Dispersion",
+          "Moments",
+          "Correlation and Regression: Scatter Diagram, Karl Pearson correlation, Spearman's Rank correlation, simple and multiple regressions",
+          "Probability Distribution, Rules of probability \u2013Random variables \u2013 Concept of probability distribution \u2013 Theoretical probability distributions: Binomial, Poisson, Normal and Exponential",
+          "Time Series Analysis, Methods of estimating seasonal index: method of simple averages - ratio to trend method - ratio to moving average method",
+          "Hypothesis Types and characteristics, formulation of hypotheses, errors in hypotheses",
+          "Parametric and Non Parametric Tests- t-test, z-test, f-test, (problems on all tests)",
+          "Normality and reliability of hypothesis",
+          "ANOVA-oneway, two-way classification"
+        ],
+        "references": [
+          "S C Gupta,Fundamentals of Statistics, Himalaya Publications, 2012",
+          "Ranjit Kumar,Research Methodology, Sage Publications, 2018",
+          "VimalaVeeraraghavan and Suhas,Parametric and Non-Parametric Statistics, Sage Publication, 2017",
+          "S P Gupta Sultan,Statistical Methods, Chand Publications, 2014"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "MIE 3229",
+        "title": "PROJECT MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Project management using the structure of organizations",
+          "Feasibility studies",
+          "Estimating project times and costs",
+          "Risk management process",
+          "Project scheduling",
+          "Project audit and closure"
+        ],
+        "references": [
+          "Gray C., Larson E. and Desai G., Project Management \u2013 The Managerial Process, Tata McGraw Hill Pvt. Ltd., 2013.",
+          "Paneer Selvam R. and Senthil Kumar P., Project Management, PHI Learning Pvt. Ltd., 2010.",
+          "Chandra P., Projects \u2013 Planning, Analysis, Selection, Financing, Implementation and Review, Tata McGraw Hill Pvt. Ltd., 2009.",
+          "Choudhry S., Project Management, Tata McGraw Hill Publishing Co. Ltd., 1997."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "MIE 3230",
+        "title": "ORGANIZATIONAL BEHAVIOR",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction: Definition, Contributing disciplines, Basic Model",
+          "Learning: Definition, Theories of learning: Classical & Operant Conditioning, Methods of shaping behaviour: Positive and Negative reinforcement, Schedule",
+          "Values, attitudes, job satisfaction: Values: Definition, Types, Values across cultures. Attitudes: Definition, Components, Sources, Types of attitudes: Job Satisfaction, involvement and Organisational commitment, Determinants of Job satisfaction",
+          "Personality: Determinants of Personality, MBTI and Big Five Model theories, personality attributes: Locus of Control, Machiavellianism, Self- Esteem, Monitoring and Risk Taking",
+          "Perception: Definition, Factors influencing perception, Attribution Theory, Selective perception, Halo effect, Contrast effect, Stereotyping",
+          "Basic motivation concepts: Definition, Maslow's hierarchy of needs, Theory X and Theory Y, Frederick Herzberg's Motivation Hygiene Theory, Contemporary Theories: ERG, DavisMcClelland theory of needs, Vroom's Expectancy theory, The Job Characteristic Model, Rotation, Enlargement and Enrichment",
+          "Group dynamics: Group: Definition, Classification, Stages, Behaviour Model",
+          "Leadership: Definition, Quality of good leader, types, theories of leadership",
+          "Conflict: Definition, Functional Vs Dysfunctional, Process, Dimensions of Conflict Handling Intentions",
+          "Organisational change, development: Organisational Change: Forces for change, Resistance to Change, Lewin's Model, Action research, Organisational Development"
+        ],
+        "references": [
+          "Robbins Stephen P., Organisational Behaviour, Pearson Education, 2013",
+          "Luthans Fred, Organisational Behaviour McGraw Hill, New York, 1989",
+          "Gupta Rakesh, Organisational Behaviour, Kitab Mahal, Allahabad, 1998",
+          "Davis Keith and Newstrom J.W., Organisational Behaviour at Work, Tata-McGraw Hill, New Delhi, 1997"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "MIE 3227",
+        "title": "OPERATIONS MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 1,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Operations Management Concepts: Introduction, Operations Functions in Organizations, Operations Decision Making: Introduction, Management as a science, Characteristics of decisions, Decision Tree Problems, Economic Models Break-even analysis in operations, P/V ratio",
+          "System Design and Capacity",
+          "Forecasting Demand: Opinion and Judgmental methods, Delphi technique, Time series methods, Moving Average methods, Exponential smoothing, Trend adjusted Exponential Smoothing, Regression, and correlation methods",
+          "Aggregate Planning and Master Scheduling: Introduction- planning and scheduling, Objectives of aggregate plan, Three Pure Strategies of Aggregate planning, Master scheduling methods with numerical, Numerical on Level production and chase demand, Material Requirements Planning",
+          "Scheduling and Controlling Production Activities: priority sequencing, Single and multiMachine Scheduling"
+        ],
+        "references": [
+          "Lee J Karjewski and Larry P Ritzman, Manoj Malhotra, Operations Management \u2013 Processes and Supply Chain, Pearson Education Asia, 12th Edition, 2010",
+          "B. Mahadevan, Operations Management \u2013 Theory and Practice, 2nd Edition, PHI, 2010",
+          "Buffa, Modern Production/Operations Management, Wiley India Ltd. - 4th edition, 2009",
+          "Chary S.N, Production and Operations Management, Tata-McGraw Hill. - 3rd edition 2015"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "MIE 3243",
+        "title": "COMPUTER AIDED EXPERIMENTAL DESIGN LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Definitive screening design",
+          "Plackett-Burman screening design",
+          "2-Level factorial design",
+          "General full factorial design",
+          "Static Taguchi design",
+          "Dynamic Taguchi design",
+          "Mixture Design",
+          "Central composite response surface design",
+          "Box-Behnken response surface design with all Continuous Factors",
+          "Response surface design with at least one categorical factor"
+        ],
+        "references": [
+          "M ontgomery, D. C., Design and Analysis of Experiments. United Kingdom, John Wiley & Sons, Limited, 2021.",
+          "Jones, B. and Goos, P., Optimal Design of Experiments: A Case Study Approach. United Kingdom, Wiley, 2011.",
+          "Sleeper, A., Minitab Demystified. United States, McGraw-Hill Education, 2011."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 7,
+        "code": "MIE 3244",
+        "title": "COMPUTER AIDED OPERATIONS MANAGEMENT LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Aggregate planning problem-Pure strategy and Mixed strategy",
+          "Forecasting using quantitative models-Comparison and Evaluation",
+          "Materials requirement planning",
+          "Scheduling- One machine with multiple products",
+          "Scheduling-2 machines and 3 machines with multiple products",
+          "Inventory analysis-EOQ, Quantity discount, ABC Analysis cases",
+          "Line balancing Problems-Case study",
+          "Financial analysis-Financial report preparation",
+          "Stock analysis-Purchase order, invoice generation",
+          "Stock analysis- Sales order, stock summary, profit sheet"
+        ],
+        "references": [
+          "Monks J.G -Operations Management, McGraw-Hill International, Editions, 1987.",
+          "Pannerselvam. R -Production and Operations Management, PHI, 2nd edition.",
+          "Yasuhiro Monden -An introductory book on lean systems, TPS.",
+          "Prasanna Chandra: Financial Management 2011-Tata McGraw-Hill publishing company."
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "MIE 4291",
+        "title": "INDUSTRIAL TRAINING",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 0,
+          "c": 1
+        },
+        "tags": [
+          "core"
+        ],
+        "syllabus": [
+          "Industrial training for a minimum period of 4 weeks during vacation",
+          "Submission of training report to the department",
+          "Presentation on training"
+        ],
+        "references": [],
+        "flags": [
+          "missing_semester",
+          "missing_references"
+        ]
+      },
+      {
+        "code": "MIE 4292",
+        "title": "PROJECT WORK / PRACTICE SCHOOL",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 0,
+          "c": 12
+        },
+        "tags": [
+          "elective",
+          "lab"
+        ],
+        "syllabus": [
+          "Carry out project work in institution / industry / research laboratory / institution of higher learning",
+          "Prepare a project report",
+          "Make a presentation on the work carried out"
+        ],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4457",
+        "title": "ENGINEERING ASSET MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Basic concepts",
+          "Definitions",
+          "Review of Existing Frameworks for Asset Management",
+          "A framework for AM system",
+          "Requirement and Challenges",
+          "Asset Management Drivers",
+          "Benefits of Asset Management",
+          "ISO Requirements",
+          "ISO 55002 Guidelines on the application of ISO 55001",
+          "Barriers to implement Asset Management",
+          "Asset Life Cycle",
+          "Balancing Cost, Risk and Performance",
+          "Asset Management Tools and Elements of Asset Assessment (Performance Management)",
+          "Terminology used in asset management policy and requirements",
+          "Maintenance Management",
+          "Maintenance contracts and contract administration",
+          "Reliability centred maintenance",
+          "Total productive maintenance",
+          "Preventive component replacement",
+          "Capital equipment replacement decisions"
+        ],
+        "references": [
+          "Campbell, J.D., Jardine, A.K.S. McGlynn, J. \u201cAsset Management Excellence: Optimizing Equipment Life-Cycle Decisions\u201d, 2nd Edn., CRC Press, Boca Raton, FL, 474 pp. 2011.",
+          "Jardine, A.K.S. and Tsang, A.H.C. \u201cMaintenance, Replacement and Reliability: Theory and Applications\u201d, CRC Taylor & Francis, New York, 322 pp. 2006.",
+          "Kelly, A. \u201cStrategic Maintenance Planning\u201d, Butterworth Heinemann, Oxford, 284 pp. 2006.",
+          "Kelly, A. \u201cManaging Maintenance Resources\u201d, Butterworth Heinemann, 292 pp. 2006.",
+          "Lawrenson, J. \u201cEffective Spares Management\u201d, International Journal of Physical Distribution & Materials Management, Vol 16, No. 5., 111 pp., 1986.",
+          "O'Conner, P.D.T. \u201cPractical Reliability Engineering\u201d, 5th Edn., John Wiley and Sons, 2012.",
+          "Moubray, J. \u201cReliability-Centered Maintenance\u201d, 2nd Edition, Industrial Press Inc., NY, 414 pp., 1992."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4461",
+        "title": "ARTIFICIAL NEURAL NETWORK",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction",
+          "Neurons and neural networks",
+          "Basic models of artificial neural networks",
+          "Training of neural network",
+          "Applications",
+          "Fuzzy sets",
+          "Fuzzy reasoning and clustering",
+          "Fuzzy control methods",
+          "Fuzzy decision making",
+          "Adaptive networks based Fuzzy systems",
+          "Classification and Regression Trees",
+          "Neuro-Fuzzy controls",
+          "Simulated annealing",
+          "Evolutionary computation",
+          "Genetic algorithms"
+        ],
+        "references": [
+          "D. K. Pratihar, Soft Computing, Narosa Publishing House, 2008.",
+          "S. Haykin, Neural Networks: A Comprehensive Foundation, 2nd Ed, Pearson Education, 1999.",
+          "G. Chen and T. T. Pham, Introduction to Fuzzy Sets, Fuzzy Logic, and Fuzzy Control Systems, CRC Press, 2001.",
+          "P. M. Dixit, U. S. Dixit, Modeling of metal forming and machining processes: by finite element and soft computing methods, 1st Ed, Springer-Verlag, 2008."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4462",
+        "title": "BUSINESS PROCESS RE-ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Dimensions of business process, common business processes in an organization, definition of business process redesign, business process improvement",
+          "Basics of BPR, definition of business process reengineering, emergence of BPR, need for reengineering, benefits of BPR, role of leader and manager",
+          "Enablers of BPR in manufacturing - Agile Manufacturing, lean manufacturing, Just-in-time, collaborative manufacturing, intelligence manufacturing, product planning, product design and development, supply chain management",
+          "Relationship between BPR and IT, Role of IT in Reengineering, BPR tools and techniques",
+          "Necessary attributes of BPR methodology, BPR team characteristics, key concepts of BPR, BPR methodology, different phases of BPR, BPR model, Steps in BPR implementations",
+          "Reengineering success factors, critical success factors of BPR, reasons for BPR project failure and success",
+          "Risks associated with BPR projects, BPR implementation barriers, areas generating barriers to BPR, root causes to IT barriers, frame work for barrier management",
+          "Differences between BPR and process simplification, differences between BPR and continuous improvement, difference between BPR and TQM"
+        ],
+        "references": [
+          "Radhakrishnan R. and Balasubramanian S., Business Process Re-Engineering- text and cases, PHI Learning Private Limited, 2003",
+          "Jayaraman M. S., Natarajan Ganesh, Ranagaramanujan A. V., Business Process Reengineering, Tata McGraw Hill, 2007",
+          "Sethi Vikram; King William R., Organizational transformation through business process reengineering, Prentice Hall, 2003",
+          "Grover Varun, M. Lynne Markus, Business Process Transformation, PHI Learning Pvt. Ltd, 2010"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4463",
+        "title": "DATA MANAGEMENT & ANALYSIS WITH EXCEL",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Logical Functions",
+          "Text Functions",
+          "Date and Time Functions",
+          "Basic Statistical Functions",
+          "Mathematical Functions",
+          "Financial and Database Functions",
+          "Lookup and Reference Functions used in Excel with practical examples"
+        ],
+        "references": [
+          "Held, Bernd. Microsoft Excel Functions & Formulas. United States, Jones & Bartlett Learning, 2006.",
+          "Mcfedries, Paul. Microsoft Excel 2019 Formulas and Functions. United States, Pearson Education, 2019.",
+          "Adam, Ramirez. Excel Formulas and Functions: Step-By-Step Guide with Examples, Caprioru, 2019.",
+          "Manohar, Hansa Lysander. Data Analysis and Business Modelling Using Microsoft Excel. India, Prentice Hall India Pvt., Limited, 2017."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4464",
+        "title": "DATABASE MANAGEMENT SYSTEM",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction: Definition, characteristics, users, advantages and implications of database approach. DBMS system architecture: Data models, schemas, instances, architecture and data independence, database languages, interfaces, database system environment, classification.",
+          "Data modeling: Benefits, Types, Phases. The entity relationship model, Entity types, entity sets, attributes, and keys. Relationships, relationship types, roles, structural constraints. Weak entity types, ER diagrams, design issues.",
+          "Relational data model and relational algebra: Relational model concepts, constraints, schemas. Update operation on relations, basic, additional relational algebra operations, queries",
+          "Structured Query Language (SQL): Definition, Basic and complex queries Insert, delete, update statements, views, embedded SQL.",
+          "Physical storage, primary file organizations: Secondary storage devices, buffering of blocks, placing file records on disk, operations on files, heap files, sorted files, hashing techniques.",
+          "Indexing of files: Primary, secondary, multilevel ordered indices, dynamic multi-level indices using B-trees and B+ trees.",
+          "Relational database design: Design guidelines for relational schemas, functional dependencies normalization\u20131st- 5th normal forms, importance."
+        ],
+        "references": [
+          "Elmasri Ramez and Navathe Shamkanth B., Fundamentals of database Systems, (3e), Addison Wesley Publishing Company, 2011.",
+          "Raghu Ramakrishnan and Johannes Gehrke, Database Management System, (3e), Tata McGraw Hill, 2010.",
+          "McFadden, Hoffer J, Prescott, by Modem Data base management, 2007.",
+          "Hansen Gary W. and Hansen James V., Database Management and Design, (2e), PHI Pvt. Ltd, 2002."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "code": "MIE 4465",
+        "title": "DESIGN FOR MANUFACTURE AND ASSEMBLY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Essential factors of product design",
+          "morphology of design",
+          "producibility requirements in design",
+          "Design for X",
+          "DFMA-History",
+          "advantages of DFMA in product design",
+          "selection of materials and processes",
+          "sand casting-design rules for sand castings",
+          "Investment casting design guidelines",
+          "Metal Extrusion: Design recommendation for metal extrusion",
+          "stamping",
+          "fine blanked parts",
+          "Rolled formed section",
+          "Characteristics of the forging process and design guidelines",
+          "Design for machining",
+          "Introduction",
+          "Design guidelines for turning",
+          "drilling",
+          "reaming",
+          "slotting",
+          "milling",
+          "grinding",
+          "design guidelines for heat treatment",
+          "Design for die-casting and injection moulding",
+          "Introduction",
+          "Design guidelines for manufacture of parts",
+          "Design for sheet metal working and powder metal processing",
+          "Introduction",
+          "Design guidelines for manufacture of parts",
+          "Design for joining process",
+          "Welding-different types of welding processes",
+          "design recommendation for welding process",
+          "Design for solder and brazed assembly",
+          "Process",
+          "typical characteristics",
+          "suitable materials",
+          "detail design recommendations",
+          "Design for adhesively bonded assemblies",
+          "Introduction",
+          "typical characteristics",
+          "suitable materials",
+          "design recommendations for adhesive joint"
+        ],
+        "references": [
+          "Geoffrey Boothroyd, Peter Dewhurst and Winston A. Knight, Product Design for Manufacture and Assembly, CRC Press, 2011.",
+          "James G. Brala, Design for Manufacturability Handbook, McGraw Hill, New York, 1999.",
+          "Kevin Otto and Kristin Wood, Product Design, Pearson Education, Delhi, 2001.",
+          "Chitale A. K. and Gupta R. C., Product Design and Manufacturing, Prentice Hall of India Pvt. Ltd., New Delhi, 2005.",
+          "George E. Dieter, Engineering Design, McGraw Hill Book Co., Singapore, 2000.",
+          "Karl T. Ulrich & Steven D. Eppinger, Product Design and Development, Irwin McGraw Hill, Boston, 2003."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4466",
+        "title": "ENTERPRISE RESOURCE PLANNING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to ERP: Introduction, evolution, reasons for growth of ERP market, advantages, Integrated management information, business modelling, integrated data model",
+          "ERP and related technologies: Introduction, business process reengineering, management information systems, decision support system, executive information system, data warehousing, data mining, online analytical processing, supply chain management",
+          "ERP-A manufacturing perspective: Introduction, ERP, CAD/CAM, Materials requirement planning, bill of materials, closed loop MRP, distribution requirements planning, JIT, Kanban, product data management, benefits Make-to-order, make-to-stock, assemble-to-order, engineer-to-order, configure-to-order",
+          "ERP modules: Introduction, finance, plant maintenance, quality management, materials management",
+          "Benefits of ERP: Introduction, Reduction of lead time, on-time shipment, reduction in cycle time, improved resource utilization, customer satisfaction, supplier performance, flexibility, quality costs, information accuracy, decision making flexibility",
+          "ERP implementation lifecycle: Introduction, pre-evaluation screening, package evaluation, project planning phase, gap analysis, reengineering, configuration, implementation team training, testing, end user training, post-implementation, In-house implementation pros, cons, vendors, consultants, end users",
+          "Future directions in ERP: New markets, channels, faster implementation methodologies, business models"
+        ],
+        "references": [
+          "Ellen Monk and Bret Wagner, Concepts in Enterprise Resource Planning, (4e), Cengage Learning Custom Publishing, 2011",
+          "Alexis Leon, Enterprise Resource Planning, Tata McGraw Hill, 1999",
+          "Joseph A. Brady, Ellen F. Monk, Bret J. Wangner, Concepts in Enterprise Resource Planning, Thomson Learning, 2001",
+          "Garg Vinod Kumar and Venkata Krishnan N. K, Enterprise Resource Planning \u2013 Concepts and Planning, Prentice Hall, 1998"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "MIE 4467",
+        "title": "FACILITIES PLANNING AND DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction: Facilities planning defined, significance of facilities planning",
+          "Plant Location and Layout: Factors influencing plant location, Theories of plant location",
+          "Materials Handling: Introduction, scope and definition of material handling, material handling principle, types of material handling equipment",
+          "Space determination in a plant layout & area allocation: Factors for consideration in space planning, receiving, storage, production, shipping, tool room and tool crib",
+          "Design of plant layouts: Apple's Plant Layout Procedure and Reed's procedure",
+          "Flow Analysis, Quantitative and Qualitative Flow Measurement",
+          "Quantitative facilities planning models: Introduction, Facility location models- Single and Multi-facility, Location allocation Models, Special facility layout models, Machine layout models",
+          "Computer Aided Layout: Introduction",
+          "Constructing the layout: Methods of constructing the layout, Evaluation of layout, efficiency indices, presenting layout to management"
+        ],
+        "references": [
+          "Facilities Planning, James A Tompkins, John A White, Yavuz A Bozer, 4th Edition, 2010, Wiley India, ISBN: 978-0-470-44404-7",
+          "Facility layout and Location, Francies, R.L. and White, J.A., 2nd Edition, 1998, Prentice Hall of India, ISBN: 8120314603",
+          "Plant Layout and Material handling - James M Apple, John, Wiley and Sons, 2nd Edition",
+          "Practical layout - Muther Richard, McGraw Hill-1955"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4468",
+        "title": "FINANCIAL ANALYSIS AND REPORTING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Financial Reporting Overview",
+          "balance Sheet Equation",
+          "Assets",
+          "Liabilities",
+          "and Stockholders Equity",
+          "Debit and Credit Bookkeeping",
+          "Accrual Accounting and the Income Statement: Revenues and Expenses",
+          "Adjusting Entries",
+          "Operating",
+          "Investing",
+          "and Financing Cash Flows",
+          "Statement of Cash Flows",
+          "Overview of Ratio Analysis",
+          "Time Value of Money",
+          "Interest Rates",
+          "Inflation",
+          "Discounted Cash Flow",
+          "Decision Making",
+          "Discounted Cash Flow Analysis",
+          "Free Cash Flow",
+          "Forecast Drivers",
+          "Return on Investment",
+          "Decision Criteria",
+          "Sensitivity Analysis",
+          "Return on Investment",
+          "NPV Rule",
+          "Simple vs. Compound Interest",
+          "Introduction to Fixed Income Valuation",
+          "Prices and Returns on Coupon Bonds",
+          "Semi Annual Bonds",
+          "The Yield Curve",
+          "probabilistic models",
+          "regression models",
+          "Spread sheet in financing",
+          "Using functions",
+          "conditional expressions and errors",
+          "cash flow modes",
+          "random variables",
+          "simulations",
+          "Assets",
+          "Disposal of Fixed Assets",
+          "Short-Term Liabilities",
+          "Long-Term Liabilities",
+          "Shareholders' Equity",
+          "Overview",
+          "Shareholders Equity",
+          "Equity Issuance and Profitability"
+        ],
+        "references": [
+          "Prasanna Chandra: Financial Management 2011-Tata McGraw-Hill publishing company",
+          "M.Y. Khan & P.K Jain: Financial Management 2012-Tata McGraw-Hill publishing company",
+          "James C.Van Horne: Fundamentals of Financial Management2001, Prentice- Hall India",
+          "Ravi. M.Kishore: Financial Management2011-Taxman Publications"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4469",
+        "title": "FINANCIAL MARKETS, TREASURY AND RISK MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Financial System: An overview of Indian Financial System, Types of Markets, Repo and Reverse Repo",
+          "Treasury management in Banking Industry: Concept and Functions of Treasury Management in Commercial Banks, Funding and Regulatory aspects",
+          "Risk Management Process in Banking: Risks in Banking Activities, Types of Risks, Management in Banking",
+          "Commercial Banks and their Roles in Indian Economy: Role of RBI in ensuring economic growth, Recent Trends in Banking system",
+          "Profit planning activities of Banks through Subsidiary activities: Merchant Banking, IPO and Equity issue, Increasing liquidity and profitability through the process of Securitization"
+        ],
+        "references": [
+          "Avadhani. V.A, Treasury Management in India, Himalaya Publishing House, 2002",
+          "Khan M.Y., Financial Services, Tata McGraw Hill, 2004",
+          "Khan M.Y., Indian Financial System, Tata McGraw Hill, 2007",
+          "Varshney and Mittal, Indian Financial System, Sultan Chand Publications, 2003"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4470",
+        "title": "INDUSTRIAL SAFETY AND RISK MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Industrial safety \u2013 history, evolution and introduction",
+          "Safety at plants",
+          "Industrial accidents",
+          "Accident prevention measures",
+          "Theories of accident causation",
+          "Accident investigation and reporting",
+          "Ergonomic risk prevention and control",
+          "Cumulative Trauma Disorders",
+          "Common mechanical injuries and definition of safeguarding",
+          "Risk assessment in machine operation",
+          "Robot safeguards",
+          "Lockout/tagout systems",
+          "General precautions",
+          "Slip and fall prevention programs",
+          "OSHA fall protection standards",
+          "Ladder safety",
+          "Impact and acceleration risks",
+          "Lifting risks",
+          "Standing risks",
+          "Hand protection",
+          "Forklift safety",
+          "Personal protective equipment",
+          "Noise control strategies",
+          "Vibration hazards",
+          "Human-robot interaction",
+          "Minimizing the problems of automation"
+        ],
+        "references": [
+          "Industrial Safety and Maintenance Management. India, Khanna Publishing House.",
+          "Goetsch, D.L., Occupational Safety and Health for Technologists, Engineers, and Managers, Global Edition. United Kingdom, Pearson Higher Education & Professional Group, 2014.",
+          "Spellman, F.R., Safety Engineering: Principles and Practices. United States, Bernan Press, 2018.",
+          "Handbook of Safety Principles. United Kingdom, Wiley, 2018."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4471",
+        "title": "INTERNATIONAL FINANCIAL MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Financial Management in a Global Context",
+          "Recent Changes in Global Financial Markets",
+          "International Monetary System",
+          "Foreign exchange reserves",
+          "Balance of payments",
+          "Balance of Trade",
+          "Bilateral and multilateral agreements relating to financial transactions",
+          "Integration of global developments with the changing business environment in India",
+          "Foreign Exchange Market Structure of the Foreign Exchange Market",
+          "Types of Transactions and Settlements",
+          "The Concept of Hedging and Speculation",
+          "Currency Forwards",
+          "Currency Futures",
+          "Currency Options",
+          "Currency swaps",
+          "devaluation of Rupee",
+          "Theories of Exchange Rate Determination",
+          "Fundamental International Parity Conditions",
+          "Purchasing Power and Interest Rate Parity",
+          "Fisher Effect and International Fischer Effect",
+          "The Risk Management Process",
+          "Exposure Management",
+          "Transactions Exposure",
+          "Operations Exposure",
+          "International working capital management"
+        ],
+        "references": [
+          "Shapiro, Allen C., Multinational Financial Management, New Delhi, Prentice Hall India Pvt. Ltd.",
+          "Apte P.G., Multinational Financial Management, New Delhi, Tata McGraw Hill",
+          "Seth A.K., International Financial Management, New Delhi, Galgotia Publishing Company",
+          "Brian Hock, Tenth Edition CPA Preparatory Program, Hock International, 2016"
+        ],
+        "flags": [
+          "missing_semester",
+          "tags_inferred"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4472",
+        "title": "MANAGEMENT INFORMATION SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction: Importance of MIS, Evolution of MIS, Computers and MIS, Typical Management Information Systems",
+          "Information systems and organizations: Organizational and Information System Structure, Management and Decision making, Classification of Information systems, Information Support for functional areas of management, Impact of Business on information Systems, Key ingredients of success, Organizing Information Systems, Absorption of MIS in Organizations",
+          "Information system technology: Computer hardware and Software, Telecommunications, Database management, Modern communication, Video conferencing, Internet, Superhighway system configuration and selection",
+          "Information system in management: Transaction processing and Reporting, Decision making and decision support system, Artificial Intelligence and Expert system, Office information system, MIS as technique for programmed decision",
+          "Planning, designing, and implementing MIS: Strategic and project planning, Conceptual design, Detailed design, Implementation, Evaluation and Maintenance, Controlling of IS System concept-control Modelling case study in Hostel, Hospital, Hotel, Stores, Production Industries"
+        ],
+        "references": [
+          "Davis Gordon B., Olson Margrethe H., Management Information Systems, McGraw-Hill, New York, 2005",
+          "Laudon Kenneth, Laudon Jane Prince, Management Information Systems, Prentice Hall of India, Delhi, 2006",
+          "Sadagopan S., Management Information Systems, Prentice Hall of India, New Delhi, 2002",
+          "Mudrick Ross, Information Systems for Modern Management, Prentice Hall of India, Delhi,1997"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4473",
+        "title": "MATERIALS MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Dynamics of materials management - Materials management at levels, inventories of materials, total concept-definition",
+          "Systems approach to materials management - The process of management and the materials function",
+          "Forecasting: Objectives and the materials organization - Systems design, forecasting and planning, forecasting methods, objectives of materials management - organization of materials management",
+          "Materials planning: Making the materials plan work, the materials cycle and flow control system",
+          "Purchasing: Purchasing principles, Purchasing in materials management system concept - Price determination, vendor-vendee relations",
+          "Purchasing and procurement: Activities under materials management",
+          "Incoming material quality control: Significance of inspection, SQC in operation",
+          "Purchasing capital: Equipment, plant and machinery - Responsibility and decision, governmental purchasing - policy and procedures, tenders",
+          "Registration of Firms: Procedure for registration, terms of registration",
+          "Inventory models: Deterministic inventory models with numerical examples, materials planning system (MPS)/Materials Requirement Planning (MRP)",
+          "Stores management and operation: Storage system, standardization and variety reduction",
+          "Materials management information system and computer: MIS - computer system for MIS and MM, In-process materials and management control"
+        ],
+        "references": [
+          "Dutta A.K, Materials management: Procedures, text and cases, Prentice Hall of India Pvt. Ltd, New Delhi, 2001",
+          "Gopala Krishnan P, Handbook of materials management, Prentice Hall of India Pvt. Ltd, New Delhi, 2002",
+          "Sharma S.D, Operations research, Kedarnath-Ramnath & Co, 1996",
+          "Philips, Ravindran and Soleberg, Principles of operations research theory and practice, Wiley India Pvt. Ltd"
+        ],
+        "flags": [
+          "sem_not_specified"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4474",
+        "title": "METAHEURISTIC TECHNIQUES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Optimization: Definition and Classification of an Optimization Problem, Heuristic Algorithms vs. Metaheuristics, Swarm Intelligence, Population-Based Optimization",
+          "Classical Optimization Techniques: Linear programming, Nonlinear Programming",
+          "Heuristic Optimization Algorithms: Different types of algorithms - Neighbourhood Search, Hill Climbing Methods, Simulated Annealing, Evolutionary Algorithms, Tabu Search, Ant Colony Optimization, Particle Swarm Optimization",
+          "Simulated Annealing: Real Annealing and Simulated Annealing, One-loop Simulated Annealing",
+          "Evolutionary Algorithms: Encoding, Operators and models of Evolution, Genetic Algorithms and Programming, Memetic Algorithms, Differential Evolution",
+          "Tabu Search: Basic and Continuous Tabu Search, Short-term and Longterm Memory, Diversification and Intensification",
+          "Ant Colony Optimization: Basic ACO Algorithms, Ant Algorithms for TSP",
+          "Particle Swarm Optimization: Canonical PSO Algorithm, Neighbourhood Topologies",
+          "Heuristic Algorithms: Multiobjective Algorithms, Handling Dynamic Optimization Problems, Noisy Problems, Expensive Cost Functions"
+        ],
+        "references": [
+          "Z. Michalewicz and D. B. Fogel, How to Solve it: Modern Heuristics, Springer, 2004",
+          "Sean Luke, Essentials of Metaheuristics, Lulu, 2013",
+          "Stefan Edelkamp, Peter Norvig, Heuristic Search: Theory and Applications, Elsevier, 2011",
+          "Fred Glover, Gary A. Kochenberger, Handbook of Metaheuristics, Springer, 2010"
+        ],
+        "flags": [
+          "missing_semester",
+          "possible_typo_in_title"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4475",
+        "title": "PLANT ENGINEERING AND MAINTENANCE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Plant engineering-its role, need for maintenance",
+          "lubricants used in industries, methods of application",
+          "Fire prevention and protection",
+          "Paintings and protective coatings",
+          "Pollution control: Types of corrosion prevention methods, surface preparation",
+          "Industrial Pollution and Dust control: fibre dust collector, mechanical dust collector, wet type collectors and electrostatic precipitator",
+          "Gaseous and Noise Pollution control: waste and noxious gases control",
+          "Illumination and Effluent treatment: Fundamentals of lighting calculations, illumination needed, different types of light sources",
+          "Industrial effluent treatment: types of contaminants, process of effluent treatment- physical, chemical, combined biological treatments",
+          "Industrial safety: Economic impact of accidents, analysis of accident records, accident investigation and analysis of accidents, organization for safety",
+          "Maintenance: functions and types of maintenance",
+          "Work execution: repair order control, man power requirements and Preventive maintenance"
+        ],
+        "references": [
+          "Higgins & Marrow (1977), Maintenance engineering handbook, Mc Grew Hill.",
+          "Miller and Blood (1971), Modern maintenance management, Taraporevala.",
+          "Sushil Kumar, Srivasthava (2002), Industrial Maintenance and Management, Chand.",
+          "P. Gopalakrishnan, A. K. Banergy, (1997), Maintenance and Spare Management \u2013Prentice Hall of India (PHI)."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4476",
+        "title": "PRODUCTION ECONOMICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "The concept of a production function, assumptions",
+          "Law of diminishing returns and the three stages of production",
+          "Production costs",
+          "Economic efficiency, Profit maximization, Farm income and costs",
+          "The production function for two variable inputs",
+          "Relationships between inputs, the least cost criterion, Expansion paths and profit maximization",
+          "Substitution and expansion effects",
+          "Alternative production function",
+          "Related problems",
+          "Production possibility curve",
+          "Relationship among products, Maximum revenue combination of outputs, Intermediate and final products",
+          "Production and Equilibrium in the long run",
+          "Time within the production period, time over a period of years",
+          "Analyzing risky production processes",
+          "Utility in risky situations",
+          "Comparison of traditional and modern analysis"
+        ],
+        "references": [
+          "Doll, J. P., & Orazem, F. 1984, Production economics: Theory with Applications.",
+          "Koutsoyiannis, Anna. 1979. Modern microeconomics. Springer.",
+          "Petersen, H. C., & Lewis, W. C. 1999, Managerial Economics."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4477",
+        "title": "SECURITY ANALYSIS AND PORTFOLIO MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Investment: Objectives and Process of Investment, Securities Trading, Recent Developments in Stock Market",
+          "Fundamental and Technical Analysis: Economy analysis, Theories of Technical Analysis, Dow and Elliot Wave theory, Efficient Market Hypothesis (EMH)",
+          "Portfolio Management and Portfolio Analysis: Steps in Portfolio Management, Types of portfolio analysis, Risk and Return of Portfolio",
+          "Portfolio selection, Portfolio Revision and Evaluation: Optimal Portfolio, Pricing of securities with CAPM2, Portfolio Revision strategies, Portfolio Evaluation, Risk Adjusted Returns, Sharpe's, Treynor's and Jensen's Measure for Portfolios Performance, FAMA's Decomposition"
+        ],
+        "references": [
+          "S. Kevin, Security analysis and Portfolio Management, PHI, 2010, 2nd Edition, New Delhi",
+          "G.J, Sharpe. W.F and Bailey. J.V, Fundamentals of Investments, Pearson, 2001",
+          "Reilly, Brown, Analysis of Investments and Management of Portfolios, Cengage Learning, New Delhi, 2013",
+          "Prasanna Chandra, Investment Analysis and Portfolio Management, TMH, New Delhi, 2013",
+          "Charles. P.J, Investments: Analysis and Management, John Wiley & Sons, Inc. 9th Ed."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4478",
+        "title": "STRATEGIC MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Strategic Management: Introduction to competition, Strategy & Strategist and Process of Strategy, Formulation, The role of strategy, Strategic decisions, Aligning strategy and organization",
+          "Analyzing the External Environment: Strategic context of the firm, Industry Analysis: Porter's framework, complements, strategic groups and key success factors, PESTLE Analysis",
+          "Analyzing the Internal Environment: The Resource based view of the firm, VRIO framework, Sustenance of competitive advantage",
+          "Competitive Positioning: Competitive positioning, Business level strategies: Cost leadership, differentiation, focus and dual advantage, Value chain analysis",
+          "Managing the Multibusiness Firm: Strategies for the multi-business firm, The need of corporate strategy, Corporate level strategies, Strategy portfolio frameworks, Strategy implementation"
+        ],
+        "references": [
+          "Hill, C. W. L. & Jones, G. R. 2008. Strategic Management: An integrated approach, 8th Edition, Houghton Mifflin",
+          "Dess, G. G., Lumpkin, G. T., Eisner, A. B., McNamara, G. 2013. Strategic Management: Creating Competitive Advantages, 7th Edition, McGraw-Hill International Edition, McGraw-Hill/Irwin",
+          "Michael A. Hitt, R. Duane Ireland, Robert E. Hoskisson (2008), Management of Strategy- Concepts and Cases, 4/e, Cengage Learning, New Delhi",
+          "Charles. W.L Hill, Gareth R Jones (2005), Strategic Management-An Integrated Approach,6/e, Biztantra, New Delhi"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4479",
+        "title": "TOOL ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Nomenclature systems of Single point cutting tools",
+          "Geometry of cutting tools - Twist drills and Milling cutters",
+          "Theory of metal cutting: Orthogonal and Oblique cutting, cutting parameters - speed, feed, depth of cut and their selection criteria",
+          "Machinability parameters, Tool life and wear",
+          "Merchant's analysis, Taylor's equation and factors affecting tool life",
+          "Numerical on shear plane angle, Cutting force and tool life calculation",
+          "Design of single point cutting tools",
+          "Classification of Single point cutting tools",
+          "Design of tool shank for strength and rigidity",
+          "Design of tool tips, sizing of the inserts, Optimization of tool shape",
+          "Design of jigs and fixtures: Functions of Jigs and fixtures, Elements of jig and fixtures, Design procedure, Principle of location, different types of locators, Principle of work holding devices",
+          "Press tool design: Theory of press tool action, Methods of reducing cutting forces, Design principles, Design of different types of dies and punch, Die materials, Method of punch support, Design of elements of press tools, Strip layout, Centre of pressure, Design of Forming and Drawing dies"
+        ],
+        "references": [
+          "ASME handbook, Fundamentals of tool design, Society of Manufacturing Engineers, New York, 1991",
+          "Juneja B. L. and Sekhon G. S., Fundamentals of Metal cutting and Machine Tools, New Age International (P) Ltd. Delhi, 1995",
+          "Shaw M. C., Metal cutting principles, Clarendon Press, Oxford, 1996",
+          "Nagpal G R, Tool Engineering & Design, Khanna Publishers, Delhi, 2008",
+          "Joshi P H, Jigs and Fixture, Wheeler Publishing, Mumbai, 1996"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4480",
+        "title": "WASTE MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Definition and process of solid waste management",
+          "Functional elements of a solid waste management system",
+          "Hierarchy of waste management",
+          "Principles of life cycle",
+          "Importance of municipal solid waste management",
+          "Materials recovery and recycling: segregation, reuse and recycle, market issues, recycling of different materials",
+          "Meaning of hazardous waste, significance, precautions to be taken in storage and transportation of hazardous waste",
+          "Hazardous waste from rural and urban Area",
+          "Storage of hazardous waste",
+          "Incineration of hazardous wastes",
+          "Special Categories of Waste-universal wastes",
+          "Management of used oil",
+          "Medical and Infectious Wastes-definitions and sources, advantages and disadvantages of incineration",
+          "Construction and demolition debris-characteristics, management, hazardous materials",
+          "Management of electronic wastes-major types of electronic equipment, barriers to recycling ewaste"
+        ],
+        "references": [
+          "George Tchobanoglous, Frank kreith, Hand book of solid waste management (second edition), McGraw-Hill, 2002",
+          "John T. Pfeffer, Solid waste management engineering, Prentice-Hall of India Private Limited, New Delhi",
+          "Rameshchandrappa, Digantabhusan das, Solid waste management-principles and practice, Springer, 2012",
+          "A.K.Haghi, Waste management- research advances to convert waste to wealth, Nova Science Publishers, Inc., 2010"
+        ],
+        "flags": [
+          "semester_not_specified"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "MIE 4433",
+        "title": "INDUSTRY 4.0",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introducing Industry 4.0: Components and design principles of Industry 4.0",
+          "Cyber Physical Systems: Characteristics, basic functions, architecture and applications of Cyber Physical Systems",
+          "Cloud computing, Data sources and Data centres: Features, benefits, limitations of cloud services and data repositories",
+          "Internet of Things (IoT): Key technologies, essentials, enablers, applications, impacts and dangers of IoT in industries",
+          "Smart Factories: Digital supply network, key features, requirements and benefits of smart factories, concepts of Manufacturing 4.0, digital lean manufacturing, logistics 4.0 and augmented reality",
+          "Cybersecurity and Risk: Concepts of cybersecurity in IT & OT, layered security, survivability under attack, Taxonomy of security threats and blockchains in Cybersecurity"
+        ],
+        "references": [
+          "Diego Galar Pascual, Pasquale Daponte and Uday Kumar, Handbook of Industry 4.0 and Smart Systems, CRC Press Taylor & Francis group, 2020",
+          "Alasdair Gilchrist, Industry 4.0: The Industrial Internet of Things, APress Springer Science+Business Media Finance, 2016",
+          "Christoph Jan Bartodziej, The Concept Industry 4.0, Springer Fachmedien Wiesbaden GmbH, 2017",
+          "Ana Landeta Echeberria, A Digital Framework for Industry 4.0, Palgrave Macmillan, Springer Nature, 2020",
+          "Dominik T. Matt, Vladim\u00edr Modr\u00e1k, Helmut Zsifkovits, Implementing Industry 4.0 in SMEs \u2013 Concepts, Examples and Applications, Palgrave Macmillan, Springer Nature, 2021"
+        ],
+        "flags": [
+          "sem_inferred_from_course_code"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4434",
+        "title": "BLOCKCHAIN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Blockchain Technology and distributed system",
+          "Decentralization concepts",
+          "Concepts of cryptography",
+          "Data encryption standard",
+          "RSA",
+          "Discrete logarithmic problem in ECC",
+          "Hash functions",
+          "RSA digital signature algorithm",
+          "Elliptic curve digital signature algorithm",
+          "financial market concepts",
+          "Introduction to Bitcoin",
+          "Alternate cryptocurrencies",
+          "Smart Contracts and Ethereum",
+          "Alternative Blockchains",
+          "Blockchain Non-currency Applications"
+        ],
+        "references": [
+          "Bashir, I. Mastering Blockchain: Distributed Ledger Technology, Decentralization, and Smart Contracts Explained, 2nd Edition. United Kingdom, Packt Publishing, 2018.",
+          "Laurence, Tiana. Introduction to Blockchain Technology: The many faces of blockchain technology in the 21st century. Netherlands, Van Haren, 2019.",
+          "Blockchain Technology: Applications and Challenges. Germany, Springer International Publishing, 2021.",
+          "Essentials of Blockchain Technology. United States, CRC Press, 2019.",
+          "Cryptocurrencies and Blockchain Technology Applications. United Kingdom, Wiley, 2020."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4435",
+        "title": "ARTIFICIAL INTELLIGENCE FOR INDUSTRIAL ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Artificial Intelligence: Introduction to AI",
+          "Conceptual introduction to Machine Learning: Introduction to Neural Networks, Supervised, Unsupervised, and Semi-Supervised Learning, Deep Learning, Reinforcement Learning, Linear Regression",
+          "Conceptual introduction to Natural Language Processing, BOT Technologies and Virtual Assistants: Chabot",
+          "Image Processing & Computer Vision: Image, Smart Applications"
+        ],
+        "references": [
+          "Tom Markiewicz & Josh Zheng, Getting started with Artificial 30 Intelligence, O'Reilly Media, 2017",
+          "Stuart J. Russell and Peter Norvig, Artificial Intelligence A Modern Approach., Prentice-Hall",
+          "Kevin Night and Elaine Rich, Nair B., 2008, Artificial Intelligence (SIE), McGraw Hill",
+          "Kumar, Ela. Artificial Intelligence. India, I.K. International Publishing House Pvt. Limited, 2013",
+          "Sabouret, Nicolas. Understanding Artificial Intelligence. United States, CRC Press, 2020"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4436",
+        "title": "CYBER SECURITY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "What Is Computer Security",
+          "Integrity",
+          "Availability",
+          "Type of Threats",
+          "Authentication",
+          "Access Control",
+          "Access Policies",
+          "Implementing Access Control",
+          "Procedure-Oriented Access Control",
+          "Role-Based Access Control",
+          "Cryptography",
+          "Buffer Overflow",
+          "Incomplete Mediation",
+          "Undocumented Access Point",
+          "Off-by-One Error",
+          "Integer Overflow",
+          "Malicious Code - Malware",
+          "Countermeasures",
+          "Browser Attacks",
+          "Web Attacks Targeting Users",
+          "Malicious Web Content",
+          "Email Attacks",
+          "Phishing",
+          "Security in Operating Systems",
+          "Simplicity of Design",
+          "Layered Design",
+          "Kernelized Design",
+          "Reference Monitor",
+          "Trusted Systems",
+          "Network concepts",
+          "War on Networks: Threats to Network Communications",
+          "Wireless Network Security"
+        ],
+        "references": [
+          "Charles P. Pfleeger, Shari Lawrence Pfleeger, Jonathan Margulies, Security in Computing, 5th Ed, Pearson Education, 2015",
+          "SumitBelapure, Nina Godbole, Cyber Security: Understanding cybercrimes, Computer Forensics and Legal perspectives, Wiley India,2011",
+          "Sammons, John, and Michael Cross. The basics of cyber safety: computer and mobile device safety made easy. Elsevier, 2016",
+          "Brooks, Charles J., Christopher Grow, Philip Craig, and Donald Short. Cybersecurity essentials. John Wiley & Sons,2018"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4437",
+        "title": "BASICS OF COMPUTER ORGANIZATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Basic Structure of Computers: Functional Units, Basic Operational Concepts, Number Representation and Arithmetic Operations, Character Representation, Memory locations and addresses",
+          "Input/Output Organization: Accessing I/O Devices, Interrupts, Controlling I/O Device Behaviour, Direct Memory Access",
+          "Basic Processing Unit: Fundamental Concepts, Hardwired Control, Microprogrammed Control",
+          "Memory System: Internal organization of memory chips, Structure of Larger Memories, Virtual memories",
+          "Arithmetic: Hardware for addition and subtraction, Multiplication, Division, Floating point representation",
+          "Pipelining: Pipeline Organization and pipelining Issues, Data Dependencies, Parallel Processing and Performance: Hardware Multithreading, SIMD Processing, Graphics Processing Units"
+        ],
+        "references": [
+          "Carl Hamacher, Zvonko Vranesic and Safwat Zaky, Computer Organization and Embedded Systems, (6e), McGraw Hill Publication, 2012",
+          "William Stallings, Computer Organization and Architecture \u2013 Designing for Performance, (9e), PHI, 2015",
+          "Mohammed Rafiquzzaman and Rajan Chandra, Modern Computer Architecture, Galgotia Publications Pvt. Ltd., 2010",
+          "D.A. Patterson and J.L.Hennessy, Computer Organization and Design- The Hardware/Software Interface, (5e), Morgan Kaufmann, 2014",
+          "J.P.Hayes, Computer Architecture and Organization, McGraw Hill Publication, 1998"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4438",
+        "title": "BASICS OF OPERATING SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Operating systems: Operating System structure and operations; Process management; Memory management; Storage management; Operating System structure",
+          "Process Management: Process concept; Process scheduling; Multithreading models; Process Synchronization: Petersons solution; Synchronization hardware",
+          "CPU Scheduling: Basic concepts; Scheduling Criteria; Scheduling Algorithms; Thread scheduling",
+          "Deadlocks: System model; Deadlock characterization",
+          "Memory management strategies; Contiguous memory allocation; Virtual Memory Management: Demand paging; Copy-on-write; Page replacement",
+          "Secondary Storage Structures: Disk structure; Disk scheduling; Disk management",
+          "File System Interface: File concept; Access methods; Directory structure",
+          "Protection: Goals of protection, Principles of protection"
+        ],
+        "references": [
+          "Silberschatz, P. B. Galvin and G. Gagne, Operating System Concepts, (9e), Wiley and Sons (Asia) Pvt Ltd, 2013",
+          "Milan Milenkovic, Operating systems: Concepts and Design, McGraw Hill, New York, 1987",
+          "H. M. Dietel, An Introduction to Operating Systems, Addison Wesley, 1990",
+          "Andrew S.Tannebaum, Operating System: Design and Implementation, (3e), Prentice Hall of India, 2008",
+          "Maurice J Bach, Design of UNIX Operating System, Prentice Hall of India, 1988"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4439",
+        "title": "PROGRAMMING USING PYTHON",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Elements of Python",
+          "Understanding variables",
+          "Basic Operators",
+          "Blocks",
+          "Python Data Types",
+          "Loops in python",
+          "Programming using Python conditional and loops block",
+          "Python arrays",
+          "Calling Functions",
+          "Passing Arguments",
+          "Scope of the Variables in a Function - Global and Local Variables",
+          "Powerful Lamda function",
+          "Slicing",
+          "Methods",
+          "Tuples",
+          "Sets",
+          "Dictionaries",
+          "Sequences",
+          "Comprehensions",
+          "Dictionary manipulation",
+          "List and dictionary in build functions",
+          "Syntax Errors",
+          "Exceptions",
+          "Handling Exceptions",
+          "Raising Exceptions",
+          "Defining Clean-up Actions",
+          "Types of testing"
+        ],
+        "references": [
+          "Allen B. Downey, Think Python: How to Think Like a Computer Scientist, 2nd edition, Shroff/O'Reilly Publishers, 2016",
+          "Kenneth A. Lambert, Fundamentals of Python First Programs, 2nd edition, Cengage, 2017",
+          "Guido van Rossum and Fred L. Drake Jr, An Introduction to Python, Network Theory Ltd., 2011",
+          "John V. Guttag, Introduction to Computation and Programming Using Python, The MIT Press, 2013",
+          "Timothy A. Budd, Exploring Python, Mc-Graw Hill Education (India) Private Ltd., 2015"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4440",
+        "title": "MACHINE LEARNING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Statistical Decision Theory - Regression, Classification, Bias Variance",
+          "Linear regression, multivariate regression, principle component regression, logistic regression, perceptron, support vector machines",
+          "Neural Networks: perceptron learning, backpropagation, training and validation, parameter estimation",
+          "Decision trees, regression trees, boot strapping and cross validation, class evaluation measures, ensemble methods",
+          "Random forest, multiclass classification, Bayesian networks",
+          "Partitional clustering, Hierarchical clustering, reinforcement learning"
+        ],
+        "references": [
+          "The Elements of Statistical Learning, by Trevor Hastie, Robert Tibshirani, Jerome H. Friedman (freely available online)",
+          "Pattern Recognition and Machine Learning, by Christopher Bishop",
+          "Harrington, Peter. Machine Learning in Action. United States, Manning, 2012.",
+          "Alpaydin, Ethem. Introduction to Machine Learning. United Kingdom, MIT Press, 2014.",
+          "Mehrotra, Dheeraj. Basics of Artificial Intelligence & Machine Learning, Notion Press, 2019."
+        ],
+        "flags": [
+          "missing_semester",
+          "unclear_tags"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4415",
+        "title": "EV BATTERY TECHNOLOGY AND POWERTRAIN DEVELOPMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Battery Fundamentals: Basics of Batteries, Battery Parameters, Lithium-Ion Characteristics, Thermal Runaway Battery Management System (BMS), Functionality, Practical session - Battery Selection and Connection Process with Vehicle Sensors",
+          "Battery Management Systems: SOC/SOH Estimation, Cell Balancing, Protection, Thermal Management, CAN Communication. Practical session - BMS development",
+          "Battery Pack Design & Modelling: Overview of Battery & BMS System, Electrical Design, Mechanical Design: Calculations and Mechanical Design using ANSYS, Heat Transfer, Thermal Design of Battery Pack, Battery Pack Assembly and Test, Thermal Analysis on Battery Pack, MATLAB/Simulink-based Battery Pack Modelling. Practical session - Battery life cycle testing",
+          "Powertrain and Charging Systems of Electric Vehicles: Introduction to EV Powertrain, Overview, Architecture and Components of EV Powertrain, Thermal Management of EV Powertrain, EV Charging Systems and Types of Chargers",
+          "Modelling, Simulation, and Analysis of EV Powertrain Components: Modelling and Simulation of EV Powertrain Components in MATLAB, Modelling and Analysis of EV Powertrain Components in SolidWorks, Analysis of EV Powertrain Components in ANSYS, Case Study on Powertrain of Existing Models"
+        ],
+        "references": [
+          "James Larminie and John Lowry, \u201cElectric Vehicle Technology Explained\", Wiley, 2nd ed, 2012, ISBN: 978-1-119-94273-3",
+          "JIANGONG, D. H. Z., \u201cAdvances in lithium-ion batteries for electric vehicles: Degradation Mechanism, health estimation, and lifetime prediction\", Elsevier \u2013 Health Science, 2024, ISBN-13: 9780443155437",
+          "R. Xiong, \u201cBattery Management Algorithm for Electric Vehicles\", Springer, 2020, ISBN-13: 9789811502507",
+          "Rui Xiong and Weixiang Shen, \u201cAdvanced battery management technologies for electric vehicles\", John Wiley & Sons Inc, 2019, ISBN-13: 9781119481645",
+          "Hannes Hick, Klaus K\u00fcpper, and Helfried Sorger, \u201cSystems engineering for automotive powertrain development\", Springer, 2021, ISBN-13: 9783319996288",
+          "Christopher D. Rahn, \"Battery Systems Engineering\", Wiley, 1st Ed, 2013, ISBN:9781119979500",
+          "Noshin Omar, \"Electric Vehicle Batteries: Moving from Research towards Innovation\", Reports of the PPP European Green Vehicles Initiatives, Springer, 2015",
+          "Gonzalo Abad and Joaquim Lois, \u201cPower Electronics and Electric Drives for Traction Applications\", Wiley, 2016, ISBN: 978-1-118-95442-3",
+          "John G. Hayes and G. Abas Goodarzi, Electric Powertrain: Energy Systems, Power Electronics and Drives for Hybrid, Electric and Fuel Cell Vehicles\", Wiley, 2017, ISBN: 978-1-119-06364-3"
+        ],
+        "flags": [
+          "missing_sem",
+          "structure_mismatch: practical sessions mentioned but P credit is 0"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "AAE 4420",
+        "title": "EV PRODUCT DEVELOPMENT, HOMOLOGATION & HYDROGEN FCEV",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to EV (2W, 3W & 4W) Market and Opportunities",
+          "Electric Vehicle Design Procedure and ICE Model",
+          "Introduction to EV Management (Categories, Regulations and Standards)",
+          "EV Homologation and Testing",
+          "FAME India and Manufacturing Guidelines",
+          "EV Certification Process",
+          "EV Charging",
+          "Electric Vehicles and Retrofitting",
+          "Motor Technology and EV Motor Market Analysis",
+          "EV Categories and Proposed Changes",
+          "EV Retrofitting Business",
+          "Battery Technology in EV",
+          "EV Battery Market Analysis",
+          "Conducting a market analysis of the EV industry",
+          "Introduction to Product Development Plan",
+          "Segment Selection",
+          "Product Design Plan",
+          "Product Validation Plan",
+          "Vehicle Dynamics Selection",
+          "Product Design Validation",
+          "Product Specification - Competitor Analysis",
+          "Selection of Off-the-Shelf Parts",
+          "Development Methods",
+          "Unit Economics",
+          "Design Feasibility",
+          "Design for Manufacturing",
+          "DFMEA and PFMEA",
+          "Business Plan",
+          "Product Launch",
+          "POC/MVP/Working Prototype",
+          "Using the market research to develop a business plan for an EV manufacturer",
+          "Introduction to Future Mobility",
+          "Why Hydrogen-based Technology",
+          "Essentials of Hydrogen",
+          "Hydrogen comparison to Hydrocarbon Fuels in Energy, Flammability and Safety",
+          "Hydrogen Fuel Cells",
+          "Use of Hydrogen in IC Engines",
+          "Hydrogen Fuel Cell Techniques and Systems",
+          "Fuel Cell Engine Safety and Maintenance",
+          "Fuel Cell Hybrid Electric Vehicle Acts, Codes, Regulations and Guidelines",
+          "Maintenance and Fuelling Facility Requirements",
+          "Fuel Cells in Hybrid Electric Vehicles and Pure Electric Vehicles",
+          "Auxiliary Power Generation Using Hydrogen",
+          "Types of Fuel Cells and Techniques Used",
+          "Fuel Stack Module Construction",
+          "Fuel Cell Performance Characteristics",
+          "Polarisation Effects",
+          "Stoichiometry Effects",
+          "Temperature and Pressure Effects",
+          "Study on Hydrogen fuel cell with MATLAB/SIMULINK"
+        ],
+        "references": [
+          "James Larminie and John Lowry, \u201cElectric Vehicle Technology Explained\", Wiley, 2nd ed, 2012, ISBN: 978-1-119-94273-3",
+          "Tom Denton, \u201cElectric and Hybrid Vehicles\u201d, Routledge 2nd Ed, 2020, ISBN: 978-0367273231",
+          "Chris Ni and M. Abul Masrur, \u201cHybrid electric Vehicles, Principles and Applications\u201d, WILEY, 2nd Ed, 2017, ISBN: 978-1-118-97054-6",
+          "Beate M\u00fcller, and Gereon Meyer, \u201cElectric Vehicle Systems Architecture and Standardization Needs\u201d, Springer, 2016, ISBN-13: 9783319360966",
+          "Ochsner Andreas, and Springerlink, \u201cEngineering Applications for New Materials and Technologies\u201d, Cham, Springer International Publishing, 2018, ISBN-13: 9783319891972",
+          "\"Electric Cars\" - offered by Delft University of Technology on edX Link: https://www.edx.org/professional-certificate/electric-vehicles-and-mobility",
+          "\"Introduction to Electric Vehicles\" - offered by IIT Delhi on NPTEL Link: https://archive.nptel.ac.in/courses/108/106/108106170/"
+        ],
+        "flags": [
+          "department_mismatch",
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4417",
+        "title": "EV VEHICLE DESIGN & ANALYSIS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Basic Electronics, Diode Fundamentals, Rectifiers and Filters",
+          "Power Electronics for EVs: Voltage Regulators, Inverters and Converters, Special Purpose Diodes, Transistors and Types of Transistors, Operational Amplifier (Op-Amp)",
+          "Digital Electronics, EV Control Systems, EV Communication Networks, Microcontrollers and Microprocessors, Introduction to Proteus Software, Circuit Development Using Proteus",
+          "Essentials for Designing and Simulation Using MATLAB: Overview and Environment, Basic Syntax, Variables and Commands, M-files, Operators, Decision Making and Loops, Vectors, Matrix, Arrays, Colon Notation, Strings and Functions, Plotting and Graphics, Algebra, Calculus, Differential, Integration, Polynomials and Transforms",
+          "Programming EV Systems in MATLAB, Simulink and Fitting, Developing SIMULINK Models for Vehicle Units, Advisor and QSS Toolbox, QSS-based Vehicle Control",
+          "Practical session - Analyze and troubleshoot electronic circuits using simulation tools and lab equipment",
+          "Motor Development and Induction Motor Characteristics, Simulink Model for Vehicle Configuration, Multi-level Inverter Design and Simulation, Solar PV-based Charger Development, Dc-DC Converter, Modelling of Li-ion Battery Pack",
+          "Design of EV Using QSS Toolbox, Battery Thermal Modelling, BMS Modelling, Electric 4W Powertrain Modelling",
+          "Practical session - Data analysis and visualization using MATLAB for vehicle system",
+          "Power Required to Overcome Resistance Forces Acting on the Vehicle, Power Converters in Electric Vehicles, Inverters in Electric Vehicles, Motor and Motor Controllers, Modelling of EV Battery and BMS",
+          "Practical session - Modeling and simulation of EV powertrain components (motors, controllers, inverters) using MATLAB/Simulink"
+        ],
+        "references": [
+          "James Larminie and John Lowry, \u201cElectric Vehicle Technology Explained\", Wiley, 2nd ed, 2012, ISBN: 978-1-119-94273-3",
+          "Iqbal Husain, \"Electric and Hybrid Vehicles: Design Fundamentals\", Routledge, 3rd Ed, 2021, ISBN: 9780367693930",
+          "Ali Emadi, \"Advanced Electric Drive Vehicles\", CRC Press, 1st Ed, 2014, ISBN: 9781138072855",
+          "Sandeep Dhameja, \"Electric Vehicle Battery Systems\", Butterworth-Heinemann, 2nd Ed, 2002, ISBN: 978-0750699167",
+          "Singh, Sanjeev, et al., \u201cElectric Vehicle Components and Charging Technologies\" IET, 2024, ISBN-13: 9781839536717",
+          "Das, Shuvra, \u201cModeling for Hybrid and Electric Vehicles Using Simscape\", Springer, 2022, ISBN-13: 9783031003806"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "AAE 4421",
+        "title": "EV FEA Analysis",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Theory of FEA/CAE",
+          "Introduction to Hyper Mesh",
+          "Creating and Modifying Geometry",
+          "Geometry Clean-up and Defeature",
+          "Introduction to 2D Meshing",
+          "Introduction to 3D Meshing",
+          "Element Quality",
+          "Mesh Edit",
+          "Introduction to Plastic Meshing",
+          "Introduction to 1D Meshing",
+          "Modal Analysis",
+          "Linear Static Analysis",
+          "Buckling Analysis",
+          "Connectors",
+          "Optimization techniques using Hyper Mesh",
+          "Introduction to Abaqus Software",
+          "Fundamentals of FEA-Stress",
+          "About Abaqus Software-Features",
+          "Applications of Abaqus Software in Different Industries",
+          "Simple Modelling in Abaqus Software",
+          "Create Material and Create Assembly",
+          "Create Steps, Loads, Boundary Conditions",
+          "Generate Mesh",
+          "Result Visualization",
+          "Multi physics analysis using Abaqus",
+          "One Dimensional Analysis",
+          "Linear Static Analysis and Linear Buckling Analysis",
+          "Heat Transfer Analysis",
+          "Non-linear Analysis",
+          "Dynamic Simulation-Modal Analysis",
+          "Impact Analysis",
+          "Time-Dependent Load Analysis",
+          "Basics of Finite-Element Analysis (FEA) along with ANSYS Tool and Software Interface",
+          "Essential Mechanical and Electrical Properties of Materials",
+          "Various Case Studies on ANSYS Mechanical",
+          "Basics of Computational Fluid Dynamics (CFD)",
+          "Various Case Studies on ANSYS Fluent",
+          "FEA analysis using ANSYS",
+          "Simulation of Battery Thermal Management in Electric Vehicle",
+          "Vibration and Fatigue Analysis of Battery Pack",
+          "Simulation of Structural Integrity for Motor Mount",
+          "Thermal Analysis of Liquid-Cooled Radiator",
+          "CFD Study of External Cooling Mechanism for Battery Pack",
+          "Vulnerability analysis"
+        ],
+        "references": [
+          "James Larminie and John Lowry, \u201cElectric Vehicle Technology Explained\", Wiley, 2nd ed, 2012, ISBN: 978-1-119-94273-3. Eric Miller and Jeff Strain, \u201cIntroduction to the ANSYS Parametric Design Language (APDL)\", Phoenix, 2nd Ed, 2016, ISBN: 978-1537133997",
+          "Narayana, Lakshmi, et al., \u201cAdvances in Automation, Signal Processing, Instrumentation, and Control\", Springer, 2021, ISBN 9789811582202",
+          "P Seshu., \u201cTextbook of Finite Element Analysis\", Prentice-Hall of India, 2010, ISBN-13: 9788120323155",
+          "Turner, John., \u201cProgress in Modelling and Simulation of Batteries\", SAE International, 2016, ISBN-13: 9780768082821",
+          "Y Nakasone, et al., \u201cEngineering Analysis with ANSYS Software\", Butterworth-Heinemann, 2018, ISBN-13: 9780081021644",
+          "Mohamed Amine Fakhfakh, \u201cModeling and Simulation for Electric Vehicle Applications\", BoD \u2013 Books on Demand, 2016, ISBN-13: 9789535126362",
+          "Atul Sharma, \"Introduction to Computational Fluid Dynamics: Development, Application and Analysis\", Wiley, 1st Ed, 2017, ISBN: 9781119002994",
+          "\"Introduction to Electric Vehicles\" - offered by IIT Delhi on NPTEL Link: https://archive.nptel.ac.in/courses/108/106/108106170/"
+        ],
+        "flags": [
+          "missing_semester",
+          "practical_sessions_with_zero_p_credits",
+          "department_mismatch (AAE vs Industrial Engineering context)"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4311",
+        "title": "INTRODUCTION TO COMPOSITE MATERIALS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Definition",
+          "Classification",
+          "Types of matrices & reinforcements",
+          "Characteristics & selection of Fiber",
+          "Laminated & Particulate composites",
+          "Prepregs",
+          "Micro mechanical analysis of a lamina",
+          "Rule of mixture",
+          "Processing of composites",
+          "Hand-layup",
+          "Spray-layup",
+          "Compression molding Injection molding",
+          "Reaction injection molding",
+          "Autoclaving",
+          "Resin transfer molding",
+          "Filament winding",
+          "Pultrusion",
+          "Sheet molding",
+          "Secondary processing of polymer composites: Joining",
+          "Adhesive joining",
+          "Mechanical joining",
+          "Microwave joining",
+          "Induction and resistance welding",
+          "Drilling of polymer composites",
+          "Testing of polymer composites",
+          "ASTM standards test for physical properties",
+          "mechanical properties",
+          "SEM analysis",
+          "Application developments",
+          "Aircrafts",
+          "Missiles",
+          "Space",
+          "Automobile",
+          "Electrical and electronics",
+          "Marine",
+          "Recreational",
+          "sports equipment",
+          "Construction"
+        ],
+        "references": [
+          "Mein Schwartz, Composite Materials Handbook, McGraw Hill Publication, 1984.",
+          "Autar K. Kaw, Mechanics of Composite Materials, CRC Press New York.",
+          "Krishan K. Chawla, Composite Material Science and Engineering, Springer Publication, 1987.",
+          "Mallik P. C., Fiber Reinforced Composites, Marcel Decker Publication, 1993."
+        ],
+        "flags": [
+          "missing_sem",
+          "syllabus_structure_issue"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4312",
+        "title": "INTRODUCTION TO BIOMECHANICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Biomechanics: Brief history, Contributions of Biomechanics to health science, Contributions of Biomechanics to the field of Mechanics",
+          "Hemodynamics: Rheology of blood, Large artery hemodynamics, Small artery hemodynamics",
+          "Ocular biomechanics: Ocular anatomy, Biomechanics of glaucoma, Ocular blood",
+          "Biomechanics of respiratory system: Gross anatomy of the conducting airways and pulmonary vasculature, Anatomy of associated structures, Biomechanics of breathing, Mass transfer and particle transport in lungs",
+          "Skeletal biomechanics: Introduction to bone, Biomechanics of cortical and trabecular bone, Structure of ligament, tendon and cartilage and its biomechanics",
+          "Biomechanics of Cardiovascular system: Biomechanical hierarchy in cardiovascular physiology, Structure-function relationship in cardiovascular tissues, Biomechanical feedback in the cardiovascular system",
+          "Experimental and computational methods"
+        ],
+        "references": [
+          "Fung Y C. Biomechanics: motion, flow, stress, and growth. Springer Science & Business Media.",
+          "Oomens C, Brekelmans M, Loerakker S, Baaijens F. Biomechanics: concepts and computation. Cambridge University Press.",
+          "Ethier C R, Simmons CA. Introductory biomechanics: from cells to organisms. Cambridge University Press.",
+          "Hirasawa Y, Sledge CB, Woo SL. Clinical biomechanics and related research. Springer Science & Business Media."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4313",
+        "title": "INTRODUCTION TO OPERATIONS RESEARCH",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction: Definition, Phases, Applications, Advantages and Limitations of Operations Research",
+          "Linear programming problems: Assumptions, Formulation of LPP for business and non-business applications. Graphical solutions, Special cases \u2013 Degeneracy, Infeasible Solution, Unbalanced and Multiple optimal solutions. Minimization and Maximization cases. Simplex algorithm, Concept of dual",
+          "Transportation problem: Formulation, generating initial solutions using North-West Corner (NWC) Method, Least Cost (LC) Method, Vogel's Approximation Method (VAM). MODI Method",
+          "Assignment problem, Travelling salesman problem",
+          "Game theory: Introduction to game theory, Two-person-zero sum games, Pure and Mixed Strategies, Solution methods for 2 x 2 games, Graphical method (2 x n games; m x 2 games)",
+          "Queueing theory: Introduction to queueing theory, Poisson arrival rate and Exponential service times, System characteristics, Problems on the models- (M/M/1) :( /FIFO), (M/M/1): (N/FIFO)",
+          "Critical Path Method (CPM). Project Evaluation and Review Technique (PERT)"
+        ],
+        "references": [
+          "Taha H. A., Operations Research, Pearson Education, (7e), 2002.",
+          "W.L. Winston, Operations Research, Thomson Asia, 2003.",
+          "Vohra N. D., Quantitative Techniques in Management, New Delhi., 2007.",
+          "Sharma S. D., Operations Research, Kedar Nath Ramnath Publications, (14e), 2005."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4314",
+        "title": "ENERGY ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Steam power plant: Different types of fuels used for steam generation, equipment for burning coal in lump form, oil burners, advantages and disadvantages of using pulverized fuel, pulverized fuel furnaces, coal and ash handling, high and super critical pressures",
+          "Diesel engine power plant: Applications of diesel engines in power field, method of starting diesel engine, auxiliaries, layout of diesel power plant",
+          "Hydro\u2013electric plant: hydrographs, flow duration and mass curves, unit hydrograph and numerical, different types of plants, accessories, general layout of hydel power plants",
+          "Nuclear power plant: Principles of release of nuclear energy, nuclear fuels used in the reactors, elements of nuclear reactor, reactor types, radiation hazards, shielding's, and radioactive waste disposal",
+          "Solar energy: Solar extra-terrestrial radiation and radiation at the earth surface, radiation measuring instruments, solar energy conversion systems",
+          "Biomass energy: Photosynthesis, anaerobic fermentation, classification, gasifiers",
+          "Wind energy: Properties of wind, wind velocity and power from wind, types of wind machines and their characteristics",
+          "Other energy conversion techniques: Fundamental characteristics of tidal power, harnessing tidal energy and limitations, principle of working of ocean thermal energy, Rankine cycle, limitations of OTEC, geothermal energy conversion working principle, types of geothermal stations, limitations"
+        ],
+        "references": [
+          "Nag P. K., Power Plant Engineering, Tata McGraw Hill, 2002.",
+          "Domkundwar, Power Plant Engineering, Dhanpat Rai Publications, 2003.",
+          "Rai G. D., Non-Conventional Energy Sources, Khanna Publishers.",
+          "Rao S. and Parulekar B. B., Energy Technology, Khanna Publishers, 2004."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4315",
+        "title": "INTRODUCTION TO FINITE ELEMENT ANALYSIS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Basics Concepts of FEA: General steps involved in FEM, Convergence requirements, Pascal's triangle, Higher order quadratic elements; Local and Global coordinate systems, Shape Functions and properties",
+          "Basics of theory of Elasticity",
+          "Finite Element Formulation by DSM: FE formulation of 1D linear element by direct stiffness method, Elimination and Penalty approach",
+          "Application to bar and plane truss problems",
+          "Introduction to space truss",
+          "FE formulation of Beam element by energy approach",
+          "Application to Beam problems",
+          "Structure of commercial FEM software package",
+          "Mini project on using FEA software",
+          "Mini Project on using computation approach"
+        ],
+        "references": [
+          "Chandrupatla T. R. and Belegundu A. D., \u201cIntroduction to Finite Elements in Engineering\u201d, Pearson Education, New York.",
+          "Daryl L. Logan, \u201cA First course in Finite Element Method\u201d, Fifth Edition, Cengage Publishing, India",
+          "David V. Hutton, \u201cFundamentals of Finite Element Analysis\u201d, Tata McGraw Hill, India.",
+          "J. N. Reddy, \u201cAn Introduction to Finite Element Method\u201d, Fourth Edition, McGraw Hill International Edition, New York."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4316",
+        "title": "BIO-FLUID DYNAMICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Cardiovascular physiology",
+          "Fundamentals of fluid mechanics",
+          "Mathematical solutions for bio-fluid problems",
+          "Computational fluid dynamics (CFD) and Flow measurement in the cardiovascular",
+          "Flow over immersed body (incompressible)",
+          "Rheology of blood",
+          "Non-Newtonian fluid",
+          "Introduction to Fluid Machinery and biomedical application"
+        ],
+        "references": [
+          "K. B. Chandran, Biofluid mechanics: the human circulation. Taylor and Francis. 2nd edition.",
+          "Kundu P K, Cohen I M and Dowling D R, Fluid Mechanics\u201d, 5th Edition, Academic Press.",
+          "Mazumdar J, Biofluid Mechanics, World Scientific, Singapore.",
+          "L. Waite. Applied Biofluid Mechanics. 1st edition, McGraw-Hill Professional."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MIE 4317",
+        "title": "INTRODUCTION TO ENGINEERING ASSET MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Basic concepts",
+          "Definitions",
+          "Review of Existing Frameworks for Asset Management",
+          "A framework for AM system",
+          "Requirement and Challenges",
+          "Asset Management Drivers",
+          "Benefits of Asset Management",
+          "Asset Management Standards: ISO 55000, Overview, principles, and terminology",
+          "ISO 55001 Requirements",
+          "ISO 55002 Guidelines on the application of ISO 55001",
+          "Asset Management Principles: Barriers to implement Asset Management, Asset Life Cycle, Balancing Cost, Risk and Performance",
+          "Principles of asset integrity and management: Asset Management Tools and Elements of Asset Assessment (Performance Management), Terminology used in asset management policy and requirements",
+          "Fundamentals of Reliability Engineering: Maintenance Management; maintenance contracts and contract administration, reliability centred maintenance; total productive maintenance",
+          "Preventive component replacement and capital equipment replacement decisions"
+        ],
+        "references": [
+          "Campbell, J.D., Jardine, A.K.S. McGlynn, J. \u201cAsset Management Excellence: Optimizing Equipment Life-Cycle Decisions\u201d, 2nd Edn., CRC Press, Boca Raton, FL, 474 pp. 2011.",
+          "Jardine, A.K.S. and Tsang, A.H.C. \u201cMaintenance, Replacement and Reliability: Theory and Applications\u201d, CRC Taylor & Francis, New York, 322 pp. 2006.",
+          "Kelly, A. \u201cStrategic Maintenance Planning\u201d, Butterworth Heinemann, Oxford, 284 pp. 2006.",
+          "Kelly, A. \u201cManaging Maintenance Resources\u201d, Butterworth Heinemann, 292 pp. 2006.",
+          "Lawrenson, J. \u201cEffective Spares Management\u201d, International Journal of Physical Distribution & Materials Management, Vol 16, No. 5., 111 pp., 1986.",
+          "O'Conner, P.D.T. \u201cPractical Reliability Engineering\u201d, 5th Edn., John Wiley and Sons, 2012.",
+          "Moubray, J. \u201cReliability-Centered Maintenance\u201d, 2nd Edition, Industrial Press Inc., NY, 414 pp., 1992."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      }
+    ]
+  }
+}

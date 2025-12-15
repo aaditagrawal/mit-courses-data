@@ -1,0 +1,1810 @@
+{
+  "department": {
+    "name": "School of Computer Engineering",
+    "courses": [
+      {
+        "sem": null,
+        "code": "MAT 2101",
+        "title": "DISCRETE MATHEMATICAL STRUCTURES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Boolean Algebra: Partial ordering sets, Lattices\u2013simple properties, Boolean algebras, Boolean polynomials: Disjunctive normal form (DNF) and Conjunctive normal form (CNF)",
+          "Elementary configuration: Permutations and Combinations (basics), Generating function, Applications of Principle of inclusion and exclusion, Partitions, compositions, Fikes ordering of permutations",
+          "Graph theory: Basic definitions, properties, Eulerian graphs, Hamiltonian graphs, Trees and Properties, Matrices associated with graphs, Algorithms for finding shortest path",
+          "Group theory: Groups-subgroups, group of symmetries and applications, Cyclic groups, Cosets, Lagrange's Theorem",
+          "Propositional and Predicate Calculus: Well-formed formula, Connectives, Quantifications, Inference theory of Propositional and Predicate calculus",
+          "Matrix Decompositions: Prerequisites, QR, LU and SVD, and Applications"
+        ],
+        "references": [
+          "C. L. Liu: Elements of Discrete Mathematics, 2nd edition, 2007, Mc Graw Hill, New Delhi. https://pdfcoffee.com/elements-of-discrete-mathematics-liu-c-l--pdf-free.html",
+          "J. P. Trembaly and R. Manohar: Discrete Mathematics Structures with application to computer science, 2012,Tata Mc Graw Hill. https://www.academia.edu/37284735/Discrete_Mathematical_Structures_with_Applications_by_Manohar_pdf",
+          "E. S. Page and L. B. Wilson: An introduction to computational combinatorics, edn., 1979, Cambridge Univ. Press.",
+          "Narasingh Deo: Graph theory with Applications to computer science, Dover Publications, 2016. Originally published: Englewood Cliffs, N e w J e r s e y : P r e n t i c e - H a l l , I n c . , 1 9 7 4 . https://www.shahucollegelatur.org.in/Department/Studymaterial/sci / it/BCS/FY/book.pdf",
+          "F. Harary, Graph Theory, Narosa Publishing House, New Delhi, Second edition, 1990, Reprint 2013. https://users.metu.edu.tr/aldoks /341/Book%201%20(Harary).pdf",
+          "David C. Lay, Linear Algebra & Its Applications, Pearson Pub. 2016. https://home.cs.colorado.edu/~alko5368/lecturesCSCI2820/math book.pdf",
+          "Alan Tucker, Applied Combinatorics, Wiley Publishers, 2012. https://www.isinj.com/mtusamo/Applied%20Combinatorics%20(6t h%20Edition)%20by%20Alan%20Tucker%20Wiley%20(2012).pdf https://onlinecourses.nptel.ac.in/noc24_ma26/preview",
+          "Introduction to Group Theory https://nptel.ac.in/courses/111106086",
+          "Discrete Mathematics"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSS 2101",
+        "title": "DATA STRUCTURES",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Arrays",
+          "Sparse Matrix",
+          "Pointers and array of Pointers",
+          "Recursion",
+          "Memory allocation functions",
+          "Structures and array of structures",
+          "Linear Search",
+          "Binary Search",
+          "Merge sort",
+          "quick sort",
+          "Singly Linked List",
+          "Chains",
+          "Doubly Linked Lists",
+          "Circular Linked Lists",
+          "Linked Lists with Header Node",
+          "Applications using linked lists",
+          "Polynomials",
+          "Additional List Operations",
+          "Stacks",
+          "Queues",
+          "Circular Queues",
+          "Priority Queues and their Representation",
+          "Double Ended Queue",
+          "Input/Output Restricted Queues",
+          "Evaluation of Expression",
+          "Infix",
+          "Postfix",
+          "Prefix expressions and their conversions",
+          "Linked stacks",
+          "Linked Queues",
+          "Representation of Trees",
+          "Binary Trees",
+          "Expression tree",
+          "Binary Tree Traversals",
+          "Additional Binary Tree Operations",
+          "Threaded Binary Trees",
+          "Binary Search Trees - Definition",
+          "searching a Binary Search Tree",
+          "Inserting into and Deletion from Binary Search Tree",
+          "AVL trees",
+          "Red-Black Trees",
+          "Introduction",
+          "Definitions",
+          "Graph Representations",
+          "Depth First Search",
+          "Breadth First Search"
+        ],
+        "references": [
+          "Behrouz A. Forouzan, Richard F. Gilberg, A Structured Programming Approach Using C,(3e), Cengage Learning India Pvt. Ltd, India, 2007.",
+          "Ellis Horowitz, Sartaj Sahani, Susan Anderson and Freed, Fundamentals of Data Structures in C, (2e), Silicon Press, 2007.",
+          "Richard F. Gilberg, Behrouz A. Forouzan, Data structures, A Pseudocode Approach with C, (2e), Cengage Learning India Pvt. Ltd, India, 2009.",
+          "Tenenbaum Aaron M., Langsam Yedidyah, Augenstein Moshe J., Data structures using C, Pearson Prentice Hall of India Ltd., 2007.",
+          "Debasis Samanta, Classic Data Structures, (2e), PHI Learning Pvt. Ltd., India, 2010.",
+          "https://onlinecourses.swayam2.ac.in/cec25_hs62/preview",
+          "[Introduction to Data Structures, Punjabi University, Patiala]"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSS 2102",
+        "title": "DATA COMMUNICATION AND COMPUTER NETWORK",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to data communication",
+          "Digital and analog signals",
+          "Line coding",
+          "Modulation schemes",
+          "Multiplexing",
+          "Transmission media",
+          "Introduction to computer network",
+          "Protocol",
+          "Layered architecture",
+          "Topology and network devices",
+          "Data link layer services",
+          "Error detection and correction",
+          "Flow control",
+          "Access control: CSMA/CD",
+          "Ethernet Frame",
+          "Network layer services",
+          "IP addressing",
+          "IP datagram",
+          "Fragmentation",
+          "Options",
+          "Routing protocols",
+          "ARP",
+          "ICMP",
+          "Transport layer services-TCP, UDP",
+          "Application layer services- DNS, DHCP, HTTP, etc."
+        ],
+        "references": [
+          "Behrouz A. Forouzan, TCP/IP Protocol Suite, 4th Edition, Tata McGraw Hill 2017",
+          "Behrouz Forouzan, Introduction to data communication & networking (5e), Tata McGraw Hill, New Delhi-2017",
+          "William Stallings, Data & Computer Communications (10e), Pearson Education Inc., Noida, 2017",
+          "Andrew S. Tanenbaum, Computer Network, 5th Edition Prentice Hall of India Pvt Ltd 2016",
+          "Larry L. Peterson, Bruce S. Davie, Computer Networks, 6th Edition, 2020"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSS 2103",
+        "title": "DATA ANALYTICS",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Analytics: Descriptive, Predictive, Prescriptive Analytics, steps in data analytics projects",
+          "Data exploration: Data sources, data collection, sampling distributions, data types, describing data using measures of central tendency, distributions, data tabulation, and visualization. case studies",
+          "Data Preparation: Data Cleaning, Data Imputation, Multivariate data analysis using correlation, hypothesis tests, ANOVA, and confidence intervals. Feature Engineering, Data Integration, Data Transformations, Dimensionality reduction, PCA",
+          "Recommender Systems: Generating Association Rules using Apriori Algorithm, Measures of Pattern Interestingness, Metrics-Support, Confidence, Lift, cosine similarity. Collaborative Filtering Techniques- User-based Similarity and Item-based Similarity",
+          "Time Series: basics, time zones, period arithmetic, moving window functions. Case studies"
+        ],
+        "references": [
+          "Glenn J. Myatt, Wayne P. Johnson, Making Sense of Data: A Practical Guide to Exploratory Data Analysis and Data Mining, John Wiley Publication, Second Edition, 2014",
+          "Jiawei Han, Micheline Kamber, Jian Pei, Data Mining Concepts and Techniques Morgan Kaufmann Publishers, Third Edition, 2012",
+          "U. Dinesh Kumar, Business Analytics: The Science of Data-Driven Decision Making, Second Edition, Wiley Publications, 2021",
+          "Joel Grus, Data Science from Scratch: First Principles with Python, O'Reilly Media, 2019",
+          "Anil Maheshwari, Data analytics: A comprehensive guide to data analysis and decision-making, Wiley Publications, 2021",
+          "https://archive.nptel.ac.in/courses/110/106/110106072/",
+          "Introduction to Data Analytics. https://onlinecourses.nptel.ac.in/noc21_cs45/preview",
+          "Data Analytics with Python."
+        ],
+        "flags": [
+          "missing_semester",
+          "missing_core_tag"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSS 2104",
+        "title": "DIGITAL SYSTEMS AND COMPUTER ORGANIZATION",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Simplification of logical expressions-K-Map simplification",
+          "Incompletely specified functions",
+          "Multilevel NAND and NOR Circuits",
+          "Arithmetic operations-addition of unsigned and signed numbers, BCD adder, Fast adder, Array multiplier",
+          "Combinational circuits- Multiplexer, Decoder, Encoder, Arithmetic comparison circuits",
+          "Sequential circuits- Flip-Flops, Design of synchronous sequential circuits, Ripple counter, Registers, Shift registers, Ring counter, Johnson counter, Programmable Logic Devices",
+          "Instruction Set Architecture- Memory location, addresses and operations, Instructions and Instruction Sequencing, Addressing modes, RISC and CISC",
+          "Arithmetic Logic Unit- Multiplication of signed numbers, Booth's algorithm, Division, IEEE standard floating-point representation, Floating point arithmetic",
+          "Control Unit- Hardwired and micro-programmed approach for booths multiplier",
+          "Memory System- Cache memories, Magnetic hard disk",
+          "Basic Input/Output- I/O Device Interface, Program-Controlled I/O, Interrupts",
+          "Parallel processing- Pipelining, Hardware Multithreading, Vector Processing, Shared-Memory Multiprocessors, Cache Coherence"
+        ],
+        "references": [
+          "Stephen Brown and Zvonko Vranesic, Fundamentals of Digital Logic with Verilog Design (3e), Tata McGraw Hill 2014",
+          "Morris Mano M. and Michael D. Ciletti., Digital Design: With an introduction to the Verilog HDL (5e), PHI Learning 2007",
+          "Carl Hamacher, Zvonko Vranesic and Safwat Zaky, Computer Organization and Embedded Systems, (6e), McGraw Hill Publication, 2017",
+          "Mohammed Rafiquzzaman and Rajan Chandra, Modern Computer Architecture, Galgotia Publications Pvt. Ltd., 2015",
+          "Ronald J. Tocci, Neal S. Widmer and Greegory L Moss, Digital Systems: Principles and Applications(12e), Pearson Education India, 2017",
+          "William Stallings, Computer Organization and Architecture, (10e), Pearson, 2017"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSS 2111",
+        "title": "DATA STRUCTURES LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Solving Problems Using Arrays, Pointers and Dynamic Memory Allocation Functions",
+          "Ragged Arrays, Structures",
+          "Solving Problems Using Recursion (Sorting And Searching)",
+          "Linked List Concepts - Singly And Doubly Linked Lists",
+          "Circular Singly And Circular Doubly Linked Lists",
+          "Linked List Applications",
+          "Implementation of Stack Using Arrays And Linked Lists",
+          "Stack Applications",
+          "Implementation of Queue Using Arrays And Linked Lists",
+          "Queue Applications",
+          "Tree Concepts - Binary Tree And Binary Search Tree",
+          "AVL Tree",
+          "Tree Applications"
+        ],
+        "references": [
+          "Behrouz A. Forouzan, Richard F. Gilberg, A Structured Programming Approach Using C,(3e), Cengage Learning India Pvt. Ltd, India, 2007.",
+          "Ellis Horowitz, Sartaj Sahani, Susan Anderson and Freed, Fundamentals of Data Structures in C, (2e), Silicon Press, 2007.",
+          "Richard F. Gilberg, Behrouz A. Forouzan, Data structures, A Pseudocode Approach with C, (2e), Cengage Learning India Pvt. Ltd, India, 2009.",
+          "Tenenbaum Aaron M., Langsam Yedidyah, Augenstein Moshe J., Data structures using C, Pearson Prentice Hall of India Ltd., 2007.",
+          "Debasis Samanta, Classic Data Structures, (2e), PHI Learning Pvt. Ltd., India, 2010."
+        ],
+        "flags": [
+          "missing_sem",
+          "invalid_credits_sum"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "CSS 2112",
+        "title": "DIGITAL SYSTEMS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Simulation of Logic Circuits Using Verilog: Simplification of Expressions using Kmap: SOP and POS Forms",
+          "Multilevel NAND, NOR Circuits",
+          "Arithmetic Circuits: Half Adder, Full Adder, Multi-Bit Adder/Subtractor",
+          "BCD Adder",
+          "Multiplexers",
+          "Decoders and Encoders",
+          "Latches and Flip-Flops: D, JK, and T Flip-Flops",
+          "Registers: Shift Register",
+          "Design of sequential circuits"
+        ],
+        "references": [
+          "Stephen Brown and Zvonko Vranesic, Fundamentals of Digital Logic with Verilog Design, (3e), Tata McGraw Hill, 2014",
+          "Morris Mano M., Digital Design, (5e), PHI Learning 2007"
+        ],
+        "flags": [
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 2201",
+        "title": "PROBABILITY AND OPTIMIZATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Axioms of probability",
+          "Baye's theorem - Applications",
+          "One dimensional and Two-dimensional random variables",
+          "mean and variance",
+          "properties",
+          "Chebyshev's inequality",
+          "Correlation Coefficient",
+          "Markov Chains",
+          "Distributions: Discrete and Continuous",
+          "Binomial",
+          "Poisson",
+          "exponential",
+          "Normal and Chi-square",
+          "Moment generating function",
+          "properties",
+          "Functions of random variables - One-Two dimensional",
+          "Jacobians",
+          "Sampling theory: Central limit theorem",
+          "Point estimation",
+          "Maximum Likelihood Estimator",
+          "Hypothesis: significance level",
+          "Chi square test",
+          "Gradients of Matrices: Useful Identities for Computing Gradients",
+          "Backpropagation and Automatic Differentiation",
+          "Constrained Optimization"
+        ],
+        "references": [
+          "P. L. Meyer: Introduction to probability and statistical applications, 2nd edition, 1980, Oxford and IBH Publishing, Delhi",
+          "Miller, Freund and Johnson, Probability and Statistics for Engineers, 8th edn., PHI, 2011",
+          "Hogg and Craig, Introduction to Mathematical Statistics, 6th edn, 2012, Pearson Education, New Delhi",
+          "Sheldon M. Ross, Introduction to Probability and Statistics for Engineers and Scientists, Elsevier, 2010",
+          "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong, Mathematics for Machine Learning, Cambridge University Press, 2020",
+          "J. Medhi, Stochastic Processes, Third Edition, New Age International, 2009"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSS 2201",
+        "title": "DATABASE SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Database-System Applications",
+          "Database Languages",
+          "Relational Databases",
+          "Database Design",
+          "Data Storage and Querying",
+          "Database Architecture",
+          "Database Schemas",
+          "Keys",
+          "File Organization",
+          "Organization of Records in Files",
+          "Relational Query Languages",
+          "Relational Operations",
+          "SQL Data Definition",
+          "SQL Data Types and Schemas",
+          "Integrity Constraints",
+          "Set Operations",
+          "Aggregate Functions",
+          "Overview of SQL Query Language",
+          "Basic Structure of SQL Queries",
+          "Join Expressions",
+          "Overview of Query Processing",
+          "Measure of Query Cost",
+          "Selection Operation",
+          "Sorting",
+          "Join Operation",
+          "Other Operations",
+          "Overview of the Design Process",
+          "The Entity-Relationship Model",
+          "Extended E-R Features",
+          "Reduction to Relational Schemas",
+          "Features of Good Relational Design",
+          "Atomic Domains and Normalization",
+          "Transaction Concept",
+          "Failure Classification",
+          "Storage, Recovery and Atomicity",
+          "Recovery algorithm"
+        ],
+        "references": [
+          "Silberschatz, Korth, Sudarshan, Database System Concepts, (7e), McGrawHill, New York, 2011.",
+          "Pramod J Sadalage, Martin Fowler, NoSQL Distilled, Addison-Wesley, 2013.",
+          "Ramez Elmasri and Shamkant Navathe, Durvasula V L N Somayajulu, Shyam K Gupta, Fundamentals of Database Systems, (6e), Pearson Education, United States of America, 2011.",
+          "Thomas Connolly, Carolyn Begg, Database Systems \u2013 A Practical Approach to Design, Implementation and Management, (4e), Pearson Education, England, 2005.",
+          "Peter Rob, Carlos Coronel, Database Systems\u2013Design, Implementation and Management, (10e), Course Technology, Boston, 2013.",
+          "https://onlinecourses.nptel.ac.in/noc25_cs40/preview Introduction to Database Systems"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSS 2202",
+        "title": "DESIGN AND ANALYSIS OF ALGORITHMS",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Fundamentals of Algorithms",
+          "Important Problem Types",
+          "Analysis of algorithm efficiency",
+          "Analysis Framework: Asymptotic Notations and Basic Efficiency Classes",
+          "Mathematical Analysis of Non-recursive and Recursive Algorithms",
+          "Brute force Techniques",
+          "Divide and Conquer",
+          "Decrease and Conquer: Insertion Sort, Depth First Search, Breadth First Search, Topological Sorting",
+          "Transform and Conquer: Presorting, BST, Heapsort",
+          "Space and Time tradeoffs: Input Enhancement in String Matching",
+          "Dynamic Programming: Warshall's and Floyd's Algorithms, The Knapsack Problem",
+          "Greedy Techniques: Prim's, Kruskal's and Dijkstra's Algorithm, Huffman Trees",
+          "Coping with limitations of algorithmic power, P, NP, and NP-complete Problems",
+          "Backtracking: n\u2013Queens problem, Hamiltonian Circuit Problem, Subset\u2013Sum Problem",
+          "Branch and Bound: Assignment Problem, Knapsack Problem, TSP"
+        ],
+        "references": [
+          "Anany Levitin, Introduction to the Design and Analysis of Algorithms, (3e), Pearson Education, 2017",
+          "Ellis Horowitz and Sartaj Sahni, Computer Algorithms/C++, (2e), University Press, 2007",
+          "Thomas H. Cormen, Charles E. Leiserson, Ronal L, Rivest, Clifford Stein, Introduction to Algorithms, (2e), PHI, 2006",
+          "Kleinberg, Jon, and Tardos, \u00c9va. Algorithm Design. United Kingdom, Pearson, 2013",
+          "https://archive.nptel.ac.in/courses/106/105/106105164/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSS 2203",
+        "title": "ARTIFICIAL INTELLIGENCE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction: What is Artificial Intelligence (AI)? Turing test, history and the state of the art of AI",
+          "Intelligent Agents: How agents should act, mapping, agents and environments, structure of intelligent agents",
+          "Problem Solving and Search Techniques: Search state space representation, production systems, problem and production system characteristics, uninformed and heuristic search techniques",
+          "Logical Agents: The wumpus world environment, propositional logic, propositional theorem proving, agents based on propositional logic",
+          "Using Predicate Logic: Representing instances and ISA relationship, compatible functions and predicates",
+          "Knowledge Representation: Ontological engineering, knowledge representation using predicate calculus, knowledge engineering process",
+          "Quantifying Uncertainty and Probabilistic Reasoning: Probability and Bayes' theorem, design and development of tutorials on expert systems, expert system shells, knowledge acquisition"
+        ],
+        "references": [
+          "Stuart Russell and Peter Norvig, Artificial Intelligence A Modern Approach (3e), Pearson Education, Third Edition, 2010",
+          "Elaine Rich, Kevin Knight, Shivashankar B. Nair, Artificial Intelligence (3e), Tata McGraw Hill, 2010",
+          "Saroj Kaushik, Artificial Intelligence, Cengage Learning Publications, First Edition, 2011",
+          "Don W. Patterson, Introduction to Artificial Intelligence and Expert Systems, PHI Publication, 2006",
+          "https://nptel.ac.in/courses/106105079",
+          "https://nptel.ac.in/courses/106102220"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSS 2204",
+        "title": "OPERATING SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to operating systems",
+          "Operating system services",
+          "Operating system structure",
+          "System calls",
+          "Process management: Process concept, Threads, Inter-process communication, CPU Scheduling, Process synchronization",
+          "Handling deadlocks: Deadlock characterization, Deadlock detection, Prevention, Avoidance and recovery",
+          "Memory management: Main memory, Swapping, Contiguous memory allocation, Paging, Segmentation, Virtual memory: Demand paging, Page replacement, Thrashing, Allocating kernel memory",
+          "Storage management: File management, Disk scheduling, Case study on Unix based operating system: Design principles, Kernel modules",
+          "Basic concepts of real time operating systems: Classification of real time systems, Microkernels, Scheduling"
+        ],
+        "references": [
+          "Abraham Silberschatz, Peter Baer Galvin and Greg Gagne, Operating System Concepts, (10e), Wiley, 2018",
+          "William Stallings, Operating Systems: Internals and Design Principles (9e), Pearson, 2017",
+          "Phillip A Laplante, Seppo J Ovaska, Real time systems design and analysis, (4e), Wiley, 2013",
+          "Rajib Mall, Real time systems: Theory and Practice, (2e), Pearson, 2009",
+          "https://onlinecourses.nptel.ac.in/noc24_cs108/preview Operating System Fundamentals"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSS 2211",
+        "title": "OPERATING SYSTEMS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Demonstrate the working of UNIX-based operating systems by experimenting with shell commands and developing shell scripts",
+          "File handling and advanced searching tools, combining the preliminary shell commands to create useful scripts",
+          "Develop applications that utilize POSIX inter-process communication system calls",
+          "Implement CPU scheduling algorithms, synchronization, memory and deadlock management tools"
+        ],
+        "references": [
+          "Richard Blum, Christine Bresnahan, Linux Command Line Shell Scripting Bible, (3e), Wiley, 2018",
+          "Silberschatz A., Galvin P.B.& Gagne G., Operating System Concepts, (10e)Wiley, 2012"
+        ],
+        "flags": [
+          "missing_semester",
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": 5,
+        "code": "CSS 2212",
+        "title": "DATABASE SYSTEMS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Data Definition Language",
+          "Data manipulation language",
+          "Basic database query operations",
+          "Integrity Constraints in SQL",
+          "Nested subqueries",
+          "Join Operations",
+          "Views",
+          "PL/SQL Basics",
+          "Exception Handling",
+          "Cursors",
+          "Stored procedures",
+          "Functions",
+          "Packages",
+          "Trigger",
+          "project on design and development of application based on database concepts"
+        ],
+        "references": [
+          "Silberschatz, Korth, Sudarshan, Database System Concepts, (7e)McGrawHill, 2011",
+          "Ivan Bayross, SQL, PL/SQL, (3e), BPB Publications",
+          "Satish Asnani, Oracle Database 11g, PHI, 2010",
+          "Scott Urman, ORACLE \u2013 PL/SQL Programming, Oracle Press"
+        ],
+        "flags": [
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 3101",
+        "title": "ESSENTIALS OF MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Business",
+          "Classification of Industries",
+          "Importance of management for an engineer",
+          "Manager Roles External Environment",
+          "Social Responsibility of managers",
+          "Ethics in managing",
+          "International Business",
+          "Strategies and Policies",
+          "Strategic Planning Process & tool",
+          "Span of Management",
+          "Departmentation",
+          "Recruitment",
+          "Selection",
+          "Induction",
+          "Orientation",
+          "Leadership and Motivational tools and Techniques",
+          "Group Decision",
+          "Communication",
+          "Management Control Techniques"
+        ],
+        "references": [
+          "Robbins, S. P., Coulter, M., & DeCenzo, D. A. (2022). Fundamentals of Management (11th ed.). Pearson.",
+          "Jones, G. R., & George, J. M. (2022). Essentials of Contemporary Management (9th ed.). McGraw-Hill Education.",
+          "Koontz, H., Weihrich, H., & Cannice, M. V. (2020). Essentials of Management: An International, Innovation, and Leadership Perspective (11th ed.). McGraw Hill Education (India) Private Limited."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 6,
+        "code": "CSS 3101",
+        "title": "FINITE AUTOMATA AND COMPILER DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Languages",
+          "Regular Expressions",
+          "Finite Automata \u2013 DFA, NFA",
+          "Conversion of Regular Expression to NFA",
+          "NFA to DFA",
+          "Context Free Grammars and Parsing",
+          "Derivation",
+          "Parse Trees",
+          "Push Down Automata",
+          "Introduction to Language Processors",
+          "The Structure of a Compiler",
+          "Lexical Analysis: Role of the Lexical Analyzer, Input Buffering",
+          "Specifications and Recognition of Tokens",
+          "Writing a Grammar",
+          "Top Down Parsing",
+          "Bottom Up Parsing",
+          "Introduction to LR parsing",
+          "More powerful LR Parsers",
+          "Syntax-Directed Translation: Syntax-Directed Definitions",
+          "Application of Syntax-Directed Translation",
+          "Intermediate Code Generation: Variants of Syntax Trees, Three Address Code",
+          "Code Generation: Issues in Design of Code Generator, Basic Blocks and Flow Graphs",
+          "Introduction to LEX and YACC"
+        ],
+        "references": [
+          "Peter Linz, an Introduction to Formal Languages and Automata, (6e), Jones & Bartlett Learning, 2019",
+          "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman, Compilers Principles, Techniques and Tools, (2e), Pearson Education, 2010",
+          "J E Hopcroft, Rajeev Motwani & Jeffrey D Ullman, Introduction to Automata Theory, Languages and Computation, (3e), Pearson Education, 2006",
+          "Kenneth C. Louden, Compiler Construction - Principles and Practice, (1e), Thomson, 2007",
+          "John R. Levine, Tony Manson, Doug Brown, LEX & YACC, (2e), O Reilly Media, 2012"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "HUM 3201",
+        "title": "ENGINEERING ECONOMICS AND FINANCIAL MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Time value of money, Interest factors for discrete compounding, Nominal & effective interest rates, Present and future worth of single, uniform, and gradient cash flow, Related problems and case studies",
+          "Bases for comparison of alternatives: present worth, future worth, annual worth and rate of return method, Replacement analysis",
+          "Concepts of breakeven analysis and its use in multiple alternative evaluation",
+          "Physical & functional depreciation, Straight line depreciation, Declining and double declining balance method of depreciation",
+          "Financial statements and its analysis using ratios",
+          "Methods of describing project risk: sensitivity analysis, break-even and scenario analysis"
+        ],
+        "references": [
+          "Park, C. S. (2023). Contemporary Engineering Economics, 7th Edition. Pearson Higher Education & Professional Group.",
+          "B Blank, L. T., & Tarquin, A. (2017). Engineering Economy. United Kingdom: McGraw-Hill Education.",
+          "Riggs, J. L., Bedworth, D. D., & Randhawa, S. U. (2017). Engineering economics. 4th Edition, Tata McGraw Hill Edition.",
+          "White, J. A., Case, K. E., Pratt, D. B., LaScola Needy, K., & Grasman, K. S. (2020). Fundamentals of Engineering Economic Analysis. United Kingdom: Wiley."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSO 3101",
+        "title": "FOUNDATIONS OF COMPUTER VISION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction to computer vision and its applications",
+          "Components of an Image Processing System",
+          "Elements of Visual Perception",
+          "Gray level transformations",
+          "Filtering in spatial and frequency domain",
+          "Image transformations and Colour models",
+          "Edge Detection methods (Laplacian detectors and Canny edge detector)",
+          "Points and patches",
+          "Harris corner detector",
+          "Histogram of Gradients",
+          "Difference of Gaussian detector",
+          "SIFT",
+          "Colour and Texture",
+          "Feature based alignment",
+          "least squares and RANSAC",
+          "Camera models",
+          "Camera calibration",
+          "Stereo vision",
+          "Stereo correspondence",
+          "Epipolar geometry",
+          "Optical flow",
+          "Lucas Kanade method",
+          "KLT tracking method",
+          "Mean shift method",
+          "Dense motion estimation",
+          "object detection and recognition",
+          "OCR \u2013 case study",
+          "Introduction to Computer Vision Library: OpenCV Installation",
+          "Basics of Library",
+          "Image and Video Data Manipulation: Reading Images and Videos",
+          "Image Enhancement Techniques: Filtering in spatial Domain",
+          "Feature Extraction: Edge Detection",
+          "Image Descriptors such as ORB, LBP, SIFT",
+          "Finding Correspondence",
+          "Camera Calibration",
+          "Stereo Vision: Depth Estimation",
+          "Tracking: Optical Flow",
+          "KLT",
+          "Mean shift"
+        ],
+        "references": [
+          "Richard Szeliski, Computer Vision: Algorithms and Applications, 2nd Edition, Springer 2022",
+          "Rafael C. Gonzalez, Richard E. Woods, Digital Image Processing, 4th Edition, Pearson 2018",
+          "David A. Forsyth and Jean Ponce, Computer Vision: A Modern Approach, PHI learning, 2015",
+          "Jan Erik Solem, Programming Computer Vision with Python, O'Reilly, 2012",
+          "Prof. M. K. Bhuyan \u201cComputer Vision and Image Processing - Fundamentals And Applications\u201d, NPTEL course noc25_ee13. https://onlinecourses.nptel.ac.in/noc25_ee13/preview",
+          "Prof. Vineeth N Balasubramanian, \u201cDeep Learning for Computer Vision\u201d, NPTEL course noc21_CS93. https://onlinecourses.nptel.ac.in/noc21_cs93/preview"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CSO 3102",
+        "title": "MACHINE LEARNING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Understanding basics of Machine Learning programming using python",
+          "Fundamental mathematical concepts required for Machine Learning",
+          "Preparation of data for Machine Learning algorithms and Principal Component Analysis (PCA)",
+          "Na\u00efve Bayes classifier",
+          "K-Nearest Neighbour classifier",
+          "Linear, Multilinear and Polynomial Regressions",
+          "Logistic Regression",
+          "Support Vector Machines",
+          "K-Means Clustering",
+          "Hierarchical Clustering",
+          "Decision Trees"
+        ],
+        "references": [
+          "Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani, An Introduction to Statistical Learning with Applications in Python, second edition, Springer, New York, 2021",
+          "Gopinath Rebala \u00b7 Ajay Ravi, Sanjay Churiwala, An Introduction, to Machine Learning, Springer 2019",
+          "M. Gopal, Applied Machine Learning, McGraw Hill Education, 2018",
+          "Trevor Hastie, Robert Tibshirani, and Jerome Friedman, The Elements of Statistical Learning: Data Mining, Inference, and Prediction, second edition, Springer, 2008",
+          "Parteek Bhatia, Machine Learning with Python Principles and Practical Techniques, Cambridge University Press, 2024",
+          "https://nptel.ac.in/courses/106106139",
+          "NPTEL: Introduction to Machine Learning, by Dr.Balaraman Ravindran IIT Madras"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": 6,
+        "code": "CSO 3103",
+        "title": "PARALLEL COMPUTER ARCHITECTURE AND PROGRAMMING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Need of Parallelism; Forms of Parallelism (SISD, SIMD, MISD, MIMD)",
+          "Moore's Law and Multicore; Amdahl's Law; Speedup and performance",
+          "Programming paradigms: Shared and Distributed; PRAM Architecture Model",
+          "Introduction to OpenMP; OpenMP Program constructs; Execution Model and Directives",
+          "MPI Basics; Point-to-point communications; Collective Communications",
+          "Architecture of modern GPU; Kernel function and thread organization; CUDA program structure; Transparent Scalability and Synchronization; GPU memory organization; Memory optimizations in CUDA",
+          "Implement shared memory programs using OpenMP",
+          "Implement distributed memory programs using MPI",
+          "Implement GPU programs using CUDA"
+        ],
+        "references": [
+          "V.Rajaraman, C. Siva Ram Murthy, \u201cParallel Computers Architecture and Programming\u201d Prentice-Hall India, 2016",
+          "D. Kirk and W. Hwu , \u201cProgramming Massively Parallel Processors \u2013A Hands-on approach\u201d, Elsevier Inc.,(4e), 2023",
+          "Michael J. Quinn, \u201cParallel Programming in C with MPI and OpenMP\u201d, McGraw Hill Edition, 2003",
+          "Michael J. Quinn, \u201cParallel Computing\u201d McGraw Hill Edition, 2005"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "CSO 3201",
+        "title": "DEEP LEARNING AND APPLICATIONS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction to Deep Learning & Architectures",
+          "Machine learning basics",
+          "Neural Networks basics",
+          "Feed Forward Neural Networks",
+          "Machine Learning Vs. Deep Learning",
+          "Representation Learning",
+          "Width Vs. Depth of Neural Networks",
+          "Activation Functions",
+          "Regularization and Optimization for Deep Learning",
+          "Convolutional Neural Networks Architectural",
+          "Popular CNN Architectures: ResNet, AlexNet",
+          "Transfer Learning: Transfer learning Techniques",
+          "Variants of CNN: DenseNet, PixelNet",
+          "Sequence Modelling: Recurrent and Recursive Nets",
+          "Recurrent Neural Networks",
+          "Bidirectional RNNs",
+          "Encoder-decoder sequence to sequence architectures",
+          "BPTT for training RNN",
+          "Long Short Term Memory Networks",
+          "Auto Encoders",
+          "Regularized Autoencoders",
+          "stochastic Encoders and Decoders",
+          "Contractive Encoders",
+          "Variational Auto Encoders",
+          "Deep Generative Models",
+          "Introduction to Transformers",
+          "Introduction to tensors",
+          "Computational graphs",
+          "Deep Learning Library in PyTorch",
+          "Deep Feed-forward Neural Networks",
+          "Convolutional Neural Network",
+          "Transfer Learning",
+          "Regularization for Deep Neural Networks",
+          "Recurrent Neural Networks",
+          "Long-Short Term Memory (LSTM)",
+          "Encoder-Decoders",
+          "Variational Auto Encoders",
+          "Generative Adversarial Networks (GANs)"
+        ],
+        "references": [
+          "Ian Goodfellow, Yoshua Bengio and Aaron Courville, \u201c Deep Learning\u201d, MIT Press, 2017",
+          "Eli Stevens, Luca Antiga, and Thomas Viehmann, Deep Learning with PyTorch, Manning, 2020",
+          "Josh Patterson, Adam Gibson \"Deep Learning: A Practitioner's Approach\", O'Reilly Media, 2017",
+          "Umberto Michelucci \u201cApplied Deep Learning. A Case-based Approach to Understanding Deep Neural Networks\u201d Apress, 2018",
+          "Kevin P. Murphy \"Machine Learning: A Probabilistic Perspective\", The MIT Press, 2012",
+          "Deep Learning - Course, By Prof. Prabir Kumar Biswas | IIT Kharagpur, 12 Weeks",
+          "Deep Learning - IIT Ropar - Course, By Prof. Sudarshan Iyengar, Prof. Padmavati | IIT Ropar, Punjab Engineering College (Deemed to be University), 12 Weeks",
+          "Machine Learning And Deep Learning - Fundamentals And Applications - Course, By Prof. M. K. Bhuyan | IIT Guwahati, 12 Weeks"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 5,
+        "code": "CSO 3202",
+        "title": "NATURAL LANGUAGE PROCESSING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "elective",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction",
+          "Text Normalization",
+          "Edit Distance",
+          "N-gram Language Models",
+          "Part-of-Speech Tagging",
+          "Hidden Markov Models",
+          "Formal Grammars of English",
+          "Parsing with Context-Free Grammars",
+          "Statistical Parsing",
+          "Naive Bayes",
+          "Text Classification",
+          "Sentiment",
+          "Logistic Regression",
+          "Vector Semantics and Embeddings",
+          "Neural Networks",
+          "Neural Language Models",
+          "Sequence Labeling for Parts of Speech",
+          "Named Entities",
+          "RNNs",
+          "LSTMs",
+          "Transformers",
+          "Large Language Models",
+          "Fine-tuning",
+          "Masked Language models",
+          "Prompting",
+          "In-Context Learning",
+          "Instruct Tuning",
+          "Applications: Machine Translation",
+          "Question answering"
+        ],
+        "references": [
+          "Daniel Jurafsky & James H. Martin, Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models, (3e), Pearson, 2024",
+          "Nitin Indurkhya, Fred J. Damerau, Handbook of Natural Language Processing, Second Edition, Chapman & Hall/CRC, 2010",
+          "Eisenstein, Jacob, Introduction to Natural Language Processing, First Edition, MIT Press, 2019",
+          "Uday Kamath, John Liu, and James Whitaker, Deep Learning for NLP and Speech Recognition, 1st Edition, Springer, 2019",
+          "NPTEL: Natural Language Processing By Prof. Pawan Goyal, IIT Kharagpur",
+          "NPTEL: Deep Learning for Natural Language Processing By Prof. Pawan Goyal, IIT Kharagpur"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "CSO 3111",
+        "title": "EMBEDDED SYSTEMS & IOT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "An overview of Computer Architecture",
+          "Overview of ARM-Cortex-M Architecture",
+          "CISC versus RISC",
+          "The RISC and ARM design philosophy",
+          "ARM addressing modes",
+          "Data transfer instructions",
+          "Arithmetic and logical instructions",
+          "Shift and rotate instructions",
+          "Branch and conditional branch instructions",
+          "Function call and return",
+          "Stack",
+          "Recursive functions",
+          "Conditional execution",
+          "Assembly language programming",
+          "Input/output I/O programming",
+          "Timer/counter programming",
+          "I/O interfacing: LED, LCD, Keyboard, Stepper motor, ADC, PWM, UART",
+          "Nested Vectored Interrupt Controller (NVIC)",
+          "External hardware interrupts, IO interrupts",
+          "Basic building blocks of an IOT Device",
+          "Exemplary Device: Raspberry Pi, interfaces",
+          "Programming Raspberry Pi with Python",
+          "IOT communications",
+          "Familiarization of data transfer from code segment to data segment and from data segment to data segment",
+          "Arithmetic operations",
+          "Logical instructions",
+          "Branch instructions",
+          "Code conversion from hexadecimal to decimal and decimal to hexadecimal",
+          "Packing and unpacking of ASCII digits",
+          "Sorting using selection sort and bubble sort techniques",
+          "Searching using linear and binary search techniques",
+          "Recursion",
+          "I/O interfacing of LEDs, LCD, keyboard, 7 segment display, ADC, PWM",
+          "I2C and RTC",
+          "Develop a mini project using mbed LPC1768board",
+          "Programming Raspberry Pi with Python (lab component)",
+          "IOT communications (lab component)"
+        ],
+        "references": [
+          "Jonathan W.V., Embedded systems: Real-time interfacing to ARM Cortex-M microcontrollers, 8th Edition, Createspace Independent Publishing Platform, July 2021",
+          "Wilmshurst T., Fast and Effective Embedded System Design applying the ARM mbed, Elsevier, 2017",
+          "Jonathan W.V., Embedded systems: Introduction to Arm(r) Cortex-M Microcontrollers, 6th Edition, Createspace Independent publishing platform, Jan 2019",
+          "UM10360, LPC 176x/5x User Manual, NXP Semiconductors, Rev. 3.1, 2014",
+          "Joseph V., A definitive Guide to ARM Cortex-M3 and Cortex-M4 processors, 3rd Edition, Elsevier, 2014",
+          "Muhammad A.M, Sarmad N., Sepehr N., Shujen C., ARM Assembly Language Programming & Architecture, 2nd Edition, Wiley, 2016",
+          "NPTEL/SWAYAM Reference: https://onlinecourses.nptel.ac.in/noc22_cs93/preview"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSO 3112",
+        "title": "NETWORK PROTOCOLS AND PROGRAMMING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Queuing model",
+          "Switching",
+          "VLAN",
+          "Inter VLAN Routing",
+          "STP",
+          "Ether channel",
+          "Stateless Address Autoconfiguration",
+          "First Hop Redundancy Protocol",
+          "WLAN",
+          "IPV6",
+          "WAN",
+          "Integrated and Differentiated Services",
+          "Multiprotocol Label Switching",
+          "Socket Introduction",
+          "Socket Address Structures",
+          "Value-Result Arguments",
+          "Elementary TCP Sockets",
+          "Network Security",
+          "Virtual Private Network and IP Security",
+          "Packet Tracer- Introduction to CISCO Packet Tracer",
+          "Basic Configuration",
+          "Routing Protocols",
+          "DHCP and NAT",
+          "Socket programming-Basic",
+          "Files",
+          "Database",
+          "Multi Client- Server Environment and Application Development"
+        ],
+        "references": [
+          "W. Richard Stevens, Bill Fenner, Andrew M. Rudoff, UNIX Network Programming Volume 1, 3rd Edition, Addison Wesley 2011",
+          "William Stallings, High Speed Networks and Internet, 2nd Edition, Pearson Education New Delhi 2002",
+          "James F. Kurose and Keith W. Ross, Computer Networking: A Top-Down Approach, 7th Edition, 2017",
+          "Scott Empson and Cheryl Schmidt, Routing and Switching Essentials, 2014",
+          "Todd Lammle, CCNA Routing and Switching Study Guide, John Wiley & Sons, 2013",
+          "NPTEL/SWAYAM Reference https://onlinecourses.nptel.ac.in/noc21_cs18/preview & NPTEL: Computer Science and Engineering - NOC:Computer Networks and Internet Protocol"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 6,
+        "code": "CSO 3113",
+        "title": "CLOUD COMPUTING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction: Cloud computing delivery models and services",
+          "Challenges",
+          "Cloud Infrastructure: Amazon, Google, Microsoft Azure",
+          "Open Source Platforms",
+          "Services in Cloud: Service Oriented Architecture, REST",
+          "Cloud resource virtualization: Types of virtualization, Understanding hypervisors, Virtual Machines, Dockers Containers",
+          "Virtualization at Compute, Storage and Network level",
+          "Resource Management and Scheduling: Policies and Mechanisms, Scheduling",
+          "Business Continuity and Cloud management: Fault Tolerance, Replication Methods",
+          "Cloud Security: Virtual machine security, Access control and identity management",
+          "Cloud Tools: Eucalyptus, OpenNebula/OpenStack, CloudSim",
+          "Introduction to the AWS, Google Cloud and Microsoft Azure Portal and Services",
+          "Setting up account and basic navigation",
+          "Creation of a VM on each of the platforms and installing and running a High Level Language Program",
+          "Developing a web application and hosting on cloud",
+          "Running a database, deploying an application, creating a network on any one of these 3 platforms",
+          "Openstack, Eucalyptus installation and working",
+          "Introduction to cloud sim and installation",
+          "Running built in examples and analyzing",
+          "Running SJF Scheduling algorithm on cloud simulator"
+        ],
+        "references": [
+          "Dan C Marinescu, Cloud Computing Theory and Practice, 2nd Edition, 2017",
+          "Rajkumar Buyya, Christian Vecchiola, S. Thamarai Selvi, Mastering Cloud Computing, 2nd Edition, McGraw Hill 2017",
+          "Sehgal, Naresh Kumar, and Pramod Chandra P. Bhatt, Cloud Computing: Concepts and Practices, 1st Edition, Springer, 2018",
+          "Barrie Sosinsky, Cloud Computing Bible, 1st Edition, Wiley Publishing Inc., 2011",
+          "Anthony T. Velte, Toby J. Velte, Robert Elsenpeter, Cloud Computing: A Practical Approach, 1st Edition, McGraw Hill 2017",
+          "Mark C Chu-Carroll, Code in the Cloud, 1st Edition, Pragmatic Bookshelf, 2011",
+          "NPTEL/SWAYAM Reference: https://onlinecourses.nptel.ac.in/noc21_cs14/preview"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "CSO 3211",
+        "title": "NETWORK SECURITY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction to Information and Network Security",
+          "Symmetric-Key Ciphers: Classical and Modern encryption techniques",
+          "Block ciphers",
+          "Advanced Encryption Standard",
+          "Uses block ciphers",
+          "Asymmetric-Key Cryptographic Ciphers",
+          "Principles of public key cryptosystems",
+          "Number theory concepts",
+          "Uses of primes",
+          "Message Integrity and Message Authentication",
+          "Cryptographic hash functions",
+          "Application of cryptographic hash functions",
+          "Digital Signature",
+          "Key Management",
+          "Entity Authentication",
+          "Transport Level Security",
+          "IP security",
+          "VPN",
+          "System Security concepts",
+          "Firewalls",
+          "Network Intrusion detection and prevention systems",
+          "SET",
+          "Multimedia Security",
+          "Advanced Encryption Concepts",
+          "Explore vulnerabilities of Windows, and Linux",
+          "Installation and maintenance of firewalls",
+          "Network-based and host-based intrusion detection systems (IDS) and prevention",
+          "Developing a security policy for an enterprise network",
+          "Create network scenario on various smart city models and check for vulnerability"
+        ],
+        "references": [
+          "William Stallings, Cryptography and Network Security: Principles and Practice, 7th edition, Pearson Publications, 2016",
+          "Behrouz A. Forouzan, Debdeep Mukhopadhyay, Cryptography and Network Security, 2nd Edition (Revised), Tata McGraw-Hill Education India, 2010",
+          "Borko Furht, Darko Kirovski, Multimedia Encryption and Authentication Techniques and Applications, 1st edition, Taylor and Francis, 2019",
+          "Xun Yi, Russell Paulet, and Elisa Bertino, Homomorphic Encryption and Applications, 1st edition, Springer Publishing Company, Incorporated, 2014",
+          "Brij B. Gupta, Mamta, Secure Searchable Encryption and Data Management, 1st edition, Taylor and Francis, 2021",
+          "NPTEL / SWAYAM course reference: https://onlinecourses.nptel.ac.in/noc25_ee54/preview"
+        ],
+        "flags": [
+          "missing_sem",
+          "credits_c_mismatch"
+        ]
+      },
+      {
+        "sem": 5,
+        "code": "CSO 3212",
+        "title": "WIRELESS COMMUNICATION AND NETWORKING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction to Wireless Systems",
+          "Electromagnetic (EM) Spectrum",
+          "Antenna and Propagation",
+          "Line of Sight and Non Line of Sight",
+          "Fading",
+          "Link Budget Analysis",
+          "Cellular Concepts",
+          "5G Networks",
+          "Architecture of 5G Networks",
+          "5G Spectrum",
+          "Channel assignments",
+          "Handoff strategies",
+          "Improving Coverage & Capacity",
+          "Wireless channels",
+          "Statistical channel models",
+          "Channel Coding- forward error correction (FEC) coding",
+          "Advanced Modulation and Coding techniques (MFSK, QPSK, OFDM, NOMA)",
+          "Multiple access techniques",
+          "OFDM",
+          "Diversity",
+          "Beamforming",
+          "Modelling of MIMO fading channels",
+          "LPWAN - Emerging Wireless Technologies: LoRa, Sigfox, IoT, NB-IoT",
+          "Basics of Network Simulation - Platform required to run network simulator",
+          "Simulating a Local Area Network",
+          "Measuring Network Performance- Network Performance Evaluation",
+          "Simulating a Wi-Fi Network",
+          "Simulating a WiMAX Network",
+          "Simulating a Mobile Adhoc Network",
+          "Simulating a Wireless Sensor Network",
+          "Setting up a Bluetooth Network",
+          "Setting up a ZigBee Network"
+        ],
+        "references": [
+          "Harri Holma, Takehiro Nakamura, and Antti Toskala, 5G Technology 3GPP New Radio, JohnWiley& Sons Ltd, 2020",
+          "Larry Peterson and OMguz Sunay, 5G Mobile Networks: A Systems Approach, Morgan & Claypool 2020",
+          "Upena Dalal, Wireless communication and Networks (1e), Oxford 2015",
+          "Andrea Molisch, Wireless Communications (3e), John Wiley & Sons Ltd, 2022",
+          "Andrea Goldsmith, Wireless Communications (2e), Cambridge University press, 2012",
+          "Theodore S. Rappaport, Wireless Communications Principles and Practice, 2nd Edition, Pearson Education India, 2010"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "CSO 3131",
+        "title": "SOFTWARE DESIGN TECHNOLOGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction to Software Engineering",
+          "Software Processes",
+          "Agile Software Development",
+          "Requirement Engineering",
+          "Requirements Modelling (Scenario-based)",
+          "Requirements Modelling (Class-based)",
+          "Requirements Modelling (Behavior, Patterns, and Web/Mobile Apps)",
+          "Design Concepts",
+          "Architectural Design",
+          "Pattern Based Design",
+          "Component Level Design",
+          "User Interface Design",
+          "Data Design",
+          "Software Testing Strategies",
+          "Testing Conventional Applications: W&B",
+          "Testing Web Apps and Mobile Apps",
+          "Review Techniques",
+          "Software Configuration Management",
+          "Risk Management",
+          "Design and Analysis of model for small scale software development using UML tools",
+          "Verification and exploring of testing tools (CO \u2013 2, 3, 4)"
+        ],
+        "references": [
+          "Pressman R. S., Software Engineering A practitioner's approach, 9th Edition, McGraw Hill, 2020.",
+          "Somerville Ian, Software engineering, 10th Edition, Pearson Education, 2019.",
+          "Booch G., Rumbaugh J., Jacobson I., The Unified Modelling Language User Guide, 2nd Edition, Pearson, 2017.",
+          "Rajib Mall, Fundamentals of Software Engineering, 5th Edition, PHI Learning, 2018."
+        ],
+        "flags": [
+          "missing_sem",
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSO 3132",
+        "title": "DEVOPS USING AI",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction to DevOps life cycle",
+          "DevOps tools",
+          "AI in DevOps",
+          "Version Control System",
+          "GIT, workflow, commands",
+          "GITHUB, branching and merging, collaborating",
+          "Continuous Integration",
+          "Jenkins, creating and scheduling job",
+          "Jenkins pipeline",
+          "Jenkinsfile",
+          "Containerizing the applications",
+          "Docker life cycle, commands, dockerhub, dockerfile",
+          "Docker volume",
+          "Docker Networking",
+          "Docker compose",
+          "Kubernetes components",
+          "Kubernetes architecture, commands",
+          "Namespace",
+          "ingress",
+          "Application deployment in kubernetes",
+          "Configuration management",
+          "Ansible architecture",
+          "Setting up master slave using ansible",
+          "Ansible playbook, modules, Vault, Notify and handler, Roles",
+          "Continuous Monitoring",
+          "AI in DevOps lifecycle",
+          "AI tools in DevOps",
+          "AI-driven Testing",
+          "AI-powered Predictive Analytics",
+          "Setting up a public Git repository and exploring key Git commands such as clone, fork, pull, push, and commit for effective version control",
+          "Implementation of a continuous integration (CI) pipeline using Jenkins for web applications",
+          "Containerizing applications with Docker and deploying them on a Kubernetes cluster",
+          "Automation using Ansible, creating playbooks to configure servers for application deployment"
+        ],
+        "references": [
+          "Pradeep chintale, DevOps Design Patterns, First Editions,BPB Publications, 2024",
+          "Scott Chacon and Ben Straub, Pro Git, 2nd Edition, Apress, 2024",
+          "Mitesh Soni, Jenkins Essentials(2e), Packt Publishing Limited, 2017",
+          "Continuous Delivery with Docker and Jenkins, Rafal Leszko, Packt Publications, Second Edition, 2019",
+          "Jamon Camisso, Hanif Jetha, Katherine Juell, Kubernetes for Full-Stack Developers,2020",
+          "Gaurav shah, ansible Playbook Essentails, Packt Publishing Limited,2015"
+        ],
+        "flags": [
+          "missing_sem",
+          "credits_discrepancy"
+        ]
+      },
+      {
+        "sem": 6,
+        "code": "CSO 3133",
+        "title": "FULL STACK APPLICATION DEVELOPMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Front-End Web UI frameworks and Tools: Bootstrap 4, CSS and JavaScript component, Node.js, NPM and task runners, Progressive Web Applications",
+          "Front-End Web Development with React: JavaScript ES6, Reactstrap for Bootstrap 4-based responsive UI design, react router, Flux architecture, redux, REST API",
+          "Front-End JavaScript Framework with Angular: Typescript, Angular material, Flex-layout for responsive design, components, Data binding, Angular router, Angular animation support and Angular testing",
+          "Server-side development with NodeJS, Express and MongoDB",
+          "Bootstrap 4, CSS, Task runners, Progressive Web Application with Next.js",
+          "Integration of REST API",
+          "Angular application, Data binding and components, Angular router, Angular animation, RxJS, HTTP Client in Angular with REST API",
+          "Server-side development with NodeJS, Express and MongoDB-CRUD operations and authentication"
+        ],
+        "references": [
+          "Shama Hoque, Full-Stack React Projects: Modern web development using React 16, Node, Express, and MongoDB, Ingram Publishers, 2018",
+          "Chris Northwood, The Full Stack Developer: Your Essential Guide to the Everyday Skills Expected of a Modern Full Stack Web Developer, 1st Edition, 2018",
+          "Frank Zammetti, Modern Full-Stack Development: Using TypeScript, React, Node.js, Webpack, and Docker, 1st Edition, 2020",
+          "Ethan Brown, Learning JavaScript: JavaScript Essentials for Modern Application Development, O'Reilly Media, 2020",
+          "Tal Ater, Building Progressive Web Apps, O'Reilly Media, 2017",
+          "Jayden Reed, Next.js by example: Step-by-step guides to building modern web apps, Kindle ed. Independently published, 2024"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSO 3231",
+        "title": "HUMAN COMPUTER INTERACTION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Contexts for HCI: Human, Computer, Interaction, Design Process",
+          "Interaction Design",
+          "Design Rules",
+          "Navigation Design",
+          "Principles of good design and designers",
+          "Usability",
+          "Guidelines",
+          "Golden Rules",
+          "User Support",
+          "Patterns",
+          "Accessibility",
+          "User Experience Design",
+          "UX Design Process",
+          "Visual Design Principles and processes",
+          "UI Design and Implementation",
+          "Usability Evaluation Techniques",
+          "Cognitive models",
+          "Models and Architectures",
+          "Case Study: AR/VR and Multimedia",
+          "Tools: Unity, Figma",
+          "User-centered design",
+          "usability principles",
+          "interaction models",
+          "Prototyping: Low/high-fidelity prototypes, wireframing, iterative design",
+          "Research Methods: Surveys, usability testing",
+          "Accessibility: WCAG and auditing tools",
+          "Evaluation: Heuristic evaluation, cognitive walkthroughs",
+          "Advanced Topics: VR/AR interfaces, Design and evaluation of interactive systems"
+        ],
+        "references": [
+          "Alan Dix, Janet E. Finlay, Gregory D. Abowd, and Russell Beale, Human-Computer Interaction, 3rd Edition, Pearson Education India, 2017",
+          "Elvis Canziba, Hands-On UX Design for Developers, 1st Edition, Packt, 2018",
+          "Samit Bhattacharya, Human-Computer Interaction: User-Centric Computing for Design, 1st Edition, McGraw-Hill, 2019",
+          "Ben Shneiderman, Catherine Plaisant, Maxine Cohen and Steven Jacobs, Designing the User Interface: Strategies for Effective Human-Computer Interaction, 6th Edition, Addison-Wesely, 2017",
+          "Jeffrey Rubin and Dana Chisnell. Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests. 2nd Edition, Wiley, 2014",
+          "Yvonne Rogers, Helen Sharp and Jenny Preece, Interaction Design: Beyond Human - Computer Interaction, 5th Edition, John Wiley & Sons Inc, 2019"
+        ],
+        "flags": [
+          "missing_sem",
+          "credits_discrepancy"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSO 3232",
+        "title": "KNOWLEDGE AND DATA ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Data Warehousing, Multi-dimensional data model, OLAP operations",
+          "Warehouse schema, Data Warehousing Architecture, Warehouse server, Metadata, OLAP Engine, Data Warehouse Backend Process",
+          "Data Preprocessing, Data cleaning, Data Integration and transformation",
+          "Data reduction, Sampling, Discretization and concept hierarchy generation, Segmentation by natural partitioning",
+          "Introduction to Data mining, Association rules mining, market based analysis, Apriori Algorithm, Dynamic item set counting algorithm, FP-tree growth Algorithm",
+          "Knowledge graphs (KG): Definition \u2013 DIKW Pyramid \u2013 Linked Data and Knowledge Graphs \u2013 Anatomy \u2013 Construction of KG: Data modelling \u2013 Integrating data \u2013 Data extraction and transformation \u2013 Embedding techniques for knowledge graphs \u2013 Building \u2013 Querying",
+          "Implementation of KG using Neo4j",
+          "Ontology engineering: Introduction, classification, development, learning",
+          "Web engineering: information distribution and integration, Semantic Web, RDF and Linked Open Data, Social Web and semantics",
+          "ETL, Association rules mining Building \u2013 Querying",
+          "Implementation of KG using Neo4j, RDF, SPARQL",
+          "mini project"
+        ],
+        "references": [
+          "Jiawei Han and Micheline Kamber, Data Mining Concepts and Techniques (4e), Morgan Kauffmann Publishers, 2022",
+          "Arun K Pujari, Data Mining Techniques (4e), Universities Press India, 2016",
+          "Maria Keet, An Introduction to Ontology Engineering, College Publications, 2018",
+          "Tom Heath, Christian Bizer, Linked Data Evolving the Web Into a Global Data Space, Morgan & Claypool"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CSO 3121",
+        "title": "DATA PRIVACY AND SECURITY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "lab",
+          "theory"
+        ],
+        "syllabus": [
+          "Security Architecture",
+          "Security Attacks",
+          "Services and Mechanisms",
+          "Model for Data Security",
+          "Introduction to Cryptography",
+          "Classical Encryption techniques",
+          "Symmetric Encryption",
+          "Number Theory: Divisibility",
+          "Modular arithmetic",
+          "Congruences",
+          "Chinese Reminder Theorem",
+          "Public-key cryptography",
+          "Message Authentication",
+          "Hash Functions",
+          "Digital Signatures",
+          "Key Distribution and Authentication",
+          "System Security",
+          "Intrusion Prevention and Detection Systems",
+          "Cyber Security",
+          "Secure Software Development Life Cycle",
+          "Introduction to data privacy",
+          "Privacy attacks and types",
+          "Access control models and types",
+          "Privacy policies",
+          "Privacy policy specifications",
+          "Privacy in medical domains",
+          "Privacy in financial domains",
+          "Anonymization",
+          "Differential Privacy",
+          "Differential Privacy with Laplace Mechanism",
+          "Differential Privacy with Gaussian noise",
+          "Building Privacy into Data Pipelines",
+          "Design privacy measures",
+          "Data sharing workflow",
+          "Data Collection",
+          "Privacy-Aware Machine Learning",
+          "Privacy-Aware Data Science",
+          "Usage of open source libraries"
+        ],
+        "references": [
+          "William Stallings, Cryptography and Network Security: Principles and Practice, 7th Edition, Pearson Education, 2017",
+          "William Stallings, Network Security Essentials: Applications and Standards, 6th Edition, Pearson Education, 2014",
+          "Atul Kahate, Cryptography and Network Security, 3rd Edition, Tata McGraw-Hill Publishing Company Limited, 2013",
+          "Katharine Jarmul, Practical Data Privacy-Enhancing Security and Privacy of Data, O'Reilly Media, Inc, April 2023",
+          "Ronald Leenes, Rosamunde van Brakel, Serge Gutwirth, De Hert, Paul, Data Protection and Privacy: The Age of Intelligent Machines (Computers, Privacy and Data Protection), Hart Publishing (December 28, 2017)",
+          "Altice labs, Secure Software Development Life Cycle, White paper, Version 1.0, August 2023",
+          "Patrick McBride and Edward P. Moser, Secure System Development Life Cycle (SDLC), security staff, 2000"
+        ],
+        "flags": [
+          "missing_semester",
+          "syllabus_structure_complex"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CSO 3102",
+        "title": "MACHINE LEARNING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "An Overview of Statistical Learning",
+          "The Trade-Off Between Prediction Accuracy and Model Interpretability, Supervised Versus Unsupervised Learning, Regression Versus Classification Problems, Assessing Model Accuracy, Overfit, Underfit",
+          "Simple Linear Regression, Gradient Descent Method, Multiple Linear Regression",
+          "An Overview of Classification, Logistic Regression, Sigmoid Function, Cost Function, Gradient Descent, Na\u00efve Bayes, K-NN, Performance metrics: Confusion Matrix, Precision and Recall & ROC curve",
+          "Well-Posed ML problems, Data representation, The Crisp-DM Model",
+          "The Basics of Decision Trees, Measures of Impurity for Evaluating Splits in Decision Trees, ID3, C4.5, and CART Decision Trees",
+          "Maximal Margin Classifier, Support Vector Classifiers, Support Vector Machines, Support Vector Machines and Kernels and Numerical examples",
+          "Clustering Methods, Rationale, Generating Diverse Learners, Voting, Bagging, Boosting",
+          "Understanding basics of Machine Learning programming using python",
+          "Fundamental mathematical concepts required for Machine Learning",
+          "Preparation of data for Machine Learning algorithms and Principal Component Analysis (PCA)",
+          "Na\u00efve Bayes classifier",
+          "K-Nearest Neighbour classifier",
+          "Linear, Multilinear and Polynomial Regressions",
+          "Logistic Regression",
+          "Support Vector Machines",
+          "K-Means Clustering",
+          "Hierarchical Clustering",
+          "Decision Trees"
+        ],
+        "references": [
+          "Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani, An Introduction to Statistical Learning with Applications in Python, second edition, Springer, New York, 2021",
+          "Gopinath Rebala \u00b7 Ajay Ravi, Sanjay Churiwala, An Introduction to Machine Learning, Springer 2019",
+          "M. Gopal, Applied Machine Learning, McGraw Hill Education, 2018",
+          "Trevor Hastie, Robert Tibshirani, and Jerome Friedman, The Elements of Statistical Learning: Data Mining, Inference, and Prediction, second edition, Springer, 2008",
+          "Parteek Bhatia, Machine Learning with Python Principles and Practical Techniques, Cambridge University Press, 2024",
+          "https://nptel.ac.in/courses/106106139",
+          "NPTEL: Introduction to Machine Learning, by Dr. Balaraman Ravindran IIT Madras"
+        ],
+        "flags": [
+          "semester_inferred_from_course_code",
+          "p_credits_high_may_require_verification"
+        ]
+      },
+      {
+        "sem": 6,
+        "code": "CSO 3103",
+        "title": "PARALLEL COMPUTER ARCHITECTURE AND PROGRAMMING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Need of Parallelism; Forms of Parallelism (SISD, SIMD, MISD, MIMD); Moore's Law and Multicore; Amdahl's Law; Speedup and performance; Programming paradigms: Shared and Distributed; PRAM Architecture Model",
+          "Introduction to OpenMP; OpenMP Program constructs; Execution Model and Directives",
+          "MPI Basics; Point-to-point communications; Collective Communications",
+          "Architecture of modern GPU; Kernel function and thread organization; CUDA program structure; Transparent Scalability and Synchronization; GPU memory organization; Memory optimizations in CUDA",
+          "Implement shared memory programs using OpenMP",
+          "Implement distributed memory programs using MPI",
+          "Implement GPU programs using CUDA"
+        ],
+        "references": [
+          "V.Rajaraman, C. Siva Ram Murthy, \u201cParallel Computers Architecture and Programming\u201d Prentice-Hall India, 2016",
+          "D. Kirk and W. Hwu , \u201cProgramming Massively Parallel Processors \u2013A Hands-on approach\u201d, Elsevier Inc.,(4e), 2023",
+          "Michael J. Quinn, \u201cParallel Programming in C with MPI and OpenMP\u201d, McGraw Hill Edition, 2003",
+          "Michael J. Quinn, \u201cParallel Computing\u201d McGraw Hill Edition, 2005",
+          "https://www.open-mpi.org/doc/",
+          "https://www.openmp.org/",
+          "https://developer.nvidia.com/"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "CSO 3201",
+        "title": "DEEP LEARNING AND APPLICATIONS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction to Deep Learning & Architectures",
+          "Machine learning basics",
+          "Neural Networks basics",
+          "Feed Forward Neural Networks",
+          "Machine Learning Vs. Deep Learning",
+          "Representation Learning",
+          "Width Vs. Depth of Neural Networks",
+          "Activation Functions",
+          "Regularization and Optimization for Deep Learning",
+          "Convolutional Neural Networks Architectural",
+          "Popular CNN Architectures: ResNet, AlexNet",
+          "Transfer Learning: Transfer learning Techniques",
+          "Variants of CNN: DenseNet, PixelNet",
+          "Sequence Modelling: Recurrent and Recursive Nets",
+          "Recurrent Neural Networks",
+          "Bidirectional RNNs",
+          "Encoder-decoder sequence to sequence architectures",
+          "BPTT for training RNN",
+          "Long Short Term Memory Networks",
+          "Auto Encoders",
+          "Regularized Autoencoders",
+          "stochastic Encoders and Decoders",
+          "Contractive Encoders",
+          "Variational Auto Encoders",
+          "Deep Generative Models",
+          "Introduction to Transformers",
+          "Introduction to tensors",
+          "Computational graphs",
+          "Deep Learning Library in PyTorch",
+          "Deep Feed-forward Neural Networks",
+          "Convolutional Neural Network",
+          "Transfer Learning",
+          "Regularization for Deep Neural Networks",
+          "Recurrent Neural Networks",
+          "Long-Short Term Memory (LSTM)",
+          "Encoder-Decoders",
+          "Variational Auto Encoders",
+          "Generative Adversarial Networks (GANs)"
+        ],
+        "references": [
+          "Ian Goodfellow, Yoshua Bengio and Aaron Courville, \u201cDeep Learning\u201d, MIT Press, 2017.",
+          "Eli Stevens, Luca Antiga, and Thomas Viehmann, Deep Learning with PyTorch, Manning, 2020",
+          "Josh Patterson, Adam Gibson \"Deep Learning: A Practitioner's Approach\", O'Reilly Media, 2017",
+          "Umberto Michelucci \u201cApplied Deep Learning. A Case-based Approach to Understanding Deep Neural Networks\u201d Apress, 2018.",
+          "Kevin P. Murphy \"Machine Learning: A Probabilistic Perspective\", The MIT Press, 2012.",
+          "Deep Learning - Course, By Prof. Prabir Kumar Biswas | IIT Kharagpur, 12 Weeks",
+          "Deep Learning - IIT Ropar - Course, By Prof. Sudarshan Iyengar, Prof. Padmavati | IIT Ropar, Punjab Engineering College (Deemed to be University), 12 Weeks",
+          "Machine Learning And Deep Learning - Fundamentals And Applications - Course, By Prof. M. K. Bhuyan | IIT Guwahati, 12 Weeks"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CSO 3222",
+        "title": "GENERATIVE AI",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 3,
+          "c": 4
+        },
+        "tags": [
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction to Natural Language Processing: Overview of NLP and its applications, Challenges in language understanding",
+          "Basic Text Processing: Tokenization, Text Normalization, Edit-Distance, Regular Expressions",
+          "Morphology and Syntax: English Morphology, Finite-State Morphological Parsing, Stemming, Lemmatization",
+          "Language Models and Smoothing: N-gram Language Models, Evaluating Language Models, Smoothing Techniques",
+          "Vector Semantics and Word Embeddings: Word Vectors, Word2Vec, GloVe, Semantic Similarity",
+          "Parts of Speech and Tagging: English Word Classes, Part-of-Speech Tagging, Hidden Markov Models",
+          "Named Entity Recognition (NER): NER Tagging, Sequence Labeling Models",
+          "Transformer Architecture: Self-Attention Mechanism, Positional Encoding, Multi-head Attention",
+          "Pre-trained Language Models: BERT, GPT Series, T5, Large Language Models",
+          "Fine-Tuning and Transfer Learning: Fine-Tuning Strategies, Parameter-Efficient Methods, Domain Adaptation",
+          "Prompt Engineering and In-Context Learning: Prompt Design, Zero-Shot and Few-Shot Learning, Instruction Tuning",
+          "Applications of Large Language Models: Chatbots and Dialogue Systems, Question Answering Systems, Summarization, Machine Translation, Text Generation",
+          "Advanced Topics in Large Language Models: Scaling Laws, Efficient Training and Inference, Reinforcement Learning from Human Feedback (RLHF), Model Compression (Knowledge Distillation, Quantization, Pruning), Retrieval-Augmented Generation (RAG), Multimodal Models",
+          "Ethical Considerations and Responsible AI: Bias and Fairness in LLMs, Privacy Concerns, Model Explainability",
+          "Case Studies and Projects: Developing a Custom Chatbot using GPT Models, Fine-Tuning BERT for NER, Implementing Machine Translation with Transformers",
+          "Introduction to tensors, Computational graphs",
+          "Text preprocessing using Pytorch libraries",
+          "Simple NLP applications: sentiment analysis, named entity recognition, text summarization",
+          "Implement basic Transformer model in PyTorch for Neural Machine Translation",
+          "Fine-tuning Hugging Face transformer models for NLP tasks",
+          "Experiments with prompt structures, contextual cues, and few-shot learning techniques",
+          "Updating the knowledge base of a pretrained LLM using RAG"
+        ],
+        "references": [
+          "Daniel Jurafsky and James H Martin. Speech and Language Processing, 2e, Pearson Education, 2009",
+          "Jay Alammar and Maarten Grootendorst, \"Hands-On Large Language Models\", O'Reilly Media, 2024",
+          "Lewis Tunstall, Leondro von Werra, Thomas Wolf, Natural Language Processing with Transformers: Building Language Applications with Hugging Face, O'Reilly Media, 2023",
+          "Denis Rothman, \"Transformers for Natural Language Processing\", Packt Publishing, 2024",
+          "Steven Bird, Ewan Klein and Edward Loper, Natural Language Processing with Python, (1e), O'Reilly Media, 2009",
+          "Generative AI and Large Language Models by Naveen Kumar Bhansali, IIM Bangalore, https://onlinecourses.swayam2.ac.in/imb24_mg116/preview"
+        ],
+        "flags": []
+      }
+    ]
+  }
+}

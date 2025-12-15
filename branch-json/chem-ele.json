@@ -1,0 +1,173 @@
+{
+  "department": {
+    "name": "",
+    "courses": [
+      {
+        "sem": null,
+        "code": "CHM 4441",
+        "title": "ANALYTICAL TECHNIQUES AND INSTRUMENTATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Spectroscopic methods of analysis: Properties of EMR, General features of spectroscopy, types of molecular spectra, interaction of EMR with matter, instrumentation, applications, theory, instrumentation and applications of microwave, raman, infrared, UV-visible, NMR spectroscopic techniques",
+          "Chromatographic Techniques: General concepts, classification, principles, experimental techniques of CC, HPLC, TLC, GC and their applications",
+          "Electroanalytical methods: Basic principles and applications of conductometric, potentiometric titrations"
+        ],
+        "references": [
+          "D.A. Skoog, J, Holler, F.T.A, Nieman \u201cPrinciples of Instrumental Analysis\u201d, (5e), Saunders, Philadelphia, 1992",
+          "D.A. Skoog, D.M. west and F.J Holler, \u201cFundamentals of Analytical Chemistry\u201d, (5e), Saunders college publishing, Philadelphia, 1988",
+          "GH Jeffery, \u201cVogel's textbook of quantitative chemical analysis\u201d, John wiley and sons inc, (5e), 1989"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHM 4311",
+        "title": "ANALYTICAL METHODS AND INSTRUMENTATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Spectroscopic methods of analysis: Introduction, Energy concepts, Properties of EMR, Types of molecular spectra, Interaction of EMR with matter, Instrumentation, Applications",
+          "Microwave spectroscopy: Introduction, Diatomic rigid rotor and non-rigid models, Instrumentation, Applications, Advantages and disadvantages",
+          "Raman spectroscopy: Basic principles, Properties of Raman lines, classical and quantum theories, Techniques and instrumentation, Applications",
+          "Infrared spectroscopy: Theory, Diatomic molecules as harmonic and anhormonic oscillators. Diatomic vibrating rotator, vibrations of polyatomic molecules, Instrumentation of dispersive and FT-IR, Double beam IR spectrometer, Uses of IR, Advantages, Limitations",
+          "UV-visible spectroscopy: Theory, Types of transitions, Instrumentation, Double beam spectrophotometer, Applications, Spectrophotometry Beer's law, Deviations",
+          "NMR spectroscopy: Basic principles, chemical shift, spin-spin coupling, instrumentation, applications of proton NMR spectroscopy",
+          "Chromatographic techniques: General concepts, classification, instrumentation, experimental techniques, applications, advantages and disadvantages of CC, HPLC, TLC & GC",
+          "Electroanalytical methods: Basic Principles of conductometric and potentiometric titrations, applications"
+        ],
+        "references": [
+          "D.A. Skoog, J. Holler, F.T.A Nieman, \u201cPrinciples of Instrumental Analysis\u201d, (5e), Saunders, Philadelphia, 1992",
+          "GH Jeffery, \u201cVogel's Textbook of Quantitative Chemical Analysis\u201d, (5e), John Wiley & Sons Inc, 1989",
+          "G.W. Ewing, \u201cInstrumental Methods of Chemical Analysis\u201d, Mc-Graw-Hill, 1989"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHM 4312",
+        "title": "SUSTAINABLE CHEMICAL PROCESSES AND PRODUCTS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction: Definition, twelve principles, evaluating products, processes, starting materials and reaction types, examples of green products, reactions, reagents, solvents, catalysts and starting materials, atom economy, reaction mass efficiency, effective mass yield, carbon efficiency and eco-factor, green chemistry matrices, life cycle analysis, product and process design for sustainability, chemical product legislation-REACH",
+          "Catalysis and green chemistry: Catalysis in the chemical industry-bulk chemicals; alkylation and selective oxidation reactions, fine chemicals; synthesis of certain chemical products, importance of selective catalysts in sustainable development, selectivity in catalysis, catalyst for clean technology, heterogenization, reparation of supported reagents, applications and analysis of eco-friendly approach of waste treatment",
+          "Cleaner Production: Examples, process design aspects, high-throughput syntheses, scale up and industrial applications of clean synthesis, use of microwaves, ultraviolet and infrared radiations, insecticides based on natural products, eco-friendly bio-pesticides, industrial examples- polymer, pesticide, food and flavor, dye, paper and pulp, and pharmaceutical industries, use of enzymes in oxidation, reduction and hydrolysis reactions, electrochemical synthesis"
+        ],
+        "references": [
+          "P.T. Anastas, J.C. Warner, \u201cGreen Chemistry: Theory and practice\u201d, Oxford Univ. Press, Oxford, 2008",
+          "A.S. Matlack, \u201cIntroduction to Green Chemistry\u201d, Marcel Dekker, New York, 2001",
+          "P.T. Anastas, R.H. Crabtree, \u201cHandbook of Green Chemistry and Catalysis\u201d, Wiely-VCH, Weijeim, 2009"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "CHM 4313",
+        "title": "FUNDAMENTALS OF INDUSTRIAL CATALYTIC PROCESSES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Adsorption and Catalysis: Physisorption and chemisorption, adsorption isotherms, factors influencing adsorption, adsorption of gases by solids, adsorption from solution, introduction to catalysis, energetics, catalytic cycles",
+          "Solutions and Solubility: Ideal and non-ideal solutions, Raoult's law, thermodynamics of ideal solutions, vapor pressure and boiling point composition curves, distillation behavior of completely miscible and immiscible liquid systems, azetropes",
+          "Colligative Properties: Determination of molar masses from vapor pressure lowering, osmotic pressure, boiling point elevatiom and depression of freezing point, vanthoff's factor",
+          "Colloids: Types, preparation and purification of sols, general properties, optical, electrical and kinetic properties of sols, stability of sols, application of colloids, emulsions and gels-types, preparation, properties and their applications"
+        ],
+        "references": [
+          "B.R Puri, L.R. Sharma, M.S. Pathania, \u201cPrinciples of physical chemistry\u201d, (43e), vishal publications, New Delhi, 2012",
+          "S.H. Maron, C.F. Prutton, \u201cPrinciples of physical chemistry\u201d, (4e), IBH publishing co. New Delhi, 1985",
+          "D.A. Skoog, D.M. West, F.J. Holler, R. Coruch, \u201cFundamentals of Analytical Chemistry\u201d, (9e)"
+        ],
+        "flags": [
+          "missing_sem",
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IPE 4302",
+        "title": "CREATIVITY, PROBLEM SOLVING AND INNOVATION",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Psychology of problem solving",
+          "Methods of questioning",
+          "Methods of learning",
+          "Analyzing, summarizing and communicating information as written report and oral presentation",
+          "Visualizing thinking",
+          "Thinking fluency",
+          "Fusion of ideas",
+          "Making novel combinations",
+          "Looking into the other world for finding solutions",
+          "Importance of play and relaxation",
+          "Allowing subconscious mind to figure out the solution",
+          "Awakening the collaborative spirit by brain storming and collaboration to facilitate innovation",
+          "Review strategies for creative problem solving methods",
+          "Stanford d.School design thinking process",
+          "Divergent thinking and convergent thinking",
+          "Lateral thinking and the decision making",
+          "Strategy of making - from idea to innovation"
+        ],
+        "references": [
+          "Zig Zag, the surprising path to greater creativity by R Keith Sawyer 2013",
+          "Crackling Creativity, The secrets of creative genius by Michael Michalko 2001",
+          "Thinkertoys by Michael Michalko second edition 2006",
+          "Strategies for creative problem solving by H Scott Fogler & Steven E LeBlanc. Second edition 2008",
+          "De Bono's Thinking Course by Edward De Bone, Revised Edition 1994",
+          "Six Thinking Hats by Edward De Bono Revised and updated edition 1999",
+          "How to mind map by Tony Buzan 2002",
+          "The Myths of Innovation by Scott Berkun. Expanded and revised edition 2010",
+          "They all laughed by Ira Flatow. 1992",
+          "101 Creative problem solving techniques by James M Higgins 1994"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      }
+    ]
+  }
+}

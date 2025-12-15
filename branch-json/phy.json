@@ -1,0 +1,379 @@
+{
+  "department": {
+    "name": "DEPARTMENT OF PHYSICS",
+    "courses": [
+      {
+        "sem": null,
+        "code": "PHY 4311",
+        "title": "FUNDAMENTALS OF ASTRONOMY & ASTROPHYSICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to astronomy and astrophysics. Properties of ordinary stars: Brightness of starlight; the electromagnetic spectrum; Colours of stars; stellar distances; absolute magnitudes; HR diagram.",
+          "Stellar evolution: Formation of star; the main sequence; stellar structure; evolution off the main sequence; planetary nebulae; white dwarfs.",
+          "Relativity: Special relativity; Time dilation; Length contraction; Doppler shift; Space-time.",
+          "General Relativity: Curved space \u2013 time; principle of equivalence; bending electromagnetic radiation; Black holes- The Schwarzschild radius.",
+          "The death of high mass stars: Supernovae; neutron stars; pulsars; stellar black holes.",
+          "Normal Galaxies: Types of galaxies; Dark matter in galaxies.",
+          "Cosmology: The scale of universe; expansion of the universe; open or closed universe; the big bang; the cosmic background radiation; big bang nucleosynthesis.",
+          "Astronomical instruments."
+        ],
+        "references": [
+          "Marc L Kutner, Astronomy: A physical Perspective, Cambridge University Press,2003",
+          "Baidyanath Basu, An Introduction to Astrophysics, II Edn, PHI Learning Pvt. Ltd, 2011.",
+          "Michael Zeilik, Introductory Astronomy and Astrophysics, 4th edition, Saunders College Pub. 1992."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "PHY 4312",
+        "title": "PHYSICS OF ENGINEERING MATERIALS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Semiconductors: Diffusion and drift processes, Crystal growth techniques, Preparation of semiconductor devices",
+          "Thin films",
+          "Nano-materials: bottom-up and top-down methods, Quantum dots and nano-carbon tubes",
+          "Dielectrics, Polarization and polarizability, ferro electricity, piezo electricity, applications of dielectric materials",
+          "Magnetic Materials and Super Conducting Materials: Applications of superconductors",
+          "Polymers and Liquid Crystals",
+          "Alloys: Different preparation routes and strengthening mechanisms in alloy",
+          "Composite materials: micromechanics of composites - Density, Mechanical and Thermal properties"
+        ],
+        "references": [
+          "Sze S. M., Physics of Semiconductor Devices, John Wiley & Sons, 2007",
+          "Chopra K. L. Thin Film Phenomena, Mc Graw Hill, 1969",
+          "Nalwa H., Nanostructured Materials and Nanotechnology (2e), Academic, 2002",
+          "Chawla K. K., Composite Materials- Science & Engineering (3e), Springer-Verlag, 2012",
+          "Alloys: Preparation, Properties, Applications-Fathi Habashi, Wiley, 2008"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "PHY 4313",
+        "title": "LASERS AND OPTOELECTRONICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Einstein coefficients. Light amplification. Threshold condition.",
+          "Laser rate equations. Line shape function Variation of laser power around threshold and attainment of low threshold population. Optimum output coupling. Line broadening mechanisms. Types of lasers: Continuous and Pulsed lasers. Laser Safety.",
+          "Introduction to Nonlinear Optics: Optics & Wave propagation in an anisotropic medium. Nonlinear optical process.",
+          "Optical fibers: Numerical Aperture, Attenuation, types and pulse dispersion. Fiber Bragg Gratings. Fiber-optic components, Sources for Optical Transmitters, Detectors for Optical Receivers Performance of Optical Fiber Systems, Bit-Error Rates, Receiver Sensitivity, Attenuation and Dispersion Limited Systems- Power Budget, Time Budget. Attenuation and Dispersion Compensation and Management.",
+          "Optoelectronic Devices: Mach-Zender interferometer modulator and switch, the optical direction coupler. LED's and laser diode. Optical detectors - pn detector, pin detector, avalanche photodiode, Solar cells, VCSELs, Fiber optic sensors. Erbium-Doped Fiber Amplifiers (EDFAs), Raman Fiber Amplifier (RFA)"
+        ],
+        "references": [
+          "A. K. Ghatak and K. Thyagarajan, Optical Electronics. Cambridge University Press, 1989.",
+          "A. Ghatak and K. Thyagarajan, Introduction to Fiber Optics. Cambridge University Press, 1998.",
+          "R. W. Boyd, Nonlinear Optics. 3rd ed. Academic Press, 2008.",
+          "G. Keiser, Optical Fiber Communications. McGraw-Hill Companies, 2011.",
+          "S. M. Sze . Kwok K. Ng, Physics of Semiconducting Devices, 3rd ed. John Wiley & Sons, 2007."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "PHY 4314",
+        "title": "INTRODUCTION TO QUANTUM MECHANICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Limitations of classical physics",
+          "wave-particle duality",
+          "De Broglie's hypothesis",
+          "matter as wave packet",
+          "Heisenberg's uncertainty principle",
+          "Mathematical Formalism : operators; commutation relation; ortho normal functions; eigenvalues and eigenfunctions; the Dirac notation; the postulates of quantum mechanics",
+          "Propeties of wave functions",
+          "expectation value",
+          "the Schr\u00f6dinger Equation",
+          "time dependent Schr\u00f6dinger equation",
+          "conservation of probability",
+          "Ehrenfest's theorem",
+          "time independent Schroedinger equation",
+          "stationary states",
+          "Schroedinger equation in one dimension : the infinite square potential well; the finite square potential well; the potential barrier; tunneling; the harmonic oscillator",
+          "Schr\u00f6dinger equation in spherical coordinates",
+          "separation of variables",
+          "the radial equation",
+          "the angular equation",
+          "Energy eigenvalues and eigenfunctions of the rigid rotator and the hydrogen atom",
+          "angular momentum",
+          "Identical particles in quantum mechanics",
+          "Applications of quantum mechanics :scanning tunneling microscopy, alpha decay"
+        ],
+        "references": [
+          "Verma H.C., Quantum Physics (2e), Surya Publications. 2016.",
+          "Gasiorowicz S., Quantum Physics (3e), Wiley India Pvt Limited. 2007.",
+          "Jain M. C., Quantum Mechanics: A Textbook for Undergraduates, PHI Learning Private Limited 2012."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "PHY 4315",
+        "title": "FUNDAMENTALS OF VACUUM TECHNIQUES AND THIN FILMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Fundamentals of Vacuum \u2013 Gas flow regimes, throughput and pumping speed, conductance, continuum flow, molecular flow, the pumping process, pump-down time, and ultimate pressure, surface processes and outgassing",
+          "Vacuum Pumps and Gauges \u2013 Rotary pump, diffusion pump, turbo molecular pump, sorption pump, cryo-pump and getter pumps. Measurement of reduced pressures \u2013 the McLeod Guage, Pirani and thermo couple gauges, ionization gauges \u2013 hot cathode and cold cathode, calibration of vacuum gauges",
+          "Thin film Deposition: Introduction to thin films, growth modes, Preparation of thin films: Physical methods\u2013thermal evaporation, Knudsen cosine law. Sputtering: Cathodic sputtering \u2013 glow discharge sputtering, Molecular beam epitaxy. Chemical methods: Electro-deposition \u2013 Electrolyte deposition, electroless deposition, chemical vapor deposition, MOCVD, spray pyrolysis and spin coating",
+          "Thickness Measurement Techniques- Brief survey of different thickness measurement techniques- optical interference technique, mechanical method, gravimetry, quartz crystal oscillator",
+          "Applications of Thin films- Antireflection Coatings, Interference Filters, Thin Film Polarizers, Photon Detectors, Photovoltaic Devices: Solar Cells, Thin Film Transistors (TFTs), Thin Film Diodes"
+        ],
+        "references": [
+          "Austin Chambers, Modern Vacuum Physics, CRC Press (2000)",
+          "V V Rao, T B Ghosh and K L Chopra, Vacuum Science and Technology, Allied Publishers (2008)",
+          "Dorothy M. Hoffman, Bawa Singh and John H. Thomas, Handbook of Vacuum Science and Technology, Academic Press USA (1998)",
+          "Chopra K L, Thin Film Phenomena, McGraw Hill (1979)",
+          "K. L. Chopra and I. Kaur, Thin Film Device Applications, Plenum Press New York (1983)"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "PHY 4316",
+        "title": "CLEAN ENERGY TECHNOLOGIES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Energy Fundamentals - Classification of energy sources, Importance, salient features, heat transfer mechanisms",
+          "Solar energy - Radiation spectrum, Measurement of solar radiation, Basics of electrical parameters, Photovoltaic effect, Solar cell construction - basic principle and types, currently available solar cell technologies, Solar thermal systems",
+          "Thermoelectrics - Theories and Fundamentals, System Design Considerations for Thermoelectric Energy Recovery, Synthesis techniques, Applications",
+          "Wind energy - Origin of wind, factors affecting the distribution of wind energy on the surface of earth, variation of wind speed with height, estimation of wind energy at a site, wind turbine aerodynamics, wind energy storage, environmental aspects, major applications",
+          "Geothermal Energy and Ocean Energy - Origin and distribution, types, analysis, origin and nature of tidal energy, environmental impacts",
+          "Emerging technologies - Fuel cells, Hydrogen as energy carrier, production, storage, delivery, conversion, applications"
+        ],
+        "references": [
+          "Renewable energy resources, John Twidell and Tony Weir, Taylor and Francis, 2nd edition, (2006)",
+          "Fundamentals of solar cells: Photovoltaic solar energy conversion, Alan L. Fahrenbrunch, Richard H. Bube, Academic Press, (1983)",
+          "Non conventional energy resources, B H Khan, 3rd edition, McGraw Hill Education (India) Private Limited (2017)",
+          "Thermoelectrics and its energy harvesting, materials, preparation, and characterization in thermoelectrics, D. M. Rowe, CRC press, Taylor and Francis (2012)"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "PHY 4317",
+        "title": "COMPUTATIONAL METHODS IN CONDENSED MATTER PHYSICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Quantum mechanics fundamentals",
+          "tight binding approximation",
+          "Hartree-Fock theory",
+          "Visualization of Crystal Structures: Differential and Integral methods and geometry optimization",
+          "Vesta for structural visualization",
+          "space group and symmetry of crystal systems",
+          "Density Functional Theory, K-S Equation, Exchange-Correlation Energy Functional",
+          "Structural optimization",
+          "LDA, GGA and HSE approximations",
+          "DFT+ Hubbard (or DFT+U) Calculations",
+          "Density of States",
+          "Band structure",
+          "Optical spectra",
+          "Applications of density functional theory: Drug modelling, electronic structure calculations, Photocatalysis, Optoelectronic calculations",
+          "Validation of Experimental Findings using DFT approach"
+        ],
+        "references": [
+          "David S. Sholl and Janice A. Steckel, Density Functional Theory - A Practical Introduction, John Wiley & Sons Inc, 2009",
+          "K. Momma and F. Izumi, \"VESTA 3 for three-dimensional visualization of crystal, volumetric and morphology data,\" J. Appl. Crystallogr., 44, 1272-1276 (2011)",
+          "Engineering Mechanics by Manoj K. Harbola, Cengage Learning New Delhi 2012",
+          "Density Functional Theory: An Approach to the Quantum Many-Body Problem, Reiner M. Dreizler, 1990"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "PHY 4318",
+        "title": "ADVANCED TOPICS IN MODERN PHYSICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Special Theory of Relativity",
+          "Statistical Mechanics",
+          "Elementary Particle Physics",
+          "Topics from Quantum Mechanics"
+        ],
+        "references": [
+          "G. Aruldhas, Engineering Physics (1e), PHI Learning Private Learning, 2010",
+          "Griffiths D. J., Introduction to Elementary Particles (1e), John Wiley & Sons, Singapore, 1987",
+          "Griffiths D. J., Introduction to Quantum Mechanics (3e), Cambridge University Press, 2024",
+          "https://onlinecourses.nptel.ac.in/noc23_ph22/preview"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "PHY 4319",
+        "title": "INTRODUCTION TO QUANTUM COMPUTING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction and Background",
+          "Single qubit gates",
+          "Multi-qubit gates",
+          "Quantum circuits",
+          "Universal Gates",
+          "Rotation Gates",
+          "No Cloning Theorem",
+          "POVM measurements",
+          "Properties of the density operator",
+          "Reduced density operator",
+          "Schmidt decomposition and purifications",
+          "EPR and the Bell inequality",
+          "CHSH Inequality",
+          "Quantum teleportation",
+          "Application of quantum teleportation",
+          "Superdense coding",
+          "Quantum Key Distribution",
+          "Quantum parallelism",
+          "Quantum Algorithms: Deutsch algorithm",
+          "Deutsch-Josza algorithm",
+          "Simons algorithm",
+          "Quantum Fourier Transform",
+          "Circuit For Quantum Fourier Transform",
+          "Phase estimation algorithm",
+          "Grover's algorithm",
+          "Shor's Prime Factorisation Problem",
+          "Physical Realization of Quantum Computers",
+          "DiVincenzo's criteria",
+          "NMR and Nuclear Qubits",
+          "Qubits using Nitrogen vacancies in diamonds",
+          "Superconducting Qubits",
+          "Photonic Qubits",
+          "Trapped ions",
+          "Quantum Dots"
+        ],
+        "references": [
+          "Quantum Computation and Quantum Information, Michael A. Nielsen and Isaac L. Chuang, Cambridge University Press (10th Anniversary Edition) 2010",
+          "An Introduction to Quantum Computing, Phillip Kaye, Raymond Laflamme and Michele Mosca, Oxford University Press (1st Ed.) 2007",
+          "Quantum Computing: From Linear Algebra to Physical Realizations, Mikio Nakahara and Tetsuo Ohmi, CRC Press (1st Ed.) 2008",
+          "Quantum Computing: A Beginner's Introduction, Parag K. Lala, McGraw-Hill Education (1st Ed.) 2019"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "PHY 4320",
+        "title": "SOLAR PHOTOVOLTAICS AND BATTERY TECHNOLOGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Solar Cell Technologies: Different generations, Si based solar cells, development of commercial Si solar cell, high efficiency Si solar cell, Areas of improvement and potential efficiency gain, thin film solar cell technology, common features, a-Si, CdTe, emerging technologies, organic solar cells, DSC, GaAs, Energy Density and Specific Energy, Charge and Discharge, Electrode Kinetics, Double-Layer Capacitance, Ion Transport, Conservation of Charge, Cell Voltage, Cell Temperature, Arrhenius Equation, Conservation of Energy, Side Reactions and Aging",
+          "Battery System Dynamics: Electrochemical Impedance Spectroscopy, Nyquist plot",
+          "Battery System Models: Lead\u2013Acid Battery Model, Lithium-Ion Battery Model, Nickel-Metal Hydride Battery Model, State of Charge Estimation, SOH Estimation",
+          "Battery Management Systems: BMS Hardware, Charging Protocols, Pulse Power Capability, Dynamic Power Limits, Pack Management"
+        ],
+        "references": [
+          "C. S. Solanki, Solar Photovoltaics: Fundamentals, Technologies and Applications, New Delhi, India: PHI, 2017",
+          "P. W\u00fcrfel and U. W\u00fcrfel, Physics of Solar Cells: From Basic Principles to Advanced Concepts, Wiley-VCH, 2016",
+          "C. D. Rahn and C.-Y. Wang, Battery Systems Engineering. Hoboken, NJ, USA: Wiley, 2013",
+          "J. Newman and K. E. Thomas-Alyea, Electrochemical Systems, 3rd ed. Hoboken, NJ, USA: Wiley-Interscience, 2004"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      }
+    ]
+  }
+}

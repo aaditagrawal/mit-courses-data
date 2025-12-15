@@ -1,0 +1,2828 @@
+{
+  "department": {
+    "name": "B.TECH. IN ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY)",
+    "courses": [
+      {
+        "sem": null,
+        "code": "MAT 2122",
+        "title": "ENGINEERING MATHEMATICS III",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Systems of Linear Equations",
+          "Matrices",
+          "Solving Systems of Linear Equations",
+          "Vector Spaces",
+          "Linear Independence",
+          "Basis and Rank",
+          "Linear Mappings",
+          "Affine Spaces",
+          "Norms",
+          "Inner Products",
+          "Lengths and Distances",
+          "Angles and Orthogonality",
+          "Orthonormal Basis",
+          "Orthogonal Complement",
+          "Inner Product of Functions",
+          "Orthogonal Projections",
+          "Rotations",
+          "Determinant and Trace",
+          "Eigenvalues and Eigenvectors",
+          "Cholesky Decomposition",
+          "Eigen decomposition and Diagonalization",
+          "Singular Value Decomposition",
+          "Matrix approximation",
+          "Periodic function",
+          "Fourier Series expansion",
+          "even and odd functions",
+          "functions with arbitrary periods",
+          "Half range expansions",
+          "Fourier transform",
+          "basic properties",
+          "Parseval's identity and applications"
+        ],
+        "references": [
+          "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong, \"Mathematics for Machine Learning\", Cambridge University Press, 2020",
+          "Grewal B.S. \u2013 \"Higher Engineering Mathematics\", Khanna Publishers, 43rd edition, 2015",
+          "Stephen H. Friedberg Lawrence E Spence, Arnold J Insel, Elementary Linear Algebra: \"A Matrix Approach Introduction to Linear Algebra\", Second Edition, 2019",
+          "David Lay, Steven Lay, Judi McDonald, \"Linear Algebra and Its Applications\", Pearson, 2019",
+          "Gilbert Strang, \"Introduction to Linear Algebra\", Fifth Edition, Wellesley- Cambridge Press, 2016",
+          "Mordechai Ben-Ari, \"Mathematical Logic for Computer Science\", Third Edition, Springer, 2012",
+          "Narayanan, Ramaniah and Manicavachagom Pillay, \"Advanced Engineering Mathematics\", Vol 2 and 3, Vishwanthan Publishers Pvt Ltd. 1998"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2126",
+        "title": "ANALOG CIRCUITS",
+        "credits": {
+          "l": 4,
+          "t": 0,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "MOSFET: Structure, operation, I-V Characteristics of MOSFET",
+          "Small-Signal Model, PMOS Transistor",
+          "MOSFET Biasing",
+          "Analysis of Common-Source, Common-Gate Amplifier and Source Follower",
+          "Differential Amplifier basics, Operational Amplifier",
+          "Linear applications, instrumentation amplifier and bridge amplifier",
+          "Active filters: Design and analysis",
+          "Non-linear applications of operational amplifier: Log and antilog amplifiers, analog multipliers and dividers, comparators, Schmitt trigger, square wave, triangular wave generators and pulse generators",
+          "555 IC, functional diagram of 555 IC, Astable multi-vibrator, Mono-stable multi-vibrator",
+          "Data Converters"
+        ],
+        "references": [
+          "Behzad Razavi, \"Fundamental of Microelectronics\", Wiley, 2013",
+          "A. S. Sedra, K. C. Smith, \"Microelectronic circuits\", Oxford University Press, 2011",
+          "Franco S, \"Design with Op-amps & Analog Integrated Circuits\" McGraw Hill, 4th edition, 2015",
+          "Ramakant A. Gayakwad, \"Op-Amps and Linear Integrated Circuits\", Prentice Hall of India, 2000"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2122",
+        "title": "NETWORK ANALYSIS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Network equations",
+          "Mesh and nodal analysis",
+          "Network theorem- Superposition, Reciprocity, Thevenin's, Norton's theorems, Maximum power transfer theorem",
+          "Initial and final conditions in RL, RC and RLC Circuits for DC Excitations",
+          "General and Particular solution of the first order and second order circuits",
+          "Applications of Laplace transform in finding solution or RC, RL, and RLC networks",
+          "Response of RC circuits for step, pulse, square, and ramp input",
+          "Two port network- Open circuit impedance parameters, short circuit admittance parameters, transmission parameters, hybrid parameters"
+        ],
+        "references": [
+          "M. E. Van Valkenberg, \"Network analysis\", Prentice Hall of India, 2000.",
+          "Ravish R Singh, \"Network analysis and Synthesis\", McGraw Hill, 2013.",
+          "William H. Hayt, Jack E. Kemmerly, Steven M Durbin, \"Engineering Circuit Analysis\", 8th edition, Tata McGraw Hill India, 2013.",
+          "Millman, H. Taub, \"Pulse, digital and switching waveforms\", 3nd Edition, McGraw Hill, 2017.",
+          "Joseph Edminister, \"Electric Circuits\", Schaum's Series, McGraw Hill, 2018.",
+          "https://nptel.ac.in/courses/108102042"
+        ],
+        "flags": [
+          "missing_semester",
+          "code_department_discrepancy (ECE code in VLSI Design department)"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2123",
+        "title": "SIGNALS AND SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Continuous time (CT) and discrete time (DT) signals",
+          "Representation and classification of Signals",
+          "Elementary signals",
+          "Time domain operations on signals",
+          "Correlation between signals",
+          "Continuous time and discrete time systems",
+          "System properties",
+          "LTI system",
+          "Impulse response",
+          "Response of LTI system",
+          "Convolution",
+          "Differential/difference equation and block diagram representation",
+          "Fourier analysis of signals and systems",
+          "LTI systems in frequency domain",
+          "Parseval relation",
+          "ESD",
+          "PSD",
+          "LTI system analysis using Laplace transform",
+          "Transfer function",
+          "Poles/zeroes",
+          "Stability",
+          "Z-transform",
+          "Application in LTI system analysis",
+          "Sampling and re-construction"
+        ],
+        "references": [
+          "Simon Haykin, Barry Van Veen, \"Signals and Systems\", John Wiley & Sons, NewDelhi, 2008",
+          "A. V. Oppenheim, A. S. Willsky, A. Nawab, \"Signals and Systems\", PHI. Pearson Education, New Delhi, 2015",
+          "H. Hsu, R. Ranjan \"Signals and Systems\", Schaums outline, Tata McGraw Hill, New Delhi, 2006",
+          "Michael J. Roberts, \"Fundamentals of Signals and Systems\", First Edition, Tata McGraw Hill Publishing Company Limited, 2007",
+          "Rodger E. Ziemer, William H. Tranter D. Ronald Fannin, \"Signals and Systems\", Fourth Edition, Pearson Education, 2004"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2127",
+        "title": "DIGITAL CIRCUITS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Digital logic",
+          "Boolean functions",
+          "Boolean algebra",
+          "K-maps",
+          "combinational circuits",
+          "multiplexers",
+          "demultiplexer",
+          "comparators",
+          "decoders",
+          "priority encoders",
+          "synchronous sequential circuits",
+          "flip flops",
+          "clocked sequential circuits",
+          "counters",
+          "asynchronous sequential circuits",
+          "Stable and Unstable states",
+          "State reduction",
+          "race free assignments",
+          "Hazards",
+          "Pulse mode sequential circuits",
+          "Design of Hazard free circuits"
+        ],
+        "references": [
+          "Donald D Givone, \"Digital Principles and Design\", Tata McGraw Hill, 2002.",
+          "William I. Fletcher, \"An Engineering approach to Digital Design\", Prentice Hall of India, 2009",
+          "M. J. S. Smith, \"Application Specific ICs\" Pearson 1997.",
+          "Samir Palnitkar, \"Verilog HDL: A Guide to Digital Design and Synthesis\", Prentice Hall PTR, 2003.",
+          "Stephen. Brown and Zvonko Vranesic, \"Fundamentals of Digital Logic with Verilog Design\", Tata McGraw Hill, 2013."
+        ],
+        "flags": [
+          "missing_semester",
+          "incomplete_publisher_in_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2125",
+        "title": "ELECTROMAGNETIC WAVES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Review of Electrostatics and Magneto statics: Coordinate system and vectors, Curl and Divergence, Divergence theorem and Stokes theorem in the context of electromagnetics",
+          "Uniform Plane Waves: Maxwell's equations, Electromagnetic wave propagation",
+          "Transmission Lines: parameters, Transmission line equations and solutions Standing Wave Ratio, power and impedance measurement, Stub impedance matching, Smith Chart and its applications in transmission line calculations, applications of transmission lines",
+          "Waveguides: Rectangular waveguides \u2013 TE, TM modes, power transmission. Introduction to Cylindrical waveguides"
+        ],
+        "references": [
+          "Jr. Hayt and Buck, \"Engineering Electromagnetics\", 7th Edition, McGraw Hill, 2012",
+          "Ryder J. D, \"Networks, Lines, and Fields\", 2nd Edition, PHI, 2015",
+          "Shevgaonkar R. K, \"Electromagnetic Waves\", 2nd Edition, Tata McGraw Hill, 2019",
+          "Plonus M. A, \"Applied Electromagnetics\", McGraw Hill, 1988",
+          "Edminister J. A, \"Electromagnetics\", 2nd Edition, Schaum's Outline Series, Tata McGraw Hill, 2006"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2143",
+        "title": "DIGITAL CIRCUIT DESIGN LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Basics and universal gates",
+          "code converters and arithmetic's circuits",
+          "Logic implementation using MUX, DEMUX, Encoders and Decoders",
+          "FFs, counters and shift registers",
+          "Counters applications",
+          "Shift Registers",
+          "Design of sequential Circuits"
+        ],
+        "references": [
+          "Donald D Givone, \"Digital Principles and Design\", Tata McGraw Hill, 2002",
+          "William I. Fletcher, \"An Engineering approach to Digital Design\", Prentice Hall of India, 2009",
+          "Samir Palnitkar, \"Verilog HDL: A Guide to Digital Design and Synthesis\", Prentice Hall 2003",
+          "Stephen. Brown and Zvonko Vranesic, \"Fundamentals of Digital Logic with Verilog Design\", Tata McGraw Hill, 2013",
+          "Charles Roth, Lizy K. John, Byeong Kil Lee, \"Digital Systems Design Using Verilog\", Cengage Learning, 2015"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ECE 2144",
+        "title": "ANALOG CIRCUITS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "MOSFET basics",
+          "MOSFET as Switch",
+          "MOSFET amplifier",
+          "MOSFET-based oscillator",
+          "Differential Amplifier",
+          "Linear application of op-amp: Adder",
+          "Linear application of op-amp: Subtractor",
+          "Linear application of op-amp: Difference amplifier",
+          "Filter design using op-amp",
+          "Schmitt Trigger Circuits",
+          "Monostable and Astable multivibrator using 555 timer"
+        ],
+        "references": [
+          "Lab manual.",
+          "William H. Hayt, Jack E. Kemmerly, Steven M Durbin, \u201cEngineering Circuit Analysis\u201d, Tata McGraw Hill India, 2013.",
+          "Behzad Razavi, \u201cFundamental of Microelectronics\u201d, Wiley, 2013.",
+          "R. L. Boylestad, L. Nashelsky, \u201cElectronic Devices and Circuit Theory\u201d, Pearson Education, 2009.",
+          "Sergio F, Design with Op amps and Analog Integrated Circuits, McGraw Hill, Fourth edition, 2016."
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "MAT 2227",
+        "title": "ENGINEERING MATHEMATICS - IV",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Construction of a Probability Space, Discrete and Continuous Probabilities, Sum Rule, Product Rule, and Bayes\u2019 Theorem, Summary",
+          "Statistics and Independence, Distributions: Binomial, Poisson, uniform, normal, Chi-square and exponential distributions, Two and higher dimensional random variables, covariance, correlation coefficient",
+          "Moment generating function, functions of one dimensional and two-dimensional random variables, Static probabilities: review and prerequisites generating functions, difference equations",
+          "Dynamic probability: definition and description with examples, Markov chains, transition probabilities",
+          "Differentiation of Univariate Functions, Partial Differentiation and Gradients, Gradients of Vector-Valued Functions, Gradients of Matrices, Useful Identities for Computing Gradients, Backpropagation and Automatic Differentiation, Higher-Order Derivatives, Linearization and Multivariate Taylor Series",
+          "Basic solution, Convex sets and function, Simplex Method, Optimization Using Gradient Descent, Constrained Optimization and Lagrange Multipliers",
+          "Self-directed Learning: Markov chains, Transition probabilities"
+        ],
+        "references": [
+          "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong, Mathematics for Machine Learning, Cambridge University Press, 2020",
+          "P L Meyer, Introductory Probability and Statistical Applications, Addison Wiley",
+          "Medhi. J. Stochastic Processes, Wiley Eastern",
+          "Murray R. Spiegel, Vector Analysis Theory and Problems, Schaum\u2019s Outline Series, 2019",
+          "Hamdy A. Taha, \u201cOperations Research: An Introduction\u201d, 8th Edn., Pearson Education (2008)",
+          "Sheldon M. Ross, Introduction to Probability Models Eleventh Edition Elsevier",
+          "E. S. Page, L. B. Wilson, An Introduction to Computational Combinatorics, Cambridge University Press",
+          "Bhat U R, Elements of Applied Stochastic Processes, John Wiley"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2226",
+        "title": "PHYSICS OF SEMICONDUCTOR DEVICES",
+        "credits": {
+          "l": 4,
+          "t": 0,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Electrical Conduction in Solids",
+          "Density of States Function",
+          "The Fermi\u2013Dirac Probability Function",
+          "Charge Carriers in Semiconductors",
+          "Dopant Atoms and Energy Levels",
+          "The Extrinsic Semiconductor",
+          "Statistics of Donors and Acceptors",
+          "Charge Neutrality",
+          "Position of Fermi Energy Level",
+          "Carrier Drift",
+          "Carrier Diffusion",
+          "Graded Impurity Distribution",
+          "The Hall Effect",
+          "Carrier Generation and Recombination",
+          "Characteristics of Excess Carriers",
+          "Ambipolar Transport",
+          "Quasi-Fermi Energy Levels",
+          "Excess Carrier Lifetime",
+          "Surface Effects",
+          "Basic Structure of the pn Junction",
+          "Reverse Applied Bias",
+          "Junction Breakdown",
+          "No uniformly Doped Junctions",
+          "pn Junction Current",
+          "Generation\u2013Recombination Currents and High-Injection Levels",
+          "Small-Signal Model of the pn Junction",
+          "Charge Storage and Diode Transients",
+          "The Tunnel Diode",
+          "The Schottky Barrier Diode",
+          "Metal\u2013Semiconductor Ohmic Contacts",
+          "Heterojunctions",
+          "The Two-Terminal MOS Structure",
+          "Capacitance\u2013Voltage Characteristics",
+          "The Basic MOSFET Operation"
+        ],
+        "references": [
+          "Donald A Neamen, \u201cSemiconductor Physics and Devices: Basic Principles\u201d, McGraw-Hill, 2012.",
+          "S.M. Sze, Kwok K. Ng \u201cPhysics of Semiconductor Device,\u201d Wiley Interscience Publication, 2006.",
+          "Streetman, Ben G., and Sanjay Banerjee, \u201cSolid State Electronic Devices\u201d, Upper Saddle River, N.J.: Pearson/Prentice Hall, 2006.",
+          "M Achuthan, K Bhat, \u201cFundamentals of Semiconductor Devices\u201d, McGraw Hill Education, 2017.",
+          "Y. Taur, & T. Ning, \u201cFundamentals of Modern VLSI Devices\u201d 3rd ed., Cambridge: Cambridge University Press, 2021."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2221",
+        "title": "VLSI DESIGN",
+        "credits": {
+          "l": 4,
+          "t": 0,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "MOS Transistor",
+          "CMOS logic",
+          "Inverter",
+          "Power: Dynamic Power, Static Power",
+          "Fabrication of MOS transistor",
+          "Latch-up in CMOS",
+          "Stick Diagrams",
+          "Layout Design Rules",
+          "Static CMOS",
+          "Ratioed Circuits",
+          "Dynamic Circuits",
+          "Pass Transistor Logic",
+          "Transmission Gates, with examples",
+          "Domino",
+          "Dual Rail Domino",
+          "CPL",
+          "Cascode Voltage Switch Logic",
+          "Bi-CMOS inverter circuits",
+          "Static latches and Registers",
+          "Dynamic latches and Registers",
+          "Sense Amplifier Based Register",
+          "clocking strategies",
+          "Subsystem design",
+          "Sheet resistance and delay models",
+          "Simulation of MOSFET based logic circuits using LTSPICE"
+        ],
+        "references": [
+          "Jan M Rabaey, \u201cDigital Integrated Circuits\u201d, Prentice Hall India, 2003.",
+          "Weste. N and Eshraghian K, \u201cPrinciples of CMOS VLSI Design\u201d, 2nd Edition, Addison Wesley Publication.",
+          "Sung Mo Kang and Yusuf leblebici, \u201cCMOS digital Integrated circuits design and analysis\u201d, 3rd edition, Tata Mcgraw Hill.",
+          "Pucknell D. A. and Eshraghian K.,\u201cBasic VLSI Design\u201d, PHI publication, 2009.",
+          "Amar Mukherjee, \u201cIntroduction to NMOS & CMOS VLSI systems Design\u201d, Prentice Hall, 1986."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2228",
+        "title": "COMPUTER ORGANIZATION AND ARCHITECTURE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Fundamentals of a computing system",
+          "Computer Instructions",
+          "Memory and Register Operations",
+          "Assembly Language",
+          "Bus Architecture",
+          "Processor Organization",
+          "Register transfer language",
+          "Control Organization",
+          "Hardwired and Micro-programmed Control",
+          "Execution of a complete instruction",
+          "Memory organization",
+          "Cache design",
+          "Virtual memory and Virtual machines",
+          "Accessing I/O devices",
+          "I/O interfacing",
+          "DMA",
+          "Pipelining, hazards, forwarding versus stalling",
+          "Control hazards",
+          "ILP, branch prediction",
+          "Pre-fetching techniques",
+          "Dynamic and static scheduling",
+          "Super scalar Processors",
+          "VLIW Processors",
+          "Limits on ILP",
+          "Thread level Parallelism",
+          "Flynn\u2019s classification for parallelism",
+          "Vector processors",
+          "Cache coherence",
+          "Hardware Multithreading",
+          "Graphical Processing Units",
+          "Multi-core Organization"
+        ],
+        "references": [
+          "John L. Hennessy and David A Patterson, \u201cComputer Organization and Design, The Hardware/Software Interface\u201d, Morgan Kaufmann / Elsevier, 2007",
+          "M. Morris Mano, \u201cComputer System Architecture\u201d, Prentice Hall of India Pvt Ltd, 2002",
+          "Thomas C. Bartee , \u201cDigital Computer Fundamentals\u201d , Tata McGraw Hill, 1985",
+          "Nicholas Carter, \u201cSchaum\u2019s outline of Computer Architecture\u201d, Tata McGraw Hill, 2006",
+          "A. S. Tanenbaum, T. Austin, \u201c Structured Computer Organization\u201d , Prentice Hall, 2012",
+          "John P.Hayes , \u201cComputer Architecture and Organization\u201d, WCB/McGraw Hill, 19987"
+        ],
+        "flags": [
+          "missing_sem",
+          "code_department_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2229",
+        "title": "FPGA BASED SYSTEM DESIGN USING VERILOG",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Verilog HDL Coding Style: Lexical Conventions - Ports and Modules \u2013 Operators - Gate Level Modeling - System Tasks & Compiler Directives - Test Bench - Data Flow Modeling - Behavioral level Modeling - Tasks & Functions",
+          "Overview of FPGA Architectures and Technologies: FPGA Architectural options, coarse vs fine grained, vendor specific issues (emphasis on Xilinx FPGA), Antifuse, SRAM and EPROM based FPGAs, FPGA logic cells, interconnection network and I/O Pad",
+          "Verilog Modelling of Combinational and Sequential Circuits: Behavioral, Data Flow and Structural Realization \u2013 Adders \u2013 Multipliers- Comparators - Flip Flops - Realization of Shift Register - Realization of a Counter- Synchronous and Asynchronous FIFO \u2013Single port and Dual port RAM \u2013 Pseudo Random LFSR \u2013 Cyclic Redundancy Check",
+          "Synchronous Sequential Circuit: State diagram-state table \u2013state assignment-choice of flipflops \u2013 Timing diagram \u2013One hot encoding Mealy and Moore state machines \u2013 Design of serial adder using Mealy and Moore state machines - State minimization \u2013 Sequence detection- Design examples: Sequence detector, Serial adder, Vending machine using One Hot Controller",
+          "System Design Examples using Xillinx FPGAs \u2013 Traffic light Controller, Real Time Clock",
+          "Self-directed Learning : FIFO \u2013Single port and Dual port RAM \u2013 Pseudo Random LFSR \u2013 Cyclic Redundancy Check"
+        ],
+        "references": [
+          "M.J.S. Smith, \u201cApplication Specific Integrated Circuits\u201d, Pearson, 2000",
+          "Peter Ashenden, \u201cDigital Design using Verilog\u201d, Elsevier, 2007",
+          "W. Wolf, \u201cFPGA based system design\u201d, Pearson, 2004",
+          "Clive Maxfield, \u201cThe Design Warriors\u2019s Guide to FPGAs\u201d, Elsevier, 2004",
+          "Samir Palnitkar, \u201cVerilog HDL: A Guide to Digital Design and Synthesis\u201d Prentice Hall, Second Edition, 2003",
+          "Wayne Wolf, \u201cFPGA Based System Design\u201d, Prentices Hall Modern Semiconductor Design Series"
+        ],
+        "flags": [
+          "missing_sem",
+          "reference_numbering_inconsistent"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2222",
+        "title": "DIGITAL SIGNAL PROCESSING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Discrete Fourier transform (DFT), properties, linear filtering",
+          "efficient computation of DFT, FFT algorithm, Goertzel algorithm",
+          "Implementation of Discrete time filters, Structures for IIR and FIR filters",
+          "Classical design of IIR filters by impulse invariance, bilinear transformation and matched Z - transform, characteristics and design of commonly used filters - Butterworth, Chebyshev and elliptic filters",
+          "Spectral transformation, direct design of IIR filters",
+          "design of linear phase FIR filters using window functions, frequency sampling design",
+          "Power spectrum estimation, non-parametric methods of PSD estimation",
+          "Parametric methods of PSD estimation: AR, ARMA and MA modeling"
+        ],
+        "references": [],
+        "flags": [
+          "missing_semester",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2243",
+        "title": "FPGA BASED SYSTEM DESIGN USING VERILOG",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Verilog HDL Coding Style: Lexical Conventions - Ports and Modules \u2013 Operators - Gate Level Modeling - System Tasks & Compiler Directives - Test Bench - Data Flow Modeling - Behavioral level Modeling - Tasks & Functions",
+          "Overview of FPGA Architectures and Technologies: FPGA Architectural options, coarse vs fine grained, vendor specific issues (emphasis on Xilinx FPGA), Antifuse, SRAM and EPROM based FPGAs, FPGA logic cells, interconnection network and I/O Pad",
+          "Verilog Modelling of Combinational and Sequential Circuits: Behavioral, Data Flow and Structural Realization \u2013 Adders \u2013 Multipliers- Comparators - Flip Flops - Realization of Shift Register - Realization of a Counter- Synchronous and Asynchronous FIFO \u2013Single port and Dual port RAM \u2013 Pseudo Random LFSR \u2013 Cyclic Redundancy Check",
+          "Synchronous Sequential Circuit: State diagram-state table \u2013state assignment-choice of flipflops \u2013 Timing diagram \u2013One hot encoding Mealy and Moore state machines \u2013 Design of serial adder using Mealy and Moore state machines - State minimization \u2013 Sequence detection- Design examples: Sequence detector, Serial adder, Vending machine using One Hot Controller",
+          "System Design Examples using Xillinx FPGAs \u2013 Traffic light Controller, Real Time Clock"
+        ],
+        "references": [
+          "M.J.S. Smith, \u201cApplication Specific Integrated Circuits\u201d, Pearson, 2000.",
+          "Peter Ashenden, \u201cDigital Design using Verilog\u201d, Elsevier, 2007.",
+          "W. Wolf, \u201cFPGA based system design\u201d, Pearson, 2004.",
+          "Clive Maxfield, \u201cThe Design Warriors\u2019s Guide to FPGAs\u201d, Elsevier, 2004",
+          "Samir Palnitkar, \u201cVerilog HDL: A Guide to Digital Design and Synthesis\u201d Prentice Hall, Second Edition, 2003.",
+          "Wayne Wolf, \u201cFPGA Based System Design\u201d, Prentices Hall Modern Semiconductor Design Series."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2222",
+        "title": "DIGITAL SIGNAL PROOCESSING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Discrete Fourier transform (DFT), properties, linear filtering",
+          "efficient computation of DFT, FFT algorithm, Goertzel algorithm",
+          "Implementation of Discrete time filters, Structures for IIR and FIR filters",
+          "Classical design of IIR filters by impulse invariance, bilinear transformation and matched Z - transform, characteristics and design of commonly used filters - Butterworth, Chebyshev and elliptic filters",
+          "Spectral transformation, direct design of IIR filters",
+          "design of linear phase FIR filters using window functions, frequency sampling design",
+          "Power spectrum estimation, non-parametric methods of PSD estimation",
+          "Parametric methods of PSD estimation: AR, ARMA and MA modeling"
+        ],
+        "references": [
+          "Proakis J. G, Manolakis D. G. Mimitris D., \u201cIntroduction to Digital Signal Processing\u201d Prentice Hall, India, 2007",
+          "Oppenheim A.V, Schafer R. W, \u201cDiscrete Time Signal Processing\u201d, Pearson Education, 2004",
+          "Ifeachar, Jervis, \u201cDigital Signal Processing - A Practical approach\u201d, Pearson Education, Asia, 2003",
+          "Rabiner L. R, Gold D. J, \u201cTheory and applications of digital signal processing\u201d, Prentice Hall, India, 1998",
+          "Sanjit Mitra K, \u201cDigital Signal Processing - A computer based approach\u201d, TMH, 2007"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2243",
+        "title": "FPGA-BASED SYSTEM DESIGN LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab",
+          "core"
+        ],
+        "syllabus": [
+          "Introduction to XILINX ISE tool \u2013 simulation, synthesis and downloading",
+          "Dataflow Modeling",
+          "Sequential Modeling",
+          "Structural Modeling",
+          "Switch Level and Mixed-mode Modeling",
+          "Task and functions",
+          "User defined primitive",
+          "Implementation of traffic light controller",
+          "Waveform generation",
+          "Stepper motor control using FPGA",
+          "Open ended design \u2013 DSP, MAC units etc."
+        ],
+        "references": [
+          "M.J.S. Smith, \u201cApplication Specific Integrated Circuits\u201d, Pearson, 2000.",
+          "Peter Ashenden, \u201cDigital Design using Verilog\u201d, Elsevier, 2007.",
+          "W. Wolf, \u201cFPGA based system design\u201d, Pearson, 2004.",
+          "Clive Maxfield, \u201cThe Design Warrior\u2019s Guide to FPGAs\u201d, Elsevier, 2004",
+          "Samir Palnitkar, \u201cVerilog HDL: A Guide to Digital Design and Synthesis\u201d Prentice Hall, Second Edition, 2003.",
+          "Wayne Wolf, \u201cFPGA Based System Design\u201d, Prentices Hall Modern Semiconductor Design Series."
+        ],
+        "flags": [
+          "missing_sem",
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2244",
+        "title": "VLSI DESIGN LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction to ASIC Design flow using EDA tool. Verilog modeling of combinational and sequential digital circuits using Verilog.",
+          "Synthesize digital circuits targeting suitable library and by setting area and timing constraints.",
+          "Analyse the various generated reports such as Area, Power, and Delay for the Synthesized netlist.",
+          "Plan the physical design of digital circuits for synthesized netlist using EDA tool and generate GDS-II file.",
+          "Mini project using EDA tool."
+        ],
+        "references": [
+          "Charles Roth, Lizy Kurian John, Byeong Kil Lee, \u201cDigital System Design Using Verilog\u201d, Cengage Learning 2015.",
+          "Samir Palnitkar, \u201cVerilog HDL: A Guide to Digital Design and Synthesis\u201d, Prentice Hall Professional, 2003.",
+          "Digital Lab Manual, Revision 2.0, University Support Team, Cadence, Bengaluru, 2017.",
+          "Cadence PVS User Guide, 2023.",
+          "Proakis J. G, Manolakis D. G. Mimitris D., \u201cIntroduction to Digital Signal Processing\u201d Prentice Hall, India, 2007.",
+          "Oppenheim A.V, Schafer R. W, \u201cDiscrete Time Signal Processing\u201d, Pearson Education, 2004.",
+          "Ifeachar, Jervis, \u201cDigital Signal Processing - A Practical approach\u201d, Pearson Education, Asia, 2003.",
+          "Rabiner L. R, Gold D. J, \u201cTheory and applications of digital signal processing\u201d, Prentice Hall, India, 1998.",
+          "Sanjit Mitra K, \u201cDigital Signal Processing - A computer based approach\u201d, TMH, 2007."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 2243",
+        "title": "FPGA-BASED SYSTEM DESIGN LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction to XILINX ISE tool \u2013 simulation, synthesis and downloading",
+          "Dataflow Modeling",
+          "Sequential Modeling",
+          "Structural Modeling",
+          "Switch Level and Mixed-mode Modeling",
+          "Task and functions",
+          "user defined primitive",
+          "implementation of traffic light controller",
+          "waveform generation",
+          "stepper motor control using FPGA",
+          "Open ended design \u2013 DSP, MAC units etc."
+        ],
+        "references": [
+          "M.J.S. Smith, \u201cApplication Specific Integrated Circuits\u201d, Pearson, 2000.",
+          "Peter Ashenden, \u201cDigital Design using Verilog\u201d, Elsevier, 2007.",
+          "W. Wolf, \u201cFPGA based system design\u201d, Pearson, 2004.",
+          "Clive Maxfield, \u201cThe Design Warrior\u2019s Guide to FPGAs\u201d, Elsevier, 2004",
+          "Samir Palnitkar, \u201cVerilog HDL: A Guide to Digital Design and Synthesis\u201d Prentice Hall, Second Edition, 2003.",
+          "Wayne Wolf, \u201cFPGA Based System Design\u201d, Prentices Hall Modern Semiconductor Design Series."
+        ],
+        "flags": [
+          "missing_semester",
+          "department_mismatch (course code ECE vs department B.TECH. IN ELECTRONICS ENGINEERING)"
+        ]
+      },
+      {
+        "sem": 5,
+        "code": "ECE 2244",
+        "title": "VLSI DESIGN LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab",
+          "core"
+        ],
+        "syllabus": [
+          "Introduction to ASIC Design flow using EDA tool",
+          "Verilog modeling of combinational and sequential digital circuits using Verilog",
+          "Synthesize digital circuits targeting suitable library and by setting area and timing constraints",
+          "Analyse the various generated reports such as Area, Power, and Delay for the Synthesized netlist",
+          "Plan the physical design of digital circuits for synthesized netlist using EDA tool and generate GDS-II file",
+          "Mini project using EDA tool"
+        ],
+        "references": [
+          "Charles Roth, Lizy Kurian John, Byeong Kil Lee, \u201cDigital System Design Using Verilog\u201d, Cengage Learning 2015",
+          "Samir Palnitkar, \u201cVerilog HDL: A Guide to Digital Design and Synthesis\u201d, Prentice Hall Professional, 2003",
+          "Digital Lab Manual, Revision 2.0, University Support Team, Cadence, Bengaluru, 2017",
+          "Cadence PVS User Guide, 2023"
+        ],
+        "flags": [
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "ECE 3127",
+        "title": "MICROCONTROLLERS AND EMBEDDED SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Embedded vs. General Computing Systems, Classification, Applications, Core Components, ARM7TDMI Model, Register Organization",
+          "ARM Assembly Language: Directives, Macros, Instruction Set, Addressing Modes, Data Processing, Bit Manipulation, Data Transfer, Loops, Subroutines, Assembly Programming",
+          "LPC2148 Architecture, Hardware Interfacing, Display Devices, Actuators, Data Converters",
+          "Performance Techniques: Memory, Pipelines, ARM Thumb, Exception Handling, Interrupts, Error Conditions, Handlers, Priorities",
+          "Embedded System Design: Characteristics, Quality Attributes, Hardware-Software Co-Design, Firmware Development",
+          "Self-Directed Learning: Embedded C programming"
+        ],
+        "references": [
+          "Andrew N Sloss, \u201cARM System developer\u2019s guide, designing and optimizing system software\u201d, Elsevier, 2004",
+          "William Hohl , \u201cARM assembly language fundamentals and techniques\u201d , CRC press, 2009",
+          "Steve Furber,\" ARM System on chip Architecture\u201d, Pearson Education, 2000",
+          "J. R. Gibson \u201cARM Assembly Language-an Introduction\u201d Dept. of Electrical Engineering and Electronics, The University of Liver-pool, 2007"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "ECE 3128",
+        "title": "VLSI TESTING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to testing and testability",
+          "Physical Faults and their modeling",
+          "Fault collapsing",
+          "Fault Simulation",
+          "Critical Path Tracing",
+          "Testing of combinational circuits",
+          "Various types of faults",
+          "Functional v/s structural approach to testing",
+          "test vector generation for a single stuck-at-fault in combinational logic",
+          "Algebraic algorithms",
+          "Structural algorithms",
+          "Testability Techniques",
+          "controllability and observability",
+          "ad-hoc and structured approaches to DFT",
+          "scan-path testing",
+          "Testing of sequential circuits",
+          "Test pattern generation for sequential circuits",
+          "Exhaustive",
+          "Signatures and self test",
+          "Testing with random patterns",
+          "LFSRs",
+          "random test generation and response compression",
+          "Signature analysis",
+          "Online self test"
+        ],
+        "references": [
+          "M. L. Bushnell and V. D. Agrawal, \"Essentials of testing for digital, memory and mixed-signal VLSI circuits\", Boston: Kluwer Academic Publishers, 2000.",
+          "Abramovici, M. A. Breuer, and A.D. Friedman, \"Digital Systems Testing and Testable Design\", Piscataway, New Jersey: IEEE Press, 1994.",
+          "Miczo, \"Digital Logic Testing and simulation\". New York: Harper & Row, 1986.",
+          "P.K. Lala, \"Fault Tolerant & Fault Testable hardware Design\", BS Publications, 1998",
+          "Stanley L. Hurst, \u201cVLSI Testing: digital and mixed analogue digital techniques\u201d Pub:Inspec/IEE, 1999."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "ECE 3129",
+        "title": "VLSI FABRICATION TECHNOLOGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "VLSI Environment: Cleanroom, Safety, Thin Film, Vacuum Fundamentals",
+          "Material Properties and Crystal Growth: Semiconductor Properties, Crystal Structure, Miller Indices, Defects, Silicon Growth, Dopant Distribution, Material Characterization",
+          "Silicon Oxidation: Thermal Oxidation, Deal-Grove Model, Dry/Wet Oxidation, Impurity Redistribution, Masking, Oxide Quality, Thickness Characterization",
+          "Photolithography: Optical Lithography, Exposure Tools, Masks, Photoresists, Pattern Transfer, Lift-Off, Resolution Enhancement",
+          "Etching: Wet and Dry Etching, Etch Mechanisms, Plasma Diagnostics, End-Point Control",
+          "Diffusion: Fick\u2019s Law, Pre-Deposition, Drive-In Diffusion, Diffusion Profiles",
+          "Ion Implantation: Ion Range, Distribution, Stopping, Channeling, Implant Damage, Annealing",
+          "Film Deposition: Epitaxial Growth, CVD, Molecular Beam Epitaxy, Polysilicon, Metallization (Al, Cu)",
+          "Fabrication Processes: IC Resistors, Capacitors, Inductors, BJTs, MOSFETs, Packaging Fundamentals"
+        ],
+        "references": [
+          "May G. S. and Sze S. M, Fundamentals of Semiconductor Fabrication, Wiley India Pvt. Ltd. 2011",
+          "Gandhi S. K., VLSI Fabrication Principles, John Wiley and Sons, 2009",
+          "Ruska W. S, Microelectronic Processing, McGraw Hill, 1997",
+          "Zant P. V., Microchip Fabrication, McGraw Hill, 2013",
+          "Campbell S., The Science and Engineering of Microelectronic Fabrication, Oxford Press, Cambridge, 2013"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "ECE 3130",
+        "title": "VERIFICATION USING SYSTEM VERILOG",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to verification",
+          "Developing Verification strategies",
+          "Applying Verification strategies",
+          "RTL ports and interfaces",
+          "Modelling hardware interfaces with concurrency constructs",
+          "simulating test benches using Fork-join",
+          "stimulus synchronization using conventional synchronization constructs like Mailboxes, Semaphores, regions and events",
+          "System Verilog",
+          "Advanced Functional Verification",
+          "Basics of Formal Verification",
+          "Verification of combinational and sequential logic circuits using System Verilog"
+        ],
+        "references": [
+          "Padmanabhan T.R. and Sundari B.B.T., Design Through Verilog HDL, John Wiley &Sons, 2004.",
+          "Palnitkar S., Verilog\u00ae HDL. A Guideto Digital Designand Synthesis IEEE 1361-2001 Compliant (2e), Prentice Hall,2003",
+          "Bhaskar J., A VerilogHDL Primer, BS Publications, 2005.",
+          "Brown S..and Vranesic Z., Fundamentals of Digital Logic with VerilogDesign (5e), Tata McGraw Hill, 2005.",
+          "Ciletti M.D., Advanced DigitalDesign with theVerilog HDL, PHI, 2005."
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "ECE 3143",
+        "title": "MICROCONTROLLERS AND EMBEDDED SYSTEMS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 6,
+          "c": 2
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Data acquisition and control using NI MyDAQ",
+          "Assembly Programming for arithmetic, logical and data transfer operations",
+          "Assembly as well as C Programming for interfacing I/O devices like Switches, Keypad, display devices, Data converters, and Motor controllers",
+          "Assembly as well as C Programming for on chip features of ARM processor: hardware interrupts, timers, PWMs, ADC, DAC and serial communication protocols",
+          "Embedded mini project development and presentation",
+          "Design and develop an embedded system application using standard Microcontrollers"
+        ],
+        "references": [
+          "William Hohl and Christopher Hinds, \u201cARM 7 Assembly language and Fundamental techniques",
+          "https://www.nxp.com/docs/en/user-guide/UM10139.pdf",
+          "http://arantxa.ii.uam.es/~gdrivera/sed/docs/ARMBook.pdf"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": 6,
+        "code": "ECE 3144",
+        "title": "SEMICONDUCTOR DEVICE AND PROCESS SIMULATION LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "design aspect of processes and devices",
+          "trade-offs in performance, power, and reliability",
+          "optimize design for manufacturing",
+          "Schottky contact",
+          "ohmic contact",
+          "PN junction diodes",
+          "Abrupt Junction diode",
+          "MOSFET",
+          "Electrical, DC and Analog characteristics of Double gate MOSFET"
+        ],
+        "references": [
+          "SM Sze, Kwok K. Ng, \u201cPhysics of Semiconductor Devices\u201d, 3/e, Wiley-Interscience, 2006",
+          "Donald A. Neamen, Dhrubes Biswas \"Semiconductor Physics and Devices\", 4/e, McGrawHill Education, 2012",
+          "Cogenda Visual TCAD tool user manual",
+          "Silvaco Manual, ATLAS and ATHENA user manual from SILVACO, Silvaco, Available as Silvaco manual"
+        ],
+        "flags": [
+          "department_mismatch: course code prefix 'ECE' does not match department 'B.TECH. IN ELECTRONICS ENGINEERING'"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "ECE 3225",
+        "title": "ANALOG AND MIXED SIGNAL IC DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Analog Design Flow: MOS Review, Analog Design Octagon, Second-Order Effects, Bulk Effects, MOS Models, Active Load",
+          "Amplifiers: CS, CD, CG Amplifiers, Small-Signal Analysis, Miller\u2019s Theorem, High-Frequency MOS Model, Single-Stage Amplifier Frequency Response, Differential Amplifier, CMRR, Cascode Differential Amplifier, OTA",
+          "Mirrors: Current Mirrors (Basic, Cascode, Wide Swing, Wilson, Regulated Cascode), Voltage References",
+          "Mixed-Signal Design: Design Flow, Switched-Capacitor Circuits, Continuous-Time Filters, Mixed-Signal Layout",
+          "Data Converters: DAC/ADC Specifications, R-2R, Current Steering, Charge Scaling, ADC (Flash, Successive Approximation)",
+          "Phase-Locked Loops: Frequency Synthesizers, Synchronization, Basics of Analog PLLs",
+          "CMOS Layout: Design Rules, Layouts for Analog and Mixed-Signal Circuits"
+        ],
+        "references": [
+          "Behzad Razavi, Design of Analog CMOS Integrated Circuits, Tata McGraw-Hill, 2002",
+          "Phillip. E. Allen, and Douglas R. Holberg, CMOS Analog Circuit Design, Second edition, Oxford University Press, 2004",
+          "R. Jacob Baker, Harry W. Li, David E. Boyce, CMOS circuit design, Layout, and Simulation, IEEE Press, PHI Pvt. Ltd, 2001",
+          "R. Jacob Baker, CMOS: Mixed-Signal Circuit Design, volume II, Wiley, 2002",
+          "Deliyanis, Y Sun and J K Fidler, Continuous-Time Active Filter Design, CRC Press, 2001",
+          "Layout of analog circuits: Introduction to CMOS VLSI design: https://nptel.ac.in/courses/117101105"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "ECE 3226",
+        "title": "MEMS & NEMS TECHNOLOGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Historical background of MEMS",
+          "Introduction to Micromachining",
+          "Bulk micromachining",
+          "Surface micromachining",
+          "Wafer Bonding",
+          "LIGA",
+          "Transduction and actuation techniques",
+          "Micro sensing for MEMS",
+          "Beam and Cantilever",
+          "Pressure measurement",
+          "Basic Bio-MEMS fabrication technologies",
+          "Review of RF based Communication System",
+          "MEMS switches",
+          "Phase shifters",
+          "Microfluidic devices and components for Bio-MEMS",
+          "Sensing technologies for Bio-MEMS",
+          "Chemical and biomedical microsystems",
+          "Introduction to MEMS simulation tool",
+          "Need of simulation tool",
+          "Case studies on MEMS/Biomes microstructure and their applications",
+          "Introduction to Nanotechnology and NEMS",
+          "Microfabrication Techniques for NEMS",
+          "Mechanical Behavior at Nanoscale",
+          "NEMS Device Design and Modeling",
+          "Simulation of various MEMS devices using COMSOL Multiphysics"
+        ],
+        "references": [
+          "Liu C., Foundations of MEMS, Prentice Hall, 2011.",
+          "Bao M., Analysis and Design Principles of MEMS Devices, Elsevier Science, 2005.",
+          "Senturia S.D., Microsystem Design, Springer, 2001.",
+          "Wang W., Soper S.A., Bio-MEMS-Technologies and Applications, CRC Press, 2007.",
+          "Rebeiz G.M., RF MEMS: Theory, Design, and Technology, John Wiley & Sons, 2003.",
+          "COMSOL (Installed in the Lab)"
+        ],
+        "flags": [
+          "department_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 3243",
+        "title": "ANALOG IC DESIGN LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab",
+          "core"
+        ],
+        "syllabus": [
+          "Familiarization of Cadence Virtuoso and Spectre tool",
+          "MOS device characterization",
+          "Inverter",
+          "Current mirror",
+          "CS,CD,CG amplifier with various loads",
+          "Differential amplifier",
+          "DAC"
+        ],
+        "references": [
+          "Cadence Virtuoso User Manual",
+          "R. Jacob Baker, Harry W. Li, David E. Boyce, CMOS circuit design, Layout, and Simulation, 3rd edition, IEEE Press, PHI Pvt. Ltd, 2010",
+          "David A. Johns, Ken Martin, Analog Integrated Circuit Design, 2nd edition, Johns Wiley & Sons, 2013"
+        ],
+        "flags": [
+          "semester_not_specified"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 3244",
+        "title": "SEMICONDUCTOR FABRICATION AND CHARACTERIZATION LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab",
+          "elective"
+        ],
+        "syllabus": [
+          "Thermal oxidation of silicon wafer",
+          "Diffusion of impurities in silicon wafer",
+          "Photolithography for various mask patterns and photoresists",
+          "Lift-off with thermal evaporation",
+          "Wet etching of silicon wafers",
+          "Resistors",
+          "MOSCAPs",
+          "MOSFETs and diodes",
+          "Electrical characterizations: I-V, C-V, sheet resistance",
+          "Morphological characterizations: microscope, thickness measurement using optical (oxide layer) and step (metal layer) method"
+        ],
+        "references": [
+          "Li, Lin, Ashok Kumar Materials Characterization Techniques Sam Zhang; CRC Press, (2008)",
+          "Murphy, Douglas B, Fundamentals of Light Microscopy and Electronic Imaging, Wiley-Liss, Inc. USA, (2001)",
+          "Tyagi, A.K., Roy, Mainak, Kulshreshtha, S.K., and Banerjee, S., Advanced Techniques for Materials Characterization, Materials Science Foundations (monograph series), Volumes 49 \u2013 51, (2009)",
+          "Wachtman, J.B., Kalman, Z.H., Characterization of Materials, Butterworth Heinemann, (1993)"
+        ],
+        "flags": [
+          "missing_sem",
+          "credits_discrepancy"
+        ]
+      },
+      {
+        "code": "ECE 4415",
+        "title": "Opto-Electronic & Photovoltaics",
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "flags": [
+          "missing_semester",
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4416",
+        "title": "Compound Semiconductor Electronics",
+        "credits": null,
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ECE 4406",
+        "title": "MOS Device Modelling",
+        "credits": null,
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4417",
+        "title": "Fundamentals of Electronic Packaging Materials",
+        "credits": null,
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_credits",
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4452",
+        "title": "Flexible Electronics",
+        "credits": {
+          "l": null,
+          "t": null,
+          "p": null,
+          "c": null
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ECE 4418",
+        "title": "III-V NOVEL SEMICONDUCTOR DEVICES",
+        "credits": null,
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4419",
+        "title": "Photonic Material and Devices for Integrated Photonic",
+        "credits": null,
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_semester",
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "ECE 4420",
+        "title": "Mesoscopic Electronic Devices",
+        "credits": null,
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4409",
+        "title": "Machine Learning",
+        "credits": null,
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_semester",
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4410",
+        "title": "Computer Vision",
+        "credits": null,
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4421",
+        "title": "MACHINE LEARNING FOR VLSI DESIGN AUTOMATION",
+        "credits": {
+          "l": null,
+          "t": null,
+          "p": null,
+          "c": null
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_semester",
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ECE 4422",
+        "title": "Edge Artificial Intelligent Computing",
+        "credits": null,
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4443",
+        "title": "Bioinspired and Evolvable Systems",
+        "credits": null,
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4459",
+        "title": "NEUROMORPHIC VLSI CIRCUITS",
+        "credits": null,
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_semester",
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references",
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4423",
+        "title": "VLSI Architecture For Iot and Edge Devices",
+        "credits": null,
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4424",
+        "title": "Security Solutions In VLSI",
+        "credits": {
+          "l": null,
+          "t": null,
+          "p": null,
+          "c": null
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_semester",
+          "missing_credits",
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4415",
+        "title": "OPTO-ELECTRONIC & PHOTOVOLTAICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Optical emission from semiconductors",
+          "Laser",
+          "Non semiconductor lasers",
+          "Narrow-linewidth and wavelength-tunable lasers",
+          "Mid-infrared and far-infrared lasers",
+          "Light Emitting Diodes",
+          "Optical Detectors",
+          "Parameters for Optical Detectors",
+          "Phototransistors",
+          "Solar Cells",
+          "Different types of solar Cells",
+          "Parameters related to solar cells",
+          "Efficiency improvement in solar cells"
+        ],
+        "references": [
+          "Donald A. Neamen, Semiconductor Physics and Devices: Basic Principles, 4th ed., New York, NY: McGraw-Hill, 2012.",
+          "John M Senior, Optical Fiber Communications Principles and Practice, 3rd ed., ISBN: 978-0-13-032681-2, Pearson Education Limited, 2009.",
+          "Peter Wurfel and Uli Wurfel, Physics of Solar Cells from basic to advance concept, 3rd ed., ISBN: 978-3-527-41312-6, Wiley-VCH, 2016.",
+          "John Wilson, John Hawkes, Optoelectronics, 3rd ed. ISBN:978-9352866663, Pearson Education 2018.",
+          "Pallab Bhattacharya , Semiconductor Optoelectronic Devices, 2nd ed. ISBN: 978-9332587410, Pearson Education 2017."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ECE 4416",
+        "title": "COMPOUND SEMICONDUCTOR ELECTRONICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Fundamentals of Semiconductors: Crystal structures, defects, electron and phonon interactions, energy bands, metal-semiconductor contacts, carrier mobility, and concentration",
+          "III-V Semiconductors: Properties of GaAs, InP, InGaAs, AlGaAs, GaN; structures, electrical characteristics, and surface states",
+          "III-V Heterojunction Devices: MODFET structure, HEMT principles (AlGaAs/GaAs, AlGaN/GaN), band structures, polarization effects, small signal analysis, and applications in high-power and high-speed scenarios",
+          "Optical Devices: III-V semiconductor-based optical devices, LED fundamentals, semiconductor laser theory",
+          "Technology: Fabrication of HEMT structures, compound semiconductor synthesis, TLM for analysis",
+          "Self-Directed Learning: Applications and characterization processes for III-V devices"
+        ],
+        "references": [
+          "Keh Yung Cheng, III\u2013V Compound Semiconductors and Devices, An Introduction to Fundamentals, Springer, 2020",
+          "Donald A. Neamen, Semiconductor Physics and Devices Basic Principles Fourth Edition, McGraw-Hill, 2012",
+          "Hadis Morko\u00e7, Handbook of Nitride Semiconductors and Devices: Materials Properties, Physics and Growth, Wiley VCH Verlag GmbH & Co. KGaA, 2008",
+          "S.M. Sze, Physics of Semiconductor Devices, 3rd ed. Wiley 2008"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "ECE 4406",
+        "title": "MOS DEVICE MODELLING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "SPICE modeling for passive and active components",
+          "MOSFET models (Level 1, 2, and 3)",
+          "DC, AC, and transient analysis",
+          "Process variations",
+          "Monte Carlo simulations",
+          "Noise modeling (flicker and thermal noise)",
+          "BSIM4 MOSFET models and addressing BSIM3 limitations",
+          "Threshold voltage modifications",
+          "Mobility models",
+          "Gate resistance",
+          "Layout-dependent parasitics",
+          "Distortion analysis",
+          "Nonlinearities in CMOS devices",
+          "Frequency response simulations",
+          "Using SPICE tools for device simulations",
+          "Supported models and example circuit simulations",
+          "Hands-on SPICE-based analysis and modeling"
+        ],
+        "references": [
+          "Tar Fjeldly, Trond Ytterdal and Michael S. Shur \"Introduction to Device Modeling and Circuit Simulation\" Wiley-Blackwell, 1997",
+          "Giuseppe Massabrio and Paolo Antognetti \"Semiconductor Device Modeling with Spice\" Tata McHill, 2010",
+          "William Liu, \"MOSFET Models for SPICE Simulation: Including BSIM3v3 and BSIM4\", Wiley-IEEE Press, 2001",
+          "Nandita Das Gupta and Amitava Das Gupta, \"Semiconductor Devices: Modeling and Technology\", PHI, New Delhi, 2004",
+          "M.K.Achuthan and K.N. Bhat, \"Fundamentals of Semiconductor Devices\", Tata McGraw.Hill, New Delhi, 2011"
+        ],
+        "flags": [
+          "missing_sem",
+          "department_mismatch (ECE code in VLSI Design department)"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4417",
+        "title": "FUNDAMENTALS OF ELECTRONIC PACKAGING MATERIALS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to packaging",
+          "Electrical Design",
+          "Modelling and Analysis",
+          "Thermal Management and Thermo-Mechanical Design",
+          "Overview of Packaging Materials",
+          "Advanced Packaging and Emerging Technologies",
+          "Packaging for Radio Frequency and mm-wave devices",
+          "Optoelectronics",
+          "MEMS and Sensors devices",
+          "Self-Directed Learning: Solder life span"
+        ],
+        "references": [
+          "Rao R. Tummala, Fundamentals of Microsystems Packaging, McGraw Hill, NY, 2001.",
+          "William D. Brown, Advanced Electronic Packaging, IEEE Press, 1999.",
+          "Jamnia, Ali, Practical guide to the packaging of electronics: thermal and mechanical design and analysis. CRC Press, 2016."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4452",
+        "title": "FLEXIBLE ELECTRONICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Atomic/electronic structure of various electronic material, conduction in amorphous semiconductors, Polycrystalline, amorphous semiconductors, nanowires, metal oxides, flexible substrates, Various fabrication processes, photolithography, CVD, PECVD, PVD",
+          "Thin-film transistors, solar cells, LEDs, organic TFTs, flexible CNT/graphene devices, Displays, memory devices, flexible solar panels, healthcare and environmental sensors",
+          "Self-Directed Learning: Gravure printing, inkjet printing, roll-to-roll processing, micro contact printing, CVD, PECVD, PVD, etching, photolithography"
+        ],
+        "references": [
+          "William S. Wong, Alberto Salleo, Flexible Electronics: Materials and Applications, 2011, 1st Edition, Springer, New York",
+          "Guozhen Shen, Zhiyong Fan, \"Flexible Electronics: From Materials to Devices\", 2015, 1st Edition, World Scientific Publishing Co, Singapore",
+          "Richard Zallen, \"The Physics of Amorphous Solids\", Wiley-Interscience Publication, 1983",
+          "Sanjiv Sambandan, \"CIRCUIT DESIGN Techniques for Noncrystalline Semiconductors\", CRC Press Taylor & Francis Group, 2013",
+          "Edward Sazonov, Michael R. Newman, \"Wearable Sensors: Fundamentals, Implementation and Applications\", 2014, 1st Edition, Academic Press, Cambridge"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4418",
+        "title": "III-V NOVEL SEMICONDUCTOR DEVICES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Advanced transistors (FDSOI, DG-ETSOI, FINFETs, nanowires) - I-V characteristics, capacitances, and parasitic effects",
+          "Circuit performance using nanoscale MOSFETs - quantum confinement, quasi-ballistic transport, and band-to-band tunneling effects",
+          "Steep slope devices - Tunnel FETs and resonant TFETs",
+          "Integration challenges with Germanium and III-V compounds in MOSFETs",
+          "Self-Directed Learning: Strained Si technology, NEGF, Thermoelectric effects and thermoelectric devices, Quantum dot devices \u2013 quantum capacitance, IV characteristics, self-consistent method"
+        ],
+        "references": [
+          "Mark Lundstrom and J. Guo, \"Nanoscale Transistors: Device Physics, Modeling and Simulation,\" Springer. 2007",
+          "J. P. Colinge, \"FinFETs and Other Multi-Gate Transistors,\" Springer. 2009",
+          "Tak H. Ning and Yuan Taur, \"Fundamentals of Modern VLSI Devices\"",
+          "S. M. Sze and Kwok K. Ng, \"Physics of Semiconductor Devices,\" Wiley 2008",
+          "Donald A. Neamen, \"Semiconductor Physics and Devices\", McGraw Hill Higher Education 2002",
+          "Jan M. Rabaey, Anantha Chandrakasan, Borivoje Nikolic, \"Digital Integrated Circuits: A Design Perspective,\" Prentice Hall 2003"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4419",
+        "title": "PHOTONIC MATERIAL AND DEVICES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Photonics and integrated photonics",
+          "Propagation of electromagnetic waves",
+          "Optical waveguides and optical fibers",
+          "Coupled mode theory in optical waveguide system",
+          "Photonic devices: Mach-Zehnder interferometer, Arrayed Waveguide Grating (AWG)-based MUX/DEMUX, Add-drop multiplexer",
+          "Photonic Crystal Fiber and corresponding EM analysis",
+          "PON; FTTH",
+          "Photonic materials and fabrication technologies",
+          "Packaging of photonic devices",
+          "Recent trends",
+          "Self-directed Learning: Photonic Bandgap and various Photonic devices design using COMSOL"
+        ],
+        "references": [
+          "H Nishihara, M Haruna and T Suhara, Optical Integrated Circuits, McGraw-hill, 1989",
+          "Gerd Keiser, Optical Fiber Communications, 3rd Edition, McGraw-Hill International edition, 2000",
+          "C. R. Pollock and M. Lip Son, Integrated Photonics, Kluwer Pub., 2003",
+          "T. Tamir, (ed), Guided-wave optoelectronics, (2nd edition), Springer-Verlag, 1990",
+          "Clifford Pollock, Fundamentals of Optoelectronics, Richard Irwin Inc., Chicago, 1995",
+          "Journal articles i.e. IEEE, Springer, IOPscience, Elsevier and Video lectures from nanohub, NPTEL, MIT video lectures"
+        ],
+        "flags": [
+          "missing_semester",
+          "references_include_non_books"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4420",
+        "title": "MESOSCOPIC ELECTRONIC DEVICES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Electrical Resistance",
+          "Conductance",
+          "Ballistic Conductance",
+          "Elastic Resistors",
+          "Transport Theories",
+          "Why Electrons Flow",
+          "The Elastic Resistor",
+          "Ballistic and Diffusive Transport",
+          "Conductance from Fluctuation",
+          "Energy Band Model",
+          "E(p) or E(k) Relation",
+          "Number of Modes",
+          "Electron Density",
+          "The Nano transistor Quantum capacitance",
+          "Current from QFL's",
+          "BTE from Newton's Laws",
+          "Quasi-Fermi Levels",
+          "Hall Effect",
+          "Smart Contacts",
+          "Thermoelectricity",
+          "Phonon Transport",
+          "Coherent transport",
+          "non-coherent transport",
+          "Quantum transport equations",
+          "Physics of Ohm's law",
+          "Non-Equilibrium Green Function (NEGF)"
+        ],
+        "references": [
+          "S. Dutta, Quantum Transport: Atom to Transistor, Revised Edition, Cambridge University Press, 2013",
+          "S. Dutta, Lessons from Nanoelectronics: A New Perspective on Transport, Basic Concepts, 2nd Edition, World Scientific Pub Co Inc, 2017",
+          "Jeong, Changwook; Lundstrom, Mark S., Near-equilibrium transport: fundamentals and applications, World Scientific, 2013",
+          "Mark S. Lundstrom, Jing Guo, Nanoscale Transistors: Device Physics, Modeling and Simulation, Springer US, 2006"
+        ],
+        "flags": [
+          "missing_sem",
+          "code_prefix_mismatch (ECE vs department context)",
+          "syllabus_incomplete_formatting (e.g., 'BTE from Newton's Laws')"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4409",
+        "title": "MACHINE LEARNING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Fundamentals of machine learning, covering supervised, unsupervised, and reinforcement learning",
+          "Statistical decision theory, regression, and classification",
+          "Feature reduction techniques like PCA",
+          "Linear discrimination methods such as logistic regression, LDA, and SVMs",
+          "Artificial neural networks, backpropagation, and training strategies",
+          "Parameter estimation methods, regression trees, and ensemble methods like bagging and boosting",
+          "Evaluation techniques including cross-validation and ROC analysis",
+          "Graphical models (Na\u00efve Bayes, Bayesian networks, HMMs)",
+          "Clustering methods (GMM, EM)",
+          "Reinforcement learning with nonparametric classification approaches",
+          "Self-directed learning: Self-Organizing Maps, Recurrent Neural Network, Hopfield Neural Network, Adaptive Resonance Theory",
+          "Statistical Hypothesis testing- t-test, ANOVA"
+        ],
+        "references": [
+          "Alpaydin E, Introduction to Machine Learning, (2e), MIT Press. 2010",
+          "Duda R.O, Hart P.E. and Stork D.G., Pattern Classification, (2e), Wiley, 2001",
+          "Bishop C. M., Pattern Recognition and Machine Learning, Springer, 2007",
+          "Andrew Barto and Richard Sutton, Reinforcement learning an Introduction, MIT press, 1998",
+          "Jensen R. and Shen Q. Computational Intelligence and Feature Selection: Rough and Fuzzy Approaches, Vol. 8, IEEE Press Series on Computational Intelligence, John Wiley and Sons, 2008"
+        ],
+        "flags": [
+          "missing_sem",
+          "department_mismatch (course code ECE vs department VLSI DESIGN AND TECHNOLOGY)",
+          "non_book_reference_included (NPTEL URL provided)"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4410",
+        "title": "COMPUTER VISION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Image formation",
+          "linear filters and convolution",
+          "edge detection",
+          "image features",
+          "texture analysis and synthesis",
+          "Segmentation using clustering",
+          "Segmentation and fitting using probabilistic methods",
+          "Homogenous coordinates",
+          "Epipolar geometry",
+          "least-square parameter estimation",
+          "Feature selection",
+          "Bayes Classifier",
+          "Multi-layer perceptron",
+          "Support Vector Machine"
+        ],
+        "references": [
+          "David A. Forsyth and Jean Ponce, Computer Vision: A Modern Approach, Pearson Education, 2003",
+          "Richard Szeliski, Computer Vision: Algorithms and Applications,",
+          "Richard Hartley and Andrew Zisserman, Multiple View Geometry in Computer Vision, 2nd Edition, Cambridge University Press, 2004",
+          "Linda Shapiro and George Stockman, Computer Vision, Pearson Education, 2001"
+        ],
+        "flags": [
+          "missing_sem",
+          "missing_reference_year"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4421",
+        "title": "MACHINE LEARNING FOR VLSI DESIGN AUTOMATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "VLSI physical design",
+          "Design automation tools",
+          "Data structures and algorithms",
+          "Graph theory and computational complexity",
+          "Traditional CAD algorithms vs machine learning approaches",
+          "Combinatorial optimization tasks (partitioning, floor planning, placement, routing, synthesis, testing)",
+          "Evolutionary algorithms (Genetic Algorithms, Particle Swarm Optimization, Simulated Annealing)",
+          "ML models (K-Means, K-Nearest Neighbors, Decision Trees, Random Forests)",
+          "Chip partitioning, congestion prediction, routability-driven placement",
+          "ML-based physical verification and mask synthesis",
+          "Layout feature extraction, hotspot detection, optical proximity correction",
+          "ML techniques in testing, manufacturing, yield prediction, and failure modelling",
+          "Statistical methods and Gaussian process-based models for high-volume production"
+        ],
+        "references": [
+          "Elfadel, Ibrahim M., Duane S. Boning, and Xin Li, eds. Machine learning in VLSI computer-aided design. Cham: Springer, 2019.",
+          "Kumar, Abhishek, Suman Lata Tripathi, and K. Srinivasa Rao, eds. Machine Learning Techniques for VLSI Chip Design. John Wiley & Sons, 2023.",
+          "Saini, Sandeep, Kusum Lata, and G. R. Sinha, eds. VLSI and Hardware Implementations Using Modern Machine Learning Methods. CRC Press, 2021.",
+          "N.A. Sherwani, \"Algorithms for VLSI Physical Design Automation \", 1999.",
+          "NPTEL: CAD for VLSI Design https://archive.nptel.ac.in/courses/106/106/106106088/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4422",
+        "title": "EDGE ARTIFICIAL INTELLIGENT COMPUTING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "AI and edge computing fundamentals, covering the relational model of AI, ML principles, and their application in IoT systems with an emphasis on Edge and Cloud AI.",
+          "Python programming essentials and ML libraries with hands-on demos and case studies.",
+          "IoT architectures integrating AI, and software platforms like TinyML, TensorFlow, and Keras for Edge AI development.",
+          "Hardware tools, especially Arduino Nano BLE, are used for real-time models like person detection.",
+          "Real-world applications in autonomous vehicles, healthcare, and education, addressing ethical, economic, and policy considerations in AI deployment.",
+          "Self-directed learning: Python Programming"
+        ],
+        "references": [
+          "Edge AI \u2013 convergence of Edge Computing and Artificial Intelligence",
+          "Artificial Intelligence for Edge Computing",
+          "Machine Learning for Edge Computing"
+        ],
+        "flags": [
+          "missing_sem",
+          "department_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4443",
+        "title": "BIOINSPIRED AND EVOLVABLE SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "evolutionary computing (natural, soft, quantum, DNA, and membrane computing)",
+          "evolutionary algorithms including Genetic Algorithms, Genetic Programming, PSO, and ACO",
+          "neural, immune, and DNA computing (Spiking Neural Networks, Self-Organizing Maps, artificial immune networks)",
+          "reconfigurable hardware (FPGA architectures, virtual devices for evolutionary clustering)",
+          "evolvable hardware and computational machines (Cartesian Genetic Programming, fitness landscape analysis, image processing applications)",
+          "evolvable cellular automata",
+          "Turing Machine in computational theory",
+          "Cellular Automaton"
+        ],
+        "references": [
+          "Lukas Sekanina, \"Evolvable Components: From Theory to Hardware Implementations\", Springer-Verlag Berlin Heidelberg New York, 2004",
+          "David W. Corne, Peter J. Bentley, \"Creative Evolutionary Systems\", Academic Publishers, 2002",
+          "Albert Chun Chen Liu and Oscar Ming Kin Law, \"Artificial Intelligence Hardware Design: Challenges and Solutions\", IEEE Press Wiley, 2021, First edition",
+          "Floreano D. and Mattiussi C., \"Bio-Inspired Artificial Intelligence: Theories, Methods, and Technologies\", MIT Press, Cambridge, MA, 2008",
+          "Leandro Nunes de Castro, \"Fundamentals of Natural Computing, Basic Concepts, Algorithms and Applications\", Chapman & Hall/CRC, Taylor and Francis Group, 2007",
+          "Xuewei Li, Jinpei Wu, Xueyan Li, \"Theory of Practical Cellular Automaton\", Springer Singapore, 2018 (First edition)"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4459",
+        "title": "NEUROMORPHIC VLSI CIRCUITS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Signaling and operation of biological neurons",
+          "Neuron models",
+          "Signal encoding",
+          "Synaptic plasticity",
+          "Neuromorphic design principles",
+          "FETS and MOS transistor operation (weak and strong inversion)",
+          "Floating-gate circuits",
+          "Electron tunneling",
+          "Hot-electron injection",
+          "Static circuits (current mirrors, transconductance amplifiers, power-law circuits, adaptive circuits)",
+          "Dynamic circuits",
+          "Current-mode circuits",
+          "Signal aggregation (translinear principles, floating-gate MOS circuits, winner-take-all circuits)",
+          "Analog neuromorphic designs",
+          "Digital neuromorphic designs",
+          "Memristive devices",
+          "Electronic synapse design",
+          "Interconnection networks",
+          "Neuromorphic VLSI architectures for large neural networks"
+        ],
+        "references": [
+          "C. A. Mead , \"Analog VLSI and Neural Systems\", 1990",
+          "Shih-Chii Liu, J\u00f6rg Kramer, Giacomo Indiveri, Tobias Delbr\u00fcck, Rodney Douglas, Analog VLSI: circuits and principles, MIT press, 2002",
+          "Carver Mead, Analog VLSI and neural systems, Addison-Wesley",
+          "Eric Kandel, James Schwartz, Thomas Jessell, Steven Siegelbaum, A.J. Hudspeth, Principles of neural science, McGraw Hill 2012, ISBN",
+          "Leslie S. Smith and Alister Hamilton , \"Neuromorphic systems\", World Science, 1998"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4423",
+        "title": "VLSI ARCHITECTURE FOR IoT AND EDGE DEVICES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Concept to chip",
+          "CMOS technology basics",
+          "Scaling",
+          "Low-Power VLSI Design Techniques: Power dissipation sources in digital circuits",
+          "Techniques for static and dynamic power reduction",
+          "Design for low-voltage operation",
+          "IoT Architecture",
+          "Implementation of SoC Additional interfaces using Sensors and Actuators",
+          "Edge computing hardware architectures",
+          "Communication Models - Edge, Fog and M2M",
+          "ASICs for IoT sensors and actuators",
+          "Design of low-power processors and memory architectures for Edge devices",
+          "Hardware accelerators for specific IoT functionalities",
+          "Verification and Testing: Simulation tools for functional verification of IoT, Edge computing modules, Testing methodologies for fault detection",
+          "Self-directed Learning: Implementation of Microcomputer RaspberryPi and device Interfacing",
+          "Edge to Cloud Protocols, MQTT"
+        ],
+        "references": [
+          "Rethinking the Internet of Things: A Scalable Approach to Connecting Everything, by Francis daCosta, ISBN: 978-1-4302-5740-0, 2013",
+          "Architecting the Internet of Things, by Dieter Uckelmann, Mark Harrison and Florian Michahelles, ISBN: 978-3-642-19157-2, 2011",
+          "Marco Schwartz, \"Internet of Things with the Arduino Yun\", Packt Publishing, 2014",
+          "IoT Fundamentals - Networking Technologies, Protocols and Use Cases for the Internet of Things (English, Paperback, Rowan Trollope, David Hanes, Patrick Grossetete, Jerome Henry, Rob Barton, Gonzalo Salgueiro)",
+          "Arshdeep Bahga and Vijay Madisetti, \"Internet of Things \u2013 A Hands on Approach\", Universities Press, 2015",
+          "Foundational Elements of an IoT Solutions: The Edge, The Cloud Application Development, Joe Biron and Jonathan Follett",
+          "IoT Fundamentals: Networking Technologies, Protocols, and Use Cases for the Internet of Things, by David Hanes, Gonzalo Salgueiro, Rob Barton, 2017, ISBN: 9780134307091"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4424",
+        "title": "SECURUTY SOLUTIONS IN VLSI",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Information system review: LAN, WAN, MAN, Information flow",
+          "Security mechanisms in OSI model: Targets, Threats to Security",
+          "Physical security, Biometric systems, Monitoring controls",
+          "Data security, System security, Computer system security, Communication security",
+          "Conventional techniques: Modern techniques, DES chaining modes (Triple DES)",
+          "RSA algorithm, Key management, Message authentication and Hash functions",
+          "Secure Hash functions, Digital signatures, Directory authentication service",
+          "Firewalls: Design principles, Trusted systems, IT Act and cyber laws, VPN",
+          "Future threats to networks, Recent attacks on networks- VLSI-based Case Study",
+          "Concept to chip, CMOS technology basics, Scaling",
+          "Design Methodologies: Design styles, Datapath and control path, FSM",
+          "VLSI Implementation of DES algorithm",
+          "Implementation of RSA encryption (RSA algorithm)",
+          "Development of a digital signature chip using RSA algorithm"
+        ],
+        "references": [
+          "Cryptography and Network Security by William Stallings (Pearson Education, 2009)",
+          "Security in Computing by Charles P. Pfleeger (Prentice Hall, 2003)",
+          "Inside Internet Security by Jeff Crume (Addison-Wesley, 2000)"
+        ],
+        "flags": [
+          "missing_sem",
+          "title_typo",
+          "department_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 3222",
+        "title": "SYSTEM ON CHIP DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Basics of SoC",
+          "Constituents of SoC - Life cycle",
+          "Design flow",
+          "Physical Design",
+          "Logic Synthesis",
+          "Floor Planning",
+          "Placement",
+          "Routing",
+          "Physical Design Constraints",
+          "Clock Tree Synthesis",
+          "Timing analysis",
+          "power routing",
+          "Interconnects",
+          "Switch Interconnects",
+          "Layered Architecture",
+          "Network Interface",
+          "IP-based design",
+          "IP evaluation on FPGA prototypes",
+          "SOC verification",
+          "testing",
+          "Standardization-SoC Test Automation",
+          "SoC packaging",
+          "Network on Chip",
+          "architectures",
+          "Reconfigurable NoC",
+          "NoC interconnects",
+          "3D-NoC"
+        ],
+        "references": [
+          "Michael J.Flynn, Wayne Luk, , \"Computer system Design: System-on-Chip\", Wiley-India, 2012",
+          "Veena S. Chakravarthi- \"A Practical Approach to VLSI System on Chip (SoC) Design\", Springer Nature Switzerland AG, 2020",
+          "Sudeep Pasricha, Nikil Dutt, \"On Chip Communication Architectures: System on Chip\", Morgan Kaufmann Publishers, 2008",
+          "W.H.Wolf,, \"Computers as Components: Principles of Embedded Computing System Design\", Elsevier, 2008"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4405",
+        "title": "LOW POWER VLSI DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Basics of low power VLSI design",
+          "Sources of power dissipation in digital integrated circuits",
+          "Power dissipation in CMOS circuits",
+          "Dynamic and static power dissipation",
+          "Probabilistic power analysis",
+          "Equivalent Pin Ordering, Network Restructuring and Reorganization",
+          "Logic encoding, state machine encoding",
+          "Reduction of power in address and data buses",
+          "Power and performance management",
+          "Parallel architecture with voltage reduction",
+          "Low power memory design",
+          "Low power clock distribution",
+          "Battery-Aware Systems",
+          "OS level and software level power reduction techniques"
+        ],
+        "references": [
+          "Gary K. Yeap, \"Practical Low Power Digital VLSI Design\", KAP, 2002",
+          "Christian Piguet, \"Low Power CMOS Circuits \u2013 Technology, Logic Design and CAD Tools\", CRC Press, 2006",
+          "Jan M. Rabaey, Massoud Pedram, \"Low power design methodologies\", Kluwer Academic, 1997",
+          "Kaushik Roy, Sharat Prasad, \"Low Power CMOS VLSI Circuit Design\", Wiley, 2000",
+          "Kiat Seng Yeo, Samir S. Rofail, Wang-Ling Goh, \"CMOS/BiCMOS ULSI: Low Voltage, Low Power\", Pearson, 2002"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4444",
+        "title": "BIO-MEMS AND MICROSENSORS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to the historical background and fundamental fabrication techniques of MEMS, bulk and surface micromachining, wafer bonding, and the LIGA process",
+          "MEMS transduction and actuation techniques, Electromechanical, piezoelectric, and electrothermal actuators",
+          "Microsensing technologies: piezoresistive, capacitive, and resonant sensing",
+          "Bio-MEMS fabrication techniques for microfluidic and optical components",
+          "Microfluidic devices: micropumps and micromixers, and sensing technologies for bio-MEMS applications, including electrochemical detection, DNA analysis, and drug delivery systems"
+        ],
+        "references": [
+          "RF MEMS and Their Applications, Vijay K. Varadan, K.J. Vinoy and K.A. Jose, Wiley, 2003 Edition",
+          "Bio-MEMS-Technologies and Applications, Edited by Wanjun Wang and Steven A. Soper, CRC Press, 2007",
+          "Richard P.Buck, William E.Hatfieldc (1990) \"Biosensors Technology\" Marcel dekker USA",
+          "Stephen D. Senturia, \"Microsystem Design\" by, Kluwer Academic Publishers, 2001",
+          "Marc Madou, \"Fundamentals of Microfabrication\" by, CRC Press, 1997",
+          "Gregory Kovacs, \"Micromachined Transducers Sourcebook\" WCB McGraw-Hill, Boston, 1998"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4447",
+        "title": "DATA STRUCTURES AND ALGORITHMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Data Structures \u2013 Introduction to Data Structures, abstract data types, Time and space complexity",
+          "Linear list \u2013 singly linked, circular linked list, Double linked list, Applications of linked lists",
+          "Stacks-Operations, array and linked representations of stacks, stack applications, recursion implementation",
+          "Queues-operations, array and linked representations, applications of queues",
+          "Trees - tree representation, properties of trees, Binary tree representation, binary tree properties, binary tree traversals, binary tree implementation, applications of trees",
+          "Graph- Representation of Graph, types of graph, Matrix Representation of Graphs, Elementary Graph operations, Spanning Trees, Shortest path, Minimal spanning tree",
+          "Searching and Sorting \u2013 Sorting- selection sort, bubble sort, insertion sort, quick sort, merge sort, shell sort, radix sort, Searching-linear and binary search methods, comparison of sorting and searching methods",
+          "Implementation of data structure and algorithms using compilers"
+        ],
+        "references": [
+          "Ellis Horowitz;Sartaj Sahni;Dinesh Mehta, \"Fundamentals of Data Structures in C++\", 2nd edition, Universities Press (India) Limited, 2013",
+          "Mark A. Weiss, \"Data Structures and Algorithm Analysis in C++\", 3rd Edition, Pearson Education India, 2007",
+          "Lipschutz, \"Data Structures with C++\", Schaum outline series, 2006",
+          "Michael T. Goodrich, Roberto Tamassia, David Mount, \"Data Structures and Algorithms in C++\", John Wiley & Sons, 2011",
+          "https://www.javatpoint.com/cpp-installation"
+        ],
+        "flags": [
+          "missing_semester",
+          "department_mismatch (ECE course under VLSI Design department)",
+          "unclear_core_vs_elective_context"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4457",
+        "title": "NANO DEVICES & NANO SENSORS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Quantum devices: Electrons in mesoscopic structures \u2013 split Gate Transistor\u2013Quantum Dot array \u2013 Quantum computer- Bit and Qubit",
+          "Carbon Nanotube based logic gates",
+          "Tunneling devices: Tunnel Effect and Tunneling Elements- Tunneling Diode \u2013 Resonant Tunneling Diode \u2013 Basics Logic Circuits \u2013 Single Electron Transistor (SET) \u2013 Principle \u2013 Coulomb Blockade- Circuit Design- Logic and Memory Circuits",
+          "Nanosensors applications: Nanosensor for Biosensors, immobilization, characteristics, applications, conducting Polymer based sensors, DNA Biosensors, Lab-on-chip",
+          "Nanolithography: Basics of lithography, optical, ion beam lithography, lithographic tools, soft lithography- nanoimprint lithography, wet chemical etching \u2013stencil lithography and sacrificial etching\u2013 future challenges - applications"
+        ],
+        "references": [
+          "K. Goser, P. Glosekotter and J. Dienstuhl, \"Nanoelectronics and Nanosystems-From Transistors to Molecular Quantum Devices\", Springer, 2004",
+          "Ramon Pallas-Areny, John G. Webster, \"Sensors and signal conditioning\" John Wiley & Sons, 2001",
+          "W.R.Fahrner, \"Nanotechnology and Nanoelectronics \u2013 Materials, Devices and Measurement Techniques\" Springer, 2006",
+          "H. Meixner, Sensors: Micro & Nanosensors, Sensor Market trends (Part 1&2)",
+          "M Feldman, \"Nanolithography:The Art of Fabricating Nanoelectronic and Nanophotonic Devices and Systems\", Woodhead Publishing Series in Electronic and Optical Material 2014",
+          "VLSI Technology, IIT Madras Dr. Nandita Dasgupta, https://nptel.ac.in/courses/117106093"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4461",
+        "title": "OBJECT ORIENTED PROGRAMMING USING C++",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Overview of C++",
+          "Classes & Objects",
+          "Defining member functions",
+          "Data hiding",
+          "Constructors",
+          "Destructors",
+          "Parameterized constructors",
+          "Static data members",
+          "Functions",
+          "Friend functions",
+          "Passing objects as arguments",
+          "Inheritance: constructors, destructors and inheritance",
+          "Passing parameters to base class constructors",
+          "Granting access",
+          "Virtual base classes",
+          "Virtual functions",
+          "Polymorphism",
+          "I/O system basics",
+          "File I/O",
+          "Exception handling"
+        ],
+        "references": [
+          "Schildt H., \"The Complete Reference C++\", Tata McGraw Hill, 2003",
+          "Lafore R., \"Object-Oriented Programming in C++\", Pearson Education, Reprint 2011",
+          "Lippmann S.B., Lajore J., \"C++ Primer\", Pearson Education, 2005",
+          "Deitel P.J., Deitel H.M., \"C++ for Programmers\", Pearson Education, 2009",
+          "Sourav Sahay, \"Object oriented programming with C++\", Oxford University press, 2006"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4467",
+        "title": "SPINTRONIC VLSI",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "The advent of spintronics",
+          "Quantum Mechanics of Spin: Pauli Spin Matrices",
+          "Spin-orbit interaction, spin polarized drift/diffusion",
+          "Spin-orbit interaction in a solid: Rashba Interaction, Spin Relaxation",
+          "Spin transfer torque (STT), anomalous Hall effect, Spin Hall effect (SHE), spin orbit torque (SOT)",
+          "Spin valve, Magnetic tunnel junction (MTJ)",
+          "Silicon based spin electronic devices: toward a spin transistor",
+          "Spintronic computing: Hybrid spintronics, Inmemory computing using spintronic devices",
+          "All spin logic, Ferroelectric tunnel junction (FTJ), and Domain wall (DW) are in the magnetic nanowire",
+          "Micromagnetic simulation of spintronic devices using OOMMF/Mumax/COMSOL etc."
+        ],
+        "references": [
+          "J. M. D. Coey, \"Magnetism and Magnetic Materials\", Cambridge University Press, 2010",
+          "S. Bandyopadhyay, M. Cahay, \"Introduction to Spintronics\", CRC Press, 2008",
+          "S. Maekawa, \"Concepts in Spin Electronics\", Oxford University Press, 2006",
+          "D. D. Awschalom, R. A. Buhrman, J. M. Daughton, S.V. Molnar, and M.L. Roukes, \"Spin Electronics\", Kluwer Academic Publishers, 2004",
+          "Suri Manan, \"Applications of Emerging Memory Technology\", Springer Series in Advanced Microelectronics, 2020",
+          "https://nanohub.org/wiki/Spin",
+          "https://nanohub.org/publications/375/1",
+          "http://gdr-rest.polytechnique.fr/node/94",
+          "https://www.comsol.com/blogs/micromagnetic-simulation-with-comsol-multiphysics"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4469",
+        "title": "SWITCHING THEORY FOR LOGIC SYNTHESIS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory",
+          "core"
+        ],
+        "syllabus": [
+          "Boolean algebra",
+          "two level logic networks",
+          "Exact and Heuristic techniques",
+          "Sequential circuit optimizations",
+          "Multilevel Logic synthesis",
+          "Technology mapping",
+          "logic designs using modules and exor",
+          "Sequential circuit optimization \u2013 State diagram reduction using equivalence method and implicant chart table technique"
+        ],
+        "references": [
+          "Tsutomu Sasao, Switching Theory for Logic Synthesis, Springer Publication, 1999.",
+          "Soha Hassoun , Tsutomu Sasao, Logic Synthesis and Verification, Springer Publication, 2002.",
+          "Giovanni De Michelli , Synthesis and Optimisation of Digital Circuits, Tata-McGraw Hill, New Delhi,2008.",
+          "Gary D. Hachtel, Fabio Somenzi , Logic Synthesis and Verification Algorithm, Kluwer Academic Publication, Boston,2002.",
+          "D.D. Gajski, N.D. Dutt, A.C. Wu and A.Y. Yin, \"High-level synthesis: introduction to chip and system design\", Kluwer Academic Publishers.",
+          "Switching Theory and Logic Design-A. Anand Kumar, PHI, 2nd Edition."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4499",
+        "title": "RELIABILITY OF VLSI CIRCUITS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Quasi-ballistic I-V characteristics, quantum-based terminal capacitances, and parasitic resistances",
+          "Delay models for nano-CMOS logic gates, timing in sequential circuits, and memories",
+          "Power models: dynamic, short circuit, leakage, and full-chip estimation with sensitivity to process variations",
+          "Analog circuit performance parameters and reliability impacts excluding VLSI design aspects"
+        ],
+        "references": [
+          "M Stanisavljevi\u0107, A Schmid, Y Leblebici, \"Reliability of Nanoscale Circuits and Systems: Methodologies and Circuit Architectures\" Springer, 11th edition, 2014",
+          "Behzad Razavi, \"Design of Analog CMOS Integrated Circuits\", Tata McGraw-Hill, 2nd edition, 2017",
+          "Jan M. Rabaey, Anantha Chandrakasan, Borivoje Nikolic, \"Digital Integrated Circuits: A Design Perspective,\" Prentice Hall 2003"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "code": "ECE 4500",
+        "title": "VLSI PHYSICAL DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "VLSI physical design flow, objectives, and challenges",
+          "Design rules, layout basics, and EDA tools",
+          "Optimization algorithms, partitioning, floorplanning, placement, routing",
+          "Clock tree synthesis, timing closure, and signal integrity",
+          "Power analysis: IR drop, EM, low-power design techniques (power gating, UPF)",
+          "Timing analysis: static/dynamic timing, constraints, on-chip variations, LVF",
+          "Physical verification processes: DRC, LVS, DFM",
+          "Scripting using Tcl and Python",
+          "Self-Directed Learning: Writing TCL scripts to optimize design constraints during design synthesis and automate the VLSI physical design flow using EDA tools"
+        ],
+        "references": [
+          "Rakesh Chadha and J. Bhasker, \"An ASIC Low Power Primer\"",
+          "Veena S. Chakravarthi- A Practical Approach to VLSI System on Chip (SoC) Design, Springer Nature Switzerland AG, 2020",
+          "Kurt Wall, \"Tcl/Tk Programming for the Absolute Beginner\", Cengage Learning Ptr, 1st edition, October 16, 2007",
+          "Michael J.Flynn, Wayne Luk, Computer system Design: System-on-Chip, Wiley-India, 2012",
+          "SDL: https://www.vlsiguru.com/tcl-scripting-training/",
+          "Voltus Reference Manuals, 17.12.000",
+          "Tempus Reference Manual, 17.12.000",
+          "Calibre Reference Manual, 2017.1_17.12"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4501",
+        "title": "MEMORY DESIGN AND TESTING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Memory technologies (SRAM, DRAM, non-volatile memories: ROM, PROM, EEPROM, Flash)",
+          "Advanced memory architectures",
+          "Reliability issues and failure mechanisms",
+          "Radiation effects and mitigation techniques",
+          "Memory testing topics (fault modeling, testability, fault tolerance)",
+          "Cutting-edge memory technologies (FRAM, MRAM, analog memories)",
+          "High-density packaging approaches (2D/3D MCMs, memory stacks)",
+          "Future directions in memory system design",
+          "Advanced SRAM and DRAM Designs and Architectures"
+        ],
+        "references": [
+          "Ashok K.Sharma, \"Semiconductor Memories Technology, Testing and Reliability\", Prentice-Hall of India Private Limited, New Delhi, 1997",
+          "Ye Zhou, \"Advanced Memory Technology: Functional Materials and Devices\", Royal Society of Chemistry, Published: 9 October 2023",
+          "Luecke Mize Care, \"Semiconductor Memory design & application\", Mc-Graw Hill",
+          "Belty Prince, \"Semiconductor Memory Design Handbook\"",
+          "Memory Technology design and testing 1999 IEEE International Workshop on: IEEE Computer Society Sponsor (S)",
+          "Research Papers"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4502",
+        "title": "FUNDAMENTALS OF NANOELECTRONICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Nanoelectronics",
+          "importance, applications and challenges",
+          "Quantum Mechanics for Nanoelectronics",
+          "Wave-Particle Duality",
+          "Schr\u00f6dinger Equation",
+          "Quantum Confinement",
+          "Density of States",
+          "semiconductor heterostructures: confinement models and two-dimensional electron gas",
+          "classical and ballistic transport",
+          "Nanostructures and Nanoelectronic Devices",
+          "Graphene-based Devices",
+          "Single Electron Transistors",
+          "Nanowire Transistors",
+          "Nanofabrication and Characterization",
+          "VLS growth",
+          "Nanolithography",
+          "Electrical Characterizations",
+          "Nanomaterials characterizations"
+        ],
+        "references": [
+          "George W Hanson \"Fundamentals of Nanoelectronics\", Pearson Education Inc., Prentice Hall India, 2009.",
+          "Vladimir V. Mitin, Viatcheslav A. Kochelap, Michael A. Stroscio \"Introduction to Nanoelectronics: Science, Nanotechnology, Engineering, and Applications\", Cambridge University Press, 2008.",
+          "Supriyo Datta \"Quantum Transport: Atom to Transistor\", Cambridge University Press, 2005.",
+          "Loutfy H. Madkour \"Nanoelectronic Materials: Fundamentals and Applications\", Springer 2019.",
+          "Vladimir G. Dubrovskii \"Nucleation Theory and Growth of Nanostructures\", Springer-Verlag Berlin Heidelberg 2014.",
+          "Hassan Raza \"Nanoelectronics Fundamentals: Materials, Devices and Systems\", Springer, 2019."
+        ],
+        "flags": [
+          "missing_semester",
+          "department_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4503",
+        "title": "RF MICROELECTRONICS & IC DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "RF systems: transmission media, matching networks, interconnects, passive components",
+          "Distributed systems, transmission lines, Smith charts",
+          "High-frequency amplifier design: bandwidth estimation, risetime, noise analysis",
+          "LNA design, noise matching, mixer architectures",
+          "RF power amplifiers (Class A-F), voltage-controlled oscillators, PLLs with practical design examples",
+          "Overview of GSM, CDMA, and UMTS radio architectures",
+          "Self-Directed Learning: Analysis/Simulation of RF modules (e.g., Low Noise amplifier, Gilbert cell)"
+        ],
+        "references": [
+          "The Design of CMOS Radio-Frequency Integrated Circuits by Thomas H. Lee. Cambridge University Press, 2004",
+          "RF Microelectronics by Behzad Razavi. Prentice Hall, 1997",
+          "Radio frequency integrated circuits and technologies by Ellinger, F. Springer Science & Business Media",
+          "GSM - Architecture, Protocols and Services by J\u00f6rg Ebersp\u00e4cher, Christian Bettstetter, Hans-Joerg V\u00f6gel, Christian Hartmann"
+        ],
+        "flags": [
+          "missing_semester",
+          "department_mismatch (context specifies B.TECH. IN ELECTRONICS ENGINEERING (VLSI DESIGN AND TECHNOLOGY), but course code prefix is ECE)"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4504",
+        "title": "SCRIPTING LANGUAGE FOR VLSI",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Perl Scripting: Introduction to Perl Scripting, working with Simple Values, Lists and Hashes, Loops and Decisions, Regular Expressions, Files and Data in Perl Scripting, References & Subroutines, Running and Debugging Perl, Modules, Object-Oriented Perl",
+          "Tcl Scripting: Basic Syntax Commands, Data types, Variables, Operators, Decisions, Loops, Arrays, Strings, Lists, Procedures and Packages",
+          "Python Scripting: Introduction to Python, Using the Python Interpreter, More Control Flow Tools, Data Structures, Modules, Input and Output, Errors and Exceptions, Classes, Brief Tour of the Standard Library",
+          "Self-Directed Learning: Writing TCL scripts to optimize design constraints during design synthesis and automate the VLSI physical design flow using EDA tool"
+        ],
+        "references": [
+          "Randal L. Schwartz, Brian d Foy, and Tom Phoenix, \"Learning PERL\" O'Reilly Media, Inc. publications 6th Edn., 2011, June 2011. ISBN:",
+          "Kurt Wall, \"Tcl/Tk Programming for the Absolute Beginner\", Cengage Learning Ptr, 1st edition, October 16, 2007",
+          "Brent Welch, Ken Jones, and Jeff Hobbs, \"Practical Programming in Tcl and Tk\", Prentice Hall; 4th edition (June 20, 2003)",
+          "Guido van Rossum, Fred L. Drake, Jr., \"Python Tutorial\" Python Software Foundation, June 2012",
+          "https://archive.nptel.ac.in/courses/117/106/117106113/#",
+          "https://www.vlsiguru.com/tcl-scripting-training/"
+        ],
+        "flags": [
+          "missing_semester",
+          "discrepancy_department_code (ECE course code in EEE department context)",
+          "incomplete_ISBN_in_references",
+          "formatting_issue_in_references (asterisk suffix on URL)"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4505",
+        "title": "SEMICONDUCTOR EQUIPMENT DESIGN AND TECHNOLOGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Basic concepts of vacuum technology: Gas dynamics, pressure, conductance, gas flow regimes, Gas-surface interactions: physisorption, chemisorption, condensation",
+          "Vacuum Pumps and Instrumentation: Mechanical, diffusion, turbo-molecular, cryopumps, ion pumps, Vacuum gauges, gas regulators, residual gas analyzers",
+          "Vacuum System Design and Troubleshooting: Materials, chambers, seals, valves, leak detection",
+          "Plasma Science and Technology: Electron/ion motion in electric and magnetic fields, DC, RF, and microwave field interactions, plasma potential",
+          "Plasma Reactors and Applications, Reactor systems, mass flow control, RF/microwave coupling",
+          "Applications of vacuum systems: etching, deposition, sputtering, vacuum coating, microelectronics",
+          "Self-directed Learning: Vacuum system applications for metallurgical processes, etc."
+        ],
+        "references": [
+          "V.V. Rao, T.B. Ghosh, K.L. Chopra,, Vacuum Science and Technology, Allied Publishers Ltd., New Delhi, 2011",
+          "Milton Ohring, Materials Science of Thin Films Deposition and Structure, Academic Press, Elsevier, 2002",
+          "A.D. Tripathi A. Gupta Ac, Ultra High Vacuum Techniques, Allied Publishers Private Limited, 2002",
+          "A Chambers, Modern Vacuum Physics, CRC Press, 2005",
+          "Dorothy M. Hoffman, Bawa Singh, John H. Thomas Handbook of Vacuum Science and Technology, III, Academic Press",
+          "M. Sugawara, Plasma Etching: Fundamentals and Applications: 7 (Series on Semiconductor Science and Technology), OUP Oxford",
+          "Alexander Fridman and Lawrence Kennedy, Plasma Physics and Engineering, CRC Press",
+          "Karl Jousten, Handbook of Vacuum Technology, Wiley"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4506",
+        "title": "THIN FILMS AND NANOSTRUCTURES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to nanomaterials: Types: 0D, 1D, 2D, 3D nanomaterials, bulk vs. nanoscale properties, top-down vs. bottom-up synthesis approaches",
+          "Nanomaterials development process: liquid and vapor phase synthesis, wet chemical methods, chemical vapor deposition, mechanical milling, laser ablation",
+          "Thin-Film and Nanostructure Growth: Electro/electroless deposition, physical vapor deposition, and chemical Vapor Deposition with materials and mechanisms",
+          "Etching techniques: Wet and dry plasma etching; crystal structures and their impact on etching processes",
+          "Self-directed learning: Material crystal structure and etching dependency"
+        ],
+        "references": [
+          "R.K. Waits, Thin Film Deposition and Patterning, American Vacuum Society.",
+          "M. Ohring, The Materials Science of Thin Films, Academic Press, Boston.",
+          "Ludmila Eckertova, Physics of Thin Films, 2nd Plenum Press New York.",
+          "K.L. Chopra, Thin Film Phenomena, McGraw-Hill.",
+          "Michae J. O'Connel, Carbon Nanotubes: Properties and Applications",
+          "Liz Marzan and Kamat, Nanoscale materials",
+          "C. N. R. Rao, A. Muller, A. K. Cheetham, Nanomaterials Chemistry, Wiley VCH , 2007.",
+          "C. Brechignac, P. Houdy, M. Lahmani, Nanomaterials and Nanochemistry, Springer Publication, 2007.",
+          "Kenneth J. Klabunde, Nanoscale materials in chemistry, Wiley Interscience Publications, 2001.",
+          "G. B. Sergeev, Nanochemistry, Elseiver Publications, 2006.",
+          "Guozhong Cao, Nanostructures and Nanomaterials, synthesis, properties and applications, Imperial College Press, 2004.",
+          "Yury Gogotsi, Nanomaterials \u2013 Handbook, CRC Press, Taylor & Francis group, 2006.",
+          "Milton Ohring, Engineering Materials Science, Academic Press, Elsevier."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4507",
+        "title": "SEMICONDUCTOR MATERIALS CHARACTERIZATION TECHNIQUES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Importance of material characterization",
+          "microscope its types",
+          "scanning electron microscopy",
+          "Transmission electron microscopy",
+          "Energy dispersive spectroscopy",
+          "Wavelength dispersive spectroscopy",
+          "X-ray diffraction techniques",
+          "Atomic force microscopy",
+          "scanning tunnelling microscopy",
+          "X-ray photoelectron spectroscopy",
+          "Atomic absorption spectroscopy",
+          "UV/Visible spectroscopy",
+          "Fourier transform infrared spectroscopy",
+          "Raman spectroscopy",
+          "Thermo gravimetric analysis",
+          "Differential thermal analysis",
+          "Differential Scanning calorimetry",
+          "Thermo mechanical analysis and dilatometry"
+        ],
+        "references": [
+          "Li, Lin, Ashok Kumar Materials Characterization Techniques Sam Zhang; CRC Press, (2008)",
+          "Cullity, B.D., and Stock, R.S., \"Elements of X-Ray Diffraction\", Prentice-Hall, (2001)",
+          "Murphy, Douglas B, Fundamentals of Light Microscopy and Electronic Imaging, Wiley-Liss, Inc. USA, (2001)",
+          "Tyagi, A.K., Roy, Mainak, Kulshreshtha, S.K., and Banerjee, S., Advanced Techniques for Materials Characterization, Materials Science Foundations (monograph series), Volumes 49 \u2013 51, (2009)",
+          "Wachtman, J.B., Kalman, Z.H., Characterization of Materials, ButterworthHeinemann, (1993)"
+        ],
+        "flags": [
+          "missing_sem",
+          "typo_in_title"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4508",
+        "title": "VLSI DIGITAL SIGNAL PROCESSING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "advanced digital signal processing architectures",
+          "pipelining, parallel processing, and retiming techniques for performance and low-power optimization",
+          "folding and unfolding algorithms",
+          "register minimization",
+          "application in multirate systems",
+          "Systolic architecture design",
+          "FIR filters, matrix multiplication, and delay handling",
+          "fast convolution methods such as Cook-Toom and Winograd algorithms",
+          "cyclic and iterated convolution",
+          "efficient implementation strategies for high-performance DSP systems"
+        ],
+        "references": [
+          "Parhi, Keshab K. VLSI digital signal processing systems: design and implementation. John Wiley & Sons, 2007.",
+          "Bayoumi, Magdy A., ed. VLSI design methodologies for digital signal processing architectures. Vol. 257. Springer Science & Business Media, 2012.",
+          "Khan, Shoab Ahmed. Digital design of signal processing systems: a practical approach. John Wiley & Sons, 2011.",
+          "Parhi, Keshab K., and Takao Nishitami, eds. Digital Signal processing for multimedia systems. CRC press, 2018."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      }
+    ]
+  }
+}

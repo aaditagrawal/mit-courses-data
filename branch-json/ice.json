@@ -1,0 +1,2802 @@
+{
+  "department": {
+    "name": "26",
+    "courses": [
+      {
+        "sem": 3,
+        "code": "MAT 2122",
+        "title": "ENGINEERING MATHEMATICS-III",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Linear algebra: Systems of Linear Equations, Matrices, Solving Systems of Linear Equations, Vector Spaces, Linear Independence, Basis and Rank, Linear Mappings, Affine Spaces",
+          "Analytic geometry: Norms, Inner Products, Lengths and Distances, Angles and Orthogonality, Orthonormal Basis, Orthogonal Complement, Inner Product of Functions, Orthogonal Projections, Rotations",
+          "Matrix decompositions: Determinant and Trace, Eigenvalues and Eigenvectors, Cholesky Decomposition, Eigen decomposition and Diagonalization, Singular Value Decomposition, Matrix Approximation",
+          "Fourier Series and transforms: Periodic function, Fourier Series expansion, even and odd functions, functions with arbitrary periods, Half range expansions, Fourier transform, basic properties, Parseval's identity and applications"
+        ],
+        "references": [
+          "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong, Mathematics for Machine Learning, Cambridge University Press, 2020",
+          "Grewal B.S., Higher Engineering Mathematics, Khanna Publishers, 43rd edition, 2015",
+          "Stephen H. Friedberg, Lawrence E Spence, Arnold J Insel, Elementary Linear Algebra: A Matrix Approach Introduction to Linear Algebra, Second Edition, 2019",
+          "David Lay, Steven Lay, Judi McDonald, Linear Algebra and Its Applications, Pearson, 2019",
+          "Gilbert Strang, Introduction to Linear Algebra, Fifth Edition (2016), Wellesley-Cambridge Press",
+          "Mordechai Ben-Ari, Mathematical Logic for Computer Science, Third Edition, Springer",
+          "Narayanan, Ramaniah and Manicavachagom Pillay, Advanced Engineering Mathematics, Vol 2 and 3, Vishwanthan Publishers Pvt Ltd, 1998",
+          "Erwin Kreyszig, Advanced Engineering Mathematics, 5th edn., Wiley Eastern, 1985"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 2121",
+        "title": "ANALOG ELECTRONIC CIRCUITS",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Structure and operation of MOSFET",
+          "I-V Characteristics",
+          "Channel-Length Modulation",
+          "Transconductance",
+          "Large-Signal and Small-Signal Model",
+          "Biasing",
+          "Amplifier topologies",
+          "Common-Source Amplifier",
+          "Common-Gate Amplifier",
+          "Source Follower",
+          "Cascode",
+          "Two stage CS Amplifiers",
+          "MOS Differential amplifier",
+          "Miller's Theorem",
+          "Frequency Response of CS, CG, CD, Cascode and differential amplifier Stage",
+          "Negative Feedback Amplifiers",
+          "Feedback Topologies",
+          "Power amplifiers",
+          "Push-Pull Stage",
+          "LC Oscillators",
+          "Hartley's and Colpitt's Oscillator",
+          "RC Phase Shift Oscillator",
+          "Ring Oscillator"
+        ],
+        "references": [
+          "Behzad Razavi, Fundamental of Microelectronics, Wiley, (2e), 2013.",
+          "A. S. Sedra, K. C. Smith, Microelectronic circuits, Oxford University Press, (6e), 2011.",
+          "R. L. Boylestad, L. Nashelsky, Electronic Devices and Circuit Theory, PHI, (11e), 2014."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 2122",
+        "title": "DIGITAL CIRCUITS AND SYSTEM DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Boolean Algebra \u2013 Theorems",
+          "DeMorgan's Law",
+          "Karnaugh map",
+          "Determination of Prime Implicants",
+          "Quine McCluskey method",
+          "Combinational Logic Design",
+          "Synchronous Sequential Logic Design",
+          "Introduction to Programmable circuits",
+          "Design of Read-Only Memory (ROM)",
+          "Programmable Logic Arrays (PLA)",
+          "Programmable Array Logic (PAL)",
+          "Programmable ASICs",
+          "Introduction to CAD Tools",
+          "Introduction to Verilog \u2013 Structural Specification",
+          "Behavioral Specification",
+          "Verilog for Combinational Circuits",
+          "Verilog for Sequential Circuits",
+          "Verilog Programming"
+        ],
+        "references": [
+          "Donald D. Givone, Digital Principles and Design, TMH, (1e), 2002",
+          "C. H. Roth, Fundamentals of Logic Design, Thomson, (6e), 2000",
+          "Anand Kumar, Switching Theory and Logic Design, PHI, (2e), 2014",
+          "Samir Palnitkar, Verilog HDL: A guide to digital design and synthesis, Prentice Hall Professional, (2e), 2003",
+          "J. Bhasker, A Verilog HDL Primer, BSP, (1e), 2001",
+          "Stephen Brown, Fundamentals of Digital Logic with Verilog Design, TMH, (3e), 2013",
+          "CemUnsalan, Bora Tar, Digital System Design with FPGA, Mc Graw Hill Education (India) Private Limited, 2017",
+          "Ming-Bo Lin, Digital System Designs and practices Using Verilog HDL and FPGAs, Wiley India Pvt. Ltd., 2012"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 2123",
+        "title": "NETWORKS AND SIGNALS",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Analysis of circuits with dependent sources",
+          "Network theorems",
+          "Initial conditions and transient analysis of RL, RC and RLC circuits",
+          "Analysis of networks by Laplace transform method",
+          "Network functions",
+          "Two port network parameters",
+          "Continuous time signals and systems",
+          "LTI systems - convolution integral",
+          "Response of Continuous time LTI systems to complex exponentials",
+          "Fourier series",
+          "Fourier transform",
+          "Properties of Fourier series and Fourier transform"
+        ],
+        "references": [
+          "Van Valkenberg, Network Analysis, 3e, PHI, 2010",
+          "Fundamentals of Electric Circuits, Charles K. Alexander, Matthew N. O. Sadiku, McGraw Hill(7e), 2022",
+          "Allan Oppenheim, Allan Willsky with Ian S Hamid, Signals and Systems, PHI, 1999",
+          "Hayt W. H., J. E. Kemmerly & S. M. Durbin, Engineering Circuit Analysis, 7e, TMH, 2010"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 2124",
+        "title": "SENSORS AND TRANSDUCERS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Configurations and functional description",
+          "Resistive Transducers",
+          "Capacitive Transducers",
+          "Inductive Transducers",
+          "Inductive Transducers",
+          "Piezo Electric Transducers",
+          "electrochemical sensors: use and design",
+          "optical sensors: use and design",
+          "miscellaneous industrial sensors for measurement of pH, gases, humidity"
+        ],
+        "references": [
+          "E.O. Doeblin, Measurement Systems: Application and Design, McGraw Hill, (5e), 2008.",
+          "DVS Murthy, Transducers & Instrumentation, PHI, (2e), 2008.",
+          "Skooj, Holler, Crouch, Principles of Instrumental Analysis (7e), Cengage Learning India, 2018.",
+          "B.G. Liptak, Process Measurement & Analysis, Chilton Book Company, (4e), 2003."
+        ],
+        "flags": [
+          "missing_sem",
+          "duplicate_syllabus_topic"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 2125",
+        "title": "LINEAR CONTROL THEORY",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Mathematical modeling, transfer functions, Block diagram representation and reduction, signal flow graph, Masons gain formula, time domain specifications",
+          "Stability, Steady state errors, generalized error coefficients, Routh-Hurwitz criterion, Root-Locus plots, frequency domain specifications",
+          "Correlation between frequency domain and time domain specifications, Bode diagrams, Polar plots, Nyquist stability criterion, Qualitative analysis of compensator design using root-locus and frequency response approach"
+        ],
+        "references": [
+          "Norman S. Nise, Control Systems Engineering, Wiley India, (5e), 2009",
+          "K. Ogata, Modern control engineering, PHI, (5e), 2011",
+          "R.C Dorf and R.H Bishop, Modern Control Systems, Pearson, (11e), 2013"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 2141",
+        "title": "DIGITAL CIRCUITS AND SYSTEMS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Implementation of Boolean functions using logic gates",
+          "Code Conversion Circuits",
+          "Design and implementation of combinational circuits",
+          "Study of Flip-flops",
+          "Design and implementation of Counters",
+          "Study of Basic operators and data types in Verilog HDL",
+          "Combinational circuit design using Verilog HDL",
+          "Sequential circuit design using Verilog HDL",
+          "Keypad Interfacing",
+          "LCD Interfacing"
+        ],
+        "references": [
+          "Anand Kumar, Switching Theory and Logic Design, PHI, (2e), 2014",
+          "M. Morris Mano, Digital Design, PHI, (5e), 2002",
+          "Samir Palnitkar, Verilog HDL: A guide to digital design and synthesis, Prentice Hall Professional, (2e), 2003",
+          "J. Bhasker, A Verilog HDL Primer, BSP, (1e), 2001",
+          "CemUnsalan, Bora Tar, Digital System Design with FPGA, Mc Graw Hill Education (India) Private Limited, 2017"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ICE 2142",
+        "title": "SENSORS AND CIRCUITS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "AC bridges",
+          "network theorems",
+          "measurement of energy",
+          "measurement of self and mutual inductance",
+          "series and parallel resonance",
+          "characteristics of sensors and transducers \u2013 temperature, torque, force, displacement and intensity of light",
+          "Electrochemical sensor design",
+          "Optic fiber based sensor design"
+        ],
+        "references": [
+          "E.O. Doeblin, Measurement Systems: Application and Design, McGraw Hill, (5e), 2004",
+          "C S Rangan, G R Sharma and V S V Mani, Instrumentation Devices & Systems, TMH, (2e), 2017"
+        ],
+        "flags": [
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 2228",
+        "title": "ENGINEERING MATHEMATICS IV",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Probability and Distributions: Construction of a Probability Space, Discrete and Continuous Probabilities, Sum Rule, Product Rule, and Bayes' Theorem, Summary Statistics and Independence, Distributions: Binomial, Poisson, uniform, normal, Chi-square and exponential distributions",
+          "Multivariate Random variables and Stochastic Process: Two and higher dimensional random variables, covariance, correlation coefficient, Moment generating function, functions of one dimensional and two dimensional random variables",
+          "Static probabilities: review and prerequisites generating functions, difference equations",
+          "Dynamic probability: definition and description with examples, Markov chains, transition probabilities",
+          "Vector Calculus: Differentiation of Univariate Functions, Partial Differentiation and Gradients, Gradients of Vector-Valued Functions, Gradients of Matrices, Useful Identities for Computing Gradients, Backpropagation and Automatic Differentiation, Higher-Order Derivatives, Linearization and Multivariate Taylor Series",
+          "Optimization: Basic solution, Convex sets and function, Simplex Method, Optimization Using Gradient Descent, Constrained Optimization and Lagrange Multipliers"
+        ],
+        "references": [
+          "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong, Mathematics for Machine Learning, Cambridge University Press, 2020",
+          "P L Meyer, Introductory Probability and Statistical Applications, Addison Wiley",
+          "Medhi. J. Stochastic Processes, Wiley Eastern",
+          "Murray R. Spiegel, Vector Analysis Theory and Problems, Schaum's Outline Series, 2019",
+          "Hamdy A. Taha, \u201cOperations Research: An Introduction\u201d, 8th Edn., Pearson Education, (2008)",
+          "Sheldon M. Ross, Introduction to Probability Models Eleventh Edition Elsevier",
+          "E. S. Page, L. B. Wilson, An Introduction to Computational Combinatorics, Cambridge, University Press",
+          "Bhat U R, Elements of Applied Stochastic Processes, John Wiley"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 2221",
+        "title": "LINEAR INTEGRATED CIRCUITS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Op Amp fundamentals",
+          "Current to Voltage",
+          "Voltage to current Converters",
+          "Current amplifiers",
+          "Difference Amplifiers",
+          "Instrumentation Amplifiers",
+          "Active Filters",
+          "Voltage comparators",
+          "Schmitt trigger",
+          "Precision rectifiers",
+          "Peak detector",
+          "Multi vibrators",
+          "Monolithic Timers",
+          "Triangular wave generators",
+          "Sine wave generators",
+          "Voltage to frequency and Frequency to voltage converters",
+          "Digital to Analog and Analog to Digital Converters"
+        ],
+        "references": [
+          "Franco Sergio, Design with Op amps & Analog Integrated Circuits, McGraw Hill, (3e), 2017",
+          "Ramakant A. Gayakwad, Op-Amps and Linear Integrated Circuits, PHI, (4e), 2015",
+          "Robert F. Coughlin and Frederick S. Driscoll, Operational Amplifiers and Linear Integrated Circuits, Pearson Education Pvt Ltd., (6e), 2020",
+          "Sedra and Smith, Micro Electronic Circuits, Oxford university press, (8e), 2019"
+        ],
+        "flags": [
+          "missing_semester",
+          "tag_inference_used"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 2222",
+        "title": "MICROCONTROLLERS",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Computer Architecture",
+          "Architecture of 8051",
+          "8051 Addressing Modes",
+          "8051 Instruction Set",
+          "Programming 8051 using Assembly Language and C",
+          "8051 Timer",
+          "Serial Port and Interrupt Programming using Assembly Language and C",
+          "Introduction to ARM",
+          "ARM Architecture",
+          "Introduction to LPC2148",
+          "Architecture of LPC2148 and Programming",
+          "Interfacing of I/O ports",
+          "ADC",
+          "DAC",
+          "LCD",
+          "Keyboard",
+          "Stepper motor",
+          "DC motor using 8051/LPC2148"
+        ],
+        "references": [
+          "Muhammad Ali Mazidi, Janice Gillispie Mazidi, Rolin McKinlay, The 8051 Microcontroller and Embedded Systems Using Assembly and C, Pearson Education, (2e), 2007",
+          "Kenneth J. Ayala, The 8051 Microcontroller, Cengage Learning, (3e), 2004",
+          "Steve Furber, ARM System - on \u2013 Chip Architecture, Pearson, (2e), 2015",
+          "William Hohl, Hinds Christopher, ARM Assembly Language, CRC Press, (2e), 2014",
+          "LPC21XX User Manual, 2007"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 2223",
+        "title": "INDUSTRIAL INSTRUMENTATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Temperature Measurement",
+          "Pressure Measurement: Manometers, Elastic types, Bell gauges, Electrical types, Differential Pressure transmitters, Dead weight Pressure gauges",
+          "Low Pressure Measurement",
+          "Flow Measurement",
+          "Multiphase flow meters",
+          "Measurement of Speed, velocity and Acceleration",
+          "Level Measurement",
+          "NEMA, ISA standards, IEI \u2013 hazard classifications and standards"
+        ],
+        "references": [
+          "Liptak B. G, Handbook of Process Measurement and Analysis, Chilton Book Company, (3e), 1995",
+          "Gioia Falcone, Geoffrey Hewitt, C Alimonti, Multiphase Flow Metering- Principles and Applications, Elsevier Publication, 2009",
+          "Patranabis D, Principles of Industrial Instrumentation, TMH, (3e), 2005"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 2224",
+        "title": "DIGITAL SIGNAL PROCESSING",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Z-transform",
+          "its properties",
+          "inverse Z-transform",
+          "solving difference equation",
+          "discrete Fourier transform",
+          "and its properties",
+          "FFT algorithms",
+          "Frequency response of analog and digital filters",
+          "FIR and IIR filter design",
+          "FIR filter design using windows",
+          "digital Butterworth and Chebyshevfilter design",
+          "realization of FIR and IIR filters",
+          "architecture of C6x processor",
+          "various addressing modes",
+          "programs"
+        ],
+        "references": [
+          "John G Proakis, Dimitris G Manolakis, Digital Signal Processing, Pearson Education,(4e), 2007",
+          "Sanjit K Mitra, Digital Signal Processing: A Computer - Based 22 Approach, McGrawHill Education,(4e), 2013",
+          "Thomas J. Cavicchi, Digital Signal Processing, Wiley, 2009",
+          "Steven W Smith, Digital Signal Processing: A Practical Guide for Engineers and Scientists, Elsevier, 2002",
+          "Rulph Chassaing, Digital Signal Processing and Applications with the C6713 andC6416 DSK. Vol. 16. John Wiley & Sons, 2004"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 2229",
+        "title": "COMMUNICATION TECHNIQUES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Elements of communication systems",
+          "Analog Communication techniques: Amplitude modulation schemes, Power distribution, Angle modulation-frequency and phase, frequency spectrum, Sampling, Quantization, Pulse modulation schemes",
+          "Shift keying techniques \u2013 frequency, phase and amplitude",
+          "Noise in analog and digital communication systems, Detection of signal in noise, Spread spectrum and mobile communications"
+        ],
+        "references": [
+          "Simon Haykin, Communication Systems, John Wiley & Sons, (4e), 2009",
+          "Tomasi W, Electronic communication systems, Pearson, 2012",
+          "Simon Haykin and Michael Moher, Introduction to analog and digital communications, John Wiley & Sons, (2e), 2013"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 2241",
+        "title": "ANALOG SYSTEMS LABORATORY",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "RC Coupled Amplifier",
+          "Applications of Op-Amp: Inverting Amplifier, Non-inverting amplifier, Integrator, Differentiator, Voltage follower, Active Filters, Instrumentation amplifier, Precision Rectifier, Schmitt trigger, Multivibrators. Astable/Monostable Multivibrators using IC 555 Timer",
+          "Data converters",
+          "IC Regulators"
+        ],
+        "references": [
+          "Albert Malvino, Electronic Principles, McGraw Hill, (7e), 1999.",
+          "Ramakant A. Gayakwad, Op-Amps and Linear Integrated Circuits, PHI, (4e), 2015.",
+          "Sedra and Smith- Micro Electronic Circuits, Oxford university press, (6e), 2000."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": 5,
+        "code": "ICE 2242",
+        "title": "MICROCONTROLLERS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "8051 programming for data transfer, arithmetic operations, code conversion, array handling, delay generation and waveform generation",
+          "Interfacing of LED, stepper motor, DC motor, seven segment displays, alphanumeric LCD panel and hex keypad to LPC 2148"
+        ],
+        "references": [
+          "Muhammad Ali Mazidi, Janice Gillispie Mazidi, Rolin McKinlay, The 8051 Microcontroller and Embedded Systems Using Assembly and C, Pearson Education, (2e), 2007",
+          "Kenneth J. Ayala, The 8051 Microcontroller, Cengage Learning, (3e), 2004",
+          "Steve Furber, ARM System - on \u2013 Chip Architecture, Pearson, (2e), 2015",
+          "William Hohl, Hinds Christopher, ARM Assembly Language, CRC Press, (2e), 2014",
+          "LPC21XX User Manual, 2007"
+        ],
+        "flags": [
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 3022",
+        "title": "ESSENTIALS OF MANAGEMENT",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Definition of management and systems approach, Nature & scope",
+          "The Functions of managers, Principles of Management",
+          "Planning: Types of plans, steps in planning, Process of MBO, how to set objectives, strategies, policies and planning premises, Strategic planning process and tools",
+          "Nature and purpose of organizing, Span of management, factors determining the span, Basic departmentation, Line and staff concepts, Functional authority, Art of delegation, Decentralization of authority",
+          "HR theories of planning, Recruitment, Development and training",
+          "Theories of motivation, Special motivational techniques",
+          "Leadership \u2013 leadership behavior & styles, Managerial grid",
+          "Basic Control Process, Critical Control Points & Standards, Budgets, Non-budgetary control devices, Profit and Loss control, Control through ROI, Direct, Preventive control",
+          "PROFESSIONAL ETHICS - Senses of Engineering Ethics, Variety of moral issues, Types of inquiry, Moral dilemmas, Moral Autonomy, Kohlberg's theory, Gilligan's theory, Consensus and Controversy, Models of professional roles, Theories about right action, Self-interest, Customs and Religion, Uses of Ethical Theories",
+          "GLOBAL ISSUES - Managerial practices in Japan and USA & application of Theory Z, The nature and purpose of international business & multinational corporations, unified global theory of management, Entrepreneurship and writing business plans, Multinational Corporations, Environmental Ethics, Computer Ethics, Weapons Development, Engineers as Managers, Consulting Engineers, Engineers as Expert Witnesses and Advisers, Moral Leadership, Code of Conduct, Corporate Social Responsibility"
+        ],
+        "references": [
+          "Harold Koontz & Heinz Weihrich (2020), \u201cEssentials of Management\u201d, McGraw Hill, New Delhi",
+          "Peter Drucker (2004), \u201cThe practice of management\u201d, Harper and Row, New York",
+          "Vasant Desai (2007), \u201cDynamics of entrepreneurial development & management\u201d, Himalaya Publishing House",
+          "Poornima M Charantimath (2006), \u201cEntrepreneurship Development\u201d, Pearson Education",
+          "Mike W. Martin & Ronald Schinzinger (2003), \u201cEthics in engineering\u201d, Tata McGraw Hill, New Delhi",
+          "Govindarajan M, Natarajan S, & Senthil Kumar V S (2004), \u201cEngineering Ethics\u201d, Prentice Hall of India, New Delhi",
+          "R. S. Nagarazan. (2004), \u201cA text book on professional ethics and human values\u201d, New age international publishers, New Delhi"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "ICE 3121",
+        "title": "INDUSTRIAL AUTOMATION & DRIVES",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Drives",
+          "Computers in Process Control",
+          "Interface and Backplane Bus",
+          "Standards for Instrumentation Systems",
+          "Programmable Logic Controller (PLC)",
+          "Ladder logic Programming",
+          "Alternate Programming Languages",
+          "Distributed Control Systems (DCS)",
+          "PLC Maintenance",
+          "Interface and Backplane Bus Standards",
+          "Field bus",
+          "HART protocol",
+          "Smart transmitters",
+          "Valves and Smart actuators",
+          "Communications for DCS"
+        ],
+        "references": [
+          "John. W. Webb Ronald A Reis, Programmable Logic Controllers - Principles and Applications, PHI, (4e), 1998",
+          "Lukcas M.P, Distributed Control Systems, Van Nostrand Reinhold Co., 1986",
+          "Frank D. Petruzella, Programmable Logic Controllers, MGH, (2e), 1997"
+        ],
+        "flags": [
+          "missing_semester",
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 3122",
+        "title": "VLSI DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to integrated circuit technology",
+          "CMOS logic",
+          "fabrication techniques",
+          "basic electrical properties of MOS circuits",
+          "CMOS circuit design processes and design parameters",
+          "Delay estimation",
+          "stick diagrams",
+          "VLSI Design methodologies",
+          "problems associated with VLSI Design",
+          "Design for testability"
+        ],
+        "references": [
+          "Douglas A. Pucknell & Kamran Eshraghian, Basic VLSI Design, Prentice-Hall of India, 1995",
+          "Neil H.E.Weste, David Harris, Ayan Banerjee, CMOS VLSI Design, A Circuits and Systems Perspective, Pearson Education, 2006",
+          "Sung-Mo Kang, Yusuf Leblebici, CMOS Digital Integrated Circuits Analysis and Design Tata Mc-Graw-Hill, 1993",
+          "John P. Uyemura. Introduction to VLSI Circuits and Systems, Wiley Publishers, 2001",
+          "Jab M.Rabaey, Anantha Chandrakasan, Borivoje Nikolic, Digital Integrated Circuits: A Design Perspective, Prentice-Hall of India Pvt. Limited, 2003",
+          "M ichal John Sebastian smith, Application-Specific Integrated Circuits, Pearson Education, 2004"
+        ],
+        "flags": [
+          "missing_semester",
+          "department_mismatch (course department ICE vs provided department 26)"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 3123",
+        "title": "PROCESS INSTRUMENTATION AND CONTROL",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Process control terminology",
+          "mathematical model",
+          "self-regulation",
+          "control actions",
+          "control modes",
+          "electronic controllers",
+          "Two Degrees of Freedom PID controllers",
+          "Anti-Reset windup",
+          "I/P converter",
+          "Control Valves",
+          "performance based controller design",
+          "tuning",
+          "advanced control strategies",
+          "multivariable control",
+          "RG Analysis",
+          "model based controller design"
+        ],
+        "references": [
+          "Stephanopoulis, G, Chemical Process Control, Prentice Hall of India, New Delhi, 1990",
+          "Eckman. D.P., Automatic Process Control, Wiley Eastern Ltd., New Delhi, 1993",
+          "Curtis D. Johnson, Process Control Instrumentation Technology, (8e) PHI, 2009",
+          "Pollard A. Process Control, Heinemann educational books, London, 1971",
+          "Harriott. P., Process Control, Tata McGraw-Hill Publishing Co., New Delhi, 1991",
+          "Donald Coughanower, Process Systems Analysis and Control, McGraw-Hill Inc., 1991"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 3141",
+        "title": "INDUSTRIAL INSTRUMENTATION LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Temperature",
+          "flow",
+          "level",
+          "pressure",
+          "thickness",
+          "torque",
+          "humidity",
+          "vibration",
+          "load",
+          "distance",
+          "speed",
+          "volume",
+          "object detection using optical sensor"
+        ],
+        "references": [
+          "C S Rangan, G R Sharma and V S V Mani, Instrumentation Devices & Systems, TMH, (2e), 2004.",
+          "E. O. Doeblin, Measurement Systems \u2013 Application and Design, McGraw Hill, (4e), 1992."
+        ],
+        "flags": [
+          "missing_sem",
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": 6,
+        "code": "ICE 3142",
+        "title": "PROCESS CONTROL LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Study of control actions using temperature, flow, pressure and level",
+          "Control Trainers",
+          "Study of Control valve characteristics",
+          "cascade control",
+          "Feed Forward Control",
+          "Ratio Control",
+          "gain scheduling control",
+          "Empirical model estimation PID tuning",
+          "Smith Predictor control",
+          "Study of PID control in a heat exchanger system",
+          "Study of DAQ system"
+        ],
+        "references": [
+          "Curtis D. Johnson, Process Control Instrumentation Technology, PHI, (8e), 2009",
+          "Donald R Coughanower, Process Systems Analysis and Control, MGH, (3e), 2017",
+          "Wayne Bequette, Process control, Modelling, simulation & Control, PHI, (1e), 2004"
+        ],
+        "flags": [
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "HUM 3021",
+        "title": "ENGINEERING ECONOMICS AND FINANCIAL MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Time value of money, Interest factors for discrete compounding",
+          "Nominal & effective interest rates, Present and future worth of Single, Uniform, and Gradient cash flow. Related problems and case studies.",
+          "Bases for comparison of alternatives, Present worth amount, Capitalized equivalent amount, Annual equivalent amount, Future worth amount",
+          "Capital recovery with return, Rate of return method, Incremental approach for economic analysis of alternatives, Replacement analysis",
+          "Break even analysis for single product and multi product firms, Break even analysis for evaluation of investment alternatives",
+          "Physical & functional depreciation, Straight line depreciation, declining and double declining balance method of depreciation, Case Study",
+          "Balance sheet and profit & loss statement. Meaning & Contents. Ratio analysis, financial ratios such as liquidity ratios, Leverage ratios, Turn over ratios, and profitability ratios, Drawbacks",
+          "Safety and Risk, Assessment of Risk and safety, Case study, Risk Benefit Analysis and Reducing Risk"
+        ],
+        "references": [
+          "Chan S. Park, \"Contemporary Engineering Economics\", 4th Edition, Pearson Prentice Hall, 2007",
+          "Thuesen G. J, \u201cEngineering Economics\u201d, Prentice Hall of India, New Delhi, 2005",
+          "Blank Leland T. and Tarquin Anthony J., \u201cEngineering Economy\u201d, McGraw Hill, Delhi, 2002",
+          "Prasanna Chandra, \u201cFundamentals of Financial Management\u201d, Tata McGraw Hill, Delhi, 2006",
+          "Mike W. Martin and Roland Schinzinger, \u201cEthics in Engineering\u201d, Tata McGraw Hill, New Delhi, 2003",
+          "Govindarajan M, Natarajan S, Senthil Kumar V. S, \u201cEngineering Ethics\u201d, Prentice Hall of India, NewDelhi,2004"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "ICE 3241",
+        "title": "CONTROL AND SIGNAL PROCESSING LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Time domain analysis and steady state errors",
+          "Compensator design",
+          "PID controller design",
+          "State - space analysis",
+          "System modeling and controller design for dynamic systems",
+          "Convolution",
+          "DFT computation and filter design"
+        ],
+        "references": [
+          "K. Ogata, Modern Control Engineering, PHI, (5e), 2011",
+          "R.C. Dorf and R. H. Bishop, Modern Control systems, Wesley Longman, 1998",
+          "John G Proakis, Dimitris G Manolakis, Digital Signal Processing, Pearson Education,(4e), 2007",
+          "Sanjit K Mitra, Digital Signal Processing: A Computer - Based Approach, McGraw Hill Education,(4e), 2013",
+          "Thomas J. Cavicchi, Digital Signal Processing, Wiley, 2009"
+        ],
+        "flags": [
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 3242",
+        "title": "INDUSTRIAL AUTOMATION LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Implementation of logic gates, flip flops, multiplexers and de multiplexers, Timers, Counter, Compare, arithmetic instructions in L&T and Siemens PLCs",
+          "study of ON/OFF control simulation using delta DIA View SCADA",
+          "Interfacing process station with HMI",
+          "Real time implementation of PLC with SCADA",
+          "Control of bottle filling station and conveyor control using PLC",
+          "Motor control with VFD and VVFD",
+          "Understanding features of CENTUM DCS",
+          "interfacing process stations with DCS"
+        ],
+        "references": [
+          "John. W. Webb Ronald A Reis, Programmable Logic Controllers - Principles and Applications, PHI, (4e), 1998",
+          "Lukcas M.P, Distributed Control Systems, Van Nostrand Reinhold Co., New York, 1986",
+          "Yokogawa Centum VP R6 Manual: https://web-material3.yokogawa.com/TI33J01A11-01EN.pdf",
+          "Yokogawa Centum VP R6 Manual: https://web-material3.yokogawa.com/TI33J01A10-01EN.pdf"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 7,
+        "code": "ICE 3243",
+        "title": "VIRTUAL INSTRUMENTATION LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Introduction to Lab VIEW",
+          "Arithmetic and logical operations",
+          "Operations on arrays",
+          "Operations on Clusters",
+          "Operations using Loops",
+          "Types of structures and operations using them",
+          "Types of Graphs and use of graphs and timing pallets",
+          "Operations using strings and file I/O",
+          "Basics of Imaq vision",
+          "Measurement and automation explorer",
+          "Simulation of DAQ, acquisition and control using USB DAQ",
+          "NI c-RIO and PXI"
+        ],
+        "references": [
+          "Jovitha Jerome, Virtual Instrumentation using LabVIEW, PHI learning, 2010.",
+          "Gary Johnson, LabVIEW Graphical Programming, McGraw Hill, (2e), 1997."
+        ],
+        "flags": [
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4291",
+        "title": "INDUSTRIAL TRAINING",
+        "credits": null,
+        "tags": [
+          "core"
+        ],
+        "syllabus": [
+          "Industrial training for a minimum period of 4 weeks",
+          "Training may be taken in a phased manner during vacations from the end of third semester to the end of seventh semester",
+          "Submission of a training report in the prescribed format to the department",
+          "Presentation of the training report",
+          "Inclusion of certificates issued by the industry in the report"
+        ],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_credits",
+          "missing_references",
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4292",
+        "title": "PROJECT WORK",
+        "credits": {
+          "l": null,
+          "t": null,
+          "p": null,
+          "c": null
+        },
+        "tags": [
+          "elective"
+        ],
+        "syllabus": [
+          "Project work carried out in institution/industry/research laboratory or any other competent institutions",
+          "Duration of project work: minimum 16 weeks (extendable up to 24 weeks)",
+          "Mid-semester evaluation after about 8 weeks",
+          "Submission of interim project report during mid-semester evaluation",
+          "Final evaluation and viva-voice after submission of final project report",
+          "Student presentation on project work before department committee"
+        ],
+        "references": [],
+        "flags": [
+          "missing_semester",
+          "missing_credits",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4401",
+        "title": "MODERN CONTROL THEORY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "State Space Analysis",
+          "Phase variable and canonical form representation",
+          "Derivation of state models",
+          "Stability analysis",
+          "Eigen values",
+          "Eigen vectors",
+          "Solution of state equations",
+          "Cayley Hamilton theorem",
+          "Controllability and observability",
+          "Pole placement",
+          "Observer design",
+          "Non Linear Systems",
+          "Phase plane analysis",
+          "Construction of the phase trajectory",
+          "Describing function",
+          "Lyapunov's stability analysis",
+          "Sylvester's criterion",
+          "Lyapunov theorems of stability",
+          "Lyapunov function for continuous time state equations"
+        ],
+        "references": [
+          "K. Ogata, Modern Control Engineering, Prentice Hall India, (5e), 2011.",
+          "Nagrath and Gopal, Control System Engineering, New age international Limited, (2e), 1984.",
+          "M Gopal, Control Systems Engineering: Principles and Design, McGraw Hill, (4e), 2012.",
+          "Thomas Kailath, Linear Systems, Prentice-Hall, 1980"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4402",
+        "title": "NONLINEAR CONTROL THEORY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Lyapunov stability using Krasovskii's method",
+          "Variable Gradient method",
+          "L2 stability of state models",
+          "L2 gain",
+          "small gain theorem",
+          "Passivity",
+          "Memory less functions",
+          "L2 gain and Lyapunov stability",
+          "passivity theorems",
+          "passivity based control",
+          "Review of describing function method",
+          "Absolute Stability Circle criterions",
+          "Popov Criterion",
+          "stabilization via linearization and Integral control",
+          "Gain scheduling",
+          "Graphical Linearization Methods",
+          "Analytical Linearization Method",
+          "Evaluation of Linearization Coefficients by Least-Squares Method",
+          "Local linearization",
+          "Feedback linearization",
+          "Input-state linearization",
+          "Input-output linearization",
+          "Internal dynamics",
+          "Zero dynamics",
+          "Model Reference Adaptive Control (MRAC)",
+          "Slidingmode Control",
+          "sliding surfaces",
+          "continuous approximations of switching control laws",
+          "modeling performance trade off",
+          "tracking regulation via Integral control",
+          "Lyapunov redesign",
+          "non-linear damping",
+          "back stepping",
+          "high gain observers",
+          "Back stepping algorithm"
+        ],
+        "references": [
+          "H.K. Khalil, Nonlinear Systems, (3e), PHI, 2002",
+          "R. Marino and P. Tomei Nonlinear Control Design - Geometric, Adaptive and Robust, Prentice Hall, 1995",
+          "J.J.E. Slotine and W.Li, Applied Nonlinear control, Prentice Hall, 1998",
+          "Alberto Isidori, Non-linear Control Systems, Springer Verlag, 1999",
+          "Zoran Vukic, Ljubomir Kuljaca, Nonlinear Control Systems, Marcel Dekker Inc., 2003"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4403",
+        "title": "DIGITAL CONTROL SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Sampling",
+          "Data acquisition",
+          "Quantization",
+          "sample and hold",
+          "zero order hold",
+          "frequency domain consideration in sampling and reconstruction",
+          "Difference equations",
+          "pulse transfer function",
+          "Block diagram analysis of sample data systems",
+          "time response of discrete time control systems",
+          "Steady State error analysis",
+          "Stability",
+          "Jury's stability test",
+          "bilinear transformation",
+          "Root locus technique",
+          "W transformation",
+          "Bode Plot",
+          "Nyquist Stability analysis",
+          "Design of Lag",
+          "Lead",
+          "Lag-lead compensator using root locus and Bode plot",
+          "Design of PID controller",
+          "Lyapunov Stability Analysis",
+          "State Space Analysis",
+          "Diagonalization",
+          "Solution of state equations",
+          "Controllability",
+          "Observability",
+          "Representation of the system in different canonical forms",
+          "Pole Placement- Ackermann's Formula",
+          "Dead beat Algorithm"
+        ],
+        "references": [
+          "K. Ogata, Discrete time control systems, PHI, (7e), 2011.",
+          "M. Gopal, Digital control and state variable methods, TMH, 2001.",
+          "C.H Houpis and G.B Lamont, Digital Control Systems \u2013 Theory and Hardware, MGH, 1992.",
+          "G.F.Franklin, J.David Powell, M. L.Workman, Digital Control of Dynamic Systems, A-Wesley Publishing Company, (2e), 1990.",
+          "V. I. George and C.P. Kurian, Digital Control Systems, Cengage publishers, 2012."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4404",
+        "title": "SYSTEM IDENTIFICATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to system modeling",
+          "Types of system models",
+          "Importance of system models",
+          "Model development techniques \u2013 first principle based and data driven based",
+          "Introduction to System Identification",
+          "Procedure for identification",
+          "Concept of Identifiability",
+          "Signal to Noise Ratio",
+          "Overfitting",
+          "LTI System Modeling using time and frequency",
+          "Direct impulse response identification",
+          "Direct step response identification",
+          "Impulse response Identification using step response",
+          "Empirical Transfer function Identification",
+          "Correlation Methods",
+          "Linear Regression",
+          "Least Square Estimation",
+          "Equation Error Models \u2013 ARX Models",
+          "ARMAX Models",
+          "ARIMAX Models",
+          "OE Models",
+          "Box Jenkins Model",
+          "Model Validation Techniques"
+        ],
+        "references": [
+          "L. Ljung, System Identification: Theory for the User, Prentice Hall, 1992",
+          "Arun. K. Tangirala, Principles of System Identification Theory and Practice, CRC Press, 2016",
+          "Karel. J. Keesman, System Identification \u2013 An Introduction, Springer, 2011",
+          "Philip D. Cha, Fundamentals of Modeling and Analyzing Engineering Systems, Cambridge, 2000"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4405",
+        "title": "SENSOR DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Review of basic performance characteristics of sensors",
+          "Fractional order elements and electrochemical sensor design",
+          "Design and development of a dedicated sensor system: Requirement analysis; Definition of technical and functional requirements; Cost analysis; Development of a measurement system prototype using necessary tools",
+          "Practical realization of a sensor system; Planning and documenting",
+          "Factors Influencing Sensor-based System Design",
+          "Limited field trials and sensor calibrations",
+          "Case studies of novel sensor design",
+          "Multi-spectral sensor Concept of Operation (CONOPS) development, sensor requirements allocation and derived requirement development, Sensor Architecture development, hardware and software partitioning, functional and physical interface requirements and design, signal processing requirement definition, subcomponent performance modeling and testing, observable measurement definition, Key sensor design trade parameters, Multi-spectral sensor systems design methodology",
+          "Modern target tracking techniques",
+          "Design of sensor packaging, installation and wiring considerations based on hazard classifications",
+          "Safety considerations in sensor design and commissioning"
+        ],
+        "references": [
+          "Jacob Fraden - Handbook of Modern Sensors, Physics, Designs, and Applications, Springer, 2010",
+          "T . Grandke, W. H. Ko, Sensors: Fundamentals, Volume 1, Wiley publisher, 1990"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4406",
+        "title": "BIOSENSORS AND BIOMEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Bio-recognition elements: Whole cells, Enzymes, Antibodies, Nucleic Acids, Aptamers and Molecularly Imprinted Polymers",
+          "Nanostructured substrates for biosensing and integration of the bio-recognition elements on the substrates",
+          "Transduction Platforms: Electrochemical, Optical, Mass, Thermal, Hybrid and Lateral Flow Assays",
+          "Fundamentals of microfabrication",
+          "Lab on chip for biosensing applications",
+          "Case studies"
+        ],
+        "references": [
+          "Mohamed Gad-el-Hak \u00ae, MEMS handbook, CRC Press, 2002",
+          "Anthony P.F.Turner, Isao Karube and George S. Wilson, Biosensors: fundamentals and applications, Oxford University Press, 1987",
+          "A Sadana, Engineering biosensors: kinetics and design applications, Academic Press, 2002",
+          "D Voet & JGVoet, Biochemistry, J Wiley & Sons, 1990"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4407",
+        "title": "MULTI SENSOR DATA FUSION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Concept of fusion",
+          "Role of fusion",
+          "comparison between sensor and data fusion",
+          "fusion types",
+          "I/O types",
+          "Sensor configuration",
+          "Architecture of fusion nodes",
+          "fusion topologies",
+          "Benefits of fusion",
+          "Centralized Fusion",
+          "Distributed Fusion",
+          "Hybrid Fusion",
+          "Need for data refinement",
+          "Spatial alignment",
+          "Temporal alignment",
+          "Semantic and radiometric alignment",
+          "Concept and need for data association and decision making",
+          "data registration",
+          "data association techniques",
+          "Decision making techniques",
+          "Biological and puzzle solving types",
+          "Command and control",
+          "Evidence combination",
+          "Information requirement for decision making",
+          "Bayesian Method",
+          "Bayesian Method for Fusion of Data from Two Sensors",
+          "Dempster\u2013Shafer Method",
+          "Comparison of the Bayesian Inference Method and the Dempster\u2013Shafer Method",
+          "JDL framework",
+          "Revised JDL",
+          "Dasarathy's model",
+          "Boyd model",
+          "Thompolus framework",
+          "Luo-Key framework",
+          "Pau's framework",
+          "Waterfall and omnibus framework",
+          "Distributed black box",
+          "Esteban framework",
+          "Introduction to data filters",
+          "Kalman filter",
+          "Baysien filter",
+          "extended information filter",
+          "estimation",
+          "Approximate agreement",
+          "Optimization filter",
+          "Distributed dynamic fusion",
+          "Dynamic data flow analysis"
+        ],
+        "references": [
+          "David L. Hall, Mathematical Techniques in Multisensor Data Fusion, Artech House, 2004.",
+          "H B Mitchell, Data Fusion: Concepts and Ideas, Springer Publishers, 2012.",
+          "Multi Sensor Data Fusion with MATLAB, Jitendra R. Raol, CRC Press, 2009.",
+          "Sensor and Data Fusion, Lawrence A. Klein, (2e), SPIE Press, 2012."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "ICE 4408",
+        "title": "AUTOMOTIVE SENSORS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Automotive Management systems",
+          "Application areas of electronics in the automobiles",
+          "Possibilities and challenges in the automotive industry",
+          "Power train sensors",
+          "sensors for chassis management",
+          "Sensors for vehicle body management",
+          "Sensors for automotive vehicle convenience and security systems",
+          "Two wheeler and Four wheeler security systems",
+          "parking guide systems",
+          "anti-lock braking system",
+          "future safety technologies",
+          "Vehicle diagnostics and health monitoring",
+          "Safety and Reliability",
+          "Traction Control",
+          "Vehicle dynamics control",
+          "Air Bag and Seat Belt Pre tensioner Systems",
+          "Principal Sensor Functions",
+          "Passenger Convenience Systems",
+          "Electromechanical Seat, Seat Belt Height, Steering Wheel, and Mirror Adjustments",
+          "Central Locking Systems",
+          "Electromechanical Window Drives",
+          "Enabling Connectivity by Networking: In vehicle communication standards (CAN & LIN)",
+          "Telematic solutions",
+          "Portable or embedded connectivity",
+          "Endorsing Dependability in Drive-bywire systems - Terminology and concepts",
+          "Why by-wire",
+          "FLEXRAY",
+          "Requirements on cost and dependability",
+          "Drive-by-wire case studies",
+          "prototype development",
+          "future of In vehicle communication"
+        ],
+        "references": [
+          "Automotive Electrics, Automotive Electronics: Systems & Components, (5e), BOSCH, 2014.",
+          "Automotive Sensors Handbook, (8e), BOSCH, 2011.",
+          "Jiri Marek, Hans-Peter Trah, Yasutoshi Suzuki, Iwao Yokomori, Sensors for Automotive Technology, (4e), Wiley, New York, 2010.",
+          "John Turner, Automotive Sensors(1e), Momentum Press, New York, 2010."
+        ],
+        "flags": [
+          "minor_course"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4409",
+        "title": "INTRODUCTION TO SYSTEMS ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Definitions and concepts of system-system science and systems engineering, life cycle stages, definitions of requirement, architecture, design",
+          "System analysis, interface management, system integration, system verification, system transition, system validation, system operation, system maintenance, system disposal",
+          "Project planning, project management and control, decision management, risk management, configuration management, quality assurance, acquisition/supply, tailoring processes and application",
+          "Introduction to system modeling and simulation, lean and agile systems engineering, specialty areas (interoperability/logistics/safety/reliability/maintainability/security/usability)"
+        ],
+        "references": [
+          "Kossiakof, Alexander and William N. Sweet; Systems Engineering: Principles and Practice, Wiley, 2011",
+          "INCOSE Systems Engineering handbook, (4e), Wiley, 2015",
+          "System Engineering Book of Knowledge, V 2.6, www.sebokwiki.org, 2022",
+          "National Aeronautics and Space Administration, NASA Systems Engineering Handbook, (Rev 1), 2007",
+          "Faulconbridge, R. I. and Ryan, M. J, Systems Engineering Practice, Canberra: Argos Press, Revised Edition, 2018",
+          "ISO/IEC/IEEE 1528-Systems and Software engineering- System life cycle processes, https://www.iso.org/standard/63711.html",
+          "Blanchard, Benjamin S., Wolter J Fabrycky Systems Engineering and Analysis, Pearson (5e), 2010"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4410",
+        "title": "SYSTEM ARCHITECTURE AND DESIGN",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Architecture definition, architecture view points, concept analysis",
+          "models and views of architecture (functional/behavioral/ data/ performance etc.)",
+          "Structure and behavior",
+          "Evaluating candidate architectures",
+          "System/subsystem analysis",
+          "tradeoff analysis",
+          "Architecture frameworks and standards",
+          "design progression",
+          "architecture domains (software/IT/ Manufacturing/social etc)",
+          "architecture heuristics",
+          "acquisition management",
+          "tailoring processes",
+          "industrial design",
+          "design for manufacturability",
+          "robustness design",
+          "patents and intellectual property"
+        ],
+        "references": [
+          "Rechtin, E., and M.W.Maier, The art of Systems Architecting, Boca Raton, FL: CRC Press, 2000.",
+          "Oliver, D. W., T. P. Kelliher, and J. G. Keegan, Jr., Engineering Complex Systems with Models and Objects, McGraw Hill, 1997.",
+          "Ulrich K. T and S D Eppinger Product Design and Development, 2ed, NY, McGraw Hill Inc, 2000.",
+          "ISO/IEC/IEEE 42010:2011-Systems and software engineering- Architecture and description, https://www.iso.org/standard/50508.html.",
+          "1220-2005-IEEE standard for application and Management of the systems engineering process, https://standards.ieee.org/ieee/1220/3372/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4411",
+        "title": "SYSML AND MBSE",
+        "credits": {
+          "l": 2,
+          "t": 0,
+          "p": 2,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to MBSE",
+          "MBSE concepts",
+          "MBSE Ontology",
+          "Introduction to Object Process modelling OPM",
+          "Object process language",
+          "Overview of SysML",
+          "Block definition diagrams",
+          "Internal block diagrams",
+          "Use case diagrams",
+          "Activity diagrams",
+          "Sequence diagrams",
+          "State machine diagrams",
+          "Parametric diagrams",
+          "Requirements diagram",
+          "package diagrams",
+          "Operational analysis modeling",
+          "functional analysis modeling",
+          "logical architecture modeling",
+          "Physical architecture modeling",
+          "architecture frameworks",
+          "Case studies of MBSE-MBSE deployment",
+          "Introduction to Digital Twins"
+        ],
+        "references": [
+          "SysML distilled: A brief guide to the Systems modeling language. Lenny Deligatti-Addison Wesley Professional, (1e), 2013.",
+          "Jon Holt and Simon Perry, SysML for Systems Engineering- A model based approach. IET 2013.",
+          "Jean-Luc Voirin, Model based System and Architecture Engineering with the Arcadia Method(Implementation of Model Based System Engineering) ISTE Press, Elsevier, 2017.",
+          "Dov Dori, Model-Based Systems Engineering with OPM and SysML. Springer, 2016."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4412",
+        "title": "SYSTEM VERIFICATION AND VALIDATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "System verification",
+          "System validation",
+          "various approaches to system validation and verification",
+          "inspection/testing/analysis/demonstration",
+          "Generation of Test cases using the Markov Chain model",
+          "Writing verification/validation plans",
+          "introduction to formal methods",
+          "formal approaches to system validation/verification",
+          "focus on specialty areas(eg.. EMI/EMC)",
+          "test automation models (computation/timed automation)",
+          "simulation",
+          "model checking verification",
+          "verification validation activities prescribed in standards for safety critical systems (DO-178C/DO-254/APR4754)"
+        ],
+        "references": [
+          "Engel, Avner, Verification, Validation and Testing of Engineered Systems, John Wiley & Sons, 2010.",
+          "Jean Francois Monin, Understanding Formal Methods, Springer, 2003.",
+          "Jean-Louis Boulanger (Editor), Industrial use of Formal Methods: Formal Verification, Wiley, 2012.",
+          "Eds. Alex Gorod, Leonie Hallo Vernon Ireland, Indra Gunawan, Evolving Toolbox for Complex Project Management, CRC press, Taylor and Francis Group, Auerbach, 2019.",
+          "McShea, R. E. Test and Evaluation of Aircraft Avionics and Weapon Systems, (2e), IET, 2010."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4413",
+        "title": "AUTOMOTIVE ELECTRONICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Electronic systems in Automotives",
+          "Sensors and Actuators for body electronics, power train and chassis systems",
+          "Power train and chassis control domain",
+          "Engine management",
+          "Transmission control",
+          "Battery- types and maintenance",
+          "Automotive Electronics, Sensors and Actuators",
+          "Basic sensor arrangement",
+          "Types of sensors",
+          "Electronic Fuel Injection and Ignition Systems",
+          "Digital engine control systems",
+          "Open loop and closed loop control systems"
+        ],
+        "references": [
+          "Bosch, Automotive Electrics and Automotive Electronics. System and components, Networking and Hybrid drive, (5e), Springer view 2014",
+          "Najamuz Zaman, Automotive Electronics Design Fundamental (1e), Springer 2015.",
+          "Hillier's, Fundamentals of Motor Vehicle Technology on Chassis and Body Electronics, (5e), Nelson Thrones, 2007."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4414",
+        "title": "IN-VEHICLE NETWORKING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Basics of Data Communication Networks and Automotive Communication Protocols",
+          "Need for networks",
+          "Types of networks",
+          "Need for standards",
+          "TCP/IP model",
+          "Topologies",
+          "Controller Area Network (CAN) Protocol",
+          "CAN Higher Layer Protocols and LIN",
+          "FlexRay and MOST Protocol",
+          "Process of Automotive Fault Diagnostics",
+          "Fault Codes",
+          "Vehicle Systems (open-loop and closed-loop) On- and Off-Board Diagnostics",
+          "OBD-I",
+          "OBD-II",
+          "Engine Analyzers",
+          "Steps taken to diagnose a fault",
+          "Diagnostics Protocol-KWP2000",
+          "SAE-J1587",
+          "SAE-J1708",
+          "Case Study"
+        ],
+        "references": [
+          "G ilbert Held. Inter- and Intra-Vehicle Communications, CRC Press, (2007)",
+          "Behrouz Forouzan. Data Communications and Networking, McGraw-Hill. 2003",
+          "Ronald k. Jurgen. Automotive Electronics Handbook, McGraw-Hill. 1999"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4415",
+        "title": "INTELLIGENT TRANSPORTATION SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Fundamentals of ITS",
+          "Definition of ITS",
+          "the historical context of ITS from both public policy and market economic perspectives",
+          "Types of ITS",
+          "Historical Background",
+          "Benefits of ITS",
+          "Sensor technologies and Data requirements of ITS",
+          "ITS User Needs and Services and Functional areas",
+          "ITS Architecture",
+          "Regional and Project ITS architecture",
+          "Concept of operations",
+          "ITS Models and Evaluation Methods",
+          "ITS applications",
+          "Traffic and incident management systems",
+          "ITS and sustainable mobility",
+          "travel demand management",
+          "electronic toll collection",
+          "ITS and road-pricing"
+        ],
+        "references": [
+          "Mashrur A. Chowdhury, Adel Wadid Sadek, Fundamentals of intelligent transportation systems planning, ARTECH House, 2013.",
+          "Lawrence A. Klein, Sensor technologies and Data requirements of ITS, Artech House, 2011."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "code": "ICE 4416",
+        "title": "ADVANCED DRIVER ASSISTANCE SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Advanced driver assistance system",
+          "human factors of automated driving systems",
+          "human factor of vehicle automation",
+          "legal issue surrounding cyber security and privacy on automated vehicle",
+          "user perspective on autonomous driving systems",
+          "ADAS technology A review on challenges, legal risk mitigation and solutions",
+          "localization and mapping for autonomous driving",
+          "open pit mine autonomous bot"
+        ],
+        "references": [
+          "Chapmann and Hall, Autonomous driving and advanced driver assistance system (ADAS), CRC Press, 2021",
+          "Dietmar P.F. M\u00f6ller, Roland E. Haas, Guide to Automotive Connectivity and Cybersecurity: Trends, Technologies, 2017"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "code": "ELE 4415",
+        "title": "Extraction Failed",
+        "sem": null,
+        "credits": null,
+        "tags": [
+          "error"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "extraction_failed"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4416",
+        "title": "EV CHARGING INFRASTRUCTURE, VEHICLE TESTING & HOMOLOGATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "EV Business Management and Vehicle Testing: Introduction to EV (2W, 3W & 4W) Market & Opportunities, Electric Vehicle Design Procedure and ICE Model, Introduction to EV Management, EV Homologation and Testing, FAME India and Manufacturing Guidelines, EV Certification Process, EV Charging, Electric Vehicle and Retrofitting, Motor Technology and EV Motor Market Analysis, EV Categories and Proposed Changes, EV Retrofitting Business, Battery Technology in EV, EV Battery Market Analysis, Practical session - Conducting a market analysis of the EV Charging",
+          "Fundamentals of Product Development Planning: Introduction to Product Development Plan, Segment Selection, Product Design Plan, Product Validation Plan, Vehicle Dynamics Selection, Product Design Validation, Product Specification - Competitor Analysis, Selection of Off-the-Shelf Parts",
+          "Effective Development Methods for Product Innovation: Development Methods, Product Development Plan, Unit Economics, Design Feasibility, Design for Manufacturing, DFMEA & PFMEA, Business Plan, Product Launch, POC / MVP / Working Prototype, Practical session - Using the market analysis results to develop a business plan for an EV Charging",
+          "Understanding EV Charging Technologies and Infrastructure: Overview of EV Charging Technologies, EV Charging Standards and Protocols, Types of EV Chargers and Charging Stations, EV Charging Infrastructure Design, Site Selection and Planning, Practical session - Case Studies of Successful EV Charging Infrastructure Projects",
+          "Designing and Managing EV Charging Infrastructure: Electrical and Mechanical Design Considerations, Safety and Regulatory Compliance, EV Charging Infrastructure Installation and Maintenance, Charging Network Management, EV Charging Network Design and Deployment, Payment Systems and Revenue Management, Data Management and Analytics on Charging Station"
+        ],
+        "references": [
+          "M. S. Alam, R. K. Pillai, and N. Murugesan, \u201cDeveloping Charging Infrastructure and Technologies for Electric Vehicles\u201d, IGI Global, 2021, ISBN-13: 9781799868590, ISBN-10: 1799868591",
+          "Vahidinasab and Behnam Mohammadi-Ivatloo, \u201cElectric Vehicle Integration via Smart Charging\u201d, Springer, 2022, ISBN-13: 9783031059087, ISBN-10: 3031059085",
+          "Sivaraman Palanisamy, Sharmeela Chenniappan, and Sanjeevikumar Padmanaban, \u201cFast-Charging Infrastructure for Electric and Hybrid Electric Vehicles\u201d, John Wiley & Sons, 2023, ISBN-13: 9781119987741, ISBN-10: 1119987741",
+          "Sulab Sachin, Sanjeevikumar Padmanaban, and S. Deb, \u201cSmart Charging Solutions for Hybrid and Electric Vehicles\u201d, John Wiley & Sons, 2022, ISBN-13: 9781119768951, ISBN-10: 1119768950",
+          "R. Wang, P. Wang, and G. Xiao, \u201cIntelligent Microgrid Management and EV Control Under Uncertainties in Smart Grid\u201d, Springer, 2017, ISBN-13: 9789811350870, ISBN-10: 9811350876"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4417",
+        "title": "EV VEHICLE DESIGN & ANALYSIS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Analog Electronics: Introduction to Basic Electronics, Diode Fundamentals, Rectifiers and Filters, Power Electronics for EVs: Voltage Regulators, Inverters and Converters, Special Purpose Diodes, Transistors and Types of Transistors, Operational Amplifier (Op-Amp)",
+          "Fundamentals of Digital Electronics: Digital Electronics, EV Control Systems, EV Communication Networks, Microcontrollers and Microprocessors, Introduction to Proteus Software, Circuit Development Using Proteus",
+          "Essentials for Designing and Simulation Using MATLAB: Overview and Environment, Basic Syntax, Variables and Commands, Commands, M-files, and Types, Operators, Decision Making and Loops, Vectors, Matrix, and Arrays, Colon Notation and Numbers, Strings and Functions, Numbers, Plotting and Graphics, Algebra, Calculus, Differential, and Integration, Polynomials and Transforms, Programming EV Systems in MATLAB, Simulink and Fitting, Developing SIMULINK Models for Vehicle Units, Advisor and QSS Toolbox, QSS-based Vehicle Control, Practical session - Analyse and troubleshoot electronic circuits using simulation tools and lab equipment",
+          "EV Architecture Modelling Using MATLAB [Software-based]: Motor Development and Induction Motor Characteristics, Simulink Model to Calculate Vehicle Configuration, Multi-level Inverter Design and Simulation, Solar PV-based Charger Development, DC-DC Converter, Modelling of Li-ion Battery Pack, Design of EV Using QSS Toolbox, Battery Thermal Modelling, BMS Modelling, Electric 4W Powertrain Modelling, Practical session - Data analysis and visualization using MATLAB for vehicle system",
+          "Design of EV System Using MATLAB [Software-based]: Power Required to Overcome Resistance Forces Acting on the Vehicle, Power Converters in Electric Vehicles, Inverters in Electric Vehicles, Motor and Motor Controllers, Modelling of EV Battery and BMS, Practical session - Modelling and simulation of EV powertrain components, such as motors, controllers, and inverters, using MATLAB/Simulink"
+        ],
+        "references": [
+          "James Larminie and John Lowry, \u201cElectric Vehicle Technology Explained\", Wiley, 2nd ed, 2012, ISBN: 978-1-119-94273-3",
+          "Iqbal Husain, \"Electric and Hybrid Vehicles: Design Fundamentals\", Routledge, 3rd Ed, 2021, ISBN: 9780367693930",
+          "Ali Emadi, \"Advanced Electric Drive Vehicles\", CRC Press, 1st Ed, 2014, ISBN: 9781138072855",
+          "Sandeep Dhameja, \"Electric Vehicle Battery Systems\", Butterworth-Heinemann, 2st Ed, 2002, ISBN: 978-0750699167",
+          "Singh, Sanjeev, et al., \u201cElectric Vehicle Components and Charging Technologies\" IET, 2024, ISBN-13: 9781839536717",
+          "Das, Shuvra, \u201cModeling for Hybrid and Electric Vehicles Using Simscape\", Springer, 2022, ISBN-13: 9783031003806"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4418",
+        "title": "EV DATA ANALYTICS & CYBER SECURITY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Cyber Security for Automotive Vehicle Systems: Automotive Industry, Automotive Megatrends, Automotive Development Process, Automotive Electrical and Electronics, Automotive Software Technology, The Connected Car, Automotive Cybersecurity",
+          "Advanced Mobility Services: Mobile Apps for Connected Car, Car Hailing and Ride Sharing, Connected Parking and Automated Valet Parking, ADAS and Autonomous Driving",
+          "Data Analytics for EV and Automotive Systems: Introduction to Data Analytics and Its Application in the Automotive Industry, Understanding of the Data Analytics Pipeline, Overview of Data Analytics, Its Tools, and Techniques, EV Data Collection and Analysis, Sensors and Data Collection in EVs, Data Acquisition and Pre-processing, Statistical Analysis of EV Data, Practical session - Conducting a vulnerability assessment on an in-vehicle network, and developing a report on the findings with recommendations for mitigations",
+          "Automotive System Data Collection and Analysis: Automotive Systems (such as Engines, Transmissions, Brakes, etc.), Data Acquisition and Pre-processing, Statistical Analysis of Automotive System Data, Regression, Classification and Clustering, Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA), Predictive Maintenance Techniques in Automotive Systems, Fault Detection and Diagnosis, Remaining Useful Life (RUL) Prediction, Practical session - Developing predictive maintenance models for automotive systems",
+          "Introduction to Big Data Platforms: Introduction to Big Data Platforms and Tools (such as Hadoop, Spark, and Kafka), How to Use Big Data Platforms to Process and Analyze Automotive Data, Practical session - Case studies showcasing the application of data analytics in the automotive industry"
+        ],
+        "references": [
+          "Mashrur Chowdhury, Amy Apon and Kakan Dey, \"Data Analytics for Intelligent Transportation Systems\", Elsevier, 1st Ed, 2017, ISBN: 978-0128097151",
+          "Tyson Macaulay, Bryan L. Singer, and John R. Vacca, \"Cybersecurity for Industrial Control Systems: SCADA, DCS, PLC, HMI, and SIS\", CRC Press, 1st Ed, 2011, ISBN: 978-1439801963",
+          "James Larminie and John Lowry, \u201cElectric Vehicle Technology Explained\", Wiley, 2nd ed, 2012, ISBN: 978-1-119-94273-3",
+          "David Ward and Paul Wooderson, \"Automotive Cybersecurity: An Introduction to ISO/SAE 21434\", SAE International, 1st Ed, 2021, ISBN: 978-1468600803",
+          "Dartmann Guido, AnkeSchmeink and Houbing Song, \"Big Data Analytics for Cyber-Physical Systems: Machine Learning for the Internet of Things\", Elsevier, 1st Ed, 2019, ISBN: 978-0128166376",
+          "Craig Smith, \"The Car Hacker's Handbook: A Guide for Penetration Tester\", No Starch Press US, 1st Ed, 2016, ISBN: 978-1593277031",
+          "Root, Alex, \u201cPython for Data Analytics\u201d, Independently published, 2019, ISBN-13: 9781691418831",
+          "Runkler, Thomas A., \u201cData Analytics\u201d, Springer, 2020, ISBN 9783658297794",
+          "Janeja, Vandana P., \u201cData Analytics for Cybersecurity\u201d, Cambridge University Press, 2022, ISBN-13: 9781108415279"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4441",
+        "title": "ADVANCED SENSOR TECHNOLOGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Features of Advanced sensing techniques",
+          "Sensor classifications according to the energy domains",
+          "Introduction of advanced sensing materials",
+          "Properties (physical, electrical, chemical, and biological) of materials which make it suitable for sensing in different domain",
+          "Review of sensors for measurement of temperature, level, pressure and flow",
+          "Design and commissioning considerations of such sensors",
+          "Optical Sensors: Sources and detectors in optical systems",
+          "Aerospace Sensor: Accelerometers: Capacitive, Piezoelectric, Piezoresistive, Thermal, Chemical sensor"
+        ],
+        "references": [
+          "Jacob Fraden, Handbook of Modern Sensors: Physics, Designs, and Applications, Springer, 2010",
+          "P. Ripka, A. Tipek, Modern Sensors Handbook, Wiley Publication, 2007",
+          "Sabaree Solomon, Sensors Hand Book, MGH, 1998"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4442",
+        "title": "ANALYTICAL AND OPTICAL INSTRUMENTATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Optical Instrumentation Systems",
+          "UV-Vis Spectroscopy",
+          "IR Spectroscopy",
+          "Chromatography and mass spectroscopy",
+          "Nuclear Magnetic Resonance",
+          "Electron Microscopy",
+          "Crystallography and elemental analysis",
+          "Case studies with sophisticated analytical instrumentation systems"
+        ],
+        "references": [
+          "Skooj, Holler, Crouch, Principles of Instrumental Analysis (7e), Cengage Learning India, 2018",
+          "R S Kandpur, Handbook of Analytical Instruments, (2e), TMH, 2003",
+          "Willard, Merritt, Dean and Settle, Instrumental Methods of Analysis, (7e), CBS Publishers, 1988",
+          "J.Wilson & J F B Hawkes, Opto Electronics: An Introduction, (2e), PHI, 1993"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4443",
+        "title": "BIO-MEDICAL INSTRUMENTATION & EQUIPMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Bioelectric Potential measurement: Cell structure, basic cell functions, origin of bio-potentials, electrical activity of cells, biological control concept, electrode-electrolyte interface, half-cell potential, polarizable and non-polarizable electrode",
+          "The Cardiovascular system: Structure of heart, rhythmicity, Electrocardiograph (ECG), ECG electrodes, vector cardiograph, ECG analysis",
+          "Central Nervous System and muscular system Receptors, sensory pathways and motor systems, processing sensory information, neural, neuromuscular, sensory muscular and sensory measurements, biofeedback, evoked response, Electroencephalography (EEG)",
+          "Therapeutic equipment's and life saving devices Blood flow meter, oximeter, cardiac output measurement, plethysmography, ultrasound therapy unit, nerve stimulators",
+          "Modern Imaging systems",
+          "Electrical safety"
+        ],
+        "references": [
+          "R .S. Khandpur, Handbook of Biomedical Instrumentation, McGraw Hill, (2e), 2008",
+          "Leslie Cromwell, Fred J. Weibell and Erich A. Pfeiffer, Biomedical Instrumentations and Measurements, Prentice Hall, (2e), 2012",
+          "J.G. Webster, Medical instrumentation application & design, Wiley, (4e), 2009",
+          "Joseph J. Carr& John. M. Brown, Introduction to Biomedical Equipment technology, Pearson education, (4e), 2003",
+          "J.G. Webster, Encyclopedia of Medical Devices and Instrumentation, John Willey and Sons, 1988"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4444",
+        "title": "CYBER PHYSICAL SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Overview of cyber physical system",
+          "key features",
+          "Applications",
+          "The Design Process",
+          "CPS - Platform components",
+          "Synchronous Model",
+          "Asynchronous Model: Asynchronous Processes",
+          "Asynchronous Design Primitives",
+          "Asynchronous Coordination Protocols",
+          "Dynamical Systems",
+          "Timed Model and Real-Time Scheduling: Timed Processes",
+          "Hybrid systems: Hybrid Dynamical Models",
+          "Designing Hybrid Systems",
+          "Linear Hybrid Automata",
+          "Secure Deployment of CPS"
+        ],
+        "references": [
+          "Rajeev Alur, Principles of Cyber-Physical Systems, MIT Press, 2015.",
+          "Lee, Edward Ashford, Sanjit Arunkumar Seshia, Introduction to embedded systems: A cyber-physical systems approach, MIT Press, 2016.",
+          "Platzer, Andr\u00e9. Foundations of Cyber-Physical Systems, Lecture Notes CMU, Carnegie Mellon University, Pittsburgh, PA, USA, 2014."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4445",
+        "title": "DATA STRUCTURES AND ALGORITHMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Structure of C++ Program: Data Types. Basic, user-defined and derived",
+          "Operators: assignment, arithmetic, relational, logical, increment/decrement, conditional, precedence of operators, manipulators",
+          "Decision statements, programming control statements",
+          "Functions: Main Function, Function Prototyping, Call and return by reference, Inline functions, Default and constant arguments, Pointers",
+          "Classes, Inheritance",
+          "Linked List Data structure: traversal, insert function, remove function",
+          "Linked list with tail and doubly linked lists",
+          "Recursion",
+          "Trees, Stacks, Queues",
+          "Sorting and searching algorithms: Sorting, Searching, hashing, Radix sort"
+        ],
+        "references": [
+          "Nell Dale, C++ Plus Data Structures, Jones and Bartlett Publishers, (4e), 2010.",
+          "Maria Litvin, Gary Litvin, Programming with C++ and Data Structures, Vikas Publishing House Pvt. Ltd., 2001.",
+          "E Balagurusamy, Object-oriented Programming with C++, TMH, (2e), 2001.",
+          "Yashavant P Kanetkar, Let us C++, BPB Publications, 2003."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4446",
+        "title": "DSP ARCHITECTURE AND APPLICATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Architectures for Programmable Digital Signal Processing Devises",
+          "Data Addressing Capabilities",
+          "Address Generation Unit",
+          "Programmability and Program Execution",
+          "Speed Issues",
+          "Features for External Interfacing",
+          "Programmable Digital Signal Processors",
+          "Architecture of DSP processors",
+          "Data Addressing Modes",
+          "On-chip Peripherals",
+          "Interrupts",
+          "Pipeline Operation",
+          "Implementation of Basic DSP Algorithm",
+          "FIR Filters",
+          "IIR Filters",
+          "Interpolation and Decimation Filters",
+          "FFT Algorithm for DFT Computation",
+          "Bit-Reversed Index Generation",
+          "Signal Spectrum",
+          "Interfacing Peripherals to DSP Devices",
+          "External Bus Interfacing Signals",
+          "Memory Interface",
+          "Parallel I/O Interface",
+          "Programmed I/O",
+          "Interrupts and I/O",
+          "Direct Memory Access (DMA)",
+          "Synchronous Serial Interface",
+          "Multichannel Buffered Serial Port",
+          "Applications of DSP Processor"
+        ],
+        "references": [
+          "Avatar Singh and S. Srinivasan, Digital Signal Processing Implementations: Using DSP Microprocessors with Examples from TMS320C54xx, Thomson/Brooks/Cole, 2004",
+          "B. Venkataramani, M. Bhaskar, Digital Signal Processors: Architecture, Programming and Applications, Tata McGraw-Hill Education, 2002",
+          "Sen-Maw Kuo, Woon-Seng Gan Digital Signal Processors: Architectures, Implementations, and Applications, Pearson Prentice Hall, 2005"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "code": "ICE 4447",
+        "title": "ELECTRONIC MEASUREMENT SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Signal Conditioning",
+          "Instrumentation and isolation amplifiers",
+          "analog filters",
+          "analog switches",
+          "Signal measurement in the presence of noise: synchronous detection, signal averaging",
+          "Noise in electronic systems",
+          "Digital Time Measurement Techniques",
+          "Parallel Port Buses: PC based DAS, Data loggers",
+          "PC based industrial process measurements like flow, temperature, pressure and level development system",
+          "CRT interface and controller with monochrome and colour video display",
+          "Transmission measurements"
+        ],
+        "references": [
+          "Derek Frederick Alfred Edwards, Electronic Measurement Techniques, Butterworths, 1971.",
+          "T. S. Rathore, Digital Measurement Techniques, CRC Press, 2003.",
+          "Nihal Kularatna, Digital and Analogue Instrumentation: Testing and Measurement, IET, 2003."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4448",
+        "title": "INDUSTRIAL INTERNET OF THINGS",
+        "credits": null,
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "IOT Vs. IIOT",
+          "Components of IIOT -Sensors, Interface, Networks, People & Process",
+          "Real life examples",
+          "IOT Platform",
+          "Interfaces, API, clouds",
+          "Data Management, Analytics, Mining & Manipulation",
+          "Challenges & Benefits in implementing IIOT",
+          "Various Architectures of IOT and IIOT",
+          "Industrial Internet - Reference Architecture",
+          "IIOT System components: Sensors, Gateways, Routers, Modem, Cloud brokers, servers and its integration",
+          "WSN, WSN network design for IOT",
+          "Roles of sensors in IIOT",
+          "sensor architecture",
+          "special requirements for IIOT sensors",
+          "types of actuators",
+          "Hardwire the sensors with different protocols such as HART, MODBUS-Serial & Parallel, Ethernet, BACNet, Current, M2M etc.",
+          "Wi-Fi, Wi-Fi direct, Zigbee, Z wave, Bacnet, BLE, Modbus, SPI, I2C",
+          "IIOT protocols \u2013COAP, MQTT,6lowpan, lwm2m, AMPQ",
+          "IIOT cloud platforms : Overview of cots cloud platforms, predix, thing works, azure",
+          "Data analytics, cloud services",
+          "Business models: Saas, Paas, Iaas",
+          "Introduction to web security",
+          "Conventional web technology and relationship with IIOT",
+          "Vulnerabilities of IoT",
+          "Privacy, Security requirements",
+          "Threat analysis",
+          "Trust",
+          "IoT security tomography and layered attacker model",
+          "Identity establishment",
+          "Access control",
+          "Message integrity",
+          "Non-repudiation and availability",
+          "Security model for IoT",
+          "Network security techniques",
+          "Management aspects of cyber security",
+          "Role of Analytics in IOT",
+          "Data visualization Techniques",
+          "Introduction to R Programming",
+          "Statistical Methods",
+          "Internet of Things Applications"
+        ],
+        "references": [
+          "Daniel Minoli, \u201cBuilding the Internet of Things with IPv6 and MIPv6: The Evolving World of M2M Communications\u201d, ISBN: 978-1-118-47347-4, Willy Publications.",
+          "Bernd Scholz-Reiter, Florian, Michahelles, \u201cArchitecting the Internet of Things\u201d, ISBN 978-3- 642-19156-5 e-ISBN978-3-642-19157-2, Springer.",
+          "Pethuru Raj and Anupama C. Raman,\"The Internet of Things: Enabling Technologies, Platforms, and Use Cases\", CRC Press, 2018",
+          "Qusay F. Hassan, \u201cInternet of Things A to Z: Technologies and Applications\u201d, Wiley, 2018"
+        ],
+        "flags": [
+          "missing_semester",
+          "missing_credits"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4449",
+        "title": "MACHINE LEARNING FOR CONTROL SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Machine learning fundamentals",
+          "Support Vector Machines, Kernel methods",
+          "Clustering, Principal Component Analysis, Singular Value Decomposition, Independent Component Analysis",
+          "Semi supervised learning",
+          "Reinforcement Learning",
+          "Applications to Control Problems: State estimation using neuro observer",
+          "Kalman Filter and reinforcement learning",
+          "Identification of non-linear dynamical systems using neural networks",
+          "Reinforcement learning Modelling",
+          "Optimal control problems using support vector machines, regression methods, Monte-Carlo method",
+          "Model Predictive Control and Adaptive reinforcement learning",
+          "Robust control using differential neural networks",
+          "Path planning using dynamic neural networks, density based machine learning techniques",
+          "Adaptive control using self-organizing map or RBF networks",
+          "Trajectory tracking using dynamic (recurrent) neural networks"
+        ],
+        "references": [
+          "Frank Leroy Lewis, Suresh Jagannathan, A. Ye\u015fildirek, Neural Network Control of Robot Manipulators and Non-Linear Systems, Taylor and Francis group, 1999",
+          "Frank L. Lewis, Derong Liu, Reinforcement Learning and Approximate Dynamic Programming for Feedback Control, Wiley and IEEE press, 2013",
+          "Zi-Xing Cai, Intelligent Control: Principles, Techniques and Applications World Scientific, 1997",
+          "Bishop, C. M., Pattern Recognition and Machine Learning, Springer, 2006",
+          "Alexander S. Poznyak, Edgar N. Sanchez, Wen Yu, Differential Neural Networks for Robust Nonlinear Control Identification, State Estimation and Trajectory tracking, World Scientific, 2001",
+          "Alex Smola, S.V.N. Vishwanathan, Introduction to Machine Learning, Cambridge University Press, 2010",
+          "Simon Haykins, Neural Networks and Learning Machines, Prentice Hall, 2009"
+        ],
+        "flags": [
+          "missing_sem",
+          "references_numbering_inconsistent",
+          "unclear_course_type"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4450",
+        "title": "NEURAL NETWORK AND FUZZY LOGIC",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction",
+          "ANN",
+          "BNN and difference between ANN and BNN",
+          "McCulloch\u2013Pitts model",
+          "Activation functions",
+          "Feedforward and feedback networks",
+          "Learning rules",
+          "Supervised Learning network",
+          "Multi-layer Feedforward Networks",
+          "Back propagation network",
+          "Unsupervised Learning network",
+          "Maxnet",
+          "Mexican Hat net",
+          "Kohonen self-organizing feature map",
+          "Vector quantization",
+          "Fuzzy sets",
+          "Membership functions",
+          "Fuzzification",
+          "Defuzzification methods",
+          "Fuzzy rule base and approximate reasoning",
+          "Fuzzy inference systems",
+          "Fuzzy logic control system",
+          "Applications"
+        ],
+        "references": [
+          "Laurence Fausett, Fundamentals of Neural networks, Architecture, Algorithm and Applications, Pearson Education India, (1e), 2004.",
+          "Timothy J. Ross, Fuzzy logic with engineering applications, John Wiley & Sons, (4e), 2016.",
+          "S. N. Sivanandan, S. N. Deepa, Principles of soft computing, Wiley India, 2010.",
+          "B. Yegnanarayana, Artificial Neural Networks, PHI, 2004."
+        ],
+        "flags": [
+          "missing_semester",
+          "unclear_course_type"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4451",
+        "title": "POWER ELECTRONICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to power electronics",
+          "SCR: device structure, characteristics and design",
+          "UJT trigger circuits",
+          "GTO",
+          "Power MOSFET",
+          "IGBT",
+          "single-phase half converters",
+          "single-phase full converters",
+          "semi-converters",
+          "three-phase half converters",
+          "three-phase full converters",
+          "dual converters",
+          "step-up choppers",
+          "step-down choppers",
+          "step up/down choppers",
+          "morgans' chopper",
+          "AC voltage converters",
+          "cyclo-converters",
+          "bridge inverters",
+          "three-phase inverters",
+          "series inverters",
+          "parallel inverters"
+        ],
+        "references": [
+          "M. H. Rashid, Power Electronics, PHI, (3e), 2005",
+          "Ned Mohan, Undeland, Robbins, Power Electronics, John Wiley, (3e), 2002",
+          "Bimbhra P.S, Power Electronics, Khanna Publication, (3e), 1999",
+          "M. Ramamurthy, Thyristors and their Application, East-West Press, 1977"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4452",
+        "title": "REAL TIME OPERATING SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "RTOS introduction",
+          "Essential features of an OS and batch processing",
+          "Process scheduling, scheduling queues, Types of schedulers",
+          "Multithreaded programming, Threading issues, scheduling criteria and algorithms",
+          "synchronization, classical problem of synchronization",
+          "deadlocks, methods for handling deadlocks",
+          "memory management strategies and virtual memory management"
+        ],
+        "references": [
+          "Abraham Silberschatz, Peter Galvvin, Grag Gagne, Operating System principles, John Wiley Publications, (7e), 2006",
+          "Allan Burns, Andy Wellings, Real-Time Systems and Programming Languages, Addison Wesley, (3e), 2001",
+          "Milan Milenkovic, Operating Stems Concepts and Design, McGraw Hill Education, (2e), 2001",
+          "Maurice Bach, Design of Unix Operating System, Pearson, (1e), 1986",
+          "Rajib Mall, Real Time Systems, Pearson Education, 2007"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4453",
+        "title": "RELIABILITY AND SAFETY ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Sampling distributions",
+          "Testing of hypotheses",
+          "Failure data",
+          "Failure modes",
+          "Hazard rates and failure density function",
+          "Hazard models and bath-tub curve",
+          "Reliability of systems",
+          "Redundancy",
+          "Fault Tree Analysis",
+          "Reliability improvement methods",
+          "Reliability Tests",
+          "Test -retest method",
+          "Split half method",
+          "Alternate or parallel forms Method",
+          "Rational Equivalence Method",
+          "Component reliability and MIL standards",
+          "Safety policy",
+          "Safety Organization",
+          "Measurement and prediction of human reliability and operator training",
+          "Safety margins in critical devices",
+          "Incident Recall Technique",
+          "Disaster control",
+          "Job Safety Analysis",
+          "Safety Audit"
+        ],
+        "references": [
+          "Govil, A.K., Reliability Engineering, TMH, 1983.",
+          "Sinha and Kale, Introduction to Life-Testing, Wiley Eastern, New Delhi, 1992.",
+          "Wisley, Human Engineering - Guide for Equipment Designers, University of California Press, 1973.",
+          "Hoang Pham, Handbook of Reliability Engineering, Springer, 2003.",
+          "Krishnan N.V, Safety Management in Industry, Jaico Publishing House, Bombay, 1997."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4454",
+        "title": "ROBOTIC CONTROL SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Robotic Systems: Components and Structures of Robots",
+          "Degrees of Freedom and Workspace",
+          "Rotation representation",
+          "Homogenous Transformations",
+          "Types of Joints",
+          "Kinematics of Manipulators",
+          "Differential transformation and Jacobian",
+          "Static force and torque",
+          "Trajectory Planning",
+          "Dynamics of Manipulators (Lagrangian and Newton-Euler methods)",
+          "Feedback control of a single link manipulator",
+          "PID control of multi-link manipulator",
+          "Force control"
+        ],
+        "references": [
+          "Mark. W. Spong, Robotics Dynamics and Control, Wiley, (1e), 1989.",
+          "John. J. Craig, Introduction to robotics \u2013 Mechanics and Control, Pearson Education, (4e), 2017.",
+          "Ashitava Ghosal, Robotics: Fundamental Concepts and Analysis, Oxford Press, (1e), 2006.",
+          "S.K Saha, Introduction to Robotics, TMH, (1e), 2008.",
+          "D.K Pratihar, Fundamentals of Robotics, Narosa, (1e), 2017."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4455",
+        "title": "ROBUST CONTROL",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Issues in Control System Design",
+          "need for Robust control",
+          "Norms for signals and systems",
+          "Input- Output Relationships",
+          "Computing the Norm by State-Space Methods",
+          "Eigen values and singular values",
+          "Condition for Internal stability",
+          "sensitivity and complementary sensitivity function",
+          "Asymptotic tracking",
+          "Performance",
+          "Sources of Model Uncertainties",
+          "Plant Uncertainty Model",
+          "Small Gain Theorem",
+          "Robust Stability",
+          "Robust Performance",
+          "Trade-off between robust stability and robust performance",
+          "Existence of Stabilizing Controllers",
+          "Parameterization of All Stabilizing Controllers",
+          "Coprime Factorization",
+          "Loop shaping Controllers",
+          "Shaping S, T, or Q",
+          "P-1 Stable",
+          "P-1 Unstable",
+          "The Modified Problem",
+          "Spectral Factorization",
+          "Case Studies-Robust Control for Mass Damper Spring Systems, Spacecraft and Inverted Pendulum"
+        ],
+        "references": [
+          "Doyle, J.C., B.A. Francis and A. Tannenbaum, Feedback Control Theory, Macmillan publishing co., 1990.",
+          "Kemin Zhou, Doyle J.C and Glover K., Robust and Optimal Control, Prentice Hall Inc, 1995.",
+          "Willian A. Wolovich, Automatic Control Systems, Saunders college publishing, 1994.",
+          "Kemin Zhou and Doyle J.C, Essential of Robust Control\u201d, Prentice Hall Inc, 1998."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4311",
+        "title": "FEEDBACK CONTROL THEORY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Feedback control systems",
+          "Mathematical modeling",
+          "Derivation of transfer functions for electrical networks",
+          "Mechanical systems",
+          "Signal flow graph",
+          "Masons gain formula",
+          "State variable representation of linear systems",
+          "Solution of state equations",
+          "Time domain specifications for second order systems",
+          "Steady state errors of unity feedback systems",
+          "Definitions of stability",
+          "Routh Hurwitz criterion",
+          "Frequency response - gain margin",
+          "phase margin"
+        ],
+        "references": [
+          "Nagrath and Gopal, Control Systems Engineering, New age international Limited, (2e), 1984",
+          "Norman S. Nise, Control Systems Engineering, (5e), Wiley India, 2009",
+          "R.C Dorf and R.H Bishop, Modern Control Systems, (11e), Addison-Wesley Longman Inc., 2013"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4312",
+        "title": "INDUSTRIAL AUTOMATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Evolution of PLC",
+          "PLC Vs PC",
+          "Architecture of PLC - I/O Modules",
+          "CPU",
+          "Program Memory",
+          "Process Image Tables",
+          "Bus System and Power Supply",
+          "Sequential Flow Chart technique for programming style",
+          "Programming a PLC",
+          "Timers & Counters",
+          "Special Instructions",
+          "Levels of Industrial control",
+          "Networking",
+          "Buts Networks",
+          "Protocols",
+          "SCADA & DCS",
+          "Profibus",
+          "Modbus",
+          "SMART devices"
+        ],
+        "references": [
+          "John W.Webb and Ronald A.Reis, Programmable Logic Controllers \u2013 Principles and Applications, (5e), PHI, 2003",
+          "W. Bolton, Programmable Logic Controllers, 94e), Newnes Publications, 2006",
+          "Frank D. Petruzella, Programmable Logic Controllers, MGH, 1989"
+        ],
+        "flags": [
+          "missing_semester",
+          "reference_edition_typo"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4313",
+        "title": "INDUSTRIAL INSTRUMENTATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Measurement System",
+          "Classification of transducers",
+          "Temperature and Pressure measurement",
+          "Level and Thickness measurement",
+          "Flow measurement-Variable head type, variable area type, Mass flow meters",
+          "Measurement of Thermal conductivity, velocity, acceleration, pH and Force",
+          "Semiconductor sensors",
+          "Optical sensors"
+        ],
+        "references": [
+          "E.O. Doeblin, Measurement Systems: Application and Design, McGraw Hill, (5e), 2004.",
+          "Patranabis D, Principles of Industrial Instrumentation, TMH, (3e), 2005.",
+          "A.K. Sawhney, A course in Mechanical Measurement and Instrumentation, (7e), Dhanpat Rai and Co, 2002."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4314",
+        "title": "SENSOR TECHNOLOGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Basic sensor technology",
+          "characteristics",
+          "Capacitive and Inductive Sensors",
+          "Displacement Sensors",
+          "Temperature Sensors",
+          "Force/Torque Sensors",
+          "Humidity and Moisture Sensors",
+          "Acoustic Sensors",
+          "Flow Sensors",
+          "Occupancy-Motion Detectors",
+          "Acceleration and Vibration Sensors",
+          "Chemical and Biosensors",
+          "Optical and radiations Sensors",
+          "Introduction to Wireless Sensor Networks (WSN) and Applications"
+        ],
+        "references": [
+          "Jon S Wilson, Sensor Technology Handbook, Newnes Elsevier Publication, 2005",
+          "Jacob Fraden, Handbook of Modern Sensors: Physical, Designs, and Applications, Springer, 2004"
+        ],
+        "flags": [
+          "missing_sem",
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4315",
+        "title": "SMART SENSOR",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "MCUs and DSPs",
+          "integrated signal conditioning",
+          "IEEE1451 standards",
+          "Plug and play",
+          "Sensor Communication",
+          "Wireless zone sensing",
+          "Surface acoustical wave devices",
+          "Intelligent transportation system",
+          "RF-ID",
+          "RF MEMS basics",
+          "Micro optics",
+          "Micro grippers",
+          "Microprobes",
+          "Micro mirrors",
+          "FEDs",
+          "Centralized and decentralized measurement chains",
+          "Intelligent sensors",
+          "Nano sensors",
+          "Biosensors"
+        ],
+        "references": [
+          "Randy Frank, Understanding Smart Sensors, (2e), Artech House Publications, 2000",
+          "Paul W. Chapman, Smart Sensors, ISA Press, 1996",
+          "KrzystofIniewski, Smart Sensors for Industrial Applications, CRC Press, 2013"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4316",
+        "title": "VIRTUAL INSTRUMENTATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Architecture of a virtual instrument",
+          "Virtual instruments V/s Traditional instruments",
+          "Advantages of VI",
+          "Graphical programming",
+          "Creating Virtual Instruments using LabVIEW-Loops",
+          "Arrays",
+          "Clusters",
+          "String and file I/O",
+          "Graphs",
+          "Data Acquisition",
+          "Common Instrument Interfaces",
+          "Current loop",
+          "System buses",
+          "Interface buses",
+          "VISA",
+          "Image acquisition and processing",
+          "Design of ON/OFF controller for a mathematically described processes using VI software"
+        ],
+        "references": [
+          "Gary Johnson, LabVIEW Graphical Programming, (2e), MGH, 1997.",
+          "Lisa K. wells & Jeffrey Travis, LabVIEW for everyone, National Instruments, 1997.",
+          "S. Sumathi, P Surekha, LabVIEW based Advanced Instrumentation systems, Springer, 2007.",
+          "Rick Bitter, Taqi Mohiuddin, Matt Nawrocki, LabVIEW Advanced Programming Techniques, CRC Press, 2007.",
+          "Jovitha Jerome, Virtual Instrumentation using LabVIEW, PHI, 2010."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ICE 4317",
+        "title": "FARM AUTOMATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Farm mechanization",
+          "sources of farm power",
+          "renewable energy sources",
+          "IC engines",
+          "tillage",
+          "sowing",
+          "plant protection",
+          "intercultural operations",
+          "harvesting",
+          "threshing",
+          "biomass management techniques",
+          "Watershed concept and theory",
+          "soil erosion",
+          "measures",
+          "hydrological cycle",
+          "irrigation methods",
+          "devices",
+          "Water conveyance systems",
+          "Water harvesting",
+          "aquifer and its types",
+          "interaction of water resources with the changing environment",
+          "Engineering properties of biological materials",
+          "heat and mass transfer",
+          "devices for cleaning, grading, milling and storage of farm produce",
+          "Drying and dehydration",
+          "function and features of green house",
+          "Resource conservation management",
+          "precision farming",
+          "automated irrigation scheduling",
+          "variable rate seed and chemical applicators",
+          "robotics",
+          "Rainfall-runoff prediction models",
+          "watershed modeling",
+          "climate change impact analysis on bio-resources",
+          "drying characteristics",
+          "storage or process kinetics",
+          "simulation and modeling in tillage implements"
+        ],
+        "references": [
+          "Jagdshwar Sahay, Elements of Agricultural Engineering,(4e), Standard Publishers Distributors, 2006",
+          "A. M. Michael & T. P. Ojha, Principles of Agricultural Engineering, Vol I & II., (10e), Jain Brothers, 2018",
+          "K M Sahay, K. K. Singh, Unit operations of Agricultural Processing, (2e),Vikas Publishing House Pvt Ltd, 2004",
+          "Qin Zhang, Francis J. Pierce, Agricultural Automation Fundamental and Practices, CRS Press, Taylor and Francis group, 2013",
+          "Darwin Caldwell, Robotics & Automation in the food Industries (Current & Future Technologies), Wood Head Publishing Ltd, Oxford, 2012",
+          "A. M. Chandra, S. K. Ghosh, Remote Sensing and Geographical Information System, Alpha Science, 2006"
+        ],
+        "flags": [
+          "missing_semester",
+          "reference_numbering_error"
+        ]
+      }
+    ]
+  }
+}

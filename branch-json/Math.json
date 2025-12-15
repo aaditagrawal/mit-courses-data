@@ -1,0 +1,2175 @@
+{
+  "department": {
+    "name": "Department of Mathematics",
+    "courses": [
+      {
+        "sem": null,
+        "code": "MAT 2135",
+        "title": "COMPUTATIONAL LINEAR ALGEBRA",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introductory Example: Linear Models in Economics and Engineering",
+          "Systems of Linear Equations",
+          "Row Reduction and Echelon Forms",
+          "Vector Equations",
+          "The Matrix Equation Ax = b",
+          "Solution Sets of Linear Systems",
+          "Applications of Linear Systems",
+          "Linear Independence",
+          "Introduction to Linear Transformations",
+          "The Matrix of a Linear Transformation",
+          "Linear Models in Business, Science, and Engineering",
+          "Matrix Algebra",
+          "Partitioned Matrices",
+          "Matrix Factorizations",
+          "Subspaces of Rn",
+          "Dimension and Rank",
+          "Vector Spaces",
+          "Vector Spaces and Subspaces",
+          "Null Spaces, Column Spaces, and Linear Transformations",
+          "Linearly Independent Sets",
+          "Bases",
+          "The Dimension of a Vector Space",
+          "Applications to Difference Equations",
+          "Eigenvectors and Eigenvalues",
+          "The Characteristic Equation",
+          "Diagonalization",
+          "Inner Product Spaces",
+          "Orthogonal Projections",
+          "The Gram-Schmidt Process",
+          "Least-Squares Problems",
+          "Determinants, Diagonalization of Symmetric Matrices",
+          "Quadratic Forms",
+          "Constrained Optimization",
+          "The Singular Value Decomposition"
+        ],
+        "references": [
+          "S. Kumarasen, Linear Algebra, Geometric approach, PHI, 2017",
+          "R. Rao and P. Bhimsankaram: Linear algebra, Hindustan book agency, 2000",
+          "S. H. Friedberg, A. J. Insel and L. E. Spence: Linear algebra, Pearson, 2015",
+          "D. C Lay: Linear algebra and its applications, Pearson, 2014"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 2136",
+        "title": "PROBABILITY AND STOCHASTIC PROCESS",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Probability: Basic concepts -Random Experiments, Sample space, Elementary and compound events, Algebra of events, Classical definition of probability and its limitations, relative frequency approach, Conditional Probability and Independence, Multiplication theorem, Bayes' Theorem (with proof) and its applications",
+          "Random Variables, one and two dimensional, with marginal and conditional probability distributions. Expectation of r.v. s, functions of random variables, M.G.F.",
+          "Discrete distributions, Limiting Distributions",
+          "Continuous univariate distributions",
+          "Sampling: Population and Sample, Complete enumeration v/s sample surveys - merits and demerits. Need for sampling, random and non-random sampling, limitations of non-random sampling and judgment sampling, Errors in sampling. Parameter and statistic, Unbiasedness, variance and precision of estimators, pilot survey, determination of sample size, Sampling variances, standard errors, Sampling Distributions-Definition and derivation of students' t, Chi-squared and F- distributions using transformation of random variables \u2013 their properties",
+          "Estimation & Inference: Limit theorems - Markov's inequality, statement and proof of Chebychev's inequality, sequence of random variables, convergence in probability: basic results (without proof), Weak law of large numbers, central limit theorem for i. i. d. random variables and its application. Methods of estimations and characteristics of an ideal estimator, testing of hypothesis \u2013 basic concepts-type I & II errors, size & power of the test, testing for equality of mean/ two means, independence of attributes, proportions, testing for goodness of fit. Confidence intervals also to be covered"
+        ],
+        "references": [
+          "Gupta, S. C., & Kapoor, V. K. (2002). Fundamental of Mathematical Statistics. Sultan Chand & sons.",
+          "Rohatgi, V. K. (2002). An Introduction to Probability theory and Mathematical Statistics. Wiley Eastern Limited.",
+          "Ross, S. M. (2003). Introduction to Probability Models. 10e, Academic Press, UK.",
+          "Mukhopadhyay P. (1998): Theory and Methods of Survey Sampling, Prentice-Hall of India",
+          "Medhi, J. (2006). Statistical Methods: An Introductory Text. New Age International(P) Limited, New Delhi.",
+          "P L Meyer: Introductory Probability and Statistical Applications 2Ed (2017), Wiley."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 2122",
+        "title": "DATA STRUCTURES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction - Pointers and Pointer Application",
+          "Accessing variables through pointers",
+          "pointers to pointers",
+          "pointer arithmetic and arrays",
+          "pointers and functions",
+          "Recursion- definition, recursive programs, efficiency of recursion",
+          "Stacks",
+          "queues",
+          "evaluation of expressions",
+          "multiple stacks and queues and its application",
+          "Linked lists representations- Singly, doubly, header node, circular along with the applications",
+          "Trees-Binary trees, representation, recursive/ non recursive inorder, preorder and post order tree traversal, level order traversal",
+          "Binary search tree, creation, insertion deletion operations on binary search tree",
+          "Additional Binary Tree Operations",
+          "Threaded Binary Tree and applications",
+          "Introduction to the concepts of Optimal Binary Search Trees",
+          "Tree variations",
+          "Searching and Sorting Techniques",
+          "Graphs- Storage representations, BFS,DFS, Spanning tree, Minimum spanning tree",
+          "SDL: Graphs- Storage representations, BFS, DFS, Spanning tree, Minimum spanning tree"
+        ],
+        "references": [
+          "Behrouz A. Forouzan, Richard F. Gilberg, A Structured Programming Approach Using C, (3e), Cengage Learning India Pvt. Ltd, India, 2007",
+          "Ellis Horowitz, Sartaj Sahni, Susan Anderson and Freed, Fundamentals of Data Structures in C, (2e), Silicon Press, 2007",
+          "Richard F. Gilberg, Behrouz A. Forouzan, Data structures, A Pseudocode Approach with C, (2e), Cengage Learning India Pvt. Ltd, India , 2009",
+          "Tenenbaum Aaron M., Langsam Yedidyah, Augenstein Moshe J., Data structures using C, Pearson Prentice Hall of India Ltd., 2007",
+          "Debasis Samanta, Classic Data Structures, (2e), PHI Learning Pvt. Ltd., India, 2010"
+        ],
+        "flags": [
+          "missing_semester",
+          "department_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 2137",
+        "title": "ELEMENTARY NUMBER THEORY",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Linear diophantine equation",
+          "prime counting function",
+          "statement of prime number theorem",
+          "Goldbach conjecture",
+          "linear congruences",
+          "complete set of residues",
+          "Chinese remainder theorem",
+          "Fermat's little theorem",
+          "Wilson's theorem",
+          "Number theoretic functions",
+          "sum and number of divisors",
+          "totally multiplicative functions",
+          "definition and properties of the Dirichlet product",
+          "the Mobius Inversion formula",
+          "the greatest integer function",
+          "Euler's phi-function",
+          "Euler's theorem",
+          "reduced set of residues",
+          "some properties of Euler's phi-function",
+          "Order of an integer modulo n",
+          "primitive roots for primes",
+          "composite numbers having primitive roots",
+          "Euler's criterion",
+          "the Legendre symbol and its properties",
+          "quadratic reciprocity",
+          "quadratic congruences with composite moduli",
+          "Public key encryption",
+          "RSA encryption and decryption",
+          "the equation Fermat's Last theorem"
+        ],
+        "references": [
+          "David M. Burton, Elementary Number Theory, 6th Ed., Tata McGraw-Hill, Indian reprint, 2007.",
+          "Neville Robinns, Beginning Number Theory, 2nd Ed., Narosa Publishing House Pvt. Ltd., Delhi, 2007."
+        ],
+        "flags": [
+          "missing_semester",
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 2125",
+        "title": "ADVANCED PROGRAMMING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Getting started with python scripting",
+          "Using the file system",
+          "Reading and writing files",
+          "Numerical Computing In Python",
+          "SciPy package",
+          "Classes and object-oriented programming",
+          "Data types as objects",
+          "Graphical user interfaces",
+          "Regular expressions",
+          "Network, web, and database programming: Accessing databases in Python",
+          "Network programming in Python",
+          "Creating a Python web application",
+          "Sample project\u2014creating a message wall",
+          "Web frameworks creating a model to add database service \u2013 using SQLite",
+          "Cloud computing: google app engine and web services",
+          "What is cloud computing",
+          "levels of cloud computing service",
+          "what is Aapp Engine",
+          "The sandbox and the App Engine SDK",
+          "Choosing an App Engine framework"
+        ],
+        "references": [
+          "Hans Peter Langtangen, Python Scripting for Computational Science, (3e), Springer Publishers, 2014",
+          "Naomi R. Ceder, The Quick Python Book, (2e), Manning Publications Co., 2010",
+          "Wesley J. Chun, Core Python Applications Programming, (3e), Prentice Hall Publishers, 2012",
+          "Bill Lubanovic, Introducing Python - Modern Computing in Simple Packages, O'Reilly Publication, 2015",
+          "Allen B. Downey, Think Python-How to think like a computer scientist, (2e) O'Reilly Publication, 2015"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 2144",
+        "title": "ADVANCED PROGRAMMING LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Class and Objects: Class Definition, Creating Objects",
+          "Array and Strings: Programs Based Upon 1-D, 2-D and Dynamic Arrays, String Comparison and Manipulation",
+          "Inheritance: Inheritance and Its Types, Abstract Class, Inner and Outer Class, Super, Final, Static Keywords",
+          "Collection Framework & Generics: Using Collection Classes such as Array Lists and Linked Lists Writing Generic Classes",
+          "Exception Handling: Errors and Exceptions, Types of Exceptions",
+          "Multithreading: Thread Class, Runnable, Synchronization, Thread Priority",
+          "Event Handling and GUI Programming"
+        ],
+        "references": [
+          "Schildt H, Java: The Complete Reference, (10e), Tata McGraw-Hill Education Group, 2017",
+          "Balagurusamy E, Programming with Java, (5e), Tata McGraw Hill Education Group, 2017",
+          "Daniel Liang Y, Introduction to Java Programming, (10e), Pearson Education India, 2018",
+          "Horstmann CS, Big Java: Early Objects, (5e), Wiley's Interactive Edition, 2015"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 2138",
+        "title": "DISCRETE MATHEMATICS",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Sets and Sequences",
+          "Introduction to Logic",
+          "Propositional Logic",
+          "Deduction",
+          "Resolution",
+          "Predicates and Quantifiers",
+          "Relational Structures on Sets",
+          "Relations & Graphs",
+          "Equivalence Relations",
+          "Functions",
+          "Bijections",
+          "Binary relations and Graphs",
+          "Introduction to Graph Theory",
+          "Boolean Algebras",
+          "Sizes of Sets",
+          "Counting & Combinatorics",
+          "Pigeon Hole Principle",
+          "Double Counting",
+          "Linear Recurrence relations",
+          "Generating Functions",
+          "Permutations and counting"
+        ],
+        "references": [
+          "An Introduction to Computational Combinatorics, E. S. Page, L. B. Wilson, Cambridge Press, 1979.",
+          "Discrete Mathematics and its Applications - Kenneth H. Rosen 7th Edn.Tata McGraw Hill, 1988.",
+          "Elements of Discrete Mathematics, C. L Liu, McGraw-Hill Inc., 1985.",
+          "Applied Combinatorics, Alan Tucker, 2007.",
+          "Concrete Mathematics, Ronald Graham, Donald Knuth, and Oren Patashnik, 2nd Edition - Pearson Education Publishers - 1996.",
+          "Combinatorics: Topics, Techniques, Algorithms by Peter J. Cameron, Cambridge University Press, 1994 (reprinted 1996)."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "DSE 2142",
+        "title": "DATA STRUCTURES LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Reviewing the concepts of pointers, structures and recursion",
+          "Studying the operation of stacks and queues and the associated application programs",
+          "Creating dynamic allocation of memory for linked list and applying it to examples using singly, doubly and circular linked list and their applications",
+          "Creation of binary trees and the application associated with the trees"
+        ],
+        "references": [
+          "Behrouz A. Forouzan, Richard F. Gilberg, A Structured Programming Approach Using C, (3e), Cengage Learning India Pvt. Ltd, India, 2007",
+          "Ellis Horowitz, Sartaj Sahni, Susan Anderson and Freed, Fundamentals of Data Structures in C, (2e), Silicon Press, 2007",
+          "Richard F. Gilberg, Behrouz A. Forouzan, Data structures, A Pseudocode Approach with C, (2e), Cengage Learning India Pvt. Ltd, India, 2009",
+          "Tenenbaum Aaron M., LangsamYedidyah, Augenstein Moshe J., Data structures using C, Pearson Prentice Hall of India Ltd., 2007",
+          "Debasis Samanta, Classic Data Structures, (2e), PHI Learning Pvt. Ltd., India, 2010"
+        ],
+        "flags": [
+          "credits_mismatch",
+          "department_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 2235",
+        "title": "ALGEBRAIC STRUCTURES",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Symmetries of the plane. Groups. The symmetric group Sn",
+          "Homomorphisms of groups. Cyclic Groups, Subgroups. Lagrange's theorem. Conjugacy. Normal subgroups, Quotient groups",
+          "Homomorphism theorems. Permutation groups, Group actions",
+          "Semigroups: Basic theory and properties",
+          "Rings: Rings. Subrings. Ideals. Polynomials. Integral domains and fields. Roots of polynomials. Symmetric polynomials. Factorization in integral domains. Field extensions and Geometric Constructions"
+        ],
+        "references": [
+          "Michael Artin: Algebra, Second Edition, Pearson Prentice-Hall of India, New Delhi, 2011",
+          "David S. Dummit and Richard M. Foote: Abstract Algebra, Third Edition, Wiley, 2005",
+          "Joseph A. Gallian: Contemporary Abstract Algebra, Eighth Edition, BROOKS/COLE Cengage Learning, 2013",
+          "Topics in Algebra, I.N. Herstein, Wiley, 1975",
+          "Thomas W. Judson, Abstract Algebra - Theory and Applications, 1994"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 2223",
+        "title": "DESIGN AND ANALYSIS OF ALGORITHMS",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Fundamentals of Algorithms, Important Problem Types, Analysis of algorithm efficiency",
+          "Analysis Framework: Asymptotic Notations and Basic Efficiency Classes, Mathematical Analysis of Non recursive and Recursive Algorithms",
+          "Brute force Techniques, Divide and Conquer, Decrease and Conquer: Insertion Sort, Depth First Search, Breadth First Search, Topological Sorting",
+          "Transform and Conquer: Pre-sorting, BST, Heapsort",
+          "Space and Time trade-offs: Input Enhancement in String Matching",
+          "Dynamic Programming: Warshall's and Floyd's Algorithms, The Knapsack Problem",
+          "Greedy Techniques: Prim's, Kruskal's and Dijkstra's Algorithm, Huffman Trees",
+          "Coping with limitations of algorithmic power, P, NP, and NP-complete Problems, Backtracking: n\u2013Queens problem, Hamiltonian Circuit Problem, Subset\u2013Sum Problem",
+          "Branch and Bound: Assignment Problem, Knapsack Problem, TSP"
+        ],
+        "references": [
+          "Anany Levitin, Introduction to the Design and Analysis of Algorithms, (3e), Pearson Education, 2011",
+          "Ellis Horowitz and Sartaj Sahni, Computer Algorithms/C++, (2e), University Press, 2008",
+          "Thomas H. Cormen, Charles E. Leiserson, Ronal L, Rivest, Clifford Stein, Introduction to Algorithms, (3e), PHI, 2009"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 2236",
+        "title": "REAL ANALYSIS",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Real Number System: Algebra of Real Numbers, Upper and Lower Bounds, LUB and GLB property and its applications, Absolute Value and Triangle Inequality",
+          "Sequences and Their Convergence: Cauchy Sequences, Monotone Sequences, Sandwich Lemma, Some important Limits, Sequences Diverging to +, -, Subsequences, Sequences Defined Recursively",
+          "Continuity: Continuous Functions, definition of continuity, Intermediate Value Theorem, Extreme Value Theorem, Monotone Functions, Limits, Uniform Continuity",
+          "Differentiation: Differentiability of functions, Mean Value Theorems, L'Hospital Rules, Higher Order Derivatives, Taylor's Theorem, Convex functions",
+          "Functions of Two variables",
+          "Infinite Series: Convergence, Abel's Summation by parts, Cauchy product of two infinite Series",
+          "Reimann Integration: Darboux Integrability, Properties of the integral, Fundamental Theorem of Calculus",
+          "Introduction to Metric spaces, examples, open sets, closed sets, limit point, continuity"
+        ],
+        "references": [
+          "Ajit Kumar and Kumaresan, A Basic Course in Real Analysis, CRC Press. 2014.",
+          "Tom M. Apostol: Mathematical Analysis, Second Edition, Addison Wesley Publishing Company, 1974.",
+          "W. Rudin, Principles of Mathematical Analysis, 3rd Edition (2017).",
+          "Sudhir R. Ghorpade and B. V. Limaye, A Course in Calculus and Real Analysis (Undergraduate Texts in Mathematics) Hardcover \u2013 2006 (Springer).",
+          "Sudhir R. Ghorpade and B. V. Limaye, A Course in Multivariable Calculus and Analysis, 2010 (Springer)"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 2237",
+        "title": "MATHEMATICAL LOGIC",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Formal proofs",
+          "resolution",
+          "Axiom systems",
+          "strong completeness and compactness of propositional logic",
+          "First order with equality",
+          "First order structures in mathematics",
+          "Propositional reduction",
+          "completeness and compactness",
+          "Variants of Lowenheim - Skolem theorem",
+          "Some complete axiom systems",
+          "Isomorphism and equivalence of structures",
+          "Expressive and distinguishing power of First order logics",
+          "EF games and 0-1 law",
+          "Proof sketch of Incompleteness theorems",
+          "Undecidability"
+        ],
+        "references": [
+          "Singh A., Logics for Computer Science, PHI Learning. 2003",
+          "A Friendly Introduction to Mathematical Logic - Christopher C. Leary, Lars Kristiansen - Milne Library 2nd edition 2015.",
+          "A course in mathematical logic - Yu I Manin \u2013 Springer. 1977",
+          "Leonid Libkin, Elements of Finite Model Theory, Springer, 2004."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 2238",
+        "title": "VECTOR ANALYSIS AND COMPLEX VARIABLES",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Vectors Analysis: Gradient, Curl, Divergence, Geometric meaning, Differentiation of Univariate Functions, Partial Differentiation and Gradients, Gradients of Vector-Valued Functions, Gradients of Matrices, Useful Identities for Computing Gradients, Backpropagation and Automatic Differentiation, Higher-Order Derivatives, Linearization and Multivariate Taylor Series",
+          "Complex Numbers and elementary properties: Argand plane and Properties, Polar and Exponential Forms, Powers and roots, Functions of a Complex variable, Limits, Continuity, Differentiability, Cauchy Riemann Equations, Analytic functions, Entire functions",
+          "Harmonic functions, Elementary functions: Exponential function, Trigonometric functions, Hyperbolic functions and Logarithmic functions",
+          "Definite integrals of functions",
+          "Contours, Contour integrals and its examples, upper bounds for moduli of contour integrals",
+          "Cauchy-Goursat theorem, Cauchy integral formula"
+        ],
+        "references": [
+          "James Ward Brown, Ruel V. Churchil, Complex Variables and Applications, 8th Ed., Mc Graw Hill Publications, 2009",
+          "H.S. Kasana, Complex variables theory and applications, 2nd Ed., PHI Learning Pvt Ltd., New Delhi, 2005",
+          "Murray Spiegel, Seymour Lipschutz, Dennis Spellman, VECTOR ANALYSIS: Schaum's Outlines Series |2nd Edition Paperback \u20132017"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 2222",
+        "title": "FUNDAMENTALS OF MACHINE LEARNING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Machine Learning Basics: Types of Machine Learning, Supervised vs. Unsupervised Learning, Parametric vs. non-parametric models, Instance Based learning\u2013k-nearest neighbors, Simple Regression Models: Linear, Logistic, Cost functions, Gradient Descent, Batch Gradient Descent, Over fitting, Model Selection, No free lunch theorem, bias/variance trade-off, union and Chernoff bounds, VC dimensions",
+          "Bayesian Models: Bayesian concept learning, Bayesian Decision Theory, Na\u00efve Bayesian, Laplacian Correction, Bayesian Belief Networks",
+          "Tree Models: information theory, decision tree induction, tuning tree size, ID3,C4.5,CHAID, Decision Stump",
+          "Support Vector Machines: kernel functions, Regression Models: Ridge and Lasso Regression, GLM and the exponential Family",
+          "Bagging algorithm, Random Forests, Grid search and randomized grid search, Partial dependence plots",
+          "Ensembling and Boosting Algorithms: Concept of weak learners, Adaptive Boosting, Extreme Gradient Boosting (XGBoost)",
+          "Artificial Neural Networks: Perceptron, Backpropagation, Hopfield Network",
+          "Curse of Dimensionality: Factor Analysis, Principal Component Analysis(PCA), Difference between PCAs and Latent Factors"
+        ],
+        "references": [
+          "K.Murphy, Machine Learning: A Probabilistic Perspective, MIT Press,2012",
+          "G. James, D. Witten, T Hastie, R Tibshirani, An introduction to statistical learning with applications in R, Springer, 2013",
+          "J. Han, M. Kamber, J. Pei, Data Mining concepts and techniques, (2e), Morgan Kaufmann-Elsevier,2011",
+          "T.Hastie, R.Tibshirani, J.Friedman, The Elements of Statistical Learning, (2e),Springer,2009",
+          "T.M.Mitchell, Machine Learning,(Indian Edition),MacGrawHill,2017",
+          "C.Bishop,Neural Networks for Pattern Recognition, Oxford University Press,2019"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 2243",
+        "title": "DESIGN & ANALYSIS OF ALGORITHMS LAB",
+        "credits": {
+          "l": null,
+          "t": null,
+          "p": null,
+          "c": null
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Exercises to implement doubly linked list & Binary Search Tree",
+          "GCD Techniques",
+          "Sorting algorithms",
+          "String Matching",
+          "DFS",
+          "BFS",
+          "Topological sorting",
+          "AVL tree",
+          "2-3 tree",
+          "Horspool algorithm",
+          "Open hash table",
+          "Floyd's algorithm",
+          "Warshall's algorithm",
+          "Greedy Techniques",
+          "Dijkstra's algorithm",
+          "Backtracking"
+        ],
+        "references": [
+          "Anany Levitin, Introduction to the Design and Analysis of Algorithms, (3e), Pearson Education, India, 2011",
+          "Ellis Horowitz and Sartaj Sahni, Computer Algorithms/C++, (2e), University Press, 2007",
+          "Thomas H. Cormen, Charles E. Leiserson, Ronal L, Rivest, Clifford Stein, Introduction to Algorithms, (2e), PHI, 2006"
+        ],
+        "flags": [
+          "missing_semester",
+          "missing_credits"
+        ]
+      },
+      {
+        "sem": 5,
+        "code": "DSE 2244",
+        "title": "MACHINE LEARNING LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 2
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Tutorial on tools for Machine Learning",
+          "Python scripting (suggested)",
+          "Experiments with datasets to perform preprocessing",
+          "Deploy classifiers: Bayesian, Decision Trees, Support Vector Machines, k-nearest neighbor, Regression Models",
+          "Classification accuracy measures",
+          "Improving classifier performance through ensembling, boosting etc."
+        ],
+        "references": [
+          "Hans Peter Langtangen, Python Scripting for Computational Science, (3e), Springer Publishers, 2014",
+          "Naomi R. Ceder, The Quick Python Book, (2e), Manning Publications Co., 2010",
+          "Wesley J. Chun, Core Python Applications Programming, (3e), Prentice Hall Publishers, 2012",
+          "G. James, D. Witten, T Hastie, R Tibshirani, An introduction to statistical learning with applications in R, Springer, 2013"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "MAT 3131",
+        "title": "MULTIVARIATE ANALYSIS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Multivariate distributions: multivariate normal distribution and its properties, distributions of linear and quadratic forms, tests for partial and multiple correlation coefficients and regression coefficients and their associated confidence regions. Data analytic illustrations",
+          "Wishart distribution (definition, properties), construction of tests, union-intersection and likelihood ratio principles, inference on mean vector, Hotelling's T2",
+          "MANOVA- Inference on covariance matrices",
+          "Classification methods: Discriminant analysis, principal component analysis and factor analysis, Canonical Correlation analysis, Correspondence Analysis, Multidimensional Scaling, Cluster analysis",
+          "Nonparametric and robust methods of multivariate analysis",
+          "Graphical representation of multivariate data"
+        ],
+        "references": [
+          "T. W. Anderson (2009), An Introduction to Multivariate Statistical Analysis. (third edition). John Wiley & sons.",
+          "Richard Arnold Johnson and Dean W. Wichern (2007) Applied Multivariate Statistical Analysis, Prentice Hall.",
+          "Alvin C. Rencher, William F. Christensen (2012), \u201cMethods of Multivariate Analysis\u201d John Wiely.",
+          "Rao, C. R. (2002). Linear Statistical Inference and its Applications. (second edition) (Wiley Series in Probability and Statistics)",
+          "Mathematical Statistics, Basic Ideas and Selected Topics, Volumes I-II Package By Peter J. Bickel, Kjell A. Doksum (2015). (CRC Press) (second edition)",
+          "C. Casella and R. L. Berger: Statistical Inference, 2nd Edition (2007) Cengage Learning."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "DSE 3123",
+        "title": "DATABASE MANAGEMENT SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Database Management Systems - Applications, View of data, Database languages, Database users and Administrator",
+          "Introduction to Relational Model: database schema, keys, schema diagrams, Relational Query Languages, Relational algebra",
+          "Intermediate SQL: Join expressions, Views, Transactions, Integrity Constraints, SQL Data types and schemas, Authorization, Advanced SQL-PL/SQL, Cursors, Functions, Procedures, Triggers, recursive queries",
+          "Database Design and Entity-Relationship Model: Design Process, ER Model, Reduction to Relational schema",
+          "Relational Database design: Functional dependencies, Normal forms, Closure, Canonical cover, Lossless joins, dependency preserving decomposition",
+          "Storage and File structure, Indexing & Hashing",
+          "Query Processing: Overview, Measure of query cost, selection, Join operation, sorting, Evaluation of expressions",
+          "Query Optimization: Overview, Estimating statistics of expression results, Materialized Views",
+          "Transactions: Concepts, Simple transaction model, Transaction atomicity and durability, Transaction Isolation, Serializability, Transaction Isolation Levels",
+          "Concurrency Control: Lock based protocols, Deadlock Handling, Multiple granularity, Timestamp-based Protocols, Validation-based Protocols",
+          "Recovery System: Failure classification, Storage, Recovery algorithm, Buffer Management",
+          "Unstructured database: Introduction to NoSQL, Basics of document-oriented database, MongoDB"
+        ],
+        "references": [
+          "Abraham Silberschatz, Henry Korth, S. Sudarshan, Database System Concepts, 6th Edition, McGraw Hill, 2010",
+          "Ramez Elmasri, Shamkant Navathe, Fundamentals of Database System, 6th Edition, Addison Wesley Publications Co., 2010",
+          "Raghu Ramakrishnan, Johannes Gehrke, Database Management System, 3rd Edition, WCB/McGraw Hill Publisher, 2014",
+          "Ivan Bayross, SQL, PL/SQL-The Programming Language of Oracle, 4th Edition, BPB Publications, 2010",
+          "Shashank Tiwari, Professional NoSQL, Wiley, 2015"
+        ],
+        "flags": [
+          "department_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 3144",
+        "title": "DATABASE MANAGEMENT SYSTEMS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "MS Access",
+          "Introduction to SQL",
+          "Intermediate SQL",
+          "Integrity Constraints in SQL",
+          "Additional Exercises on SQL",
+          "PL/SQL Basics",
+          "Exception Handling and Cursors",
+          "Additional Cursors constructs and Transactions",
+          "Procedures",
+          "Functions and Packages",
+          "Triggers",
+          "Mini Project"
+        ],
+        "references": [
+          "Silberschatz, Korth, Sudarshan, Database System Concepts, (6e), McGraw-Hill, 2011",
+          "Ivan Bayross, SQL, PL/SQL, (2e/3e), BPB Publications, 2009",
+          "G. Reese, Database Programming with JDBS and Java, (2e), O'Reilly, 2000"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 3021",
+        "title": "ENGINEERING ECONOMICS AND FINANCIAL MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Nature and significance",
+          "Micro & macro differences",
+          "Law of demand and supply",
+          "Elasticity & equilibrium of demand & supply",
+          "Time value of money",
+          "Interest factors for discrete compounding",
+          "Nominal & effective interest rates",
+          "Present and future worth of single, Uniform gradient cash flow",
+          "Bases for comparison of alternatives",
+          "Present worth amount",
+          "Capitalized equivalent amount",
+          "Annual equivalent amount",
+          "Future worth amount",
+          "Capital recovery with the return",
+          "Rate of return method",
+          "An Incremental approach for the economic analysis of alternatives",
+          "Replacement analysis",
+          "Break-even analysis for single product and multiproduct firms",
+          "Break-even analysis for evaluation of investment alternatives",
+          "Physical & functional depreciation",
+          "Straight-line depreciation",
+          "Declining balance method of depreciation",
+          "Sum-of-the years digits method of depreciation",
+          "Sinking fund and service output methods",
+          "Costing and its types \u2013 Job costing and Process costing",
+          "Introduction to balance sheet and profit & loss statement",
+          "Ratio analysis - Financial ratios such as liquidity ratios, Leverage ratios, Turn over ratios, and profitability ratios"
+        ],
+        "references": [
+          "Prasanna Chandra., Fundamentals of Financial Management, Tata Mc-Graw Hill Companies, New Delhi, 2005",
+          "James L Riggs, David D Bedworth and Sabah U Randhawa., Engineering Economics, Tata McGraw \u2013 Hill Publishing Company Ltd, New Delhi, 2004",
+          "T. Ramachandran., Accounting and Financial Management, Scitech Publications Pvt. Ltd. India, 2001",
+          "Eugene F. B. & Joel F. H., Fundamentals of Financial Management, 12 (e), Cengage Learning publisher, 2009",
+          "M. Y. Khan & P. K. Jain., Financial Management, 5 edition Tata McGraw Hill Publication, New Delhi, 2008",
+          "Thuesen G.J., Engineering Economics Prentice Hall of India, New Delhi, 2005",
+          "Blank Leland T. Tarquin Anthony J. Engineering Economy, McGraw Hill, Delhi, 2002",
+          "Chan S. Park, Fundamentals of Engineering Economics, 3rd edition, Pearson Publication, 2013"
+        ],
+        "flags": [
+          "department_mismatch",
+          "sem_inferred_from_code"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 3132",
+        "title": "Artificial Intelligence",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Artificial Intelligence: Brief history of AI. Agents and rationality, task environments, agent architecture types",
+          "Search and Knowledge representation. Search spaces Uninformed and informed search",
+          "Learning \u2013 knowledge in learning, logical formulation; statistical learning, complete data, hidden variables; reinforcement learning, passive and active",
+          "Unsupervised Learning: Clustering, Dimension reduction, Expectation Maximization, Mixture of Gaussians, Hidden Markov Models, Anomaly detection",
+          "Techniques of Artificial Intelligence: Hill climbing, simulated annealing, genetic algorithms",
+          "Logic based representations (PL,FoL) and inference, Prolog",
+          "Rule based representations, forward and backward chaining, matching algorithms",
+          "Probabilistic reasoning and uncertainty. Bayes nets and reasoning with them",
+          "Learning of Artificial Intelligence: Uncertainty and methods to handle it. Forms of learning. Statistical methods: Naive-Bayes, nearest neighbour, kernel, neural network models, noise and over fitting",
+          "Decision trees, inductive learning",
+          "Clustering - basic agglomerative, divisive algorithms based on similarity/dissimilarity measures",
+          "Applications to Natural Language Processing, vision, robotics, etc."
+        ],
+        "references": [
+          "Tom Mitchell. Machine Learning. McGraw Hill, 1997.",
+          "Machine Learning: A Probabilistic Perspective, Kevin P Murphy, MIT Press, 2012.",
+          "Christopher M. Bishop. Pattern Recognition and Machine Learning. Springer 2006.",
+          "Richard O. Duda, Peter E. Hart, David G. Stork. Pattern Classification. John Wiley & Sons, 2006.",
+          "Trevor Hastie, Robert Tibshirani, Jerome Friedman. The Elements of Statistical Learning: Data Mining, Inference, and Prediction. Springer 2009.",
+          "MacKay, David. Information Theory, Inference, and Learning Algorithms. Cambridge, UK: Cambridge University Press, 2003.",
+          "Russel, S., and Norvig, P., (2015), Artificial Intelligence: A Modern Approach, 3rd Edition, Prentice Hall",
+          "Lang, Q. (1997), Intelligent Planning: A decomposition and abstraction-based approach, Springer Verlag, Berlin Heidelberg."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 3124",
+        "title": "PRINCIPLES OF SOFTWARE ENGINEERING",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Evolution of engineering discipline",
+          "Software development Projects",
+          "Exploratory style of software development",
+          "Waterfall model and its extensions",
+          "Rapid Application Development",
+          "Agile development models",
+          "Spiral Model",
+          "Requirement Analysis and Specification",
+          "Software Design",
+          "Overview of the design Process",
+          "Cohesion and coupling",
+          "Layered arrangement of modules",
+          "Approaches to software design",
+          "Function-Oriented Software Design",
+          "Structured analysis",
+          "Developing the DFD Model of a system",
+          "Structured design",
+          "Detailed design",
+          "Design review",
+          "Object Modelling Using UML: UML, UML diagrams, Use case model, Class diagrams, Interaction diagrams, Activity Diagram, State chart diagram, Postscript",
+          "Design Patterns",
+          "An Object-Oriented Analysis and Design (OOAD) Methodology",
+          "Code review"
+        ],
+        "references": [
+          "Rajib Mall, Fundamentals of Software Engineering, (4e), PHI Learning, 2014",
+          "Hans Van Vliet, Software Engineering: Principles and Practice, (3e), Wiley India, 2012",
+          "Roger S. Pressman, Software Engineering - A Practitioner's Approach, (7e), McGraw-Hill International Edition, 2010",
+          "Bernd Bruegge, Allen H. Dutoit, Object-Oriented Software Engineering using UML Patterns and Java, (2e), Pearson Publication, 2011",
+          "Ian Sommerville, Software Engineering, (9e), Addison-Wesley, 2011",
+          "Nooper Davis, Secure Software Development Life Cycle Processes, Software Engineering Institute, Carnegie Mellon University, 2013",
+          "Julie Cohen, Dan Plakosh, Kristi Keeler, Robustness Testing of Software-Intensive Systems: Explanation and Guide, Carnegie Mellon University, 2005"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": 6,
+        "code": "DSE 3143",
+        "title": "PRINCIPLES OF SOFTWARE ENGINEERING LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Identifying the Requirements from Problem Statements",
+          "Estimation of Project Metrics",
+          "Modeling UML Use Case Diagrams and Capturing Use Case Scenarios",
+          "E-R Modeling from the Problem Statements",
+          "Identifying Domain Classes from the Problem Statements",
+          "Statechart and Activity Modeling",
+          "Modeling UML Class Diagrams and Sequence diagrams",
+          "Modeling Data Flow Diagrams",
+          "Estimation of Test Coverage Metrics and Structural Complexity",
+          "Designing Test Suites"
+        ],
+        "references": [
+          "Software Engineering, A practitioner's Approach- Roger S. Pressman, 6th edition, Mc Graw Hill International Edition, 2004.",
+          "Software Engineering- Sommerville, 7th edition, Pearson Education, 2004.",
+          "The unified modeling language user guide Grady Booch, James Rambaugh, Ivar Jacobson, Pearson Education, 1999."
+        ],
+        "flags": [
+          "department_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 3232",
+        "title": "TIME SERIES ANALYSIS",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Time series - Trend, Seasonality, Cyclic and Irregular variations, Time series plots, Method of semi averages, Method of Curve fitting by the principles of least squares, Conversion of Trend equation, Ratio to trend method, Ratio to moving average method, Method of link relatives.",
+          "Measurement of cyclical variations, Measurement of irregular variation.",
+          "Introduction to Univariate time series modelling and forecasting: Time series as a discrete parameter stochastic process (A strictly stationary process, A weakly stationary process, A white noise process), Moving average processes, Autoregressive processes, the partial autocorrelation function, ARMA & ARIMA processes, Box\u2013Jenkins approach, Exponential smoothing, in-sample and out-of-sample forecasts, Forecasting with time series versus structural models, Determining whether a forecast is accurate or not.",
+          "Introduction to Multivariate time series modelling and forecasting: Vector autoregressive models - VAR with contemporaneous terms- Block significance and causality tests - VARs with exogenous variables - Impulse responses and variance decompositions - Forecasting with VARs.",
+          "Modelling long-run relationships: Stationarity and unit root testing \u2013 Cointegration - Equilibrium correction or error correction models (Engle and Granger, 1987) - Testing for and estimating cointegrating systems using the Johansen technique based on VARs.",
+          "Introduction to Financial Time Series: Basic concepts of financial markets and financial systems, Financial time series and their characteristics: Assets and Markets, Asset Returns, Distribution of returns, Basic difference between Time Series and Financial Time Series, Modelling with Financial Time Series Data (stationarity checking, cointegration, error correction model, causality etc.).",
+          "Modelling volatility and correlation: Volatility modelling, Introduction to Conditional Heteroscedastic models: ARCH and GARCH Models, Properties of ARCH and GARCH models, Limitations, Order determination and model building."
+        ],
+        "references": [
+          "Spyros Makridakis, Steven C Wheelwright, Rob J Hyndman, Forecasting Methods and Applications, 3rd Edition, John Wiley & Sons Publication, 2005, ISBN: 978-81-265-1852-",
+          "Walter Enders, Applied Econometric Time Series, 3rd Edition, John Wiley & Sons Publication, 2015 ISBN: 978-81-265-4391-5.",
+          "Gujarati, N.D., Basic Econometrics, Fifth Edition, McGraw Hill, 2012 ISBN: 978-0-07-133345-0",
+          "G.S. Maddala, Introduction to Econometrics, Third Edition, John Wiley & Sons Publication, 2005, ISBN: 978-81-265-1095-5",
+          "Montgomery D C, Jennings C L, Kulahci M. Introduction to time series analysis and forecasting. John Wiley & Sons; 2015.",
+          "Brockwell P J, Davis R A. Introduction to time series and forecasting. Springer; 2016.",
+          "Box G E, Jenkins G M, Reinsel G C, Ljung G M. Time series analysis: forecasting and control. John Wiley & Sons; 2015."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 3022",
+        "title": "ESSENTIALS OF MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Definition of management and systems approach, Nature & scope",
+          "The functions of managers",
+          "Corporate social responsibility",
+          "Planning: Types of plans, Steps in planning, Process of MBO, How to set objectives, Strategies, policies & planning premises",
+          "Strategic planning process and tools",
+          "Nature & purpose of organising, Span of management, Factors determining the span, Basic departmentation, Line & Staff concepts, Functional authority, Art of delegation, Decentralisation of authority",
+          "HR planning, Recruitment, Development and training",
+          "Theories of motivation, Special motivational techniques",
+          "Leadership- leadership behaviour & styles, Managerial grid",
+          "Basic control process, Critical control points & standards, Budgets, Non-budgetary control devices",
+          "Profit & loss control, Control through ROI, Direct, Preventive control",
+          "Managerial practices in Japan & USA, Application of Theory Z, The nature & purpose of international business & multinational corporations, Unified global theory of management",
+          "Entrepreneurial traits, Creativity, Innovation management, Market analysis, Business plan concepts, Development of financial projections"
+        ],
+        "references": [
+          "Harold Koontz & Heinz Weihrich, Essentials of Management, McGraw Hill, New Delhi, 2012",
+          "Peter Drucker, Management: Tasks, Responsibilities and Practices, Harper and Row, New York, 1993",
+          "Peter Drucker, The Practice of Management, Harper and Row, New York 2004"
+        ],
+        "flags": [
+          "department_mismatch"
+        ]
+      },
+      {
+        "code": "MAT 3231",
+        "title": "ADVANCED NUMERICAL METHODS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Partial differential equations",
+          "First order equations: classification, construction and geometrical interpretation, Lagrange's and Charpit's method for solving PDE",
+          "Method of characteristics for obtaining general solution of quasi linear equations",
+          "Canonical forms of first-order linear equations",
+          "Introduction to calculus of variations",
+          "Approximate methods",
+          "Finite elements",
+          "Nodes classifications",
+          "Approximate functions",
+          "Solution of boundary value problems of second order differential equation",
+          "Finite element equations for the heat conduction equation",
+          "Vibration equation",
+          "Elliptic problems using Galerkine and Ritz methods"
+        ],
+        "references": [
+          "M. K. Jain, Numerical Solution of Differential Equations, PHI Ltd., 1984.",
+          "R. Mitchell and R. Wait, Finite element methods in partial differential equations., 1977, John Wiley.",
+          "T. Amarnath, Partial Differential Equations, 2(e), 2003, Narosa Publ.",
+          "S.L. Ross, Differential equations, 3rd Ed., John Wiley and Sons, India, 2004.",
+          "Martha L Abell, James P Braselton, Differential equations with MATHEMATICA, 3rd Ed., Elsevier Academic Press, 2004."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 7,
+        "code": "MAT 3241",
+        "title": "SCIENTIFIC COMPUTING LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 6,
+          "c": 2
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Basic of the MATLAB/Simulink programming, Live script, array, loop, function, plotting",
+          "Approximations and Error",
+          "Linear Algebraic Systems",
+          "Solution of linear systems \u2013 built-in methods; implementation of Gaussian elimination",
+          "Bases of column space and null space using RREF",
+          "Eigenvalues and Eigenvectors-Matrices",
+          "Curve fitting and Optimization and transportation planning",
+          "Linear and Nonlinear Equation",
+          "Regression and Interpolation",
+          "Multistep, Boundary Value Problems- of PDE",
+          "Finite Element Method",
+          "Introduction to SageMath using Jupyter Notebook",
+          "Linear algebra in SageMath. Matrix operations, eigenvalues, eigenspaces, characteristic and minimal polynomials, diagonalization. Matrices over different fields and rings; precision. Vector spaces, subspaces, bases. Matrix factorisations.",
+          "Statistical computing (R software), data accessing, and indexing, packages, Graphics in R, built in functions, saving, storing and retrieving work",
+          "Multivariate normal distributions, Principal component analysis, Factor analysis - 2 sessions, Multivariate regression, Discriminant analysis & Cluster analysis"
+        ],
+        "references": [
+          "Robert J. Schilling and Sandra L. Harries, Applied Numerical Methods for Engineers using MATLAB and C, Thomson Learning Inc., 2000.",
+          "Brian R Hunt, et al, Guide To Matlab: For Beginners and Experienced Users, (2e), Cambridge University Press, 2011.",
+          "Fausett L.V., Applied Numerical Analysis Using MATLAB, (2e)., Pearson Education, 2007.",
+          "MATLAB Programming Fundamentals. The MathWorks Inc. 2019.",
+          "B.R. Hunt, R.L. Lipsman, J.M. Rosenburg. A Guide to MATLAB. Cambridge University Press. 2001.",
+          "Sage Reference Manual (Release 8.9). SageMath. 2019."
+        ],
+        "flags": [
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4291",
+        "title": "INDUSTRIAL TRAINING",
+        "credits": {
+          "l": null,
+          "t": null,
+          "p": null,
+          "c": null
+        },
+        "tags": [
+          "core"
+        ],
+        "syllabus": [
+          "Undergo industrial training for a minimum period of 4 weeks",
+          "Training may be taken in a phased manner during the vacation starting from the end of third semester to the end of seventh semester",
+          "Submit a training report in the prescribed format to the department",
+          "Make a presentation of the training report",
+          "Include certificates issued by the industry in the report"
+        ],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_credits",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4292",
+        "title": "PROJECT WORK",
+        "credits": null,
+        "tags": [
+          "elective"
+        ],
+        "syllabus": [
+          "Project work may be carried out in the institution/industry/research laboratory or any other competent institutions",
+          "Duration of the project work shall be a minimum of 16 weeks which may be extended up to 24 weeks",
+          "Mid-semester evaluation of the project work shall be done after about 8 weeks",
+          "Interim project report on the progress of the work shall be submitted to the department during the mid-semester evaluation",
+          "Final evaluation and viva-voice will be conducted after submission of the final project report in the prescribed form",
+          "Student has to make a presentation on the work carried out before the department committee as part of project evaluation"
+        ],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_credits",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4405",
+        "title": "LINEAR OPTIMIZATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Linear Programming: Basic Solution, Hyperplane, Convex Polyhedron",
+          "Simplex Method: Duality Theorem, Complementary Slackness, Farkes' Lemma, Revised Simplex Method",
+          "General LP Problems: Infeasibility, Sensitivity Analysis",
+          "Primal-Dual Algorithm: Applications to Network Flow and Matching",
+          "Efficient Algorithm: Linear Programming in fixed dimensions, Randomized Linear Programming",
+          "Integer Linear Programming: Total Unimodularity",
+          "Semidefinite Programming: Application to MAXSAT problems",
+          "Dynamic programming - Deterministic Dynamic programming, and probabilistic Dynamic programming",
+          "Queuing systems, different types of queuing models, simulation models",
+          "Finite Markov process and Markovian birth \u2013 death processes"
+        ],
+        "references": [
+          "Bronson Richard - theory and Problems of Operations Research - Schaum series- MGH, 1983",
+          "Hamdy A. Taha - operations Research (Ed.5) PHI, 1995",
+          "Hiller and Liberman, Introduction to Operation Research, PHI, 1995",
+          "V. Chavtal, Linear Programming, W. H. Freeman and Company, New York, 1983",
+          "C. H. Papadimitriou and K. steiglitz, Combinatorial optimization: Algorithms and Complexity, Dover Publications, Inc., New York, 1998",
+          "M. Grotschel, L. Lovasz and A. Schrijver, Geometric Algorithms and Combinatorial Optimization, John Wiley & Sons, Inc., New York, 1998",
+          "W. Cook, W. H. Cunningham, W. R. Pulleyblank and A. Schrijver, Combinatorial Optimization, John Wiley & Sons, Inc., New York, 1998",
+          "R. Motwani and P. Raghavan, Randomized Algorithms, Cambridge University Press, 1995",
+          "David G. Luenberger, and Yinyu Ye Linear and Nonlinear Programming, Springer 2016"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4406",
+        "title": "NON- LINEAR OPTIMIZATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Non-Linear Optimization - Connections with Geometry",
+          "Local vs. Global optimum",
+          "Problem Classification, Convex and Concave Functions, Properties of Convex Functions, Convex Hulls, Convex Programming, Optimality conditions",
+          "Optimality conditions for unconstrained problems",
+          "Optimality conditions for constrained problems with equality and Quadratic Programming Problems",
+          "Frank\u2013Wolfe Algorithm, Separable Programming, Geometric Programming, Dynamic programming approach to find shortest path in any network",
+          "Search Techniques Basic optimization methods and their convergence analysis",
+          "Unconstrained problems: Basic descent methods, conjugate direction and Quasi Newton methods",
+          "Constrained problems: Reduced gradient and Gradient projection methods, penalty and barrier methods, cutting plane methods, and Lagrange methods",
+          "Method of Approximation Programming"
+        ],
+        "references": [
+          "Nonlinear Programming: Theory and Algorithms, Hanif D. Sherali & C. M. Shetty Mokhtar S. Bazaraa Wiley Publications",
+          "Mokhtar S. Bazaraa, Hanif D. Sherali, and C. M. Shetty, Nonlinear Programming: Theory and Algorithms, Second Edition, John Wiley & Sons, New York 1993",
+          "Solutions Manual to Accompany Nonlinear Programming: Theory and Algorithms C. M. Shetty, Hanif D. Sherali, and M. S. Bazaraa Wiley publications",
+          "David G. Luenberger, and Yinyu Ye Linear and Nonlinear Programming, Springer 2016"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4407",
+        "title": "COMBINATORICS AND DESIGN OF EXPERIMENTS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Design of Experiments: Meaning and terminology - experiment, 'treatment, experimental unit, experimental error and precision",
+          "Basic Principles of experimental design - Randomisation, Replication, Local Control",
+          "Incomplete and complete block designs, BIBD, PBIBD - concepts & analysis",
+          "CRD, RBD and LSD: Layout, model, splitting of Total variation into different components, least square estimates of effects, ANOVA tables",
+          "Multiple comparisons: Tuckey's method, critical difference, advantages and limitations of each design",
+          "Missing plot technique: Estimation of one or two missing observations in RBD and LSD (least square estimates)",
+          "ANOVA in case of missing observations",
+          "Factorial experiments: Meaning and advantages, factorial experiments in RBD and LSD, main and interaction effects",
+          "Yates' method of computing factorial effect totals, ANOVA table and inferences",
+          "Contrasts and orthogonal contrasts"
+        ],
+        "references": [
+          "Cochran, W. G., & Cox, G. M. (1959). Experimental Designs. Wiley Eastern.",
+          "Federer, W. T. (1963). Experimental Designs. Oxford & IBH Publishing Co.",
+          "Gupta, S. C., & Kapoor, V. K. (2001). Fundamentals of Applied Statistics. Sulthan Chand & Co.",
+          "Robert Kabacoff, I. (2015). R in Action - Data Analysis and Graphics with R, second edition. Dreamtech Press",
+          "Sudha Purohit, G., Sharad Gore, D., & Shailaja Deshmukh, R. (2008). Statistics Using R. Narosa Publishing House."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "MAT 4408",
+        "title": "GAME THEORY AND STATISTICAL DECISIONS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Games and statistical games",
+          "statistical decision problem",
+          "decision function",
+          "risk function",
+          "prior and posterior distribution",
+          "Bayes risk and Bayes rules",
+          "least favourable prior",
+          "minimaxity",
+          "admissibility and complete classes",
+          "admissibility of Bayes rules",
+          "existence of minimal complete class and Bayes rules",
+          "the supporting and separating hyperplane theorems",
+          "essential completeness of the class of nonrandomized rules",
+          "Two-person zero-sum games and non-zero-sum games",
+          "N-person games",
+          "strategies",
+          "mixed strategies",
+          "fair game",
+          "Two-person zero-sum games",
+          "N-person games",
+          "minimax and complete class theorems",
+          "solving for minimax rules",
+          "essential completeness of class of rules based on sufficient statistics",
+          "continuity of risk functions",
+          "invariant decision problems",
+          "admissible and minimax invariant decision rules",
+          "Applications"
+        ],
+        "references": [
+          "Ferguson, T.S. Mathematical Statistics: A Decision Theoretic Approach. Academic Press (10 July 2014)",
+          "David A. Blackwell and M. A. Girshick. (1979). Theory of Games and Statistical Decisions. Dover Publications",
+          "Thomas, L.C. (1993). Games, Theory and Applications. Dover Publications",
+          "Straffin, P.D. (2017). Game Theory and Strategy. MAA Press"
+        ],
+        "flags": [
+          "semester_inferred_from_course_code"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4409",
+        "title": "APPLIED GRAPH THEORY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Graphs and simple graphs",
+          "Graph isomorphism",
+          "Incidence and adjacency matrices",
+          "Subgraphs, vertex degrees, walks, paths, cycles",
+          "Connectedness",
+          "Shortest path problem",
+          "Sperner's Lemma",
+          "Trees",
+          "Cut edges and cut vertices",
+          "Cayley's formula",
+          "Connector problem, minimum spanning tree, Kruskal's algorithm",
+          "Edge colourings",
+          "Edge chromatic number",
+          "Vizing's theorem",
+          "The timetabling problem",
+          "Directed graphs, directed paths, directed cycles",
+          "Job sequencing problem",
+          "Ranking participants in a tournament",
+          "Networks and flows",
+          "Max-Flow Min-Cut Theorem",
+          "Menger's theorems",
+          "Feasible flows"
+        ],
+        "references": [
+          "J. A. Bondy and U. S. R. Murty. Graph Theory With Applications, 5th printing. Elsevier Science Publishing Co., Inc., New York. 1982.",
+          "D. B. West. Introduction to Graph Theory, 2nd edition. Prentice Hall, New Delhi. 2001"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4410",
+        "title": "MATRIX THEORY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Basics of Linear Algebra: Matrix in the row reduced Echelon Form, solving Linear System, finding Null Space of a Matrix, finding Rank of Matrix, finding Inverse of Matrix, in finding Rank Factorization and LU decomposition of a Matrix Vector Space over an Arbitrary Field, Subspaces, Dimension",
+          "Linear Transformation and its Matrix Representation, Rank-Nullity Theorem",
+          "Linear Functionals, Dual Space, Transpose of a linear transformation",
+          "Inner Product Space and Linear Operators: Real or Complex Inner Product, Norm, and basic properties, Orthogonality, Gram-Schmidt's Orthogonalization Process",
+          "Determinant, Invariant Subspaces and Matrix Decompositions: Basics of Determinants: Determinant Function and its properties, Adjoint and Inverse, Eigenvalues, Eigen space, Caley-Hamilton Theorem, Diagonalization, Systems of Differential Equations, Matrix Exponential, Invariant Subspaces, Simultaneous Triangulation, Simultaneous Diagonalization, Direct Sum Decomposition, Invariant Direct Sums, The Primary Decomposition Theorem, Spectral Decomposition, Singular Value Decomposition, and Jordan Decomposition",
+          "Quadratic Forms: Introduction, classification of Quadratic Forms, Rank and Signature, Positive Definite and Nonnegative Definite Matrices, Extrema of Quadratic Form, Square root Method, Hermitian Form",
+          "Generalized Inverses: Definition and Characterizations of Generalized inverse, General Solution of System of Linear Equations, Minimum Norm Solutions and Least Square Solution, Penrose Conditions, Moore-Penrose Inverse, its Properties and Computation Generalized Inverses in the Linear Model, Miscellaneous Applications of Moore-Penrose Inverse"
+        ],
+        "references": [
+          "R. B. Bapat: Linear Algebra and Linear Models, Third Edition, Hindustan Book Agency, 2012",
+          "S. H. Friedberg, A. J. Insel and L. E. Spence: Linear algebra, Pearson, 2015",
+          "Kenneth Hoffman and Ray Kunze: Linear Algebra, Second Edition, Prentice-Hall, Inc, 1971",
+          "Leslie Hogben: Handbook of Linear Algebra, Second Edition, Chapman and Hall/CRC, 2007",
+          "S. Kumarasen, Linear Algebra, Geometric approach, PHI",
+          "D. C Lay: Linear algebra and its applications, Pearson, 2014",
+          "Carl D. Meyer: Matrix Analysis and Applied Linear Algebra, Siam, 2000",
+          "Gilbert Strang: Linear Algebra and its Applications, Fourth Edition, Academic Press, 1980",
+          "A. Ramachandra Rao and P. Bhimasankaram, Second Edition, Hindustan Book Agency, 2000"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4411",
+        "title": "ADVANCED ALGORITHMS AND DEEP LEARNING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction",
+          "Mathematical Preliminaries",
+          "Machine Learning Basics",
+          "Advanced Algorithms",
+          "Deep Feedforward Networks",
+          "Regularization for Deep Learning",
+          "Optimization for Training Deep Models",
+          "Convolutional Networks",
+          "Recurrent and Recursive Networks",
+          "Practical Methodology"
+        ],
+        "references": [
+          "Goodfellow I., Bengio Y., and Courville A., Deep Learning, MIT Press 2017.",
+          "Haykin S., Neural Networks and Learning Machines, PHI, 2016.",
+          "Patterson J., and Gibson A., Deep Learning: A Practitioner's Approach, O 'Reilly, 2017.",
+          "Thomas H. Cormen, Charles E. Leiserson, Ronal L, Rivest, Clifford Stein, Introduction to Algorithms, (2e), PHI, 2006"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4412",
+        "title": "ALGEBRAIC CODING THEORY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Basic notions: Noisy channels, binary symmetric channel, error detection and error correction",
+          "Block codes",
+          "Hamming distance, minimal distance",
+          "Algebraic tools: finite fields (basic properties, existence and uniqueness, constructions, polynomials over finite fields)",
+          "Linear codes, generator and parity check matrices, Hamming codes",
+          "Cyclic codes, described by means of ideals",
+          "Codes and polynomials: generating and parity check polynomials, BCH codes, Reed-Solomon codes, quadratic residue codes, Reed-Muller codes, Golay codes, perfect codes",
+          "Bounds on linear codes: Singleton, Hamming, Gilbert-Varshamov, Plotkin",
+          "Decoding methods: syndromes, decoding BCH codes",
+          "Error correction in digital media processing (compact disc)"
+        ],
+        "references": [
+          "E. R. Berlekamp: Algebraic Coding Theory. Aegean Park Pr; 1984."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 4401",
+        "title": "INFORMATION RETRIEVAL",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Information Retrieval: Mathematical Basics, Vector spaces and Similarity, Probabilities and Statistics, Text Analysis",
+          "Pre-processing: Document processing, Stemming, String Matching, Basic NLP tasks\u2013POS Tagging Shallow Parsing",
+          "Overview of Text Retrieval Systems: System Architecture, Boolean Models, Inverted Indexes, Document Ranking, IR Evaluation",
+          "Retrieval Models and Implementation: Vector Space Models, TF-IDF Weighting, Retrieval Axioms, Implementation Issues, Probabilistic Models",
+          "Statistical Language Models: Okapi/BM25, Language Models, KL-divergence, Smoothing",
+          "Query Expansion and Feedback: Query Reformulation, Relevance feedback, Pseudo-Relevance Feedback, Language Model Based, Feedback",
+          "Web Search Engines: Models of the Web, Web Crawling",
+          "Static Ranking: Page Rank HITS, Query Log Analysis, Adversarial IR, Information Filtering: Adaptive Filtering, Collaborative Filtering, User Interfaces, Text Classification, Na\u00efveBayes, K-nearestneighbors, Feature selection, Semi-supervised Learning",
+          "Text Clustering: Vector-space Clustering; K-means, EM algorithm, Text shingling",
+          "Graph-Based Methods: WordNet, Document and Word Graphs, Network Analysis, Random Walks, Harmonic Functions"
+        ],
+        "references": [
+          "Christopher D. Manning, Prabhakar Raghavan and Hinrich Sch\u00fctze, \u201cIntroduction to Information Retrieval\u201d, (2e), Cambridge University Press, 2015.",
+          "B.Croft, D.Metzler, T.Strohman, Search Engines: Information Retrieval in Practice, (3e), MIT Press, 2016.",
+          "Chengxiang Zhai, Statistical Language Models for Information Retrieval (Synthesis Lecture Series on Human Language Technologies), (2e), Morgan & Claypool Publishers, 2017."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 4402",
+        "title": "NATURAL LANGUAGE PROCESSING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Knowledge in Speech and Language Processing",
+          "Ambiguity",
+          "Models and Algorithm",
+          "Regular Expressions",
+          "Finite State Automata",
+          "Words And Transducers: Survey of English Morphology",
+          "Finite-State Morphological Parsing",
+          "Building a Finite-State Lexicon",
+          "FSTs for Morphological Parsing",
+          "Lexicon-Free FSTs",
+          "Words and Sentence tokenization: Normalizing Text",
+          "Segmentation",
+          "Probabilistic Models of Pronunciation and Spelling",
+          "Detecting and Correcting Spelling Errors",
+          "Noisy Channel Model",
+          "Minimum Edit Distance",
+          "N-Grams: Unsmoothed N-Grams",
+          "Smoothing",
+          "Interpolation and Backoff",
+          "English Word Classes: Tag-sets for English",
+          "Part-of-Speech Tagging",
+          "Formal Grammars of English: Context Free Grammars",
+          "Grammar Rules",
+          "TreeBank",
+          "Dependency Grammar",
+          "Parsing with Context Free Grammars",
+          "Dynamic Programming Parsing",
+          "CKY algorithm",
+          "Statistical Parsing",
+          "NLP using NLTK SDL"
+        ],
+        "references": [
+          "Daniel Jurafsky & James H. Martin, Speech and Language Processing, (2e), Pearson, 2009.",
+          "Steven Bird, Ewan Klein and Edward Loper, Natural Language Processing with Python, First Edition, O'Reilly Media, 2009.",
+          "J.E.Hopcroft, R.Motwani & J.D.Ullman, Introduction to Automata Theory Languages, and Computation, (3rd Edition), 2006, Pearson Education."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 4403",
+        "title": "SOCIAL NETWORK ANALYSIS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Social Web",
+          "Nodes",
+          "Edges and Network Measures",
+          "Describing Nodes and Edges",
+          "Describing Networks",
+          "Layouts",
+          "Visualizing network features",
+          "The role of Tie strength",
+          "Measuring Tie strength and its network structures",
+          "network propagation",
+          "Link prediction",
+          "entity resolution",
+          "Case study",
+          "Introduction to community discovery",
+          "communities in context",
+          "quality functions",
+          "The Kernighan-Linalgorithm",
+          "Agglomerative algorithms",
+          "spectral algorithms",
+          "multi-level graph partitioning",
+          "Markov clustering",
+          "Other approaches",
+          "Introduction to social influence",
+          "Influence related statistics",
+          "social similarity and influence",
+          "Homophily",
+          "Existential Test for social influence",
+          "Influence and actions",
+          "Influence and interactions",
+          "influence maximization in viral marketing"
+        ],
+        "references": [
+          "Jennifer Golbeck., Analysing the Social Web, Morgan Kaufmann publications,2013",
+          "Charu C. Aggarwal, Social Network Data Analytics, Springer publications,2011",
+          "John Scott, Social Network Analysis,( 3e), Sagep ublications limited,2013",
+          "Jay Goldman, Facebook Cookbook,O'Reilly,2009",
+          "Shamanth Kumar,Fred Morstatter, HuanLiu, Twitter Data Analytics"
+        ],
+        "flags": [
+          "missing_semester",
+          "uncertain_tags"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 4404",
+        "title": "COMPUTER VISION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction: Image Processing, Components of Image processing system, Image formation and digitization concepts, Neighbours of pixel adjacency connectivity, regions and boundaries, Distance measures",
+          "Image processing operations: Arithmetic, Logical, Geometrical, Convolution and Correlation Operations",
+          "Applications: Document Image Analysis, Biometrics, Object Recognition, Tracking, Medical Image Analysis, Content-Based Image Retrieval, Video Data Processing, Multimedia, Virtual Reality and Augmented Reality",
+          "Image Formation, Image representations (continuous and discrete), Image pre-processing Techniques",
+          "Feature Extraction: Point, Line and Edge Detection, Color, Texture, Shape and structure Features in spatial and frequency domains",
+          "Corner Detection, Hough Transform",
+          "Image Segmentation: Boundary detection based techniques, Point, line detection, Edge detection, Edge linking, local processing, regional processing, Hough transform, Thresholding, Iterative thresholding, Otsu's method, Moving averages, Multivariable thresholding, Region-based segmentation, Water shed algorithm, Use of motion in segmentation",
+          "Computer Vision: Fundamentals of object recognition, Low-level computer vision (Edges, contours, textures, shapes, colors), Motion, optical flow, and tracking, Local features, invariance, bag-of-words models, Fisher vector",
+          "Middle-level representations of objects: parts, attributes, embedding"
+        ],
+        "references": [
+          "David Aforsyth & Jeanponce Computervision\u2013Amodern Approach, Prentice Hall, Pearson Education India; Edition: Second",
+          "R.C.Gonzalez, R.E.Woods. Digital Image Processing. Pearson, Inc., Edition: Fourth",
+          "A.K.Jain, Fundamentals of Digital Image Processing. Prentice-Hall, Pearson; Edition: First",
+          "Bernd Jahne and Horst Hau Becker, Computer vision and Applications, Academicpress, 2000"
+        ],
+        "flags": [
+          "missing_sem",
+          "unclear_tags"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 4405",
+        "title": "CLOUD COMPUTING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Definition and evolution of Cloud Computing",
+          "Enabling Technologies, Service and Deployment Models",
+          "Popular Cloud Stacks and Use Cases Benefits, Risks, and Challenges of Cloud Computing",
+          "Virtualization: Introduction, Characteristics of Virtualized Environment, Types of Virtualization, Implementation Levels of Virtualization, Taxonomy of Virtualization Techniques, Tools and Mechanisms, Pros and Cons of Virtualization",
+          "Programming Model: Parallel and Distributed Programming Paradigms",
+          "Cloud Platforms in Industry: Amazon Web Services, Google App Engine, Microsoft Azure",
+          "Service level agreements; Data in the cloud",
+          "MapReduce and extensions",
+          "Security In The Cloud: Security Overview, Cloud Security Challenges and Risks",
+          "Software-as-a-Service Security, Security Governance, Risk Management, Security Monitoring",
+          "Security Architecture Design, Data Security, Application Security",
+          "Virtual Machine Security, Identity Management and Access Control",
+          "Autonomic Security",
+          "Cloud Platforms in Industry: Amazon Web Services, Google App Engine, Microsoft Azure",
+          "Virtualization Tools and Mechanisms"
+        ],
+        "references": [
+          "Rajkumar Buyya, Christian Vecchiola, S. Thamarai Selvi, Mastering cloud computing: foundations and applications programming, Elsevier Inc, 2013",
+          "Gautam Shroff, ENTERPRISE CLOUD COMPUTING: Technology, Architecture, Applications, Cambridge University Press, 2010",
+          "Barrie Sosinsky, \u201cCloud Computing Bible\u201d, Wiley India Edition, 2013",
+          "Kailash Jayaswal, Jagannath Kallakurchi, Donald J. Houde, Dr.Deven Shah, \u201cCloud computing black Book\u201d, Dream Tech Press, 2014",
+          "Velte Anthony T, Toby J. Velte and Robert E., \u201cCloud Computing: A Practical Approach\u201d, Tata McGraw Hill, 2013"
+        ],
+        "flags": [
+          "missing_sem",
+          "department_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 4406",
+        "title": "INTERNET OF THINGS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Internet of Things",
+          "Physical Design",
+          "Logical Design",
+          "IoT Enabling Technologies",
+          "IoT Levels & Deployment Templates",
+          "Domain Specific IoT Applications",
+          "IoT Network Architecture and Design",
+          "Smart Objects",
+          "IoT Access Technologies",
+          "IP as the IoT Network Layer",
+          "Data and Analytics for IoT",
+          "Securing IoT",
+          "Prototyping Endpoints - Embedded Computing Basics",
+          "IoT Use Cases"
+        ],
+        "references": [
+          "David Hanes, Gonzalo Salgueiro, Patrick Grossetete, Robert Barton, Jerome Henry, IoT Fundamentals: Networking Technologies, Protocols, and Use Cases for the Internet Of Things, 1st Edition, Pearson Education (Cisco Press Indian Reprint)",
+          "Arshdeep Bahga, Vijay Madisetti, Internet of Things \u2013 A hands-on approach, Universities Press, 2015.",
+          "Adrian McEwen, Hakim Cassimally, Designing the Internet of Things, Wiley, 2014.",
+          "Holler J., From Machine-to-Machine to the Internet of Things: Introduction to a New Age of Intelligence, Academic Press, 2014.",
+          "Olivier Hersent, David Boswarthick, Omar Elloumi, The Internet of Things \u2013 Key applications and Protocols, Wiley, 2012."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 4407",
+        "title": "ENTERPRISE DATA ARCHITECTURE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Enterprise Architecture: Overview, core elements, Structure of enterprises, Introduction to Enterprise Data Architecture (EDA), Evolution of architecture, Monolithic systems \u2013 Mainframes",
+          "N-tier Architecture: Introduction to N-tier architecture, Application Layer, Data Layer \u2013 Structured and Unstructured Data, Communication Layer",
+          "Service oriented architecture and Micro services: Service oriented architecture, Web Services, Introduction to Microservices, Components of Microservices, Containers, Orchestration, Mesh, API Design, Data Handling, Architectural principles, Effectiveness of SoA",
+          "Data Models and Data governance: Introduction to Data Models, Performance considerations, rendering, performance testing and monitoring, Disaster Recovery strategies, Fault Tolerance and Recovery, data-sharding, de-duplication in-memory computing, Scaling, Data governance, Security, privacy, value and risk, Repository and Support Tool",
+          "Architecture for Modern Technologies: Hardware, Polycloud, Modern communication, Architecture for AI systems, Architecture for Distributed Financial systems and Architecture for Web 3.0",
+          "Enterprise Architectural frameworks: Open-Source Frameworks, MEGAF, India Enterprise Architecture (IndEA), National Institute of Standards and Technology (NIST), Zachman Framework, Introduction to Enterprise Architectural frameworks- TOGAF, Enterprise Architectural frameworks- TOGAF framework modular structure, TOGAF content framework, architecture styles"
+        ],
+        "references": [
+          "Andy Graham, The Enterprise Data Model: A framework for enterprise data architecture, Koios Associates Ltd, 2nd edition, 2012",
+          "Charles D. Tupper, Data Architecture: From Zen to Reality, Morgan Kaufmann, 1 edition, 2011",
+          "Scott A. Bernard, An Introduction to Enterprise Architecture, AuthorHouse, 3rd edition"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "DSE 4408",
+        "title": "BLOCK CHAIN TECHNOLOGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction",
+          "Structure of a Block",
+          "The Genesis Block",
+          "Linking Blocks in the Blockchain",
+          "Merkle Trees",
+          "Simplified Payment Verification",
+          "Using hash functions to chain blocks, for Proof-of-Work",
+          "Digital Signatures to sign transactions",
+          "Distributed Ledger",
+          "Byzantine Agreement",
+          "Eventual Consistency & Bitcoin Consistency-Availability and Partitions",
+          "Bitcoin",
+          "Smart Contracts",
+          "Weak Consistency",
+          "Distributed Storage",
+          "Consistent Hashing",
+          "Hyper cubic Networks",
+          "Mining and Consensus: Decentralized Consensus",
+          "Independent Verification of Transactions Mining Nodes",
+          "Aggregating Transactions into Blocks",
+          "Constructing the Block Header",
+          "Successfully Mining the Block",
+          "Validating a New Block",
+          "Assembling and Selecting Chains of Blocks",
+          "Consensus Attacks",
+          "Changing the Consensus Rules",
+          "Soft Fork Signaling with Block Version",
+          "Consensus Software Development",
+          "Ethereum and Bitcoin, block format, mining algorithm, proof-of-stake (PoS) algorithm, account management, contracts and transactions, Solidity language, account management, contracts and transactions",
+          "Applications of Blockchain : Case studies"
+        ],
+        "references": [
+          "Andreas M.Antonopoulos, Mastering Bitcoin: unlocking digital cryptocurrencies, O'Reilly Media, (1e) 2014",
+          "Roger Wattenhofer, Distributed Ledger Technology,The science of the Block chain,Inverted Forest Publishing, (2e), 2017.",
+          "Antonopoulos, Andreas M. and Wood, Gavin, Mastering Ethereum, O'ReillyMedia,2018.",
+          "GeorgeIcahn, Blockchain: the complete guide to understanding block chain technology, Amazon publishers, 2017."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4444",
+        "title": "BIG DATA ANALYTICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to NoSQL",
+          "Types and Advantages of NoSQL",
+          "Comparison of SQL, NoSQL and New SQL",
+          "MongoDB: Features, Data types, Query Language",
+          "Cassandra: Features, Data types, Query Language",
+          "Core Hadoop components",
+          "Hadoop Ecosystem",
+          "YARN and MapReduce",
+          "Understanding I/O in Map Reduce",
+          "Processing common serialization formats",
+          "Big data serialization formats",
+          "Organizing and optimizing data in HDFS",
+          "MapReduce with NOSQL as a data source",
+          "Applying MapReduce patterns to Big Data",
+          "Introduction to Data Analysis with Spark",
+          "Recommendation algorithm",
+          "predicting with Decision Trees",
+          "Anomaly Detection with K-means Clustering",
+          "Latent Semantic Analysis",
+          "Analyzing Co-occurrence Networks"
+        ],
+        "references": [
+          "Acharya S., Big Data and Analytics, Wiley India Pvt. Ltd., 2015",
+          "Holmes A., Hadoop in Practice, (2e), Manning Publications, 2015",
+          "Ryza S., Advanced Analytics with Spark: Patterns for Learning from Data at Scale, (2e), O'Reilly, 2017",
+          "White T., Hadoop: The definitve guide, (4e), O'Reilly, 2015",
+          "Sadalage P., NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence, (1e), Addison-Wesley, 2012"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4446",
+        "title": "COMPUTATIONAL FLUID DYNAMICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to CFD and Governing Equations: Need of CFD as tool, role in R&D, continuum, material or substantial derivative or total derivative, gradient, divergence and curl operators, Linearity, Principle of Superposition",
+          "Derivation of Navier-Stokes equations in control volume (integral form) and partial differential form, Euler equations (governing inviscid equations)",
+          "One-dimensional Euler's equation: Conservative, Non-conservative form and primitive variable forms of Governing equations",
+          "Flux Jacobian: Eigenvalues and Eigenvectors, Decoupling of Governing equations, introduction of characteristic variables",
+          "Relation between non-conservative forms, Conditions for genuinely nonlinear characteristics of the flux Jacobian",
+          "Introduction to Turbulence Modeling: Derivation of RANS equations and k-epsilon model",
+          "Mathematical classification of PDE (Hyperbolic, Parabolic, Elliptic)",
+          "Method of characteristics, Introduction to Riemann Problem and Solution Techniques",
+          "Representation of Functions on Computer: Box Function, Hat Function, Representation of sinx using hat functions, Aliasing, high frequency, low frequency",
+          "Representation error as a global error, Derivatives of hat functions, Haar functions, Machine Epsilon",
+          "Using Taylor series for representation of Derivatives",
+          "Finite difference method \u2013 Applied to Linear Convection equation, Laplace Equations, Convection Diffusion equations, Burgers equations, modified equations",
+          "Explicit methods and Implicit methods \u2013 FTCS, FTFS, FTBS, CTCS Jacobi Method, Gauss-Siedel, Successive Over Relaxation Method, TDMA",
+          "Von Naumann stability (linear stability) analysis, Upwind Method in Finite Difference method",
+          "Finite volume method: Finding the flux at interface",
+          "Central schemes - Lax-Friedrichs Method, Lax-Wendroff Method, Two-Step Lax-Wendroff Method and Mac Cormack Method",
+          "Upwind Method in Finite Volume methods - Flux Splitting Method Steger and Warming, vanLeer, Roe's Method and finding Roe's Averages"
+        ],
+        "references": [
+          "T. J. Chung, Computational Fluid Dynamics, Cambridge University Press, 2002",
+          "Ghoshdastidar, Computational fluid dynamics and heat transfer, Cengage learning, 2017"
+        ],
+        "flags": [
+          "missing_sem",
+          "reference_numbering_error"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4447",
+        "title": "FUNCTIONAL PROGRAMMING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Principles of functional programming: expressions, evaluations, functions, and types",
+          "Type definitions and built-in types: numbers, characters, strings and lists",
+          "Basic operations on lists, including map, fold and filter, together with their algebraic properties",
+          "Recursive definitions and structural induction",
+          "Simple program calculation",
+          "Infinite lists and their uses",
+          "Further data structures: binary trees, general trees",
+          "Use of trees for representing sets and symbolic data",
+          "Normal order reduction and lazy evaluation",
+          "Simple cost models for functional programs; time and space complexity"
+        ],
+        "references": [
+          "Richard Bird, Introduction to Functional Programming using Haskell, second edition, Prentice-Hall International, 1998",
+          "Graham Hutton, Programming in Haskell (2nd edition), Cambridge University Press, 2016"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4448",
+        "title": "FUZZY LOGIC AND NEURAL NETWORKS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Basic concepts: fuzzy set theory - basic concept of crisp sets and fuzzy sets- complements- union intersection- combination of operation- general aggregation operations- fuzzy relations- compatibility relations- orderings- morphisms- fuzzy relational equations- fuzzy set and systems",
+          "Architectures: motivation for the development of natural networks- artificial neural networks- biological neural networks- area of applications- typical Architecture- setting weights- common activations functions Basic learning rules- Mcculloch-Pitts neuron- Architecture, algorithm, applications- single layer net for pattern classification- Biases and thresholds, linear separability - Hebb's rule- algorithm - perceptron - Convergence theorem- Delta rule",
+          "Back propagation neural net: standard back propagation- architecture algorithm- derivation of learning rules number of hidden layers-- associative and other neural networks- hetro associative memory neural net, auto associative net- Bidirectional associative memory- applications- Hopfield nets- Boltzmann Neural network based on competition: fixed weight competitive nets- Kohonen self organizing maps and applications- learning vector quantization- counter propagation nets and applications",
+          "Adaptive resonance theory: basic architecture and operation- architecture, algorithm, application and analysis of ART1 & ART2",
+          "Cognitron and Neocognitron - Architecture, training algorithm and application",
+          "Fuzzy associate memories, fuzzy system architecture- comparison of fuzzy and neural systems"
+        ],
+        "references": [
+          "T Kliryvan- Fuzzy System & Fuzzy logic Prentice Hall of India, First Edition.",
+          "Lawrence Fussett- fundamental of Neural Network Prentice Hall, First Edition.",
+          "Bart Kosko, Neural network and Fuzzy System - Prentice Hall-1994.",
+          "J. Klin and T. A. Folger, Fuzzy sets University and information- Prentice Hall -1996.",
+          "J. M. Zurada, Introduction to artificial neural systems- Jaico Publication house, Delhi 1994."
+        ],
+        "flags": [
+          "missing_semester",
+          "unclear_course_type"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4450",
+        "title": "GEOMETRIC TOPOLOGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Metric spaces",
+          "topological spaces",
+          "open balls",
+          "open sets",
+          "closed sets",
+          "interior and boundary",
+          "sequences",
+          "functions",
+          "convergence and continuity in metric spaces",
+          "continuity in terms of preimages",
+          "pointwise convergence of sequences of functions",
+          "bounded sets",
+          "dense sets",
+          "basis",
+          "product topology and subbases",
+          "boundary of a set",
+          "connected spaces",
+          "path connected spaces",
+          "Hausdorff spaces",
+          "homeomorphisms",
+          "2-dimensional manifolds",
+          "classification of surfaces"
+        ],
+        "references": [
+          "W. S. Massey, A Basic Course in Algebraic Topology, Springer, 1991",
+          "Hatcher, Algebraic Topology, Cambridge, 2002",
+          "J. R. Munkres, Elements of Algebraic Topology, Perseus Publishing, 1984",
+          "J. M. Lee, Introduction to Smooth Manifolds, Springer, 2002",
+          "G.F. Simmons, Introduction to Topology and Modern Analysis, McGraw Hill, 1963"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4453",
+        "title": "MATHEMATICS FOR FINANCE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Stochastic Processes",
+          "Poisson Process",
+          "Brownian Motion",
+          "Martingales Present Value Analysis",
+          "Interest rate analysis",
+          "Market Model Specification problems",
+          "Arbitrage Theorem",
+          "Multi-period binomial Model",
+          "Block - Scholes formula",
+          "Valuing investments by expected utility",
+          "Portfolio selection problem",
+          "Capital Assets Pricing model",
+          "Rates of return",
+          "Single period and geometric Brownian motion",
+          "Mean-variance analysis of risk - neutra-lpriced call options",
+          "Autoregressive models and mean regression",
+          "Other pricing options and applications"
+        ],
+        "references": [
+          "S. M. Ross, \"An Introduction to Mathematiacl Finance\", Cambridge University Press, 1999",
+          "Prakash A J, R.M.Bear, K.Dandapani, G.L.G.T.E.Pactwa and A.M.Parchigari, \"The return Generating Models in Global Finance\", Pergamon Press, 1998",
+          "S. M. Ross, \"Applied Probability models with Optimization Applications\", Holdenday, 1980"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4455",
+        "title": "RELIABILITY THEORY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Static probabilities: review and prerequisites generating functions, difference equations",
+          "Dynamic probability: definition and description with examples. Markov chains, transition probabilities, Chapman Kolmogrov equations. Classification of states, chains of Markov process. Stability of Markov systems, limiting behaviour, random walk",
+          "Poisson Processes: assumptions and derivations, related distributions, birth and death processes. Queueing System, general concepts, Model M/M/1 and M/M/S, steady state behaviour, transient behaviour. Wiener processes and Gaussian processes. Differential equations of a wiener process, Kolmogrov equations, Ornstein \u2013 Unlenbick Process",
+          "Reliability Theory: Definition of Reliability, types of failure, Hazard rate, Laws of failure - normal, exponential & Weibull failure laws - System reliability - in series, in parallel series - parallel system, Paralled - series system & related problems"
+        ],
+        "references": [
+          "Medhi. J. Stochastic Processes, Wiley Eastern.",
+          "Bhat U R , Elements of Applied Stochastic Processes , John Wiley.",
+          "Srinivasan and Mehata, Stochastic Processes, Tata McGraw Hill.",
+          "A Papoulis, Probability, Random Variables and Stochastic Processes, McGraw Hill.",
+          "Shane and Hoel, \"Fundamentals of Systems Engineering\""
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4456",
+        "title": "THEORY OF COMPUTATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Finite automata",
+          "Moore and Melay machines",
+          "Regular Expressions",
+          "Pumping lemma",
+          "Minimizing the automata",
+          "Formal Languages",
+          "Regular languages",
+          "Context free languages (CFL)",
+          "Chomsky and Greibach Normal forms",
+          "Pushdown automata (PDA)",
+          "Equivalence of PDA and CFL",
+          "Turing machines",
+          "Theory of recursive functions",
+          "Complexity theory",
+          "NP \u2013 Completeness"
+        ],
+        "references": [
+          "Aho, Hopcraft & Ullman, Automata, Languages and Computation, Narosa, 1986.",
+          "Mishra and Chandrashekar, Theory of Computer Science, Prentice Hall of India, 1998.",
+          "Peter Linz, Introduction to Formal Languages and Automata Theory, Jones & Bartlett Learning, 1997."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "MAT 4457",
+        "title": "TOPOLOGY OF METRIC SPACES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Definition of Metric space and Examples",
+          "Open Balls and Open Sets",
+          "Convergence",
+          "Convergent Sequences",
+          "Limit and Cluster Points",
+          "Cauchy Sequences and Completeness",
+          "Bounded Sets",
+          "Dense Sets",
+          "Basis",
+          "Boundary of a Set",
+          "Continuity",
+          "Continuous Functions",
+          "Equivalent Definitions of Continuity",
+          "Topological Property",
+          "Uniform Continuity",
+          "Limit of a Function",
+          "Open and closed maps",
+          "Compactness",
+          "Compact Spaces and their Properties",
+          "Continuous Functions on Compact Spaces",
+          "Characterization of Compact Metric Spaces",
+          "Arzela-Ascoli Theorem",
+          "Connectedness",
+          "Connected Spaces",
+          "Path Connected spaces"
+        ],
+        "references": [
+          "S. Kumaresan, Topology and Metric Spaces, Narosa Publ. (2011)",
+          "J. Munkres Topology, Pearson Publ. (2014)"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      }
+    ]
+  }
+}

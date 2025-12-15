@@ -1,0 +1,2982 @@
+{
+  "department": {
+    "name": "Department of",
+    "courses": [
+      {
+        "sem": null,
+        "code": "MAT 2122",
+        "title": "ENGINEERING MATHEMATICS - III",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Linear Algebra: Systems of Linear Equations, Matrices, Solving Systems of Linear Equations, Vector Spaces, Linear Independence, Basis and Rank, Linear Mappings, Affine Spaces",
+          "Analytic Geometry: Norms, Inner Products, Lengths and Distances, Angles and Orthogonality, Orthonormal Basis, Orthogonal Complement, Inner Product of Functions, Orthogonal Projections, Rotations",
+          "Matrix Decompositions: Determinant and Trace, Eigenvalues and Eigenvectors, Cholesky Decomposition, Eigen decomposition and Diagonalization, Singular Value Decomposition, Matrix Approximation",
+          "Fourier Series and Transforms: Periodic function, Fourier Series expansion, even and odd functions, functions with arbitrary periods, Half range expansions, Fourier transform, basic properties, Parseval's identity and applications"
+        ],
+        "references": [
+          "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong, Mathematics for Machine Learning, Cambridge University Press, 2020",
+          "Grewal B.S. - Higher Engineering Mathematics, Khanna Publishers, 43rd edition, 2015",
+          "Stephen H. Friedberg Lawrence E Spence, Arnold J Insel, Elementary Linear Algebra: A Matrix Approach Introduction to Linear Algebra, Second Edition, 2019",
+          "David Lay, Steven Lay, Judi McDonald, Linear Algebra and Its Applications, Pearson, 2019",
+          "Gilbert Strang, Introduction to Linear Algebra, Fifth Edition (2016), Wellesley-Cambridge Press",
+          "Mordechai Ben-Ari, Mathematical Logic for Computer Science, Third Edition, Springer",
+          "Narayanan, Ramaniah and Manicavachagom Pillay, Advanced Engineering Mathematics, Vol 2 and 3, Vishwanthan Publishers Pvt Ltd. 1998",
+          "Erwin Kreyszig, Advanced Engineering Mathematics, 5th edn., Wiley Eastern, 1985"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 2121",
+        "title": "ELECTRICAL CIRCUIT ANALYSIS",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Controlled sources, Network Theorems",
+          "Signals: Continuous time signals, classification, Elementary CT signals, Operations on signals",
+          "Systems and properties, LTI systems, convolution integral, Characterisation",
+          "Time domain analysis: Initial and final conditions, Transients analysis of RL, RC and RLC circuits",
+          "Laplace domain analysis: Laplace transforms of signals, Transformed circuits, analysis",
+          "Frequency domain analysis: Continuous Time Fourier Series, representation, Continuous time Fourier transform, properties, transfer function, frequency response",
+          "Two port networks: Z, Y, T and h parameters, Series, parallel and cascade connections",
+          "Self-study: simulation-based studies of the selected topics"
+        ],
+        "references": [
+          "Hayt W. H., J. E. Kemmerly & S. M. Durbin, Engineering Circuit Analysis, 9e, TMH, 2020",
+          "Van Valkenberg, Network Analysis, 3e, PHI, 2009",
+          "Nilsson J. W. & S. A. Reidel, Electric Circuits, 11e, Pearson, 2019",
+          "Haykin S., Signals and Systems, 2e Wiley, 2007",
+          "NPTEL Course: https://nptel.ac.in/courses/117/101/117101055/"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 2122",
+        "title": "DIGITAL SYSTEM DESIGN",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Combinational logic circuits: Overview of Algebraic simplification of Boolean expressions and realization using logic gates",
+          "minimization using Karnaugh map",
+          "Combinational circuit design using MSI chips: Multiplexers; demultiplexers; encoders; decoders; parity generators; parity checkers",
+          "Arithmetic circuits",
+          "Sequential logic circuits: flipflops and ripple counter",
+          "Shift registers",
+          "Analysis and design of synchronous sequential finite state machines",
+          "Digital System Implementation Options: Introduction to ASIC",
+          "Introduction to HDL",
+          "Gate level modeling",
+          "Data flow modeling",
+          "Behavioral modeling of combinational and sequential circuits",
+          "Self- Study- Simulation of combinational and sequential digital circuits",
+          "Silicon Processing"
+        ],
+        "references": [
+          "Givone, Digital Principles & Design, TMH 2011",
+          "Charles H Roth, Lizy Kurian John, Byeong Kil Lee, Digital Systems Design using Verilog, First edition, Global Engineering Publishers, 2015",
+          "Ronald J. Tocci, Digital Systems - Principles & Applications, Pearson, 2005",
+          "Brown & Vranesic, Fundamentals of Digital Logic with Verilog HDL design, TMH,2012",
+          "NPTEL Courses: https://nptel.ac.in/courses/108/106/108106177/"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 2123",
+        "title": "ELECTRICAL MACHINERY-I",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Single-phase transformers: Construction, working principle, equivalent circuit, performance analysis, parallel operation. Auto transformers.",
+          "Three-phase transformers: Types, construction, connections, inrush current, and harmonics.",
+          "Three-phase induction motors: Types, construction, working principle, winding diagram, equivalent circuit, performance analysis, testing, starting, braking, speed control, induction generators.",
+          "Single-phase induction motors: Double field revolving theory, types, characteristics.",
+          "DC Generators: Construction, working principle, armature winding, armature reaction, commutation.",
+          "DC Motors: Types, characteristics, starting, braking, speed control, testing.",
+          "Self-study: Extended exercises on analyses of electrical machines covered."
+        ],
+        "references": [
+          "I. J. Nagrath, D. P. Kothari, Electric Machines (5e), TMH, 2017.",
+          "A. Langsdorf, Theory of Alternating Current Machine (2e), TMH, 2009.",
+          "M. G. Say, Alternating Current Machines (5e), CBS, 2002.",
+          "https://nptel.ac.in/courses/108/106/108106071/",
+          "https://nptel.ac.in/courses/108/106/108106072/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 2124",
+        "title": "ELECTROMAGNETIC FIELD THEORY",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Vector analysis: Vector algebra, Rectangular, Cylindrical and Spherical Coordinate systems",
+          "Electrostatics: Field intensity, Flux density, Boundary conditions, Capacitance, Laplace's and Poisson's equations",
+          "Magnetostatics: Field intensity, Flux density, Boundary conditions",
+          "Magnetic forces, Inductance",
+          "Time varying fields: Maxwell's equations",
+          "Uniform Plane wave: Wave equation and its solution, Wave propagation in different media, Poynting's theorem",
+          "Wave polarization \u2013 Perpendicular and Parallel polarization",
+          "Shielding theory \u2013 Plane wave and near Field shielding theory",
+          "Applications",
+          "Self-study: extended study in selected topics"
+        ],
+        "references": [
+          "William Hayt, Engineering Electromagnetics, TMH, 8th edition, 2011",
+          "Mathew Sadiku, Elements of Electromagnetics, Oxford University Press, 2014",
+          "Jan W. Gooch John K. Daher, Electromagnetic Shielding and Corrosion Protection for Aerospace Vehicles, Springer, 2007",
+          "NPTEL Courses: Electromagnetic Fields: http://nptel.ac.in/courses/108106073/",
+          "Markus Zahn, Electromagnetic Field Theory. (Massachusetts Institute of Technology: MIT OpenCourseWare). https://ocw.mit.edu/resources/res-6-002-electromagnetic-field-theory-a-problem-solving-approach-spring-2008/textbook-contents/"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 2125",
+        "title": "MICROCONTROLLERS",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to microprocessors and microcontrollers, general purpose and embedded systems, CISC and RISC architectures",
+          "AT89C51 (8051) microcontroller: Architecture, pin diagram, addressing modes, instruction set, programming, stack, subroutines, GPIO, timers, serial port, interrupts",
+          "Interfacing keyboard, LCD, ADC and DAC to 8051",
+          "Embedded software development in 'C'",
+          "Programming 8051 in 'C'",
+          "ARM processors: ARM7TDMI; Processor modes, visible registers, ARM instruction set, programming, stack, subroutine, exceptions and pipelined architecture",
+          "ARM7 based NXPLPC21XX microcontroller: architecture, programming, interfacing",
+          "Self-study on Extended Embedded C programming, case studies on realisation of microcontroller based system design for practical applications"
+        ],
+        "references": [
+          "Muhammad Ali Mazidi and Gillispie Mazidi, The 8051 Microcontroller and embedded systems, using assembly and 'C', Pearson education, 2013",
+          "Kenneth. J. Ayala, The 8051 Microcontroller and embedded systems, using assembly and 'C', Cengage Learning, 2009",
+          "Steve Furber, ARM System - on \u2013 Chip Architecture, Pearson, Second Edition, 2015",
+          "William Hohl, Hinds Christopher, ARM Assembly Language, CRC Press, 2016",
+          "NPTEL Course: https://nptel.ac.in/courses/106/105/106105193/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 2141",
+        "title": "DIGITAL SYSTEM DESIGN LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Design and Test Digital circuits using standard ICs: Design, Implement and test combinational circuits, asynchronous sequential circuit and synchronous sequential circuit",
+          "Digital System Design using Programmable ASICs: Familiarization to HDL, modeling styles and design flow environment",
+          "Digital circuit design using Verilog HDL and implementation on FPGA",
+          "Design and develop FPGA based digital circuit for a given application"
+        ],
+        "references": [
+          "Givone, Digital Principles & Design, TMH 2011",
+          "Charles H Roth, Lizy Kurian John, Byeong Kil Lee, Digital Systems Design using Verilog, First edition, Global Engineering Publishers, 2015",
+          "Ronald J. Tocci, Digital Systems - Principles & Applications, Pearson, 2005",
+          "Brown & Vranesic, Fundamentals of Digital Logic with Verilog HDL design, TMH, 2012"
+        ],
+        "flags": [
+          "missing_semester",
+          "credits_discrepancy (L+T+P=3 \u2260 C=1)"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ELE 2142",
+        "title": "MICROCONTROLLER LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Experiments using 8051 Microcontroller simulator.",
+          "Interfacing exercises using 8051 microcontroller",
+          "Experiments using ARM7 processor based microcontroller.",
+          "Mini-Project: Microcontroller based system design."
+        ],
+        "references": [
+          "Muhammad Ali Mazidi and Gillispie Mazidi, The 8051 Microcontroller and embedded systems, using assembly and 'C', Pearson education, 2013.",
+          "Kenneth. J. Ayala, The 8051 Microcontroller and embedded systems, using assembly and 'C', Cengage Learning, 2009.",
+          "ESAMCB 51 Microcontroller manual.",
+          "ARM 7 Based NXP LPC 2148 Manual.",
+          "https://nptel.ac.in/courses/106/105/106105193/"
+        ],
+        "flags": []
+      },
+      {
+        "code": "MAT 2227",
+        "title": "ENGINEERING MATHEMATICS - IV",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Probability and Distributions: Construction of a Probability Space, Discrete and Continuous Probabilities, Sum Rule, Product Rule, and Bayes' Theorem, Summary Statistics and Independence, Distributions: Binomial, Poisson, uniform, normal, Chi-square and exponential distributions",
+          "Multivariate Random variables and Stochastic Process: Two and higher dimensional random variables, covariance, correlation coefficient, Moment generating function, functions of one dimensional and two dimensional random variables",
+          "Static probabilities: review and prerequisites generating functions, difference equations",
+          "Dynamic probability: definition and description with examples, Markov chains, transition probabilities",
+          "Vector Calculus: Differentiation of Univariate Functions, Partial Differentiation and Gradients, Gradients of Vector-Valued Functions, Gradients of Matrices, Useful Identities for Computing Gradients, Backpropagation and Automatic Differentiation, Higher-Order Derivatives, Linearization and Multivariate Taylor Series",
+          "Optimization: Basic solution, Convex sets and function, Simplex Method, Optimization Using Gradient Descent, Constrained Optimization and Lagrange Multipliers"
+        ],
+        "references": [
+          "Marc Peter Deisenroth, A. Aldo Faisal, Cheng Soon Ong, Mathematics for Machine Learning, Cambridge University Press, 2020",
+          "P L Meyer, Introductory Probability and Statistical Applications, Addison Wiley",
+          "Medhi. J. Stochastic Processes, Wiley Eastern",
+          "Murray R. Spiegel, Vector Analysis Theory and Problems, Schaum's Outline Series, 2019",
+          "Hamdy A. Taha, \u201cOperations Research: An Introduction\u201d, 8th Edn., Pearson Education (2008)",
+          "Sheldon M. Ross, Introduction to Probability Models Eleventh Edition Elsevier",
+          "E. S. Page, L. B. Wilson, An Introduction to Computational Combinatorics, Cambridge University Press",
+          "Bhat U R, Elements of Applied Stochastic Processes, John Wiley"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 2221",
+        "title": "ANALOG SYSTEM DESIGN",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Review of MOSFET characteristics, structure, biasing, current mirrors",
+          "Basic amplifier configurations: CS, CG, CD configurations",
+          "Small signal model frequency response, high frequency MOS model",
+          "Cascaded amplifier and large signal amplifier",
+          "Basic differential amplifier, common mode and differential mode signals, OPAMP configuration",
+          "OPAMP in linear mode, voltage follower property and inversion property",
+          "OPAMP with positive and negative feedback",
+          "Linear and Nonlinear applications of OPAMP",
+          "Waveform generations",
+          "555 timer based applications",
+          "Self-study: Design and SPICE simulation studies on MOSFET based amplifiers and op-amp based circuits"
+        ],
+        "references": [
+          "Behzad Razavi., Fundamentals of Microelectronics, 2E, Wiley Publishers, 2013",
+          "Sergio Franco, Design with Operational Amplifiers analog Integrated Circuits, 4E, McGraw-Hill series, 2014",
+          "Adel S. Sedra, Kenneth C. Smith, Arun N. Chandorkar, Microelectronic Circuits: Theory and Application (8e), Oxford, 2020",
+          "NPTEL Courses: https://nptel.ac.in/courses/108/108/108108114/",
+          "NPTEL Courses: https://nptel.ac.in/courses/117/105/117105147/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 2222",
+        "title": "POWER ELECTRONICS",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Power Diode, SCR Family, MOSFET, IGBT: Structure, Operation, Static Characteristics, Dynamic Characteristics and Ratings",
+          "Protection of Power Electronic Devices",
+          "Comparison of Power Electronic Devices",
+          "Select devices (Part Numbers) for application",
+          "Design of High side and Low side Gate drive circuit",
+          "Analysis of Single-Phase Uncontrolled Rectifiers with filter circuit",
+          "Analysis of Single Phase Fully Controlled Full Wave Rectifiers with R, RL, RLE Load and RL Load with Freewheeling Diode",
+          "Analysis of Three Phase Fully Controlled Full Wave Rectifiers with R load",
+          "Analysis and design of Buck and Boost converter",
+          "Analysis of Single-Phase Half Bridge and Full Bridge Inverter with R and RL Load (Square Wave, Bipolar and Unipolar SPWM Technique)",
+          "Analysis of Three Phase Inverters (1800 and SPWM Technique)",
+          "Space Vector Pulse Width Modulation",
+          "Multi Level Inverters",
+          "Current Source Inverter",
+          "Application of Power Electronics in Power System, Renewable Energy Systems, Motor Control, SMPS and UPS, and LED Drivers",
+          "Creating Design files for customer specifications",
+          "Self-study: Verification of the driver circuit design through simulations, Analysis and simulation of Three Phase Fully Controlled Full Wave Rectifiers with RL Load, Analysis and design of Buck-Boost converter through simulations, Analysis and simulation of Three Phase Inverters (1200 mode)"
+        ],
+        "references": [
+          "Hart D. W., Introduction to Power Electronics, PH, 2010.",
+          "Ned Mohan et. al., Power Electronics, Converters, Applications & Design (2e), Wiley,2001.",
+          "Rashid M.H., Power Electronics, Circuits, Devices and Applications, PHI, 2010.",
+          "Robert W. Erikson, Dragan Maksimovic, Fundamentals of Power Electronics(2e), Springer,2005",
+          "NPTEL Courses: https://nptel.ac.in/courses/108/102/108102145/"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 2223",
+        "title": "LINEAR CONTROL THEORY",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Control systems terminologies",
+          "Mathematical modelling of Electrical circuits",
+          "Mechanical systems (translational & rotary) and Electro-Mechanical systems including geared LTI systems using transfer function approach",
+          "reduction of sub-systems",
+          "signal flow graphs",
+          "State Space modelling approach",
+          "Time domain response of 1st order and 2nd order systems",
+          "RH criteria",
+          "Root Locus technique",
+          "Bode plots",
+          "Nyquist Plots",
+          "Design concepts of lead, lag compensators and their realization",
+          "Design concepts of P, PI, PID controllers for LTI systems and their realization"
+        ],
+        "references": [
+          "Norman S. Nise, Control Systems Engineering, John Wiley & Sons, Inc, 2010",
+          "Ogata K, Modern Control Engineering, Englewood Cliffs, NJ: Prentice Hall, 2010",
+          "Gopal M., Control Systems: Principles and Design, McGraw Hill, 2008",
+          "K.R. Varmah, Linear Control Theory, Tata McGraw Hill Education, 2010",
+          "Prof. S.D. Agashe IIT Bombay, Control systems: http://nptel.ac.in/courses/108101037/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 2224",
+        "title": "GENERATION, TRANSMISSION & DISTRIBUTION",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "General layout of a power system",
+          "conventional and unconventional power generation",
+          "computation of line parameters for 1-phase and 3-phase",
+          "line compensation",
+          "need for reactive power compensation",
+          "sag and tension calculations",
+          "overhead insulators and grading of insulators",
+          "underground cables",
+          "corona",
+          "distribution schemes",
+          "reliability indices and introduction to LVDC & architecture of 48 V DC distribution"
+        ],
+        "references": [
+          "J. Duncan Glover, Mulukutla S Sarma and Thomas J Overbye, Power System Analysis and Design, 5th ed, Cengage Learning, 2012",
+          "S.N. Singh, Electric Power Generation, Transmission & Distribution, PHI, 6th printing, 2011",
+          "Nag P K, Power plant engineering, Tata Mc Graw Hill, 2005",
+          "Wadhwa, Electrical Power System, 3rd edition, New Age Intl, 2013",
+          "NPTEL course https://nptel.ac.in/courses/108/102/108102047/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 2225",
+        "title": "ELECTRICAL MACHINERY- II",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Alternators: Constructional features, working principle, harmonics.",
+          "Modeling of the non-salient pole and salient pole alternators, phasor diagrams, voltage regulation, synchronization, characteristics, alternator connected to the infinite bus, load sharing.",
+          "Synchronous motors: Synchronizing power and torque, performance characteristics, power factor correction.",
+          "Special electrical machines- Synchronous reluctance motors, Stepper motors, Switched reluctance Motors, Permanent magnet brushless DC Motors, Permanent magnet synchronous motors: Construction, working principle, control, and performance analysis.",
+          "Self-study: Extended exercises on analyses of electrical machines covered."
+        ],
+        "references": [
+          "I. J. Nagrath, D. P. Kothari, Electric Machines (5e), TMH, 2017.",
+          "A. Langsdorf, Theory of Alternating Current Machine (2e), TMH, 2009.",
+          "K Venkataratnam, Special Electrical Machines, Universities Press (India), 2021.",
+          "https://nptel.ac.in/courses/108/106/108106072/",
+          "https://nptel.ac.in/courses/108/102/108102156/"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 2241",
+        "title": "ANALOG SYSTEM DESIGN LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Design and Test analog circuit using MOSFETs: Regulated power supply and MOSFET amplifier circuit",
+          "Analog system design using standard ICs: Design and test Op-amp based amplifiers",
+          "Voltage to current converter",
+          "Integrator",
+          "Differentiator",
+          "Biquad active filter",
+          "Effect of negative feedback",
+          "Schmitt trigger",
+          "Waveform generators",
+          "555 timer based stable and Monostable filter",
+          "Design, develop/simulate and analysis the analog circuit for a given applications"
+        ],
+        "references": [
+          "Behzad Razavi., \u201cFundamentals of microelectronics\u201d, 2E, Wiley Publishers",
+          "Sergio Franco, \u201cDesign with Operational Amplifiers and Analog Integrated Circuits\u201d, 3E. McGraw-Hill series",
+          "Jim Karki, \u201cApplication Report Understanding Operational Amplifier Specifications\u201d SLOA011B-January 2018-Revised July 2021. Texas Instruments",
+          "Thomas R. Brown, Jr \u201cHand Book of Operational Amplifier Applications\u201d Application report SBIOA092B-October 2001-reviced September 2016. Texas Instruments",
+          "Colin May, \u201cPassive Circuit Analysis with LTspice1 An Interactive Approach\u201d,Springer Nature Switzerland AG 2020"
+        ],
+        "flags": [
+          "missing_sem",
+          "credits_mismatch"
+        ]
+      },
+      {
+        "sem": 5,
+        "code": "ELE 2242",
+        "title": "ELECTRICAL MACHINERY LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Single-phase transformers: OC and SC test",
+          "Three-phase induction machine: No load & blocked rotor tests; Load test on three-phase induction motor and generator",
+          "DC machines: Speed control; Swinburne's test; Retardation test",
+          "Synchronous machines: Voltage regulation of alternator; V and inverted V curves of the alternator and synchronous motor",
+          "Dynamic modeling and simulation analysis of the starting transients, and braking of three-phase induction motors",
+          "Design and development of the winding diagrams of AC and DC machines"
+        ],
+        "references": [
+          "I. J. Nagrath, D. P. Kothari, Electric Machines (5e), TMH, 2017",
+          "A. Langsdorf, Theory of Alternating Current Machine (2e), TMH, 2009",
+          "A. E. Clayton & N. N. Hancock, The Performance and Design of Direct Current Machines, CBS, 2004",
+          "A. K. Sawhney, Electrical Machine Design, Dhanpat Rai Publications, 2016",
+          "https://nptel.ac.in/courses/108/106/108106071/",
+          "https://nptel.ac.in/courses/108/106/108106072/"
+        ],
+        "flags": [
+          "unaccounted_value_16_in_course_description"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 3022",
+        "title": "ESSENTIALS OF MANAGEMENT",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Definition of management and systems approach, Nature & scope",
+          "The Functions of managers, Principles of Management",
+          "Planning: Types of plans, steps in planning, Process of MBO, how to set objectives, strategies, policies and planning premises, Strategic planning process and tools",
+          "Nature and purpose of organizing, Span of management, factors determining the span, Basic departmentation, Line and staff concepts, Functional authority, Art of delegation, Decentralization of authority",
+          "HR theories of planning, Recruitment, Development and training",
+          "Theories of motivation, Special motivational techniques",
+          "Leadership \u2013 leadership behavior & styles, Managerial grid",
+          "Basic Control Process, Critical Control Points & Standards, Budgets, Non-budgetary control devices, Profit and Loss control, Control through ROI, Direct, Preventive control",
+          "PROFESSIONAL ETHICS - Senses of Engineering Ethics, Variety of moral issues, Types of inquiry, Moral dilemmas, Moral Autonomy, Kohlberg's theory, Gilligan's theory, Consensus and Controversy, Models of professional roles, Theories about right action, Self-interest, Customs and Religion, Uses of Ethical Theories",
+          "GLOBAL ISSUES - Managerial practices in Japan and USA & application of Theory Z, The nature and purpose of international business & multinational corporations, unified global theory of management, Entrepreneurship and writing business plans, Multinational Corporations, Environmental Ethics, Computer Ethics, Weapons Development, Engineers as Managers, Consulting Engineers, Engineers as Expert Witnesses and Advisers, Moral Leadership, Code of Conduct, Corporate Social Responsibility"
+        ],
+        "references": [
+          "Harold Koontz & Heinz Weihrich (2020), \u201cEssentials of Management\u201d, McGraw Hill, New Delhi.",
+          "Peter Drucker (2004), \u201cThe practice of management\u201d, Harper and Row, New York.",
+          "Vasant Desai (2007), \u201cDynamics of entrepreneurial development & management\u201d, Himalaya Publishing House.",
+          "Poor nima M Charantimath (2006), \u201cEntrepreneurship Development\u201d, Pearson Education.",
+          "Mike W. Mar tin & Ronald Schinzinger (2003), \u201cEthics in engineering\u201d, Tata McGraw Hill, New Delhi.",
+          "Govindarajan M, Natarajan S, & Senthil Kumar V S (2004), \u201cEngineering Ethics\u201d, Prentice Hall of India, New Delhi.",
+          "R. S. Nagarazan. (2004), \u201cA text book on professional ethics and human values\u201d, New age international publishers, New Delhi."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "ELE 3121",
+        "title": "POWER SYSTEM ANALYSIS",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Single line diagram",
+          "per unit concept",
+          "selection and change of base quantities",
+          "three winding transformer in power system",
+          "symmetrical short circuit calculation",
+          "current limiting reactor",
+          "selection of circuit breakers",
+          "symmetrical components",
+          "sequence networks",
+          "unsymmetrical fault analysis in loaded and unloaded system involving transformers",
+          "admittance model of power system",
+          "load flow solution by numerical method",
+          "stability studies",
+          "equal area criterion",
+          "Write MATLAB program for Load flow solution techniques and swing equation and equal area criterion"
+        ],
+        "references": [
+          "Stevenson William D, Elements of Power System Analysis (4e), TMH, 2014",
+          "Nagrath I.J. & D.P. Kothari, Modern Power System Analysis (2e), TMH, 2013",
+          "Hadi Saadat, Power System Analysis, TMH, 2004",
+          "Elgerd Olle I., Electric Energy System Theory, TMH, 2011",
+          "Stagg & Elabid, Computer methods in Power System Analysis, MGH, 1986"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "ELE 3122",
+        "title": "DIGITAL SIGNAL PROCESSING",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Time domain analysis of discrete-time signals & systems: linear-time invariant systems, impulse response, convolution, causality and stability, representation of LTI systems",
+          "Frequency domain analysis of discrete-time signals and systems: discrete-time Fourier series, discrete-time Fourier transform, properties and applications, Z-transform representation of discrete time signals and systems, properties and applications",
+          "Sampling in time and frequency domain",
+          "Discrete Fourier transform (DFT) and properties, linear convolution using DFT",
+          "Computation of DFT using Fast Fourier transform (FFT), decimation-in-time and decimation-in-frequency FFT algorithms",
+          "Digital filter structures, digital FIR and IIR filter",
+          "FIR filter design: FIR design by Window method",
+          "IIR filter design: classical filter design using Butterworth approximations, impulse invariant and bilinear transformation methods",
+          "Applications of DSP",
+          "Self-study: simulation-based studies of the selected topics"
+        ],
+        "references": [
+          "Haykin Simon and Barry Van Veen, Signals and systems, (2e), John Wiley & Sons, 2007",
+          "John G. Proakis, Dimitris G Manolakis, Digital Signal Processing: Principles, Algorithms, and Applications, (4e), Pearson, 2007",
+          "Oppenheim A. V. and R. W. Schafer, Discrete time signal processing, (3e), Pearson, 2014",
+          "Ingle, Vinay K., and John G. Proakis, Digital signal processing using MATLAB, 3e Cengage Learning, 2012",
+          "NPTEL course: https://nptel.ac.in/courses/108/101/108101174/16"
+        ],
+        "flags": []
+      },
+      {
+        "code": "ELE 3123",
+        "title": "SWITCH GEAR & PROTECTION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Fuses. Neutral grounding",
+          "Circuit breakers: Arc phenomenon, arc interruption theories, Special duties",
+          "CB types: Oil circuit breakers, Air circuit breakers, SF6 CB, Vacuum CB, CO2 CB, MCB, MCCB and HVDC circuit breakers",
+          "CB rating, testing, operating mechanism, Autoreclosure, metal clad switchgear, GIS",
+          "Isolators and earthing switches",
+          "Protective Relaying: Functions, characteristics, standard definition of relay terminologies, classifications & operating principles",
+          "Protection schemes for bus zone, transformer, alternator, transmission Line and Induction Motor",
+          "Static Relays, Numerical relaying: Building blocks, signal conditioning, DFT, phasor estimation, numerical relaying algorithms",
+          "Introduction to SCADA, IEDs and IEC 61850 protocol",
+          "Self-study on selected topics"
+        ],
+        "references": [
+          "Rao S.S., Switchgear Protection and Power systems, Khanna Publishers, 2015.",
+          "Badriram and Vishwakarma, Power System Protection & Switchgear, MGH, 2014.",
+          "Ravindranath & Chander, Power System Protection and Switchgear, New Age International, 2018.",
+          "Mason, The Art and Science of Protective Relaying, Wiley, 1972.",
+          "Ravindra P. Singh, Digital Power System Protection, PHI, 2007."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "ELE 3141",
+        "title": "POWER ELECTRONICS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Design of gate driver circuit",
+          "Study of Uncontrolled Rectifier Circuits with filter circuit",
+          "Effect of non-linear load on Single phase and Three phase supply",
+          "Controlled Rectifier with R and RL loads",
+          "Power quality analysis of AC voltage controller",
+          "Design and Realization of DC-DC Buck Converter",
+          "Design of controller for Inverter circuits",
+          "Power Electronic circuit simulation using SPICE and MATLAB",
+          "Speed Control of Motors using Power Electronics"
+        ],
+        "references": [
+          "Hart D. W., Power Electronics, Tata Mcgraw-Hill, 2011",
+          "Ned Mohan et. al., Power Electronics, Converters, Applications & Design (2e), Wiley, 2010",
+          "Bose B.K., Modern Power Electronics and AC Drives, Pearson, 2010",
+          "Rashid M. H. SPICE for Power Electronics and Electrical Power, PH, 1993"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 6,
+        "code": "ELE 3142",
+        "title": "SYSTEMS SIMULATION LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Mathematical modeling of physical systems with MATLAB scripts and SIMULINK",
+          "DC motor characteristics using Simulink",
+          "stability analysis using Bode plot, root locus, and Nyquist plot",
+          "design of controllers",
+          "analysis of discrete-time signals using discrete-time Fourier transform, discrete Fourier transform, and Z-transform",
+          "digital filter structures",
+          "digital IIR and FIR filter design",
+          "application of filtering techniques",
+          "applications of control system and DSP"
+        ],
+        "references": [
+          "Norman Nise, Control System Engineering, (8e), Wiley, 2019",
+          "Ogata, K, Solving Control Engineering Problems with MATLAB, (1e), Prentice-Hall, 1994",
+          "John G. Proakis, Dimitris G Manolakis, Digital Signal Processing: Principles, Algorithms, and Applications, (4e), Pearson, 2007",
+          "Ingle, Vinay K., and John G. Proakis, Digital signal processing using MATLAB, (3e) Cengage Learning, 2012",
+          "S. K. Mitra, Digital Signal Processing Laboratory Using MATLAB, (2e), 2001"
+        ],
+        "flags": [
+          "credits_discrepancy"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 3021",
+        "title": "ENGINEERING ECONOMICS AND FINANCIAL MANAGEMENT",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Time value of money, Interest factors for discrete compounding, Nominal & effective interest rates, Present and future worth of Single, Uniform, and Gradient cash flow. Related problems and case studies.",
+          "Bases for comparison of alternatives, Present worth amount, Capitalized equivalent amount, Annual equivalent amount, Future worth amount, Capital recovery with return, Rate of return method, Incremental approach for economic analysis of alternatives, Replacement analysis.",
+          "Break even analysis for single product and multi product firms, Break even analysis for evaluation of investment alternatives.",
+          "Physical & functional depreciation, Straight line depreciation, declining and double declining balance method of depreciation, Sum-of-the-Years Digits, Sinking Fund and Service Output Methods, Case Study.",
+          "Balance sheet and profit & loss statement. Meaning & Contents.",
+          "Ratio analysis, financial ratios such as liquidity ratios, Leverage ratios, Turn over ratios, and profitability ratios, Drawbacks.",
+          "Safety and Risk, Assessment of Risk and safety, Case study, Risk Benefit Analysis and Reducing Risk."
+        ],
+        "references": [
+          "Chan S. Park, \"Contemporary Engineering Economics\", 4th Edition, Pearson Prentice Hall, 007.",
+          "Thuesen G. J, \u201cEngineering Economics\u201d, Prentice Hall of India, New Delhi, 2005.",
+          "Blank Leland T. and Tarquin Anthony J., \u201cEngineering Economy\u201d, McGraw Hill, Delhi, 2002.",
+          "Prasanna Chandra, \u201cFundamentals of Financial Management\u201d, Tata McGraw Hill, Delhi, 2006.",
+          "Mike W. Martin and Roland Schinzinger, \u201cEthics in Engineering\u201d, Tata McGraw Hill, New Delhi, 2003.",
+          "Govindarajan M, Natarajan S, Senthil Kumar V. S, \u201cEngineering Ethics\u201d, Prentice Hall of India, New Delhi,2004"
+        ],
+        "flags": [
+          "semester_not_specified_in_text"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "ELE 3221",
+        "title": "MEASUREMENTS & INSTRUMENTATION",
+        "credits": {
+          "l": 3,
+          "t": 1,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Electrical instrumentation",
+          "characteristics",
+          "electromagnetic interference",
+          "Moving Coil and Moving Iron Instruments",
+          "Bridge circuits for R, L and C measurements",
+          "Modern Transducers for R, L and C measurements",
+          "Signal conditioning - Signal Isolation",
+          "Charge amplifiers",
+          "Instrumentation amplifiers",
+          "Active filters",
+          "Sallen Key Topology",
+          "State Variable Filters",
+          "Successive Approximation",
+          "Flash A/D Converter",
+          "R 2R and Binary weighted D/A converter",
+          "communication using MODBUS and CANBUS",
+          "Industrial instrumentation through programmable logic controllers",
+          "Case study - ECG",
+          "Digital Frequency Meter",
+          "Digital Energy Meter"
+        ],
+        "references": [
+          "A. K Sawhney and Puneet Sawhney, A course in electrical & electronic measurement and instrumentation\u201d, 19e, Dhanpat Rai & Sons, 2016",
+          "Sergio Franco, Design with Operational Amplifiers and Analog Integrated Circuits, 4e, McGraw Hill, 2014",
+          "W. Bolton, Programmable Logic Controllers, 4e, ELSEVIER, 2006",
+          "NPTEL Courses: https://nptel.ac.in/courses/108/105/108105153/",
+          "Manufacturers Data sheets, Industry reference guides and modern literatures"
+        ],
+        "flags": [
+          "sem_inferred_from_code"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 3241",
+        "title": "MEASUREMENTS & INSTRUMENTATION LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Familiarization and programming exercises of LabVIEW",
+          "Signal conditioning circuits for Realization of Instrumentation Amplifier and Analog Filter.",
+          "Digital Instrumentation System using LabVIEW and data acquisition.",
+          "Ladder logic programming exercises for Programmable Logic controllers.",
+          "Measurements and Instrumentation related hardware/simulation based projects"
+        ],
+        "references": [
+          "Jovitha Jerome, Virtual Instrumentation Using Lab VIEW, PHI learning private limited, 2010.",
+          "K.R.K. Rao ,C.P. Ravikumar, Analog system lab pro kit manual', Mikro Elektronik Ltd, 2012.",
+          "Jeffrey Travis, Jim Kring, LabVIEW for Everyone: Graphical Programming Made Easy and Fun, 3e, Prentice Hall Professional, 2009.",
+          "W. Bolton, Programmable Logic Controllers, 4e, ELSEVIER, 2006.",
+          "NPTEL Courses: https://nptel.ac.in/courses/108/105/108105063/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 8,
+        "code": "ELE 3242",
+        "title": "POWER SYSTEMS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Transmission line performance",
+          "relay co-ordination",
+          "load flow analysis",
+          "transient stability and short circuit studies using simulation tools",
+          "Numerical over current relay",
+          "solar simulator",
+          "digital energy meter",
+          "transmission line simulator"
+        ],
+        "references": [
+          "Stagg G W & El-Abiad A H, Computer Methods in Power System Analysis, Medtech, 2019.",
+          "Hadi Saadat, Power System Analysis, MGH, 2004.",
+          "Nagrath I.J. & D.P.Kothari, Modern Power System Analysis, (4e), TMH, 2011.",
+          "Badriram and Vishwakarma, Power System Protection & Switchgear, TMH, 2013.",
+          "MiPower and PSCAD user manuals."
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "ELE 4291",
+        "title": "INDUSTRIAL TRAINING",
+        "credits": null,
+        "tags": [
+          "core"
+        ],
+        "syllabus": [
+          "Undergo industrial training for a minimum period of 4 weeks",
+          "Submit training report in prescribed format",
+          "Make presentation of the training report",
+          "Include certificates issued by the industry"
+        ],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_credits",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ELE 4293",
+        "title": "PROJECT WORK/PRACTICE SCHOOL",
+        "credits": {
+          "l": null,
+          "t": null,
+          "p": null,
+          "c": null
+        },
+        "tags": [
+          "core"
+        ],
+        "syllabus": [
+          "Project work carried out in institution/industry/research laboratory or any other competent institution",
+          "Minimum duration of 16 weeks (extendable up to 24 weeks)",
+          "Mid-semester evaluation after about 8 weeks",
+          "Submission of interim project report during mid-semester evaluation",
+          "Final evaluation and viva-voice after submission of final project report",
+          "Presentation on the work carried out before the department committee"
+        ],
+        "references": [],
+        "flags": [
+          "missing_credits",
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 3124",
+        "title": "MODERN POWER CONVERTERS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Switched Mode Power converters: generalized comparison between switched mode and linear regulators, operation and steady state performance of buck, boost, buck-boost, cuk : continuous conduction mode, discontinuous conduction mode",
+          "Performance analysis of converters using DC Transformer model",
+          "DC-DC converters with isolation- Fly back converter, Forward converter, push pull converter, half bridge and full bridge DC-DC converters",
+          "Resonant Converters- series and parallel loaded converters in continuous and discontinuous mode of operation, zero current switch resonant converter (ZCS), zero voltage switch resonant converter (ZVS)",
+          "Control techniques",
+          "Converter modelling- equivalent circuit modelling of converters using state space averaging technique",
+          "Closed loop converter design \u2013 PID design issues",
+          "Design of Magnetic Components, Review of magnetic circuits, Design of Inductors, Design of two winding high frequency transformers",
+          "Self-Study: SEPIC converter Simulation Using Idealized Components",
+          "Current Fed Converters",
+          "Simulation of Converter with soft switching",
+          "Simulation of DC-DC converter with closed loop control",
+          "Losses in magnetic elements, design of multilinking transformers"
+        ],
+        "references": [
+          "Robert W. Erickson, Dragan Maksimovic; Fundamentals of Power Electronics, (2 ed), Springer, 2005",
+          "Hart D. W., Introduction to Power Electronics, PH, 2010",
+          "Ned Mohan et. al., Power Electronics, Converters, Applications & Design (2e), Wiley.2001",
+          "Issa Batarseh, Power Electronic Circuits (1e), Wiley, 2014",
+          "P. Krein, Elements of Power electronics, OUP, 1998",
+          "L Umanand, S R Bhat, Design of magnetic components for switched mode power converters (1e), New Age International, 1992",
+          "NPTEL Courses: https://nptel.ac.in/courses/108/102/108102145/16",
+          "Coursera group of courses on power electronics specialization by University of Colorado, Boulder: https://www.coursera.org/specializations/power-electronics"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 3125",
+        "title": "DISTRIBUTED GENERATION SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory",
+          "core"
+        ],
+        "syllabus": [
+          "Introduction to Distributed Generation Systems - Principle and Structure of DGS",
+          "Features of DGS",
+          "Distributed Generation Technologies - Overview",
+          "Integrating Distributed Energy Resources with the Grid",
+          "Planned/non-planned DG",
+          "Micro Grid and its features",
+          "Wind Energy Conversion System",
+          "Photovoltaic Systems - PV grid tied systems and different configurations",
+          "Micro turbine Generation",
+          "Diesel power plant",
+          "Small Hydro Generation Systems",
+          "Fuel Cells",
+          "Energy Storage Technologies - Different Energy storage technologies - Overview",
+          "Design Issues and control of Distributed Generation Systems",
+          "General model of DGS",
+          "Technical Regulation of DG integration",
+          "DG Optimization and Energy Management",
+          "Microgrid - modes of operation & issues"
+        ],
+        "references": [
+          "G.B. Gharehpetian and S. Mohammad Mousavi Agah \u201cDistributed Generation Systems. Design, Operation and Grid Integration,\u201d Butterworth-Heinemann, 2017",
+          "H. Lee Willis & Walter G Scott, Distributed Power Generation planning & Evaluation\u201d, Taylor & Francis Group, 2000",
+          "Math Bollen & Fainan Hassan, Integration of distributed generation in the power systems'\u201d, AJohnwiley & sons , INC, Publications, 2011",
+          "Bo Zhao, Caisheng Wang, Xuesong Zhang \u201cGrid integrated and standalone photovoltaic distributed generation systems analysis, design and control,\u201d Wiley, 2017",
+          "Nikos Hatziargyriou, microgrid: Architecture and Control. Wiley-IEEE Press. 2014"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "ELE 3126",
+        "title": "COMMUNICATION SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Elements of communication systems",
+          "Analog Communication techniques: Amplitude modulation schemes and frequency modulation",
+          "Pulse modulation schemes",
+          "Shift keying techniques \u2013 frequency, phase and amplitude",
+          "Channel encoding and decoding technologies",
+          "Conceptual idea of encryption and decryption",
+          "Communication protocols and networking",
+          "Internet of Things",
+          "Wireless sensor actuator network",
+          "Applications: Spread spectrum and mobile communications"
+        ],
+        "references": [
+          "Simon Haykin, Communication Systems, John Wiley & Sons, 4e, 2009",
+          "NPTEL Courses: https://nptel.ac.in/courses/106/105/106105166/",
+          "Stallings William, Cryptography and network security: principles and practices, Pearson Education, 2006",
+          "Geng Hwaiyu, Internet of Things and Data Analytics Handbook, John Wiley & Sons, 2017",
+          "Verdone Roberto et al., Wireless sensor and actuator networks: technologies, analysis and design, Academic Press, 2010"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "ELE 3127",
+        "title": "FOUNDATIONS OF EV & HYBRID VEHICLES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Principles for Electric Vehicles: EV Industry, EV Technology and Automotive Revolution, Electrical Engineering for EV, Battery Technology",
+          "Control system for Electric Vehicles: Motor and Controller Systems, EV Numerical Calculations, EV Charging Infrastructure, Practical session - Well-to-well analysis of EV architecture",
+          "Essentials for Electric Vehicles: Electrical Requirement, Power Distribution Specifications, Electronic Control System, Practical session - EV connection and system analysis",
+          "Types of components in Electric Vehicles: EV Standards and Classifications, Selection for Electrical and Electronic Components, Practical session - EV hardware components",
+          "Principles for Hybrid Vehicles: Introduction to Hybrid Vehicles, Battery Chemistry, Efficiency, Definition and Parameters for Hybrid Systems, Electric Motors, Generators and Power Electronics for Hybrid Systems, Control Systems, Hybrid Electric Vehicle Operation, Practical session - Numerical study on powertrain sizing of HEV"
+        ],
+        "references": [
+          "James Larminie and John Lowry, \u201cElectric Vehicle Technology Explained\", Wiley, 2nd ed, 2012, ISBN: 978-1-119-94273-3.",
+          "Iqbal Husain, \"Electric and Hybrid Vehicles: Design Fundamentals\", Routledge, 3rd Ed, 2021, ISBN: 9780367693930",
+          "Muhammad Ehsani, Mehrdad Ehsani, and Ali Emadi, \"Electric Vehicle Systems Architecture and Standardization Needs\", Reports of the PPP European Green Vehicles Initiatives, Springer, 2015.",
+          "Ali Emadi, \"Advanced Electric Drive Vehicles\", CRC Press, 1st Ed, 2014, ISBN: 9781138072855.",
+          "Rodrigo Garcia-Valle and Jo\u00e3o A. Pe\u00e7as Lopes, \u201cElectric Vehicle Integration into Modern Power Networks\", Springer, 2013, ISBN: 978-1461401339.",
+          "Chris Mi and M. Abul Masrur, \"Hybrid electric Vehicles, Principles and Applications with Practical perspectives\", WILEY, 2nd Ed, 2017, ISBN: 978-1-118-97054-6.",
+          "\"Introduction to Electric Vehicles\" - offered by IIT Delhi on NPTEL Link: https://archive.nptel.ac.in/courses/108/106/108106170/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "ELE 3222",
+        "title": "SOLID STATE DRIVES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Fundamentals of Electric Drives: components, dynamics, multi-quadrant operation, equivalent moment of inertia and torque, nature and classification of load torque, steady state stability, classes of motor duty",
+          "DC drives: Single phase and three phase controlled rectifier fed dc drives, speed torque characteristics, waveforms, expressions for voltage, current, speed, torque and power. PWM rectifiers fed DC drives. Chopper fed DC drives, quadrant of operation. Demonstration of open loop and closed loop control of drives with/without Regenerative braking",
+          "AC drives: Induction motor drives \u2013 stator voltage control, slip power recovery scheme, V/f control, principle of vector control: FOC and DTC. Comparison of scalar and vector control schemes. Overview of scalar and vector control schemes of PMSM, BLDC",
+          "Applications: Solar and battery powered drives, Traction drives",
+          "Self-study: Selection of Motor Power rating/ classes of motor duty, Effect of armature current ripples on motor performance, Analysis and simulation of Static rotor resistance control, Overview of Scalar and vector control schemes of SRM"
+        ],
+        "references": [
+          "Dubey G.K., Power Semiconductor Controlled Drives, PH, 1989",
+          "Dubey G.K., Fundamentals of Electric Drives, Narosa, 2010",
+          "Murphy J.M.D. & F.G.Turnbull, Power Electronic Control of AC motors, Pergamon 1989",
+          "Bose B.K., Modern Power Electronics and AC Drives, Pearson, 2010",
+          "NPTEL Courses: https://nptel.ac.in/courses/108/104/108104140/"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "ELE 3223",
+        "title": "SMART GRID TECHNOLOGIES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Smart Grid and it's necessity",
+          "Advantages of building integrated and distributed power systems- concept of smart grid",
+          "Architecture of smart grid system",
+          "Standards for smart grid system",
+          "Smart grid communications technology",
+          "Switching techniques and communication channels",
+          "Wide area monitoring systems",
+          "Phasor measurement units (PMU)",
+          "smart metering",
+          "Communication infrastructure and protocols for smart metering",
+          "Supervisory Control and data Acquisition (SCADA)",
+          "Demand Response - Large-scale renewable energy integration",
+          "Energy storage at distribution level Smart micro grids",
+          "Electric Vehicles and Vehicle-to-Grid Systems",
+          "Computational Tools",
+          "Optimization techniques to smart grid",
+          "Hybridizing Optimization Techniques and Applications to the Smart Grid",
+          "Computational Challenges",
+          "Interoperability- Benefits and Challenges of Interoperability",
+          "Model for Interoperability in the Smart Grid Environment",
+          "Approach to Smart Grid Interoperability Standards",
+          "Smart Grid Cyber Security-Cyber Security Risks",
+          "Cyber Security Concerns Associated with AMI"
+        ],
+        "references": [
+          "James Momoh, \u201cSmart Grid \u2013 fundamentals of design and analysis\u201d, John Wiley and Sons, 2012.",
+          "Takuro Sato, Daniel M. Kammen, Bin Duan, Martin Macuha, Zhenyu Zhou, Jun Wu, Jun Wu, and Solomon AbebeAsfaw \u201cSmart grid standards: specifications, requirements, and technologies\u201d, Wiley 2015.",
+          "Janaka B. Ekanayake, Nick Jenkins, Kithsiri Liyanage, Jianzhong Wu, and Akihiko Yokoyama, \u201cSmart Grid: Technology and Applications\u201d Wiley, New Delhi, 2015.",
+          "Lars T. Berger, Krzysztof Iniewski, \u201cSmart Grid Applications, Communications and Security\u201d Wiley, New Delhi, 2015.",
+          "Salman K. Salman, \u201cIntroduction to the Smart Grid: Concepts, technologies and evolution\u201d Institution of Engineering and Technology (IET), 2017."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 3224",
+        "title": "CONTROL SYSTEM DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Control system performance objectives",
+          "Design of cascade & feedback compensation",
+          "Scalar and multivariable control systems",
+          "Industrial PID controllers, state space systems and PID control",
+          "PID tuning",
+          "Pole placement techniques for design of controllers and observers",
+          "Kalman filter, Robust control techniques",
+          "Non-linear control system design: Linearization, compensation and design of non-linear systems",
+          "Design of non-linear control system using phase plane analysis, Lyapunov stability",
+          "Optimal control theory and applications",
+          "Adaptive Control",
+          "Self tuning control",
+          "Model reference adaptive control",
+          "Practical aspects: Control system design examples",
+          "Self study: MATLAB & SIMULINK for Control system Design"
+        ],
+        "references": [
+          "Katsuhiko Ogata, Modern Control Engineering (5e), PHI, 2010",
+          "Stanley M. Shinners, Advanced modern control system theory and design, John Wiley & Sons, 1998",
+          "V. I. George, C.P. Kurian, Digital Control Systems (1e), Cengage learning, 2012",
+          "Norman S. Nise, Control Systems Engineering (5e), John Wiley & Sons Inc, 2010",
+          "K.R. Varmah, Modern Control Theory, CBS Publishers & Distributors Pvt. Ltd., 2020"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 3225",
+        "title": "AUTOMOTIVE MECHANICS FOR ELECTRIC VEHICLES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Automotive Engineering & Vehicle Dynamics: Vehicle Dynamics Fundamentals, Tire Mechanics and Dynamics, Suspension Systems, Braking Systems, Aerodynamics, Powertrain Systems, Vehicle Stability Control, Vehicle Safety, Vehicle Dynamics Simulation, Electric and Hybrid Vehicle Dynamics, Practical session - EV Dynamics & calculations",
+          "Sketching for Automotive EV Design [Software-based]: Introduction to Automotive Sketching Software, Overview of Vehicle Design Process and Automotive Sketching, Basic Sketching Techniques and Tools in the Software, Sketching Car Exteriors, Interiors and Details, Creating Different Views and Angles of the Vehicle, Rendering and Presenting the Final Sketches, Understanding Proportions, Perspectives and Shapes in Automotive Sketching, Creating Sketches for Different Vehicle Types (Sedans, SUVs, and Trucks), Tips and Tricks for Automotive Sketching in the Software",
+          "Advanced EV Modelling Using Solid Works Tool [Software-based]: Introduction to EV Technology and Its Benefits, Basic Vehicle Design Principles, Design and Modelling of Chassis and Frame, Suspension Systems, Design and Modelling of Braking and Steering Systems, Design and Modelling of Electrical Components for EVs, Battery Pack Design and Modelling for 2, 3 and 4 Wheelers, Motor and Drivetrain Design and Modelling for 2, 3 and 4 Wheelers, Design and Modelling of Wheels and Tires for 2, 3 and 4 Wheelers, Testing and Simulation of Vehicle Performance Using Solid Works, Design for Manufacturability and Assembly Considerations, Sustainability and Environmental Impact Considerations in EV Design, Practical session - EV hardware components walkthrough",
+          "Multibody Dynamics with MSC Adams [Software-based]: Introduction to MSC Adams Software and Its Capabilities, Setting Up the Modelling Environment in MSC Adams, Multi-body Dynamics Principles and Application to Vehicle Systems Modelling, Vehicle Suspension Systems Modelling, Vehicle Steering Systems Modelling, Vehicle Braking Systems Modelling, Practical session - EV Component design & modeling",
+          "EV Analysis with MSC Adams (Software-based): Tire Force and Characteristics Modelling, Vehicle Dynamics Analysis Including Simulating Ride and Handling, Vehicle Stability and Rollover Events, Optimisation Techniques for Vehicle Designs Using MSC Adams, Integration of MSC Adams Models with Other Software Tools for System-level Simulations and Analysis, Practical session - EV body design analysis"
+        ],
+        "references": [
+          "James Larminie and John Lowry, \u201cElectric Vehicle Technology Explained\", Wiley, 2nd ed, 2012, ISBN: 978-1-119-94273-3",
+          "Du, H., Cao, D., & Zhang, H. (n.d.). \u201cModelling, Dynamics, and Control of Electrified Vehicles\u201d, Woodhead Publishing, 2017, ISBN-13: 9780128127865",
+          "Zaman N., \u201cAutomotive Electronics Design Fundamentals\u201d, Springer",
+          "Gianfranco Pistoia, \u201cElectric & Hybrid Vehicles\u201d, Elsevier, 1st ed, 2010, ISBN: 9780444638250",
+          "Chau, K. T., \u201cElectric Vehicle Machines and Drives: Design, Analysis and Application\u201d, John Wiley and Sons, Inc., 2015, ISBN-13: 9781118752524",
+          "Ehsani, Mehrdad, \u201cModern Electric, Hybrid Electric, and Fuel Cell Vehicles\u201d, CRC, 2019, ISBN-13: 9780367137465",
+          "Hughes, Austin, \u201cElectric Motors and Drives\u201d, Newnes (an Imprint of Butterworth-Heinemann Ltd), 2019, ISBN-13: 9780081026151",
+          "Chris Ni and M. Abul Masrur, \u201cHybrid electric Vehicles, Principles and Applications\u201d, WILEY, 2nd Ed, 2017, ISBN: 978-1-118-97054-6",
+          "\"Introduction to Electric Vehicles\" - offered by IIT Delhi on NPTEL Link: https://archive.nptel.ac.in/courses/108/106/108106170/"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ELE 4409",
+        "title": "ARTIFICIAL INTELLIGENCE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Foundations of Artificial Intelligence",
+          "Intelligent Agents and Environments",
+          "The concept of Rationality",
+          "The Nature of Environments",
+          "Problem Solving agents",
+          "Searching for Solutions",
+          "Uninformed search strategies",
+          "Informed (Heuristic) search strategies",
+          "Heuristic functions",
+          "Local search algorithms and optimization problems",
+          "Adversarial Search and Constraint satisfaction Problems",
+          "Knowledge and Reasoning",
+          "Knowledge-based agents",
+          "The wumpus world",
+          "Propositional logic",
+          "First-order logic",
+          "Syntax and semantics",
+          "Knowledge representation",
+          "Ontological Engineering",
+          "Uncertain knowledge and Reasoning",
+          "Acting under uncertainty",
+          "Basic probability notation",
+          "Semantics of Bayesian network",
+          "Self-study: Case studies/simulation of various search techniques"
+        ],
+        "references": [
+          "Stuart Russell & Peter Norvig, Artificial Intelligence A Modern Approach, 3e, Pearson, 2012",
+          "Elaine Rich, Kevin Knight & Shivashankar B. Nair, Artificial Intelligence, 3e, Tata McGraw Hill, 2012",
+          "David L. Poole & Alan K. Mackworth, Artificial Intelligence: Foundations of Computational Agents, 2e, CUP, 2017",
+          "NPTEL Courses: http://nptel.ac.in/courses/106105077/"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "ECE 4409",
+        "title": "MACHINE LEARNING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Machine Learning",
+          "Feature reduction techniques",
+          "Linear Discrimination",
+          "Artificial Neural Networks (ANN)",
+          "Parameter estimation methods",
+          "Evaluation measures: Graphical methods",
+          "Clustering methods",
+          "Reinforcement learning (RL)"
+        ],
+        "references": [
+          "Alpaydin E, Introduction to Machine Learning, (2e), MIT Press. 2010.",
+          "Duda R.O, Hart P.E. and Stork D.G., Pattern Classification, (2e), Wiley, 2001",
+          "Bishop C. M., Pattern Recognition and Machine Learning, Springer, 2007.",
+          "Andrew Barto and Richard Sutton, Reinforcement learning an Introduction, MIT press, 1998.",
+          "Jensen R. and Shen Q. Computational Intelligence and Feature Selection: Rough and Fuzzy Approaches, Vol. 8, IEEE Press Series on Computational Intelligence, John Wiley and Sons, 2008."
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4410",
+        "title": "SOFT COMPUTING TECHNIQUES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to soft computing techniques",
+          "Artificial Neural networks",
+          "basic models",
+          "Models of ANN",
+          "Hebb network",
+          "training algorithms",
+          "perceptron networks",
+          "perceptron training algorithms",
+          "back-propagation networks",
+          "radial basis functions",
+          "Fundamental concept of Fuzzy logic",
+          "fuzzification and defuzzification methods",
+          "methods of membership value assignments",
+          "fuzzy arithmetic",
+          "fuzzy reasoning",
+          "fuzzy inference systems",
+          "fuzzy decision making",
+          "Genetic algorithms",
+          "classification of GA",
+          "Adaptive neuro-fuzzy inference systems",
+          "Fuzzy Artificial Neural Networks",
+          "Applications of Soft computing techniques to solve real-time problems",
+          "Self-study topic: Simulation of ANN",
+          "Fuzzy logic applications using MATLAB/Python programming"
+        ],
+        "references": [
+          "Jacek M. Zurada., Introduction to Artificial Neural Systems, JPH, 2016",
+          "Timothy J. Ross, Fuzzy logic with engineering applications, McGraw Hill publications, 2012",
+          "Sivanandam & Deepa, Principles of Soft computing, Wiley India, 2009",
+          "Rajasekaran & Vijayalakshmi Pai, Neural networks, Fuzzy logic and Genetic algorithms, PHI,2003",
+          "NPTEL Courses: https://nptel.ac.in/courses/106/105/106105173/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4410",
+        "title": "COMPUTER VISION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Pinhole cameras",
+          "Image formation",
+          "Sources",
+          "Image features representation",
+          "Segmentation",
+          "Segmentation and fitting using probabilistic methods: Expectation-maximization algorithm",
+          "The geometry of two views",
+          "Camera calibration",
+          "Pattern Classification"
+        ],
+        "references": [
+          "David A. Forsyth and Jean Ponce, Computer Vision: A Modern Approach, Pearson Education, 2003",
+          "Richard Szeliski, Computer Vision: Algorithms and Applications",
+          "Richard Hartley and Andrew Zisserman, Multiple View Geometry in Computer Vision, 2nd Edition, Cambridge University Press, 2004",
+          "Linda Shapiro and George Stockman, Computer Vision, Pearson Education, 2001"
+        ],
+        "flags": [
+          "missing_semester",
+          "incomplete_reference: Richard Szeliski, Computer Vision: Algorithms and Applications (missing publication year)"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4411",
+        "title": "EMBEDDED SYSTEM DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Embedded systems overview",
+          "Embedded Software: Interrupts, interrupt latency, shared data problems, scheduling",
+          "Real-time operating system architecture",
+          "Introduction to the real-time operating system",
+          "Embedded hardware: standard peripherals; Communication; protocols",
+          "Designing embedded system using FSM models",
+          "Hardware and software co-design",
+          "Embedded C programming",
+          "Embedded development life cycle (EDLC)"
+        ],
+        "references": [
+          "Frank Vahid & Tony Givargis, \u201cEmbedded system design\u201d, Wiley Publication, 2002",
+          "An Embedded software primer, David E Simon, Addison Wesley",
+          "Shibu K.V, \u201cIntroduction to embedded systems\u201d, McGraw Hill Publication, 2013",
+          "RajKamal, \u201cEmbedded Systems\u201d, 2nd edition, TataMcGrawHill"
+        ],
+        "flags": [
+          "missing_sem",
+          "incomplete_references"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4411",
+        "title": "FPGA BASED SYSTEM DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Overview of Digital Systems \u2013 Implementation options",
+          "FPGA Architecture",
+          "Programming technologies",
+          "Altera & Actel logic cells",
+          "I/O Blocks",
+          "Programmable interconnects",
+          "Logic implementation",
+          "Design verification - Test bench codes",
+          "Hardware testing",
+          "FPGA Architectural options",
+          "Granularity of function and wiring resources",
+          "Reconfigurable architectures - Fine grained",
+          "Reconfigurable architectures - Coarse grained",
+          "Reconfigurable architectures - Medium grained",
+          "Embedded multipliers",
+          "Adders",
+          "MACs",
+          "Processor cores",
+          "Configuring an FPGA",
+          "Vendor specific issues",
+          "Logic block architecture",
+          "Timing models - static and dynamic timing analysis",
+          "Input and Output cell characteristics",
+          "Power dissipation",
+          "Partitioning and placement",
+          "Routing resources",
+          "Embedded system design using FPGAs",
+          "DSP using FPGAs",
+          "Multi FPGA systems",
+          "Reconfigurable systems",
+          "Application case studies",
+          "Self-study: Developing and synthesizing RTL based circuit for the given application"
+        ],
+        "references": [
+          "M.J.S. Smith, Application Specific Integrated Circuits, (1e), Pearson, 2002",
+          "Peter Ashenden, Digital Design (Verilog): An Embedded Systems Approach Using Verilog, (1e), Elsevier, 2007",
+          "Clive Maxfield, The Design Warrior's Guide to FPGAs, (1e), Elsevier, 2004",
+          "Hauck, S. and DeHon, A Reconfigurable computing: the theory and practice of FPGA-based computation, (1e), Elsevier, 2010",
+          "NPTEL Course: https://nptel.ac.in/courses/117/108/117108040/"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4412",
+        "title": "INTERNET OF THINGS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Demystifying the IoT Paradigm, IoT Protocols, and Technologies",
+          "Concept of Device-to-Device/Machine-to-Machine Integration",
+          "Device-to-Cloud Integration",
+          "Realization of IoT Ecosystem Using Wireless Technologies",
+          "Infrastructure and Service Discovery Protocols for the IoT Ecosystem",
+          "Next-Generation Clouds for IoT Applications and Analytics",
+          "Cloud Computing",
+          "Emerging Field of IoT Data Analytics",
+          "Software Defined Networking (SDN)"
+        ],
+        "references": [
+          "Raj P. and Raman A. C., The Internet of Things: Enabling Technologies, Platforms and Use Cases, CRC Press, 2017",
+          "Bagha A. and Medisetti V, Internet of Things: A Hands on Approach, University Press",
+          "Holler J., Tsiatsis V., Mulligan C., Karnouskos S., Avesand S., and Boyle D., From Machine to Machine to the Internet of Things: Introduction to a New Age of Intelligence, Academic Press, 2014",
+          "Vahid F, Givargis T., Embedded Systems Design: A Unified Hardware/Software Introduction, Wiley Publications, 2000",
+          "Axelson J, Parallel Port Complete, Penram Publications"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4412",
+        "title": "REAL TIME SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to real time systems, terminology, characteristics, real time system design issues",
+          "Types of real time systems, timing constraints, task dependencies, precedence constraints, precedence graph",
+          "Real time task scheduling: Clock driven schedulers; frame size constraints, Event driven schedulers; static and dynamic priority based schedulers",
+          "Schedulability/feasibility tests",
+          "Scheduling aperiodic and sporadic jobs",
+          "Handling task dependencies and resource constraints; priority inversion, dead-lock",
+          "Task scheduling on multiprocessor and distributed systems",
+          "Real time operating systems: kernels, queues, semaphores, benchmarking",
+          "Real time POSIX",
+          "Real time communication: Clock synchronisation, IEEE 802.5, IEEE802.4 standards",
+          "Self-study: Task scheduling, schedulability tests and real time communication"
+        ],
+        "references": [
+          "Jane W.S. Liu, Real time systems, Pearson Education, 2013",
+          "Qing Li and Caroline Yao, Real time concepts for Embedded Systems, Taylor & Francis Group, 2017",
+          "C.M. Krishna, Kang.G. Shin, Real time systems, Tata McGraw-Hill Edition, 2012",
+          "(Real Time Systems) http://nptel.ac.in/courses/106105036/",
+          "(Real Time Systems) http://nptel.ac.in/courses/106105086/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4413",
+        "title": "ADVANCED DIGITAL SIGNAL PROCESSING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Multi-rate signal processing",
+          "Multi-resolution analysis",
+          "Short-time Fourier transform and discrete-time wavelet transform",
+          "filter-bank for STFT and wavelet transform",
+          "Adaptive filtering",
+          "Homomorphic signal processing"
+        ],
+        "references": [
+          "Vaidyanathan P. P, Multirate Systems and Filter Banks, Prentice Hall, India, 1993",
+          "Gadre V M, Abhyankar A S, Multiresolution and Multirate Signal Processing: Introduction, Principles and Applications, McGraw Hill, 2017",
+          "Orfanidis S. J, Optimum Signal Processing, McGraw Hill, NJ, 2007",
+          "Oppenheim A.V and Schafer R.W., Digital Signal Processing, PHI Learning, 2008"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4413",
+        "title": "LINEAR ALGEBRA FOR SIGNAL PROCESSING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Vectors, matrices, norms, Lp-norms, Holder, Cauchy-Schwarz, and triangular inequalities, inner product spaces and their applications",
+          "System of linear equations and its solution sets, Gaussian elimination and back-substitution, echelon forms, matrix operations, LU-factorization, inverse matrices, Gauss-Jordan technique, transpose, elimination, and permutation matrices",
+          "Row space, column space, and null space of a matrix, bases and dimension, rank and nullity of a matrix, matrices as linear transformations, pseudo-inverse and applications, change of basis, affine transformations",
+          "Orthogonal subspaces, projections, Gram-Schmidt process, generalized Fourier series, QR factorization, least squares and their applications",
+          "Symmetric, Orthogonal, Hermitian, Unitary, Jacobian, and Hessian matrices, singular value decomposition and related applications",
+          "Characteristic equation, diagonalization, Jordan canonical form, special matrices, positive definite matrices and applications to signal processing",
+          "Singular value decomposition: theory and applications to signal and image processing",
+          "Self-study: implementation of topics discussed in MATLAB. Find and implement the applications in signal processing"
+        ],
+        "references": [
+          "Gilbert Strang, \u201cLinear Algebra and its Applications\u201d, 3rd edition, Thomson Learning Asia, 2003",
+          "David C. Lay, \u201cLinear Algebra and its Applications\u201d, 3rd edition, Pearson Education (Asia) Pvt. Ltd, 2005",
+          "Vittal Rao, \u201cAdvanced Matrix Theory and Linear Algebra for Engineers\u201d, NPTEL: https://nptel.ac.in/courses /111 /108/ 111108066/#",
+          "Gilbert Strang, \u201cLinear Algebra\u201d, MITOCW: https://ocw.mit.edu/ courses/mathematics/18-06-linear-algebra-spring-2010/"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ECE 4414",
+        "title": "DIGITAL SPEECH PROCESSING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Fundamentals of speech",
+          "Time domain analysis of speech",
+          "Short-time Fourier analysis of speech",
+          "Homomorphic processing of speech",
+          "linear predictive coding of speech",
+          "Speech Processing Applications",
+          "Speech Synthesis"
+        ],
+        "references": [
+          "Rabiner L.R and Schaffer R.W, \u201cDigital Processing of Speech Signals\u201d, Prentice Hall, NJ, 2007",
+          "Thomas F. Quatieri, \u201cDiscrete.time Speech Signal Processing- Principles and Practice\u201d, Pearson Education, Inc., 2004",
+          "Douglas O' Shaughnessy, \u201cSpeech Communications. Human and Machine Reading\u201d, Addison Wesley, 1987",
+          "Dr. Shaila D. Apte, \u201cSpeech and Audio Processing\u201d, Wiley India, 2012",
+          "Lawrence Rabiner, Biing-Hwang Juang, B. Yegnanarayana, \u201cFundamentals of Speech Recognition\u201d, Pearson, 2011 (Fifth Impression)"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4414",
+        "title": "DIGITAL IMAGE PROCESSING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Characterization of continuous and discrete/digital image",
+          "2D sampling and quantization",
+          "2D continuous and discrete space signals",
+          "2D systems and their properties",
+          "2D convolution sum",
+          "2D continuous and discrete space Fourier transforms and properties",
+          "2D discrete Fourier transform (DFT)",
+          "discrete cosine transform (DCT)",
+          "Karhunen-Lo\u00e8ve transform (KLT)",
+          "Haar wavelet transform",
+          "Walsh and Hadamard transform",
+          "Basic gray-level transformation",
+          "histogram processing",
+          "image enhancement in the spatial domain",
+          "bilateral filters",
+          "nonlocal means filters",
+          "rotation",
+          "interpolation",
+          "Image enhancement in the frequency domain",
+          "Image degradation/restoration process",
+          "noise models",
+          "Image Compression",
+          "image compression models",
+          "image compression standards",
+          "Image pyramid",
+          "Morphological image processing",
+          "Correlation or template matching",
+          "normalized cross correlation",
+          "Basic segmentation techniques",
+          "segmentation by fitting lines, curves, shapes",
+          "Active contours",
+          "Applications to biomedical image processing",
+          "Self-study: Implementation of image processing topics discussed in MATLAB/ImageJ/Python"
+        ],
+        "references": [
+          "Lim J. S., Two-dimensional signal and image processing, Prentice Hall, 1990.",
+          "Jain A. K., Fundamentals of digital image processing, Prentice Hall, 1989.",
+          "Gonzalez R. C. and Woods R. E., Digital image processing, Pearson, Fourth Edition, 2018.",
+          "William K. Pratt, Digital image processing, Wiley, Fourth Edition, 2007.",
+          "W. Burger and M. J. Burge, Digital image processing \u2013 An algorithmic introduction using Java, First edition, 2007.",
+          "B. K. Biswas, \u201cDigital Image Processing\u201d, NPTEL: https://nptel.ac.in/courses/117/105/117105079/",
+          "Aggelos K. Katsaggelos, \u201cFundamentals of Digital Image and Video Processing\u201d, Coursera: https://www.coursera.org/learn/digital"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4401",
+        "title": "LIGHTING SCIENCE: DEVICES AND SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Electromagnetic spectrum",
+          "anatomy of eye",
+          "spectral eye sensitivity",
+          "Photometric, radiometric and quantum quantities",
+          "Relation between photometric quantities",
+          "Incandescence",
+          "Luminescence",
+          "Thermal radiators",
+          "Plank's Law",
+          "Wein's law",
+          "Stephan-Boltzmann's law",
+          "Construction & working principle of artificial light sources",
+          "Performance characteristics of conventional and solid-state lamps",
+          "Optical control of light",
+          "Screening devices",
+          "Light distribution diagrams of luminaires",
+          "Photometry measurements",
+          "Evaluation of total luminous flux",
+          "Simulation and Case study of the selected topics"
+        ],
+        "references": [
+          "Spiros Kitsinelis, Light Sources: Technologies & Applications, CRC press, 2010",
+          "Robert Karlicek, Handbook of Advanced Lighting Technology,",
+          "M.A. Cayless & A.M. Marsdon, Lamps & Lighting, 4e, Oxford & IBH publishing company, 1996",
+          "Cotton H., Principles of Illumination, Chapman & Hall Ltd., London, 1960",
+          "NPTEL Course: https://nptel.ac.in/courses/108/105/108105061/"
+        ],
+        "flags": [
+          "missing_sem",
+          "incomplete_reference"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "ELE 4402",
+        "title": "INTEGRATED LIGHTING DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Interior lighting design Objectives",
+          "importance of Illuminance",
+          "uniformity and glare",
+          "factor affecting performance of lighting system",
+          "impact of Surface Reflectance's & Room proportions on Lighting",
+          "Maintenance Aspects",
+          "Types of interior lighting",
+          "Methods of Design Calculations",
+          "CU calculation Methods",
+          "Glare evaluation methods",
+          "Flood lighting design objectives",
+          "Flood lighting design method",
+          "Road Lighting Objectives",
+          "Geometrical factors affecting performance of road lighting",
+          "Basic Lightings schemes",
+          "Road lighting design method",
+          "Tunnel Lighting design considerations",
+          "Tunnel lighting design method",
+          "Sports Lighting design objectives",
+          "Sports lighting design method",
+          "Daylighting strategies",
+          "Shading devices",
+          "Glazing Area",
+          "day light factor"
+        ],
+        "references": [
+          "Robert Karlicek, Handbook of Advanced Lighting Technology, Springer Publications, 2017.",
+          "N K Kishore, \u201cIllumination Engineering\u201d, NPTEL, [Online]. Available: https://nptel.ac.in/courses/108/105/108105061/, 2009.",
+          "Prafulla C. Sorcar, \u201cEnergy Saving Lighting Systems\u201d, VNR Company, 1982.",
+          "Robbins Cluade L, \u201cDay Lighting\u201d, VNR Company,1986.",
+          "Mark S. Rea, \"The IESNA Lighting Handbook: Reference & Application\", Illuminating Engineering Society of North America, 10 Ed, 2011."
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4403",
+        "title": "LIGHTING CONTROL, TECHNOLOGY & APPLICATIONS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Basic components of lighting control system",
+          "Sensor strategies: Occupancy sensor, Daylight harvesting, Photo sensors",
+          "Camera based lighting control: High dynamic range Imaging, Control technologies and algorithm, Artificial Intelligence in lighting comfort and daylighting",
+          "Daylight prediction methods",
+          "Human centric lighting",
+          "Zoning",
+          "LEED credits relevant to lighting",
+          "Lighting controls and Energy Conservation code",
+          "Payback period calculation",
+          "Networking and Communication strategies for lighting control: DMX 512, DALI, KNX, BacNet protocols and Li Fi technology",
+          "Power over Ethernet, ZigBee, Wireless sensor network, Internet of things \u2013 lighting control aspect"
+        ],
+        "references": [
+          "Robert S Simpson, Lighting control technology and applications, McGraw-Hill Higher Education, Focal Press, 2003",
+          "LEED reference guide for building design and construction, U.S Green Building Council, 2013",
+          "Energy Conservation Building Code 2017, Bureau of Energy Efficiency, Govt. of India",
+          "Farahani, Shahin. ZigBee wireless networks and transceivers, Newnes, 2011",
+          "NPTEL Courses, https://nptel.ac.in/courses/108/105/108105060/"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4404",
+        "title": "SOLID STATE LIGHTING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction of LEDs",
+          "Electrical and optical characteristics of LEDs",
+          "Temperature dependence of LEDs",
+          "Light receptors of human eye",
+          "radiometric, colorimetric and photometric units",
+          "CIE chromaticity",
+          "Binning",
+          "Mac dam ellipse",
+          "Study of spectral characteristics of LEDs",
+          "white light generation using monochromatic LEDs",
+          "CRI and CQS",
+          "Color matching functions",
+          "Color Mixing Algorithm and Verification",
+          "DC and AC LED driving circuits",
+          "dimming",
+          "LED lifetime",
+          "Thermal analysis model for LEDs",
+          "Lumen maintenance and lifetime testing of solid-state lighting products",
+          "Reliability of LED products",
+          "Overview on lighting advancements- Colour tunable lighting",
+          "Human centric smart lighting",
+          "Horticulture",
+          "Self Study: Simulation and case studies of selected topics"
+        ],
+        "references": [
+          "E. Fred Schubert, \u201cLight Emitting Diodes\u201d, Cambridge University Press, 3E, 2018",
+          "Vinod Kumar Khanna,\u201d Fundamentals of Solid State Lighting\u201d CRC press,2014",
+          "Clemens J M Lasance and Andras Poppe, \u201cThermal management for LED applications\u201d, Springer Publications, 2014",
+          "M Nisa Khan,\u201dUnderstanding LED Illumination\u201d,CRC Press, 2014",
+          "Daniel W Hart,\u201d Power Electronics\u201d, McGraw- Hill, 2011"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4415",
+        "title": "EV BATTERY TECHNOLOGY AND POWERTRAIN DEVELOPMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Battery Fundamentals: Basics of Batteries, Battery Parameters, Lithium-Ion Characteristics, Thermal Runaway Battery Management System (BMS), Functionality, Practical session - Battery Selection and Connection Process with Vehicle Sensors",
+          "Battery Management Systems: SOC/SOH Estimation, Cell Balancing, Protection, Thermal Management, CAN Communication, Practical session - BMS development",
+          "Battery Pack Design & Modelling: Overview of Battery & BMS System, Electrical Design, Mechanical Design: Calculations and Mechanical Design using ANSYS, Heat Transfer, Thermal Design of Battery Pack, Battery Pack Assembly and Test, Thermal Analysis on Battery Pack, MATLAB/Simulink-based Battery Pack Modelling, Practical session - Battery life cycle testing",
+          "Powertrain and Charging Systems of Electric Vehicles: Introduction to EV Powertrain, Overview, Architecture and Components of EV Powertrain, Thermal Management of EV Powertrain, EV Charging Systems and Types of Chargers",
+          "Modelling, Simulation, and Analysis of EV Powertrain Components: Modelling and Simulation of EV Powertrain Components in MATLAB, Modelling and Analysis of EV Powertrain Components in SolidWorks, Analysis of EV Powertrain Components in ANSYS, Case Study on Powertrain of Existing Models"
+        ],
+        "references": [
+          "James Larminie and John Lowry, \u201cElectric Vehicle Technology Explained\", Wiley, 2nd ed, 2012, ISBN: 978-1-119-94273-3",
+          "JIANGONG, D. H. Z., \u201cAdvances in lithium-ion batteries for electric vehicles: Degradation Mechanism, health estimation, and lifetime prediction\u201d, Elsevier - Health Science, 2024, ISBN-13: 9780443155437",
+          "R. Xiong, \u201cBattery Management Algorithm for Electric Vehicles\u201d, Springer, 2020, ISBN-13: 9789811502507",
+          "Xiong and Weixiang Shen, \u201cAdvanced battery management technologies for electric vehicles\u201d, John Wiley & Sons Inc, 2019, ISBN-13: 9781119481645",
+          "Hick, Klaus K\u00fcpper, and HelfriedSorger, \u201cSystems engineering for automotive powertrain development\u201d, Springer, 2021, ISBN-13: 9783319996288",
+          "Christopher D. Rahn, \"Battery Systems Engineering\", Wiley, 1st Ed, 2013, ISBN:9781119979500",
+          "Noshin Omar, \"Electric Vehicle Batteries: Moving from Research towards Innovation\", Reports of the PPP European Green Vehicles Initiatives, Springer, 2015",
+          "Gonzalo Abad and Joaquim Lois, \u201cPower Electronics and Electric Drives for Traction Applications\", Wiley, 2016, ISBN: 978-1-118-95442-3",
+          "John G. Hayes and G. Abas Goodarzi, Electric Powertrain: Energy Systems, Power Electronics and Drives for Hybrid, Electric and Fuel Cell Vehicles\", Wiley, 2017, ISBN: 978-1-119-06364-3"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4416",
+        "title": "EV CHARGING INFRASTRUCTURE, VEHICLE TESTING & HOMOLOGATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "EV Business Management and Vehicle Testing",
+          "Fundamentals of Product Development Planning",
+          "Effective Development Methods for Product Innovation",
+          "Understanding EV Charging Technologies and Infrastructure",
+          "Designing and Managing EV Charging Infrastructure"
+        ],
+        "references": [
+          "M. S. Alam, R. K. Pillai, and N. Murugesan, \u201cDeveloping Charging Infrastructure and Technologies for Electric Vehicles\u201d, IGI Global, 2021, ISBN-13: 9781799868590, ISBN-10: 1799868591",
+          "Vahidinasab and Behnam Mohammadi-Ivatloo, \u201cElectric Vehicle Integration via Smart Charging\u201d, Springer, 2022, ISBN-13: 9783031059087, ISBN-10: 3031059085",
+          "Sivaraman Palanisamy, Sharmeela Chenniappan, and Sanjeevi kumar Padmanaban, \u201cFast-Charging Infrastructure for Electric and Hybrid Electric Vehicles\u201d, John Wiley & Sons, 2023, ISBN-13: 9781119987741, ISBN-10: 1119987741",
+          "Sulab Sachin, Sanjeevikumar Padmanaban, and S. Deb, \u201cSmart Charging Solutions for Hybrid and Electric Vehicles\u201d, John Wiley & Sons, 2022, ISBN-13: 9781119768951, ISBN-10: 1119768950",
+          "R. Wang, P. Wang, and G. Xiao, \u201cIntelligent Microgrid Management and EV Control Under Uncertainties in Smart Grid\u201d, Springer, 2017, ISBN-13: 9789811350870, ISBN-10: 9811350876"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4417",
+        "title": "EV VEHICLE DESIGN & ANALYSIS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Analog Electronics",
+          "Fundamentals of Digital Electronics",
+          "Essentials for Designing and Simulation Using MATLAB",
+          "EV Architecture Modelling Using MATLAB [Software-based]",
+          "Design of EV System Using MATLAB [Software-based]"
+        ],
+        "references": [
+          "James Larminie and John Lowry, \u201cElectric Vehicle Technology Explained\", Wiley, 2nd ed, 2012, ISBN: 978-1-119-94273-3",
+          "Iqbal Husain, \"Electric and Hybrid Vehicles: Design Fundamentals\", Routledge, 3rd Ed, 2021, ISBN: 9780367693930",
+          "Ali Emadi, \"Advanced Electric Drive Vehicles\", CRC Press, 1st Ed, 2014, ISBN: 9781138072855",
+          "Sandeep Dhameja, \"Electric Vehicle Battery Systems\", Butterworth-Heinemann, 2st Ed, 2002, ISBN: 978-0750699167",
+          "Singh, Sanjeev, et al., \u201cElectric Vehicle Components and Charging Technologies\" IET, 2024, ISBN-13: 9781839536717",
+          "Das, Shuvra, \u201cModeling for Hybrid and Electric Vehicles Using Simscape\", Springer, 2022, ISBN-13: 9783031003806"
+        ],
+        "flags": [
+          "missing_sem",
+          "missing_department"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4418",
+        "title": "EV DATA ANALYTICS & CYBER SECURITY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Cyber Security for Automotive Vehicle Systems: Automotive Industry, Automotive Megatrends, Automotive Development Process, Automotive Electrical and Electronics, Automotive Software Technology, The Connected Car, Automotive Cybersecurity",
+          "Advanced Mobility Services: Mobile Apps for Connected Car, Car Hailing and Ride Sharing, Connected Parking and Automated Valet Parking, ADAS and Autonomous Driving",
+          "Data Analytics for EV and Automotive Systems: Introduction to Data Analytics and Its Application in the Automotive Industry, Understanding of the Data Analytics Pipeline, Overview of Data Analytics, Its Tools, and Techniques, EV Data Collection and Analysis, Sensors and Data Collection in EVs, Data Acquisition and Pre-processing, Statistical Analysis of EV Data, Practical session - Conducting a vulnerability assessment on an in-vehicle network, and developing a report on the findings with recommendations for mitigations",
+          "Automotive System Data Collection and Analysis: Automotive Systems (such as Engines, Transmissions, Brakes, etc.), Data Acquisition and Pre-processing, Statistical Analysis of Automotive System Data, Regression, Classification and Clustering, Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA), Predictive Maintenance Techniques in Automotive Systems, Fault Detection and Diagnosis, Remaining Useful Life (RUL) Prediction, Practical session - Developing predictive maintenance models for automotive systems",
+          "Introduction to Big Data Platforms: Introduction to Big Data Platforms and Tools (such as Hadoop, Spark, and Kafka), How to Use Big Data Platforms to Process and Analyze Automotive Data, Practical session - Case studies showcasing the application of data analytics in the automotive industry"
+        ],
+        "references": [
+          "Mashrur Chowdhury, Amy Apon and Kakan Dey, \"Data Analytics for Intelligent Transportation Systems\", Elsevier, 1st Ed, 2017, ISBN: 978-0128097151",
+          "Tyson Macaulay, Bryan L. Singer, and John R. Vacca, \"Cybersecurity for Industrial Control Systems: SCADA, DCS, PLC, HMI, and SIS\", CRC Press, 1st Ed, 2011, ISBN: 978-1439801963",
+          "James Larminie and John Lowry, \"Electric Vehicle Technology Explained\", Wiley, 2nd ed, 2012, ISBN: 978-1-119-94273-3",
+          "David Ward and Paul Wooderson, \"Automotive Cybersecurity: An Introduction to ISO/SAE 21434\", SAE International, 1st Ed, 2021, ISBN: 978-1468600803",
+          "Dartmann Guido, AnkeSchmeink and Houbing Song, \"Big Data Analytics for Cyber-Physical Systems: Machine Learning for the Internet of Things\", Elsevier, 1st Ed, 2019, ISBN: 978-0128166376",
+          "Craig Smith, \"The Car Hacker's Handbook: A Guide for Penetration Tester\", No Starch Press US, 1st Ed, 2016, ISBN: 978-1593277031",
+          "Root, Alex, \"Python for Data Analytics\", Independently published, 2019, ISBN-13: 9781691418831",
+          "Runkler, Thomas A., \"Data Analytics\", Springer, 2020, ISBN 9783658297794",
+          "Janeja, Vandana P., \"Data Analytics for Cybersecurity\", Cambridge University Press, 2022, ISBN-13: 9781108415279"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4441",
+        "title": "BUILDING AUTOMATION SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Concept of intelligent, green, and smart building",
+          "Overview of Digital Controllers, Network and Communication protocols",
+          "Introduction to Building Management Systems",
+          "General BMS architecture",
+          "Communication Systems and standards for BMS",
+          "Application of internet for Automation and Management",
+          "Introduction to HVAC and Optimal control methods for HVAC Systems",
+          "Lighting Control Systems and protocols",
+          "Security and Safety Control Systems such as Access Control and Fire Alarm Systems",
+          "System Integration and Convergence",
+          "Energy Management, Green Building (LEED) concept and examples",
+          "Introduction to Lon Works",
+          "Energy saving with variable speed drives"
+        ],
+        "references": [
+          "V. K. Jain, \u201cAutomation Systems in Smart and Green Buildings\u201d, published by Khanna Publishers (2009), ISBN-13: 978-",
+          "Reinhold A. Carlson, Robert A. Di Giandomenico, \u201cUnderstanding Building Automation Systems: Direct Digital Control, Energy Management, Life Safety, Security/access Control, Lighting, Building Management Programs\"",
+          "Ronnie J. Auvil, \u201cHVAC Control Systems\u201d, Second Edition Hardcover January 1, 2007",
+          "Thomas L. Norman, \u201cIntegrated Security Systems Design: Concepts, Specifications, and Implementation (v. 1)\u201d, CPP PSP CSC (2007)"
+        ],
+        "flags": [
+          "missing_semester",
+          "uncertain_tags"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4442",
+        "title": "COMPUTER ARCHITECTURE & ORGANIZATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Computer Architecture: Components, Instruction Set Architecture, Instruction Types and Addressing modes",
+          "CPU structures: General Register CPU; Accumulator based machine; Stack based machine",
+          "Memory Organization: Memory hierarchy, Cache memory, Virtual memory",
+          "Datapath design: General Register design, shifters, adders, ALU design, representation of numbers",
+          "Multiplication of signed and unsigned integers, Division of unsigned integers \u2013 restoring and non-restoring methods",
+          "Control path design: Hardwired and Micro-programmed, Micro-instruction formats, control unit organization, control unit optimization",
+          "Types of architecture: RISC, CISC, Architecture trends and implications for the future - dual core, multicore, superscalar architecture",
+          "Input/ Output interfacing",
+          "Pipelining and parallel processing"
+        ],
+        "references": [
+          "William Stallings, Computer Organization and Architecture, 10e, Pearson, 2016",
+          "David Harris and Sarah Harris, Digital Design and Computer Architecture, Elsevier, 2008",
+          "David Patterson and John Hennessy, Computer Organization and Design, Elsevier, 2007",
+          "M. Raffiquzzman, Fundamentals of Digital logic and microcomputer design, 5e, Wiley, 2005",
+          "NPTEL Courses: https://nptel.ac.in/courses/106/106/106106092/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ELE 4443",
+        "title": "DATA STRUCTURES & ALGORITHMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Data Structures, abstract data types, basic data structures and their representations: arrays, queues, circular queues, stacks, linked lists, singly and doubly linked lists, trees, binary trees, tree traversals, binary search trees, graphs, basic operation on data structures using pseudocode",
+          "Analysis of Algorithms, time complexity, space complexity, asymptotic notations, master theorem, iterative and recursive algorithms",
+          "Searching and Sorting",
+          "Algorithm design techniques",
+          "Greedy method",
+          "Divide and Conquer",
+          "Shortest Path Algorithms",
+          "Prim's algorithm",
+          "Kruskal's algorithm",
+          "Knapsack problem",
+          "Dynamic programming and Backtracking",
+          "Hashing",
+          "Self-study: programming practice of certain real-time applications on the topics such as searching, sorting etc."
+        ],
+        "references": [
+          "Cormen, Leiserson and Rivest, Introduction to Algorithms, 3e, MGH 2009",
+          "Aho, Hopcroft and Ulmann, Design and Analysis of Algorithms, 1e, Pearson 2002",
+          "Mark Allen Weiss, Data Structures and Algorithm Analysis in C, 2e, Pearson 2010",
+          "Horowitz and Sahni, Fundamentals of computer algorithms, 2e, Universities Press. 2008",
+          "NPTEL Courses: https://nptel.ac.in/courses/106/102/106102064/"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "ELE 4444",
+        "title": "DEMAND SIDE MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Energy conservation Act, Standard and labelling",
+          "Energy audit",
+          "Energy action planning",
+          "financial analysis",
+          "Project management",
+          "Energy conservation and efficiency",
+          "Energy monitoring and targeting",
+          "New and renewable energy sources",
+          "Distributed Generation",
+          "General tariff form",
+          "Dynamic pricing",
+          "Time-of-Day (TOD) pricing",
+          "Realtime pricing",
+          "Private and public supply",
+          "Economic load sharing",
+          "Power factor of common appliances causes and effects of low power factor",
+          "economics of power factor improvement",
+          "Lighting",
+          "Refrigerators",
+          "Air-conditioners",
+          "Distribution transformers",
+          "Electric motors",
+          "Variable Speed Drive (VFD) Applications",
+          "Fans",
+          "pumps",
+          "Cogeneration",
+          "Trigeneration",
+          "Daylighting",
+          "ECBC code",
+          "Demand Side Management approaches \u2013 Load shifting",
+          "Load categorization",
+          "Consumer Categorization",
+          "Electric Vehicles Smart meters",
+          "Advance metering infrastructure (AMI)",
+          "Smart thermostat",
+          "DSM challenges",
+          "Best practices and technologies in Electrical System",
+          "Measurement and verification of energy performance of organizations",
+          "Perform Achieve Trade (PAT)",
+          "Internet of Things (IoT)",
+          "Industry 4.0",
+          "Self-study: Case studies on energy audit of electrical and thermal facilities",
+          "Energy management using renewable energy sources"
+        ],
+        "references": [
+          "Guidebooks for National Certification Examination, 2020, [E-book] Available: http://aipnpc.org/Guidebooks.aspx",
+          "Guidebook: Refresher Course for Certified Energy managers and Auditors, 2020, [E-book] Available: http://refreshercourse.in/ Module/RC_Material.pdf",
+          "R. K. Rajput, Utilization of Electrical Power, 2006",
+          "Ashish Mathur, Demand Side Management, LAP Lambert Academic Publishing, 2012",
+          "NPTEL - Technologies for Clean and Renewable Energy Production, https://nptel.ac.in/courses/103/107/103107157/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4445",
+        "title": "ENERGY ANALYTICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Energy ecosystem",
+          "Energy sources",
+          "Key steps in energy analytics",
+          "Application of energy analytics in electricity sector areas",
+          "Decarbonization, decentralization, and digitalization of electricity sector",
+          "Energy datasets",
+          "Energy dashboards (electricity, power markets, renewables, coal, oil, gas)",
+          "Python programming basics",
+          "Python libraries \u2013 NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn",
+          "Data visualization",
+          "Exploratory Data Analysis basics & statistical tools",
+          "Forecasting and prediction",
+          "Clustering",
+          "Monitoring & Control",
+          "Regression",
+          "Time-series analysis",
+          "Neural Networks",
+          "Support Vector Machines",
+          "Tree-based approaches",
+          "Clustering approaches",
+          "Hybrid approaches",
+          "Evaluation matrices",
+          "EVs - mobility, battery, charging type & charging station",
+          "metering",
+          "user behavior, etc. analytics",
+          "EV telematics",
+          "Analytics on Energy-efficient buildings",
+          "Roof-top solar",
+          "Residential batteries",
+          "Smart appliances",
+          "Smart metering"
+        ],
+        "references": [
+          "EMC Education Services, \u201cData Science & Big Data Analytics: Discovering, Analyzing, Visualizing and Presenting Data\u201d, John Wiley & Sons, Inc., 2015",
+          "G. J. Myatt, W. P. Johnson, \u201cMaking Sense of Data I: A Practical Guide to Exploratory Data Analysis and Data Mining\u201d, Second Edition, John Wiley & Sons Publication, 2014",
+          "Frederik vom Scheidt, et al., \u201cData analytics in the electricity sector \u2013 A quantitative and qualitative literature review,\u201d Energy and AI, Elsevier, vol. 1, Aug 2020",
+          "Websites of NITI Aayog, CEA, RLDCs, IEX, Nordpool, PJM, etc.",
+          "NPTEL Course: https://nptel.ac.in/noc/courses/noc22/SEM1/noc22-cs32/ (Python for Data Science)"
+        ],
+        "flags": [
+          "missing_semester",
+          "uncertain_tags"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4446",
+        "title": "ENERGY AUDITING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Energy Scenario",
+          "Energy conservation Act 2001",
+          "Basics of energy and its forms",
+          "Energy management and audit",
+          "Energy action planning",
+          "financial management",
+          "Project management",
+          "Energy monitoring and targeting",
+          "Electrical systems",
+          "Electric motors",
+          "Fans and Pumps",
+          "Lighting systems",
+          "HVAC",
+          "refrigeration systems",
+          "Energy conservation in buildings",
+          "Energy Conservation Building Code (ECBC)",
+          "Fuels and combustion",
+          "Boilers",
+          "Cogeneration",
+          "Heat exchangers",
+          "perform achieve trade (PAT)",
+          "Energy Efficiency Performance Indicators for Industries",
+          "Plant energy efficiency data analytics",
+          "EPI",
+          "AAHEPI",
+          "Power factor improvement",
+          "Demand side management",
+          "Self-study: Case studies on energy audit of electrical and thermal facilities",
+          "Energy management using renewable energy sources"
+        ],
+        "references": [
+          "Guidebooks for National Certification Examination, 2020, [E-book] Available: http://aipnpc.org/Guidebooks.aspx",
+          "Guidebook: Refresher Course for Certified Energy managers and Auditors, 2020, [E-book] Available: http://refreshercourse.in/Module/RC_Material.pdf",
+          "Wayne C. Turner, Energy Management Handbook, Fifth Edition, Fairmont Press, 2004",
+          "NPTEL - Energy conservation and waste heat recovery - https://nptel.ac.in/courses/112/105/112105221/"
+        ],
+        "flags": [
+          "missing_semester",
+          "unclear_course_type"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ELE 4447",
+        "title": "ENERGY STORAGE DEVICES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Importance of energy storage and introduction to different forms of energy storage",
+          "Trends in power system development and energy storage as a structural unit of a power system",
+          "Energy and power balance in a storage unit",
+          "Mathematical model of energy storage",
+          "Applications of energy storage - utilities, transport, industry, household",
+          "Energy storage techniques: Electrochemical energy storage - Secondary batteries, electrical circuit modeling of a cell, estimation of state of charge, state of health, Energy and power estimation of battery pack, and battery charge controller design",
+          "Fuel cells: History \u2013 working principle - thermodynamics of fuel cell process \u2013 Types of fuel cells \u2013 Modeling of fuel cell - Fuel Cell System Design",
+          "Case Study on Electrical Vehicle - Architecture of Hybrid EV, Plug-in hybrid EV, Electric Vehicles, and System Design Consideration, rating and sizing of energy storage devices for EV",
+          "Thermal energy storage: General considerations - storage media - Containment - Power extraction",
+          "Flywheel storage",
+          "Superconducting magnetic energy storage: Basic principles, Superconducting coils, Cryogenic systems, Power extraction, Environmental and safety problems",
+          "Pumped hydro storage: Basic Principle - The power extraction system - The central store for pumped hydro",
+          "Compressed air energy storage",
+          "Power system considerations for energy storage: Integration of energy storage systems - Effect of energy storage on transient regimes in the power system"
+        ],
+        "references": [
+          "Robert Huggins, \u201cEnergy Storage: Fundamentals, Materials and Applications\u201d, Springer, 2015",
+          "Gregory L Plett- \u201cBattery Management Systems,\u201d Volume- 1, Battery Modeling, Artech House Publishers, 2015",
+          "R. Boveand S.Ubertini \u201cModeling Solid Oxide Fuel Cells,\u201d Springer, 2008",
+          "John G. Hayes and G. Abas Goodarzi, \u201cElectric Powertrain-Energy Systems, Power Electronics and Drives for Hybrid, Electric and Fuel Cell Vehicles\u201d John Wiley&Sons Ltd. 2018",
+          "F. Naseri, E. Farjah and T. Ghanbari, \"An Efficient Regenerative Braking System Based on battery/Supercapacitor for Electric, Hybrid, and Plug-In Hybrid Electric Vehicles with BLDC Motor,\" in IEEE Transactions on Vehicular Technology, vol. 66, no. 5, pp. 3724-"
+        ],
+        "flags": [
+          "inferred_semester_from_code",
+          "incomplete_reference"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4448",
+        "title": "HVDC & FACTS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "HVDC transmission system, merits & demerits, applications and schemes of HVDC",
+          "equivalent circuit diagram of two-terminal HVDC link, control characteristics, grid firing units, converter faults",
+          "Performance of uncompensated, shunt & series capacitor compensated line",
+          "Introduction to FACTS controllers-configuration and working principle of SVC, STATCOM, TCSC, SSSC, and UPFC",
+          "steady-state characteristics, performance of line with FACTS controllers, power quality issues",
+          "working principle of DVR, DSTATCOM, UPQC",
+          "Self-study on the selected topics"
+        ],
+        "references": [
+          "K R Padiyar, FACTS Controllers in power transmission and distribution systems, New Age International publishers, New Delhi, 2007",
+          "Narendra G Hingorani & L. Gyugyi, Understanding FACTS: Concepts and Technology of flexible AC transmission systems, IEEE Press, 2000",
+          "K R Padiyaar, HVDC power transmission systems, Technology and System Interactions, New Age International publishers, New Delhi, 1999",
+          "Vijay K. Sood,'HVDC and FACTS Controller', Kluwer Academic Publisher, 2004",
+          "Bhim Singh, Ambrish Chandra, Kamal Al-Haddad, Power Quality: Problems and Mitigation Techniques, Wiley, 2014"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4449",
+        "title": "INTRODUCTION TO DATA SCIENCE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Data Science",
+          "Python libraries and visualization techniques",
+          "Statistical tools",
+          "Exploratory data analysis",
+          "Model building and analysis- Linear and Logistic Regressions, Decision Trees, Random Forests and Clustering methods, Neural Networks",
+          "Introduction to Natural Language Processing",
+          "Self-study: Simulation based studies of the selected topics"
+        ],
+        "references": [
+          "Joel Grus, Data Science from Scratch: First Principles with Python, 2e, O'Reilly, 2015",
+          "J. Vander Plas, Python Data Science Handbook, O'Reilly, 2016",
+          "Steven Bird, Ewan Klein & Edward Loper, Natural Language Processing with Python, 1e, O'Reilly, 2009",
+          "https://nptel.ac.in/courses/106/106/106106179/",
+          "https://nptel.ac.in/courses/106/106/106106184/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4450",
+        "title": "MICROGIRDS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Microgrid Concept and Structure",
+          "Operation Modes",
+          "Control Mechanism of the Connected Distributed Generators in a Microgrid",
+          "Control Structure in Grid-connected Mode",
+          "Control Structure in Islanded Mode",
+          "Participation in the Frequency Regulation",
+          "Power Dispatching",
+          "Power Management",
+          "Mathematical Modelling",
+          "Closed-Loop State-Space Model",
+          "Microgrid Control Hierarchy",
+          "Global Control",
+          "Droop Control",
+          "Virtual Impedance Control",
+          "Hierarchical Power Management and Control",
+          "Operation Layers and Control Functions",
+          "DC Microgrid Control",
+          "Virtual Inertia-based Stability and Regulation Support",
+          "Intelligent Control Technologies",
+          "Emergency Control and Load Shedding in Microgrids",
+          "Protection Schemes",
+          "Self-study: Simulation based studies of the selected topics"
+        ],
+        "references": [
+          "Hatziargyriou N, \u201cMicrogrids: Architectures & Control\u201d, John Wiley & Sons, 2014",
+          "Bevrani H, Francois B, Ise T, \u201cMicrogrid Dynamics and Control\u201d, John Wiley & Sons, 2017",
+          "Blaabjerg F, \u201cControl of Power Electronic Converters and Systems\u201d, Academic Press, 2018",
+          "Bahrami S, \u201cSmart Microgrids: From Design to Laboratory-Scale Implementation\u201d, Springer, 2019",
+          "Farhangi H, \u201cSmart Microgrids: Lessons from campus Microgrid design and implementation\u201d, CRC Press, 2017",
+          "NPTEL: https://onlinecourses.nptel.ac.in/noc20_ee84/preview"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "code": "ELE 4451",
+        "title": "POWER SYSTEM OPERATION AND CONTROL",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Review of Modern Power System & its characteristics: Overview of course of Power System Operation & control and methodology of teaching-learning, Modern Power system and its characteristics, Operating states, Equipment and Stability Constraints, Transmission line constraints",
+          "Optimal Economic Scheduling: Optimal scheduling of Thermal unit with Hybrid Sources",
+          "Optimal Load Flow and Unit Commitment: Optimal Power Flow Problem with and without Inequality Constraints on different variables. Unit Commitment Cost Function Formulation and Constraints, Solution method- Priority List Method, Dynamic Programming Method and Optimal Unit Commitment with Security Constraints",
+          "Power System Security and State estimation: Introduction to Power system security, Factors affecting Security, Different Contingency Analysis. Introduction to State Estimation, Different methods of State Estimation, Detection and Identification of Bad Data, The Role of State Estimation in Power System Operations",
+          "Self-study: Simulation based studies of the selected topics"
+        ],
+        "references": [
+          "Wood and Wollenberg, \u201cPower Generation Operation & Control\u201d, Wiley, 2011.",
+          "Jizhong Zhu, \u201cOptimization of Power System Operation\u201d Wiley-IEEE Press, 2009.",
+          "K. Uma Rao, \u201cPower System Operation and Control\u201d Willey, 2013.",
+          "NPTEL Course: https://nptel.ac.in/courses/108/101/108101040",
+          "NPTEL Course: https://nptel.ac.in/courses/108/104/108104052"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ELE 4452",
+        "title": "POWER SYSTEM RESTRUCTURING AND MARKET OPERATONS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Power system restructuring: Introduction, Motivation for restructuring of Power system, Indian Power Sector-Past and Present Status, Market structure and Operation",
+          "Operations in Power Market: Power Pools, Transmission Network and Electricity Markets, Arbitrage in Electricity market, Available Transfer Capability (ATC), Methods of ATC determinations",
+          "Market Power Risk Analysis: Game Theory, Power Transactions Game, Problems, Market Competition with Incomplete Information, Market Competition for Multiple Electricity Products",
+          "Introduction of Asset Valuation",
+          "Ancillary Service Auction Market: Ancillary Services for restructuring, Forward Ancillary Service Auction- Sequential and Simultaneous approaches",
+          "Transmission Pricing: Introduction, Transmission Pricing Methods, A comprehensive transmission Pricing Scheme",
+          "Self-study: Examples and studies of the selected topics"
+        ],
+        "references": [
+          "Loi Lei Lai, \u201cPower System Restructuring and Deregulation\u201d, John Wiley & Sons Ltd, England, 2001",
+          "M. Shahidehpour, H. Yamin, and L. Zuyi, \u201cMarket Operations in Electric Power Systems\u201d. New York: Wiley, 2002",
+          "Yong-Hua Song and Xi-Fan Wang (Eds.), \u201cOperation of Market-oriented Power Systems\u201d, Spinger-Verlag London Limited, 2003",
+          "D. S. Kirschen and G. Strbac, \u201cFundamentals of power system economics\u201d, John Wiley & Sons, 2004",
+          "NPTEL Course: https://nptel.ac.in/courses/108/101/108101005"
+        ],
+        "flags": [
+          "typo_in_title",
+          "semester_inferred_from_course_code"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4453",
+        "title": "RENEWABLE ENERGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Energy sources and their availability",
+          "Solar Energy - solar radiation and measurements, solar energy storage, Solar Photo-Voltaic systems design",
+          "Wind Energy - estimation, Maximum power and power coefficient, wind energy conversion systems - design considerations and applications",
+          "Energy from Bio-Mass - Sources of bio-mass, Biomass conversion technologies - Thermo-chemical conversion and Biochemical conversions, Anaerobic digestion and Fermentation, Bio-gas generation Pyrolysis and Liquefaction, Classification of Gasifiers, Energy plantation",
+          "Energy from the Oceans - Ocean Thermal Energy Conversion, Open and Closed Cycle plants, Site selection considerations, Origin of tides, Tidal energy conversion systems, Wave energy conversion systems",
+          "Integration of Renewable energy into grid, Hybrid Energy Systems"
+        ],
+        "references": [
+          "Khan B. H., Non-conventional Energy Resources, TMH, 2006",
+          "Twidell J. W. & Weir A. D., Renewable Energy Resources, ELBS, 1986",
+          "Mukherjee D. & Chakrabarti S., Fundamentals of Renewable Energy Systems, New Age Intl., 2004",
+          "C.S. Solanki, Solar Photovoltaics Fundamentals, Technologies and Applications, PHI Learning Pvt. Ltd., 2016",
+          "D.P. Kothari, K.C.Singal and R. Ranjan, Renewable Energy Sources and Emerging Technology, PHI Learning Pvt. Ltd., 2014"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4454",
+        "title": "INTRODUCTION TO VLSI DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to MOSFETs, MOSFET Equivalent Circuits",
+          "MOSFET logic circuits: NMOS inverter, CMOS inverter, Power: Dynamic Power, Static Power, CMOS Fabrication Technology",
+          "Stick Diagrams, Layout design rules",
+          "CAD tools for VLSI Design",
+          "MOSFET Logic gates",
+          "CMOS combinational, sequential logic circuits, Flip flop and latch timings, Clocking",
+          "Circuit characterization and performance estimation: Resistance, capacitance estimation, Switching characteristics, Delay models",
+          "Packaging, CMOS subsystem design",
+          "Self-directed Learning: Data Path Blocks: Arithmetic Unit, Control unit"
+        ],
+        "references": [
+          "Jan M. Rabaey, A. Chandrakasan, and B. Nikolic, Digital Integrated Circuits: A design Perspective, Pearson Education, 2002",
+          "S.M.Kang & Y. Leblebici, CMOS Digital Integrated Circuits, McGraw Hill, 2002",
+          "Ken Martin, Digital Integrated Circuit Design, Oxford Press, 2000",
+          "Pucknell D. A. and EshraghianK., \u201cBasic VLSI Design\u201d, PHI publication, 2009",
+          "Weste. N and Eshraghian K, \u201cPrinciples of CMOS VLSI Design\u201d, 2nd Edition, Addison, Wesley Publication, 1993"
+        ],
+        "flags": [
+          "missing_sem",
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "EEE 4455",
+        "title": "REAL TIME OPERATING SYSTEM",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "QNX's microkernel architecture and principles of real-time systems",
+          "Process/thread management, memory protection, scheduling",
+          "Synchronization using mutexes, semaphores, and condition variables",
+          "Inter-process communication methods: message passing and shared memory",
+          "Hardware programming: interrupt handling, IO access, DMA-safe memory, timing mechanisms",
+          "Building and configuring QNX boot images (kernel, drivers, resource managers)",
+          "Hands-on labs for real-time system development and deployment using QNX RTOS"
+        ],
+        "references": [
+          "QNX Neutrino RTOS User's Guide, QNX Software Systems",
+          "Programming for Embedded Systems, Michael Barr, O'Reilly Media",
+          "Hands-on RTOS with Microcontrollers, Brian Amos, Packt Publishing, 2020",
+          "Operating System Concepts, Abraham Silberschatz, Peter B. Galvin, Greg Gagne, 9th Edition, Wiley, 2018",
+          "Online Resource: QNX online training, QNX training material"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4311",
+        "title": "MATLAB FOR ENGINEERS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to MATLAB live script environment, matrices & arrays, calling functions, 2D & 3D plots, conditional statements, loop control statements, user-defined functions",
+          "Evaluating an expression, solving equations, differentiation, integration, sum, limit",
+          "Simple and multiple linear regression analysis, evaluating the goodness of fit using MATLAB",
+          "Ordinary differential equations in Simulink, conditional blocks, subsystems, MATLAB function block, introduction to Simscape",
+          "Introduction to App Designer, programming various objects like axes, button, edit field, slider, label",
+          "Interfacing Arduino, raspberry pi and smartphone sensors with MATLAB",
+          "Self-study: Simulation studies on Symbolic Math, Statistical Methods and GUI development"
+        ],
+        "references": [
+          "https://www.mathworks.com/",
+          "Stephen J. Chapman, Essentials of MATLAB Programming, 6e, Cengage Learning 2019",
+          "Rudra Pratap, Getting Started with MATLAB, 7e, Oxford University Press, 2019",
+          "Self-paced online courses - https://matlabacademy.mathworks.com/"
+        ],
+        "flags": [
+          "missing_semester"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ELE 4312",
+        "title": "ESSENTIALS OF ENERGY AUDITING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Types of energy",
+          "Primary energy reserves",
+          "Commercial energy production",
+          "Energy needs of a growing economy",
+          "Electricity pricing",
+          "Tariffs",
+          "Energy security",
+          "Energy conservation.",
+          "Energy conservation Act 2001",
+          "Electricity Act 2003",
+          "Energy policy",
+          "Objectives of Energy management and Auditing",
+          "Types of Energy audit",
+          "Benchmarking",
+          "Energy performance",
+          "Matching energy usage to requirement",
+          "maximizing system efficiencies",
+          "Fuel and energy substitution",
+          "Instruments and metering for energy audit",
+          "Bureau of Energy Efficiency regulations",
+          "Energy balance and material balance",
+          "Sankey diagram",
+          "Assessing energy profile and establishing baseline",
+          "Financial analysis techniques",
+          "Energy performance contracting and role of ESCOs",
+          "Project planning techniques",
+          "Energy monitoring and targeting",
+          "Energy management information systems",
+          "Energy and environment",
+          "Renewable energy sources",
+          "Demand side management"
+        ],
+        "references": [
+          "Guidebooks for National Certification Examination, 2020, [E-book] Available:http://aipnpc.org/Guidebooks.aspx",
+          "Guidebook: Refresher Course for Certified Energy managers and Auditors, 2020, [E-book] Available: http://refreshercourse.in/Module/RC_Material.pdf",
+          "Wayne C. Turner, Energy Management Handbook, Fifth Edition, Fairmont Press, 2004",
+          "NPTEL - Energy conservation and waste heat recovery - https://nptel.ac.in/courses/112/105/112105221/"
+        ],
+        "flags": []
+      },
+      {
+        "sem": null,
+        "code": "ELE 4313",
+        "title": "SOLAR PHOTOVOLTAICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Solar Radiation: Spectrum, Terminologies, Measurement, Estimation",
+          "Sun-Earth Movement & Angles, Sun Tracking, PN Junction Diode & Characteristics, Solar Cell, Photovoltage, Light Generated Current, I-V equation & Characteristics: Short Circuit Current, Open Circuit Voltage, Maximum Power Point, Fill Factor, Efficiency, Losses, Equivalent Circuit, Effect of Series & Shunt Resistance, Solar Radiation, Temperature on Efficiency",
+          "Solar PV Modules: Series & Parallel connection, Hotspots, Bypass & Blocking Diodes, Power Output, Ratings, I-V & Power Curve, Effect of Solar Irradiation & Temperature",
+          "Balance of System (BOS): Batteries: Classification, Capacity, Voltage, Depth of Discharge, Life Cycle, Factors affecting Battery Performance",
+          "Charge Controllers, DC to DC Converters, DC to AC converters, Maximum Power Point Tracking (MPPT)",
+          "Self-study: Solar Radiation data collection for India, Losses in solar cells, Applications of SPV system, Mechanical Energy storage systems"
+        ],
+        "references": [
+          "Chetan Solanki, Solar Photovoltaics: Fundamentals, Technologies and Application, PHI New Delhi, 2009",
+          "G.N. Tiwari, Solar Energy: Fundamentals, Design, Modeling and Applications, Narosa Publications New Delhi, 2013",
+          "Suneel Deambi, Photovoltaic System Design, CRC Press USA, 2016",
+          "Frank Kreith and D. Yogi Goswami, Energy Management and Conservation Handbook (2e), CRC Press USA, Fairmont Press, USA, 2017",
+          "John Balfour, Michael Shaw and Nicole B. Nash, Advanced Photovoltaic Installations, Jones & Barlett Learning USA, 2013",
+          "Nptel courses: https://nptel.ac.in/courses/115/107/115107116/"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "ELE 4314",
+        "title": "INTRODUCTION TORENEWABLE ENERGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Energy sources and their availability, current power scenario in India",
+          "Solar Energy - solar radiation and measurements, solar energy storage",
+          "Solar Photo-Voltaic systems and modules",
+          "Wind Energy- estimation, Maximum power and power coefficient, wind energy conversion systems - design considerations and applications",
+          "Energy from the Oceans - Ocean Thermal Energy Conversion, Open and Closed Cycle plants, Site selection considerations, Origin of tides, Tidal energy conversion systems, Wave energy conversion systems",
+          "Hybrid Energy Systems, Life Cycle Costing",
+          "Self-Study Component standalone PV system Topology",
+          "Calculate the air parameters at different conditions, wind power and average wind power, impact of installation height Life Cycle Costing",
+          "Energy from Bio-Mass - Sources of bio-mass, Bio-mass conversion technologies-Thermo-chemical conversion and Bio-chemical conversions, Anaerobic digestion and Fermentation",
+          "Estimate of Energy and Power in Single and Double Cycle Tidal System"
+        ],
+        "references": [
+          "Mukherjee. D & S. Chakrabarti, Fundamentals of Renewable Energy Systems, New Age Intl., 2005",
+          "Khan B. H, Non conventional Energy Resources, TMH, 2006",
+          "Twidell J. W & Weir A. D, Renewable Energy Resources, ELBS, 1986",
+          "Rai G. D., Non Conventional Energy Sources, Khanna Publishers, 1997",
+          "Rao S & B. B Parulekar, Energy Technology, Khanna Publishers, 1997",
+          "Bansal N K, Kleemann M & Meliss M., Renewable Energy Sources and Conversion Technology,TMH, 1990",
+          "Bansal N K, Kleemann M & Meliss M., Renewable Energy Sources and Conversion Technology,TMH, 1990",
+          "Mohamed A. EL_Sharkawi. Wind Energy An Introduction,CRC Press Taylor & Francis Group, 2016",
+          "Chetan Singh Solanki. Solar Photovoltaics Fundamentals, Technologies and Applications,PHI learning Privite Limited,2011"
+        ],
+        "flags": [
+          "title_typo",
+          "duplicate_references",
+          "unclear_course_type"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4315",
+        "title": "INTRODUCTION TO LIGHTING DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Electromagnetic spectrum",
+          "Anatomy of eye",
+          "Spectral eye sensitivity",
+          "Photometric quantities & Units",
+          "Relation between photometric quantities",
+          "Construction & working principle of artificial light sources",
+          "Performance characteristics of conventional and solid-state lamps",
+          "Optical control of light",
+          "Photometry measurements",
+          "Evaluation of total luminous flux",
+          "Generation of IES file",
+          "Light distribution diagrams of luminaires",
+          "Types of Interior lighting",
+          "Factors affecting the performance of lighting system",
+          "Lumen method of lighting design",
+          "Glare evaluation methods",
+          "Design of lighting system using simulation tool for various lighting applications",
+          "Importance of daylighting",
+          "daylighting strategies"
+        ],
+        "references": [
+          "Spiros Kitsinelis, Light Sources: Technologies & Applications, CRC press, 2010",
+          "Robert Karlicek, Handbook of Advanced Lighting Technology,",
+          "N K Kishore, \u201cIllumination Engineering\u201d, NPTEL, [Online]. Available: https://nptel.ac.in/courses/108/105/108105061/, 2009.",
+          "National Lighting Code, Bureau of Indian Standards, SP 72, 2010.",
+          "Robbins Cluade L, \u201cDay Lighting\u201d, VNR Company,1986."
+        ],
+        "flags": [
+          "missing_sem",
+          "incomplete_reference"
+        ]
+      },
+      {
+        "sem": null,
+        "code": "ELE 4316",
+        "title": "UTILIZATION OF ELECTRICAL ENERGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Electric traction: Railway electrification \u2013 definition and analysis of traction effort \u2013 speed \u2013 time curve \u2013 traction motors - battery driven vehicles - energy efficiency drives \u2013 advanced speed control measures- tractive effort calculations - electric braking - control wire - A.C. traction - recent trend in electric traction",
+          "Illumination: Production of light - lighting calculations - high frequency, low pressure discharge tubes",
+          "Electric furnaces and welding: Resistance, inductance and Arc Furnaces - Construction and fields of application - control equipment, high frequency dielectric heating, resistance - welding equipment - characteristics of carbon and metallic arc welding - butt welding - spot welding",
+          "Electro-chemical processes: Electrolysis \u2013 Electroplating \u2013 Electro deposition \u2013 Extraction of metals Current, Efficiency - Batteries \u2013 types \u2013 Charging Methods",
+          "Overview of Electric Vehicles in India, Vehicle Dynamics, Vehicle Subsystems: EV Power-train Storage for EVs, Fundamentals of EV",
+          "Self-study on selected topics"
+        ],
+        "references": [
+          "S. C. Tripathy, Electric Energy Utilisation and Conservation, Tata McGraw Hill, 1991",
+          "W. F. Stocker and J.W. Jones, Refrigeration & Air Conditioning Refrigeration & Air Conditioning, McGraw Hill, 1985",
+          "N.V. Suryanarayana, Utilisation of Electric Power, Wiley Eastern Ltd., 1993",
+          "J. B. Gupta \u2013Utilization of electric power and electric traction- S K Katharia& Sons, 1994",
+          "NPTEL Course: https://onlinecourses.nptel.ac.in/noc22_ee53/preview"
+        ],
+        "flags": [
+          "missing_sem"
+        ]
+      }
+    ]
+  }
+}

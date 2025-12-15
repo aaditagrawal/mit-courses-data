@@ -1,0 +1,2866 @@
+{
+  "department": {
+    "name": "THIRD SEMESTER",
+    "courses": [
+      {
+        "sem": 3,
+        "code": "MAT 2132",
+        "title": "MATHEMATICS FOR FINANCE",
+        "credits": {
+          "l": 4,
+          "t": 0,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "The geometry of linear equations, elimination with matrices, multiplication and inverse matrices, factorisation into A=LU, Transpose, permutation of matrices, vector space, Column Space and Null Space, Solving Ax=0: Pivot variables, special solutions; Solving Ax=b: Row reduced form, independence, basis and dimension, independence, basis and dimension, Projection matrices and least squares, orthogonal matrices and Gram- Schmidt orthogonalization, Eigen Values and Eigen vectors, Diagonalisation and powers of matrix A, Markov matrices, Symmetric matrices and positive definite matrices, similar matrices and Jordan form, Singular value decomposition, Linear transformation, and their matrices",
+          "Introduction to systems of first-order linear differential equations, Solution techniques: Matrix methods, eigenvalues, eigenvectors, Applications in finance and technology: modeling interconnected systems, Markov chains, etc. Modeling financial derivatives using differential equations (Black-Scholes equation, etc.). Differential equations in risk management and portfolio optimization",
+          "Introduction to PDEs: Classification (elliptic, parabolic, hyperbolic). Boundary value problems and initial value problems. Applications in option pricing, stochastic calculus, and quantitative finance. Solution Methods: Laplace transform/ Fourier transform",
+          "Numerical Methods for Differential Equations: Finite difference methods for solving partial differential equations. Monte Carlo simulations in financial modeling",
+          "Stochastic differential equations in financial mathematics. Control theory applications in financial technology"
+        ],
+        "references": [
+          "D. C Lay, Linear algebra and its applications, Pearson, 2014",
+          "Gilbert Strang, Introduction to Linear Algebra, Wellesley-Cambridge Press, 2000",
+          "William E. Boyce and Richard C. DiPrima, Elementary Differential Equations and Boundary Value Problems, John Wiley & Sons, Inc., 2009",
+          "Stanley J. Farlow, Partial Differential Equations for Scientists and Engineers, Dover Publications Inc., 2003",
+          "Bernt Oksendal, Stochastic Differential Equations- An Introduction with Applications, Springer Berlin Heidelberg, 2013"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 2180",
+        "title": "PROGRAMMING PARADIGMS",
+        "credits": {
+          "l": 4,
+          "t": 0,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Imperative Programming: Assignments, side effects, memory models, control structures, branching, procedures, parameter passing (Discussions using C and Go)",
+          "Object-Oriented Programming: Concepts of objects, classes, inheritance, specialization of methods, covariance and contravariance, type parametrization, reflective and meta programming (Discussions using Java and Go)",
+          "Functional Programming: Pure functions, lists, recursive functions, higher order functions, closures, curry functions, lambdas, evaluation as computation, folds (Discussions using JavaScript, Haskell, ML, or Clojure)",
+          "Parallel and Concurrent Programming: Concurrent programming model, parallelism, message passing, thread models, synchronization, deadlocks, live locks, GPU programming principles (Discussions using Scala, Java, C and Go)",
+          "Integrated View of Applications of Paradigms: Problem analysis and choosing appropriate paradigm for different components of applications, Interoperability between different programming languages - JVM languages, Foreign Function Interface, and services"
+        ],
+        "references": [
+          "B.W. Kernighan and D. Ritchie, \"The C Programming Language,\" PHI, 1988",
+          "A.A. Donovan and B.W. Kernighan, \"The Go Programming Language,\" PHI, 2016",
+          "C. Horstmann, \"Core Java, Vol I\", 12th Edition, Pearson, 2023",
+          "C. Horstmann, \"Core Java, Vol II\", 12th Edition, Pearson, 2023",
+          "D. Flanagan, \"JavaScript: The Definitive Guide,\" 7th Edition, O'Reilly 2020",
+          "M. Odersky et.al. \"Programming in Scala,\" 5th Edition, Goel's Computer Hut, 2022",
+          "Class notes and handouts"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 2106",
+        "title": "ALGORITHMS & DATA STRUCTURES",
+        "credits": {
+          "l": 4,
+          "t": 0,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction - Pointers and Pointer Application",
+          "Accessing variables through pointers",
+          "pointers to pointers",
+          "pointer arithmetic and arrays",
+          "pointers and functions",
+          "Recursion- definition",
+          "recursive programs",
+          "efficiency of recursion",
+          "Stacks",
+          "queues",
+          "evaluation of expressions",
+          "multiple stacks and queues and its application",
+          "Linked lists representations- Singly",
+          "doubly",
+          "header node",
+          "circular along with the applications",
+          "Trees-Binary trees",
+          "representation",
+          "recursive/ non recursive inorder",
+          "preorder and post order tree traversal",
+          "level order traversal",
+          "Binary search tree",
+          "creation",
+          "insertion deletion operations on binary search tree",
+          "Additional Binary Tree Operations",
+          "Threaded Binary Tree and applications",
+          "Introduction to the concepts of Optimal Binary Search Trees",
+          "Fundamentals of Algorithms",
+          "Important Problem Types",
+          "Analysis of algorithm efficiency",
+          "Analysis Framework: Asymptotic Notations and Basic Efficiency Classes",
+          "Mathematical Analysis of Non-recursive and Recursive Algorithms",
+          "Brute force Techniques",
+          "Divide and Conquer",
+          "Decrease and Conquer: Insertion Sort",
+          "Depth First Search",
+          "Breadth First Search",
+          "Topological Sorting",
+          "Transform and Conquer: Presorting",
+          "BST",
+          "Heapsort",
+          "Space and Time tradeoffs: Input Enhancement in String Matching",
+          "Dynamic Programming: Warshall's and Floyd's Algorithms",
+          "The Knapsack Problem",
+          "Greedy Techniques: Prim's",
+          "Kruskal's and Dijkstra's Algorithm",
+          "Huffman Trees",
+          "Coping with limitations of algorithmic power",
+          "P, NP,and NP-complete Problems",
+          "Backtracking: n-Queens problem",
+          "Hamiltonian Circuit Problem",
+          "Subset-Sum Problem",
+          "Branch and Bound: Assignment Problem",
+          "Knapsack Problem",
+          "TSP"
+        ],
+        "references": [
+          "Behrouz A. Forouzan, Richard F. Gilberg, A Structured Programming Approach Using C, (3e), Cengage Learning India Pvt. Ltd, India, 2007",
+          "Ellis Horowitz, Sartaj Sahni, Susan Anderson and Freed, Fundamentals of Data Structures in C, (2e), Silicon Press, 2007",
+          "Richard F. Gilberg, Behrouz A. Forouzan, Data structures, A Pseudocode Approach with C, (2e), Cengage Learning India Pvt. Ltd, India, 2009",
+          "Tenenbaum Aaron M., Langsam Yedidyah, Augenstein Moshe J., Data structures using C, Pearson Prentice Hall of India Ltd., 2007",
+          "Debasis Samanta, Classic Data Structures, (2e), PHI Learning Pvt. Ltd., India, 2010",
+          "Anany Levitin, Introduction to the Design and Analysis of Algorithms, (3e), Pearson Education, 2011",
+          "Ellis Horowitz and Sartaj Sahni, Computer Algorithms/C++, (2e), University Press, 2007",
+          "Thomas H. Cormen, Charles E. Leiserson, Ronal L, Rivest, Clifford Stein, Introduction to Algorithms, (2e), PHI, 2006"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 2107",
+        "title": "DATABASE MANAGEMENT SYSTEM",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Database-System Applications",
+          "Database Languages",
+          "Relational Databases",
+          "Database Design",
+          "Data Storage and Querying",
+          "Database Architecture",
+          "Database Schemas",
+          "Keys",
+          "Relational Query Languages",
+          "Relational Operations",
+          "Overview of the Design Process",
+          "The Entity-Relationship Model",
+          "Extended E-R Features",
+          "Reduction to Relational Schemas",
+          "Features of Good Relational Design",
+          "Atomic Domains and Normalization",
+          "File concepts",
+          "Indices Concept",
+          "Static Hashing",
+          "Dynamic Hashing",
+          "Comparison of Ordered Indexing and Hashing",
+          "Bitmap Indices",
+          "Transaction Concept",
+          "Failure Classification",
+          "Storage",
+          "Recovery and Atomicity",
+          "Recovery algorithm",
+          "Overview",
+          "Measuring of Query Cost",
+          "Selection Operation",
+          "Sorting",
+          "Join Operation",
+          "Evaluation of Expressions"
+        ],
+        "references": [
+          "Ramez Elmasri and Shamkant Navathe, Durvasula V L N Somayajulu, Shyam K Gupta, Fundamentals of Database Systems, (6e), Pearson Education, United States of America, 2011",
+          "Thomas Connolly, Carolyn Begg, Database Systems - A Practical Approach to Design, Implementation and Management, (4e), Pearson Education, England, 2005",
+          "Peter Rob, Carlos Corone l, Database Systems-Design, Implementation and Management, (10e), Course Technology, Boston, 2013"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 2109",
+        "title": "INTRODUCTION TO BANKING, PAYMENTS AND CAPITAL MARKETS",
+        "credits": {
+          "l": 4,
+          "t": 0,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Banking and Financial Services",
+          "Evolution of Banking",
+          "Categories of Banks",
+          "Product Lines and Product Types",
+          "Customer Servicing and Revenue Model",
+          "Embedded Finance",
+          "Banking Regulations and Compliance",
+          "Introduction to Payments",
+          "Payment Instruments and Payment Systems",
+          "Clearing and Settlement Mechanisms",
+          "Payments Messages Standards",
+          "Domestic and International Payments",
+          "Payment Processing Value Chain",
+          "Digital Payments",
+          "Payment Gateways & E Commerce Payments",
+          "Security in Payments",
+          "Regulations and Risks",
+          "Introduction to Capital Market",
+          "Structure and Functions of Capital Market",
+          "Participants of Capital markets",
+          "Importance of Capital market in the economy",
+          "Capital Market Instruments",
+          "Regulations and Risks",
+          "Introduction to Insurance"
+        ],
+        "references": [
+          "MacDonald Scott S., Koch Timothy W, Management of Banking. (7 E), Indian: Cengage learning, 2009.",
+          "Khan, M.Y, Financial services (5 E). Tata McGraw Hill Publications, 2011.",
+          "Bhole, L.M, Financial institution and markets (3rd ed.). Tata McGraw Hill Publications, 2008",
+          "Suresh, P. and Justin Paul, Management of Banking and Financial Services, (4th Edition), Pearson Publications, 2017.",
+          "Indian Institute of Banking and Finance. Bank Financial Management, Macmillan Education, 2011, New Delhi.",
+          "Bindseil, U., & Pantelopoulos, G. Introduction to Payments and Financial Market Infrastructures. Springer Nature, 2023.",
+          "Raste, D. R. Capital Market in India: Reforms and Regulations. New Century Publications, 2011.",
+          "Fabozzi, F. J , Capital markets: institutions, instruments, and risk management. MIT Press, 2015."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 2181",
+        "title": "PROGRAMMING PARADIGMS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "core",
+          "lab"
+        ],
+        "syllabus": [
+          "Parameter passing and safety. Memory models and pointers.",
+          "Inheritance, overriding, covariance, contravariance, Reflective",
+          "Programming, Parametrized types and inheritance, List manipulations with recursion, Higher Order functions, Monads, Closures and currying.",
+          "Multi-threaded program and synchronization, Thread Pool, Message passing, Programming language interoperability"
+        ],
+        "references": [
+          "B.W. Kernighan and D. Ritchie. \"The C Programming Language,\" PHI, 1988.",
+          "A.A. Donovan and B.W. Kernighan. \"The Go Programming Language,\" PHI, 2016",
+          "C. Horstmann. \"Core Java, Vol I\", 12th Edition, Pearson, 2023",
+          "C. Horstmann. \"Core Java, Vol II\", 12th Edition, Pearson, 2023",
+          "D. Flanagan. \"JavaScript: The Definitive Guide,\" 7th Edition, O'Reily 2020",
+          "M. Odersky et.al. \"Programming in Scala,\" 5th Edition, Goel's Computer Hut, 2022"
+        ],
+        "flags": [
+          "credits_discrepancy"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CSS 2108",
+        "title": "DATA BASE MANAGEMENT SYSTEMS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Data Definition Language",
+          "Data manipulation language",
+          "Basic database query operations",
+          "Integrity Constraints in SQL",
+          "Nested subqueries",
+          "Join Operations",
+          "Views",
+          "PL/SQL Basics",
+          "Exception Handling",
+          "Cursors",
+          "Stored procedures",
+          "Functions",
+          "Packages",
+          "Trigger",
+          "project on design and development of application based on database concepts"
+        ],
+        "references": [
+          "Silberschatz, Korth, Sudarshan, Database System Concepts, (6e) McGraw-Hill, 2011",
+          "Ivan Bayross, SQL, PL/SQL - The Programming Language of Oracle, (3e), BPB Publications, 2010",
+          "G, Reese, Database Programming with JDBC and Java, (2e), O'REILLY, 2000"
+        ],
+        "flags": [
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": 4,
+        "code": "CSS 2105",
+        "title": "ALGORITHMS & DATA STRUCTURE - LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Reviewing the concepts of pointers, structures and recursion",
+          "Studying the operation of stacks and queues and the associated application programs",
+          "Creating dynamic allocation of memory for linked list and applying it to examples using singly, doubly and circular linked list and their applications",
+          "Creation of binary trees and the application associated with the trees",
+          "Implement a doubly linked list & BST",
+          "GCD Techniques",
+          "Bubble sort",
+          "Selection sort",
+          "Linear search",
+          "String Matching",
+          "sorting algorithms",
+          "DFS",
+          "BFS",
+          "Topological sorting",
+          "AVL tree",
+          "2-3 tree",
+          "Horspool algorithm",
+          "Open hash table",
+          "Floyd's algorithm",
+          "Warshall's algorithm",
+          "Greedy Techniques",
+          "Dijkstra's algorithm",
+          "Backtracking"
+        ],
+        "references": [
+          "Behrouz A. Forouzan, Richard F. Gilberg, A Structured Programming Approach Using C, (3e), Cengage Learning India Pvt. Ltd, India, 2007",
+          "Ellis Horowitz, Sar taj Sahni, Susan Anderson and Freed, Fundamentals of Data Structures in C, (2e), Silicon Press, 2007",
+          "Anany Levitin, Introduction to the Design and Analysis of Algorithms, (3e), Pearson Education, India, 2011",
+          "Ellis Horowitz and Sartaj Sahni, Computer Algorithms/C++, (2e), University Press, 2007",
+          "Thomas H. Cormen, Charles E. Leiserson, Ronal L, Rivest, Clifford Stein, Introduction to Algorithms, (2e), PHI, 2006"
+        ],
+        "flags": [
+          "semester_mismatch"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "MAT 2232",
+        "title": "PROBABILITY, STOCHASTIC PROCESS AND OPERATION RESEARCH",
+        "credits": {
+          "l": 4,
+          "t": 0,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Basic Probability theory & applications",
+          "Applications of Probability in Finance",
+          "Advanced Probability Theory",
+          "Stochastic Processes in Finance",
+          "Monte Carlo Simulation in Finance",
+          "Time Series Analysis and Forecasting",
+          "Applications of Probability in Financial Technology",
+          "Linear Programming",
+          "Network Models",
+          "Integer Programming"
+        ],
+        "references": [
+          "Rao, B. L. S. P., A First Course in Probability and Statistics, World Scientific, 2009.",
+          "Gupta, S. C., & Kapoor, V. K., Fundamental of Mathematical Statistics. Sultan Chand & sons, 2002.",
+          "Steven E. Shreve, Stochastic Calculus for Finance I: The Binomial Asset Pricing Model, Springer, 2004",
+          "J.K. Sharma, Operational Research Theory and Application, Trinity Press, 2016",
+          "Frederick S. Hillier and Gerald J. Lieberman , Introduction to Operations Research, McGraw Hill Education, 2017",
+          "Hamdy A. Taha, Operations Research: An Introduction, Pearson Education, 2019"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 2221",
+        "title": "ACCOUNTING AND FINANCE FOR ENGINEERS",
+        "credits": {
+          "l": 4,
+          "t": 0,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Accounting concepts & conventions",
+          "accounting cycle",
+          "Accounting Information System (AIS)",
+          "Introduction to other Areas of Accounting like Cost accounting, Management accounting, Tax accounting, Auditing, Forensic accounting, Human Resource Accounting, CSR Accounting, ESG Reporting",
+          "Functions of financial management",
+          "Time value of money",
+          "Capital budgeting techniques",
+          "cost of capital",
+          "EBIT-EPS-MPS Analysis",
+          "Security valuation",
+          "working capital estimation",
+          "Technology enabled financial transformation"
+        ],
+        "references": [
+          "Prasanna Chandra, Financial Management-Theory and Practice, 9th Edition, Tata McGraw Hill Education, 2016",
+          "I M Pandey. Financial Management. Vikas Publishing House, 2015",
+          "Eugene F Brigham and Michael C E. Financial Management: Theory and Practice, 16th Edition, Cengage Learning, 2019",
+          "N Ramachandran and Ram Kumar Kakani. Financial Accounting for Management, 3rd Edition, Tata McGraw Hill Education, 2011",
+          "R. Narayanaswamy. Financial Accounting: A Managerial Perspective, 6th Edition, PHI Learning, 2017"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 2205",
+        "title": "CYBER SECURITY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "OWL Ontologies in Cybersecurity: Conceptual Modeling of Cyber-Knowledge: Introduction to Knowledge Engineering in Cybersecurity, Cybersecurity Taxonomies, Upper Ontologies for Cybersecurity, Formal Knowledge Representation for Cyber-Situational Awareness-Representing Network Knowledge Using Ontology Definition",
+          "Representing Network Data Provenance, Vulnerability and Exploit Analysis- Likelihood of Exploitation, Time-Based Analysis, Vendor-/Platform-Based Analysis, Experimental Setup-Performance Evaluation",
+          "Training the Binary Classifier for Detecting Network Attacks-Calculating and Preprocessing Network Parameters, Genetic Optimization of the Weights of the Binary Classifier, An Algorithm for Network Attack Detection",
+          "Schemes for Combining the Binary Classifiers -Low-Level Schemes for Combining Detectors",
+          "Machine Learning in Network Intrusion Detection",
+          "Detecting Malware Using SVM - SVM: A Brief Overview, Feature Settings, Hyperparameter Tuning, Evaluation Metrics"
+        ],
+        "references": [
+          "Russell, S. and Norvig P, Artificial Intelligence: A Modern Approach, (3e), Prentice-Hall, 2010.",
+          "Clarence Chio, David Freeman, Machine Learning & Security: Protecting Systems with Data And Algorithms, (1e), Oreilly. 2018",
+          "Elaine Rich, Kevin Knight, Shivasankar B. Nair, Artificial Intelligence, (3e), The McGraw Hill publications, 2009."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 2206",
+        "title": "INTRODUCTION TO FINTECH",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to FinTech",
+          "History of FinTech and Stages",
+          "Fintech Application Categories & Technology",
+          "Cloud Computing in Fintech",
+          "Distributed Ledger Technology",
+          "Digital and Crypto currency",
+          "Machine Learning in Fintech",
+          "FinTech challenges",
+          "Evolving Innovations in Fintech",
+          "Case Studies"
+        ],
+        "references": [
+          "Bernardo Nicoletti, The Future of FinTech: Integrating Finance and Technology in Financial Services. Palgrave Macmillan, August 2018.",
+          "Lynn, Theo, Rosati, & Cummins, Disrupting finance: FinTech and strategy in the 21st century. Springer Nature, 2019.",
+          "Rubini, Agustin, Fintech in a flash: financial technology made easy. Walter de Gruyter GmbH & Co KG, 2018.",
+          "Susanne Chishti & Janos Barberis, The FINTECH Book: The Financial Technology Handbook for Investors, Entrepreneurs and Visionaries, (1e). John Wiley, New York, 2016."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 2207",
+        "title": "SOFTWARE SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Operating Systems: Operating system fundamentals and its components, introduction to process management, memory management, resource management, virtualization, security, embedded and mobile operating systems, case studies (Unix, MS Windows, MacOS, Android, iOS)",
+          "Computer Networks: Fundamentals of computer networks, network layers and protocols, transmission and error control, network applications, software-defined networks, wireless protocols",
+          "Internet of Things: Smart devices, physical devices, sensors and actuators, connection of smart devices, applications, power considerations, network protocols for IoT, security",
+          "Cloud Computing: Cloud as a compute resource, cloud OS, cloud infrastructure, cloud storage, cloud platform as a service, cloud applications as a service, serverless computing, cloud security, case studies (AWS, GCP, Azure)",
+          "Modern Application Development: Modern application architectures and design, standards and protocols, web application architecture, mobile application architecture, design for scale, security considerations"
+        ],
+        "references": [
+          "R. Arpaci-Dusseau and A. Arpac-Dusseau. \"Operating Systems Three Easy Pieces\" 2018. Online Book https://pages.cs.wisc.edu/~remzi/OSTEP/",
+          "L. Peterson and B. Davie. \"Computer Networks - A Systems Approach\", 5th Edition, Elsevier, 2011 or online version https://book.systemsapproach.org/",
+          "C. Pfister, Shroff \"Getting Started With The Internet Of Things\", O'Reilly, 2011",
+          "T. Erl and E. Monroy. \"Cloud Computing: Concepts, Technology and Architecture\", Pearson, 2024"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 2222",
+        "title": "DESIGN THINKING",
+        "credits": {
+          "l": 1,
+          "t": 0,
+          "p": 2,
+          "c": 2
+        },
+        "tags": [
+          "theory",
+          "lab"
+        ],
+        "syllabus": [
+          "Fundamentals of Design Thinking - Need, Importance, History",
+          "Human centric approach & Customer centric approach",
+          "Traditional Thinking & Design thinking",
+          "the importance of innovation in finance",
+          "Design Thinking Models",
+          "Understanding Customers",
+          "Delivering Value to Customers",
+          "Understanding the problem - Search Field Determination",
+          "Problem Clarification",
+          "Problem Analysis",
+          "Reformulation of the problem",
+          "Identifying pain points in financial services",
+          "Empathetic phase and methods for observing",
+          "Defining the problem - Point of view phase",
+          "The role of problem framing in financial innovation",
+          "Ideation phase - Creativity techniques and idea evaluation",
+          "Idea generation in finance: balancing creativity and feasibility",
+          "Importance of Prototyping in Design Thinking",
+          "Low-fidelity vs. High-fidelity Prototypes Story boarding",
+          "Advanced Prototyping Techniques: Interactive Prototypes",
+          "Usability Testing Preparation",
+          "User Testing and Feedback: Conducting Usability Tests",
+          "Gathering and Analysing Feedback",
+          "Applying Design Thinking to Financial Services",
+          "Case studies and Group Project: Successful financial innovations using design thinking",
+          "Challenges and opportunities in applying design thinking in finance",
+          "Ethical considerations in financial design"
+        ],
+        "references": [
+          "Agarwal, A. Design Thinking: A Framework for Applying Design Thinking in Problem Solving (1st ed.). Cengage. 2023.",
+          "Soni, P. Design Your Thinking. Penguin Random House India Private Limited. 2020",
+          "Mueller-Roterberg, C. Handbook of design thinking: Tips and tools for how to design thinking. Independently Published. 2018.",
+          "Van der Pijl, P., Lokitz, J., & Solomon, L. K. Design a better business: New tools, skills, and mindset for strategy and innovation. John Wiley & Sons. 2016.",
+          "Brown, T. Change by design. HarperCollins Publishers Inc. 2009."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 3106",
+        "title": "SOFTWARE APPLICATION DESIGN",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Evolution from an art form to an engineering discipline",
+          "Software development Projects",
+          "Exploratory style of software development",
+          "Emergence of software Engineering",
+          "Notable changes in software development practices",
+          "Computer Systems Engineering",
+          "Waterfall model and its extensions",
+          "Rapid Application Development",
+          "Agile development models",
+          "Spiral Model",
+          "Comparison of different Life Cycle models",
+          "Requirement Gathering and Analysis",
+          "Software Requirement Specifications",
+          "Formal Specification Techniques",
+          "Overview of the design Process",
+          "Cohesion and coupling",
+          "Layered arrangement of modules",
+          "Approaches to software design",
+          "SA/SD methodology",
+          "Structured analysis",
+          "DFD Model of a system",
+          "Structured Design",
+          "Detailed design",
+          "Design review",
+          "Basic object-orientation concepts",
+          "UML",
+          "UML diagrams",
+          "Use case model",
+          "Class diagrams",
+          "Interaction diagrams",
+          "Activity Diagram",
+          "State chart diagram",
+          "Design Patterns",
+          "Object-Oriented Analysis and Design (OOAD) Methodology",
+          "Coding",
+          "Code review",
+          "Software Documentation",
+          "Testing",
+          "Unit Testing",
+          "Black-Box testing",
+          "White-Box Testing",
+          "Debugging",
+          "Program Analysis tools",
+          "Regression testing",
+          "Security testing",
+          "Robustness testing",
+          "Fuzzy testing",
+          "Integration testing",
+          "Testing OOP",
+          "System testing"
+        ],
+        "references": [
+          "Rajib Mall, Fundamentals of Software Engineering (5e), PHI Learning, 2019",
+          "Hans Van Vliet, Software Engineering: Principles and Practice (3e), Wiley India, 2012",
+          "Roger S. Pressman, Software Engineering - A Practitioner's Approach (7e), McGraw-Hill International Edition, 2010",
+          "Bernd Bruegge, Allen H. Dutoit, Object-Oriented Software Engineering using UML Patterns and Java (2e), Pearson Publication, 2011",
+          "Ian Sommerville, Software Engineering (9e), Addison-Wesley, 2011",
+          "Nooper Davis, Secure Software Development Life Cycle Processes, Software Engineering Institute, Carnegie Mellon University, 2013",
+          "Julie Cohen, Dan Plakosh, Kristi Keeler, Robustness Testing of Software-Intensive Systems: Explanation and Guide, Carnegie Mellon University, 2005"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 3105",
+        "title": "INSURTECH",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "InsurTech Definition",
+          "Digital Transformation in Insurance",
+          "Problem or Solution for Agents and Brokers",
+          "InsurTech Startups-Role",
+          "InsurTech Now and Next A Cartographer's Dream - Exploring, and Mapping, the New Unknown",
+          "Internationalizing InsurTech",
+          "Collaborative Innovation: Observe - Partner - Invest The Corporate Collaboration Opportunity in InsurTech",
+          "The Value Chain",
+          "Behavioural Design and Price Optimization in InsurTech",
+          "Cyber Risk",
+          "Innovating within the Business to-Business Insurance Claims Handling Ecosystem",
+          "Business Model Innovation - From Incremental to Disruptive",
+          "The Future of Insurance - From Managing Policies to Managing Risks",
+          "From Claim Settlement to Claim Prevention",
+          "Digital Transformation and Corporate Innovation Management",
+          "Social Media in Insurance",
+          "The Future of Microinsurance"
+        ],
+        "references": [
+          "Sabine L.B VanderLinden, Sh\u00e2n M. Millie, Nicole Anderson, Susanne Chishti. The INSURTECH Book: The Insurance Technology Handbook for Investors, Entrepreneurs and FinTech Visionaries. John Wiley, 2018",
+          "Cruz Rambaud, S., & L\u00f3pez Pascual J. Insurtech, Proptech, and Fintech Environment: Sustainability, Global Trends and Opportunities. Sustainability, 15(12), 9574. 2023"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 3103",
+        "title": "BANKING TECHNOLOGY",
+        "credits": {
+          "l": 4,
+          "t": 0,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Banking Core Product Lines (Deposits, Lending etc)",
+          "Key Geography Variations (currency, language, taxation, regulatory etc.)",
+          "Bank Segmentation (Large/Mega/Mid/Digital)",
+          "Banking Applications (Digital/Channel Apps)",
+          "Core Banking Platform",
+          "Enterprise Components",
+          "Risk and Fraud components",
+          "Data Analytics/Data Warehouse",
+          "Payment Apps",
+          "Four Dimensions of Core Banking",
+          "High Engineering Complexity",
+          "Evolving Trends to be supported by Banking Technology",
+          "Evolution of Core banking Platforms",
+          "Processing Models",
+          "Scalability",
+          "Elasticity",
+          "Observability",
+          "24*7 Availability",
+          "Security Architecture",
+          "Data Architecture",
+          "Integration Architecture",
+          "Extensibility Architecture",
+          "CI-CD/DevOps Architecture",
+          "Deployment Models",
+          "Key Industry Standards Support",
+          "Programming Languages",
+          "Persistence Technologies (Databases)",
+          "Container Technologies and Services",
+          "Cloud Service"
+        ],
+        "references": [
+          "Shroff, F. T. Modern banking technology. Northern Book Centre.2007",
+          "Keyes, J. (Ed.). Banking technology handbook. CRC Press. 1998",
+          "Ravi, V. (Ed.). Advances in Banking Technology and Management: Impacts of ICT and CRM: Impacts of ICT and CRM. IGI Global. 2007"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 3108",
+        "title": "STATISTICS FOR FINANCE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction statistics, data, data Types",
+          "Measures of central tendency and dispersion",
+          "Classical linear regression model",
+          "Analysis of the classical linear regression model",
+          "Classical linear regression model assumptions and diagnostic tests",
+          "Introduction to logistic Regression",
+          "Univariate time series modelling and forecasting",
+          "Multivariate models",
+          "Modelling long-run relationships in finance",
+          "Modelling volatility and correlation",
+          "Switching models",
+          "Panel data",
+          "Limited dependent variable models",
+          "Simulation methods",
+          "High frequency data"
+        ],
+        "references": [
+          "Chris Brooks. Introductory Econometrics for Finance, 2e. Cambridge University Press, New York, 2008.",
+          "Damodar N. Gujarati, Dawn C. Porter, & Sangeetha Gunasekar. Basic of Econometrics, 5e. McGraw Hill Education Pvt. Ltd., New Delhi, India, 2012."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 3102",
+        "title": "AI FOR FINANCE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Artificial Intelligence",
+          "Superintelligence",
+          "Normative Finance",
+          "Data-Driven Finance",
+          "Machine Learning",
+          "Deep Neural Network",
+          "Recurrent Neural Networks",
+          "Reinforcement Learning"
+        ],
+        "references": [
+          "Yves Hilpisch, Artificial Intelligence in Finance, O'Reilly Media, 2020",
+          "Marcos L\u00f3pez de Prado, Advances in Financial Machine Learning, Wiley, 2018",
+          "Marcos L\u00f3pez de Prado, Machine Learning for Asset Managers, Cambridge University Press, 2020",
+          "Ernest P. Chan, Quantitative Trading: How to Build Your Own Algorithmic Trading Business (2nd Edition), Wiley, 2017",
+          "Yves Hilpisch, Python for Finance: Mastering Data-Driven Finance (2nd Edition), O'Reilly Media, 2018",
+          "Stefan Jansen, Hands-On Machine Learning for Algorithmic Trading (2nd Edition), Packt Publishing, 2020",
+          "Ali N. Akansu, Sanjeev R. Kulkarni, Dmitry M. Malioutov, Financial Signal Processing and Machine Learning, Wiley, 2016"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "IPE 4302",
+        "title": "CREATIVITY, PROBLEM-SOLVING AND INNOVATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CSS 3107",
+        "title": "SOFTWARE APPLICATION DESIGN-LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 21,
+          "c": null
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Rational Rose",
+          "Star UML",
+          "SRS",
+          "SRS of Case Study",
+          "Code Generation",
+          "Project Implementation",
+          "Use Cases",
+          "SOLID Principles",
+          "Class Diagrams",
+          "Interaction Diagrams",
+          "Package Diagrams",
+          "Component Diagrams",
+          "Deployment Diagrams",
+          "NUnit",
+          "Junit"
+        ],
+        "references": [
+          "Rajib Mall, Fundamentals of Software Engineering (5e), PHI Learning, 2019"
+        ],
+        "flags": [
+          "structure_mismatch"
+        ]
+      },
+      {
+        "sem": 6,
+        "code": "CSS 3104",
+        "title": "BANKING TECHNOLOGY LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 2,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Categories",
+          "Core Banking Platform",
+          "Enterprise Processing Components",
+          "Data Analytics / Data Warehouses",
+          "Payments Apps",
+          "Enterprise / Cloud Native Services"
+        ],
+        "references": [],
+        "flags": [
+          "semester_mismatch",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CSS 3201",
+        "title": "MACHINE LEARNING & DEEP LEARNING",
+        "credits": {
+          "l": 4,
+          "t": 0,
+          "p": 0,
+          "c": 4
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction: Background Big Data-Big Compute in Finance, Fintech, Machine Learning and Prediction, Entropy, Neural Networks, Statistical Modeling vs. Machine Learning, Modeling Paradigms, Financial Econometrics and Machine Learning, Over-fitting, Reinforcement Learning, Examples of Supervised Machine Learning in Practice, Algorithmic Trading, High-Frequency Trade Execution, Mortgage Modeling",
+          "Data Preprocessing for Finance- Financial Data Types: Stock prices, time series, high-frequency data, sentiment analysis data; Data Cleaning and Transformation: Handling missing data, Outlier detection, Feature scaling; Feature Engineering for Finance, Feature selection techniques, Domain-specific feature engineering for financial datasets",
+          "Supervised Learning Algorithms in Finance- Regression Models: Linear and Logistic Regression for financial prediction; Decision Trees and Random Forests: Risk modeling and credit scoring, Support Vector Machines: Fraud detection and classification, Evaluation Metrics for Finance: AUC, ROC, Precision, Recall, Sharpe ratio",
+          "Unsupervised Learning in Finance-Clustering Techniques: K-means, Hierarchical Clustering, DBSCAN for market segmentation; Dimensionality Reduction: PCA, LDA for portfolio optimization and risk management, Anomaly Detection: Fraud detection and outlier identification in finance",
+          "Risk Modeling and Credit Scoring- Risk Models: VaR, Expected Shortfall for risk assessment; Credit Scoring Techniques: Logistic Regression, Decision Trees, and Random Forests for risk modelling",
+          "Anomaly Detection and Fraud Detection- Anomaly Detection in Financial Transactions: Identifying suspicious transactions using ML. Evaluation Metrics: Confusion matrix, precision, recall, F1-score",
+          "Time Series Forecasting- Time Series Analysis: AR, MA, ARMA, and ARIMA models for stock price prediction",
+          "Deep Learning in Financial Applications- Deep Learning Fundamentals: Neural networks, CNNs, RNNs, and LSTMs; Application of Deep Learning in Finance: Sentiment analysis using CNN, Fraud detection using autoencoders, Portfolio optimization using deep reinforcement learning",
+          "Sentiment Analysis in Finance-Natural Language Processing (NLP) in Finance: Text mining and sentiment analysis from financial news and social media. RNNs for Sentiment Analysis: Building sentiment analysis models using RNNs or LSTMs to predict market movements",
+          "LSTM and RNN in Financial Time Series: Predicting stock prices using deep learning; Volatility Modeling: GARCH models for financial volatility estimation"
+        ],
+        "references": [
+          "Bryan T. Kelly, Dacheng Xiu, FINANCIAL MACHINE LEARNING, SSRN, July 2023",
+          "Matthew F. Dixon, Igor Halperin, Paul Bilokon, MACHINE LEARNING IN FINANCE FROM THEORY TO PRACTICE, Springer Nature Switzerland AG, 2020",
+          "M. Narasimha Murty & V. Susheela Devi, INTRODUCTION TO PATTERN RECOGNITION AND MACHINE LEARNING, World Scientific Publishing Co. Pvt. Ltd. 2015",
+          "Marcos Lopez De Prado, ADVANCES IN FINANCIAL MACHINE LEARNING, John Wiley & Sons, Inc., Hoboken, New Jersey publication, 2018",
+          "Yves Hilpisch, PYTHON FOR FINANCE MASTERING DATA-DRIVEN FINANCE, O'Reilly Media Publication, Second Edition, 2020",
+          "Luigi Troiano, Arjun Bhandari, Elena Mejuto Villa, HANDS-ON DEEP LEARNING FOR FINANCE, Packt Publishing Ltd. Publication, 2020",
+          "Pradeep Singh, FUNDAMENTALS AND METHODS OF MACHINE AND DEEP LEARNING ALGORITHMS, Tools and Applications, Scrivener Publishing LLC, 2022",
+          "Trevor Hastie, Robert Tibshirani, and Jerome Friedman, THE ELEMENTS OF STATISTICAL LEARNING, Springer Series in Statistics, 2009",
+          "Ian Goodfellow, Yoshua Bengio, Aaron Courville, DEEP LEARNING, The MIT Press, 2016"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 3022",
+        "title": "ESSENTIALS OF MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Business",
+          "Classification of Industries",
+          "Importance of management for an engineer",
+          "Manager Roles External Environment",
+          "Social Responsibility of managers",
+          "Ethics in managing",
+          "International Business",
+          "Strategies and Policies",
+          "Strategic Planning Process & tool",
+          "Span of Management",
+          "Departmentation",
+          "Recruitment",
+          "Selection",
+          "Induction",
+          "Orientation",
+          "Leadership and Motivational tools and Techniques",
+          "Group Decision",
+          "Communication",
+          "Management Control Techniques"
+        ],
+        "references": [
+          "Harold Koontz, Heinz Weihrich, & Mark V. Cannice, \"Essentials of MANAGEMENT: An International, Innovation, and Leadership Perspective\", 11th Edition, McGraw Hill Education (India) Private Limited. 2020"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 3202",
+        "title": "CAPITAL MARKETS TECHNOLOGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Indian Capital Market",
+          "Authorities Governing Capital Markets in India",
+          "Market Regulation",
+          "Securities Market Reforms and Regulatory Measures to Promote Investor Confidence",
+          "Features of Developed Capital Market: IOSCO",
+          "Overview of Depository System in India",
+          "Intermediaries in the Capital Market: Merchant Bankers",
+          "Registrar to an issue & Share transfer agents",
+          "Underwriters",
+          "Bankers to an issue",
+          "Debenture trustees",
+          "Portfolio Managers",
+          "Stockbrokers and sub-brokers",
+          "Institutional investors",
+          "Foreign Portfolio Investors (FPIs)",
+          "Custodians",
+          "Clearing House",
+          "Deeper look of capital markets",
+          "Industry landscape - Roles of banks",
+          "Hierarchy",
+          "Asset classes - Transaction processing (Equity, Mutual Funds, ETFs, Derivatives, Government Bonds, Corporate Bonds, OTC Derivates)",
+          "Retail Brokerage",
+          "Wealth Management",
+          "Institutional Brokerage",
+          "Asset Management",
+          "Custodian",
+          "Prime Brokerage",
+          "Market Infrastructure - Stock exchanges",
+          "Central counter party",
+          "Central securities Depository",
+          "Share Registrars"
+        ],
+        "references": [
+          "Bodie Kane, Marcus, Investments. Tata McGraw Hill, Eleventh Edition, 2019.",
+          "Dr. Prasanna Chandra, Investment Analysis and Portfolio Management, Sixth Edition, McGraw Hill, 2021.",
+          "Donald Fischer, J Jordan, Securities Analysis & Portfolio Management ,Seventh Edition, Pearson Education, 2018.",
+          "Keith Brown & Frank Reily. Investment Analysis and Portfolio Management, Eleventh Edition, Cengage, 2022.",
+          "R. P. Rustagi. Investment Analysis and Portfolio Management Latest edition, S. C and Sons, 2022."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSP 4434",
+        "title": "CLOUD COMPUTING & DEV SEC OPS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Azure DevOps Fundamentals",
+          "Infrastructure as Code (IaC) with Azure Resource Manager (ARM)",
+          "Continuous Integration and Delivery (CI/CD) with Azure Pipelines",
+          "Containerization with Docker and Azure Kubernetes Service (AKS)",
+          "Security and Compliance with Azure Security Center and Azure Policy",
+          "Monitoring and Logging with Azure Monitor and Azure Log Analytics"
+        ],
+        "references": [
+          "David Okeyode, and Joylynn Kirui, DevSecOps for Azure: End-to-end supply chain security for GitHub, Azure DevOps, and the Azure cloud. Packt Publishing.2024",
+          "Krief, M.Learning DevOps: The Complete Guide to Accelerate Collaboration with Jenkins, Kubernetes, Terraform and Azure DevOps. Packt Publishing Ltd. . 2019"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSP 4435",
+        "title": "SOFTWARE RELIABILITY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Software Reliability",
+          "Reliability Engineering for Financial Software",
+          "Risk Management in Financial Systems",
+          "Reliability Prediction and Models",
+          "Reliability and Security in Financial Software",
+          "Financial Software Failure Modes and Disaster Recovery",
+          "Case Studies"
+        ],
+        "references": [
+          "Michael R. Lyu. \"Software Reliability Engineering: A Practitioner's Approach\". McGraw Hill. 1996",
+          "Carlo Ghezzi, Mehdi Jazayeri, and Dino Mandrioli. \"Fundamentals of Software Engineering\". Pearson. 2002",
+          "Elsayed A. Elsayed. \"Reliability Engineering\". Wiley. 2012",
+          "Heather Adkins, Betsy Beyer, Paul Blankinship, and Piotr Lewandowski. \"Building Secure and Reliable Systems\". O'Reilly Media. 2020",
+          "Niall Richard Murphy, Betsy Beyer, Chris Jones, and Jennifer Petoff. \"Site Reliability Engineering: How Google Runs Production Systems\". O'Reilly Media. 2016"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "CSS 3203",
+        "title": "CAPITAL MARKETS LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 2,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [],
+        "references": [],
+        "flags": [
+          "missing_syllabus",
+          "missing_references"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CSS 3204",
+        "title": "MACHINE LEARNING LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 2,
+          "c": 1
+        },
+        "tags": [
+          "lab"
+        ],
+        "syllabus": [
+          "Data Preprocessing for Financial Data",
+          "Feature Selection for Financial Data",
+          "Linear and Logistic Regression in Financial Trees and Random Forests for Risk Modeling and Credit Scoring",
+          "Clustering Techniques for Market Segmentation",
+          "Principal Component Analysis (PCA) for Portfolio Optimization",
+          "Anomaly Detection in Financial Data Time Series Analysis for Stock Price Prediction",
+          "LSTM and RNN for Financial Time Series Prediction",
+          "Deep Learning for Fraud Detection",
+          "Sentiment Analysis Using NLP for Market Prediction",
+          "Portfolio Optimization using Deep Reinforcement Learning"
+        ],
+        "references": [
+          "Marcos Lopez De Prado, ADVANCES IN FINANCIAL MACHINE LEARNING, John Wiley & Sons, Inc., Hoboken, New Jersey publication, 2018",
+          "Yves Hilpisch, PYTHON FOR FINANCE MASTERING DATA-DRIVEN FINANCE, O'Reilly Media Publication, Second Edition, 2020",
+          "Luigi Troiano, Arjun Bhandari, Elena Mejuto Villa, HANDS-ON DEEP LEARNING FOR FINANCE, Packt Publishing Ltd. Publication, 2020",
+          "Pradeep Singh, FUNDAMENTALS AND METHODS OF MACHINE AND DEEP LEARNING ALGORITHMS, Tools and Applications, Scrivener Publishing LLC, 2022"
+        ],
+        "flags": [
+          "semester_mismatch"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "CSP 4437",
+        "title": "SOFTWARE QUALITY ASSURANCE AND PROJECT MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Software Quality Assurance",
+          "Software quality assurance system - overview and Assuring the Quality of Software Maintenance Components",
+          "Software Testing - Strategies and Implementation",
+          "Project Management- An Overview",
+          "Project Management Growth: Concepts and Definitions"
+        ],
+        "references": [
+          "Daniel Galin. \"Software Quality Assurance: Principles and Practice\". Alpha Science Int., Ltd. 2006",
+          "Harold Kerzner \"Project Management: A Systems Approach to Planning, Scheduling, and Controlling\". JOHN WILEY. 2017",
+          "Ken Schwaber. \"Agile Project Management with Scrum\". Microsoft Press US. 2004"
+        ],
+        "flags": [
+          "multiple_courses_present"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4401",
+        "title": "HUMAN RESOURCE MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction, Scope of HRM, Objectives of HRM, Functions, Activities, Roles, HRD organization and responsibilities",
+          "Evolution of HRM, global trends shaping HR practices. Influence of various factors on HRM",
+          "Human resource planning: Introduction, Strategic considerations, Nature and scope, Human Resources Inventory, Job analysis, Job design, Job description, Job specification and Job evaluation",
+          "Employee Recruitment & Selection: Policy, Process, Tests, modern methods, Interview, Provisional selection, Medical/Physical examinations, Placement, Induction programs and socialization",
+          "Training and development: Basic concepts, Employees training Process, Planning, Preparation of trainees, Implementation, Performance evaluation and Follow-up training",
+          "Competency Mapping and Career development programmes",
+          "Performance appraisal and Merit rating, Promotion, transfers and separations, Wages and salaries administration, Discipline and grievances",
+          "Industrial and labour relations and Trade Unionism Overview: Collective bargaining and maintaining Industrial health, Practising Inclusivity, Role of HR in Mergers & Acquisitions, HR in Entrepreneurial firms"
+        ],
+        "references": [
+          "Michael Armstrong., A Handbook of Human Resource Management Practice: 10th Edition, New Delhi, Kogan Page India,2006",
+          "Gary Dessler & Biju Varkey .,Human Resource Management:12th Edition Dorling Kindersley(India),Noida,2011",
+          "T. V. Rao and Pereira D F., Recent experiences in Human Resources Development, Oxford and IBH Publishing, 1986",
+          "Subbrao A., Essentials of Human Resource Management and industrial Relations, Himalaya Publishing House, 1999",
+          "Aswathappa K, Human Resource Management,Text & Cases McGraw Hill 7th Edition, 2006",
+          "N G Nair and Latha Nair., Personnel Management and Industrial Relations, S. Chand Company, 1995"
+        ],
+        "flags": [
+          "course_code_suggests_different_semester"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4402",
+        "title": "MARKETING MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Marketing definition, scope and concepts",
+          "Adapting marketing to the New Economy",
+          "Marketing strategic planning",
+          "Market Demand",
+          "Marketing Environment",
+          "Marketing Information System",
+          "Marketing Research",
+          "Segmentation, Targeting and Positioning",
+          "Buying Behaviour: Consumer Markets and Business Markets",
+          "Competition: Identifying competitors, analysing competitors",
+          "Product Life Cycle: Product life-cycle marketing strategies",
+          "New Market Offerings: New product development and challenges, Branding",
+          "Designing and Managing Services",
+          "Price Strategies",
+          "Retailing, Wholesaling",
+          "Integrated Marketing Communications",
+          "Digital Marketing and Trends",
+          "International Marketing"
+        ],
+        "references": [
+          "Philip Kotler, Kevil Keller, SweeAng, Chi Tan, Siew Leong, Marketing Management- An Asian Perspective, Pearson Education, Singapore, 2021",
+          "Philip Kotler, Kevil Keller, Abraham Koshy &MithileshwarJha, Marketing Management: A South Asian Perspective, Pearson Education Inc, New Delhi, 2012",
+          "Deepak &Jeyakumar, Marketing Management. Educreation Publishing, 2019"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4403",
+        "title": "FINANCIAL MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction and objectives of financial management",
+          "Evolution of corporate finance",
+          "Types of accounts, Golden rules of accounting",
+          "Preparation of journal, ledger, trial balance and final accounts",
+          "Sources of long-term finance",
+          "Characteristics of equity capital, preference capital, debenture capital & term loans",
+          "Valuation of securities, Bond valuation and related models, Bond value theorems, Yield to maturity",
+          "Equity valuation, Dividend capitalization approach",
+          "Leverage, Operating leverage, financial leverage, Total leverage, Indifference point analysis",
+          "Working capital management",
+          "Capital budgeting, Appraisal criteria, Payback period, Average rate of return, Net present value, Benefit cost ratio, Internal rate of return",
+          "Risk analysis in capital budgeting",
+          "Cost of capital, Cost of debt capital, preference capital and equity capital, Weighted average cost of capital, Determination of proportions",
+          "Cash management, Dividend decisions"
+        ],
+        "references": [
+          "Prasanna Chandra. Financial Management-Theory and Practice, 9/e. Tata McGraw Hill Education Pvt. Ltd., New Delhi, 2016.",
+          "I M Pandey. Financial Management. Vikas Publishing House Pvt. Ltd., New Delhi,2015.",
+          "N Ramachandran & Ram Kumar Kakani. Financial Accounting for Management, 3e. Tata McGraw Hill Education Pvt. Ltd., New Delhi, 2011.",
+          "Eugene F Brigham & Michael C E. Financial Management: Theory and Practice, 12e. Cengage Learning, India, 2008.",
+          "R. Narayanaswamy. Financial Accounting: A Managerial Perspective, 6e. PHI Learning Pvt. Ltd., New Delhi, 2017."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4404",
+        "title": "OPERATIONS MANAGEMENT",
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introductions to operations management",
+          "Forecasting \u2013 qualitative and quantitative methods of forecasting, and forecast errors",
+          "Capacity Planning- long-term capacity and capacity cushions",
+          "Aggregate planning \u2013 Strategies and developing an aggregate plan",
+          "Scheduling - machine scheduling and workforce scheduling",
+          "Theory of constraints - identifying and reliving bottlenecks in a line process",
+          "Supply Chain Management- design, organization, and performance measures",
+          "Quality Management \u2013 concepts of TQM, lean and continuous improvement"
+        ],
+        "references": [
+          "Krajewski L. J., Ritzman L. P., Malhotra M., and Srivastava S. K., Operations Management, 11th edition, Pearson Education (Singapore) Pvt. Ltd., Delhi, 2016.",
+          "Heizer J. and Render B. and Munsen C., Operations Management, 12th edition. Pearson Education India, 2017.",
+          "Khanna R. B., Production and Operations Management, 2nd edition, PHI Learning Private Limited, 2015.",
+          "Stevenson, W. J., Operations management. McGraw Hill, 2020."
+        ],
+        "flags": [
+          "code_sem_mismatch"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4403",
+        "title": "FINANCIAL MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction and objectives of financial management",
+          "Evolution of corporate finance",
+          "Types of accounts, Golden rules of accounting",
+          "Preparation of journal, ledger, trial balance and final accounts",
+          "Sources of long-term finance",
+          "Characteristics of equity capital, preference capital, debenture capital & term loans",
+          "Valuation of securities, Bond valuation and related models, Bond value theorems, Yield to maturity",
+          "Equity valuation, Dividend capitalization approach",
+          "Leverage, Operating leverage, Financial leverage, Total leverage, Indifference point analysis",
+          "Working capital management",
+          "Capital budgeting, Appraisal criteria, Pay-back period, Average rate of return, Net present value, Benefit cost ratio, Internal rate of return",
+          "Risk analysis in capital budgeting",
+          "Cost of capital, Cost of debt capital, preference capital and equity capital, Weighted average cost of capital, Determination of proportions",
+          "Cash management, Dividend decisions"
+        ],
+        "references": [
+          "Prasanna Chandra. Financial Management-Theory and Practice, 9/e. Tata McGraw Hill Education Pvt. Ltd., New Delhi, 2016.",
+          "I M Pandey. Financial Management. Vikas Publishing House Pvt. Ltd., New Delhi,2015.",
+          "N Ramachandran & Ram Kumar Kakani. Financial Accounting for Management, 3e. Tata McGraw Hill Education Pvt. Ltd., New Delhi, 2011.",
+          "Eugene F Brigham & Michael C E. Financial Management: Theory and Practice, 12e. Cengage Learning, India, 2008.",
+          "R. Narayanaswamy. Financial Accounting: A Managerial Perspective, 6e. PHI Learning Pvt. Ltd., New Delhi, 2017."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4405",
+        "title": "FINANCIAL SYSTEM",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to financial market",
+          "Stock markets trading mechanism",
+          "Major stock exchanges",
+          "Stock market indices",
+          "Factors affecting stock market",
+          "analysis of market indices- SENSEX and NIFTY components, calculation and revision",
+          "International stock exchange and its operation for NYSE, NASDAQ, and LSE",
+          "Role of IT in capital market",
+          "Provident funds",
+          "Pension funds",
+          "Chit funds",
+          "Objective and functions debt market",
+          "Primary and secondary mortgage market",
+          "Participants in mortgage markets",
+          "International trends in securitization",
+          "Derivative securities markets- forward, futures, options and financial swaps market, trading mechanism, regulatory framework and pricing of the instruments",
+          "Financial intermediaries",
+          "Commercial banks",
+          "Credit system for short-term developments in credit information system",
+          "Development banks- structure, philosophy and operations",
+          "Non-Banking Financial Cos- the types, role and function",
+          "Regulatory framework for NBFCs",
+          "provident funds",
+          "Pension fund's objectives and functions",
+          "Real Assets- Land and house property, bullion, art and precious stones",
+          "Mutual Fund- concept, types and functioning, Limitations of mutual funds",
+          "Overall comparative analysis of financial market in India & UK / China / Euro Zone / Japan / Brazil / Russia and South Africa"
+        ],
+        "references": [
+          "Bhole, L. M. Financial Institutions and Markets: Structure, Growth & Innovation, 6e. McGraw Hill Education, New Delhi, 2017.",
+          "Saunders, A. & Cornett, M. Financial Markets and Institutions, 6e. McGraw-Hill Education, New Delhi, 2014",
+          "Machiraju, H. R. Indian Financial System, 5e. Vikas Publishing House, New Delhi, India, 2019.",
+          "Varshney, P. N. Banking Law & Practice, Sultan Chand & Sons, 2017.",
+          "Harris, Larry. Trading and exchanges: Market microstructure for practitioners. OUP USA, 2003."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4406",
+        "title": "SECURITY ANALYSIS & PORTFOLIO MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction",
+          "Accounting information and regression analysis",
+          "Common stock- return, growth, and risk",
+          "Introduction to valuation theories",
+          "Bond valuation and analysis",
+          "The uses and calculation of market indexes",
+          "Risk-Aversion",
+          "Capital asset allocation, and Markowitz portfolio-selection model",
+          "Capital asset pricing model and beta forecasting",
+          "Index models for portfolio selection",
+          "Performance measure approaches for selecting optimum portfolios",
+          "The efficient-market hypothesis & security valuation",
+          "Arbitrage pricing theory",
+          "Intertemporal capital asset pricing model"
+        ],
+        "references": [
+          "Finnerty, Joseph, et al. Security Analysis, Portfolio Management, and Financial Derivatives. World Scientific Publishing Company, 2012.",
+          "Fischer, D. E., Jordan, R. J. & Ashwini, K. P. Security Analysis Portfolio Management, 7e. Pearson Education, New Delhi, India, 2018.",
+          "Chandra, P. Investment Analysis and Portfolio Management, 5e. McGraw Hill Education, New Delhi, India, 2017.",
+          "Kevin, S. Security Analysis Portfolio Management, 2e. PHI Learning Pvt. Ltd., New Delhi, India, 2015.",
+          "Ranganatham, M. &Madhumathi, R. Security Analysis Portfolio Management, 2e. Pearson Education India, 2011.",
+          "Damodaran, Aswath. Investment valuation: Tools and techniques for determining the value of any asset. Vol. 666. John Wiley & Sons, 2012."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4407",
+        "title": "PROJECT FINANCE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Project finance and its importance",
+          "Development of project finance",
+          "Elements of project finance structures and examples",
+          "Project development and management",
+          "Sponsors and other investors",
+          "Role of advisors",
+          "Joint-ventures issues",
+          "The project company",
+          "Public procurement",
+          "Market for project finance- applications and sectors",
+          "Working with lenders",
+          "Project characteristics",
+          "Risk analysis and risk management",
+          "Types of project agreement",
+          "Common aspects of project agreement",
+          "Sub-contracts and other related agreements",
+          "Valuing the project",
+          "Project cash flow analysis",
+          "Financing the deal",
+          "Funding options- equity",
+          "Funding options",
+          "Legal aspects of project finance",
+          "Risk in project finance",
+          "Commercial risks",
+          "Macro-economic risks",
+          "Regulatory and political risks evaluation and allocation",
+          "Financial structuring",
+          "The financial model",
+          "Recent market developments and prospects for project finance"
+        ],
+        "references": [
+          "Yescombe, E. R. Principles of Project Finance, 2e. Academic Press, Waltham, USA, 2014",
+          "Gatti, S. Project Finance in Theory and Practice: Designing, Structuring, and Financing Private and Public Projects, Academic Press, Waltham, USA, 2013",
+          "Prasanna Chandra. Projects- Planning Analysis, Selection, Financing, Implementation and Review, 8e. McGraw Hill Education, 2017",
+          "Machiraju, H. R., Introduction to Project Finance, 1e. Vikas Publication House Pvt. Ltd., New Delhi, India, 2001"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4408",
+        "title": "FINTECH SERVICES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction, FinTech history, initiatives ecosystem, and challenges",
+          "Technology Enablers for Fintech, Digital Transformation and Disruption",
+          "Digital signatures and Cryptography, Distributed ledger technology",
+          "FinTech model and classifications, Business model for FinTech",
+          "Innovations and FinTech, Critical success factors for FinTech",
+          "Regulations importance, the role of regulators. Application of fintech in Banking, lending and Borrowing, Wealth Management, and Capital Markets. Digital technologies and their role in FinTech, payment gateway"
+        ],
+        "references": [
+          "Chavan, Chandrahauns., Patankar, Atul., Introduction to Fintech, Pearson, 2024",
+          "Bernardo Nicoletti. The Future of FinTech: Integrating Finance and Technology in Financial Services. Palgrave Macmillan, August 2018",
+          "Rubini, Agustin. Fintech in a flash: financial technology made easy. Walter de Gruyter GmbH & Co KG, 2018",
+          "Susanne Chishti & Janos Barberis. The FINTECH Book: The Financial Technology Handbook for Investors, Entrepreneurs and Visionaries, 1e. John Wiley, New York. 2016"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4409",
+        "title": "INTRODUCTION TO BANKING AND PAYMENT SYSTEMS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Banking and Financial Services",
+          "Evolution of Banking",
+          "Categories of Banks",
+          "Product Lines and Product Types",
+          "Customer Servicing and Revenue Model",
+          "Embedded Finance",
+          "Banking Regulations and Compliance",
+          "Introduction to Payments",
+          "Payment Instruments and Payment Systems",
+          "Clearing and Settlement Mechanisms",
+          "Payments Messages Standards",
+          "Domestic and International Payments",
+          "Payment Processing Value Chain",
+          "Digital Payments",
+          "Payment Gateways & E-Commerce Payments",
+          "Security in Payments",
+          "Regulations and Risks"
+        ],
+        "references": [
+          "Khan, M.Y. Financial services, 5e. Tata McGraw Hill Publications, 2011.",
+          "Bhole, L.M. Financial Institution, and Markets, 3e. Tata McGraw Hill Publications, 2008.",
+          "Suresh, P. and Justin Paul. Management of Banking and Financial Services, 4e. Pearson Publications. 2017.",
+          "Indian Institute of Banking and Finance. Principles & Practices of Banking, New Delhi, Macmillan Education. 2011.",
+          "Bindseil, U., & Pantelopoulos, G. Introduction to Payments and Financial Market Infrastructures. Springer Nature. 2023."
+        ],
+        "flags": [
+          "missing_core_elective_tag"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4410",
+        "title": "FINANCIAL ECONOMETRICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Econometrics",
+          "Structure of economic data",
+          "Classical linear regression model",
+          "Analysis of the classical linear regression model",
+          "Classical linear regression model assumptions and diagnostic tests",
+          "Univariate time series modelling and forecasting",
+          "Multivariate models",
+          "Modelling long-run relationships in finance",
+          "Modelling volatility and correlation",
+          "Switching models",
+          "Panel data",
+          "Limited dependent variable models",
+          "Simulation methods",
+          "High frequency data"
+        ],
+        "references": [
+          "Chris Brooks. Introductory Econometrics for Finance, 2e. Cambridge University Press, New York, 2008.",
+          "Damodar N. Gujarati, Dawn C. Porter, & Sangeetha Gunasekar. Basic of Econometrics, 5e. McGraw Hill Education Pvt. Ltd., New Delhi, India, 2012.",
+          "Jeffrey M. Wooldridge. Introductory Econometrics: A Modern Approach, 5e. Cengage Learning, New Delhi, India, 2020."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4403",
+        "title": "FINANCIAL MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction and objectives of financial management",
+          "Evolution of corporate finance",
+          "Types of accounts, Golden rules of accounting",
+          "Preparation of journal, ledger, trial balance and final accounts",
+          "Sources of long-term finance",
+          "Characteristics of equity capital, preference capital, debenture capital & term loans",
+          "Valuation of securities, Bond valuation and related models, Bond value theorems, Yield to maturity",
+          "Equity valuation, Dividend capitalization approach",
+          "Leverage, Operating leverage, financial leverage, Total leverage, Indifference point analysis",
+          "Working capital management",
+          "Capital budgeting, Appraisal criteria, Payback period, Average rate of return, Net present value, Benefit cost ratio, Internal rate of return",
+          "Risk analysis in capital budgeting",
+          "Cost of capital, Cost of debt capital, preference capital and equity capital, Weighted average cost of capital, Determination of proportions",
+          "Cash management, Dividend decisions"
+        ],
+        "references": [
+          "Prasanna Chandra. Financial Management-Theory and Practice, 9/e. Tata McGraw Hill Education Pvt. Ltd., New Delhi, 2016.",
+          "I M Pandey. Financial Management. Vikas Publishing House Pvt. Ltd., New Delhi, 2015.",
+          "N Ramachandran & Ram Kumar Kakani. Financial Accounting for Management, 3e. Tata McGraw Hill Education Pvt. Ltd., New Delhi, 2011.",
+          "Eugene F Brigham & Michael C E. Financial Management: Theory and Practice, 12e. Cengage Learning, India, 2008.",
+          "R. Narayanaswamy. Financial Accounting: A Managerial Perspective, 6e. PHI Learning Pvt. Ltd., New Delhi, 2017."
+        ],
+        "flags": [
+          "department_mismatch"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4411",
+        "title": "ENTREPRENEURSHIP",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "The Entrepreneurial mind-set",
+          "Startup eco-system",
+          "Corporate entrepreneurship",
+          "Generating and exploiting new entries",
+          "Creativity and the business idea",
+          "Identifying and analysing opportunities (domestic and international)",
+          "Protecting the idea and other legal issues for the entrepreneur",
+          "Business plan",
+          "Marketing plan",
+          "Organizational plan",
+          "Financial plan",
+          "Sources of capital",
+          "Informal risk capital",
+          "Venture capital",
+          "Going public",
+          "Strategies for growth",
+          "Managing the implications of growth",
+          "Accessing resources for growth from external sources",
+          "Succession planning"
+        ],
+        "references": [
+          "Hisrich, R D., Peters, M P, Shepard D A, and Sinha. S. Entreprenuership, 11e. McGraw-Hill Special Indian Edition, New Delhi, India, 2020.",
+          "Neck, Heidi M., Christopher P. Neck, and Emma L. Murray. Entrepreneurship: the practice and mindset, 2e. Sage Publications, New Delhi, India, 2019.",
+          "Norman Scarborough & Jeffrey Cornwall. Essentials of Entrepreneurship and Small Business Management, 9e. Pearson, Noida, India, 2019."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4412",
+        "title": "DESIGN THINKING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "History of design thinking",
+          "Value of design thinking",
+          "Design thinking as solution",
+          "Design thinking for strategy",
+          "Revisiting the business model canvas as a common language",
+          "Strategy project set-up",
+          "Target industry",
+          "Guiding principles",
+          "Process overview",
+          "The business model layer",
+          "The competition layer",
+          "Shaping the strategy by designing business model prototypes",
+          "Designing objectives",
+          "The designing process",
+          "Documenting the current detailed business model",
+          "Generating innovative ideas",
+          "Transforming ideas into business model prototypes",
+          "Design thinking is a tool box"
+        ],
+        "references": [
+          "Den-Dekker, T. Design Thinking, Routledge, UK, 2020.",
+          "Diderich, Claude. Design Thinking for Strategy. Springer International Publishing, Switzerland, 2020.",
+          "Nixon, Natalie W., ed. Strategic Design Thinking: Innovation in Products, Services, Experiences and Beyond. Fairchild Books, United States, 2015."
+        ],
+        "flags": [
+          "reference_formatting_issue"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4413",
+        "title": "INTELLECTUAL PROPERTY MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Fundamentals of intellectual property rights- creating value by generating innovation, capturing value by protecting innovation, types of intellectual property rights",
+          "Protection strategies-patent strategies in general, offensive, and defensive patent strategies, core dimensions of patent strategies, cost of patents, complementary strategies to patenting",
+          "Evaluating and valuing patents-evaluating patents, valuing patents, managing the patent portfolio",
+          "Successful practices in commercializing patents-licensing, cross-licensing, sale, strategic alliance, spin-off and call-back, joint venture, patenting for access to finance, litigation for value, complex strategies, commercialisation concepts and conclusion",
+          "organizing patent management-governance vs service patent department, costs and benefits of patent department, core processes of patent management, preventing product piracy",
+          "Patent management by industry, Patent management in new technology environments, Practical Considerations in Patenting-structure of patent, Patent document codes, Patent classification, IP tax regimes, Indian IPR laws, Brief comparison of patent legislation"
+        ],
+        "references": [
+          "Gassmann, Oliver, Martin A. Bader, and Mark James Thompson. Patent management: protecting intellectual property and innovation. Springer, Cham, 2021.",
+          "Saunders, K. Intellectual Property and the Law of Ideas. Routledge, London and New York, 2021.",
+          "Liu, K., & Racherla, U. Innovation, Economic Development, and Intellectual Property in India and China. Springer Nature, Singapore, 2019.",
+          "Karhad, Prasad. How to patent an idea in India: From idea to granted patent in quickest time, saving costs and making money with your patented invention. India, 2018."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4401",
+        "title": "HUMAN RESOURCE MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Evolution",
+          "Significance",
+          "Strategic HRM",
+          "HR practices-planning",
+          "recruitment",
+          "selection",
+          "placement and induction",
+          "Training & Development",
+          "Performance evaluation",
+          "Compensation management",
+          "HR for Entrepreneurs",
+          "inclusive practices",
+          "International HRM",
+          "Discipline & Grievances",
+          "HR in digital world"
+        ],
+        "references": [
+          "Pareek, U., & Rao, T. V. (2015). Designing and managing human resource systems. Oxford and IBH publishing.",
+          "Dessler, G., (2017), \u201cHuman Resource Management\u201d, Pearson publications",
+          "Aswathappa, K. E. M. A. L. (2013). Human resource management: Text and cases. Tata McGraw-Hill Education."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4414",
+        "title": "ORGANIZATIONAL BEHAVIOUR",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Perception",
+          "Attributes",
+          "Attitude",
+          "Individual- traits",
+          "value system",
+          "motivation theories",
+          "behaviour",
+          "Group dynamics \u2013 nature",
+          "types",
+          "theories & decision making",
+          "Conflict management",
+          "Change Management",
+          "Organization culture",
+          "Organization development",
+          "organization life cycle",
+          "learning organization"
+        ],
+        "references": [
+          "Luthans F., (2002),\u201cOrganisational Behaviour\u201d, Tata McGraw Hill: New Delhi.",
+          "Robbins S.,(2002),\u201cOrganisational Behaviour Concepts, Controversies & Applications\u201d, Peacock Publications.",
+          "Pareek, U., (2012), \"Understanding organizational Behaviour\", Oxford University Press",
+          "Luhman, J., & Cunliffe, A. (2013). Key concepts in organization theory. SAGE Publications Ltd."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4415",
+        "title": "PROFESSIONALISM & ETHICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Theoretical underpinnings - psycho social theories of moral development",
+          "Characteristics of a professional \u2013 who is a professional",
+          "Demonstration of characteristics in various circumstances",
+          "Types of Ethics \u2013 utilitarianism, absolutism, universalism",
+          "Ethics as understood by different nations & culture",
+          "Understanding self \u2013 emotional intelligence",
+          "Self-awareness",
+          "Inter-personal relationship",
+          "Understanding Professionalism",
+          "Practising ethics",
+          "Individual development plan"
+        ],
+        "references": [
+          "Daniel Albuquerque. Business Ethics: principles and practices. Oxford.",
+          "Subroto Bagchi. The Professional: defining the new standards of excellence at work. Penguin India.",
+          "Subrato Bagchi. The Professional companion: how to make the best of your workplace skils. Penguin India.",
+          "Satya Sundar Shetty. Contemporary Ethical issues in Engineering. IGI Global publications.",
+          "Paul Hersy & Ken Blanchard. Management of Organizational Behaviour: utilizing human resources. 4th ed. PHI."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4416",
+        "title": "LEADERSHIP & DECISION MAKING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Trait theories",
+          "Behavioural theories",
+          "Contingency theories",
+          "Leader-membership exchange theory",
+          "Self-assessment",
+          "Traits",
+          "Charismatic leadership styles",
+          "Transformational leadership styles",
+          "Transactional leadership styles",
+          "Authentic leadership",
+          "Interpersonal relationship",
+          "Developing leadership skills",
+          "Ethics in leadership"
+        ],
+        "references": [
+          "DuBrin, A. J. (2015). Leadership: Research findings, practice, and skills. Cengage Learning.",
+          "Northouse, P. G. (2021). Leadership: Theory and practice. Sage publications.",
+          "Nohria, N., & Khurana, R. (Eds.). (2010). Handbook of leadership theory and practice. Harvard Business Press."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4417",
+        "title": "PUBLIC SPEAKING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Public speaking",
+          "Voice modulation",
+          "Sounds/accent (basics)",
+          "Articulation",
+          "Anxiety management",
+          "Logical arguments",
+          "Concept of purpose",
+          "Audience",
+          "Smart use of Body language",
+          "Types of speech-Informative speeches - designing and delivery",
+          "Persuasive speeches \u2013 designing and delivery",
+          "Impromptu speeches \u2013 designing and delivery",
+          "Special occasion speeches- designing and delivery",
+          "Presentations - planning and execution",
+          "Types of presentation - Informative-Planning and delivery",
+          "Persuasive - Planning and delivery",
+          "Motivational - Planning and delivery",
+          "Other forms of speaking \u2013 Debates",
+          "Seminars",
+          "Panel Discussion",
+          "Group Discussion",
+          "Tall Tales",
+          "Turn Coat",
+          "Art of Evaluation-Providing feedback- planning",
+          "designing and delivering constructive feedback",
+          "Receiving feedback \u2013 making use of relevant feedback",
+          "Techniques of providing feedback",
+          "Speech analysis \u2013Role of the Evaluator"
+        ],
+        "references": [
+          "Duarte Nancy., Resonate: Present Visual Stories that Transform Audiences, John Wiley and Sons, 2010",
+          "Minto Barbara., The Pyramid Principle: Logic in writing, thinking and Problem Solving, Financial Times Prentice Hall, 2002",
+          "Berkun Scott., Confessions of a Public Speaker, O'Reily Media, 2009",
+          "Goodale Malcolm., Professional Presentations, Cambridge University Press, 2005",
+          "Carnegie Dale., The Art of Public Speaking, 1905"
+        ],
+        "flags": [
+          "reference_formatting_issue: Reference entries contain potential formatting inconsistencies (e.g., 'John 2.' appears as separate item)"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4418",
+        "title": "INTERCULTURAL COMMUNICATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "The challenges of intercultural communication - interacting in a diverse world, understanding cultures, alternative views of reality",
+          "Intercultural Communication concepts, assumptions and norms",
+          "Understanding cultural Dimensions and Cultural Stereotyping - case studies",
+          "Intercultural Business Communication Competence - The Role of Language in Intercultural Business Communication, Nonverbal Language in Intercultural Communication, Cultural influence on interpersonal communication, Intercultural Dynamics in the multicultural organizations",
+          "Intercultural Encounters and Self-Awareness, Managing Diversity, Managing Intercultural Teams"
+        ],
+        "references": [
+          "Gannon M J and Pillai R. Understanding Global Cultures, Sage Publications, California. 2010.",
+          "Steers, Richard M., Luciara Nardon, and Carlos J. Sanchez-Runde. Management across cultures: Developing global competencies. Cambridge University Press, 2013.",
+          "Bowe, Heather, Kylie Martin, and Howard Manns. Communication across cultures: Mutual understanding in a global world. Cambridge University Press, 2014.",
+          "Samovar, Larry A., et al. Communication between cultures. Cengage Learning, 2016.",
+          "Ting-Toomey, Stella, and Tenzin Dorjee. Communicating across cultures. Guilford Publications, 2018."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4419",
+        "title": "CORPORATE COMMUNICATION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Concepts and principles, tools, definition, nature and scope, structure and management",
+          "Media management, convergence",
+          "Corporate communication in industry and in the digital age",
+          "Comparison with Public Relations, advertising, publicity and propaganda",
+          "Organisational communication",
+          "Social environment affecting organizational communication - internal and external",
+          "Brand management and communication strategies",
+          "Advertising and creative communication",
+          "Global communication and diplomacy",
+          "Health and science communication",
+          "Communication during crisis"
+        ],
+        "references": [
+          "Stohl, Cynthia, Organisational Communication, Sage, 1995",
+          "L.Putnam, Linda and K.Mumby, Dennis, ed. The SAGE Handbook of Organisational Communication, 3rd Edition, 2013",
+          "J V Vilanilam, Science Communication and Development, Sage Publications, 1993",
+          "H. Bell, Arthur and M.Smith, Dayle, Management Communciation, 3rd Edition, 2009"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4420",
+        "title": "TECHNICAL AND BUSINESS WRITING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Principles, techniques, and skills for preparing scientific, technical, or business writing",
+          "Writing of reports and letters",
+          "Preparation and presentation of oral reports",
+          "Emphasis on clarity, conciseness, and accuracy of expression",
+          "Mechanics of writing: use of appropriate structures, punctuation and style",
+          "Copy editing and content proof",
+          "Practice writing: letters, resume, proposals, recommendations, portfolio",
+          "Technical writing process: Document development process, Documentation Planning, Selection of Tools, Templates, Audience Profiling, Task Analysis, Content Development, Elements of Style, Technical Reviews, Content Cleaning and Publishing"
+        ],
+        "references": [
+          "Gerson, Sharon J., and Steven M. Gerson. Technical writing: Process and product. Prentice-Hall",
+          "Gould, Jay R. Directions in Technical Writing and Communication. Routledge, 2020.",
+          "Huckin, Thomas N., and Leslie A. Olsen. Technical writing and professional communication. McGraw-Hill, 1996.",
+          "Strunk, William. The elements of style. Penguin, 2007."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4421",
+        "title": "UNDERSTANDING LITERATURE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Evolution and Development of literary forms: Poetry, Drama, Fiction",
+          "Major themes: allegory, satire, romanticism, realism, modernism and post modernism",
+          "Major writers and their contribution",
+          "Genre and canon",
+          "Socio-political conditions of the society",
+          "Literary Transactions",
+          "Literary Movements",
+          "Contemporary concerns and representations in Poetry, Drama and fiction",
+          "Reception and Literary Criticism: major contributions and relevance"
+        ],
+        "references": [
+          "Jahn, Manfred. Poems, Plays, and Prose: A Guide to the Theory of Literary Genres, 2002",
+          "Frye, Northrop. Anatomy of criticism: Four essays. Princeton University Press, 2020",
+          "Jenkinson, Edward B.(eds.) On Teaching Literature London: Indiana University Press, 2010",
+          "Mayhead, R. Understanding Literature Cambridge: CUP, 2016",
+          "Styan, J.L. The Elements of Drama Cambridge: CUP, 2016",
+          "Auerbach, Erich, and Edward W. Said. Mimesis: The Representation of Reality in Western Literature - New and Expanded Edition. Vol. 78. Princeton University Press, 2013"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4422",
+        "title": "TWENTIETH CENTURY LITERATURE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Background: social context, political context and literary movements",
+          "World Wars and its influence on Literature",
+          "Twentieth century literature: transformation and transition in poetry, drama, and fiction",
+          "Major movements: aesthetic, formal, and thematic diversity among twentieth century writers",
+          "Artistic, cultural, and critical contours Modernism",
+          "World War I and II and impact on twentieth century literature: reflections in poetry, drama and fiction",
+          "Post-modernism: features and representation",
+          "Feminism and Post colonialism",
+          "Questions concerning 'the nation,' race, welfare state, and language",
+          "Literary Criticism and theory, and application"
+        ],
+        "references": [
+          "Aaron, Jane, Ann L. Ardis, and Timothy David Armstrong. The Cambridge history of twentieth-century English literature. Vol. 1. Cambridge University Press, 2004.",
+          "Blamires, Harry. A guide to twentieth century literature in English. Routledge, 2021.",
+          "Greenblatt, Stephen, ed. The Norton Anthology of English Literature: (Volume A, B, C). Vol. 1. WW Norton & Company, 2018.",
+          "Stringer, Jenny, & John Sutherland, eds. The Oxford companion to twentieth-century literature in English. Oxford University Press, USA, 1996.",
+          "Thody, Philip. Twentieth-century literature: critical issues and themes. Macmillan International Higher Education, 1995."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4423",
+        "title": "COMPARATIVE LITERATURE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Comparative Literature: Aims, features and theory",
+          "Themes: fate and chance, individual and society, freedom and enslavement, boundaries and borders, sexuality and gender roles, and identity in literature",
+          "Religious Poetry: Select Poems from English literature and select Poems from Indian literary traditions",
+          "Drama: Gender roles and identity in Drama - European Drama and Indian Writing in English",
+          "Short Stories: realism and social value: Russian, African, European and Indian short stories",
+          "Fiction: Post-Colonial themes and concerns in modern fiction"
+        ],
+        "references": [
+          "Apter, Emily S. Comparative literature in an age of globalization. JHU Press, 2006.",
+          "Dom\u00ednguez, C\u00e9sar, Haun Saussy, and Dar\u00edo Villanueva. Introducing comparative literature: New trends and applications. Routledge, 2014.",
+          "Damrosch, David, ed. World literature in theory. John Wiley & Sons, 2014.",
+          "Mukherjee, Tutun. \"Comparative Literature and Ex-centricity.\" Companion to Comparative Literature, World Literatures, and Comparative Cultural Studies. Eds. Steven T\u00f6t\u00f6sy de Zepetnek and Tutun Mukherjee. New Delhi: Cambridge University Press India Pvt. Ltd (2013): 36-58."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4424",
+        "title": "MODERN INDIAN LITERATURE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "elective",
+          "theory"
+        ],
+        "syllabus": [
+          "Beginning of Indian Writing in English",
+          "The Gandhian Influence; Partition and Independence",
+          "early Indian Novel in English",
+          "The Growth of Indian Theatre in English: Indainaisation and Western influence in Drama",
+          "Poetry: Early Poetry-Toru Dutt, Sarojini Naidu, Kamala Das, Amrita Pritam, Jayanta Mahapatra",
+          "Development in poetic trends: A K Ramanujam, Gauri Deshpande, R Partha Sarathi Nissim Ezekeil, Keki Daruwalla, Arvind Kolatkar",
+          "Fiction in Indian writing: R K Narayan, Amitav Ghosh, Arundati Roy; Rohinton Mistry, Salman Rushdhi, and JumpaLahri"
+        ],
+        "references": [
+          "Appudurai, Arjun, Appadurai, Arjun. Modernity at Large: Cultural Dimensions of Globalization. University of Minnesota Press, Minneapolis, 2005.",
+          "Deshmane, Chetan, ed. Muses India: Essays on English-Language Writers from Mahomet to Rushdie. Jefferson, NC, and London: McFarland & Co., 2013.",
+          "Mukherjee, Meenakshi. The Twice Born Fiction. Pencraft, New Delhi, 2001.",
+          "Iyengar, Srinivasa K.R.: Indian Writing in English. Sterling Publishers Private Limited. Reprint 1994.",
+          "Naik, M.K. A History of Indian English Literature. Sahitya Academy, 1982, reprint."
+        ],
+        "flags": [
+          "reference_formatting_issue"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4321",
+        "title": "COMMUNICATIVE ENGLISH",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Phonetics: Transcription",
+          "Word Accent",
+          "Common Errors in English: Subject Verb Agreement",
+          "Uses of Tenses / Sequence of Tense",
+          "Prepositions",
+          "Punctuation",
+          "Articles",
+          "Special Usages",
+          "Creative Writing",
+          "Essay: Types of Essays",
+          "Argumentative Essay",
+          "Descriptive/Expository / Narrative Essays",
+          "Reading Comprehension",
+          "Non-detailed Text - Critical Evaluation",
+          "Vocabulary",
+          "Confused pair of words",
+          "Idiomatic Expressions",
+          "Antonyms and Synonyms",
+          "Tutorials: Group Discussions",
+          "Presentation Skills",
+          "Essay writing"
+        ],
+        "references": [
+          "Green David Contemporary English Grammar, Structures and Composition Chennai: Macmillan Publications",
+          "Thompson AJ & Martinet AB A Practical English Grammar, OUP",
+          "Turton N D , Heaton J B Longman Dictionary of Common Errors, 1998",
+          "McCarthy Michael English Idioms in Use 2002, London Cambridge University Press",
+          "Jones Daniel, An Outline of English Phonetics New York: Cambridge University Press",
+          "English Today- A Course in Reading and Writing, Foundation Books Pvt. Ltd., Cambridge House, New Delhi, 2005"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4322",
+        "title": "FILM STUDIES",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "History of invention of motion pictures - Daguerre, Muybridge, Edison, Skaldanowsky Brothers, Lumieres",
+          "Evolution of film \u2013 Lumieres, Melies, Porter, Griffith",
+          "Basic techniques \u2013 Mise-en-scene, Mise-en-shot, Deepfocus Photography, Longtake, Continuity, Editing, Montage",
+          "German Expressionism",
+          "French Impressionism",
+          "Soviet Montage cinema",
+          "Hollywood cinema, Italian Neo-realism",
+          "French Nouvelle Vague",
+          "Documentary",
+          "Directors \u2013 Eisenstein, Kurosawa, Godard, Chaplin, Bergman; Mohsen Makmalbakf, Majid Majidi, Keislowski, Zhang Yimou, Kim Ki Duk",
+          "\u201cNew Wave\u201d Cinema in India - Bengali; Malayalam; Kannada; Hindi",
+          "To be screened- Bicycle Thieves, The 400 blows, Rashomon, Wild strawberries, Battleship Potemkin, Cabinet of Dr. Caligari, The kid, Children of heaven, Hero, Ghatashraddha, Pather Panchali, Mathilukal"
+        ],
+        "references": [
+          "100 Years of American Films",
+          "Bowker's Complete Video Directory",
+          "Cinema Studies: The Key Concepts",
+          "Dictionary of Film Studies: The Aesthetic Companion to Film and Art",
+          "Filmakers Dictionary",
+          "Halliwell's Film and Video Guide"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4323",
+        "title": "GERMAN FOR BEGINNERS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to the German alphabet and the German language",
+          "dialogues & conversations",
+          "pronunciation",
+          "basic vocabulary lists",
+          "key points of grammar",
+          "background information about the history and culture of Germany",
+          "exercises on vocabulary, grammar and German culture",
+          "reading & listening comprehension"
+        ],
+        "references": [
+          "Sally Johnson, Natalie Braber, 2008 Exploring the German Language, Second Edition, Cambridge University Press",
+          "Charles Russ, 1994 The German Language Today: A Linguistic Introduction, Routledge"
+        ],
+        "flags": [
+          "unclear_course_type"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4324",
+        "title": "INDO-EUROPEAN INTERCULTURAL DYNAMICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "The challenges of Intercultural communication - interacting in a diverse world, understanding cultures, alternative views of reality, cultural stereotyping",
+          "Foundational Theories in Intercultural Communication - Edward Hall, Samovar, G Hofstede",
+          "Understanding cultural dimensions and Cultural Stereotyping - collectivism/individualism, power distance, masculine/feminine, cultural metaphors",
+          "Intercultural Business Communication Competence",
+          "Cultural influence on interpersonal communication"
+        ],
+        "references": [
+          "Dodd, Carley H. 1998, Dynamics of Intercultural Communication, McGraw-Hill, Boston.",
+          "Gannon M J and Pillai R. 2010, Understanding Global Cultures, Sage Publications, California.",
+          "Hofstede, Geert 2001, Cultures' Consequences, Comparing Values, Behaviors, Institutions, and Organizations across Nations, Sage Publications, Thousand Oaks, CA.",
+          "Martin, J.N. & Nakayama, T.K. 2007, Intercultural communication in contexts. 4th Edition. Mountain View, CA: Mayfield.",
+          "Samovar, L A and Porter, R. 2007, Communication between Cultures, Cengage Learning, Wadsworth, CA."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4325",
+        "title": "INTERPRETATION OF LITERARY TEXTS",
+        "credits": null,
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Texts-static, dynamic, cryptic and delphic",
+          "Language of literature",
+          "Form and structure",
+          "Literature verses popular fiction",
+          "Text and discourse",
+          "Authors and critics",
+          "Theories and approaches to literary texts",
+          "Formalism",
+          "Structuralism",
+          "Marxism",
+          "Feminism",
+          "Deconstruction",
+          "Ideational functions and textual Functions",
+          "Class, gender and texuality",
+          "Race and nationality",
+          "Genre, phonological deviations \u2013sound patterns and figures of speech",
+          "Pragmatic approach to literature",
+          "Understanding syntax",
+          "Lexical and syntactic analysis of literary texts",
+          "Point of view in literary texts and foregrounding",
+          "Prediction and making sense of a text",
+          "Stylistic analysis of a novel",
+          "Kinds of meaning",
+          "Rhetorical structure",
+          "Pragmatics and discourse analysis",
+          "Interpreting cohesive devices and complex functional values",
+          "Stylistic approach to literature",
+          "Elements of literary style",
+          "Stylistic analysis of selected short stories, Poems, Novels and Plays",
+          "Genre, the plot setting, characterization, tone and themes",
+          "Stylistics and its implications on narrative techniques",
+          "Intertextuality and conceptual blending",
+          "Identifying patterns in the texts",
+          "Meaning making process in literature",
+          "Imagery, metaphor as a mode of thought",
+          "Coherence and Cohesion",
+          "Context, turn taking and Adjacency Pair",
+          "Pro-forms",
+          "Discourse markers",
+          "Lexical cohesion and presupposition",
+          "Recognizing text organization",
+          "Critical texts",
+          "Shared assumptions on critical texts",
+          "The role of schema and the concept of speech acts in literary texts"
+        ],
+        "references": [
+          "Austin, J.L. (1992). How to do Things with Words, Longman, London.",
+          "Barthes, R.(1977). Introduction to the Structural Analysis of Narratives, Fontana, London.",
+          "Blake, N.F.(1990). An Introduction to the Language of Literature, Macmillan, London.",
+          "Carter, R. (ed.) (1982). Language and Literature: An introductory Reader in Stylistics, Allen and Unwin, London.",
+          "Cook, G. (1994). Discourse and Literature, Oxford University Press, London."
+        ],
+        "flags": [
+          "missing_credits"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4326",
+        "title": "PUBLIC SPEAKING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction to Public speaking",
+          "Voice modulation",
+          "Sounds/accent (basics)",
+          "Articulation",
+          "Anxiety management",
+          "Logical arguments",
+          "Concept of purpose",
+          "Audience",
+          "Smart use of Body language",
+          "Informative speeches - designing and delivery",
+          "Persuasive speeches \u2013 designing and delivery",
+          "Impromptu speeches \u2013 designing and delivery",
+          "Special occasion speeches- designing and delivery",
+          "Presentations - planning and execution",
+          "Types of presentation - Informative - Planning and delivery",
+          "Persuasive - Planning and delivery",
+          "Motivational - Planning and delivery",
+          "Debates",
+          "Seminars",
+          "Panel Discussion",
+          "Group Discussion",
+          "Tall Tales",
+          "Turn Coat",
+          "Art of Evaluation - Providing feedback - planning, designing and delivering constructive feedback",
+          "Receiving feedback \u2013 making use of relevant feedback",
+          "Techniques of providing feedback",
+          "Speech analysis \u2013 Role of the Evaluator"
+        ],
+        "references": [
+          "Duarte Nancy, Resonate: Present Visual Stories that Transform Audiences, John Wiley and Sons, 2010",
+          "Minto Barbara, The Pyramid Principle: Logic in writing, thinking and Problem Solving, Financial Times Prentice Hall,2002",
+          "Berkun Scott, Confessions of a Public Speaker, O'Reily Media, 2009",
+          "Goodale Malcolm, Professional Presentations, Cambridge University Press, 2005",
+          "Carnegie Dale, The Art of Public Speaking, 1905"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4327",
+        "title": "ANALYTICAL WRITING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Essay Writing: Narrative - Instructional and Process narratives",
+          "Descriptive",
+          "Expository",
+          "Argumentative",
+          "Different components of Argumentation",
+          "Critical Writing Strategies: Summarizing, Paraphrasing, Synthesizing",
+          "Brainstorming Strategies: Clustering, Mapping, Outlining, Cubing, Looping",
+          "Logical Reasoning: Inductive Reasoning, Deductive Reasoning, Logical Fallacies",
+          "Mechanics of Writing: Punctuation Marks, Rules related to the use of quotation marks, Rules related to Acknowledging Sources",
+          "Analyzing texts \u2013 tone, style, vocabulary and structure",
+          "Use of graphics in the text",
+          "Mechanics of Thesis writing",
+          "Journal writing"
+        ],
+        "references": [
+          "Rise B. Alexrod, Charles R. Cooper (2002), St. Martin's Guide to Writing, Sixth Edition, Bedford St. Martin's, NY.",
+          "Dorothy Seyler, (2009), Read, Reason and Write, Sixth Edition, McGraw-Hill Higher Education, NY.",
+          "Thomas S. Kane, (1994), The Oxford Essential Guide To Writing, Oxford University."
+        ],
+        "flags": [
+          "semester_mismatch"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4328",
+        "title": "COMMONWEALTH LITERATURE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Definition, terminology",
+          "Emergence",
+          "Beginning",
+          "Versatility and importance",
+          "Central ideas",
+          "characteristics",
+          "Themes, styles and patterns",
+          "Authors and critics",
+          "Theories",
+          "Critical text",
+          "Approaches to literary text",
+          "Issues common to writers",
+          "Interpretation of the text",
+          "critical approaches",
+          "Culture and imperialism",
+          "Cross-cultural understanding",
+          "Ethnicity, human identity",
+          "Nationalism",
+          "Diaspora, transnationality, multiculturalism",
+          "analysis of selected Novels, Poems and Short-stories"
+        ],
+        "references": [
+          "Narasimhaiah, C. D. (2014). An Anthology of Commonwealth Poetry, Trinity. India.",
+          "Sinha, P.K., J. K. Sinha. (2011). History of Commonwealth Literature. Commonwealth Publishers. New Delhi.",
+          "Ray, Mohit K. (2003). Studies in Commonwealth Literature. Atlantic. New Delhi.",
+          "Bill, Ashcroft. (2002). The Empire Writes Back. Routledge. London.",
+          "Dhawan. R. K. (2006). Contemporary Commonwealth Literature. Prestige Books. India."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4329",
+        "title": "CREATIVE COMMUNICATION: ART, MEDIA, CULTURE AND IDEAS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Art and ideas within broader context of art, history and cultural studies",
+          "Culture and creativity across historical 'time and space' engagements",
+          "Art as reaction, reflection and revolution within socio-cultural and political timeline",
+          "'Isms' from renaissance to romanticism, realism to expressionism and postmodern",
+          "Concepts: defamiliarization, Indian and Western aesthetics",
+          "Theories on 'beauty', 'taste', 'original' and the 'sublime'",
+          "Subaltern deprived parallels: folklore, tribal and endangered art",
+          "Role of art critics and curators",
+          "Festivals and activism",
+          "Environmental art movements",
+          "Animation, advertising, installation art, art films, experimental art"
+        ],
+        "references": [
+          "Berger, John, Ways of Seeing. New York: Viking Press, 2018.",
+          "Shaw, Philip, The Sublime \u2013 The New Critical Idiom. London & New York: Routledge, 2019.",
+          "Berger, John, About Looking. New York: Pantheon, 1980.",
+          "Coomaraswamy K Ananda, The Transformation of Nature in Art, Harvard University Press, 1934.",
+          "Mitter, Partha, Much Maligned Monsters: A history of European reactions to Indian Art, the university of Chicago Press, 1992.",
+          "Appadurai, Arjun, and Mack, Arien ed. India's World: The politics of Creativity in a globalized society, Rain tree, 2012."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4331",
+        "title": "WOMEN'S WRITING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory",
+          "core"
+        ],
+        "syllabus": [
+          "Survey of writing by women from various time periods, geographic regions, and social classes of India and the world",
+          "History and development of women's rights and issues from classical period to present",
+          "Critical debates on women's rights at intersections of gender, race, nation, caste, and ethnicity",
+          "Unique forms of language, style, genre, and theories impacting women's writing",
+          "White Feminism: Mary Wollstencraft, Elaine Showalter, Virginia Woolf, Simone de Beauvoir, Helene Cixous, Ali Smith",
+          "Black Feminism: Maya Angelou, Toni Morrison, Chimamanda Adichie",
+          "South-Asian Feminism: Anita Desai, Ismat Chugtai, Sashi Deshpande, Kamani, Kamala Das, Nisha Susan",
+          "Subaltern Women's Writing: Urmila Pawar, Sujatha Gidla",
+          "Transgender and Queer Writing: A. Revathi, Jeanette Winterson"
+        ],
+        "references": [
+          "Bhasin, Kamla and Nighat Said Khan. Some Questions on Feminism and its Relevance in South Asia. Kali for Women, 1996.",
+          "Jung, Anees. Unveiling India: A Woman's Journey. Penguin, 1987",
+          "Kumar, Radha. The History of Doing: An Illustrated Account of Movements for Women's Rights and Feminism in India, 1800-1990. Kali for Women, 1997",
+          "Butalia, Urvashi and Ritu Menon, eds. In Other Words: New Writing by Indian Women. Kali for Women, 1992.",
+          "Hameed, Syeda S. and Sughra Mehdi, trans. Parwaaz: Urdu Short Stories by Women. Kali for Women, 1996"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4332",
+        "title": "CULTURE AND SOCIETY IN LITERATURE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Themes of religion, individual and collective identity, morality and society, boundaries and borders, sexuality and gender roles in literatures of different nations",
+          "Cultural constructions of identities and values through analysis of representations",
+          "Examination of the idea of 'faith' in Religious Poetry: Selected Poems of John Donne, George Herbert, C Rosetti, G M Hopkins; Selected Poems from Vachanas; Selected poems of Tagore; Selected Poems of Aurobindo",
+          "Exploration of the notion of 'woman' in Drama: The Doll's House - H Ibsen, Ph\u00e8dre - Jean Racine, Nagamandala - G Karnad",
+          "Investigation of 'values' in society in Short Stories: Selected stories of Maupassant, A. Chekov, V M Basheer and Chimamanda Ngozi Adichie",
+          "Notion of boundaries in Fiction: Things Fall Apart - Chinua Achebe, Heart of Darkness - J Conrad, The White Tiger - Aravinda Adiga"
+        ],
+        "references": [
+          "Bremond, Claude. \u201cConcept and Theme.\u201d The Return of Thematic Criticism. Ed. Werner Sollors. Cambridge: Harvard UP, 1993. 46 \u2013 59.",
+          "Ghosh, Paramita. \"Desires from the World beyond and the Women in Naga Mandala.\" Indian Drama in English. 2011",
+          "Hirschberg, Stuart, and Terry Hirschberg. One world, many cultures. Pearson/Longman, 2004.",
+          "Milner, Andrew. Literature, culture and society. Psychology Press, 2005.",
+          "Sharp, Joanne. Geographies of postcolonialism. Sage, 2008.",
+          "Shiva Prakash (Ed.), I keep vigil of Rudra: The Vachanas. Penguin UK, 2010."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4333",
+        "title": "INTRODUCTION TO PSYCHOLOGY",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Psychology - Meaning, Nature and Scope",
+          "Defining Psychology",
+          "Meaning of the term Behavior",
+          "Nature of Psychology",
+          "Scope of Psychology: Branches and fields of Psychology",
+          "Development of Psychology - Historic Sketch of Psychology, Modern Age of Psychology, Gestalt Psychology, Psycho Analysis, Contemporary Psychology",
+          "Systems of Psychology - The Nervous System, Nature V/s Nurture, Sensation and perception, States of Consciousness",
+          "Methods of Psychology - Classical Conditioning, Introspection Method, Naturalistic Method, Experimental Method, Differential Method, Clinical Method, Psycho Physical Method",
+          "Personality - Personality types, Personality Disorders, Abnormal psychology, Treatment of personality disorders",
+          "Thinking - Nature of Thinking, Types of Thinking, Language and Intelligence",
+          "Discussion, Presentation and Assignments"
+        ],
+        "references": [
+          "Boring, E.G., Langfield, H.S.&Weld, H.P, \u201cFoundations of Psychology\u201d, Asia Publishing House, Calcutta, 1963",
+          "Carson, R.C., Butcher, J.N. & Coleman, J.C, \u201cAbnormal Psychology & Modern Life\u201d, (8th ed.) Scoff, Foresman& Co. 1988",
+          "Lahey, B.B. \u201cPsychology: An Introduction\u201d, 6th Ed., Tata McGraw Hill, New York, 1965",
+          "Olson, M.; Hergenhahn, B.R \u201cIntroduction to the Theories of Learning\u201d, Prentice-Hall India, 200"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4334",
+        "title": "INTRODUCTION TO PHILOSOPHY, RELIGION AND CULTURE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Notions of Philosophy",
+          "The Origin and Development of Philosophy",
+          "Ancient Philosophy",
+          "Medieval Philosophy",
+          "Modern Philosophy",
+          "Contemporary Philosophy",
+          "Indian Philosophy",
+          "Comparative Religion",
+          "Western Philosophy",
+          "The Relevance of Philosophy",
+          "Branches of Philosophy",
+          "Methods of Philosophy",
+          "Philosophy and other Branches of Study",
+          "Some Problems of Philosophy",
+          "Themes of Philosophy",
+          "Mind and Body, and the Problem of Universal",
+          "Change/Movement time and place",
+          "Existence of God and Evolution",
+          "Indian Culture",
+          "Social Ethics",
+          "Logic and Scientific Methods",
+          "Philosophy of Language"
+        ],
+        "references": [
+          "Aquinas, Thomas. (1968). On Being and Essence. Trans. Armand Maurer. Canada: Pontifical Institute of Mediaeval Studies.",
+          "John-Terry, Chris. (1994). For the Love of Wisdom: An Explanation of the meaning & Purpose of Philosophy. New York: Alba House.",
+          "Maritain, Jacques. (1979). An Introduction to Philosophy. London: Sheed and Ward.",
+          "Radhakrishnan, S. (Ed). History of Philosophy Eastern and Western Vol.II George Allen and Unwin Ltd., London, 1953.",
+          "Wallace, William. (1990). The Elements of Philosophy. New York: Alba House."
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4335",
+        "title": "CREATIVE WRITING",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "theory"
+        ],
+        "syllabus": [
+          "Various literary/prose forms and their characteristics: Longform Journalism, Travelogue, Short Fiction, Memoir, Autobiography, Novel",
+          "Critical Concepts and Terms in Literary Writing: Narrator, Tone, Voice, Style",
+          "Literary Movements: Realism, Modernism, Surrealism, Expressionism, Post-Modernism, Magic Realism, Regional writing",
+          "Time & Space, Imagery: Metaphor, Simile, Personification, Narrative Space, Point of View",
+          "Introduction/Orientation to the course"
+        ],
+        "references": [
+          "David Lodge,The Art of Fiction, Penguin Books, 1992",
+          "Milan Kundera, The Art of the Novel, Faber and Faber, 1988",
+          "Paul Eschholz and Alfred Rosa, Eds.,University of Vermont, Outlooks and Insights: A Reader for Writers, St. Martin's Press/New York, 1983",
+          "James Moffet, Ed., Points of View, University of Chicago Press, 2000",
+          "M.H. Abrams, A Glossary of Literary Terms, Seventh Edition, Macmillan, 2005"
+        ],
+        "flags": [
+          "tags_inferred_as_theory_only"
+        ]
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4336",
+        "title": "GRAPHIC NOVELS: HISTORY, FORM AND CULTURE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "The History of Comic Books: Developing a Medium",
+          "The History of Comic Books: The Maturation of the Medium",
+          "Creating the Story: Graphic Storytelling and Visual Narrative",
+          "Experiencing the Story: The Power of Comics",
+          "Comic Book Genres: Definition, Characteristics, and Hybridization"
+        ],
+        "references": [
+          "Comics, Comix and Graphic Novels, Roger Sabin",
+          "Comics, Manga and Graphic Novels: A History of Graphic Narrative, Robert Petersen",
+          "Comics as Performance, Fiction as Scalpel; Allan Moore",
+          "Arguing Comics: Studies in Popular culture; JeetHeer, Kent Worcester",
+          "Comics and the City, JornArhens",
+          "Graphic Women: Life Narrative and Contemporary Comics, Hillary Chute",
+          "The Classic Popular, NandiniChandran",
+          "Comics and Sequential Art, Will Eisner",
+          "Understanding Comics, the Invisible Art, Scott Mccloud",
+          "Making Comics, Scott Mccloud",
+          "The Language of Comics, Mario Saraceni",
+          "Graphic Storytelling and Visual Narrative, Will Eisner"
+        ],
+        "flags": []
+      },
+      {
+        "sem": 3,
+        "code": "HUM 4338",
+        "title": "RESEARCH METHODS IN MANAGEMENT",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": [
+          "core",
+          "theory"
+        ],
+        "syllabus": [
+          "Introduction",
+          "Problem Definition",
+          "Qualitative Research Tools",
+          "Secondary Data Research in a Digital Age",
+          "Survey Research",
+          "Observation Methods",
+          "Experimental Research",
+          "Measurement and Scaling Concepts",
+          "Attitude Measurement",
+          "Questionnaire Design",
+          "Sampling Designs and Sampling Procedures",
+          "Determination of Sample Size",
+          "Fieldwork",
+          "Basic Data Analysis",
+          "Univariate Statistical Analysis",
+          "Bivariate Statistical Analysis",
+          "Multivariate Statistical Analysis",
+          "Communicating Research Results"
+        ],
+        "references": [
+          "Zikmund, W. G., Babin, B. J., Carr, J. C., & Griffin, M. (2013). Business Research Methods, Ninth Edition. Cengage Learning.",
+          "Saunders, M., Lewis, P., & Thornhill, A. (2015). Research Methods for Business Students, Seventh Edition. Pearson Education.",
+          "Cooper, D. R., Schindler, P. S., & Sun, J. (2017). Business Research Methods. Eleventh Edition. New York: McGraw-Hill.",
+          "Chawla, D., & Sodhi, N. (2016). Research Methodology: Concepts and Cases. Second Edition. Vikas Publishing House."
+        ],
+        "flags": []
+      }
+    ]
+  }
+}
