@@ -12,10 +12,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Gradient, divergence and curl",
           "Line, surface and volume integrals",
@@ -42,9 +39,7 @@
           "B.S.Grewal: Higher Engg. Mathematics, edn., Khanna Publishers (1989)",
           "Murray R.Spiegel: Vector Analysis, Schaum Publishing Co (1959)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -56,10 +51,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Aircraft Structural Components and their functions",
           "Loads on Airframe, Stresses: Tensile, Compressive and Shear",
@@ -81,9 +73,7 @@
           "Peery, D.J., Aircraft Structures, McGraw\u2013Hill, N.Y., (2011)",
           "Rivello, R.M., Theory and Analysis of Flight Structures, McGraw Hill, (1993)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -95,10 +85,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Materials classification.",
           "Crystallography SC, FCC, BCC, HCP structures.",
@@ -126,9 +113,7 @@
           "Degarmopaul, Black & Kohser, Materials and Processes in Manufacturing (8/e), Prentice Hall of India, New Delhi, (2003).",
           "Dalela S., Manufacturing Science and Technology\u201d (Vol. II & III), Umesh Publishers, Delhi, (1998)."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -140,10 +125,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Thermodynamics-System, Zeroth Law of Thermodynamics, First law applied to a Process \u2013 applied to a flow system \u2013 Steady Flow Energy Equation- Limitations of the First Law \u2013 Thermal Reservoir, Heat Engine, Heat pump , Second Law of Thermodynamics, Kelvin-Planck and Clausius Statements and their Equivalence / Corollaries, PMM of Second kind, Carnot's principle, Carnot cycle and its specialties, Thermodynamic scale of Temperature, Clausius Inequality, Entropy, Principle of Entropy Increase \u2013 Energy Equation, Availability and Irreversibility \u2013 Thermodynamic Potentials, Gibbs and Helmholtz Functions, Maxwell Relations \u2013Third Law of Thermodynamics, Pure Substances-Mollier Char ts, Phase Transformations \u2013 Triple point at critical state properties during change of phase, Dryness Fraction \u2013 Clausius \u2013 Clapeyron Equation Property tables. Mollier charts \u2013 Various Thermodynamic processes and energy Transfer \u2013 Steam Calorimetry, Ideal and Real gases- Perfect Gas Laws \u2013 Equation of State, specific and Universal Gas constants, Deviations from perfect Gas Model \u2013 Vander Waals Equation of State \u2013 Compressibility charts \u2013 variable specific Heats \u2013 Gas Tables. Mixtures of perfect Gases \u2013 Mole Fraction, Mass friction Gravimetric and volumetric Analysis \u2013 Dalton's Law of partial pressure, Avogadro's Laws of additive volumes \u2013 Mole fraction , Volume fraction and partial pressure, Equivalent Gas const. And Molecular Internal Energy, Enthalpy, sp. Heats and Entropy of Mixture of perfect Gases and Vapour, theory of psychrometry, Otto, Diesel, Dual Combustion cycles, Sterling Cycle, Atkinson Cycle, Ericcson Cycle, Lenoir Cycle \u2013Thermal Efficiency, Mean Effective Pressures on Air standard basis \u2013 comparison of Cycles. Brayton and Rankine cycles \u2013 Performance Evaluation \u2013 combined cycles, Bell-Coleman cycle, Vapour compression cycle-performance.Self-study topics recommended."
         ],
@@ -154,10 +136,7 @@
           "Mayhew A. and Rogers B., Engineering Thermodynamics, E.L.B.S. Longman (1994)",
           "P L Ballaney, Thermal Engineering, Khanna Publishers (2012)"
         ],
-        "flags": [
-          "missing_semester",
-          "syllabus_structure_unstructured"
-        ]
+        "flags": ["missing_semester", "syllabus_structure_unstructured"]
       },
       {
         "sem": null,
@@ -169,10 +148,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fluid Properties and Fluid Statics",
           "Fluid Kinematics",
@@ -192,9 +168,7 @@
           "Bruce R. Munson, Theodore H. Okiishi, Wade W. Huebsch, Alric P. Rothmayer, Fundamentals of Fluid Mechanics, John Wiley and Sons, New Jersey, (2013)",
           "Clayton T. Crowe, Donald F Elger, Barbara C Williams, John A Roberson, Engineering Fluid Mechanics, John Wiley and Sons, New Jersey, (2009)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -206,10 +180,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction and Overview of The History of Flight",
           "Fundamental Thoughts",
@@ -238,9 +209,7 @@
           "Howard D Curtis., Orbital mechanics for Engineering Students, Butterworth Heinemann, (2013)",
           "Anderson Jr. JD, Fundamental of Aerodynamics, McGraw Hill International Edition, (2017)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -252,10 +221,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Irrigation Lab: Venturi meter, orifice meter, orifice, friction in pipes",
           "Thermal Engineering Lab: Closed cup and open cup flash point and fire point, Saybolt viscometer, redwood viscometer, boys' gas calorimeter",
@@ -268,9 +234,7 @@
           "Frank N white, Fluid Mechanics, Mc-Graw Hill, (2011)",
           "John F Douglas, Fluid Mechanics, Pearson Educations publishers, (2005)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 4,
@@ -282,9 +246,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Tensile",
           "Torsion",
@@ -304,9 +266,7 @@
           "Joseph A. Untener and Robert L. Mott, Applied Strength of materials, PHI, (2016)",
           "Egor P. Popov, Engineering Mechanics of Solids, PHI, (2004)"
         ],
-        "flags": [
-          "credits_mismatch"
-        ]
+        "flags": ["credits_mismatch"]
       },
       {
         "sem": null,
@@ -318,10 +278,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Special Functions: Series solutions of Bessel and Legendre differential equations, Recurrence formulae, generating functions and Orthogonal properties for Jn(x) and Pn(x)",
           "Probability, finite sample space, conditional probability and independence, Bayes' theorem, one dimensional random variable: mean and variance, Chebyshev's inequality",
@@ -335,9 +292,7 @@
           "Hogg & Craig - Introduction of Mathematical Statistics, MacMillan(1975)",
           "B. S. Grewal- Higher Engg. Mathematics, Khanna Publishers(1989)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -349,10 +304,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fluid motion Basics",
           "Potential flows",
@@ -369,9 +321,7 @@
           "L M Milne Thomson, Theoretical Aerodynamics, Courier Corporation (2011)",
           "Ethirajan Radhakrishnan, theoretical aerodynamics, John Willey and Sons, Singapore Pte Ltd, (2013)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -383,10 +333,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Classification of propulsion systems",
           "Difference between airbreathing and non-airbreathing systems",
@@ -424,9 +371,7 @@
           "Saravanamuttoo, H.I.H., Rogers G.F.C., Cohen H. Gas Turbine Theory, Pearson (2001)",
           "Hill, P.G. & Peterson, C.R. \u201cMechanics & Thermodynamics of Propulsion\u201d Addison \u2013 Wesley Longman INC, (1999)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -438,10 +383,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Brief overview of the historical development of Control system theory",
           "Basic terminologies of the control systems",
@@ -466,9 +408,7 @@
           "Nagrath & Gopal, Modern Control Engineering, New Ages International (2014)",
           "E. Bryson and Y-C Ho, Applied Optimal Control, Taylor and Francis, e book, (2017)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -480,10 +420,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Atmosphere and Flight Speeds: International Standard Atmosphere; Flight Speeds \u2013 IAS, CAS, EAS and TAS",
           "Review of Aerodynamics and Propulsion: Aircraft Lift and Drag Aerodynamics. Aerodynamic Efficiency. Aircraft Propulsion - Piston Engine - Propeller Aircraft, Turboprop and Turbojet/Turbofan Aircraft, Power and Thrust variation \u2013 Altitude and Speed. Specific Fuel Consumption",
@@ -499,9 +436,7 @@
           "RuijgrokG,J,J,: Elements of airplane performance, VSSD (2009)",
           "Phillips, W,F,: Mechanics of flight, John Wiley (2010)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -513,10 +448,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "General types of construction",
           "Types of Structure",
@@ -553,9 +485,7 @@
           "Megson T.M.G., Aircraft Structures for Engineering Students, Edward Arnold, (2007)",
           "Rivello R.M., Theory and Analysis of Flight Structures, McGraw-Hill, (1993)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -567,10 +497,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Introduction to Wind tunnel and Propulsion labs and familiarizing the apparatus",
           "Introduction to wind tunnel and its calibration",
@@ -594,9 +521,7 @@
           "George P. Sutton, Rocket Propulsion Elements, Wiley India Pvt Ltd, (2010)",
           "National Aeronautics and Space Administration. 1985. Aeronautical Facilities Catalogue. 1: Wind Tunnels (NASA RP-1132). Washington, D.C. National Academies of Sciences, Engineering, and Medicine. 1992. Aeronautical Technologies for the Twenty-First Century. Washington, DC:The National Academies Press. https://doi.org/10.17226/2035"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 5,
@@ -608,10 +533,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Introduction to MATLAB Programming: Basics of MATLAB programming \u2013 Array operations in MATLAB \u2013 Loops and execution control \u2013 Working with files: Scripts and Functions \u2013 Plotting and program output",
           "Approximations and Errors",
@@ -640,10 +562,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Time value of money, Interest factors for discrete compounding, Nominal & effective interest rates, Present and future worth of Single, Uniform, and Gradient cash flow. Related problems and case studies.",
           "Bases for comparison of alternatives, Present worth amount, Capitalized equivalent amount, Annual equivalent amount, Future worth amount, Capital recovery with return, Rate of return method, Incremental approach for economic analysis of alternatives, Replacement analysis.",
@@ -670,10 +589,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Now and Future Trends",
           "Wireless Communication for the Industrial IoT",
@@ -705,10 +621,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: Origin of FEM, Applications, basic steps, differential equations of physical problem, analytical and approximate solution, difference between Fem and Finite Difference Method. Pre-processing, processing and post processing, computational tools etc. Brief matrix notation and operation, advantages and disadvantages of FEM",
           "Finite Element Formulation: Weighted residual method, Rayleigh Ritz Method, principal of minimum potential energy",
@@ -736,10 +649,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Rockets: introduction, classification",
           "Rocket nozzles: C-D nozzle fundamentals, nozzle coefficients, operation regimes, performance, and classification",
@@ -755,9 +665,7 @@
           "Ramamurthi K., Rocket Propulsion, Macmillan, (2009)",
           "Misra D. P., Fundamentals of Rocket Propulsion, CRC Press, (2017)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -769,10 +677,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Aircraft Equations of Motion",
           "Modelling of Longitudinal Aerodynamic Forces and Moments in Steady State",
@@ -794,9 +699,7 @@
           "Stengel R.F., \"Flight Dynamics\", Princeton University Press, NJ, (2004)",
           "Jan Roskam, \"Airplane Flight Dynamics and Automatic Flight Controls\", DAR Corporation, (2001)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 3,
@@ -808,10 +711,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fundamentals of compressible fluid dynamics and application to external and internal flows",
           "Quasi-one-dimensional channel flow, extensions, and analysis of multi-dimensional flows in nozzles, diffusers, and inlets",
@@ -837,10 +737,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction Unmanned Air Vehicle",
           "UAV Instrumentations and Sensors",
@@ -885,9 +782,7 @@
           "Steven R. Hirshorn, NASA Systems Engineering Handbook, National Aeronautics and Space Administration, (2007)",
           "Mohinder S Grewal: Global Navigation Satellite Systems, Inertial Navigation and Integration, John Wiley, (2013)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 3,
@@ -899,10 +794,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Sketcher Exercises- 2D",
           "Part Modelling tool for 3D Modelling of components",
@@ -913,9 +805,7 @@
           "Sham R Tickoo \u201cCATIA V5:6R2015 for Designers\u201d, CADCIM Technologies, (2009)",
           "JaecheolKoh \u201cCatia V5-6r2014 Surface Design: A Step by Step Guide\u201d, Createspace Independent Publishers, (2015)"
         ],
-        "flags": [
-          "credits_mismatch"
-        ]
+        "flags": ["credits_mismatch"]
       },
       {
         "sem": 6,
@@ -927,10 +817,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Introduction to control system",
           "Stability analysis of the system using Root locus, Bode plot, Nyquist plot and Polar plot techniques",
@@ -956,10 +843,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Definition of management and systems approach, Nature & scope",
           "Functions of managers, Principles of Management",
@@ -978,9 +862,7 @@
           "Vasant Desai, Dynamics of entrepreneurial development & management, Himalaya Publishing House(2007)",
           "Poornima M Charantimath, Entrepreneurship Development, Pearson Education (2006)"
         ],
-        "flags": [
-          "sem_inferred_from_course_code"
-        ]
+        "flags": ["sem_inferred_from_course_code"]
       },
       {
         "sem": 3,
@@ -992,10 +874,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Define Artificial Intelligence",
           "AI techniques",
@@ -1063,10 +942,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Derivation of governing equations of fluid dynamics and discussion on characteristic of the governing equations, the initial and boundary conditions.",
           "The mathematical behaviour of different classes of partial differential equations.",
@@ -1086,9 +962,7 @@
           "Chung T. J., Computational Fluid Dynamics, Cambridge University Press South Asia Edition (2013).",
           "Fletcher C. A. J., Computational Techniques for Fluid Dynamics, Springer- Verlag. Berlin, (2012)."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 3,
@@ -1100,10 +974,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Vibrations terminology",
           "Free undamped and damped vibrations",
@@ -1140,10 +1011,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Overview of the Design Process",
           "Airfoil and Geometry Selection",
@@ -1192,10 +1060,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Digital Circuits: Digital Circuit Verification",
           "Microprocessor: Assembly Programming",
@@ -1225,9 +1090,7 @@
           "Dr. Reinaldo J. Perez: Handbook of Aerospace Electromagnetic Compatibility, IEEE Press, Wiley, (2018)",
           "Mike Tooley and David Wyatt: Aircraft Electrical and Electronic Systems: Principles, Operation and Maintenance, Butterworth-Heinemann: Elsevier, (2009)"
         ],
-        "flags": [
-          "sem_inferred_from_code"
-        ]
+        "flags": ["sem_inferred_from_code"]
       },
       {
         "sem": 7,
@@ -1239,10 +1102,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Analysis of Truss/Link Elements",
           "Beam Elements",
@@ -1271,19 +1131,14 @@
           "p": 0,
           "c": 1
         },
-        "tags": [
-          "core"
-        ],
+        "tags": ["core"],
         "syllabus": [
           "Undergo industrial training for a minimum period of 4 weeks during the vacation",
           "Submit a report to the department after successful completion of training",
           "Make a presentation on training"
         ],
         "references": [],
-        "flags": [
-          "missing_semester",
-          "missing_references"
-        ]
+        "flags": ["missing_semester", "missing_references"]
       },
       {
         "sem": null,
@@ -1295,10 +1150,7 @@
           "p": 0,
           "c": 12
         },
-        "tags": [
-          "elective",
-          "lab"
-        ],
+        "tags": ["elective", "lab"],
         "syllabus": [
           "Carry out project work in institution/industry/research laboratory/institution of higher learning",
           "Minimum duration of 16 weeks",
@@ -1306,10 +1158,7 @@
           "Presentation on the work carried out"
         ],
         "references": [],
-        "flags": [
-          "missing_sem",
-          "structure_mismatch"
-        ]
+        "flags": ["missing_sem", "structure_mismatch"]
       },
       {
         "sem": null,
@@ -1321,10 +1170,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to advanced propulsion and aerothermodynamics, limitations of turbojets and turbofans. Need for supersonic combustion",
           "Ramjet engines, working principle, basic consideration, operating principles and performance, basic principle of operation, thrust calculation, efficiency, Inlet types, nozzle considerations, Scramjet, spill-over drag, plume drag, Isolator, combustor, thermal protection",
@@ -1346,9 +1192,7 @@
           "D P Mishra, Fundamentals of Rocket Propulsion, CRC Press, (2017)",
           "William Emrich, Principles of Nuclear Rocket Propulsion, Elsevier, (2016)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1360,10 +1204,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Aeroelastic problems and Aircraft Structures",
           "Deformation of Structures and Influence Coefficients",
@@ -1387,9 +1228,7 @@
           "Ulgen Gulcat. Fundamentals of Modern Unsteady Aerdynamics, Springer Publications, (2011)",
           "Dowell E.H., Curtiss H.C, Scalan R.H., Sisto F, A Modern Course in Aeroelasticity, Sijthoff and Noordhoff, (1978)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1401,9 +1240,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Overview of Aircraft Electrical System",
           "Electrical fundamentals",
@@ -1436,9 +1273,7 @@
           "EHJ Pallett: Aircraft Electrical Systems, PEARSON India Education Services Pvt. Ltd, (1997)",
           "Len Buckwalter: Avionics Training: Systems, Installation, and Troubleshooting, Avionics Communications Inc., (2005)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1450,10 +1285,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Background and Introduction to LTA systems",
           "Historical Perspectives of LTA Systems",
@@ -1474,9 +1306,7 @@
           "Carichner, G. E., and Nicolai, L. M., Fundamentals of Aircraft and Airship Design, Volume 2 \u2013 Airship Design and Case Studies, AIAA Education Series, ISBN-13: 978-1600868986, (2013)",
           "Hunt, P. V., Advanced Airship Technologies and Design Approaches, AIAA Education Series, ISBN-13 978-1-62410-351-3, (2015)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1488,10 +1318,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Different types of fuels (solid, liquid and gaseous) and their properties",
@@ -1522,9 +1349,7 @@
           "John Griswold: Fuels Combustion and Furnaces, Mc-Graw Hill Book Company Inc., (1946)",
           "Fundamentals of Combustion, D P Mishra, University Press, (2010)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1536,10 +1361,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "An introduction to air transport: Aerospace industry, air transport industry",
           "Historical perspective: Formative period, growth years, maturity, Economics development, General aviation",
@@ -1555,9 +1377,7 @@
           "Avionics Navigation Systems, Keyton, M. and Fried, W. R., John Wiley, ISBN 0-471-54795-6, (2001)",
           "Introduction to Flight, John D. Anderson, Jr., Tata McGraw-Hill Publishing Company, Fifth Edition, Fifth Edition,ISBN 13: 978-0-07-066082-3, (2007)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1569,10 +1389,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Types of matrix materials",
@@ -1610,9 +1427,7 @@
           "R. M. Jones, Mechanics of Composite Materials, (2e), Taylor & Francis,(2005)",
           "Madhujit Mukhopadhyay, Mechanics of Composite Materials and Structures, Orient Longman, (2004)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1624,10 +1439,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction, Definition of N.C. Machine, Classification, Advantages and disadvantages of N.C. machine",
           "Design consideration of N.C. Machine tools, general construction requirements",
@@ -1664,9 +1476,7 @@
           "Mikell P Groover and Emory W Zimmers, Computer Aided Design & Manufacturing, PHI, New Delhi, (2008)",
           "Roger Hannam, Computer Integrated Manufacturing: From Concept to Relaisation, Addison Wesley(1997)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1678,9 +1488,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Fixed-wing UAV",
           "Design and Basic Design Parameters",
@@ -1706,9 +1514,7 @@
           "Daniel P. Raymer, Aircraft Design: A Conceptual Approach, AIAA Education Series, Sixth Edition, 2018",
           "Nicolai and Carichner, Fundamentals of Aircraft and Airship Design Volume 1 \u2013 Aircraft Design, AIAA Education Series, (2010)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1720,10 +1526,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: definition, features and developments of Digital Manufacturing (DM)",
           "Modeling theory and methods of DM science",
@@ -1742,9 +1545,7 @@
           "Hopkinson N, Hague R. J. M., Dickens P.M. Rapid Manufacturing, John Wiley and sons, (2006)",
           "Zhuming Bi, Practical Guide to Digital manufacturing, Springer(2021)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1756,9 +1557,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction to Energy storage and battery terminology: History of electrochemical energy storage, Requirement of energy storage, Definitions and measuring methods",
           "Electrochemistry and Thermodynamics: Electrochemical Cell, Faradays law of electrochemistry, Redox potential, Electromotive force, Nernst's law, Electrical double layer, Polarization and over potential",
@@ -1775,10 +1574,7 @@
           "Newman, John, and Karen E. Thomas-Alyea. Electrochemical systems. John Wiley & Sons, (2012).",
           "Braun, Artur. \"Electrochemical Energy Systems.\" Electrochemical Energy Systems. de Gruyter, (2018)."
         ],
-        "flags": [
-          "missing_semester",
-          "uncertain_tags"
-        ]
+        "flags": ["missing_semester", "uncertain_tags"]
       },
       {
         "sem": null,
@@ -1790,9 +1586,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Overview of experimental stress analysis",
           "Stress analysis - Analytical, Numerical and Experimental approaches",
@@ -1820,10 +1614,7 @@
           "RivkaGilat, Leslie Bank-Sills, Advances in Mathematical Modelling and Experimental Methods for Materials and Structures, Springer Science, (2010)",
           "U C Jindal, Experimental Stress Analysis, Pearson Education India (2012)"
         ],
-        "flags": [
-          "missing_sem",
-          "unclear_tags"
-        ]
+        "flags": ["missing_sem", "unclear_tags"]
       },
       {
         "code": "AAE 4453",
@@ -1834,10 +1625,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Different modes of heat transfer",
           "Heat conduction with and without heat generation through slabs, cylinders and spheres",
@@ -1869,9 +1657,7 @@
           "R.C. Sachdeva, Fundamentals of Engineering Heat and Mass Transfer, New Age Internationals, (2017).",
           "J. Holman, Fundamentals of Heat and Mass Transfer, McGraw Hill Education, (2017)."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1883,10 +1669,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: Historical Development of Helicopters \u2013 Helicopter Configuration \u2013 Control Requirements \u2013 Types of Rotor Systems \u2013 Basic Power Requirements",
           "Introduction to Hovering Theory: Momentum Theory \u2013 Blade Element Theory \u2013 Combined Blade Element and Momentum theories for non-uniform inflow calculation \u2013 Ideal Rotor Vs Optimum Rotor",
@@ -1900,9 +1683,7 @@
           "Prouty, R.W., Helicopter performance, Stability and Control, R.E. Krieger Pub. Co., Florida, (1990)",
           "Seddon, J., Basic Helicopter Aerodynamics, AIAA series, (1990)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1914,10 +1695,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "classification compressors",
@@ -1956,9 +1734,7 @@
           "Thomas R. Kurfess, Robotics and Automation Handbook, CRC Press, (2004).",
           "Martin Klas Nilsson J. Norberto Pires, Industrial Robotics, Springer, (2007)."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1970,10 +1746,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "History of Lean and comparison to other methods \u2013 The 7 Wastes, their causes and the effects",
           "An overview of Lean Principles / concepts / tools \u2013 Stockless Production",
@@ -2002,9 +1775,7 @@
           "Value Stream Mapping: How to Visualize Work and Align Leadership for Organizational Transformation Paperback \u2013by Karen Martin, Mike Osterling, (2016)",
           "Lean and Six Sigma \u2013 Six Sigma Black Belt Enterprise-Wide Deployment Paper Back by Suvabrata Mitra, (2007)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2016,10 +1787,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction of navigation",
           "Inertial sensors and inertial navigation system",
@@ -2056,9 +1824,7 @@
           "Ching-Fang Lin: Modern Navigation, Guidance, and Control Processing, Prentice Hall, (1991)",
           "Asher Clark (Editor): Global Navigation Satellite Systems and Their Applications, Larsen and Keller Education, (2017)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2070,10 +1836,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction of linear and nonlinear systems, nonlinear system behaviour",
           "Mathematical preliminaries: open and closed sets, compact set, dense set, Topology, sequence, Continuity of functions, Lipschitz condition, smooth functions, basic linear algebra: Vector space, norm of a vector, normed linear space, inner product space",
@@ -2092,9 +1855,7 @@
           "Khalil, H. K.: Nonlinear Systems, MacMillan, (1996)",
           "Shimkin N.: Nonlinear Control Systems. In: Binder M.D., Hirokawa N., Windhorst U. (eds) Encyclopedia of Neuroscience, (2009)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2106,10 +1867,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Mathematical review and computer arithmetic \u2013 numbers and errors",
           "Nonlinear equations",
@@ -2130,9 +1888,7 @@
           "A.S. Ackleh, E.J. Allen, R.B. Hearfott, P. Seshiyer, Modern Numerical Analysis, CRC, (2009).",
           "Amos Gilat, Vish Subramaniam, Numerical Methods for Engineers and Scientists, Wiley, (2014)."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2144,10 +1900,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Nonlinear optimization",
           "Formulation of optimal control problems",
@@ -2183,9 +1936,7 @@
           "Dimitri P. Bertsekas: Dynamic Programming and Optimal Control, Volume I, Athena Scientific, (2005).",
           "Richard W. Cottle, Mukund N. Thap: Linear and Nonlinear Optimization, Springer Nature, (2017)."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2197,9 +1948,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction to optimization",
           "linear programming",
@@ -2220,9 +1969,7 @@
           "Deb, K., Optimization for Engineering Design: Algorithms and Examples, PHI Learning (2012)",
           "Deb, K., Multi-Objective Optimization Using Evolutionary Algorithms, Wiley-India (2010)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2234,10 +1981,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basics of System Modeling and Dynamics",
           "Rotational Kinematics and Rigid Body Dynamics",
@@ -2261,9 +2005,7 @@
           "Goldstein, Classical Mechanics, Third Edition, Pearson (2001)",
           "Anton H. de Ruiter, Christopher Damaren James R. Forbes, Spacecraft Dynamics and Control: An Introduction, Wiley (2013)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2275,9 +2017,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Dynamics of Particles: reference frames and rotations \u2013 energy, angular momentum",
           "Two Body Motion: equations of motion \u2013 Kepler laws \u2013 solution to two-body problem \u2013 conics and relations \u2013 Kepler equation \u2013 orbital elements \u2013 orbit determination \u2013 Lambert Problem \u2013 satellite tracking \u2013 different methods of solution to Lambert Problem",
@@ -2293,9 +2033,7 @@
           "Wiesel, W.E., Spaceflight Dynamics, McGraw-Hill (1996)",
           "Escobal, P.R., Methods of Orbit Determination, Krieger Publication Co. (1976)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2307,10 +2045,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fundamentals of quality and quality control",
           "Measure of central tendencies",
@@ -2330,9 +2065,7 @@
           "Juran J.M., Quality Planning and Analysis, McGraw Hill Publications, Delhi (1984)",
           "Rao S S., Reliability Engineering Pearson Education (2014)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2344,9 +2077,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction: physical versus computational experiments \u2013 introduction to engineering optimization \u2013 need for surrogates in optimization",
           "Design of Experiments: Sampling plans \u2013 Latin squares \u2013 Latin hypercubes sampling \u2013 stratification \u2013 Orthogonal arrays \u2013 Hammersley sequences",
@@ -2357,9 +2088,7 @@
           "Forrester, A., & Keane, A, Engineering design via surrogate modelling: a practical guide. John Wiley & Sons(2008)",
           "Jiang, P., Zhou, Q., & Shao, X. Surrogate model-based engineering design and optimization. Springer(2020)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2371,10 +2100,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction of Systems Engineering",
           "Methodology of system engineering",
@@ -2408,9 +2134,7 @@
           "Cary R. Spitzer, Digital Avionics Handbook: -Avionics Development and Implementation (2nd Edition), CRC Press, Taylor & Francis Group, (2007)",
           "Defense Systems Management College, Systems Engineering Management Guide, U.S. Government Printing Office, December (1989)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2422,10 +2146,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Connotations of Quality, Quality Dimensions: Product and Service",
           "The Concept of TQM, Evolution of TQM, Inspection, SQC, QA and TQM",
@@ -2445,9 +2166,7 @@
           "Greg Brue, Six Sigma for Managers, TMH, (2002)",
           "R. P. Mohanty & R. R. Lakhe, TQM in the Service Sector, Jaico Books (2013)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2459,10 +2178,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction to wind energy, the wind resource and its characteristics",
           "Wind turbine types, configurations, components, design of machines and wind farms",
@@ -2483,9 +2199,7 @@
           "T. Burton, N. Jenkins, D. Sharpe, E. Bossanyi, Wind Energy Handbook, Wiley, (2011)",
           "R. Gasch and J. Twele, Wind Power Plants: Fundamentals, Design, Construction and Operation. Springer, (2012)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2497,10 +2211,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction and Overview of The History of Flight",
           "Fundamental Thoughts",
@@ -2529,9 +2240,7 @@
           "Howard D Curtis., Orbital mechanics for Engineering Students, Butterworth Heinemann, (2013)",
           "Anderson Jr. JD, Fundamental of Aerodynamics, McGraw Hill International Edition, (2017)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2543,10 +2252,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to aircraft",
           "Introduction to flight mechanics and flight dynamics of aircraft & Unmanned Air Vehicle",
@@ -2589,9 +2295,7 @@
           "Myron Kayton & Walter R. Fried: Avionics Navigation Systems, Wiley-interscience, (1997)",
           "Mohinder S Grewal: Global Navigation Satellite Systems, Inertial Navigation and Integration, John Wiley, (2013)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2603,10 +2307,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Internal flows",
           "boundary layers",
@@ -2631,9 +2332,7 @@
           "Victor L. Peterson and Charles A. Smith ,Applied Aerodynamics: Challenges and Expectations ,NASA(1993)",
           "Munson, B.R., Young, D.F., Okiishi, T.H., Fundamentals of Fluid Mechanics, John Wiley and Sons Inc(2018)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 4,
@@ -2645,10 +2344,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Classification and applications of turbomachines",
           "ideal and real performance cycles",
@@ -2702,10 +2398,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Experimental Errors, Causes and Types, Statistical Analysis of Experimental data",
           "Wind Tunnels: Types of wind tunnel, components, operation",
@@ -2723,9 +2416,7 @@
           "S.P. Venkateshan: Mechanical Measurements , John Wiley & Sons Ltd, (2015)",
           "Irvine I Glass, J P Sislian: Non-stationary flows and shock waves, Clarendon Press, Oxford. (1994)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2737,10 +2428,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Mach number regimes",
           "Velocity-Altitude Map",
@@ -2770,9 +2458,7 @@
           "Ernst Heinrich Hirschel, Basics of Aerothermodynamics, Springer Verlag Berlin, (2005)",
           "libur L. Hankey, Reentry Aerodynamics, AIAA Education series, Washington DC, (1988)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2784,10 +2470,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Unmanned Aircraft Systems (UAS) and Applications of UAS",
           "Introduction to Design and Selection of the System",
@@ -2819,9 +2502,7 @@
           "Douglas M. Marshall et al.: Introduction to Unmanned Aircraft Systems , Taylor & Francis, (2016)",
           "F.B. da Silva S.D. Scott M.L. Cummings: Design Methodology for Unmanned Aerial Vehicle (UAV) Team Coordination, MIT Department of Aeronautics and Astronautics, Cambridge, MA 0213, (2007)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2833,10 +2514,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fundamentals of electromagnetic theory",
           "Boundary value problem",
@@ -2869,9 +2547,7 @@
           "J. E. Rhodes: Antenna Handbook, Department of The Navy, (2016)",
           "Lo, Y.T., Lee, S. W.: Antenna Handbook Theory, Applications, and Design, Springer US, (1988)"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2883,9 +2559,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction to embedded systems",
           "classification",
@@ -2919,9 +2593,7 @@
           "Renu Rajani, Pradeep Oak: Software Testing Effective Methods Tools & Techniques, Tata Mcgraw Hill Publishing Co Ltd, (2017)",
           "MISRA C and SEI CERT C secure coding standards"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 4,
@@ -2933,10 +2605,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "communication process",
@@ -2984,9 +2653,7 @@
         "code": "AAE 3124",
         "title": "Industrial IoT",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3001,10 +2668,7 @@
         "code": "AAE 3125",
         "title": "Finite Element Methods",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3024,10 +2688,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3042,41 +2703,25 @@
         "code": "AAE 3222",
         "title": "Machine Learning and AI",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "AAE 3223",
         "title": "Computational Fluid Dynamics",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "code": "AAE 3224",
         "title": "Theory of Vibrations",
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3091,10 +2736,7 @@
         "code": "AAE 4409",
         "title": "Connected Vehicle Systems",
         "credits": null,
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3114,9 +2756,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3131,10 +2771,7 @@
         "code": "AAE 4411",
         "title": "Engine Tribology",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3154,20 +2791,10 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
-        "syllabus": [
-          "Actuation Systems",
-          "VEHICLE SYSTEM DESIGN"
-        ],
+        "tags": ["core", "theory"],
+        "syllabus": ["Actuation Systems", "VEHICLE SYSTEM DESIGN"],
         "references": [],
-        "flags": [
-          "missing_sem",
-          "missing_credits",
-          "missing_references"
-        ]
+        "flags": ["missing_sem", "missing_credits", "missing_references"]
       },
       {
         "sem": null,
@@ -3179,9 +2806,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3196,9 +2821,7 @@
         "code": "AAE 4414",
         "title": "Automotive Ergonomics",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3213,10 +2836,7 @@
         "code": "AAE 4415",
         "title": "Fatigue Failure and Analysis",
         "credits": null,
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3231,26 +2851,17 @@
         "code": "AAE 4416",
         "title": "Noise, Vibrations and Harshness",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": null,
         "code": "AAE 4417",
         "title": "Electrical Vehicle System Engineering",
         "credits": null,
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3265,17 +2876,10 @@
         "code": "AAE 4418",
         "title": "Energy Storage System and Devices for Electric Vehicles",
         "credits": null,
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": null,
@@ -3287,9 +2891,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3304,10 +2906,7 @@
         "code": "AAE 4420",
         "title": "Motors and Drive Systems for Electric Vehicles",
         "credits": null,
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3322,10 +2921,7 @@
         "code": "AAE 4447",
         "title": "COMPOSITE MATERIALS AND STRUCTURES",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3340,9 +2936,7 @@
         "code": "AAE 4448",
         "title": "Computer Integrated Manufacturing",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3357,10 +2951,7 @@
         "code": "AAE 4450",
         "title": "Digital Manufacturing",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3375,10 +2966,7 @@
         "code": "AAE 4451",
         "title": "ELECTROCHEMICAL ENERGY STORAGE SYSTEMS",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3393,10 +2981,7 @@
         "code": "AAE 4452",
         "title": "Experimental Mechanics",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3412,9 +2997,7 @@
         "code": "AAE 4455",
         "title": "Industrial Automation and Robotics",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3429,9 +3012,7 @@
         "code": "AAE 4456",
         "title": "Lean Manufacturing",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3446,10 +3027,7 @@
         "code": "AAE 4459",
         "title": "Numerical Methods for Scientific Computing",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3464,9 +3042,7 @@
         "code": "AAE 4460",
         "title": "Operations Research",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3481,9 +3057,7 @@
         "code": "AAE 4462",
         "title": "Optimization Techniques in Engineering",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3498,9 +3072,7 @@
         "code": "AAE 4465",
         "title": "STATISTICAL QUALITY CONTROL AND RELIABILITY",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3520,9 +3092,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3537,9 +3107,7 @@
         "code": "AAE 4468",
         "title": "Total Quality Management",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3559,9 +3127,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3576,10 +3142,7 @@
         "code": "AAE 4472",
         "title": "Automotive Thermal Management Systems",
         "credits": null,
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3595,9 +3158,7 @@
         "code": "AAE 4473",
         "title": "Crashworthiness and Safety",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3612,9 +3173,7 @@
         "code": "AAE 4474",
         "title": "Design for Manufacturing",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3629,9 +3188,7 @@
         "code": "AAE 4475",
         "title": "Earth Moving Equipment and Farm Machinery",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3646,9 +3203,7 @@
         "code": "AAE 4476",
         "title": "Human Factors in Automotive Engineering",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3663,9 +3218,7 @@
         "code": "AAE 4479",
         "title": "Metrology & Measurements",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3681,9 +3234,7 @@
         "code": "AAE 4480",
         "title": "Tyre Technology",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3699,10 +3250,7 @@
         "code": "AAE 4481",
         "title": "Vehicle Embedded Systems",
         "credits": null,
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3722,9 +3270,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3744,10 +3290,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -3767,10 +3310,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Gradient, divergence and curl, Line, surface and volume integrals",
           "Green's, divergence and Stoke's theorems",
@@ -3790,9 +3330,7 @@
           "B.S.Grewal, Higher Engg.Mathematics, Khanna Publishers, 1989",
           "Murray R.Spiegel, Vector Analysis, Schaum Publishing Co., 2009"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -3804,10 +3342,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Shear force and bending moment diagram; SFD and BMD for standard cases, Stresses in Beam and its theory",
           "Torsion and power transmission",
@@ -3822,9 +3357,7 @@
           "S. S. Rattan, Strength of Materials, McGraw-Hill Education (India) Pvt Limited, 2011.",
           "R. Subramanian, Strength of Materials, Oxford University Press, 2005."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "code": "AAE 2127",
@@ -3835,10 +3368,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Materials classification",
           "Crystallography SC, FCC, BCC, HCP structures",
@@ -3857,9 +3387,7 @@
           "Van Vlack, Materials science and Engineering, Addison Wesley, New York, 1989",
           "William D Callister, Material science and engineering, Wiley India, 2007"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -3871,10 +3399,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Thermodynamics",
           "Zeroth Law of Thermodynamics \u2013 Concept of quality of Temperature",
@@ -3919,9 +3444,7 @@
           "Mayhew A. and Rogers B., Engineering Thermodynamics, E.L.B.S. Longman, London, 1994",
           "P L Ballaney, Thermal Engineering, Khanna Publisher, New Delhi, 2012"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -3933,10 +3456,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction and basic concepts: Classification of fluid flow, no slip condition, velocity profile, Fluid properties",
           "Fluid Statics: Hydrostatic law, Pascal law definition, Pressure measurement using manometers (simple and differential manometers), Forces acting on plane, curved surfaces submerged inside fluid, Forces acting on solid objects submerged, floating in fluid (Buoyancy)",
@@ -3954,9 +3474,7 @@
           "Bruce R. Munson, Theodore H. Okiishi, Wade W. Huebsch, Alric P. Rothmayer, Fundamentals of Fluid Mechanics, John Wiley and Sons, New Jersey, 2013",
           "Clayton T. Crowe, Donald F Elger, Barbara C Williams, John A Roberson, Engineering Fluid Mechanics, John Wiley and Sons, New Jersey, 2009"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -3968,10 +3486,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fundamental operating principle",
           "IC engine development",
@@ -4026,10 +3541,7 @@
           "John B. Heyhood, Internal Combustion Engines Fundamentals, McGraw Hill, 2018",
           "V. Ganesan, IC Engines, Tata McGraw Hill Education Private Limited, India, 2012"
         ],
-        "flags": [
-          "missing_semester",
-          "references_numbering_inconsistent"
-        ]
+        "flags": ["missing_semester", "references_numbering_inconsistent"]
       },
       {
         "sem": null,
@@ -4041,9 +3553,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Sketcher Exercises-2D",
           "Part Modelling tool for 3D Modelling of components",
@@ -4054,9 +3564,7 @@
           "Sham R Tickoo, CATIA V5:6R2015 for Designers, CADCIM Technologies, 2009",
           "Jaecheol Koh, Catia V5-6r2014 Surface Design: A Step by Step Guide, Create space Independent Publishers, 2015"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 4,
@@ -4068,9 +3576,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Tools and equipment used in Automotive engine servicing and reconditioning",
           "Servicing of intake system",
@@ -4087,9 +3593,7 @@
           "Tom Denton, Automobile Mechanical and Electrical systems, Butterworth-Heinemann publishers, 2011",
           "Dr. N. K. Giri, Automobile Technology, Khanna publishers, 2004"
         ],
-        "flags": [
-          "credits_mismatch"
-        ]
+        "flags": ["credits_mismatch"]
       },
       {
         "sem": null,
@@ -4101,10 +3605,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Special Functions: Series solutions of Bessel and Legendre differential equations, Recurrence formulae, generating functions and Orthogonal properties for Jn(x) and Pn(x)",
           "Probability, finite sample space, conditional probability and independence, Bayes' theorem, one-dimensional random variable: mean and variance, Chebyshev's inequality",
@@ -4117,9 +3618,7 @@
           "Hogg & Craig, Introduction of Mathematical Statistics, MacMillan, 1975",
           "B.S.Grewal, Higher Engg.Mathematics, Khanna Publishers, 1989"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -4131,10 +3630,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to design, general considerations, safety and societal considerations",
           "Theories of failure",
@@ -4156,9 +3652,7 @@
           "Bhandari V.B, Design of Machine Elements, Tata McGraw-Hill, 2018",
           "Robert L Norton, Machine Design and Integrated approach, Prentice Hall Inc., 2011"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -4170,10 +3664,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Preparation of powders",
@@ -4235,10 +3726,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Brief overview of the historical development of Control system theory",
           "Basic terminologies of the control systems",
@@ -4262,9 +3750,7 @@
           "Nagrath & Gopal, Modern Control Engineering, New Ages International, 2021.",
           "E. Bryson and Y-C Ho: Applied Optimal Control, Taylor and Francis, 2017."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -4276,10 +3762,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "layouts of transmission system",
@@ -4313,9 +3796,7 @@
           "Harald Naunheimer, B Bertshae, J Rayborz, W Novak, Automotive Transmission Fundamentals, Selection, Design and Application, Second Edition, Springer, 2010.",
           "Yi Zhang, Chris Mi, Automotive Power Transmission Systems, Wiley, 2018."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -4327,10 +3808,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basic sensor arrangement",
           "Types of sensors such as Oxygen sensors",
@@ -4373,9 +3851,7 @@
           "Richard K. Dupuy, Fuel System and Emission controls, Check Chart Publication, 2000",
           "Ronald. K. Jurgon, Automotive Electronics Handbook, McGraw-Hill, 1999"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -4387,9 +3863,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Introduction-Tensile Test",
           "Load-Displacement and Stress-Strain Curves",
@@ -4408,9 +3882,7 @@
           "Mott, Applied Strength of materials, PHI, 2016.",
           "Egor P. Popov, Engineering Mechanics of Solids, PHI, 2004."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 5,
@@ -4422,10 +3894,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Thermo mechanical lab",
           "Lathe operations",
@@ -4460,10 +3929,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Time value of money, Interest factors for discrete compounding",
           "Nominal & effective interest rates, Present and future worth of Single, Uniform, and Gradient cash flow",
@@ -4490,23 +3956,30 @@
           "Blank Leland T. and Tarquin Anthony J., Engineering Economy, McGraw Hill, Delhi, 2002",
           "Prasanna Chandra, Fundamentals of Financial Management, Tata McGraw Hill, Delhi, 2006"
         ],
-        "flags": [
-          "department_mismatch"
-        ]
+        "flags": ["department_mismatch"]
       },
       {
         "code": "AAE 3127",
-        "title": "Extraction Failed",
+        "title": "VEHICLE CHASSIS SYSTEMS",
         "sem": null,
-        "credits": null,
-        "tags": [
-          "error"
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": ["error"],
+        "syllabus": [
+          "Introduction, layouts of two and three wheeler, passenger cars and commercial vehicle chassis, Types of frames, materials used, load distribution, design of vehicle chassis, Requirement of suspension system, Independent and rigid suspension system, leaf spring, coil spring, shock absorber, Maintenance aspects of vehicle suspension systems, True rolling, Steering mechanisms, Types of steering systems, steering linkages, Power steering systems, Fundamental of braking systems, Types of brakes, Design of drum and disc brakes, leading and trailing shoes, heat dissipation, hydraulic, air, servo, engine, vacuum braking system, Parking brakes, hill hold assist, Types of tyres and wheels, Constructional features and materials."
         ],
-        "syllabus": [],
-        "references": [],
-        "flags": [
-          "extraction_failed"
-        ]
+        "references": [
+          "Newton W.Steeds and T.K.Garret, The Motor Vehicle, Butterworth Heinemann, India, 2004.",
+          "N .K.Giri, Automobile Mechanics, Seventh Edition, Khanna Publishers, Delhi, 2005.",
+          "Kirpal Singh, Automobile Engineering, Volume 1, Standard Publishers and Distributors, 2007.",
+          "David C. Barton, John D. Fieldhouse, Automotive Chassis Engineering, Springer, 2018.",
+          "P.M. Heldt, Automotive Chassis, Chilton & Co, 2012."
+        ],
+        "flags": []
       },
       {
         "sem": 3,
@@ -4518,10 +3991,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to heat transfer - modes of heat transfer, Conductivity and film coefficient of heat transfer, Thermal diffusivity, Overall heat transfer coefficient, Thermal resistance and conductance",
           "Conduction heat transfer, Linear heat flow through plane wall, composite wall, radial heat flow through cylinder, composite cylinders, radial heat flow through sphere and composite sphere, Effect of variable thermal conductivity, Critical thickness of insulation, Heat transfer from extended surfaces",
@@ -4550,10 +4020,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Overview of electric vehicles, hybrid vehicles",
           "Hybrid and electric vehicle components",
@@ -4600,10 +4067,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Industrial Networks and IIoT: Now and Future Trends",
           "Wireless Communication for the Industrial IoT",
@@ -4636,10 +4100,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to combustion process \u2013 Classification of flames",
           "Auto ignition temperature",
@@ -4694,10 +4155,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: Origin of FEM, Applications, basic steps, differential equations of physical problem, analytical and approximate solution, difference between Fem and Finite Difference Method. Preprocessing, processing and post processing, computational tools etc. Brief matrix notation and operation, advantages and disadvantages of FEM",
           "Finite Element Formulation: Weighted residual method, Rayleigh Ritz Method, principal of minimum potential energy",
@@ -4726,10 +4184,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Numerical Computation - Familiarization with MATLAB",
           "Representation of scalars",
@@ -4777,10 +4232,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Automotive transmission system layouts",
           "clutch",
@@ -4811,10 +4263,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Definition of management and systems approach, Nature & scope",
           "Functions of managers, Principles of Management",
@@ -4848,10 +4297,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Vehicle Dynamics",
           "Vehicle Coordinates systems",
@@ -4916,10 +4362,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Define Artificial Intelligence",
           "AI techniques",
@@ -4975,9 +4418,7 @@
           "Christopher M. Bishop: Neural Networks for Pattern Recognition, Springer, 2007.",
           "Aaron Courville, Ian Goodfellow and Yoshua Bengio: Deep Learning: Adaptive computation and machine learning, MIT Press, 2017."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 3,
@@ -4989,10 +4430,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Derivation of governing equations of fluid dynamics and discussion on characteristic of the governing equations, the initial and boundary conditions",
           "The mathematical behaviour of different classes of partial differential equations",
@@ -5024,10 +4462,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Vibrations terminology, free undamped and damped vibrations",
           "governing differential equations of different systems and computing natural frequencies",
@@ -5064,9 +4499,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Analysis of Truss/Link Elements",
           "Beam Elements",
@@ -5083,9 +4516,7 @@
           "Guangming Zhang, Engineering Analysis with Pro/Mechanica and Ansys, College House Enterprises, LLC, 2017",
           "Sham Tickoo, Ansys Workbench 14.0 for Engineers and Designers, Dream Tech Press, US, 2013"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 7,
@@ -5097,9 +4528,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Calibration of wind tunnel",
           "drag measurement of cylinder",
@@ -5114,9 +4543,7 @@
           "Thomas Schuetz, Hucho.W.H, Aerodynamic of Road vehicles, SAE International, 2016",
           "Mark Gleason, Vehicle aerodynamics design and technology, Society of Automotive Engineers, Incorporated, 2001"
         ],
-        "flags": [
-          "credits_mismatch"
-        ]
+        "flags": ["credits_mismatch"]
       },
       {
         "sem": null,
@@ -5128,19 +4555,14 @@
           "p": 0,
           "c": 1
         },
-        "tags": [
-          "core"
-        ],
+        "tags": ["core"],
         "syllabus": [
           "Industrial training for a minimum period of 4 weeks during the vacation",
           "Submission of training report to the department",
           "Presentation on training"
         ],
         "references": [],
-        "flags": [
-          "missing_sem",
-          "missing_references"
-        ]
+        "flags": ["missing_sem", "missing_references"]
       },
       {
         "sem": null,
@@ -5152,10 +4574,7 @@
           "p": 0,
           "c": 12
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Carry out project work in institution/industry/research laboratory/institution of higher learning",
           "Minimum duration of 16 weeks",
@@ -5163,10 +4582,7 @@
           "Make presentation on the work carried out"
         ],
         "references": [],
-        "flags": [
-          "missing_semester",
-          "missing_references"
-        ]
+        "flags": ["missing_semester", "missing_references"]
       },
       {
         "sem": null,
@@ -5178,10 +4594,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Principle parts of an I C Engine, systems of engine, working overview",
           "Features of cylinders, dry and wet liners, design of a cylinder, cylinder thickness, bore and stroke, flange and stud design, thickness of cylinder head, problems on cylinder and head design",
@@ -5201,9 +4614,7 @@
           "V Ganesan, Internal Combustion Engines, Tata Mc Graw hill publishing co ltd, 2008",
           "Mahadevan & K. Balaveera Reddy, Design Data Handbook, CBS Publishers & Distributors, 2009"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -5215,9 +4626,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Overview of the subject",
           "Fundamentals of Vibrations",
@@ -5244,9 +4653,7 @@
           "Malcolm J. Crocker, Handbook of Acoustics, John Wiley & sons Publication, 1993",
           "Malcolm J. Crocker, Handbook of Noise and Vibration Control, John Wiley & sons Publication, 2007"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -5258,10 +4665,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Strength of materials and kinds of failure",
           "Importance of failure analysis",
@@ -5289,9 +4693,7 @@
           "Yung-Li Lee, Jwo Pan, Richard Hathaway, Mark Barkey, Fatigue Testing and Analysis Theory and Practice, Elsevier Science, 2011.",
           "Campbell F. C., Fatigue and Fracture Understanding the Basics, ASM International, 2012."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -5303,10 +4705,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory",
-          "core"
-        ],
+        "tags": ["theory", "core"],
         "syllabus": [
           "Ergonomics in vehicle design",
           "ergonomics approach",
@@ -5336,9 +4735,7 @@
           "Nikolaos Gkikas, Automotive ergonomics \u2013 Driver vehicle interaction, CRC Press Publication, 2013",
           "Mark R Lehto, James R Buck, Introduction to human factors and ergonomics for engineers, Taylor and Francis Group publication, 2008"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -5350,10 +4747,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Communication Fundamentals",
           "Communication technologies and protocols",
@@ -5381,9 +4775,7 @@
           "Hussein T. Mouftah, Melike Erol-Kantarci, and Sameh Sorour, Connected and Autonomous Vehicles in Smart Cities, CRC Press, 2020.",
           "Radovan Miucic, Connected Vehicles, Intelligent Transportation Systems, Springer, 2020."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -5395,10 +4787,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Outlines of Power Trains",
           "Power train layout and components",
@@ -5431,9 +4820,7 @@
           "Gisbert Lechner, Harald Naunheimer, Automotive Transmissions: Fundamentals, Selection, Design and Application, Springer- Verlag Berlin Heidelberg, New York, 1999.",
           "Fenton J., Handbook of Automotive Powertrain and Chassis Design, Professional Engineering Publishing, London, 1998."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -5445,10 +4832,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "History of Tribology, relevance of subject, Tribology in industry",
           "Friction, Laws of Friction, Theories of Friction, Types of Friction, Effects of friction",
@@ -5471,9 +4855,7 @@
           "Harish Hirani, Fundamentals of engineering tribology with applications, Cambridge University Press, 2016",
           "B. Bhushan, Introduction to Tribology, John Wiley & Sons, Inc., New York, 2002"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -5485,10 +4867,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction",
           "classification compressors",
@@ -5520,9 +4899,7 @@
           "Prede G. and Scholz D., Electropneumatics Basic Level, Festo Didactic GMBH & Co, Germany, (2002)",
           "Peter Croser, Frank Ebel, Pneumatics Basic Level TP 101, Festo Didactic GMBH & Co, Germany, (2002)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -5534,10 +4911,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory",
-          "core"
-        ],
+        "tags": ["theory", "core"],
         "syllabus": [
           "Introduction to Electric Vehicle",
           "History of EV",
@@ -5579,9 +4953,7 @@
           "Iqbal Husain, Electric and Hybrid Vehicles: Design Fundamentals, Taylor & Francis Group, (2018).",
           "Ali Emadi, Advanced Electric Drive Vehicles, Taylor & Francis Group, (2018)."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -5593,9 +4965,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Principles of Operation of Cells and Batteries",
           "Electrochemical Principles and Reactions",
@@ -5617,9 +4987,7 @@
           "Smart Charging Solutions for Hybrid and Electric Vehicles, Sulabh Sachan, Sanjeev Kumar, Padmanaban , Sanchari Deb, wiley",
           "Charging Architectures for Electric and Plug-In Hybrid Electric Vehicles, Sebastian Rivera, Samir Kouro, Springer"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -5631,10 +4999,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Types of batteries, Lead Acid, Nickel metal hydride, Nickel-Zinc batteries, Zinc-air and Redox flow batteries",
           "Li-ion batteries: Operational mechanisms of lithium ion batteries, Properties of electrode material, Dendrite formation",
@@ -5661,9 +5026,7 @@
           "Electric Vehicle Integration via Smart Charging, Vahid Vahidinasab, Behnam Mohammadi-Ivatloo, springer",
           "Glaize, Christian, and Sylvie Genies. Lithium batteries and other electrochemical storage systems (1e). John Wiley and Sons, (2013)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -5675,10 +5038,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction to Electrical Machines: Transformers: Types of transformers; Single phase transformers - Three phase transformers",
           "Induction Machines: Three phase Induction motor, Single phase induction motor",
@@ -5710,9 +5070,7 @@
           "Nagrath I.J. & D.P.Kothari, Modern Power System Analysis (2e), TMH, 2013.",
           "K Sawhney, A course in electrical & electronic measurement and instrumentation, Dhanpat Rai & Sons, 2014."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -5724,10 +5082,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction, overview and objectives",
           "Historical background",
@@ -5754,9 +5109,7 @@
           "Willard W Pulkrabek, Engineering Fundamentals of Internal Combustion Engines, PHI learning Pvt Ltd, New Delhi, 2004",
           "Sukatme S. P., Solar Energy Principles of Thermal Collection and Storage, Tata Mc Graw Hill Education, New Delhi, 2005"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -5768,9 +5121,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Automobile air conditioning",
           "Air conditioning requirements",
@@ -5797,9 +5148,7 @@
           "Steven Daly, Automotive Air conditioning and climate control systems, Elsevier Ltd., United Kingdom, 2006",
           "W P Jones, Air conditioning Engineering, Elsevier Ltd., United Kingdom, 2005"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -5811,10 +5160,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Types of matrix materials",
@@ -5853,9 +5199,7 @@
           "R. M. Jones, Mechanics of Composite Materials, Taylor & Francis, 2005.",
           "Madhujit Mukhopadhyay, Mechanics of Composite Materials and Structures, Orient Longman, 2004."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -5867,10 +5211,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Definition of N.C. Machine",
@@ -5924,9 +5265,7 @@
           "Mikell P Groover and Emory W Zimmers, Computer Aided Design & Manufacturing, PHI, New Delhi, (2008)",
           "Roger Hannam, Computer Integrated Manufacturing: From Concept to Relaisation, Addison Wesley (1997)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -5938,10 +5277,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: Motor Vehicle Safety, the Automobile Structure, Materials, Crashworthiness, Crashworthiness Goals, Crashworthiness Requirements, Achieving Crashworthiness, Crashworthiness Tests, Crashworthiness Models Requirements, Design of Vehicle Structures for Crash Energy Management",
           "Vehicle-to-Vehicle Frontal Collisions",
@@ -5972,9 +5308,7 @@
           "Narayan Yoganandan, Alan M. Nahum, John W. Melvin, Accidental Injury: Biomechanics and Prevention, The Medical College of Wisconsin Inc, 2015",
           "Jorge A.C. Ambrosio, Crashworthiness: Energy Management and Occupant Protection, Springer-Verlag Wein publication New York, 2001"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -5986,10 +5320,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "manufacturing a product realisation process",
@@ -6013,9 +5344,7 @@
           "O. Molloy, Steven Tilley, E.A. Warman, Design for Manufacturing and Assembly: Concepts, Architectures and Implementations, Springer Books, 1998",
           "C. Poli, Design for Manufacturing- A structured approach, Volume1; Buttworth-Heinneman, Elsevier publications, 2001"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -6027,10 +5356,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: definition, features and developments of Digital Manufacturing (DM)",
           "Modeling theory and methods of DM science",
@@ -6049,9 +5375,7 @@
           "Hopkinson N, Hague R. J. M., Dickens P.M. Rapid Manufacturing, John Wiley and sons, 2006",
           "ZhumingBi,Practical Guide to Digital manufacturing, Springer, 2021"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -6063,10 +5387,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basics of I C engine",
           "Super charger and Turbo chargers",
@@ -6095,9 +5416,7 @@
           "R obert. L. Peurifoy, Clifford J. Schexnayder, A viad Shapira, Construction Planning, Equipment, and Methods, McGrawHill Higher Education, 2006",
           "Harris Pearson Smith, Farm Machinery and Equipment, Tata McGRAW HILL Publishers, 2020"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -6109,10 +5428,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction to Energy storage and battery terminology: History of electrochemical energy storage, Requirement of energy storage, Definitions and measuring methods",
           "Electrochemistry and Thermodynamics: Electrochemical Cell, Faradays law of electrochemistry, Redox potential, Electromotive force, Nernst's law, Electrical double layer, Polarization and over potential",
@@ -6129,9 +5445,7 @@
           "Newman, John, and Karen E. Thomas-Alyea. Electrochemical systems, John Wiley and Sons, 2012.",
           "O'hayre, Ryan, Suk-Won Cha, Whitney Colella, and Fritz B. Prinz. Fuel cell fundamentals, John Wiley and Sons, 2016."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -6143,10 +5457,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Overview of experimental stress analysis",
           "Stress analysis \u2013 Analytical, Numerical and Experimental approaches",
@@ -6174,9 +5485,7 @@
           "Rivka Gilat, Leslie Bank-Sills, Advances in Mathematical Modelling and Experimental Methods for Materials and Structures, Springer Science, 2010.",
           "U C Jindal, Experimental Stress Analysis, Pearson Education India, 2012."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "credits": {
@@ -6187,10 +5496,7 @@
         },
         "code": "AAE 4476",
         "title": "HUMAN FACTORS IN AUTOMOTIVE ENGINEERING",
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Human compatible Automobile Design",
           "vehicle cabin design",
@@ -6216,9 +5522,7 @@
           "Paul M. Salmon , Human Factors Methods and Accident Analysis- Practical Guidance and Case Study Applications, Ashgate publisher, 2020",
           "Jediah R. Clark, Neville A. Stanton, Kirsten Revell, Human-Automation Interaction Design Developing a Vehicle Automation Assistant, CRC Press, 2021"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 4,
@@ -6230,10 +5534,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "classification compressors",
@@ -6272,9 +5573,7 @@
           "Thomas R. Kurfess, Robotics and Automation Handbook, CRC Press, 2004",
           "Martin Klas Nilsson J. Norberto Pires, Industrial Robotics, Springer, 2007"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -6286,10 +5585,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "History of Lean and comparison to other methods \u2013 The 7 Wastes, their causes and the effects \u2013 An overview of Lean Principles / concepts / tools \u2013 Stockless Production",
           "The Tools of Lean Manufacturing: Continuous Flow \u2013 Continuous Flow Manufacturing and Standard Work Flow \u2013 5S and Pull Systems (Kanban and ConWIP systems) \u2013 Error Proofing and Set-up Reduction \u2013 Total Productive Maintenance (TPM) \u2013 Kaizen Event examples",
@@ -6306,9 +5602,7 @@
           "Karen Martin, Mike Osterling, Value Stream Mapping: How to Visualize Work and Align Leadership for Organizational Transformation Paperback,2016",
           "SuvabrataMitra, Lean and Six Sigma \u2013 Six Sigma Black Belt Enterprise-Wide Deployment Paper Back, 2007"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -6320,10 +5614,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Comparators: Johansson's Mikrokater, Sigma comparator, Mechanical - Optical comparator, Zeiss \u201cUltra \u2013 Optimeter\u201d, Pneumatic comparators",
           "Derivation for Range, Sensitivity, Limits, Fits and Tolerances: Terminology, Grades of Tolerances, Letter symbols for tolerances, Fits \u2013 definition, types of fits \u2013 Clearance, Interference and Transition, System of fits \u2013 Hole basis and Shaft basis, Gauges; Taylor's principle for design of gauges \u2013 Statements and explanation, Gauge Maker's tolerance \u2013 as per 3rd system (present British standards), Types of gauges \u2013 Plug gauge, Ring gauge, Taper plug gauge, Taper Ring gauge and Snap gauge",
@@ -6339,9 +5630,7 @@
           "Gene R. Cogorno, Geometric Dimensioning and Tolerancing for Mechanical Design, McGraw-Hill, 2012.",
           "Bryan R. Fischer, Mechanical Tolerance Stack-up and Analysis, CRC Press, 2004."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -6353,10 +5642,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Mathematical review and computer arithmetic \u2013 numbers and errors",
           "Nonlinear equations",
@@ -6377,9 +5663,7 @@
           "A.S. Ackleh, E.J. Allen, R.B. Hearfott, P. Seshiyer, Modern Numerical Analysis, CRC, 2009.",
           "Amos Gilat, VishSubramaniam, Numerical Methods for Engineers and Scientists, Wiley, 2014."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -6391,10 +5675,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Evolution of OR, Definitions, scope and applications of OR, Characteristics and limitations of OR, models used in OR",
           "Linear Programming Problem (LPP): Formulation, graphical solution, simplex method, Revised simplex method, duality in LPP",
@@ -6413,9 +5694,7 @@
           "Gupta, Hira, Operations Research S. Chand & Co., 2018",
           "Don T. Phillips, A. Ravindran And James J. Solberg, Operations research: principles and practice Wiley, 2007"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -6427,10 +5706,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to optimization",
           "linear programming",
@@ -6451,9 +5727,7 @@
           "Deb, K., Optimization for Engineering Design: Algorithms and Examples, PHI Learning, 2012.",
           "Deb, K., Multi-Objective Optimization Using Evolutionary Algorithms, Wiley-India, 2010."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -6465,10 +5739,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fundamentals of quality and quality control",
           "Measure of central tendencies",
@@ -6490,9 +5761,7 @@
           "Juran J.M., Quality Planning and Analysis, McGraw Hill Publications, Delhi, 1984",
           "Rao S S., Reliability Engineering Pearson Education, 2014"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "code": "AAE 4466",
@@ -6503,9 +5772,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction: physical versus computational experiments \u2013 introduction to engineering optimization \u2013 need for surrogates in optimization",
           "Design of Experiments: Sampling plans \u2013 Latin squares \u2013 Latin hypercubes sampling \u2013 stratification \u2013 Orthogonal arrays \u2013 Hammersley sequences",
@@ -6516,9 +5783,7 @@
           "Forrester, A., & Keane, A., Engineering design via surrogate modelling: a practical guide. John Wiley & Sons, 2008.",
           "Jiang, P., Zhou, Q., & Shao, X., Surrogate model-based engineering design and optimization. Springer, 2020."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -6530,10 +5795,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Connotations of Quality, Quality Dimensions: Product and Service",
           "The Concept of TQM, Evolution of TQM, Inspection, SQC, QA and TQM",
@@ -6553,9 +5815,7 @@
           "Greg Brue, Six Sigma for Managers, TMH, 2002",
           "R. P. Mohanty & R. R. Lakhe, TQM in the Service Sector, Jaico Books, 2001"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -6567,10 +5827,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to tyre technology",
           "tyre construction",
@@ -6609,9 +5866,7 @@
           "Hans B. Pacejka, Tire and Vehicle Dynamics, Third Edition, Butterworth-Heinemann, 2012",
           "M. S. Evans, Tyre Compounding for Improved Performance, iSmithersRapra Publishing - Science, 2002"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -6623,10 +5878,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to embedded systems",
           "Designing embedded system with microcontroller and microprocessor",
@@ -6645,9 +5897,7 @@
           "Eric Armengaud, Allan Tengg et al, Automotive Embedded Systems, Springer, 2011.",
           "Wilfried Voss, A Comprehensible Guide to Controller Area Network, Copperhill Media Corporation, 2005."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -6659,10 +5909,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: Introduction, Energy security, Environmental pollution",
           "Need for alternate fuels",
@@ -6680,9 +5927,7 @@
           "Singh, Akhilendra Pratap, Alternative Fuels and Their Utilization Strategies in Internal Combustion Engines, Springer Singapore, 2020.",
           "Karim, Zainal Ambri Abdul, and Shaharin Anwar Bin Sulaiman, eds. Alternative Fuels for Compression Ignition Engines, Springer, 2018."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -6694,10 +5939,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Engine classification",
@@ -6718,9 +5960,7 @@
           "M L Mathur and R P Sharma, Internal Combustion Engines, Dhanpat Rai Publications, New Delhi, 2011",
           "V Ganesan, Internal Combustion Engines, Tata Mcgraw-hill Education, New Delhi, 2012"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       }
     ]
   }

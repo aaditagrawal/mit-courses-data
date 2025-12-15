@@ -112,17 +112,17 @@ export function CommandMenu({ data = [] }: Props) {
                             onSelect={() => handleSelect(course.code)}
                         >
                             <BookOpen className="mr-2 h-4 w-4 shrink-0 opacity-50" />
-                            <div className="flex flex-col">
-                                <div className="flex items-center gap-2">
+                            <div className="flex flex-col min-w-0 flex-1">
+                                <div className="flex items-center gap-2 flex-wrap">
                                     <span className="font-mono text-xs font-semibold text-foreground/80">{course.code}</span>
-                                    <span className="text-sm font-medium">{course.title}</span>
+                                    <span className="text-sm font-medium truncate">{course.title}</span>
                                     {course.department && (
-                                        <span className="ml-auto text-[10px] text-muted-foreground/60">
+                                        <span className="ml-auto text-[10px] text-muted-foreground/60 shrink-0">
                                             {course.department.split(' ').map(w => w[0]).join('')}
                                         </span>
                                     )}
                                 </div>
-                                <span className="text-[10px] text-muted-foreground truncate max-w-[400px]">
+                                <span className="text-[10px] text-muted-foreground truncate max-w-full sm:max-w-md">
                                     {getSnippet(course, query)}
                                 </span>
                             </div>

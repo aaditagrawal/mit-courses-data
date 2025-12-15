@@ -25,6 +25,46 @@ export function getDepartmentData(filename: string): Department | null {
     }
 }
 
+// Helper function to calculate data completeness score
+function calculateDataScore(course: SearchResult): number {
+    let score = 0;
+
+    // Department name (high priority)
+    if (course.department && course.department.trim().length > 0) score += 10;
+
+    // Syllabus content
+    if (course.syllabus && course.syllabus.length > 0) {
+        score += course.syllabus.length; // More syllabus items = higher score
+        score += course.syllabus.join('').length / 100; // Longer content = higher score
+    }
+
+    // References
+    if (course.references && course.references.length > 0) {
+        score += course.references.length * 2;
+    }
+
+    // Tags
+    if (course.tags && course.tags.length > 0) {
+        score += course.tags.length;
+    }
+
+    // Credits (prefer non-null credits)
+    if (course.credits) {
+        if (course.credits.l !== null && course.credits.l !== undefined) score += 1;
+        if (course.credits.t !== null && course.credits.t !== undefined) score += 1;
+        if (course.credits.p !== null && course.credits.p !== undefined) score += 1;
+        if (course.credits.c !== null && course.credits.c !== undefined) score += 1;
+    }
+
+    // Title length (prefer more descriptive titles)
+    if (course.title) score += course.title.length / 10;
+
+    // Semester info
+    if (course.sem !== null && course.sem !== undefined) score += 2;
+
+    return score;
+}
+
 export function getAllCourses(): SearchResult[] {
     const files = getAllFiles();
     const courseMap = new Map<string, SearchResult>();
@@ -46,8 +86,11 @@ export function getAllCourses(): SearchResult[] {
                 if (!existing) {
                     courseMap.set(normalizedCode, currentCourse);
                 } else {
-                    // If existing has empty department but current has one, update it
-                    if (!existing.department && currentCourse.department) {
+                    // Compare data completeness and keep the one with more data
+                    const existingScore = calculateDataScore(existing);
+                    const currentScore = calculateDataScore(currentCourse);
+
+                    if (currentScore > existingScore) {
                         courseMap.set(normalizedCode, currentCourse);
                     }
                 }

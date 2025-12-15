@@ -1,6 +1,6 @@
 {
   "department": {
-    "name": "THIRD SEMESTER",
+    "name": "Information and Communication Technology",
     "courses": [
       {
         "sem": 3,
@@ -12,10 +12,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Boolean Algebra: Partial ordering relations, Poset, Lattices, Basic Properties of Lattices, Distributive and complemented lattices, Boolean lattices and Boolean Algebra",
           "Elementary configuration: Permutations and Combinations, Generating function, Principle of inclusion and exclusion Partitions, compositions, ordering of permutations : Lexicographical and Fikes",
@@ -42,10 +39,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Stacks",
@@ -70,9 +64,7 @@
           "Tenenbaum Aaron M., Langsam Yedidyah, Augenstein Moshe J., Data structures using C, Pearson Prentice Hall of India Ltd., 2007",
           "Debasis Samanta, Classic Data Structures, 2nd Edition"
         ],
-        "flags": [
-          "incomplete_reference"
-        ]
+        "flags": ["incomplete_reference"]
       },
       {
         "sem": 3,
@@ -84,10 +76,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to OOP",
           "Java Programming Fundamentals",
@@ -151,10 +140,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Simplification of Boolean functions: K-map method, NAND and NOR implementation",
@@ -189,10 +175,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Data Communication",
           "Signals",
@@ -233,9 +216,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Application using arrays",
           "String operations",
@@ -271,9 +252,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Simple Java programs using control structures and Arrays",
           "Programs using Classes, objects, methods",
@@ -287,9 +266,7 @@
           "Herbert Schildt, The Complete Reference JAVA 2, 10th Edition, Tata McGrawHill, 2017",
           "Dietel and Dietel, Java How to Program, 9th Edition, Prentice Hall India, 2012"
         ],
-        "flags": [
-          "credits_discrepancy"
-        ]
+        "flags": ["credits_discrepancy"]
       },
       {
         "sem": 4,
@@ -301,9 +278,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Verification of Boolean algebra and De Morgan theorems",
           "Simplification of Boolean expressions using K-maps",
@@ -329,9 +304,7 @@
           "Tocci R.J., Widmer N.S., Greegory L.M., Digital Systems: principles and Applications (12e), Pearson Education India, 2017",
           "Wakerly J.F., Digital Design Principles and Practices (4e), Pearson Education, 2014"
         ],
-        "flags": [
-          "semester_mismatch"
-        ]
+        "flags": ["semester_mismatch"]
       },
       {
         "sem": 4,
@@ -343,10 +316,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basic Set theory",
           "Axioms of probability",
@@ -382,9 +352,7 @@
           "Hogg and Craig, Introduction to mathematical statistics, 6th Edn, 2012, Pearson education, New Delhi.",
           "Ross Sheldon M, Introduction to Probability and Statistics for Engineers and Scientists, Elsevier, 2010."
         ],
-        "flags": [
-          "semester_mismatch"
-        ]
+        "flags": ["semester_mismatch"]
       },
       {
         "sem": 3,
@@ -396,10 +364,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Database-System Applications",
           "Database Languages",
@@ -449,9 +414,7 @@
           "Thomas Connolly, Carolyn Begg, Database Systems \u2013 A Practical Approach to Design, Implementation and Management, 4th edition, Pearson Education, England, 2005",
           "Peter Rob, Carlos Coronel, Database Systems\u2013Design, Implementation and Management, 10th edition, Course Technology, Boston, 2013"
         ],
-        "flags": [
-          "missing_reference_number_4"
-        ]
+        "flags": ["missing_reference_number_4"]
       },
       {
         "sem": 3,
@@ -463,10 +426,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fundamentals of Algorithms",
           "Important Problem Types",
@@ -501,10 +461,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "An overview of Computer Architecture",
           "overview of ARM-Cortex-M Architecture",
@@ -547,10 +504,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Definition",
           "Network Layer",
@@ -599,10 +553,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Data Definition Language",
           "Basic database query operations",
@@ -633,10 +584,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Familiarization of data transfer from code segment to data segment and from data segment to data segment",
           "Arithmetic operations",
@@ -659,9 +607,7 @@
           "Joseph V., A definitive Guide to ARM Cortex-M3 and Cortex-M4 processors, 3rdEdition, Elsevier, 2014",
           "Muhammad A.M, Sarmad N., Sepehr N., Shujen C., ARM Assembly Language Programming & Architecture, 2nd Edition, Wiley, 2016"
         ],
-        "flags": [
-          "credits_mismatch"
-        ]
+        "flags": ["credits_mismatch"]
       },
       {
         "sem": 5,
@@ -673,9 +619,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Socket programming- Files, Database, Multi Client Server Environment and Application Development",
           "Packet Tracer: Introduction to CISCO Packet Tracer",
@@ -692,9 +636,7 @@
           "Jesin A, Packet Tracer Network Simulator, 1st Edition, Packt Publishing, 2014",
           "Dr. M. O. Faruque Sarker, Sam Washington, Learning Python Network Programming, 1st Edition, Packt Publishing 2015"
         ],
-        "flags": [
-          "structure_mismatch"
-        ]
+        "flags": ["structure_mismatch"]
       },
       {
         "sem": 3,
@@ -706,10 +648,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Definition of management and systems approach, Nature & scope",
           "The functions of managers",
@@ -743,10 +682,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Information and Network Security",
           "Symmetric-Key Ciphers: Classical and Modern encryption techniques",
@@ -793,10 +729,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Operating systems",
           "Operating System Services",
@@ -826,10 +759,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Software Engineering",
           "Software Processes",
@@ -867,10 +797,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab",
-          "core"
-        ],
+        "tags": ["lab", "core"],
         "syllabus": [
           "Pentesting with Metasploit-Buffer Overflow, Server Client Side Exploitation",
           "USB forensics- Basics, USB write Blocking, USB impersonation",
@@ -901,10 +828,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab",
-          "core"
-        ],
+        "tags": ["lab", "core"],
         "syllabus": [
           "UNIX based operating system commands",
           "executing shell scripts",
@@ -916,9 +840,7 @@
           "Blurn R. & Bresnahan C., Linux Command Line Shell Scripting Bible, 3rd edition, Wiley, 2015",
           "Silberschatz A., Galvin P.B.& Gagne G., Operating System Concepts, 9th edition, Wiley, 2012"
         ],
-        "flags": [
-          "structure_mismatch"
-        ]
+        "flags": ["structure_mismatch"]
       },
       {
         "sem": 3,
@@ -930,10 +852,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Nature and significance",
           "Micro & macro differences",
@@ -984,10 +903,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Data mining",
           "Data objects and attribute types",
@@ -1029,9 +945,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Introduction to the emerging technology used in the software industries",
           "Understand the tools and techniques used to application development",
@@ -1043,9 +957,7 @@
           "David Griffiths, Head First Android Development: A Brain-Friendly Guide Shroff/O'Reilly; Second edition,2017",
           "John Horton, Android Programming for Beginners - Second Edition: Build in-depth, full-featured Android 9 Pie apps starting from zero programming experience, 2nd Edition, Ingram short title; 2nd edition, 2018"
         ],
-        "flags": [
-          "credits_mismatch"
-        ]
+        "flags": ["credits_mismatch"]
       },
       {
         "sem": 7,
@@ -1057,9 +969,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Pre-processing the raw-datasets using data mining software",
           "Applying data mining techniques such as association rule mining, clustering, classification on the pre-processed data using software tools",
@@ -1083,9 +993,7 @@
         "code": "ICT 4291",
         "title": "INDUSTRIAL TRAINING",
         "credits": null,
-        "tags": [
-          "core"
-        ],
+        "tags": ["core"],
         "syllabus": [
           "Undergo industrial training for a minimum period of 4 weeks",
           "Training may be taken in a phased manner during the vacation starting from the end of third semester to the end of seventh semester",
@@ -1105,9 +1013,7 @@
         "code": "ICT 4292",
         "title": "PROJECT WORK",
         "credits": null,
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Project work may be carried out in the institution/industry/research laboratory or any other competent institutions",
           "Duration of the project work shall be a minimum of 16 weeks which may be extended up to 24 weeks",
@@ -1117,9 +1023,7 @@
           "Student has to make a presentation on the work carried out before the department committee as part of project evaluation"
         ],
         "references": [],
-        "flags": [
-          "missing_credits"
-        ]
+        "flags": ["missing_credits"]
       },
       {
         "sem": 3,
@@ -1131,10 +1035,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Searching State Space",
@@ -1163,9 +1064,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction to Machine Learning",
           "Mathematical Preliminaries",
@@ -1202,9 +1101,7 @@
           "Richard S.Sutton and Andrew G.Barto, Reinforcement Learning, 2nd Edition, MIT Press, 2018",
           "Solon Barocas, Moritz Hardt and Arvind Narayanan, Fairness and Machine Learning, failml.org, 2021"
         ],
-        "flags": [
-          "missing_tag_type"
-        ]
+        "flags": ["missing_tag_type"]
       },
       {
         "sem": 3,
@@ -1216,9 +1113,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Mathematical Preliminaries",
           "Bayesian Decision Theory: Classifiers, Discriminnat function, Decision surfaces",
@@ -1245,10 +1140,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Perceptron: Perceptron convergence theorem, Batch perceptron algorithm",
@@ -1276,10 +1168,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: History of computer graphics and applications, Introduction to Open GL",
           "Graphics Output Primitives: line, circle and ellipse generating algorithm, polygon fill algorithm",
@@ -1296,9 +1185,7 @@
           "Peter Shirley, Steve Marschner and et al., Fundamentals of Computer Graphics (Fourth Edition), A K Peters/CRC Press, 2015",
           "F. S. Hill Jr. and S. M. Kelley, Computer Graphics using OpenGL (Third Edition), Pearson, 2007"
         ],
-        "flags": [
-          "potential_semester_mismatch"
-        ]
+        "flags": ["potential_semester_mismatch"]
       },
       {
         "sem": 3,
@@ -1310,10 +1197,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction, components of image processing system",
           "Spatial domain transformations, histogram processing, smoothing, sharpening spatial filters",
@@ -1340,9 +1224,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction of virtual and augmented reality",
           "Definition and scope",
@@ -1398,10 +1280,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to computer vision and its applications",
           "Image formation",
@@ -1450,10 +1329,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Boolean Retrieval Model",
           "Index Construction: Blocked sort based indexing",
@@ -1492,10 +1368,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Big Data Concepts and Terminology",
@@ -1533,10 +1406,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to social networks",
           "Graph Concepts",
@@ -1576,10 +1446,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "The Semantic Web Activity of W3C: Overview of techniques and standards, XML with Document Type Definitions and Schemas",
           "Describing Web Resource: RDF data models, syntax, semantics, schema, RDFS, RDF Data structures, Containers and collections",
@@ -1608,10 +1475,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Biometric fundamentals",
@@ -1656,10 +1520,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Types",
@@ -1698,10 +1559,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction to technology stack: Blockchain, protocol, understanding how blockchain works",
           "Introduction to blockchain primitives, consensus model",
@@ -1729,10 +1587,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Role of ML and AI in Security: Rules-Based, Signature-Based, and Firewall Solutions Focusing on the Threat of Malicious Bots",
@@ -1765,10 +1620,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Specialized process models: Component based and Aspect Oriented Development",
           "Agile process",
@@ -1802,10 +1654,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "The Architecture Business Cycle",
           "Software Processes",
@@ -1833,9 +1682,7 @@
           "Cervantes H.,Kazman R., Designing Software Architectures: A Practical Approach (1e), Addison-Wesley Professional, 2016.",
           "Eric Dashofy, Nenad Medvidovi\u0107, and Richard N. Taylor \u201cSoftware Architecture:Foundations, Theory, and Practice\u201d, John Wiley, 2010."
         ],
-        "flags": [
-          "sem_assigned_from_context"
-        ]
+        "flags": ["sem_assigned_from_context"]
       },
       {
         "sem": 3,
@@ -1847,10 +1694,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "software quality",
@@ -1873,9 +1717,7 @@
           "Claude Y. Laporte, Alain April, Software Quality Assurance, 1st Edition, Wiley, 2017",
           "Ivan Mistrik, Richard M Soley, Nour Ali, John Grundy, Bedir Tekinerdogan, Software Quality Assurance, 1st Edition, O'Reilly Morgan Kaufmann, 2015"
         ],
-        "flags": [
-          "title_typo"
-        ]
+        "flags": ["title_typo"]
       },
       {
         "sem": 3,
@@ -1887,10 +1729,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction to software construction",
           "Creating High Quality Code",
@@ -1919,10 +1758,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Cloud computing delivery models and services",
           "Challenges, Cloud Infrastructure: Amazon, Google, Microsoft Azure",
@@ -1957,9 +1793,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction",
           "Mathematical Preliminaries",
@@ -1977,24 +1811,49 @@
           "Francois Chollet, Deep Learning with Python, Manning, 2017",
           "Seth Weidman, Deep Learning from Scratch, Shroff/O'Reilly, 2019"
         ],
-        "flags": [
-          "semester_mismatch",
-          "unclear_course_type"
-        ]
+        "flags": ["semester_mismatch", "unclear_course_type"]
       },
       {
+        "sem": 3,
         "code": "ICT 4443",
-        "title": "Extraction Failed",
-        "sem": null,
-        "credits": null,
-        "tags": [
-          "error"
+        "title": "EVOLUTIONARY COMPUTING AND SWARM INTELLIGENCE",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": ["core", "theory"],
+        "syllabus": [
+          "Introduction",
+          "Optimization",
+          "Modelling and simulation problems",
+          "Search problems",
+          "Evolutionary computing",
+          "Natural versus artificial evolution",
+          "Global optimization and heuristic search algorithms",
+          "Genetic algorithm",
+          "Fitness, selection and population management",
+          "Advanced operators and techniques in genetic algorithm",
+          "Multi-objective optimization",
+          "Combinatorial optimization",
+          "Knowledge based techniques",
+          "Parameters and parameter tuning",
+          "(1+1) EA",
+          "(µ + λ) EA",
+          "Run time analysis of (1+1) EA",
+          "Swarm intelligence",
+          "Particle swarm optimization",
+          "Metaheuristics",
+          "Ant colony optimization"
         ],
-        "syllabus": [],
-        "references": [],
-        "flags": [
-          "extraction_failed"
-        ]
+        "references": [
+          "A.E. Eiben, J.E. Smith, Introduction to Evolutionary Computing, Second Edition, Springer, 2015",
+          "S.N. Sivanandam, S.N. Deepa, Introduction to Genetic Algorithms, 2008",
+          "Andries P. Engelbrecht, Computational Intelligence: An Introduction, Second Edition, John Wiley & Sons Ltd, 2007",
+          "Xinjie Yu, Mitsuo Gen, Introduction to Evolutionary Algorithms"
+        ],
+        "flags": []
       },
       {
         "sem": 3,
@@ -2006,9 +1865,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction",
           "Pre-model Interpretability and Explainability: EDA, Feature engineering",
@@ -2036,10 +1893,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Mathematical Preliminaries: Probability theory, Linear algebra, Linear programming, Mathematical analysis, and complexity classes",
@@ -2053,9 +1907,7 @@
           "Hans Peters, Game Theory: A Multi-Leveled Approach, 2nd Edition",
           "Dario Bauso, Game Theoy with Engineering Applications, SIAM, Philadelphia, 2016"
         ],
-        "flags": [
-          "missing_reference_details"
-        ]
+        "flags": ["missing_reference_details"]
       },
       {
         "sem": 3,
@@ -2067,10 +1919,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "High performance computing ecosystem with architectures, classifications, forms, and limitations",
           "High performance programming paradigms with pthreads/OpenMP for shared-memory architectures",
@@ -2100,10 +1949,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Contexts for HCI: Human, Computer, Interaction, Design Process",
           "Interaction Design, Design Rules, Navigation Design",
@@ -2134,10 +1980,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to M2M communication and IoT",
           "An emerging industrial structure for IoT",
@@ -2173,10 +2016,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Mobile Wireless Communication",
           "5G Roadmap",
@@ -2219,10 +2059,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Need and concepts of software reliability",
           "Software reliability models - classification, limitations and issues",
@@ -2242,9 +2079,7 @@
           "Shigeru Yamada, Software Reliability Modeling: Fundamentals and Applications (Springer Briefs in Statistics), 2014 Edition, Springer, 2014",
           "Michael Lyu, Handbook of Software Reliability Engineering, IEEE Computer Society Press, ISBN: 0-07-039400-8, 1996"
         ],
-        "flags": [
-          "semester_inferred_from_context"
-        ]
+        "flags": ["semester_inferred_from_context"]
       },
       {
         "sem": 3,
@@ -2256,10 +2091,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Overview of Graphic Systems",
           "Graphics hardware, devices software",
@@ -2289,10 +2121,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Front-End Web UI frameworks and Tools: Bootstrap 4, CSS and JavaScript component, Node.js, NPM and task runners",
           "Front-End Web Development with React: JavaScript ES6, Reactstrap for Bootstrap 4-based responsive UI design, react router, Flux architecture, redux, REST API",
@@ -2316,10 +2145,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to algorithms",
           "Arrays: Elementary operations, Applications, Performance Analysis",
@@ -2356,9 +2182,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Basics",
           "Data types",
@@ -2390,10 +2214,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Networking and brief History of Internet",
           "OSI and TCP/IP Reference Models",
@@ -2430,10 +2251,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Information, Network and System Security",
           "Encryption techniques",
@@ -2462,9 +2280,7 @@
           "Justin Clarke et.al., SQL Injection Attacks and Defense, 2nd edition, Syngress, 2012",
           "Dafydd Stuttard, and Marcus Pinto, The Web Application Hacker's Handbook: Finding and Exploiting Security Flaws, 2nd edition, Wiley, 2011"
         ],
-        "flags": [
-          "course_code_suggests_different_semester"
-        ]
+        "flags": ["course_code_suggests_different_semester"]
       },
       {
         "sem": 3,
@@ -2476,10 +2292,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Mathematical Preliminaries: Probability theory, Linear algebra, Linear programming, Mathematical analysis, and complexity classes",
@@ -2500,9 +2313,7 @@
         "code": "ICT 4401",
         "title": "Artificial Intelligence",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -2517,9 +2328,7 @@
         "code": "ICT 4402",
         "title": "Machine Learning",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -2534,130 +2343,117 @@
         "code": "ICT 4403",
         "title": "Pattern recognition",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4404",
         "title": "Neural Computation and Applications",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
-        "syllabus": [
-          "Computer Graphics & Visualization"
-        ],
+        "tags": ["theory"],
+        "syllabus": ["Computer Graphics & Visualization"],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_references",
-          "structure_mismatch"
-        ]
+        "flags": ["missing_credits", "missing_references", "structure_mismatch"]
       },
       {
         "sem": 3,
         "code": "ICT 4405",
         "title": "Computer Graphics",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4406",
         "title": "Digital Image Processing",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4407",
         "title": "Augmented and Virtual Reality",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
+        "sem": 3,
         "code": "ICT 4408",
-        "title": "Extraction Failed",
-        "sem": null,
-        "credits": null,
-        "tags": [
-          "error"
+        "title": "COMPUTER VISION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": ["core", "theory"],
+        "syllabus": [
+          "Introduction to computer vision and its applications",
+          "Image formation",
+          "Liner Filtering",
+          "image transformations and Colour models",
+          "Edge Detection methods (Laplacian detectors and Canny edge detector)",
+          "Points and patches",
+          "Harris corner detector",
+          "Histogram of Gradients",
+          "Difference of Gaussian detector",
+          "SIFT",
+          "Colour and Texture",
+          "Feature based alignment",
+          "least squares and RANSAC",
+          "Camera models",
+          "Camera calibration",
+          "Stereo vision",
+          "Stereo correspondence",
+          "Epipolar geometry",
+          "Optical flow",
+          "Lucas Kanade method",
+          "KLT tracking method",
+          "Mean shift method",
+          "Dense motion estimation",
+          "Support Vector Machines",
+          "Face detection and recognition",
+          "Bag of words",
+          "Deep learning"
         ],
-        "syllabus": [],
-        "references": [],
-        "flags": [
-          "extraction_failed"
-        ]
+        "references": [
+          "Szeliski R., Computer Vision: Algorithms and Applications, Springer 2011.",
+          "David A. F. and Ponce J., Computer Vision: A Modern Approach (second edition), Pearson 2015.",
+          "Solem J. E., Programming Computer Vision with Python, O'Reilly, 2012."
+        ],
+        "flags": []
       },
       {
         "sem": 3,
         "code": "ICT 4409",
         "title": "Information Retrieval",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4410",
         "title": "Big Data Analytics",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
@@ -2669,25 +2465,17 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4412",
         "title": "Semantic Web",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -2702,34 +2490,20 @@
         "code": "ICT 4413",
         "title": "Cyber Forensics and Cyber laws",
         "credits": null,
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4414",
         "title": "Ethical hacking",
         "credits": null,
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
@@ -2741,10 +2515,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -2759,26 +2530,17 @@
         "code": "ICT 4416",
         "title": "Artificial Intelligence in Cyber security",
         "credits": null,
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4442",
         "title": "Deep Learning",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -2793,49 +2555,30 @@
         "code": "ICT 4443",
         "title": "Evolutionary Computing and Swarm Intelligence",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4444",
         "title": "Explainable AI",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4445",
         "title": "Game Theory and Applications",
         "credits": null,
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
@@ -2847,25 +2590,17 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4447",
         "title": "Human Computer Interaction",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -2879,42 +2614,27 @@
         "sem": 3,
         "code": "ICT 4450",
         "title": "Software Reliability",
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4311",
         "title": "Computer Graphics and Animation",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4312",
         "title": "Design and Development of Web Applications",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -2929,58 +2649,37 @@
         "code": "ICT 4313",
         "title": "Fundamentals of Data Structures and Algorithms",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4314",
         "title": "Machine Learning Tools and Technologies",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4315",
         "title": "Networking with TCP/IP",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "ICT 4316",
         "title": "Fundamentals of Cyber Security",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -2995,16 +2694,10 @@
         "code": "ICT 4317",
         "title": "Game Theory & Applications",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
@@ -3016,10 +2709,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Boolean Algebra: Partial ordering relations, Poset, Lattices, Basic Properties of Lattices. Distributive and complemented lattices, Boolean lattices and Boolean Algebra. Elementary configuration: Permutations and Combinations, Generating function, Principle of inclusion and exclusion Partitions, compositions. ordering of permutations: Lexicographical and Fikes.",
           "Graph theory: Basic definitions, Degree, regular graphs, Eulerian and Hamiltonian graphs, Trees and Properties, Center, radius and diameter of a graph, Rooted and binary trees, Matrices associated with graphs, Algorithms for finding shortest path, Algorithm.",
@@ -3045,10 +2735,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Stacks",
@@ -3085,10 +2772,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to OOP",
           "Java Programming Fundamentals",
@@ -3148,10 +2832,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Simplification of Boolean functions: K-map method, NAND and NOR implementation",
@@ -3183,10 +2864,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Data Communication",
           "Signals",
@@ -3227,9 +2905,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Application using arrays",
           "String operations",
@@ -3265,10 +2941,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab",
-          "core"
-        ],
+        "tags": ["lab", "core"],
         "syllabus": [
           "Simple Java programs using control structures and Arrays",
           "Programs using Classes, objects, methods",
@@ -3282,9 +2955,7 @@
           "Herbert Schildt, The Complete Reference JAVA 2, 10th Edition, Tata McGrawHill, 2017",
           "Dietel and Dietel, Java How to Program, 9th Edition, Prentice Hall India, 2012"
         ],
-        "flags": [
-          "credits_mismatch"
-        ]
+        "flags": ["credits_mismatch"]
       },
       {
         "sem": 4,
@@ -3296,9 +2967,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Verification of Boolean algebra and De Morgan theorems",
           "Simplification of Boolean expressions using K-maps",
@@ -3324,24 +2993,7 @@
           "Tocci R.J., Widmer N.S., Greegory L.M., Digital Systems: principles and Applications(12e), Pearson Education India, 2017",
           "Wakerly J.F., Digital Design Principles and Practices(4e), Pearson Education, 2014"
         ],
-        "flags": [
-          "structure_mismatch",
-          "semester_mismatch"
-        ]
-      },
-      {
-        "code": "MAT 2226",
-        "title": "Extraction Failed",
-        "sem": null,
-        "credits": null,
-        "tags": [
-          "error"
-        ],
-        "syllabus": [],
-        "references": [],
-        "flags": [
-          "extraction_failed"
-        ]
+        "flags": ["structure_mismatch", "semester_mismatch"]
       },
       {
         "sem": 3,
@@ -3353,10 +3005,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fundamentals of Algorithms, Important Problem Types, Analysis of algorithm efficiency",
           "Analysis Framework: Asymptotic Notations and Basic Efficiency Classes, Mathematical Analysis of Non-recursive and Recursive Algorithms",
@@ -3385,10 +3034,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Database-System Applications",
           "Database Languages",
@@ -3443,10 +3089,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Computer Networks",
           "Definition",
@@ -3490,10 +3133,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Operating systems",
           "Operating System Services",
@@ -3543,10 +3183,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Software Engineering",
           "Software Processes",
@@ -3586,9 +3223,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Data Definition Language",
           "Basic database query operations",
@@ -3611,17 +3246,23 @@
       },
       {
         "code": "ICT 2244",
-        "title": "Extraction Failed",
-        "sem": null,
-        "credits": null,
-        "tags": [
-          "error"
+        "title": "OPERATING SYSTEMS LAB",
+        "sem": 5,
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 3,
+          "c": 1
+        },
+        "tags": ["lab"],
+        "syllabus": [
+          "UNIX based operating system commands, executing shell scripts, inter process communication using system calls, implementing CPU scheduling algorithms, memory and deadlock management."
         ],
-        "syllabus": [],
-        "references": [],
-        "flags": [
-          "extraction_failed"
-        ]
+        "references": [
+          "Blurn R. & Bresnahan C., Linux Command Line Shell Scripting Bible, 3rd edition, Wiley, 2015.",
+          "Silberschatz A., Galvin P.B. & Gagne G., Operating System Concepts, 9th edition, Wiley, 2012."
+        ],
+        "flags": []
       },
       {
         "sem": 3,
@@ -3633,10 +3274,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Definition of management and systems approach, Nature & scope",
           "The functions of managers",
@@ -3670,10 +3308,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Information and Network Security",
           "Symmetric-Key Ciphers: Classical and Modern encryption techniques",
@@ -3717,10 +3352,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "An overview of Computer Architecture",
           "overview of ARM-Cortex-M Architecture",
@@ -3769,10 +3401,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Wireless Systems",
           "Advanced Modulation / Access Techniques(MFSK,Spread Spectr um,OFDM)",
@@ -3815,10 +3444,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Queuing Models",
           "Optical Networks",
@@ -3858,9 +3484,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Familiarization of data transfer from code segment to data segment and from data segment to data segment",
           "Arithmetic operations",
@@ -3894,9 +3518,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Pentesting with Metasploit-Buffer Overflow, Server Client Side Exploitation",
           "USB forensics- Basics, USB write Blocking, USB impersonation",
@@ -3915,9 +3537,7 @@
           "James Corley, Kent Backman, Michael Simpson, Hands on Ethical hacking and network Defense, 2nd edition, Delmar Cengage Learning, 2010",
           "Patrick Engebretson, The Basics of Hacking and Penetration Testing: Ethical Hacking and Penetration Testing Made Easy, 1st edition, Syngress Media, U.S., 2010"
         ],
-        "flags": [
-          "semester_mismatch_between_context_and_course"
-        ]
+        "flags": ["semester_mismatch_between_context_and_course"]
       },
       {
         "sem": 3,
@@ -3929,10 +3549,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Nature and significance",
           "Micro & macro differences",
@@ -3987,9 +3604,7 @@
           "p": 2,
           "c": 2
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Introduction to Android",
           "Basics of Android Mobile Application Development Tool",
@@ -4006,9 +3621,7 @@
           "David Griffiths, Head First Android Development: A Brain-Friendly Guide, 2nd Edition, Shroff/O'Reilly, 2017",
           "John Horton, Android Programming for Beginners - Second Edition: Build in-depth, full-featured Android 9 Pie apps starting from zero programming experience, 2nd Edition, Packt Publishing, 2018"
         ],
-        "flags": [
-          "credits_sum_mismatch"
-        ]
+        "flags": ["credits_sum_mismatch"]
       },
       {
         "sem": 7,
@@ -4020,9 +3633,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Packet Tracer- Introduction to CISCO Packet Tracer, Basic Configuration, Routing Protocols, DHCP and NAT",
           "Socket programming-Basic, Files, Database, Multi Client- Server Environment and Application Development"
@@ -4032,19 +3643,14 @@
           "Jesin A, Packet Tracer Network Simulator,1st edition, Packt Publishing, 2014",
           "Dr. M. O. Faruque Sarker, Sam Washington, Learning Python Network Programming ,1st edition, Packt Publishing, 2015"
         ],
-        "flags": [
-          "credits_mismatch",
-          "semester_mismatch"
-        ]
+        "flags": ["credits_mismatch", "semester_mismatch"]
       },
       {
         "sem": 3,
         "code": "ICT 4291",
         "title": "INDUSTRIAL TRAINING",
         "credits": null,
-        "tags": [
-          "core"
-        ],
+        "tags": ["core"],
         "syllabus": [
           "Undergo industrial training for a minimum period of 4 weeks",
           "May be taken in a phased manner during the vacation starting from the end of third semester to the end of seventh semester",
@@ -4053,9 +3659,7 @@
           "Report should include the certificates issued by the industry"
         ],
         "references": [],
-        "flags": [
-          "missing_credits"
-        ]
+        "flags": ["missing_credits"]
       },
       {
         "sem": 3,
@@ -4067,10 +3671,7 @@
           "p": 0,
           "c": 0
         },
-        "tags": [
-          "elective",
-          "lab"
-        ],
+        "tags": ["elective", "lab"],
         "syllabus": [
           "Project work carried out in institution/industry/research laboratory or competent institutions",
           "Minimum duration of 16 weeks (extendable up to 24 weeks)",
@@ -4080,10 +3681,7 @@
           "Presentation before department committee as part of project evaluation"
         ],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_references"]
       },
       {
         "sem": 3,
@@ -4095,10 +3693,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Searching State Space",
@@ -4127,10 +3722,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory",
-          "elective"
-        ],
+        "tags": ["theory", "elective"],
         "syllabus": [
           "Introduction to Machine Learning",
           "Mathematical Preliminaries",
@@ -4161,10 +3753,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Mathematical Preliminaries",
           "Bayesian Decision Theory: Classifiers, Discriminnat function, Decision surfaces",
@@ -4179,9 +3768,7 @@
           "S.Theodoridis and K.Koutroumbas, Pattern Recognition, 4th Edition, Elsevier, 2014",
           "Christopher M.Bishop., Pattern Recognition and Machine Learning, 2nd Edition, Springer, 2016"
         ],
-        "flags": [
-          "course_code_suggests_different_semester"
-        ]
+        "flags": ["course_code_suggests_different_semester"]
       },
       {
         "sem": 3,
@@ -4193,10 +3780,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Perceptron: Perceptron convergence theorem, Batch perceptron algorithm",
@@ -4224,10 +3808,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: History of computer graphics and applications, Introduction to OpenGL",
           "Graphics Output Primitives: line, circle and ellipse generating algorithm, polygon fill algorithm",
@@ -4258,10 +3839,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction, components of image processing system",
           "Spatial domain transformations, histogram processing, smoothing, sharpening spatial filters",
@@ -4276,9 +3854,7 @@
           "Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins, Digital Image Processing Using MATLAB (second edition), McGraw Hill India, 2010",
           "Gloria Bueno Garc\u00eda, Oscar Deniz Suarez, Jos\u00e9 Luis Espinosa Aranda, Jesus Salido Tercero, Ismael Serrano Gracia, Noelia V\u00e1llez Enano, Learning Image Processing with Open CV (first edition), Packt Publishing, 2015"
         ],
-        "flags": [
-          "structure_mismatch"
-        ]
+        "flags": ["structure_mismatch"]
       },
       {
         "sem": 3,
@@ -4290,10 +3866,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction of virtual and augmented reality",
           "Definition and scope",
@@ -4340,18 +3913,51 @@
         "flags": []
       },
       {
+        "sem": 3,
         "code": "ICT 4408",
-        "title": "Extraction Failed",
-        "sem": null,
-        "credits": null,
-        "tags": [
-          "error"
+        "title": "COMPUTER VISION",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": ["core", "theory"],
+        "syllabus": [
+          "Introduction to computer vision and its applications",
+          "Image formation",
+          "Linear filtering",
+          "Image transformations and colour models",
+          "Edge detection methods (Laplacian detectors and Canny edge detector)",
+          "Points and patches",
+          "Harris corner detector",
+          "Histogram of gradients",
+          "Difference of Gaussian detector",
+          "SIFT",
+          "Colour and texture",
+          "Feature based alignment",
+          "Least squares and RANSAC",
+          "Camera models",
+          "Camera calibration",
+          "Stereo vision",
+          "Stereo correspondence",
+          "Epipolar geometry",
+          "Optical flow",
+          "Lucas‑Kanade method",
+          "KLT tracking method",
+          "Mean shift method",
+          "Dense motion estimation",
+          "Support vector machines",
+          "Face detection and recognition",
+          "Bag of words",
+          "Deep learning"
         ],
-        "syllabus": [],
-        "references": [],
-        "flags": [
-          "extraction_failed"
-        ]
+        "references": [
+          "Richard Szeliski, Computer Vision: Algorithms and Applications, Springer, 2011",
+          "David A. Forsyth and Jean Ponce, Computer Vision: A Modern Approach (2nd edition), Pearson, 2015",
+          "J. E. Solem, Programming Computer Vision with Python, O'Reilly, 2012"
+        ],
+        "flags": []
       },
       {
         "sem": 3,
@@ -4363,10 +3969,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Boolean Retrieval Model",
           "Index Construction: Blocked sort based indexing, Single Pass in memory indexing, Distributed indexing, Dynamic Indexing",
@@ -4401,10 +4004,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Big Data Concepts and Terminology",
@@ -4438,10 +4038,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to social networks",
           "Graph Concepts",
@@ -4481,9 +4078,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Overview of techniques and standards, XML with Document Type Definitions and Schemas",
           "RDF data models, syntax, semantics, schema, RDFS, RDF Data structures, Containers and collections",
@@ -4512,10 +4107,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Biometric fundamentals",
@@ -4559,10 +4151,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction",
           "Types",
@@ -4593,17 +4182,31 @@
       },
       {
         "code": "ICT 4415",
-        "title": "Extraction Failed",
-        "sem": null,
-        "credits": null,
-        "tags": [
-          "error"
+        "title": "BLOCKCHAIN TECHNOLOGY",
+        "sem": 3,
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": ["core", "theory"],
+        "syllabus": [
+          "Introduction to technology stack: Blockchain, protocol, understanding how blockchain works",
+          "Introduction to blockchain primitives, consensus model",
+          "Introduction to smart contracts and its development environment",
+          "Architecture of decentralized application using Ethereum and Hyperledger platforms",
+          "Introduction to Hyperledger"
         ],
-        "syllabus": [],
-        "references": [],
-        "flags": [
-          "extraction_failed"
-        ]
+        "references": [
+          "Elad Elrom, The Blockchain Developer, Apress, 1st edition, 2019",
+          "Lorne Lantz, Daniel Cawrey, Mastering Blockchain, O'Reilly Media, 2020",
+          "Paul Vigma, Michael J. Casey, The Truth Machine: The Blockchain and the Future of Everything, St. Martin's Press, 2018",
+          "Daniel Drescher, Blockchain Basics: A Non-Technical Introduction in 25 Steps, Apress, 2017",
+          "Xun Brian Wu, Chuanfeng Zhang, Andrew Zhang, Hyperledger Cookbook, Packt Publishing Limited, 2019",
+          "David Hooper, Kevin Solorio, Hands‑On Smart Contract Development with Solidity and Ethereum: From Fundamentals to Deployment, O'Reilly, 2019"
+        ],
+        "flags": []
       },
       {
         "sem": 3,
@@ -4615,10 +4218,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction",
           "Role of ML and AI in Security: Rules-Based, Signature-Based, and Firewall Solutions Focusing on the Threat of Malicious Bots",
@@ -4648,10 +4248,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Mathematical Preliminaries",
@@ -4681,10 +4278,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Optimization",
@@ -4713,9 +4307,7 @@
           "Andries P. Engelbrecht, Computational Intelligence: An Introduction . Second Edition, John Wiley & Sons Ltd, 2007",
           "Xinjie Yu \u00b7 Mitsuo Gen, Introduction Evolutionary Algorithms"
         ],
-        "flags": [
-          "incomplete_reference"
-        ]
+        "flags": ["incomplete_reference"]
       },
       {
         "sem": 3,
@@ -4727,10 +4319,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Pre-model Interpretability and Explainability: EDA, Feature engineering",
@@ -4745,9 +4334,7 @@
           "Wojciech Samek, Gr\u00e9goire Montavon, Andrea Vedaldi, Lars Kai Hansen, and Klaus-Robert M\u00fcller, Explainable AI: Interpreting, Explaining and Visualizing Deep Learning, Springer, 2019",
           "Serg Masis, Interpretable Machine Learning with Python, Packt Publishing Ltd, 2021"
         ],
-        "flags": [
-          "code_semester_mismatch"
-        ]
+        "flags": ["code_semester_mismatch"]
       },
       {
         "sem": 3,
@@ -4759,10 +4346,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Mathematical Preliminaries: Probability theory, Linear algebra, Linear programming, Mathematical analysis, and complexity classes",
@@ -4776,9 +4360,7 @@
           "Hans Peters, Game Theory: A Multi-Leveled Approach, 2nd Edition,",
           "Dario Bauso, Game Theory with Engineering Applications, SIAM, Philadelphia, 2016"
         ],
-        "flags": [
-          "missing_reference_details"
-        ]
+        "flags": ["missing_reference_details"]
       },
       {
         "sem": 3,
@@ -4790,10 +4372,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "High performance computing ecosystem with architectures, classifications, forms, and limitations",
           "High performance programming paradigms with pthreads/OpenMP for shared-memory architectures",
@@ -4823,10 +4402,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Contexts for HCI: Human, Computer, Interaction, Design Process",
           "Interaction Design, Design Rules, Navigation Design",
@@ -4857,10 +4433,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Need and concepts of software reliability",
           "Software reliability models- classification, limitations and issues",
@@ -4879,9 +4452,7 @@
           "Shigeru Yamada, Software Reliability Modeling: Fundamentals and Applications (Springer Briefs in Statistics), 2014 Edition, Springer, 2014",
           "Michael Lyu, Handbook of Software Reliability Engineering, IEEE Computer Society Press, ISBN: 0-07-039400-8, 1996"
         ],
-        "flags": [
-          "semester_mismatch"
-        ]
+        "flags": ["semester_mismatch"]
       },
       {
         "sem": 3,
@@ -4893,10 +4464,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Overview of Graphic Systems: Graphics hardware, devices software",
           "Graphics output Primitives: Line, circle, ellipses generating algorithms",
@@ -4925,10 +4493,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Front-End Web UI frameworks and Tools: Bootstrap 4, CSS and JavaScript component, Node.js, NPM and task runners",
           "Front-End Web Development with React: JavaScript ES6, Reactstrap for Bootstrap 4-based responsive UI design, react router, Flux architecture, redux, REST API",
@@ -4952,10 +4517,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to algorithms",
           "Arrays: Elementary operations, Applications",
@@ -4993,10 +4555,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basics",
           "Data types",
@@ -5027,9 +4586,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction to Networking and brief History of Internet",
           "OSI and TCP/IP Reference Models",
@@ -5071,10 +4628,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Mathematical Preliminaries: Probability theory, Linear algebra, Linear programming, Mathematical analysis, and complexity classes",

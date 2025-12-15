@@ -12,10 +12,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Gradient, divergence and curl",
           "Line, surface and volume integrals",
@@ -40,9 +37,7 @@
           "P. L. Meyer, Introduction to Probability and Statistical Applications, (2e), Oxford and IBH Publishing, Delhi, 1980.",
           "B. S. Grewal, Higher Engineering Mathematics, (43e), Khanna Publishers, 2014."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -54,10 +49,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Fluid Properties and Classification of Fluid",
@@ -80,9 +72,7 @@
           "Garde R.J., Fluid Mechanics through problems, New age international Pvt. Ltd., Publishing, New Delhi. 2003",
           "Garde R.J., Fluid Mechanics through problems, New age international Pvt. Ltd., Publishing, New Delhi. 2003"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -94,10 +84,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "distance and direction measurement",
@@ -123,9 +110,7 @@
           "Kanetkar T.P and Kulkarni S.V, Surveying and levelling parts 1 and 2, Pune Vidyarthi Griha Prakashan, 2008",
           "Thomas Norman, Surveying, Edward Arnold Publishers (ELBS), Budapest, 2009"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -137,10 +122,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Materials for Concrete I (The fillers) - types of aggregates, functional requirements, and standard specification for quality control",
           "Materials for Concrete II (the binders) - describe types of cement, chemical composition, and physical properties and standard specification for quality control",
@@ -157,9 +139,7 @@
           "Relevant Handbooks: National Building Code, IS 10262:2019, IS 456:2000",
           "Relevant Indian standards"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -171,10 +151,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Analysis of determinate Trusses",
           "Bending and shear stresses",
@@ -196,9 +173,7 @@
           "Reddy C.S., Basic structural analysis, Tata McGraw Hill, New Delhi, 2004",
           "Ramamrutham and Narayanan, Strength of Materials, Dhanpat Rai Publishers, 1989"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -210,10 +185,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Quantity of water required",
@@ -240,9 +212,7 @@
           "B.C. Punmia, A.K.Jain, A.K. Jain, Water Supply Engineering, environmental engineering, Laxmi publication, New Delhi, 1995",
           "P. N Modi, Water Supply Engineering, Standard book house, New Delhi, 2018"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -254,10 +224,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Calibration of Triangular Notch",
           "Rectangular Notch",
@@ -281,9 +248,7 @@
           "Streeter V.L and Wiley E.B., Fluid Mechanics, McGraw Hill Co. New York 1998",
           "Bansal R. K. Fluid Mechanics and Hydraulic Machines, Laxmi Publishers, New Delhi 2010"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 4,
@@ -295,10 +260,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Tests to determine the mechanical properties of mild steel and cast iron",
           "Tests to determine the hardness of various metals",
@@ -317,9 +279,7 @@
           "Murthy V.N.S., A Text Book of Soil Mechanics and Foundation Engineering, CBS Publishers & Distributors-New Delhi, 2008.",
           "Gopal Ranjan and Rao A.S.R., Basic and Applied Soil Mechanics, New Age International Pvt. Limited, Publishers, 2016."
         ],
-        "flags": [
-          "syllabus_contains_potentially_unclear_item: 'Demonstration'"
-        ]
+        "flags": ["syllabus_contains_potentially_unclear_item: 'Demonstration'"]
       },
       {
         "sem": null,
@@ -331,10 +291,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Numerical solutions of partial differential equations by finite difference methods, five-point formula, Laplace Poisson Equations, Heat equation, Crank Nicolson's method, Wave equation",
           "Introduction to calculus of variations, geodesics, isoperimetric problems, approximate methods, Weighted Residual Approach, Least square method",
@@ -353,9 +310,7 @@
           "Hamdy A. Taha, Operation research, (8e), PHI, 2007",
           "S. Narayanan, T. K. Manicavachagom Pillay, G. Ramanaiah, Advanced mathematics for engineering students, S. Viswanathan Pvt.. Ltd., 1985"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -367,10 +322,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Soil structure",
@@ -395,9 +347,7 @@
           "Murthy V.N.S., A Text Book of Soil Mechanics and Foundation Engineering, CBS Publishers & Distributors-New Delhi, 2008",
           "Gopal Ranjan and. Rao A.S.R., Basic and Applied Soil Mechanics, New Age International Pvt. Limited, Publishers, 2016"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -409,10 +359,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Geometric design of highways cross-sectional elements, sight distances, horizontal and vertical alignments",
           "Tractive resistance and Geometric design of railway Track \u2013 Speed and Cant",
@@ -431,9 +378,7 @@
           "Horenjeff, R and McKelvey, F, Planning and Design of Airports, (4e), Mc Graw Hill Company, New York, 1994",
           "Ashford, N and Wright, P.H, Airport Engineering, (3e), John Wiley and Sons, New York, 1992"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -445,10 +390,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to RCC structures, and design philosophy",
           "Limit state method",
@@ -471,9 +413,7 @@
           "IS: 456 \u2013 2000, Code of practice for plain and reinforced concrete, Bureau of Indian Standards, New Delhi",
           "SP-16 \u2013 1984, Design aids for reinforced concrete IS 456. Bureau of Indian Standards, New Delhi"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "code": "CIE 2224",
@@ -484,10 +424,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Quantity of sanitary sewage and storm sewage",
@@ -512,9 +449,7 @@
           "Manual on sewage and sewage treatment CPHEO, Ministry of Urban development, New Delhi",
           "Standard Methods \u2013 APHEA, American Public Health Association, 1015 fifteenth street, NW Washington DC"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -526,10 +461,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Hydrology \u2013 precipitation",
@@ -548,9 +480,7 @@
           "R. K. Sharma, T. K. Sharma, Irrigation Engineering, S.Chand and Co., New Delhi. 2002",
           "Santhosh Kumar Garg, Irrigation Engineering and Hydraulic Structures, Khanna Publishers, Delhi. 1998"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -562,10 +492,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Levelling",
           "Theodolite",
@@ -585,9 +512,7 @@
           "Kanetkar T.P and Kulkarni S.V, Surveying and levelling parts 1 and 2, Pune Vidyarthi Griha Prakashan, 2008",
           "Thomas Norman, Surveying, Edward Arnold Publishers (ELBS), Budapest, 2009"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 5,
@@ -599,10 +524,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Determination of solids",
           "Determination of Turbidity",
@@ -624,9 +546,7 @@
           "IS \u2013 3025 \u2013 1964 \u2013 Methods of Sampling and Test (physical and chemical) for water Used in Industry, IIT New Delhi",
           "Drinking water standards, IS \u2013 10500-2012"
         ],
-        "flags": [
-          "credits_discrepancy"
-        ]
+        "flags": ["credits_discrepancy"]
       },
       {
         "sem": 3,
@@ -638,10 +558,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory",
-          "elective"
-        ],
+        "tags": ["theory", "elective"],
         "syllabus": [
           "Principles of Management- Planning, Definition of management and systems approach, Nature & scope. The Functions of managers.",
           "Planning- Types of plans, steps in planning, Process of MBO, how to set objectives, strategies, policies and planning premises, Strategic planning process and tools",
@@ -662,9 +579,7 @@
           "Mike W. Martin And Ronald Schinzinger (2003), \u201cEthics in Engineering\u201d, Tata Mcgraw Hill, New Delhi.",
           "R. S. Nagarazan. (2004), \u201cA Text Book on Professional Ethics and Human Values\u201d, New Age International Publishers, New Delhi."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -676,10 +591,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction, difference in the design of steel and RCC structures",
           "Limit state method of design",
@@ -696,9 +608,7 @@
           "IS 800-2007, General construction of steel in code of practice, Bureau of Indian Standards, New Delhi",
           "SP-6 (Part I) 1964, Structural Steel Sections. Bureau of Indian Standards, New Delhi"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 3,
@@ -710,10 +620,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Soil Exploration",
           "Earth pressure at rest, active and passive conditions",
@@ -736,9 +643,7 @@
           "IS: 2911 - 1980 (Reaffirmed 2000) Code Of Practice For Design And Construction of Pile Foundations",
           "IS:2131 - 1981 (Reaffirmed 1997) Method for Standard Penetration Test for Soils"
         ],
-        "flags": [
-          "sem_inferred_from_code"
-        ]
+        "flags": ["sem_inferred_from_code"]
       },
       {
         "sem": null,
@@ -750,10 +655,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Estimation and Costing- purpose and methods, listing item of work for a given building plan",
           "Rate Analysis- for the listed item of work",
@@ -769,9 +671,7 @@
           "CPWD, Manual for Standard Specification and Rate Analysis",
           "IS 1200: Part 1 to 16: Method of measurement of building and civil engineering work"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 3,
@@ -783,10 +683,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction, prestressing systems, and material properties",
           "Losses in prestress",
@@ -815,10 +712,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Prefabrication- types, necessity, applicability, modular coordination",
           "Precast Concrete- components, code provisions, various prestressing systems",
@@ -836,9 +730,7 @@
           "Bachmann, Hubert, and Alfred Steinle, Precast concrete structures, Berlin: Ernst and Sohn, 2011.",
           "IS 10297-1982: Indian standard code of practice for design and construction of floors and roofs using precast reinforced / prestressed concrete ribbed or cored slab units."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -850,10 +742,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction and Subgrade Materials",
           "Pavement Materials",
@@ -866,9 +755,7 @@
           "Relevant IRC and ISCodes of Practices, MoRTH Specification",
           "Course content on LMS of L&T EduTech"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 3,
@@ -880,10 +767,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Determination of moisture content",
           "Specific gravity",
@@ -908,9 +792,7 @@
           "Lambe T.W, Soil testing for Engineers, John Wiley and Sons, INC.",
           "Cheng Liu and Jack B. Evett, Soil properties, Testing, Measurement and Evaluation, Prentice-Hall, Inc. Englewood Cliffs, New Jersey, 1987"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 6,
@@ -922,10 +804,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Modelling, analysis and design of statically determinate structures",
           "Analysis and design of indeterminate structures such as plane trusses, plane frames and space frames",
@@ -950,10 +829,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Nature and significance",
           "Micro & macro differences",
@@ -994,10 +870,7 @@
           "Govindarajan M, Natarajan S, Senthil Kumar V. S, \u201cEngineering Ethics\u201d, Prentice Hall of India, New Delhi, 2004",
           "Charles B. Fleddermann, \u201cEngineering Ethics\u201d, Pearson, Prentice Hall, New Jersey, 2012."
         ],
-        "flags": [
-          "missing_sem",
-          "department_mismatch"
-        ]
+        "flags": ["missing_sem", "department_mismatch"]
       },
       {
         "sem": null,
@@ -1009,10 +882,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction, degrees of freedom, degree of redundancy, law of conservation of energy",
           "Analysis of three hinged arches and two hinged arches",
@@ -1030,9 +900,7 @@
           "Hibbeler RC, Structural analysis, Pearson Education, United States, 2015",
           "Daniel L Schodak, Structures, Pearson Education, United States, 2015"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 3,
@@ -1044,10 +912,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Construction practices- precast structures, tunnels, formwork systems, MIVAN technique, walls, panels, scaffolds",
           "3-D printers in construction",
@@ -1070,19 +935,14 @@
           "Indian Green Building Council, Green building rating system: New construction and major renovations (LEED-India NC) reference guide version 1.0, Confederation of Indian Industry, CII-Sohrabaji Godrej Green Business Centre, Hyderabad, 2007.",
           "The Energy and Resources Institute Press, Green Rating for Integrated Habitat Assessment (GRIHA), Ministry of New and Renewable Energy and The Energy and Resources Institute"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 3,
         "code": "CIE 3225",
         "title": "AIRPORTS & SEA PORTS ENGINEERING",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Commercial Airport Master Planning(ICAO)",
           "Airside and Landside Infrastructure Planning",
@@ -1097,12 +957,8 @@
           "Design Considerations and Functional Requirements of Marine Structures",
           "Break water and Berthing Structures"
         ],
-        "references": [
-          "L&TEduTechLMS"
-        ],
-        "flags": [
-          "missing_credits"
-        ]
+        "references": ["L&TEduTechLMS"],
+        "flags": ["missing_credits"]
       },
       {
         "sem": null,
@@ -1114,10 +970,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Design of staircases spanning along traverse and longitudinal direction",
           "Design of waist slabs",
@@ -1135,9 +988,7 @@
           "IS:456 \u2013 2000, Code of practice for plain and Reinforced concrete, Bureau of Indian Standards, New Delhi",
           "SP-16 \u2013 1984, Design Aids for Reinforced concrete IS 456, Bureau of Indian Standards, New Delhi"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1149,10 +1000,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Professional practice \u2013 roles of various stakeholders",
           "theories of professional ethics",
@@ -1187,19 +1035,14 @@
           "Ostwald, Michael J, Warwick Fox A Theory of General Ethics: Human Relationships, Nature, and the Built Environment, Nexus Network Journal, Birkh\u00e4user Basel, 2008. 195-198.",
           "B.S. Patil, Legal Aspects of Building and Engineering Contracts"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
         "code": "CIE 3226",
         "title": "METRO RAIL TRANSPORTATION SYSTEMS & CONSTRUCTION",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Transit oriented development",
           "Planning of Metros",
@@ -1215,11 +1058,7 @@
           "Indian Standard code-IS456",
           "E-learning content on L&T EduTech Platform"
         ],
-        "flags": [
-          "missing_credits",
-          "missing_sem",
-          "structure_mismatch"
-        ]
+        "flags": ["missing_credits", "missing_sem", "structure_mismatch"]
       },
       {
         "sem": null,
@@ -1231,10 +1070,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Drawing plan, section and elevation of various types of foundations",
           "types of doors and windows",
@@ -1251,9 +1087,7 @@
           "IS 800-2007, General construction of steel in code of practice, Bureau of Indian Standards, New Delhi",
           "SP-6 (Part I) 1964, Structural Steel Sections. Bureau of Indian Standards, New Delhi"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 7,
@@ -1265,10 +1099,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Detailing of singly and doubly reinforced rectangular beams",
           "Detailing of one way slabs",
@@ -1298,9 +1129,7 @@
         "code": "CIE 4291",
         "title": "INDUSTRIAL TRAINING",
         "credits": null,
-        "tags": [
-          "core"
-        ],
+        "tags": ["core"],
         "syllabus": [
           "Undergo industrial training for a minimum period of 4 weeks",
           "Submit training report in prescribed format",
@@ -1308,11 +1137,7 @@
           "Include certificates issued by the industry in the report"
         ],
         "references": [],
-        "flags": [
-          "missing_sem",
-          "missing_credits",
-          "structure_mismatch"
-        ]
+        "flags": ["missing_sem", "missing_credits", "structure_mismatch"]
       },
       {
         "sem": null,
@@ -1324,10 +1149,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "elective",
-          "lab"
-        ],
+        "tags": ["elective", "lab"],
         "syllabus": [
           "Project work carried out in institution/industry/research laboratory or any other competent institutions",
           "Duration of project work: minimum 16 weeks (extendable up to 24 weeks)",
@@ -1354,10 +1176,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Understanding structure of concrete - Macrostructure and Microstructure",
           "Understanding the role of various phases of concrete - mechanism of strength development and deformation characteristics of early and later age concrete",
@@ -1373,9 +1192,7 @@
           "Page, Chris L, and Mary M, Page, eds. The durability of concrete and cement composites, Elsevier, 2007",
           "Thomas, Michael, Supplementary cementing materials in concrete, CRC Press, 2013"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 4,
@@ -1387,10 +1204,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to National Building Code- scope and building requirements; fire and safety; design, and construction-wind and ear thquake safe designs",
           "general building services- design requirements",
@@ -1423,10 +1237,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to the concept of material management- classical v/s integrated approach",
           "selective inventory control-meaning and methods of inventory control",
@@ -1441,9 +1252,7 @@
           "Bhat Sridhara K, Total Quality Management, Himalaya Publication House, Mumbai, 2007",
           "Oakland John S TQM, Text with cases, Butterworth-Heinemann, Oxford, 2006"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1455,10 +1264,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to contracts-legal validity of a contract, features, classification, comparison",
           "Tendering process-documents, preparation, evaluation, award of contract, issues in tendering",
@@ -1474,9 +1280,7 @@
           "Albett Robert W, Engineering Contracts and Specifications, John Willey and Sons, New York, 1961",
           "Vaid K.N, Global perspective on International Construction Contracting Technology and Project Management, NICMAR, Mumbai, 1998"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "code": "CIE 4405",
@@ -1487,10 +1291,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "chemical reactions in atmosphere",
@@ -1512,9 +1313,7 @@
           "Sincero. A. P and Sincero G.A, Environmental Engineering, Prentice Hall, 1995",
           "Air Pollution - Sampling and Analysis \u2013 APHA, 1977"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1526,9 +1325,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction",
           "Industrial wastewater and environmental impacts",
@@ -1553,9 +1350,7 @@
           "Nelson, L Nemerrow, Industrial wastewater Pollution, Addison-Wesley Publishing Company, 2000.",
           "Mahajan S.P, Pollution Control in Process Industries, Tata McGraw Hill Publishing Company, 1998"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1567,10 +1362,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "classification",
@@ -1593,9 +1385,7 @@
           "Bhide and Sundaresan, Solid Waste Management in Developing Countries \u2013 Indian National Scientific Documentation Centre, New Delhi, 2000",
           "Ramachandra T.V, Management of Municipal Solid Waste, Commonwealth of Learning, Canada and Indian Institute of Science, Bangalore, 2006"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1607,10 +1397,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Watershed characteristics, watershed deterioration",
           "Management plan, People's participation",
@@ -1626,9 +1413,7 @@
           "Pau A. Debarry, Watersheds \u2013 Processes, Assessment and Management, John Wiley and Sons, 2004",
           "V. P. Singh and Donald K. Frevert, Watershed Models, Taylor & Francis, 2010"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1640,10 +1425,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction, types of dynamic problems, D'Alembert's principle, principle of virtual work",
           "Single Degree of Freedom Systems: Components of the system, un-damped and damped free vibrations, logarithmic decrement, Forced vibrations due to harmonic excitation \u2013 steady state and transient response, transmissibility, vibration isolation, evaluation of damping \u2013 half power band width method",
@@ -1660,9 +1442,7 @@
           "Clough and Penzien, Dynamics of structures, McGraw Hill publications, 1993",
           "Humar, J.C, Dynamics of structures, Prentice hall, N.J, 2002"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1674,10 +1454,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction, elements of plate girders with stiffeners",
           "Plate girder end panel design, plate girder bearing stiffener, load carrying stiffener and intermediate web stiffeners design, welded connections design",
@@ -1695,9 +1472,7 @@
           "SP-6 (Part I) Structural Steel Sections, Bureau of Indian Standards, New Delhi, 1964",
           "IS 801-1975, Code of practice for use of cold framed light gauge steel, Bureau of Indian Standards, New Delhi"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1709,10 +1484,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction, theory of elasticity, constitutive relationships, plane stress, and plane strain",
           "Concept of an element, displacement models, and shape functions for different types of elements",
@@ -1726,9 +1498,7 @@
           "Krishnamoorthy C.S, Finite Element Analysis, (2e), Tata McGraw Hill Publishing Company Ltd, New Delhi, 1987",
           "Bathe K.J, Finite Element Procedures in Engineering Analysis, (2e), Prentice Hall Engle Wood, Cliffs, New Jersey, 1997"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "code": "CIE 4412",
@@ -1739,10 +1509,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Bearing capacity - Brinch Hansen's, Meyerhoff's, Skempton's and Vesic's bearing capacity equations",
           "Piles subjected to lateral loads- Broms theory",
@@ -1760,9 +1527,7 @@
           "Swami Saran., Analysis and Design of Substructures, (2e), Oxford and IBH Publishers, 2015",
           "Srinivasalu P and Vaidyanathan C.V, Hand Book of Machine Foundations, Tata McGraw Hill, 1987"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1774,10 +1539,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Recent trends in transit",
           "Mass transportation characteristics",
@@ -1817,9 +1579,7 @@
           "Vuchic V.R, Urban Public Transportation System and Technology, Prentice Hall, 2007.",
           "Agarwal M.K, Urban Transportation in India, INAE, Allied Publishers Ltd, 1996."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1831,9 +1591,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Scope of the subject, system approach to transport planning, definition of study area, zoning and Types of Surveys",
           "Trip purpose, factors governing trip generation and attraction, analysis of trip generation and attraction \u2013 regression and category analysis",
@@ -1849,10 +1607,7 @@
           "M.J.Bruton, Introduction to Transportation Planning \u2013 Hutchinson, London Ltd, 1975",
           "B.G.Hutchinson, Introduction to Urban System Planning, Mc Gra Hill, 1974"
         ],
-        "flags": [
-          "missing_semester",
-          "uncertain_core_elective_tag"
-        ]
+        "flags": ["missing_semester", "uncertain_core_elective_tag"]
       },
       {
         "sem": null,
@@ -1864,10 +1619,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Design wheel load",
@@ -1911,10 +1663,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Traffic Engineering Studies- speed and delay study, traffic volume study, relation between speed, passenger car unit and level of service",
           "Traffic Flow Analysis- Lighthill and Whitham's theory, law of conservation of vehicles, bottleneck and Greenberg's extension of law of continuity",
@@ -1929,19 +1678,14 @@
           "Khanna S.K and Justo C.E.G, Highway Engineering, (10e), Nemchand and Bros., Roorkee, 2015",
           "Kadiyali L.R, Traffic Engineering and Transportation Planning, (5e), Khanna Publisher, New Delhi, 2000"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
         "code": "CIE 4417",
         "title": "FORMWORK ENGINEERING PRACTICES",
         "credits": null,
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Types of formwork",
           "Codes & standards",
@@ -1966,10 +1710,7 @@
           "IS1161:2014 Covers Steel Tubes for Structural Purposes",
           "Course content on LMS of L&T EduTech"
         ],
-        "flags": [
-          "missing_semester",
-          "missing_credits"
-        ]
+        "flags": ["missing_semester", "missing_credits"]
       },
       {
         "sem": null,
@@ -1981,10 +1722,7 @@
           "p": null,
           "c": 12
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Construction, design & case studies of boredcast in-situ pile",
           "drivencast in-situ pile",
@@ -2006,20 +1744,14 @@
           "M. Ramachandran, \u201cMetro Rail Projects in India\u201d - A Study in Project Planning\u201d 2011, Oxford University Press",
           "E-learning content on L&T EduTech Platform"
         ],
-        "flags": [
-          "missing_semester",
-          "missing_credits_breakdown"
-        ]
+        "flags": ["missing_semester", "missing_credits_breakdown"]
       },
       {
         "sem": null,
         "code": "CIE 4419",
         "title": "BUILDING INFORMATION MODELLING",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Evolution of BIM",
           "Introduction to BIM",
@@ -2035,19 +1767,14 @@
           "ISO19650 Building Information Modelling(BIM)",
           "L&TEduTechLMS"
         ],
-        "flags": [
-          "missing_credits",
-          "missing_semester"
-        ]
+        "flags": ["missing_credits", "missing_semester"]
       },
       {
         "sem": null,
         "code": "CIE 4420",
         "title": "SUSTAINABILITY PRACTICES IN DESIGN OF BUILDINGS",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Climatology",
           "Heat gain through building elements",
@@ -2058,24 +1785,15 @@
           "Green building rating system",
           "Web tools - Solar rooftop calculator and ECONIWAS"
         ],
-        "references": [
-          "Course content on LMS of L&TEduTech"
-        ],
-        "flags": [
-          "missing_sem",
-          "missing_credits",
-          "structure_mismatch"
-        ]
+        "references": ["Course content on LMS of L&TEduTech"],
+        "flags": ["missing_sem", "missing_credits", "structure_mismatch"]
       },
       {
         "sem": 4,
         "code": "CIE 4421",
         "title": "PRE-ENGINEERED BUILDINGS",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to PEB",
           "Materials used in PEB and its specifications",
@@ -2091,9 +1809,7 @@
           "IS800:2007,IS1893,IS875(Part1-5),SP6,NBC(Part1&2):2016",
           "Course content on LMSofL & TEduTech"
         ],
-        "flags": [
-          "missing_credits"
-        ]
+        "flags": ["missing_credits"]
       },
       {
         "sem": null,
@@ -2105,10 +1821,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Formwork Basics",
           "Various Types of Formwork-Vertical Applications",
@@ -2127,21 +1840,14 @@
           "Construction Planning, Equipment and Methods\" by Robert Peurifoy and Clifford J Schexnayder",
           "E-learning content on L&TEduTech Platform"
         ],
-        "flags": [
-          "missing_semester",
-          "missing_credits",
-          "structure_mismatch"
-        ]
+        "flags": ["missing_semester", "missing_credits", "structure_mismatch"]
       },
       {
         "sem": null,
         "code": "CIE 4423",
         "title": "INTEGRATED APPROACH TO BUILDING SERVICES",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Building Power Distribution & Schemes",
           "Power Distribution Transformer",
@@ -2164,22 +1870,14 @@
           "Storm Drainage System",
           "Extra Lowvoltage for infrastructure and its principles"
         ],
-        "references": [
-          "Course content on LMS of L&T EduTech"
-        ],
-        "flags": [
-          "missing_semester",
-          "missing_credits"
-        ]
+        "references": ["Course content on LMS of L&T EduTech"],
+        "flags": ["missing_semester", "missing_credits"]
       },
       {
         "code": "CIE 4424",
         "title": "CONCRETE BUILDING SYSTEMS DESIGN",
         "credits": null,
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "ISCodes and NBC",
           "Design Basis Report",
@@ -2196,10 +1894,7 @@
           "National Building Code Vol 1 and 2:2016",
           "L&T EduTech LMS"
         ],
-        "flags": [
-          "missing_sem",
-          "missing_credits"
-        ]
+        "flags": ["missing_sem", "missing_credits"]
       },
       {
         "sem": null,
@@ -2211,10 +1906,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction, classification, and importance",
           "Investigation for bridge, design discharge linear waterway, economical span, scour depth",
@@ -2234,9 +1926,7 @@
           "N.K.Raju, Design of bridges, Oxford and IBH Publishing Co. Pvt. Ltd, 2019",
           "Indian Road Congress Codes No.5, 6,18,21,24, Jamnagar House, Shah Jahan Road, New Delhi"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2248,10 +1938,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to coastal engineering",
           "Origin of coasts",
@@ -2280,9 +1967,7 @@
           "Coastal Engineering Manual (CEM), U.S.Army Corps of Engineer, Vicksburg, Miss, 2012.",
           "Brunn P., Port Engineering Gulf, publishing Company, 1981."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2294,10 +1979,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Natural disasters and their classification",
           "definition and scales of disaster",
@@ -2322,9 +2004,7 @@
           "Reiter, L (2001), Earthquake Hazard Analysis, Issues and Insights, Columbia University Press.",
           "G. Bankoff, G. Frerks, D. Hilhorst (eds.) (2003). Mapping Vulnerability: Disasters Development and People. ISBN ISBN 1-85383-964-7."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2336,10 +2016,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "elastic rebound theory of earthquake",
@@ -2362,9 +2039,7 @@
           "IS:1893 (part 1)- 2002, Criteria for earthquake resistant design of structures, Bureau of Indian Standards, New Delhi",
           "IS: 13920 \u2013 1993, Ductile detailing of reinforced concrete structures subjected to seismic forces- code of practice, Bureau of Indian Standards, New Delhi"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2376,10 +2051,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Physical Geology: Origin of Earth, Interior structure of Earth. Seismology, Plate Tectonics, Earthquakes. Tsunamis",
@@ -2399,9 +2071,7 @@
           "Mukherjee P.K., A text book of Geology, World Press, Kolkata 2003",
           "Venkata Reddy D., Engineering Geology for Civil Engineering, Oxford and IBH Publishing Co. Pvt. Ltd., New Delhi 1995"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "code": "CIE 4446",
@@ -2412,10 +2082,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "procedure of EIA in India",
@@ -2437,9 +2104,7 @@
           "Christopher Wood, Environmental Impact Assessment: A Comparative Review. Prentice Hall, New Jersey, 2003.",
           "Riki Therivel, Peter Morris,. Methods of Environmental Impact Assessment, Spon Press, London, 2001."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 4,
@@ -2451,10 +2116,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction",
           "classification and types of sanitation systems",
@@ -2478,9 +2140,7 @@
           "MoUD, Primary report on Fecal Sludge and Septage Management (FSSM), Ministry of Urban Development, New Delhi, 2014",
           "Rohilla S K, Luthra B, Bhatnagar A, Matto M and Bhonde U, Septage Management: A Practitioner's Guide, Centre for Science and Environment, New Delhi, 2017"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2492,10 +2152,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Geoenvironmental Problems",
@@ -2519,9 +2176,7 @@
           "Qian, X, Koerner, R.M, and Gray, D.H, Geotechnical Aspects of Landfill Design and Construction, Prentice Hall, 2002.",
           "Daniel, David E, Geotechnical Practice for Waste Disposal, Chapman and Hall, 1993."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2533,10 +2188,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to ground improvement techniques",
           "mechanical modification",
@@ -2552,9 +2204,7 @@
           "Purushotham Raj, Ground Improvement Techniques, Laxmi Publications, New Delhi, 2016",
           "Das B.M, Principles of Foundation Engineering, CENGAGE Learning, 2010"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2566,10 +2216,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fundamentals of Open Channel Flow",
           "Gradually Varied Flow",
@@ -2593,9 +2240,7 @@
           "Modi P.N. and Seth S.M, Hydraulics and Fluid Mechanics, Standard Book House, New Delhi, 2005",
           "Bansal R. K. Fluid Mechanics and Hydraulic Machines, Laxmi Publishers, New Delhi. 2010"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2607,10 +2252,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Importance and need of non-destructive testing",
           "Visual Inspection Technique: Introduction, tools, procedure of visual inspection, applications",
@@ -2630,9 +2272,7 @@
           "Christiane Maierhofer, Hans-Wolf Reinhardt and Gerd Dobmann, Non-Destructive Evaluation of Reinforced Concrete Structures, Vol. 1 & 2, 1st edition, Woodhead Publishing Limited, 2010",
           "V.M. Malhotra and N.J. Carino, Handbook On Non-destructive Testing of Concrete, 2nd, CRC Press, 2003"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2644,10 +2284,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Basic concepts of Remote sensing",
@@ -2671,9 +2308,7 @@
           "Sabins, F. F. Jr, \u201cRemote Sensing Principles and Image interpretation\u201d, W. H. Freeman & Co. 1978",
           "Allan Brimicombe, \u201cGIS Environmental Modeling and Engineering\u201d, Taylor & Francis, 2003"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2685,10 +2320,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction",
           "concept of reinforced soil",
@@ -2709,9 +2341,7 @@
           "G.V. Rao, P.K Banerjee, J.T. Shahu, G.V. Ramana., Geosynthetics - New Horizons, Asian Books Private Ltd, New Delhi, 2004",
           "Jones CJEP, Earth reinforcement and Soil structures, Thomas Telford Publishing, London, 1996"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2723,9 +2353,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction- purpose, forms, and factors",
           "Outgoings",
@@ -2745,10 +2373,7 @@
           "Jagadisa R, Structural Failures- Case Histories, Gcford and IBH Publishing Co. Ltd, New Delhi, 1995",
           "Raikar R.N, Diagnosis and Treatment of Structures in Distress, R & D Centre Structural Designers and Consultants Pvt. Ltd., Vashi, New Bombay, 1994"
         ],
-        "flags": [
-          "missing_semester",
-          "missing_year_in_reference_3"
-        ]
+        "flags": ["missing_semester", "missing_year_in_reference_3"]
       },
       {
         "sem": null,
@@ -2760,10 +2385,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Capability & requirements of multipurpose projects, steps involved in planning, common pitfalls",
           "Data collection importance, storage, retrieval; Extrapolation of data, Simulated data, Conjunctive-use management",
@@ -2780,19 +2402,14 @@
           "Simonovic, S.P. Managing water resources: Methods and tools for a systems approach, UNESCO publishing, France 2009",
           "Jain, S.K. and Singh V. P. Water Resources Systems Planning and Management, Elsevier 2003"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
         "code": "CIE 4456",
         "title": "BRIDGE ENGINEERING DESIGN & PRACTICES",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Design Loads on Bridges according to IRC code",
           "Grillage and Transverse Analysis using STAAD.Pro",
@@ -2810,20 +2427,14 @@
           "Relevant Indian Road Congress (IRC) codes and Ministry of Road Transport & Highway (MORT) Specifications",
           "Course content on LMS of L&T EduTech"
         ],
-        "flags": [
-          "missing_semester",
-          "missing_credits"
-        ]
+        "flags": ["missing_semester", "missing_credits"]
       },
       {
         "sem": null,
         "code": "CIE 4457",
         "title": "GEOSPATIAL TECHNIQUES IN PRACTICE",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Geospatial technology Survey & mapping",
           "Sensors & scanners",
@@ -2835,14 +2446,8 @@
           "Decision support systems",
           "Future trends"
         ],
-        "references": [
-          "L&TEduTech",
-          "LMS"
-        ],
-        "flags": [
-          "missing_semester",
-          "missing_credits"
-        ]
+        "references": ["L&TEduTech", "LMS"],
+        "flags": ["missing_semester", "missing_credits"]
       },
       {
         "sem": null,
@@ -2854,10 +2459,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Project management fundamentals & methodology",
           "Emerging trends",
@@ -2874,10 +2476,7 @@
           "Project management institute, Guide to the Project Management Body of Knowledge (PMBOK\u00ae Guide), seventh edition/2022",
           "Course content on LMS of L&T EduTech"
         ],
-        "flags": [
-          "missing_credits",
-          "missing_semester"
-        ]
+        "flags": ["missing_credits", "missing_semester"]
       },
       {
         "sem": null,
@@ -2889,10 +2488,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "sources and classification of pollutants",
@@ -2919,23 +2515,44 @@
           "Sincero. A. P and Sincero G.A, Environmental Engineering, Prentice Hall, 1995",
           "Air Pollution - Sampling and Analysis \u2013 APHA, 1977"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "code": "CIE 4312",
-        "title": "Extraction Failed",
+        "title": "CONTRACT MANAGEMENT FOR ENGINEERS",
         "sem": null,
-        "credits": null,
-        "tags": [
-          "error"
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": ["core", "theory"],
+        "syllabus": [
+          "Introduction to contracts",
+          "Types of contracts",
+          "Tendering process",
+          "Dispute resolution",
+          "Conciliation",
+          "International contracts / contracts with international funding",
+          "International Competitive Bidding",
+          "Domestic Preference",
+          "FIDIC Documents and Conditions",
+          "Currency of Bid and Payment",
+          "Escalation in Foreign Currency",
+          "Financing of projects",
+          "Applicable Law and Settlement of Disputes",
+          "International Arbitration"
         ],
-        "syllabus": [],
-        "references": [],
-        "flags": [
-          "extraction_failed"
-        ]
+        "references": [
+          "Prakash V. A., Contracts Management in Civil Engineering Projects, NICMAR 1997",
+          "Patil B. S., Civil Engineering Contracts and Estimates, University Press 2009",
+          "John G. Betty, Engineering Contracts, McGraw Hills 1993",
+          "Vasavada B. J., Engineering Contracts and Arbitration, 1997",
+          "Albett Robert W., Engineering Contracts and Specifications, John Wiley and Sons, New York, 1961",
+          "Vaid K. N., Global perspective on International Construction Contracting Technology & Project Management, NICMAR, Mumbai, 1998"
+        ],
+        "flags": []
       },
       {
         "sem": null,
@@ -2947,9 +2564,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction",
           "sustainability and sustainable development",
@@ -2970,9 +2585,7 @@
           "Chanlett, Environmental Protection, McGraw Hill Publication, New York, 1973",
           "Environmental Laws-MOEF, Government of India"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2984,10 +2597,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Physical Geology: Origin of Earth, Interior structure of Earth, Seismology, Plate Tectonics, Earthquakes, Tsunamis",
@@ -3007,9 +2617,7 @@
           "Mukherjee P.K., A text book of Geology, World Press, Kolkata 2003",
           "Venkata Reddy D., Engineering Geology for Civil Engineering, Oxford and IBH Publishing Co. Pvt. Ltd., New Delhi 1995"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -3021,9 +2629,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction",
           "Basic concepts and physics of remote sensing",
@@ -3046,9 +2652,7 @@
           "Sabins, F. F. Jr, \u201cRemote Sensing Principles and Image interpretation\u201d, W. H. Freeman & Co. 1978",
           "Allan Brimicombe, \u201cGIS Environmental Modeling and Engineering\u201d, Taylor & Francis, 2003"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -3060,10 +2664,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction.",
           "Shear Force and Bending Moment in Beams.",
@@ -3081,9 +2682,7 @@
           "Bansal R.K, A Textbook of Strength of Materials, Laxmi Publications, 2014.",
           "Rattan S.S, Strength of Materials, McGraw Hill Education (India) Pvt. Ltd., 2013."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       }
     ]
   }

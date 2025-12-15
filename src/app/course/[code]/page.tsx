@@ -39,10 +39,10 @@ export default async function CoursePage({ params }: Props) {
         <div className="min-h-screen bg-background text-foreground font-sans selection:bg-accent selection:text-accent-foreground">
 
             {/* Navigation */}
-            <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-6 bg-background/80 backdrop-blur-sm border-b border-border/50">
+            <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-4 sm:p-6 bg-background/80 backdrop-blur-sm border-b border-border/50">
                 <Link href="/" className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors group">
                     <MoveLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-                    <span className="font-mono text-sm">Back to Search</span>
+                    <span className="font-mono text-xs sm:text-sm">Back to Search</span>
                 </Link>
                 <div className="flex items-center gap-2">
                     <ModeToggle />
@@ -53,16 +53,16 @@ export default async function CoursePage({ params }: Props) {
             </nav>
 
             {/* Main Content */}
-            <main className="pt-24 pb-12 px-6 max-w-4xl mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-10 duration-500">
+            <main className="pt-20 sm:pt-24 pb-8 sm:pb-12 px-4 sm:px-6 max-w-4xl mx-auto space-y-6 sm:space-y-8 animate-in fade-in slide-in-from-bottom-10 duration-500">
 
                 {/* Header */}
                 <header className="space-y-4">
-                    <div className="flex flex-wrap gap-2 items-center">
-                        <Badge variant="outline" className="font-mono text-xs uppercase tracking-wider text-muted-foreground border-accent-foreground/20">
+                    <div className="flex flex-wrap gap-2 items-center max-w-full">
+                        <Badge variant="outline" className="font-mono text-xs uppercase tracking-wider text-muted-foreground border-accent-foreground/20 max-w-[200px] sm:max-w-none">
                             {course.department}
                         </Badge>
                         {course.tags?.map(tag => (
-                            <Badge key={tag} variant="secondary" className="font-mono text-xs">
+                            <Badge key={tag} variant="secondary" className="font-mono text-xs max-w-[150px] sm:max-w-[200px]">
                                 {tag}
                             </Badge>
                         ))}
@@ -73,7 +73,7 @@ export default async function CoursePage({ params }: Props) {
                         )}
                     </div>
 
-                    <h1 className="text-3xl sm:text-5xl font-bold tracking-tight text-foreground leading-tight">
+                    <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold tracking-tight text-foreground leading-tight">
                         {course.title}
                     </h1>
                     <div className="flex items-center gap-4 text-lg font-mono text-muted-foreground">
@@ -131,7 +131,7 @@ export default async function CoursePage({ params }: Props) {
                                 <CardTitle className="text-sm font-mono uppercase tracking-widest text-muted-foreground">Credits Structure</CardTitle>
                             </CardHeader>
                             <CardContent className="p-0">
-                                <div className="grid grid-cols-4 divide-x divide-border/50">
+                                <div className="grid grid-cols-2 sm:grid-cols-4 divide-x divide-y sm:divide-y-0 divide-border/50">
                                     <CreditItem label="Lecture" value={course.credits?.l || 0} />
                                     <CreditItem label="Tutorial" value={course.credits?.t || 0} />
                                     <CreditItem label="Practical" value={course.credits?.p || 0} />
@@ -151,11 +151,11 @@ export default async function CoursePage({ params }: Props) {
 
 function CreditItem({ label, value, isTotal }: { label: string, value: number, isTotal?: boolean }) {
     return (
-        <div className={`flex flex-col items-center justify-center p-4 transition-colors ${isTotal ? 'bg-accent/10' : 'hover:bg-muted/30'}`}>
-            <span className={`text-3xl font-bold font-mono tracking-tighter ${isTotal ? 'text-accent-foreground' : 'text-foreground'}`}>
+        <div className={`flex flex-col items-center justify-center p-3 sm:p-4 transition-colors ${isTotal ? 'bg-accent/10' : 'hover:bg-muted/30'}`}>
+            <span className={`text-2xl sm:text-3xl font-bold font-mono tracking-tighter ${isTotal ? 'text-accent-foreground' : 'text-foreground'}`}>
                 {value}
             </span>
-            <span className="text-[10px] uppercase tracking-widest text-muted-foreground mt-2 font-medium">
+            <span className="text-[9px] sm:text-[10px] uppercase tracking-widest text-muted-foreground mt-1 sm:mt-2 font-medium">
                 {label}
             </span>
         </div>

@@ -12,10 +12,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Linear Algebra: Systems of Linear Equations, Matrices, Solving Systems of Linear Equations, Vector Spaces, Linear Independence, Basis and Rank, Linear Mappings, Affine Spaces",
           "Analytic Geometry: Norms, Inner Products, Lengths and Distances, Angles and Orthogonality, Orthonormal Basis, Orthogonal Complement, Inner Product of Functions, Orthogonal Projections, Rotations",
@@ -44,10 +41,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Skeletal System: Types of bone, classification, Structure of bone, Blood supply",
           "Cartilage: Type, Structure in brief",
@@ -89,10 +83,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Field Effect transistors: JFET and MOSFETs, biasing of field effect transistors, JFET and MOSFET small signal amplifiers, and oscillators",
           "Operational amplifiers: characteristics, differential amplifiers, offset voltages and currents, linear applications of Op-Amps, Instrumentation amplifier, active filters, integrators and differentiators",
@@ -120,10 +111,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Combinational logic circuits: Overview of Algebraic simplification of Boolean expressions and realization using logic gates, minimization using Karnaugh map, Combinational circuit design using MSI chips: Multiplexers, demultiplexers, encoders, decoders, Arithmetic circuits: Half adder, full adder, adder-subtractor, ripple carry and carry look ahead adders, ALU",
           "Sequential logic circuits: Overview of flipflops; Counters and Shift registers",
@@ -152,10 +140,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Network equations: (Basic concepts of Network), Coupled circuits",
           "Resonant circuits, Property of duality in networks",
@@ -186,10 +171,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to signals",
           "Representations of continuous and discrete-time signals",
@@ -226,10 +208,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Programming in Python",
           "Variables, expressions and statements",
@@ -246,9 +225,7 @@
           "Hans-Petter Halvorsen. Python for science and engineering. Hans-Petter Halvorsen \u2013 a Blog about Technology, 2019, https://www.halvorsen.blog/",
           "Sinan Kalkan, Onur Tolga Sehitoglu, and Gokturk Ucoluk. Programming with Python for Engineers. 2021, https://ceng240.github.io/"
         ],
-        "flags": [
-          "c_credits_less_than_p"
-        ]
+        "flags": ["c_credits_less_than_p"]
       },
       {
         "sem": 4,
@@ -260,10 +237,7 @@
           "p": 6,
           "c": 2
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Analog electronics: To conduct experiments related to the characteristics of FET and MOSFETs. FET amplifiers",
           "Oscillators \u2013 RC Phase shift, Wein Bridge, Hartley and Colpitts Oscillators",
@@ -281,9 +255,7 @@
           "Morris Mano, \u201cDigital Logic and Computer Design\u201d, Pearson education, 2016",
           "Ramakanth A Gayakwad, \u201cOp Amps and Linear Integrated Circuits\u201d, Prentice Hall, Edition 4, 2000"
         ],
-        "flags": [
-          "semester_mismatch"
-        ]
+        "flags": ["semester_mismatch"]
       },
       {
         "sem": 3,
@@ -295,10 +267,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Probability and Distributions: Construction of a Probability Space, Discrete and Continuous Probabilities, Sum Rule, Product Rule, and Bayes' Theorem, Summary Statistics and Independence, Distributions: Binomial, Poisson, uniform, normal, Chi-square and exponential distributions",
           "Multivariate Random variables and Stochastic Process: Two and higher dimensional random variables, covariance, correlation coefficient, Moment generating function, functions of one dimensional and two-dimensional random variables",
@@ -317,9 +286,7 @@
           "E. S. Page, L. B. Wilson, An Introduction to Computational Combinatorics, Cambridge University Press",
           "Bhat U R, Elements of Applied Stochastic Processes, John Wiley"
         ],
-        "flags": [
-          "semester_mismatch_possible"
-        ]
+        "flags": ["semester_mismatch_possible"]
       },
       {
         "sem": 3,
@@ -331,10 +298,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "CARDIOLOGY: Heart structure and function \u2013 overview, Details of cardiovascular physiology \u2013 blood flow (circulation), Detail anatomy of human heart, principles of cardiovascular measurements-blood pressure, cardiac output, etc. Heart valves, Prosthetic heart valves \u2013 evolution, detail structure, functions and applications, Open heart surgery and Heart lung machines, Basics of 12-lead Electrocardiography \u2013 Einthoven's triangle, ECG potentials \u2013 generation and conduction, conduction system, Applications of ECG in cardiac clinics, Normal and abnormal ECGs, Diagnostic applications, Interpretation of ECG, Cardiac pacing. Assisted cardiac devices-concepts and applications from biomedical engineering perspective, Holter monitor. Cardiac Interventional hardware (Guide wires,catheters,stents)",
           "ANAESTHESIOLOGY: Overview of basic physical principles and applications in anaesthesia and intensive care, general and regional anaesthetic techniques, anaesthesia machine, medical gas supply systems, intravenous drug delivery systems, principles of equipment used in pain therapy, mechanical ventilation, humidifiers, Baby Incubators, Central oxygen supply, Principles of operation theatre tables and lights, phototherapy, surgical diathermy",
@@ -364,10 +328,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Biomedical transducers: Classification and Selection",
           "Pressure Transducers: Resistive, capacitive, Inductive & Piezo-electric transducers, Photoelectric transducers & its types; Thermal transducers & its types",
@@ -399,10 +360,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Bio-fluid mechanics: Viscosity, classification of fluids, blood rheology, fundamental method for measuring viscosity, rheology of blood in micro-vessels, mechanical model of cardiovascular system, relationship among blood velocity, blood pressure and blood vessel diameter in the vascular tree, resistance against blood flow, types of blood flow, prosthesis-related complications attributable to valve fluid dynamics",
           "Mechanics of breathing, physical aspects of alveoli, diffusion, airway resistance",
@@ -428,10 +386,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to the Microprocessor and microcontrollers",
           "Microcontroller architectures. CISC Microcontroller- The Intel 8051 Microcontroller: Hardware architecture and software architecture, Programming",
@@ -456,10 +411,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Discrete time signal and systems",
           "Z Transform: Definition and properties",
@@ -491,9 +443,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Signal Processing in MATLAB",
           "Introduction",
@@ -521,10 +471,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab",
-          "core"
-        ],
+        "tags": ["lab", "core"],
         "syllabus": [
           "Familiarization of the 8051 microcontroller Simulation tool and trainer kits, and experiments based on the 8051 microcontrollers",
           "Familiarization of ARM programming tools and ARM kits and experiments based on ARM Cortex-M3 Microcontroller",
@@ -535,9 +482,7 @@
           "Muhammad Ali Mazidi, Janice Gillispie Mazidi, \u201c8051 Microcontroller and Embedded System Using Assembly and C\u201d, 2nd Edition, Pearson Education, New Delhi, 2013",
           "Joseph Yiu, \u201cThe definitive Guide to the ARM Cortex-M3\u201d, 2nd Edition, Elsevier, 2010"
         ],
-        "flags": [
-          "semester_mismatch"
-        ]
+        "flags": ["semester_mismatch"]
       },
       {
         "sem": 3,
@@ -549,10 +494,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Nature and significance",
           "Micro & macro differences",
@@ -604,16 +546,8 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
-        "syllabus": [
-          "RADIOTHERAPY",
-          "RADIOLOGY",
-          "NEUROLOGY",
-          "OPHTHALMOLOGY"
-        ],
+        "tags": ["core", "theory"],
+        "syllabus": ["RADIOTHERAPY", "RADIOLOGY", "NEUROLOGY", "OPHTHALMOLOGY"],
         "references": [
           "Meredith W J, Massey J B, Fundamental Physics of Radiology, John Wright, Edition 3, 1977.",
           "Johns H E, Cunningham John Robert, The Physics of Radiology, Charle C Thomas, Edition 4, 1983.",
@@ -627,9 +561,7 @@
           "Tandon, Radhika, Parson Diseases of the Eye, Elsevier, Edition 21, 2010.",
           "Duke Elder, System of Ophthalmology, Vol. VII, Mosby, St. Louis, 1965."
         ],
-        "flags": [
-          "structure_mismatch"
-        ]
+        "flags": ["structure_mismatch"]
       },
       {
         "sem": 3,
@@ -641,10 +573,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Respiratory measurements and aids: Principle of Impedance",
           "Pneumography & Pneumotachograph; Ventilators, Impulse",
@@ -672,10 +601,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Bio-materials: definition of biomaterials, requirements and its uses, classification of biomaterials, performance of biomaterials",
           "Types of biomaterials: Metallic Biomaterials- introduction, types - Stainless steel, Co-Cr alloys, Ti alloys, dental metals and other metals, corrosion behavior. Ceramic Biomaterials: introduction, Classification - Non-absorbable or relatively bioinert bio ceramics, Biodegradable or Resorbable ceramics, Bioactive or surface reactive ceramics. Polymeric Biomaterials: introduction, polymerization and its types, basic structure, classification solid state properties, discussion on different class of synthetic non-degradable polymers Biodegradable Polymeric Biomaterials, Biologic Biomaterials: Tissue Derived Biomaterials; Composite Biomaterials: introduction, structure, types, properties and applications",
@@ -701,10 +627,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Preparation of hydroxyapatite bio ceramic particles",
           "Characterization of hydroxyapatite particles by X-ray powder diffraction (XRD)",
@@ -733,9 +656,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Design and realize bioelectric amplifier, filters for biomedical applications, Pacemaker circuit",
           "Study the characteristics of thermal transducers- RTD, Thermocouple",
@@ -751,9 +672,7 @@
           "John G Webster, \u201cMedical Instrumentation Applications and Design\u201d, John Wiley and Sons, New York, 3rd Edition, 2011",
           "Richard Aston, \u201cPrinciples of biomedical Instrumentation and measurement\u201d, Merrill, New York, 1991"
         ],
-        "flags": [
-          "semester_mismatch"
-        ]
+        "flags": ["semester_mismatch"]
       },
       {
         "sem": 3,
@@ -765,10 +684,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Definition of management and systems approach, Nature & scope",
           "The functions of managers",
@@ -802,10 +718,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Review of signals, systems & transforms; 2D signals & systems, 2D DFT and its computation",
           "Image perception \u2013 the human vision system, psycho-visual experiments, monochrome vision model, temporal properties",
@@ -831,9 +744,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Signal Processing in MATLAB",
           "Introduction",
@@ -860,10 +771,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Image Processing in Python",
           "Introduction",
@@ -891,10 +799,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "neuron models and basic learning rules",
           "Pattern and data",
@@ -947,10 +852,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basic properties of cells",
           "Different classes of cells",
@@ -991,10 +893,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basic Concepts-Supervised Learning, Discriminative Algorithms",
           "Supervised learning setup, LMS, Linear Algebra, Logistic regression, Perceptron",
@@ -1022,10 +921,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Atomic structure and interatomic bonding",
           "Metals",
@@ -1060,19 +956,14 @@
           "Dekker A.J., Solid state physics, Macmillan publishers India, 2012",
           "James F. Shackelford, Introduction to Materials Science for Engineers, 8th edition, Pearson, 2014"
         ],
-        "flags": [
-          "semester_mismatch",
-          "department_context_mismatch"
-        ]
+        "flags": ["semester_mismatch", "department_context_mismatch"]
       },
       {
         "sem": 3,
         "code": "BME 4291",
         "title": "INDUSTRIAL TRAINING",
         "credits": null,
-        "tags": [
-          "core"
-        ],
+        "tags": ["core"],
         "syllabus": [
           "Undergo industrial training for a minimum period of 4 weeks",
           "Training may be taken in a phased manner during the vacation starting from the end of third semester",
@@ -1081,20 +972,14 @@
           "Report must include certificates issued by the industry"
         ],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BME 4292",
         "title": "PROJECT WORK/PRACTICE SCHOOL",
         "credits": null,
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Project work carried out in institution/industry/research laboratory or other competent institutions",
           "Duration of project work: minimum 16 weeks (extendable up to 24 weeks)",
@@ -1104,10 +989,7 @@
           "Student presentation on project work before department committee as part of evaluation"
         ],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_references"]
       },
       {
         "sem": 3,
@@ -1119,10 +1001,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction nanotechnology: Nanomaterials - classifications, synthesis methods, nanostructured system by self-assembly, biomimetic and biomolecular recognition assembly, surface functionalization of nanoparticles, nanocomposites",
           "Characterization tools for nanomaterials and Nano systems - structural and chemical characterization techniques",
@@ -1135,19 +1014,14 @@
           "Nanotechnology safety concerns"
         ],
         "references": [],
-        "flags": [
-          "missing_references",
-          "semester_inconsistency"
-        ]
+        "flags": ["missing_references", "semester_inconsistency"]
       },
       {
         "sem": 3,
         "code": "BME 4291",
         "title": "INDUSTRIAL TRAINING",
         "credits": null,
-        "tags": [
-          "core"
-        ],
+        "tags": ["core"],
         "syllabus": [
           "Undergo industrial training for a minimum period of 4 weeks",
           "Submit training report in prescribed format to the department",
@@ -1155,18 +1029,14 @@
           "Include certificates issued by the industry in the report"
         ],
         "references": [],
-        "flags": [
-          "missing_credits"
-        ]
+        "flags": ["missing_credits"]
       },
       {
         "sem": 3,
         "code": "BME 4292",
         "title": "PROJECT WORK/PRACTICE SCHOOL",
         "credits": null,
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Project work carried out in institution/industry/research laboratory or any other competent institutions",
           "Minimum duration of 16 weeks, extendable up to 24 weeks",
@@ -1176,10 +1046,7 @@
           "Presentation before department committee as part of project evaluation"
         ],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "structure_mismatch"
-        ]
+        "flags": ["missing_credits", "structure_mismatch"]
       },
       {
         "sem": 3,
@@ -1191,10 +1058,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction nanotechnology: Nanomaterials- classifications, synthesis methods, nanostructured system by self-assembly, biomimetic and biomolecular recognition assembly, surface functionalization of nanoparticles, nanocomposites",
           "Characterization tools for nanomaterials and Nano systems- structural and chemical characterization techniques",
@@ -1227,10 +1091,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Physical and chemical characterization of Biomaterials: optical microscopy, UV-Vis spectroscopy, fluorescence spectroscopy, transmission electron microscope (TEM), scanning electron microscope (SEM), scanning tunneling microscope (STM), atomic force microscope (AFM), X-ray diffraction (XRD), Fourier-transform infrared spectroscopy (FT-IR), dynamic light scattering (DLS), contact angle, gas adsorption, mass spectroscopy, chromatography",
           "Thermal characterization of biomaterials: thermogravimetric analysis (TGA), differential thermal analysis (DTA), differential scanning calorimetry (DSC)",
@@ -1245,10 +1106,7 @@
           "M. Jaffe, W. Hammond, P. Tolias, T. Arinzeh, Characterization of Biomaterials, Elsevier, 2012",
           "Crankovic GM. ASM Handbook, Volume 10: Materials Characterization. ASM International; 1986"
         ],
-        "flags": [
-          "typo_in_title",
-          "semester_inconsistent"
-        ]
+        "flags": ["typo_in_title", "semester_inconsistent"]
       },
       {
         "sem": 4,
@@ -1260,10 +1118,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Biomaterials: polymers",
           "bio inks",
@@ -1322,10 +1177,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Drug delivery system: overview, dosage form-tablet, capsule, parenteral etc. classification of drug delivery system",
           "Chemically controlled system, diffusion-controlled system",
@@ -1361,10 +1213,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basics of Artificial Intelligence (AI), Healthcare IT and the Growing Need for AI Operations",
           "AI Healthcare Operations (Clinical): Clinical Impact of AIOps, Design and Innovation, AIOps for Healthcare Delivery, Clinical AI, AIOps. Deploying AI in practice",
@@ -1378,9 +1227,7 @@
           "Arjun Panesar, Machine learning & AI for healthcare, 1st Edition, Apress, 2019",
           "Ankur Saxena, Shivani Chandra, Artificial intelligence and machine learning in healthcare, 2021"
         ],
-        "flags": [
-          "semester_discrepancy"
-        ]
+        "flags": ["semester_discrepancy"]
       },
       {
         "sem": 3,
@@ -1392,10 +1239,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Review of Probability theory, random variables and stochastic processes",
           "Spectral estimation techniques",
@@ -1411,9 +1255,7 @@
           "M. Akay, \u201cBiomedical signal processing\u201d, Academic press, 1994",
           "Rangaraj M Rangayyan, \u201cBiomedical Signal Analysis\u201d, John Wiley and Sons, Illustrated edition, 2015"
         ],
-        "flags": [
-          "semester_inferred_from_context"
-        ]
+        "flags": ["semester_inferred_from_context"]
       },
       {
         "sem": 3,
@@ -1425,10 +1267,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Computer-based Clinical Decision Support: Overview, Status, and Challenges",
           "Features of CDSS",
@@ -1473,10 +1312,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Review of signals, systems & transforms",
           "2D signals & systems",
@@ -1512,9 +1348,7 @@
           "Barbara S. Hertzberg, William D. Middleton, Ultrasound: The Requisites, EBook (Requisites in Radiology), 2015.",
           "HH Schild, \u201cMRI made easy\u201d, Schering AG, Berlin, 1990."
         ],
-        "flags": [
-          "semester_mismatch"
-        ]
+        "flags": ["semester_mismatch"]
       },
       {
         "sem": 3,
@@ -1526,10 +1360,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Summarizing Quantitative Data",
@@ -1561,9 +1392,7 @@
           "Motulsky, H., Intuitive Biostatistics: A nonmathematical guide to statistical thinking, 3rd Edition, Oxford University Press, New York, 2014",
           "Utts, J and Heckard, R., Mind on statistics, 5th Edition, Cengage Learning, USA"
         ],
-        "flags": [
-          "semester_mismatch"
-        ]
+        "flags": ["semester_mismatch"]
       },
       {
         "sem": 3,
@@ -1575,10 +1404,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fundamental physical knowledge and electrostatic and magnetic field equations",
           "Fundamentals of bio electromagnetism",
@@ -1635,10 +1461,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basic image operations",
           "Interpolation",
@@ -1687,9 +1510,7 @@
           "Duda, Richard, Peter Hart, and David Stork. Pattern Classification. 2nd Edition, New York, NY: Wiley-Interscience, 2007",
           "Rafael C. Gonzalez, Richard Eugene Woods, Digital Image Processing using MATLAB, 2nd Edition, Tata McGraw-Hill Education, 2010"
         ],
-        "flags": [
-          "semester_inferred_from_context"
-        ]
+        "flags": ["semester_inferred_from_context"]
       },
       {
         "sem": 3,
@@ -1701,10 +1522,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Embedded systems, processor and memory organization",
           "Devices, Serial & Parallel buses for device networks",
@@ -1733,10 +1551,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory",
-          "elective"
-        ],
+        "tags": ["theory", "elective"],
         "syllabus": [
           "Introduction to Fuzzy Sets and Fuzzy Logic",
           "Membership functions",
@@ -1761,10 +1576,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: ABC of Hospital Administration, Principles of Management",
           "Human Resources: Motivation, Time Management, Leadership and Supervision, Nursing Services, Effective Communication, Conflicts, Monitoring and Control, Public Relations, Medical Social Service department, Professional Hazards",
@@ -1784,9 +1596,7 @@
           "S L Goel, R Kumar, Hospital Administration and Management, Vol 1,2,3, Deep & Deep.",
           "Humble John W, Management By Objectives in Action, McGraw Hill, 1970."
         ],
-        "flags": [
-          "course_code_suggests_higher_semester"
-        ]
+        "flags": ["course_code_suggests_higher_semester"]
       },
       {
         "sem": 3,
@@ -1798,10 +1608,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Pattern Recognition (PR) system",
           "Application domains",
@@ -1826,9 +1633,7 @@
           "Sara Moein, \u201cMedical Diagnosis Using Artificial Neural Networks\u201d, IGI Publications, USA,2014",
           "Volker Schmid Anke Meyer-BaeseSchmid Meyer-Baese \u201cPattern Recognition and Signal Analysis in Medical Imaging\u201d, 2nd Edition, Academic Press, 2014"
         ],
-        "flags": [
-          "semester_mismatch"
-        ]
+        "flags": ["semester_mismatch"]
       },
       {
         "sem": 3,
@@ -1840,10 +1645,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to physiological modeling: Introduction; Multi-scale organization of living organisms: cell to organ Homeostasis",
           "Examples of physiological control systems",
@@ -1874,10 +1676,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Familiarity with the operation/working principles of various prosthesis used in neural and urological applications",
           "Soft Tissue Replacements: Cardiac Anatomy and Pathophysiology, mechanical and bioprosthetic heart valves, Artificial heart and cardiac assist devices, vascular prosthesis: stent grafts",
@@ -1905,10 +1704,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to rehabilitation engineering in general",
           "Need and importance of rehabilitation engineering",
@@ -1949,9 +1745,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "History of Telemedicine, Block diagram of telemedicine system, origin and development of Telemedicine, Benefits and limitations of Telemedicine",
           "Data & Signal, transmission impairments & channel capacity, Guided & Unguided transmission media, transmission of digital signal and analog signal",
@@ -1987,10 +1781,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: Basic definition, Structural and organization of tissues: epithelial, connective tissues",
           "Sterilization Process: Introduction, different sterilization methods: physical, chemicals; applications",
@@ -2025,10 +1816,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Definition and goals of Extended Reality, historical perspective, different applications of VR (news, sports, entertainment, surgery, training etc.)",
           "Psychology of VR: Place illusion, plausibility illusion, embodiment illusion",
@@ -2055,10 +1843,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Biomedical transducers: Classification and Selection",
           "Pressure Transducers: Resistive, capacitive, Inductive transducers & Piezo-electric, Photoelectric transducers & its types",
@@ -2078,9 +1863,7 @@
           "Richard Aston, \u201cPrinciples of biomedical Instrumentation and measurement\u201d, Merrill, New York, 1991",
           "Joseph J Carr, John M Brown, \u201cIntroduction to Biomedical Equipment technology\u201d, Prentice Hall, New Jersey, 4th Edition, 2003"
         ],
-        "flags": [
-          "semester_mismatch"
-        ]
+        "flags": ["semester_mismatch"]
       },
       {
         "sem": 3,
@@ -2092,10 +1875,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basic terminology",
           "Anatomical movement descriptors",
@@ -2155,10 +1935,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to rehabilitation engineering and assistive technology: principles, engineering concepts in sensory rehabilitation, motor rehabilitation and communication disorders",
           "Orthopedic prosthetics & orthosis in rehabilitation technology: fundamentals of design of upper and lower extremity prosthetic and orthotic devices, applications",
@@ -2186,10 +1963,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Structure, properties and performance of materials: nature of materials, molecular assembly; bulk properties; surface properties; elasticity and viscoelasticity",
           "Classes of materials used in medicine: versatility of materials, Polymers \u2013synthetic, natural, Metal, Ceramics, Composites, Hydrogels, medical fibers, porous materials, biomimetic materials",
@@ -2218,10 +1992,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction nanotechnology: Nanomaterials - classifications, synthesis methods, surface functionalization of nanoparticles, nanocomposites",
           "Properties of nanomaterials: mechanical properties, optical properties, magnetic properties",
@@ -2252,9 +2023,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "fundamental concepts in nanotechnology",
           "fundamental concepts in cell, molecular and tissue biology",
@@ -2290,57 +2059,37 @@
         "code": "BIO 4401",
         "title": "Bioremediation",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4402",
         "title": "Biological Treatment of Wastewater",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4403",
         "title": "Biofuels Engineering",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4404",
         "title": "Solid Waste Management",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -2360,9 +2109,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -2377,65 +2124,40 @@
         "code": "BIO 4406",
         "title": "Biopharmaceutical Engineering",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4407",
         "title": "Biological Therapeutics",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4408",
         "title": "Molecular Modeling & Drug Design",
         "credits": null,
-        "tags": [
-          "elective"
-        ],
+        "tags": ["elective"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4441",
         "title": "BIOPROCESS CONTROL",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
@@ -2447,25 +2169,17 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4443",
         "title": "BIOPROCESS MODELLING AND SIMULATION IN BIOTECHNOLOGY",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -2480,153 +2194,97 @@
         "code": "BIO 4444",
         "title": "Biostatics and Design of Experiments",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4445",
         "title": "Computational Biology",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4446",
         "title": "Food process Engineering and Technology",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4447",
         "title": "Genomics and Proteomics",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4448",
         "title": "Health Diagnostics",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4449",
         "title": "Metabolic Engineering",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4450",
         "title": "Protein Engineering",
         "credits": null,
-        "tags": [
-          "elective"
-        ],
+        "tags": ["elective"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4311",
         "title": "Introduction to Bioinformatics",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4312",
         "title": "Body, Mind, and Medicine",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
         "code": "BIO 4313",
         "title": "Bioinspired Design for Engineers",
         "credits": null,
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
         "flags": [
@@ -2646,10 +2304,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Periodic Functions, odd and even functions, Euler's formulae",
           "Half range expansions, Harmonic analysis",
@@ -2686,10 +2341,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Biochemistry, Scope, and objectives",
           "Carbohydrates: Classification, general properties in reference to glucose, cyclic structure mutarotation, biological importance of monosaccharides, disaccharides and polysaccharides, interconversion of sugars",
@@ -2714,10 +2366,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Microbiology, Scope and objectives",
           "Microbial diversity and taxonomy: Prokaryotes and Eukaryotes, Types of Microorganisms, Bacteria, Viruses, Fungi, Protozoans & Helminthes",
@@ -2743,10 +2392,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to cells: Cell organelles, Membrane structure, Visualizing cells by fluorescence microscopy",
           "Cytoskeleton: Structure of cytoskeletal filaments, Assembly of tubulin and actin subunits to create polar filaments",
@@ -2783,10 +2429,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Review of fluid statics, fluid dynamics",
           "Types of flow; Newtonian and non-Newtonian fluids",
@@ -2815,10 +2458,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Bioprocess Development: An Interdisciplinary Challenge",
           "Biotechnology and Bioprocess Engineering",
@@ -2853,9 +2493,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Qualitative and quantitative analysis of biomolecules (carbohydrates, proteins, lipids, nucleic acids)",
           "Estimation of carbohydrates by Osazone test",
@@ -2872,9 +2510,7 @@
           "David T Plummer Introduction to Practical Biochemistry. Mc Graw Hill Publication 2017",
           "Keith Wilson and Walker Principles and Techniques of Practical Biochemistry. Cambridge University Press 2000"
         ],
-        "flags": [
-          "structure_mismatch"
-        ]
+        "flags": ["structure_mismatch"]
       },
       {
         "sem": 4,
@@ -2886,10 +2522,7 @@
           "p": 6,
           "c": 2
         },
-        "tags": [
-          "lab",
-          "core"
-        ],
+        "tags": ["lab", "core"],
         "syllabus": [
           "Preparation of broth and agar media for the growth of bacterial species",
           "Pure culture techniques (streak, pour and spread) to isolate and sub-culture a specimen obtained from natural sources",
@@ -2901,9 +2534,7 @@
           "James G. Cappuccino, Chad Welsh, Microbiology A Laboratory Manual, 11th Global Edition, Pearson, 2017",
           "Ronald M. Atlas. Handbook of Microbiological Media, 4th Edition, CRC Press, 2010"
         ],
-        "flags": [
-          "department_semester_mismatch"
-        ]
+        "flags": ["department_semester_mismatch"]
       },
       {
         "sem": 3,
@@ -2915,10 +2546,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Formation of Linear Programming problem, Graphical method, Simplex method, Penalty cost and two-phase methods",
           "Finite sample spaces, conditional probability and independence, Bayes' theorem",
@@ -2951,10 +2579,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction \u2013 Scope and definition",
           "First law of Thermodynamics, Joule and Joule-Thomson Coefficient",
@@ -2985,10 +2610,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fundamentals of downstream processing",
           "High-value & Low-value bioproducts",
@@ -3024,10 +2646,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Structure and Organization of Nucleic Acids",
           "DNA Repair, Mutagenesis and Mutations",
@@ -3056,10 +2675,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Various modes of heat transfer",
           "Conduction \u2013 Fourier's law",
@@ -3092,10 +2708,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Immunotechnology, Scope and objectives",
           "The Immune System Innate: Introduction to Innate Lymphatic circulation",
@@ -3132,10 +2745,7 @@
           "p": 6,
           "c": 2
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Fluid flow experiments based on flow measurement, flow dynamics in pipes and fittings, and particle dynamics under fluid flow",
           "Heat transfer experiments to estimate heat transfer coefficients and thermal conductivity of metals and insulators"
@@ -3156,20 +2766,13 @@
           "p": 6,
           "c": 2
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [],
         "references": [
           "Sandy B. Primrose, Richard M. Twyman and Robert W. Old. Principles of Gene Manipulation, Wiley-Blackwell Publishers, 2002",
           "Benjamin Lewin. Genes VII. Oxford University Press, 2003"
         ],
-        "flags": [
-          "semester_mismatch",
-          "credits_mismatch",
-          "missing_syllabus"
-        ]
+        "flags": ["semester_mismatch", "credits_mismatch", "missing_syllabus"]
       },
       {
         "sem": 3,
@@ -3181,10 +2784,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Time value of money, Interest factors for discrete compounding, Nominal & effective interest rates, Present and future worth of Single, Uniform, and Gradient cash flow. Related problems and case studies",
           "Bases for comparison of alternatives, Present worth amount, Capitalized equivalent amount, Annual equivalent amount, Future worth amount, Capital recovery with return, Rate of return method, Incremental approach for economic analysis of alternatives, Replacement analysis",
@@ -3211,10 +2811,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Bioinformatics overview",
           "Computational biology and bioinformatics",
@@ -3265,10 +2862,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Enzymes and Enzyme catalyzed reactions: Nature and function of enzymes, Michaelis-Menten Equation \u2013 derivations, types of enzyme inhibition, kinetics",
           "Media Design and Sterilization: Fermentation processes, Medium requirements for fermentation processes - examples of simple and complex media, Batch and continuous heat sterilization",
@@ -3293,10 +2887,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Reaction Kinetics: Rate equation, elementary, non-elementary reactions and kinetic modeling, Analysis of experimental batch reactor data- integral and differential analysis",
           "Ideal Reactors: Design for homogeneous reaction system-batch, stirred tank and plug flow reactors, Multiple reactor system-size comparison, recycle reactor",
@@ -3320,10 +2911,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Theories of adsorption \u2013 Adsorption isotherms and calculations, and models, adsorption in fixed beds, Pressure Swing Adsorption (PSA)",
           "Chromatography \u2013 principles of chromatographic separation and Plate theory, HPLC and GC, Various types of Chromatographic practices, Retention time, Capacity, band broadening, Size exclusion, Ion Exchange and Affinity chromatography",
@@ -3350,9 +2938,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "sequence retrieval",
           "alignment and analysis (similarity search including pairwise and multiple alignment)",
@@ -3369,9 +2955,7 @@
           "David W Mount. 2004. BIOINFORMATICS: Sequence and Genome Analysis. Cold Spring Harbor Laboratory Press",
           "Andreas D Baxevanis, Gary D. Bader, David S. Wishart. 4th Edn, 2020. BIOINFORMATICS. Wiley Interscience"
         ],
-        "flags": [
-          "credits_mismatch"
-        ]
+        "flags": ["credits_mismatch"]
       },
       {
         "sem": 6,
@@ -3383,9 +2967,7 @@
           "p": 6,
           "c": 2
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "aqueous two phase based separation",
           "extraction of intracellular proteins",
@@ -3399,10 +2981,7 @@
           "Asenjo, Juan A.. Separation Processes in Biotechnology. United States, CRC Press, 2020.",
           "Michael L Shuler and FikretKargi. Bioprocess Engineering: Basic Concepts. Prentice-Hall of India Pvt Ltd 2008."
         ],
-        "flags": [
-          "semester_mismatch",
-          "credits_mismatch"
-        ]
+        "flags": ["semester_mismatch", "credits_mismatch"]
       },
       {
         "sem": 3,
@@ -3414,10 +2993,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Definition of management and systems approach, Nature & scope",
           "The Functions of managers, Principles of Management",
@@ -3448,10 +3024,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [],
         "references": [
           "Dixon R.A. and Gonzales. Plant Cell Culture: A Practical Approach, IRL Press. 1995",
@@ -3460,9 +3033,7 @@
           "M.Butler -Animal Cell Culture and Technology' Second Edition (2004) BIOS Scientific Publisher, New York.",
           "R Ian Freshney Culture of animal cells: A manual of Basic techniques and Specialized applications, Wiley Blackwell Press"
         ],
-        "flags": [
-          "missing_syllabus"
-        ]
+        "flags": ["missing_syllabus"]
       },
       {
         "sem": 3,
@@ -3474,10 +3045,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Biotechnology and Bioethics",
           "Hazardous materials",
@@ -3519,9 +3087,7 @@
           "p": 6,
           "c": 2
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Growth kinetics of bacterial species in shake flask and fed-batch cultures with various carbon sources",
           "Performance evaluation of bioreactors: stirred tank reactor (STR), fluidized bed reactor (FBR), and packed bed reactor (PBR) with immobilized enzymes",
@@ -3534,9 +3100,7 @@
           "Dixon R.A. and Gonzales. Plant Cell Culture: A Practical Approach, IRL Press. 1995",
           "Lindsey K. and Jones M.G.K. Plant Biotechnology in Agriculture, Prentice Hall, 1990"
         ],
-        "flags": [
-          "structure_mismatch"
-        ]
+        "flags": ["structure_mismatch"]
       },
       {
         "sem": 3,
@@ -3548,9 +3112,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Controllers (P, PI, PD & PID)",
           "Advanced control system",
@@ -3563,19 +3125,14 @@
           "Lindsey, K.. Plant Biotechnology in Agriculture. N.p., Richard Dennis Publications, 1991.",
           "Shuler, Michael L., and Kargi, Fikret. Bioprocess Engineering: Basic Concepts. India, Pearson., 2015."
         ],
-        "flags": [
-          "department_mismatch",
-          "semester_discrepancy"
-        ]
+        "flags": ["department_mismatch", "semester_discrepancy"]
       },
       {
         "sem": 3,
         "code": "BIO 4291",
         "title": "INDUSTRIAL TRAINING",
         "credits": null,
-        "tags": [
-          "core"
-        ],
+        "tags": ["core"],
         "syllabus": [
           "Undergo industrial training for a minimum period of 4 weeks",
           "Training may be taken in a phased manner during the vacation starting from the end of third semester",
@@ -3584,18 +3141,14 @@
           "Include certificates issued by the industry in the report"
         ],
         "references": [],
-        "flags": [
-          "missing_credits"
-        ]
+        "flags": ["missing_credits"]
       },
       {
         "sem": 3,
         "code": "BIO 4292",
         "title": "PROJECT WORK/PRACTICE SCHOOL",
         "credits": null,
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Project work carried out in institution/industry/research laboratory or any other competent institution",
           "Minimum duration of 16 weeks (extendable to 24 weeks)",
@@ -3605,10 +3158,7 @@
           "Presentation on the work carried out before the department committee"
         ],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_references"]
       },
       {
         "sem": 3,
@@ -3620,10 +3170,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: Advantages & disadvantages of bioremediation",
           "Microbial ecology and metabolism: Factors influencing Growth and Biodegradation, Modelling Growth & Biodegradation, Redox reactions, Metabolism of Organic & Inorganics, Phototrophic Metabolism, Cometabolism",
@@ -3649,10 +3196,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Need for wastewater treatment",
           "Characterization of wastewater- Biological- BOD, COD, TOC, MPN, and Bacterial count",
@@ -3688,10 +3232,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Various feedstock for different kinds of Biofuels",
           "Biochemical pathways",
@@ -3723,10 +3264,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to solid waste management: Waste generation in technological society, integrated solid waste management",
           "Types and Composition of solid wastes",
@@ -3756,10 +3294,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Properties of materials & classes of materials used in Medicine",
           "Host reaction to biomaterials and their evaluation",
@@ -3785,9 +3320,7 @@
           "Joon Park, Lakes R.S. Biomaterials: An Introduction, Springer publication, (3e), 2007",
           "Pharmaceutical Biotechnology, K. Sambhamurthy and AshutoshKar, Newage International Pvt Ltd Publisher, 2016"
         ],
-        "flags": [
-          "structure_mismatch"
-        ]
+        "flags": ["structure_mismatch"]
       },
       {
         "sem": 3,
@@ -3799,10 +3332,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction \u2013 Development of drugs and pharmaceutical industry",
           "Organic therapeutic agents. Drug Metabolism and Pharmaco-Kinetics \u2013 physico chemical principles, radioactivity, action of drug on human bodies",
@@ -3828,10 +3358,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "History of vaccine and immunotherapy development",
           "Antibody based therapeutics",
@@ -3868,10 +3395,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "General concepts of Pharmacology \u2013 Bioavailability, Pharmacokinetic and pharmacodynamics",
           "Drug Design \u2013 Computational Drug Discovery, Binding interactions, Lipinski's rule of five (RO5), SMILES, Molecular Descriptors \u2013 chemical, topological and geometrical descriptors",
@@ -3896,10 +3420,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Measurement and signal transmission of process parameters \u2013 Flow, Pressure, Temperature, Level, pH, DO, density and viscosity",
           "Mathematical modeling of chemical and bioprocesses",
@@ -3924,10 +3445,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Design of pressure vessels: Codes and standards, Design factors, Classification of pressure vessels; design considerations; design of vessels under internal and external pressure",
           "Design of fermenters: Mixing in Fermenters, Power Requirements for Newtonian, Non-Newtonian broths and Gassed Fluids. Design criteria for batch fermenter, and chemostat. Scale-up of fermenters",
@@ -3954,10 +3472,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Definition of modeling and simulations detailed applications and limitations",
           "Classification of models and how to build model",
@@ -3991,10 +3506,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to statistics: Descriptive and inferential statistics. Measures of central tendency",
           "Measures of spread. Probability distributions, Hypothesis testing",
@@ -4021,10 +3533,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Algorithms and complexity",
           "Algorithm Design Techniques",
@@ -4078,10 +3587,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Food Processing: Biotechnology in relation to the food industry; nutritive value of food; types of microorganisms associated with food - their sources, types and behavior",
           "Food Spoilage & Preservation: Microbial Spoilage of Vegetables, Fruits, Fresh and Processed Meats, Poultry and Seafood",
@@ -4108,10 +3614,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Genomics and proteomics as newer fields in modern biology",
           "Organization of genes and genomes, genome mapping, sequencing, and annotation",
@@ -4128,18 +3631,59 @@
         "flags": []
       },
       {
+        "sem": 3,
         "code": "BIO 4448",
-        "title": "Extraction Failed",
-        "sem": null,
-        "credits": null,
-        "tags": [
-          "error"
+        "title": "HEALTH DIAGNOSTICS",
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": ["core", "theory"],
+        "syllabus": [
+          "Introduction to Health diagnostics, Importance, and applications",
+          "Infectious diseases",
+          "Parasitic diseases",
+          "Viral diseases",
+          "Genetic disorders",
+          "Neurological diseases",
+          "Immune disorders",
+          "Genes & Disease",
+          "Antimicrobial resistance",
+          "New technologies in Diagnostics",
+          "DNA based diagnostics methods",
+          "Biochemical diagnostics methods",
+          "Cell-based diagnostics methods",
+          "Antibody markers",
+          "CD Markers",
+          "FACS",
+          "HLA typing",
+          "Bioassays",
+          "Immunodiagnostics methods",
+          "Antigen-Antibody Reactions",
+          "Conjugation Techniques",
+          "Antibody Production",
+          "Case studies related to bacterial, viral and parasitic infections",
+          "Diagnosis of infectious diseases",
+          "Respiratory diseases",
+          "Viral disease",
+          "Bacterial diseases",
+          "Enteric diseases",
+          "Parasitic diseases",
+          "Mycobacterium diseases",
+          "Phage display",
+          "Immunoassays",
+          "FACS"
         ],
-        "syllabus": [],
-        "references": [],
-        "flags": [
-          "extraction_failed"
-        ]
+        "references": [
+          "Patrinos, G. P., Ansorge, W. J. and Danielson, P.B. (2016). Molecular Diagnostics. Academy Press.",
+          "Burtis, C. A., & Bruns, D. E. (2014). Tietz Fundamentals of Clinical Chemistry and Molecular Diagnostics. Elsevier Health Sciences.",
+          "Tille, P. (2015). Bailey & Scott's Diagnostic Microbiology. Elsevier Health Sciences.",
+          "McPherson, R. A., & Pincus, M. R. (2021). Henry's Clinical Diagnosis and Management by Laboratory Methods (E-book). Elsevier Health Sciences.",
+          "Turgeon, M. L. (2018). Linne & Ringsrud's Clinical Laboratory Science (E-Book): Concepts, Procedures, and Clinical Applications. Elsevier Health Sciences."
+        ],
+        "flags": []
       },
       {
         "sem": 3,
@@ -4151,10 +3695,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction \u2013 Jacob Monod model, catabolite regulation, glucose effect, cAMP deficiency, feedback regulation",
           "Synthesis of Primary Metabolites \u2013 Alteration of feedback regulation, limiting accumulation of end products, metabolites",
@@ -4178,10 +3719,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Basic structural principles of protein",
           "Protein structure and function",
@@ -4228,10 +3766,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Bioinformatics",
           "Central dogma of biology",
@@ -4265,10 +3800,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Explanation of human body and its evaluation to the present form",
           "How different cultures interpreted human body: energy centers, energy chakras",
@@ -4294,9 +3826,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Basic biological principles, design and working relationship in biological systems, Bioinspiration engineering, methodology and approach for Bioinspiration and biomimetics",
           "Adhesion in biological systems, natural super-hydrophobic and hydrophilic substances, understanding chemical and physical processes in biological systems and its application in bioinspired engineering",
@@ -4309,10 +3839,7 @@
           "Christopher Jenkins, 2011. Bio-Inspired Engineering Momentum press, New York",
           "Brebbia CS, 2010. Design and Nature V. Comparing design in nature with science and engineering. WIT Press, UK"
         ],
-        "flags": [
-          "tags_inferred_as_theory",
-          "core_elective_status_uncertain"
-        ]
+        "flags": ["tags_inferred_as_theory", "core_elective_status_uncertain"]
       }
     ]
   }

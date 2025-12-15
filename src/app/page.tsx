@@ -6,13 +6,13 @@ export default function Home() {
   const courses = getAllCourses();
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-background text-foreground transition-colors duration-300">
+    <main className="flex min-h-screen flex-col items-center justify-center p-4 sm:p-6 bg-background text-foreground transition-colors duration-300">
       {/* Theme toggle in top-right corner */}
-      <div className="fixed top-6 right-6 z-50">
+      <div className="fixed top-4 right-4 sm:top-6 sm:right-6 z-50">
         <ModeToggle />
       </div>
 
-      <div className="z-10 w-full max-w-3xl flex flex-col items-center gap-8 text-center animate-in fade-in zoom-in duration-700 slide-in-from-bottom-5">
+      <div className="z-10 w-full max-w-3xl flex flex-col items-center gap-6 sm:gap-8 text-center animate-in fade-in zoom-in duration-700 slide-in-from-bottom-5">
 
         <div className="space-y-4">
           <h1 className="text-4xl sm:text-6xl font-sans font-bold tracking-tight bg-gradient-to-br from-foreground to-muted-foreground bg-clip-text text-transparent">
@@ -48,22 +48,22 @@ export default function Home() {
         </a>
 
         <div className="mt-12 space-y-8">
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm font-mono text-muted-foreground opacity-50 hover:opacity-100 transition-opacity">
-            <div className="flex flex-col items-center">
-              <span className="font-bold text-foreground">17</span>
-              <span>Departments</span>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 text-sm font-mono text-muted-foreground opacity-50 hover:opacity-100 transition-opacity">
+            <div className="flex flex-col items-center gap-1">
+              <span className="font-bold text-foreground text-lg sm:text-base">17</span>
+              <span className="text-xs sm:text-sm">Departments</span>
             </div>
-            <div className="flex flex-col items-center">
-              <span className="font-bold text-foreground">{courses.length}</span>
-              <span>Courses</span>
+            <div className="flex flex-col items-center gap-1">
+              <span className="font-bold text-foreground text-lg sm:text-base">{courses.length}</span>
+              <span className="text-xs sm:text-sm">Courses</span>
             </div>
-            <div className="flex flex-col items-center">
-              <span className="font-bold text-foreground">2025</span>
-              <span>Academic Year</span>
+            <div className="flex flex-col items-center gap-1">
+              <span className="font-bold text-foreground text-lg sm:text-base">2025</span>
+              <span className="text-xs sm:text-sm">Academic Year</span>
             </div>
-            <div className="flex flex-col items-center">
-              <span className="font-bold text-foreground">MIT</span>
-              <span>Manipal</span>
+            <div className="flex flex-col items-center gap-1">
+              <span className="font-bold text-foreground text-lg sm:text-base">MIT</span>
+              <span className="text-xs sm:text-sm">Manipal</span>
             </div>
           </div>
 

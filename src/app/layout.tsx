@@ -22,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link href="https://cdn.jsdelivr.net/npm/commit-mono@1.143.0/commit-mono.min.css" rel="stylesheet" />
+        <script defer src="https://stat.sys256.com/script.js"></script>
       </head>
       <body
         className={`${instrumentSans.variable} font-sans antialiased bg-background text-foreground`}

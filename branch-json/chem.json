@@ -12,10 +12,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fourier series and transforms: Periodic Functions, odd and even functions, Euler's formulae, Half range expansions, Harmonic analysis, Fourier integrals & transforms, Parseval's identity",
           "Complex Variable: Functions of complex variable, Analytic function, C-R equations, differentiation, Integration of complex function, Cauchy's integral formula, Taylor's and Laurent Series, Singular points, Residues, Cauchy's residue theorem, Conformal mappings, bilinear transformations",
@@ -28,9 +25,7 @@
           "B.S.Grewal: Higher Engg.Mathematics, 43rd edition, 2014, Khanna Publishers.",
           "Ramana B.V., Engineering Mathematics, 2nd edition, 2007, Tata McGraw Hill Publishing Company limited."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -42,10 +37,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basic concepts and definition: internal energy, work, heat, equilibrium, reversible process, intensive and extensive function",
           "First law of thermodynamics for non-flow and flow process",
@@ -61,9 +53,7 @@
           "T.E. Daubert, Chemical Engineering Thermodynamics, McGraw \u2013Hill, 1985",
           "Y.V.C.Rao, Chemical Engineering Thermodynamics, Universities Press, 1997"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "code": "CHE 2122",
@@ -74,10 +64,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Units and dimensions \u2013 Conversion of units",
           "Physico-chemical properties of compounds and mixtures, Chemical equations and stoichiometry",
@@ -92,9 +79,7 @@
           "A. Hougen, K.M. Watson and R.A. Ragatz, Chemical Process Principles, Part \u2013 I, John Wiley and Asia Publishing Co. 1970.",
           "K.V. Narayana, B. Laxmikutty, Stoichiometry and Process Calculation, 2nd Edition, PHI Learning Pvt. Ltd. Delhi, 2017."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 3,
@@ -106,10 +91,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Properties of fluids",
           "Fluid statics",
@@ -140,9 +122,7 @@
           "L. Bryce Andersen Alan S. Foust, Leonard A. Wenzel, Curtis W. Clump, Louis Maus, \u201cPrinciples of Unit Operations\u201d, (2e), John Wiley and Sons, NY, 2015",
           "Badger, Walter L.; Banchero, Julius T.; Bancheo, Julius T. \u201cIntroduction to Chemical Engineering\u201d, Tata McGraw Hill, Singapore, 1e, 2017"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -154,10 +134,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to mass transfer operations",
           "Diffusion and mass Transfer: Molecular diffusion in fluids and solid, mass transfer coefficients, interphase mass transfer coefficient",
@@ -169,9 +146,7 @@
           "McCabe, W., Smith, J., Harriott, P., Unit Operations of Chemical Engineering (7e), McGraw Hill Education, 2017",
           "Dutta, B.K., Principles of Mass Transfer and Separation Processes, Prentice Hall India Learning Private Limited, 2006"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -183,10 +158,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Thermodynamic treatment of solutions",
           "Ideal mixtures",
@@ -254,9 +226,7 @@
           "G.M. Barrow, Physical Chemistry, 5th edition, Tata McGrow-Hill Education private limited, New Delhi, 2007.",
           "I.L. Finar, Organic Chemistry, Vol I, 6th edn. Pearson Education, Singapore, 2012."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 4,
@@ -268,9 +238,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Titration using conductometric method",
           "Potentiometric method",
@@ -280,10 +248,7 @@
           "Determination of the % purity of phenol and acetic acid"
         ],
         "references": [],
-        "flags": [
-          "credits_mismatch",
-          "missing_references"
-        ]
+        "flags": ["credits_mismatch", "missing_references"]
       },
       {
         "sem": null,
@@ -295,10 +260,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Optimization Techniques: Formation of Linear Programming problem, Graphical method, Simplex method, Penalty cost and two phase methods",
           "Probability & Random variables: Finite sample spaces, conditional probability and independence, Bayes' theorem One dimensional random variable, mean, variance, Chebyshev's inequality",
@@ -315,9 +277,7 @@
           "Grewal B.S - Higher Engineering Mathematics, 43rd edition, 2014, Khanna Publishers.",
           "Sastry S.S - Introductory methods for Numerical Analysis, 5th edition, 2012, PHI Learning Private Limited."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -329,10 +289,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Particle size analysis",
           "Sphericity of particle",
@@ -363,9 +320,7 @@
           "Walter L. Badger and Julius T. Banchero, Introduction to Chemical Engineering, Tata McGraw-Hill, NY, 2017",
           "J.M. Coulson, J.R. Richardson J.R. Backhurst, and J.H. Harker, Chemical Engineering \u2013Volume 2, Particle Technology and Separation Processes, (6e), 2019"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -377,10 +332,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Phase equilibrium",
           "Vapour liquid equilibrium",
@@ -399,9 +351,7 @@
           "McCabe W., Smith J., Harriott P., Unit Operations of Chemical Engineering (7e), McGraw Hill Education, 2017",
           "Dutta B.K., Principles of Mass Transfer and Separation Processes, Prentice Hall India Learning Private Limited, 2006"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 3,
@@ -413,10 +363,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Elementary and Non elementary reaction kinetics",
           "Kinetics of homogeneous chemical reactions",
@@ -443,9 +390,7 @@
           "Davis M.E., Davis R.E., Fundamentals of Chemical Reaction Engineering (1e), Dover Publications Inc.; Illustrated edition. 2012",
           "Missen R.W., Mims C.A., Saville B.A., Introduction to chemical reaction engineering and kinetics, John Wiley & Sons Inc."
         ],
-        "flags": [
-          "sem_inferred_from_code"
-        ]
+        "flags": ["sem_inferred_from_code"]
       },
       {
         "sem": null,
@@ -457,10 +402,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Biosphere- Nutrient and hydrologic cycles",
           "Types of pollution and pollution control aspects in general and environmental legislation",
@@ -476,9 +418,7 @@
           "Rao C.S., \u201cEnvironmental Pollution Control Engineering\u201d (2e), New Age International Publishers, 2006",
           "Cavaseno V, \u201cIndustrial Air Pollution Engineering\u201d, McGraw Hill, NY, 1980"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -490,10 +430,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Mechanism of heat transfer; Heat transfer flux and resistance",
           "Thermal conductivity; Fourier's law of conduction; Conduction through the plane, cylindrical and spherical and composite walls",
@@ -507,9 +444,7 @@
           "Donald Q Kern- Process Heat Transfer, McGraw Hill, 2017",
           "William Henry McAdams- Heat Transmission, 3rd Edition, McGraw Hill"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -521,10 +456,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Bernoulli's Experiment \u2013 Calibration of flow meters",
           "Flow through circular pipe",
@@ -535,10 +467,7 @@
           "Centrifugal pump characteristics"
         ],
         "references": [],
-        "flags": [
-          "missing_sem",
-          "missing_references"
-        ]
+        "flags": ["missing_sem", "missing_references"]
       },
       {
         "sem": 5,
@@ -550,10 +479,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Chemical engineering problems related to Process Calculations",
           "Momentum Transfer",
@@ -573,9 +499,7 @@
           "Use of computer software such as MATLAB and EXCEL"
         ],
         "references": [],
-        "flags": [
-          "missing_references"
-        ]
+        "flags": ["missing_references"]
       },
       {
         "sem": 3,
@@ -587,10 +511,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Nature and significance",
           "Micro & macro differences",
@@ -629,9 +550,7 @@
           "Blank Leland T. Tarquin Anthony J. (2002), \u201cEngineering Economy\u201d, McGraw Hill, Delhi.",
           "Chan S. Park, (2013), \u201cFundamentals of Engineering Economics\u201d, 3rd edition, Pearson Publication."
         ],
-        "flags": [
-          "sem_inferred_from_code"
-        ]
+        "flags": ["sem_inferred_from_code"]
       },
       {
         "sem": 3,
@@ -643,10 +562,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to process control: components of control system, control relevant process modelling",
           "Laplace Transform",
@@ -679,10 +595,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Models and model building, principles of model formulation, precautions in model building, Classification of models",
           "Lumped parameter Models: steady and unsteady state- tank model, Reaction \u2013 kinetic systems, Vapour \u2013liquid equilibrium operation",
@@ -707,10 +620,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to mechanical design",
           "Vessel classification",
@@ -744,10 +654,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Prediction of transport coefficients: viscosity, thermal conductivity and diffusivity and their dependence with temperature, pressure and composition",
           "Kinetic theories of viscosity, thermal conductivity and diffusivity",
@@ -761,9 +668,7 @@
           "Slattery J.C., Advanced Transport Phenomena, Cambridge University Press, 2012",
           "Geankoplis C.J, Transport Process and Unit Operation (3e) , Prentice-Hall , 2015"
         ],
-        "flags": [
-          "sem_inferred_from_course_code"
-        ]
+        "flags": ["sem_inferred_from_course_code"]
       },
       {
         "sem": null,
@@ -775,9 +680,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "conduction",
           "convection",
@@ -789,11 +692,7 @@
           "film and drop condensation"
         ],
         "references": [],
-        "flags": [
-          "missing_semester",
-          "credits_mismatch",
-          "missing_references"
-        ]
+        "flags": ["missing_semester", "credits_mismatch", "missing_references"]
       },
       {
         "sem": 6,
@@ -805,10 +704,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Vapour-liquid equilibria",
           "Simple distillation",
@@ -826,9 +722,7 @@
           "tray efficiency of bubble cap distillation column"
         ],
         "references": [],
-        "flags": [
-          "missing_references"
-        ]
+        "flags": ["missing_references"]
       },
       {
         "sem": 3,
@@ -840,10 +734,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Definition of management and systems approach, Nature & scope",
           "The functions of managers",
@@ -879,10 +770,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Indian industry - A brief review",
           "Industrial gases",
@@ -905,17 +793,35 @@
       },
       {
         "code": "CHE 3222",
-        "title": "Extraction Failed",
+        "title": "COMPUTER-AIDED SIMULATIONS IN CHEMICAL PROCESS PLANTS",
         "sem": null,
-        "credits": null,
-        "tags": [
-          "error"
+        "credits": {
+          "l": 2,
+          "t": 1,
+          "p": 0,
+          "c": 3
+        },
+        "tags": ["core", "theory"],
+        "syllabus": [
+          "Introduction to steady‑state flow sheeting and the design process.",
+          "Steady‑state process simulation using sequential modular approach and equation‑oriented approach.",
+          "Convergence of tear streams.",
+          "Introduction to process simulation, computerized physical‑properties calculations, thermodynamic property analysis, and flowsheet features.",
+          "Simulation of simple units – Mixers/Splitters, Pressure Changers, Heater, Reactors.",
+          "Design and rating of heat exchangers; design of distillation column and column internals.",
+          "Model analysis tools: optimization and sensitivity.",
+          "Flow‑sheeting options: design specifications.",
+          "Simulation of plant‑wide structure / chemical plants.",
+          "Case studies."
         ],
-        "syllabus": [],
-        "references": [],
-        "flags": [
-          "extraction_failed"
-        ]
+        "references": [
+          "Westerberg A. W., Hutchison H. P., Motard R. L., and Winter P., Process Flow Sheeting, Cambridge University Press, 2011.",
+          "Babu B. V., Process Plant Simulation, Oxford University Press, 2004.",
+          "Mariano Martin, Introduction to Software for Chemical Engineers, CRC Press, 2015.",
+          "Kamal I. M. Al‑Malah, “ASPEN PLUS® Chemical Engineering Applications”, Wiley, 2017.",
+          "Shin‑ichi Nakao, Katsunori Yogo, Kazuya Goto, Teruhiko Kai, Hidetaka Yamada, Advanced CO2 Capture Technologies, Absorption, Adsorption, and Membrane Separation Methods, Springer, 2019."
+        ],
+        "flags": []
       },
       {
         "sem": null,
@@ -927,10 +833,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "RTD in chemical reactors, distribution functions and models",
           "Temperature effects",
@@ -959,9 +862,7 @@
           "Mark E Davis, Robert E Davis, Fundamentals of Chemical Reaction Engineering, 1st edition, McGrawl-Hill, 2003",
           "Ronald W. Missen, Charles A. Mims, Bradley A. Saville; Introduction to chemical reaction engineering and kinetics, John Wiley & Sons, Inc."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 3,
@@ -973,10 +874,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to AI & ML, supervised and unsupervised learning",
           "Linear regression, Cost/Objective function",
@@ -1009,19 +907,13 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Experiments based on simulation of steady state \u2013 flash drum, reactors, distillation column, absorber, heat exchanger and chemical plants using ASPEN PLUS",
           "Simulation of unsteady state operation of chemical plants using ASPEN DYNAMICS"
         ],
         "references": [],
-        "flags": [
-          "credits_mismatch (L+T+P=3 \u2260 C=1)",
-          "missing_references"
-        ]
+        "flags": ["credits_mismatch (L+T+P=3 \u2260 C=1)", "missing_references"]
       },
       {
         "sem": 7,
@@ -1033,9 +925,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Homogeneous non-catalytic liquid phase kinetic studies using batch reactor",
           "Semi-batch reactor",
@@ -1050,10 +940,7 @@
           "Control of systems with cascading and ratio effects"
         ],
         "references": [],
-        "flags": [
-          "credits_mismatch",
-          "missing_references"
-        ]
+        "flags": ["credits_mismatch", "missing_references"]
       },
       {
         "sem": 4,
@@ -1065,9 +952,7 @@
           "p": null,
           "c": null
         },
-        "tags": [
-          "core"
-        ],
+        "tags": ["core"],
         "syllabus": [
           "Undergo industrial training for a minimum period of 4 weeks",
           "Training may be taken in a phased manner during the vacation starting from the end of third semester to the end of seventh semester",
@@ -1076,19 +961,14 @@
           "Report should include certificates issued by the industry"
         ],
         "references": [],
-        "flags": [
-          "missing_credits",
-          "missing_references"
-        ]
+        "flags": ["missing_credits", "missing_references"]
       },
       {
         "sem": null,
         "code": "CHE 4292",
         "title": "PROJECT WORK",
         "credits": null,
-        "tags": [
-          "core"
-        ],
+        "tags": ["core"],
         "syllabus": [
           "Project work may be carried out in the institution/industry/research laboratory or any other competent institutions",
           "Duration of the project work shall be a minimum of 16 weeks which may be extended up to 24 weeks",
@@ -1098,11 +978,7 @@
           "Student has to make a presentation on the work carried out before the department committee as part of project evaluation"
         ],
         "references": [],
-        "flags": [
-          "missing_sem",
-          "missing_credits",
-          "missing_references"
-        ]
+        "flags": ["missing_sem", "missing_credits", "missing_references"]
       },
       {
         "sem": null,
@@ -1114,10 +990,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basic concepts of reservoir engineering: calculation of hydrocarbon volumes, fluid pressure regimes, recovery factor, volumetric gas reservoir, hydrocarbon phase behaviour",
           "PVT analysis for oil: definition of parameters, fluid sampling, laboratory testing",
@@ -1135,9 +1008,7 @@
           "Satter A., Baldwin J., and Jespersen R., Computer-Aided Reservoir Management, Pennwell, 2000.",
           "Ahmed Tarek, Reservoir Engineering Handbook (4e), Gulf professional publishers, 2010."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 4,
@@ -1149,11 +1020,7 @@
           "p": 3,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory",
-          "lab"
-        ],
+        "tags": ["core", "theory", "lab"],
         "syllabus": [
           "Crude oil origin, composition, characterization and classification",
           "Refinery products and test methods",
@@ -1187,10 +1054,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Types of natural gas resources; properties of natural gas",
           "gas reservoir deliverability",
@@ -1210,9 +1074,7 @@
           "Guo B., Lyons W. C., Ghalambor A., Petroleum Production Engineering: A Computer Assisted Approach, 1st Edition, Elsevier, 2007",
           "Ahmed T., McKinney P. D., Advanced Reservoir Engineering, Elsevier, 1st Edition \u2013 2004"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1224,10 +1086,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Understand the importance of energy integration in a petroleum industry",
           "Energy integration",
@@ -1244,9 +1103,7 @@
           "Smith R. M., Chemical Process: Design and Integration, John Wiley & Sons, 2005",
           "Biegler, L. T.; Grossmann I. E.; Wasterberg, A. W., Systematic Methods of Chemical Process Design, Prentice Hall, New-Jersey, 1997"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1258,11 +1115,7 @@
           "p": 3,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory",
-          "lab"
-        ],
+        "tags": ["core", "theory", "lab"],
         "syllabus": [
           "Wastewater treatment quality criteria and effluent standards",
           "Preliminary treatment processes",
@@ -1283,10 +1136,7 @@
           "D roste R. L., Theory and Practice of Water and Wastewater Treatment, John Wiley & Sons, 2018.",
           "L arry .D. Benefield, Clifford W. Randall \u201cBiological process design for wastewater treatment\u201d, Prentice Hall publishers,1989"
         ],
-        "flags": [
-          "missing_sem",
-          "credits_mismatch"
-        ]
+        "flags": ["missing_sem", "credits_mismatch"]
       },
       {
         "sem": null,
@@ -1298,10 +1148,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Classification of solid wastes",
           "Functional elements of Solid Waste Management (SWM)",
@@ -1333,9 +1180,7 @@
           "Lees F., Lees' Loss Prevention in the Process Industries: Hazard identification, assessment and control (3e), Butterworth-Heinemann, 2004.",
           "Rao M. N., Sultana R., Kota S. H., Solid and Hazardous Waste Management: Science and Engineering (1e), B S Publications (imprinted by Elsevier), 2016."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 4,
@@ -1347,10 +1192,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "The earth's atmosphere, structure and composition",
           "air pollution history, sources and emissions",
@@ -1374,9 +1216,7 @@
           "S. M. Khopkar, Environmental pollution Monitoring and control, New age Int, ND -2004",
           "K.E Noll and T.L.Miller, Air Monitoring survey design, (1e), Ann Arber Science, 1977"
         ],
-        "flags": [
-          "sem_inferred_from_course_code"
-        ]
+        "flags": ["sem_inferred_from_course_code"]
       },
       {
         "sem": 3,
@@ -1388,10 +1228,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Environmental impact assessment (EIA), history",
           "Environmental movements",
@@ -1431,10 +1268,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Solar radiation, measurement and estimation; empirical relations, solar collectors and types, Solar drying, Active and passive heating and cooling of buildings, Solar thermal power generation, and Solar pond",
           "wind power density, power in a wind stream, wind turbine efficiency, solidity, HAWT, VAWT, and tower design",
@@ -1447,9 +1281,7 @@
           "Mukund & Patel R., Wind and Solar Power Systems., 3rd Edition, Taylor & Francis, 2021.",
           "Chakravarthy A, \u201cBiotechnology and Alternative Technologies for Utilization of Biomass or Agricultural Wastes\u201d, Oxford & IBH publishing Co 1989."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "code": "CHE 4410",
@@ -1460,10 +1292,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Solar spectrum",
           "Solar radiation data",
@@ -1497,9 +1326,7 @@
           "Garg.H.P, Prakash .J, \u201cSolar Energy Fundamentals and Applications\u201d, Tata McGraw-Hill, 2005.",
           "Duffie J. A and Beckman, W.A., \u201cSolar Engineering of Thermal Process\u201d, John Wiley,2006."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1511,10 +1338,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Hydrogen production methods",
           "Fuel cell BASICS",
@@ -1535,9 +1359,7 @@
           "Bard A.J. and.Faulkner L.R, Electrochemical Methods: Fundamentals and Applications, 2nd Edition, Wiley 2000.",
           "Faghri A and Zhang Y., Transport Phenomena in Multiphase Systems, Elsevier 2006."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1549,10 +1371,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Biomass sources and classification",
           "Characteristics preparation",
@@ -1599,9 +1418,7 @@
           "K M Mittal, Biogas systems: Principles and applications, (1e), New Age International Publishers (P) Ltd. 1996.",
           "P. Venkata Ramana, S. N. Srinivas, Biomass energy systems, (1e),Tata energy Research Institute New Delhi, 1996."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "code": "CHE 4441",
@@ -1612,10 +1429,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Review of classical control, Enhancement of single loop control performance and MIMO system analysis",
           "Design of feed forward and ratio controls",
@@ -1660,9 +1474,7 @@
           "Tangirala A. K., Principles of System Identification: Theory and Practice, CRC Press, 2005",
           "Lennart Ljung, System Identification: Theory for the users (3e), Prentice Hall; 2005"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1674,10 +1486,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "General introduction of colloids and interfaces, the role of mixing and entropy",
           "Colloid stability",
@@ -1697,9 +1506,7 @@
           "Evans D. F., Kakan Wennerstrom, The Colloidal Domain: Where Physics, Chemistry, Biology, and Technology Meet (Advances in Interfacial Engineering), Wiley-VCH, 1999",
           "Israechvili J., Intermolecular & Surface Forces (2e), Academic Press,1992"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1711,10 +1518,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: Chemical technology and environmental concerns, environmental impact of chemicals, half-life and fate of chemicals, life-cycle assessment of chemicals, concept of clean technology",
           "Evaluation of Technology: Evaluation of existing process technologies of ammonia, sulphuric acid, caustic soda, rayon, pulp and paper, leather, plastics, polymers and organic chemicals. Analysis of raw materials, intermediates, final products, bye-products and waste generation; Emissions and effluents from the process plants and their ultimate fate",
@@ -1730,9 +1534,7 @@
           "Kafarov V.V., \u201cWasteless Chemical Processes\u201d, Mir, 1985",
           "Guisnet M. and Gilson J.P., \u201cZeolites for Cleaner Production\u201d, World Scientific, 2002"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1744,10 +1546,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Classification. characterisation and testing of solid liquid and gaseous fuels.",
           "Theories on the origin and processing of solid and liquid fuels.",
@@ -1763,10 +1562,7 @@
           "Gilchrist, J.D., \u201cFuels, Furnaces and Refractories\u201d, Pergamon Press,",
           "Manson L. Smith, Keri W. Stinson, \u201cFuels and Combustion\u201d, McGraw-Hill,"
         ],
-        "flags": [
-          "missing_semester",
-          "incomplete_references"
-        ]
+        "flags": ["missing_semester", "incomplete_references"]
       },
       {
         "sem": null,
@@ -1778,10 +1574,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: Definition, the twelve basic principles of green chemistry",
           "Green synthetic methods: Microwave synthesis, electro-organic synthesis",
@@ -1800,9 +1593,7 @@
           "Roger A. S., Isabel A., and Hanefeld U., Green Chemistry and Catalysis, Wiley VCH, 2007",
           "James V. B., Heat Conduction Using Green's Function (Series in Computational and Physical Processes in Mechanics and Thermal Sciences) Taylor & Francis, 1992"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1814,10 +1605,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Management of safety in Industry- Concept of Safety, Applicable areas, unsafe actions & Conditions",
           "Safety Committee - Membership, Functions & Scope of Safety committee",
@@ -1837,9 +1625,7 @@
           "W.Handley, Industrial Safety hand book, 2/e, McGraw- Hill, 1977",
           "King R W; Magid J, Industrial hazards and safety hand book, Butterworth, London, 1980"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1851,10 +1637,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Principles of Microbiology",
@@ -1871,9 +1654,7 @@
           "Shuler M.L., Kargi F., Delisa M., Bioprocess Engineering: Basic Concepts (3e), 2017",
           "Blanch H.W., Clark D.S., Biochemical Engineering (2e), CRC Press, 1997"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1885,10 +1666,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Historical perspective, scope of materials science and engineering",
           "Atomic structure and interatomic bonding",
@@ -1921,9 +1699,7 @@
           "Raghavan. V., Physical Metallurgy: Principle and Practice, Prentice Hall India Pvt Ltd, 2004",
           "Dieter G. E, Mechanical Metallurgy, 3rd Ed, Mcgraw Hill, London, 2017"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1935,9 +1711,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Membrane preparation and structure",
           "membrane permeability",
@@ -1978,9 +1752,7 @@
           "M.H.V. Mulder, Membrane Separation, (1e), Springer Publ. -2007",
           "K.S. Scott, Robert Hughes (Editors), Industrial Membrane Separation Technology, (1e), Blackie Academic & Professional Chapmann & Hall, Glasgaw, 1996"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1992,10 +1764,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to molecular modelling",
           "Potential energy surfaces",
@@ -2019,9 +1788,7 @@
           "Anthony Stone, The Theory of Intermolecular Forces, 2nd Ed. Pearson, 2013.",
           "Andrew Leach; Molecular Modelling \u2013 Principles and Applications, 2nd Ed. Prentice Hall, 2001."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2033,10 +1800,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Classification of fluid behaviour and types of non-Newtonian fluids and their mathematical model representation",
           "Rheometry for non-Newtonian fluids: capillary, rotational, normal stress, controlled stress, yield stress rheometers",
@@ -2049,9 +1813,7 @@
           "McCabe W., Smith J., Harriott P., Unit Operations of Chemical Engineering (7e), McGraw Hill Education, 2017.",
           "Carreau P. J., DeKee D. C. R., Chhabra R. P., Rheology of Polymeric Systems: Principles and Applications, Hanser Publishers, 1997."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2063,10 +1825,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "General introduction \u2013 Economics and future prospects of petrochemicals \u2013 Energy crisis and petrochemical industry \u2013 Sources and classification of petrochemicals",
           "First generation petrochemicals \u2013 Alkanes \u2013 Alkenes and alkynes \u2013 BTX aromatics \u2013 Diene base petrochemicals",
@@ -2078,9 +1837,7 @@
           "B K Bhaskar rao, A text on Petrochemicals, Khanna Publishers (5e), 2015",
           "Saikat Mitra and Om Prakash Gupta, Elements of Petrochemical Engineering, Khanna Publishing House, 2017"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2092,10 +1849,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fundamental statistical analysis, Simple regression analysis, Multiple regression analysis, Parameter estimation, grey model, black box model, Statistical properties of linear regression",
           "Analysis of variance, Determine model adequacy, Statistical inferences based on multivariate linear regression models, Weighted least squares",
@@ -2109,9 +1863,7 @@
           "Montgomery D.C. and Runger G.C., Applied Statistics and Probability for Engineers, 1994",
           "Box G.E.P., Hunter W.G. and Hunter J.S., Statistics for Experimenters, John Wiley & Sons, 1978."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2123,10 +1875,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Functions and Elements of measuring instruments: Static and Dynamic characteristics, Errors in measuring instruments",
           "Temperature measurement: Filled system thermometers, Metallic expansion thermometers, Resistance thermometers, Thermistors, Thermocouples, Radiation pyrometers, Temperature transducers",
@@ -2143,9 +1892,7 @@
           "Donald Eckman, Industrial Instrumentation, Wiley Eastern Limited",
           "S K Singh, Industrial Instrumentation & control, Tata McGraw Hill Educational Private Limited, 2009"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2157,10 +1904,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Preliminary data on projects",
           "Process engineering",
@@ -2188,9 +1932,7 @@
           "Peters M. S, Klaus D. T., Ronald E. W., Plant Design and Economics for Chemical Engineers, McGraw- Hill, 2003",
           "Gavin T. & Ray S., Chemical Engineering Design-Principles, Practice and Economics of Plant and Process Design, Butterworth and Heinemann (Elsevier), 2020"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2202,10 +1944,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Identification and models for linear Deterministic systems: Motivation, Incentives in model developments, Benefits, System identification \u2013Terminology and notation, types of models, System identification procedure. Modelling example using MATLAB.",
           "Mathematical description of process models: Definition of model, classification of models, Input excitation types, Criteria for input excitation.",
@@ -2223,9 +1962,7 @@
           "Harmon Ray W., Babatunde Ogunnaike. Process dynamics, modelling and control, Oxford University press. 1994",
           "Ogata K., Discrete Time Control systems (2e), Pearson Education, 2005."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2237,10 +1974,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Spectroscopic methods of analysis: Properties of EMR, General features of spectroscopy, types of molecular spectra, Interaction of EMR with matter, Instrumentation, Applications, Theory, Instrumentation and applications of Microwave, Raman, Infrared, UV-Visible, NMR spectroscopic techniques",
           "Chromatographic Techniques: General concepts, Classification, Principles, Experimental techniques of CC, HPLC, TLC, GC and their applications",
@@ -2251,9 +1985,7 @@
           "D.A. Skoog, D.M. West and F.J. Holler, Fundamentals of analytical Chemistry, 5th Edn, Saunders college Publishing, Philadelphia, 1988",
           "Vogel's Textbook of Quantitative Chemical Analysis, GH Jeffery, John Wiley & Sons Inc, 5th Edn, 1989"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2265,10 +1997,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Symbiosis between man and environment",
           "Nutrient and hydrologic cycles",
@@ -2296,9 +2025,7 @@
           "Noel De Nevers, Air pollution Control Engineering, (2e), McGraw-Hill, 1999",
           "M etcalf and Eddy, Wastewater Engineering: Treatment and Reuse, (2e), McGraw-Hill, 2002"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2310,10 +2037,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Safety in plants: Hazard analysis, damage minimization, fires, fire extinguishers, handling, contamination removal, reduction methods, personal protective devices, Plant and personal safety",
           "Pressure vessels, handling and transportations of liquids and gases under high pressure, explosive chemicals and handling",
@@ -2328,9 +2052,7 @@
           "Muir G.D, Hazards in Chemical Laboratory, (2e), The Chemical Society, London, 2nd edition",
           "Handley W., Industrial Safety Handbook, McGraw-Hill Companies; 2nd Revised edition"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 4,
@@ -2342,9 +2064,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Water demand per capita",
           "drinking water standards (BIS and WHO)",
@@ -2383,10 +2103,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Overview and history of the petroleum industry \u2013 Petroleum reserves, production and consumption statistics of the world",
           "Crude oil \u2013 Origin, exploration techniques, drilling operations and components, crude oil composition, classification and properties",
@@ -2403,9 +2120,7 @@
           "L. P. Dake, Fundamental of Reservoir Engineering, Elsevier, 2011",
           "Wilbur L. Nelson, Petroleum Refining Engineering, (4e), McGraw-Hill, 1990"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       }
     ]
   }

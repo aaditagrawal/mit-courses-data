@@ -12,10 +12,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Systems of Linear Equations",
           "Matrices",
@@ -71,10 +68,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Structure, operation, I-V Characteristics of MOSFET",
           "Large-Signal and Small-Signal Model, PMOS Transistor",
@@ -92,9 +86,7 @@
           "R. L. Boylestad, L. Nashelsky, \u201cElectronic Devices and Circuit Theory\u201d, 2009",
           "J. Millman, C. C. Halkias, Chetan. D. Parekh, \u201cIntegrated Electronics\u201d, McGraw Hill, 2010"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -106,10 +98,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Network equations",
           "Mesh and nodal analysis",
@@ -127,9 +116,7 @@
           "Millman, H. Taub, \u201cPulse, digital and switching waveforms\u201d, 3nd Edition, McGraw Hill, 2017",
           "Joseph Edminister, \u201cElectric Circuits\u201d, Schaum's Series, McGraw Hill, 2018"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "code": "ECE 2123",
@@ -140,10 +127,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Continuous time (CT) and discrete time (DT) signals",
           "Representation and classification of Signals",
@@ -178,9 +162,7 @@
           "Michael J. Roberts, \u201cFundamentals of Signals and Systems\u201d, First Edition, Tata McGraw Hill Publishing Company Limited, 2007",
           "Rodger E. Ziemer, William H. Tranter D. Ronald Fannin, \u201cSignals and Systems\u201d, Fourth Edition, Pearson Education, 2004"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -192,10 +174,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Logic Design Fundamentals",
           "Review of logic minimization techniques",
@@ -212,9 +191,7 @@
           "Samir Palnitkar, \u201cVerilog HDL: A Guide to Digital Design and Synthesis,\u201d Prentice Hall PTR, 2003.",
           "Charles Roth, Lizy Kurian John, ByeongKil Lee, \u201cDigital System Design Using Verilog\u201d, 1st Edition, 2016."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -226,10 +203,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Review of Electrostatics and Magneto statics: Coordinate system and vectors, Curl and Divergence, Divergence theorem and Stokes theorem in the context of electromagnetics",
           "Uniform Plane Waves: Maxwell's equations, Electromagnetic wave propagation",
@@ -244,9 +218,7 @@
           "Plonus M. A, \u201cApplied Electromagnetics\u201d, McGraw Hill, 1988",
           "Edminister J. A, \u201cElectromagnetics\u201d, 2nd Edition, Schaum's Outline Series, Tata McGraw Hill, 2006"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -258,10 +230,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "TTL IC specifications & Implementation of Boolean functions",
           "Code Conversion Circuits, Arithmetic circuits",
@@ -280,9 +249,7 @@
           "ZviKohavi, \u201cSwitching and Finite Automata Theory\u201d, Tata Mc Graw Hill, second edition, 2008.",
           "C.H.Roth, \u201cFundamentals of Logic Design\u201d, Thomson, 2000."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 4,
@@ -294,10 +261,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "To apply various network theorems on the given circuits and analyze",
           "verify the diode rectifier circuits",
@@ -323,10 +287,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Construction of a Probability Space",
           "Discrete and Continuous Probabilities",
@@ -357,9 +318,7 @@
           "P L Meyer, \u201cIntroductory Probability and Statistical Applications\u201d, Addison Wiley, 2000",
           "Medhi. J. \u201cStochastic Processes\u201d, Wiley Eastern, 2022"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "code": "ECE 2221",
@@ -370,10 +329,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "MOS Transistor",
           "CMOS logic",
@@ -408,9 +364,7 @@
           "Amar Mukherjee, \u201cIntroduction to NMOS & CMOS VLSI systems Design\u201d, Prentice Hall, 1986.",
           "https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -422,10 +376,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Discrete Fourier transform(DFT), properties, linear filtering",
           "efficient computation of DFT, FFT algorithm, Goertzel algorithm",
@@ -442,9 +393,7 @@
           "Rabiner L. R, Gold D. J, \u201cTheory and applications of digital signal processing\u201d, Prentice Hall, India, 1998",
           "SanjitMitra K, \u201cDigital Signal Processing - A computer based approach\u201d, TMH, 2007"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -456,10 +405,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Operational Amplifier",
           "Linear applications of operational amplifier, instrumentation amplifier and bridge amplifier",
@@ -475,9 +421,7 @@
           "Stanley William D, \u201cOperational Amplifiers with Linear Integrated Circuits\u201d, Prentice Hall, 2004",
           "Sedra A S and Smith K C, \u201cMicoelectronics circuits- Theory and applications\u201d, Oxford publishers, 7th Edition, 2017."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -489,10 +433,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Waveguide tees, Magic tees, Hybrid rings, Corners, Bends, and Twists",
           "S- Matrix. Directional couplers \u2013 Two hole directional couplers, S-matrix of a directional coupler, Circulators, and isolators",
@@ -510,9 +451,7 @@
           "G. S. N. Raju. \u201cAntennas and Wave Propagation\u201d Pearson Education, 2006.",
           "K.D. Prasad. \u201cAntennas & Wave Propagation\u201d Satya Prakashan, Tech India Publications, New Delhi, 2001."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -524,10 +463,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Block diagrams and signal flow graphs: Transfer function",
           "System modeling: Modeling of electrical and mechanical systems (translational & rotational), system equations, and its electrical equivalent (analogous) networks",
@@ -545,9 +481,7 @@
           "Norman.S.Nise, \u201cControl Systems Engineering\u201d, 8th edition Wiley 2019",
           "Dr.Shailendra Jain, \u201cModeling and Simulation using MATLAB & Simulink\u201d, 2nd Edition, Wiley, 2011"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -559,10 +493,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Introduction to VIVADO tools",
           "Logic simulation of combinational and sequential circuits",
@@ -580,9 +511,7 @@
           "Pucknell D. A. and EshraghianK.,\u201cBasic VLSI Design\u201d, PHI publication, 2009.",
           "edaplayground.com"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 5,
@@ -594,10 +523,7 @@
           "p": 6,
           "c": 2
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Design and test Mathematical operations of OPAMP",
           "Precision rectifier using OPAMP",
@@ -615,9 +541,7 @@
           "Ramakant A. Gayakwad, \u201cOp-Amps and Linear Integrated Circuits\u201d, Prentice Hall of India, 2000",
           "Lab VIEW user manual"
         ],
-        "flags": [
-          "credits_discrepancy"
-        ]
+        "flags": ["credits_discrepancy"]
       },
       {
         "sem": null,
@@ -629,10 +553,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Time Value of money",
           "Economic Analysis of Alternatives",
@@ -649,9 +570,7 @@
           "Blank Leland T. and Tarquin Anthony J., Engineering Economy, McGraw Hill, Delhi, 2002",
           "Prasanna Chandra, Fundamentals of Financial Management, Tata McGraw Hill, Delhi, 2006"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 3,
@@ -663,10 +582,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Random Process, Random Variables and Distributions used in Communication Systems",
           "Analog Modulation Schemes: Analytical concepts and the concept of Noise",
@@ -700,10 +616,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Overview of computing systems: ALU, registers, control unit, memory unit",
           "The ARM architecture and features",
@@ -737,10 +650,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Types of CNs",
           "Network Hardware",
@@ -764,9 +674,7 @@
           "Jean Walrand & Pravin Varaiya, \u201cHigh Performance Communication Networks\u201d, 2nd Edition, Morgan Kauffman, 2000",
           "https://nptel.ac.in/courses/106105183"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 3,
@@ -778,10 +686,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Computer Architecture and Organization",
           "Processor Design",
@@ -826,10 +731,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to testing and testability: Need for testing, digital and analog testing",
           "Physical Faults and their modeling",
@@ -851,9 +753,7 @@
           "P.K. Lala, \"Fault Tolerant & Fault Testable hardware Design\", BS Publications, 1998",
           "Stanley L. Hurst, \u201cVLSI Testing: digital and mixed analogue digital techniques\u201d Pub:Inspec/IEE, 1999"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 3,
@@ -865,10 +765,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Overview of satellite communication systems",
           "Satellite Orbits: Kepler's Laws, Definitions of terms for earth-orbiting satellites, Orbital effects on satellite's performance, Launching Procedures",
@@ -886,9 +783,7 @@
           "M.Richharia, \u201cSatellite communication systems-Design Principles\u201d, Macmillan 2003",
           "Anil K. Maini, Varsha Agrawal, \u201cSatellite communications\u201d, Wiley India Pvt. Ltd., 2015"
         ],
-        "flags": [
-          "semester_inferred_from_course_code"
-        ]
+        "flags": ["semester_inferred_from_course_code"]
       },
       {
         "sem": 3,
@@ -900,10 +795,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Principles for Electric Vehicles: EV Industry, EV Technology and Automotive Revolution, Electrical Engineering for EV, Battery Technology",
           "Control system for Electric Vehicles: Motor and Controller Systems, EV Numerical Calculations, EV Charging Infrastructure, Practical session - Well-to-wheel analysis of EV architecture",
@@ -920,9 +812,7 @@
           "Chris Mi and M. Abul Masrur, \"Hybrid electric Vehicles, Principles and Applications with Practical perspectives\", WILEY, 2nd Ed, 2017, ISBN: 978-1-118-97054-6",
           "\"Introduction to Electric Vehicles\" - offered by IIT Delhi on NPTEL Link: https://archive.nptel.ac.in/courses/108/106/108106170/"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 3,
@@ -934,10 +824,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Time domain and frequency domain analysis of signals and systems",
           "Analysis in z-domain",
@@ -963,10 +850,7 @@
           "p": 6,
           "c": 2
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Assembly Programming for arithmetic, logical and data transfer operations",
           "Assembly as well as C Programming for interfacing I/O devices like Switches, Keypad, display devices, Data converters, and Motor controllers",
@@ -991,10 +875,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction to Business, Industrial Business, Classification of Industries and Job Opportunities (referring the industries visiting our campus)",
           "Functions of Managers/Management and time spent on various managerial functions by managers at various levels, two characteristics of managerial functions, Efficiency and Effectiveness",
@@ -1019,10 +900,7 @@
           "Poornima M Charantimath, \u201cEntrepreneurship Development\u201d, Pearson Education, 2006",
           "S S Khanka, \u201cEntrepreneurship Development\u201d, S Chand & Co., 2007"
         ],
-        "flags": [
-          "missing_sem",
-          "department_mismatch"
-        ]
+        "flags": ["missing_sem", "department_mismatch"]
       },
       {
         "sem": 3,
@@ -1034,10 +912,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Path Loss and Shadowing",
           "Empirical Path Loss Models",
@@ -1081,10 +956,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basics of SoC",
           "Constituents of SoC - Life cycle",
@@ -1133,10 +1005,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "RF systems - basic architectures",
           "Parallel RLC tank",
@@ -1164,9 +1033,7 @@
           "Frank Ellinger, \u201cRadio frequency integrated circuits and technologies\u201d by Springer Science & Business Media, 2008",
           "J\u00f6rg Ebersp\u00e4cher, Christian Bettstetter, Hans-Joerg V\u00f6gel, Christian Hartmann \u201cGSM \u2013Architecture, Protocols and Services\u201d, Wiley Telecom, 2009"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1178,10 +1045,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Information, Entropy of discrete memoryless source and memory sources",
           "Instantaneous and uniquely decodable codes, Kraft's inequality, compact codes",
@@ -1201,23 +1065,38 @@
           "Haykin S, \u201cDigital Communications\u201d, Wiley, 2008",
           "Khalid Sayood, \u201cIntroduction to Data Compression\u201d, 3rd Edition, MK Publishers, 2012"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "code": "ELE 3225",
-        "title": "Extraction Failed",
+        "title": "AUTOMOTIVE MECHANICS FOR ELECTRIC VEHICLES",
         "sem": null,
-        "credits": null,
-        "tags": [
-          "error"
+        "credits": {
+          "l": 3,
+          "t": 0,
+          "p": 0,
+          "c": 3
+        },
+        "tags": ["elective", "theory"],
+        "syllabus": [
+          "Automotive Engineering & Vehicle Dynamics: Vehicle Dynamics Fundamentals, Tire Mechanics and Dynamics, Suspension Systems, Braking Systems, Aerodynamics, Powertrain Systems, Vehicle Stability Control, Vehicle Safety, Vehicle Dynamics Simulation, Electric and Hybrid Vehicle Dynamics, Practical session - EV Dynamics & calculations.",
+          "Sketching for Automotive EV Design [Software-based]: Introduction to Automotive Sketching Software, Overview of Vehicle Design Process and Automotive Sketching, Basic Sketching Techniques and Tools in the Software, Sketching Car Exteriors, Interiors and Details, Creating Different Views and Angles of the Vehicle, Rendering and Presenting the Final Sketches, Understanding Proportions, Perspectives and Shapes in Automotive Sketching, Creating Sketches for Different Vehicle Types (Sedans, SUVs, and Trucks), Tips and Tricks for Automotive Sketching in the Software.",
+          "Advanced EV Modelling Using SolidWorks Tool [Software-based]: Introduction to EV Technology and Its Benefits, Basic Vehicle Design Principles, Design and Modelling of Chassis and Frame, Suspension Systems, Design and Modelling of Braking and Steering Systems, Design and Modelling of Electrical Components for EVs, Battery Pack Design and Modelling for 2, 3 and 4 Wheelers, Motor and Drivetrain Design and Modelling for 2, 3 and 4 Wheelers, Design and Modelling of Wheels and Tires for 2, 3 and 4 Wheelers, Testing and Simulation of Vehicle Performance Using Solid Works, Design for Manufacturability and Assembly Considerations, Sustainability and Environmental Impact Considerations in EV Design, Practical session - EV hardware components walkthrough.",
+          "Multibody Dynamics with MSC Adams [Software-based]: Introduction to MSC Adams Software and Its Capabilities, Setting Up the Modelling Environment in MSC Adams, Multi-body Dynamics Principles and Application to Vehicle Systems Modelling, Vehicle Suspension Systems Modelling, Vehicle Steering Systems Modelling, Vehicle Braking Systems Modelling, Practical session - EV Component design & modeling.",
+          "EV Analysis with MSC Adams (Software-based): Tire Force and Characteristics Modelling, Vehicle Dynamics Analysis Including Simulating Ride and Handling, Vehicle Stability and Rollover Events, Optimisation Techniques for Vehicle Designs Using MSC Adams, Integration of MSC Adams Models with Other Software Tools for System-level Simulations and Analysis, Practical session - EV body design analysis."
         ],
-        "syllabus": [],
-        "references": [],
-        "flags": [
-          "extraction_failed"
-        ]
+        "references": [
+          "1. James Larminie and John Lowry, “Electric Vehicle Technology Explained”, Wiley, 2nd ed, 2012, ISBN: 978-1-119-94273-3.",
+          "2. Du, H., Cao, D., & Zhang, H. (n.d.). “Modelling, Dynamics, and Control of Electrified Vehicles”, Woodhead Publishing, 2017, ISBN-13: 9780128127865.",
+          "3. Zaman N., “Automotive Electronics Design Fundamentals”, Springer.",
+          "4. Gianfranco Pistoia, “Electric & Hybrid Vehicles”, Elsevier, 1st ed, 2010, ISBN: 9780444638250.",
+          "5. Chau, K. T., “Electric Vehicle Machines and Drives: Design, Analysis and Application”, John Wiley and Sons, Inc., 2015, ISBN-13: 9781118752524.",
+          "6. Ehsani, Mehrdad, “Modern Electric, Hybrid Electric, and Fuel Cell Vehicles”, CRC, 2019, ISBN-13: 9780367137465.",
+          "7. Hughes, Austin, “Electric Motors and Drives”, Newnes (an Imprint of Butterworth‑Heinemann Ltd), 2019, ISBN-13: 9780081026151.",
+          "8. Chris Ni and M. Abul Masrur, “Hybrid electric Vehicles, Principles and Applications”, WILEY, 2nd Ed, 2017, ISBN: 978-1-118-97054-6.",
+          "9. “Introduction to Electric Vehicles” - offered by IIT Delhi on NPTEL Link: https://archive.nptel.ac.in/courses/108/106/108106170/"
+        ],
+        "flags": []
       },
       {
         "sem": null,
@@ -1229,10 +1108,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "To simulate a three point-to-point network with duplex links between them.",
           "To simulate the transmission of ping message over a network topology and find the number of packets dropped due to congestion.",
@@ -1254,9 +1130,7 @@
           "Jean Walrand & Pravin Varaiya, \u201cHigh Performance Communication Networks\u201d, 2nd Edition, Morgan Kauffman, 2000",
           "https://archive.nptel.ac.in/courses/106/105/106105160/"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 7,
@@ -1268,10 +1142,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Design and Analysis of Micro strip single band and multi band patch antenna using HFSS",
           "To study and Characterize the Radiation pattern for Micro strip antenna",
@@ -1298,9 +1169,7 @@
         "code": "ECE 4291",
         "title": "INDUSTRIAL TRAINING",
         "credits": null,
-        "tags": [
-          "core"
-        ],
+        "tags": ["core"],
         "syllabus": [
           "Undergo industrial training for a minimum period of 4 weeks",
           "Training may be taken in a phased manner during the vacation starting from the end of third semester to the end of seventh semester",
@@ -1309,21 +1178,14 @@
           "Include certificates issued by the industry in the report"
         ],
         "references": [],
-        "flags": [
-          "missing_semester",
-          "missing_credits",
-          "missing_references"
-        ]
+        "flags": ["missing_semester", "missing_credits", "missing_references"]
       },
       {
         "sem": null,
         "code": "ECE 4292",
         "title": "PROJECT WORK",
         "credits": null,
-        "tags": [
-          "elective",
-          "lab"
-        ],
+        "tags": ["elective", "lab"],
         "syllabus": [
           "The project work may be carried out in the institution/industry/research laboratory or any other competent institutions.",
           "Duration of the project work shall be a minimum of 16 weeks which may be extended up to 24 weeks.",
@@ -1333,11 +1195,7 @@
           "Student has to make a presentation on the work carried out before the department committee as part of project evaluation."
         ],
         "references": [],
-        "flags": [
-          "missing_semester",
-          "missing_credits",
-          "missing_references"
-        ]
+        "flags": ["missing_semester", "missing_credits", "missing_references"]
       },
       {
         "sem": null,
@@ -1349,10 +1207,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Machine learning basics",
           "Na\u00efve Bayesian Model",
@@ -1389,9 +1244,7 @@
           "Bishop C. M., \u201cPattern Recognition and Machine Learning\u201d, Springer, 2007",
           "Jensen R. and Shen Q. \u201cComputational Intelligence and Feature Selection\u201d: Rough and Fuzzy Approaches, Vol. 8, IEEE Press Series on Computational Intelligence, John Wiley and Sons, 2008"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1403,10 +1256,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Image formation",
           "linear filters and convolution",
@@ -1445,10 +1295,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Embedded systems overview",
           "Embedded Software: Interrupts, interrupt latency, shared data problems, que scheduling, Realtime operating system architecture, Introduction to real time operating system",
@@ -1463,9 +1310,7 @@
           "Shibu K.V,\"Introduction to embedded systems\",McGraw Hill Publication,2013",
           "Raj Kamal,\"Embedded Systems\", 2nd edition,Tata McGrawHill, 2003"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1477,10 +1322,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Demystifying the IoT Paradigm; IoT Protocols and Technologies",
           "Concept of Device-to-Device/Machine-to-Machine Integration",
@@ -1504,9 +1346,7 @@
           "Vahid F, Givargis T., \u201cEmbedded Systems Design\": \u201cA Unified Hardware/Software Introduction\u201d, Wiley Publications, 2000",
           "Axelson J, \u201cParallel Port Complete\u201d, Penram Publications, 1996."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1518,10 +1358,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Multi-rate systems",
           "decimation and interpolation (integer and fractional)",
@@ -1543,9 +1380,7 @@
           "Orfanidis S. J, Optimum Signal Processing, McGraw Hill , NJ, 2007",
           "Oppenheim A.V and Schafer R.W., Digital Signal Processing, PHI Learning, 2008"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 4,
@@ -1557,9 +1392,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Fundamentals of speech: Anatomy and physiology of speech production system, phonetics, types of speech sounds",
           "Time domain analysis of speech: Time dependent processing of speech, pitch period estimation using auto correlation function",
@@ -1576,9 +1409,7 @@
           "Dr. Shaila D. Apte, \u201cSpeech and Audio Processing\u201d, Wiley India, 2012",
           "Lawrence Rabiner, Biing-Hwang Juang, B. Yegnanarayana, \u201cFundamentals of Speech Recognition\u201d, Pearson, 2011 (Fifth Impression)"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1590,10 +1421,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Linking machine learning and communication systems.",
           "Overview of supervised, unsupervised and reinforcement learning.",
@@ -1610,10 +1438,7 @@
           "Krishna Kant Singh, Akansha Singh, KorhanCengiz, Dac-Nhuong Le, \u201cMachine Learning a n d C o g n i t i v e C o m p u t i n g f o r M o b i l e Communications and Wireless Networks\u201d, Wiley, 2 020.",
           "Yoshua Bengio, \u201cLearning Deep Architectures for AI, Foundations and Trends in Machine Learning\u201d, First Edition, Now Publishers Inc, 2009."
         ],
-        "flags": [
-          "missing_sem",
-          "extra_online_resource"
-        ]
+        "flags": ["missing_sem", "extra_online_resource"]
       },
       {
         "sem": null,
@@ -1625,10 +1450,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Challenges in next generation mobile technologies",
           "High Altitude Stratospheric Platform Systems",
@@ -1662,9 +1484,7 @@
           "Samsung 6G white paper \u201c6G:The Next Hyper Connected Experience for All\u201d Samsung Research, 2021",
           "Christopher Cox, \u201cAn Introduction to 5G: The New Radio, 5G Network and Beyond\u201d, Wiley, 2020"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1676,10 +1496,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Light propagation in multimode and single mode fibers",
           "optical impairments",
@@ -1698,9 +1515,7 @@
           "Govind P. Agrawal - Fiber-optic communication systems - Wiley et Sons , 4th edition,2010",
           "R. Ramaswami and K. Sivarajan, Optical Networks: A Practical Perspective, Morgan Kaufmann, 2nd Edition, Elsevier, 2001"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1712,10 +1527,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Orbital Mechanics and Sub systems",
           "Satellite link Design: Uplink and Downlink Design",
@@ -1741,10 +1553,7 @@
           "Terrestrial-\u201cSatellite Communication Networks\u201d: Transceivers Design and Resource Allocation, Springer International Publishing AG 2017, LinlingKuang, Chunxiao Jiang Yi Qian, Jianhua Lu. 2017",
           "VLSI DESIGN"
         ],
-        "flags": [
-          "missing_sem",
-          "incomplete_reference"
-        ]
+        "flags": ["missing_sem", "incomplete_reference"]
       },
       {
         "sem": null,
@@ -1756,10 +1565,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basics of low power VLSI design",
           "Sources of power dissipation in digital integrated circuits",
@@ -1785,9 +1591,7 @@
           "Kaushik Roy, Sharat Prasad, \u201cLow Power CMOS VLSI Circuit Design\u201d, Wiley, 2000",
           "Kiat Seng Yeo, Samir S. Rofail, Wang-Ling Goh, \u201cCMOS/BiCMOS ULSI: Low Voltage, Low Power\u201d, Pearson, 2002"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1799,10 +1603,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to SPICE modelling",
           "SPICE modelling of passive elements and active devices",
@@ -1821,9 +1622,7 @@
           "Nandita Das Gupta and Amitava Das Gupta, \u201cSemiconductor Devices. Modeling and Technology\u201d, PHI, New Delhi, 2004",
           "M.K.Achuthan and K.N. Bhat, \u201cFundamentals of Semiconductor Devices\u201d, Tata McGraw.Hill, New Delhi, 2011"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -1835,10 +1634,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to verification",
           "Developing Verification strategies",
@@ -1860,9 +1656,7 @@
           "Brown S..andVranesic Z., \u201cFundamentals of Digital Logic with VerilogDesign (5e)\u201d, Tata McGraw Hill, 2005",
           "Ciletti M.D., \u201cAdvanced Digital Design with the Verilog HDL\u201d, PHI, 2005"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 4,
@@ -1874,10 +1668,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Integrated circuit design philosophy",
           "Recent trends and challenges in IC design",
@@ -1903,9 +1694,7 @@
           "Sedraans Smith, \u201cMicroelectronic Circuits\u201d, Oxford Press, 2005.",
           "Gabriel A. Rincon-Mora, \u201cAnalog IC Design with Low-Dropout Regulators\u201d, McGraw-Hill Education, 2009."
         ],
-        "flags": [
-          "sem_inferred"
-        ]
+        "flags": ["sem_inferred"]
       },
       {
         "sem": null,
@@ -1917,10 +1706,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction to 4G/LTE",
           "Introduction to 5G networks",
@@ -1948,9 +1734,7 @@
           "https://onestore.nokia.com/asset/210692?_ga=2.255171144",
           "https://onlinecourses.nptel.ac.in/noc22_ee56/preview"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -1962,10 +1746,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Fundamental of Antenna: Antenna Introduction",
           "Basic Parameters of Antenna",
@@ -1997,9 +1778,7 @@
           "Kumar, Sumit, et al. \"Fifth generation antennas: A comprehensive review of design and performance enhancement techniques.\" IEEE Access 8 (2020): 163568-163593.",
           "Sherine Mohamed Abd El-Kader, Hanan Hussein : \u201cFundamental and Supportive Technologies for 5G Mobile Networks', IGI Global,2020"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2011,10 +1790,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Soft, Quantum, DNA Computing, Genetic algorithms, PSO, ACO, Spiking Neural Networks, Self-Organizing Maps, Deep Learning: CNN, Immune System, Random Forest, Adleman's experiment, Universal DNA Computers",
           "Reconfigurable Hardware: FPGAs, Evolutionary hardware Design and Application: Implementation of evolutionary clustering",
@@ -2031,9 +1807,7 @@
           "Xuewei Li, Jinpei Wu, Xueyan Li \u2013'Theory of Practical Cellular Automaton' Springer Singapore, 2018 (First edition)",
           "https://mathworld.wolfram.com/CellularAutomaton.html"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2045,10 +1819,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Historical Background of MEMS, MEMS Transduction and Actuation Techniques",
           "Micro sensing for MEMS",
@@ -2070,9 +1841,7 @@
           "Marc Madou, \u201cFundamentals of Microfabrication\u201d by, CRC Press, 1997",
           "Gregory Kovacs, \u201cMicromachined Transducers Sourcebook\u201d WCB McGraw-Hill, Boston, 1998"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2084,10 +1853,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Mixed-Signal Design (MSD): Basic building blocks: data converters, continuous-time and sampled-data filters",
           "Filters: Sample and hold (S/H) circuits, MOS switches, OTA-C approach",
@@ -2104,9 +1870,7 @@
           "P. V. Anand Mohan, Current-mode VLSI Analog Filters: Design and Applications, Birkh\u00e4user; 3rd edition, 2012",
           "T Deliyanis, Y Sun and J K Fidler, Continuous-Time Active Filter Design, CRC Press, 1999"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2118,10 +1882,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Data analytics methods and representation",
           "Data Gathering and Preparation: Data Formats, Parsing and Transformation, Scalability and Real-time Issues; Data Cleaning",
@@ -2141,9 +1902,7 @@
           "Jules J., Berman D., Principles of Big Data: Preparing, Sharing, and Analyzing Complex Information, (2e), 2013.",
           "Matthew Ward and Georges Grinstein, Interactive Data Visualization: Foundations, Techniques, and Applications, (2e), A K Peters/CRC Press, 2015."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2155,10 +1914,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Data Structures \u2013 Introduction to Data Structures, abstract data types, Time and space complexity",
           "Linear list \u2013 singly linked, circular linked list, Double linked list, Applications of linked lists",
@@ -2176,9 +1932,7 @@
           "Michael T. Goodrich, Roberto Tamassia, David Mount, \u201cData Structures and Algorithms in C++\u201d, John Wiley & Sons, 2011",
           "https://www.javatpoint.com/cpp-installation"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 4,
@@ -2190,10 +1944,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Transducers, Generalized measurement system, functional description of measuring systems",
           "Generalized performance characteristics",
@@ -2210,9 +1961,7 @@
           "Doeblin E.O., \u201cMeasurement Systems. Application and Design\u201d, 4th edition, McGraw-Hill, New York, 1996",
           "Khandpur, \u201cHand book of Biomedical Instrumentation\u201d, McGraw Hill, 2003"
         ],
-        "flags": [
-          "sem_inferred_from_course_code"
-        ]
+        "flags": ["sem_inferred_from_course_code"]
       },
       {
         "sem": null,
@@ -2224,10 +1973,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Embedded systems, Advanced processors and controllers; ARM cortex M-processor architecture",
           "The Cortex Microcontroller Software Interface Standard (CMSIS)",
@@ -2250,9 +1996,7 @@
           "Wang K.C., \u201cEmbedded and Real-Time Operating Systems\u201d, Springer, 2017.",
           "Barry R., \u201cMastering the Free RTOS Real Time Kernel \u2013 A Hands on Tutorial Guide, Real Time Engineers LTD., 2016"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2264,9 +2008,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Basics of Embedded Systems",
           "Embedded Programming Concepts: Role of Infinite loop \u2013 Compiling, Linking and locating, Efficient compilation examples \u2013 downloading and debugging \u2013 Emulator and simulator processors \u2013 External peripherals \u2013 Memory testing \u2013 Flash Memory",
@@ -2283,9 +2025,7 @@
           "Michael Barr, \u201cProgramming Embedded Systems in C and C++\u201d, O'Reilly, 2003.",
           "Wang K.C., \u201cEmbedded and Real-Time Operating Systems\u201d, Springer, 2017."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2297,10 +2037,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Prime Number theory",
           "Fields",
@@ -2322,9 +2059,7 @@
           "Blahut, R. E., \u201cTheory and Practice of Error Control Codes\u201d, Addison-Wesley Pub. Co., 1983",
           "https://archive.nptel.ac.in/courses/117/106/108106137/"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2336,10 +2071,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction to Flexible Electronics: Background and history, trends, emerging technologies",
           "Basic of disordered materials: Basic concepts, atomic and electronic structure, electronic properties",
@@ -2356,9 +2088,7 @@
           "Sanjiv Sambandan, CIRCUIT DESIGN Techniques for Non-Crystalline Semiconductors, CRC Press Taylor & Francis Group, 2013",
           "Edward Sazonov, Michael R. Newman, \u201cWearable Sensors: Fundamentals, Implementation and Applications\u201d, 2014, 1st Edition, Academic Press, Cambridge"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2370,10 +2100,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Latest Machine Learning innovations and projects",
           "Classical ML algorithms",
@@ -2423,9 +2150,7 @@
           "https://cloud.google.com/tpu/docs/tpus",
           "https://viso.ai/edge-ai/google-coral/"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2437,10 +2162,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Monolithic Microwave Integrated Circuits (MMICs)",
           "planar transmission lines for MICs",
@@ -2466,9 +2188,7 @@
           "Microwave Integrated Circuits, By Ivan Kneppo, J. Fabian, P. Bezousek,1994",
           "SDL link: https://archive.nptel.ac.in/courses/117/105/117105138/"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2480,10 +2200,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Computer architecture Interrupts, Modern computer system specifications",
           "Network Interface, Device drivers, Input/output System (BIOS) and Unified Extensible Firmware Interface (UEFI) firmware's, Multiprocessing",
@@ -2498,9 +2215,7 @@
           "David A. Patterson and John L. Hennessy, \u201cComputer Organization and Design \u2013The Hardware / Software Interface\u201d, 4th Edition, Morgan Kaufmann, Elsevier, 2009",
           "John L. Hennessy and David A. Patterson, \u201cComputer Architecture \u2013 A Quantitative Approach\u201d, 5th Edition, Morgan Kaufmann, Elsevier, 2011"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2512,10 +2227,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Geometric primitives",
           "2D/3D transformations",
@@ -2542,10 +2254,7 @@
           "https://in.mathworks.com/discovery/stereo-vision.html",
           "https://in.mathworks.com/help/vision/ug/structure-from-motion.html"
         ],
-        "flags": [
-          "missing_sem",
-          "unclear_course_type"
-        ]
+        "flags": ["missing_sem", "unclear_course_type"]
       },
       {
         "sem": null,
@@ -2557,10 +2266,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Quantum Electronic devices \u2013 Quantum Dot array \u2013 Quantum computer- Bit and Qubit",
           "Carbon Nanotube based logic gates; tunneling devices- Tunneling Diode \u2013 Resonant Tunneling Diode \u2013 Basics Logic Circuits \u2013 Single Electron Transistor (SET)",
@@ -2575,10 +2281,7 @@
           "H. Meixner, Sensors: Micro & Nanosensors, Sensor Market trends (Part 1&2) by",
           "M Feldman, \u201cNanolithography:The Art of Fabricating Nanoelectronic and Nanophotonic Devices and Systems\u201d, Woodhead Publishing Series in Electronic and Optical Materials 2014"
         ],
-        "flags": [
-          "missing_semester",
-          "incomplete_reference_4"
-        ]
+        "flags": ["missing_semester", "incomplete_reference_4"]
       },
       {
         "sem": null,
@@ -2590,10 +2293,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Biomimetics",
           "Individuals, Entities and agents",
@@ -2632,9 +2332,7 @@
           "Marco Dorrigo, Thomas Stutzle,\" Ant Colony Optimization\", PHI,2005",
           "Martyn Amos- Natural Computing Series- 'Theoretical and Experimental DNA Computation' [1 ed.]- Springer 2005. https://computer.howstuffworks.com/dna-computer.html"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2646,10 +2344,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Signaling and operation of Biological neurons, neuron models",
@@ -2667,9 +2362,7 @@
           "Eric Kandel, James Schwartz, Thomas Jessell, Steven Siegelbaum, A.J. Hudspeth, \u201cPrinciples of neural science\u201d, McGraw Hill 2012, ISBN 0071390111",
           "Leslie S. Smith and Alister Hamilton, \"Neuromorphic systems\", World Science, 1998"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2681,10 +2374,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Prime Numbers theories & Algorithm",
           "Congruence",
@@ -2710,9 +2400,7 @@
           "William Stallings, \u201cCryptography and Network Security\u201d, 4th edition, Pearson Education, 2005",
           "Henry Beker, Fred Piper, \u201cCipher systems: the protection of communications\u201d Northwood Books, 1982"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 4,
@@ -2724,10 +2412,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Overview of C++",
           "Classes & Objects",
@@ -2757,9 +2442,7 @@
           "Deitel P.J., Deitel H.M., \u201cC++ for Programmers\u201d, Pearson Education, 2009.",
           "Sourav Sahay, \"Object oriented programming with C++\", Oxford University press, 2006."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2771,10 +2454,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Optical Wireless Communication",
           "Optical Devices",
@@ -2793,9 +2473,7 @@
           "O. J. Bandele, P. N. Desai, M. S. Woolfson, A. J. Phillips, \u201cSaturation in Cascaded Optical Amplifier Free-Space Optical Communication Systems\u201d, IET Optoelectronics, vol. 10, no. 3 pp. 71-79, 2016",
           "A. M. Mbah, J. G. Walker, A. J. Phillips, \u201cOutage probability of WDM free-space optical systems affected by turbulence-accentuated interchannel crosstalk\u201d, IET Optoelectronics, vol. 11, no. 3 pp. 91-97, 2016"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -2807,10 +2485,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Electronic system design",
           "Systems approach to Engineering",
@@ -2847,9 +2522,7 @@
           "F. Giudice, G. Rosa, Antonino Risitano, Product Design for the environment - A life cycle approach, Taylor & Francis 2006, ISBN: 08493272",
           "NPTEL Course on \"An introduction to Electronic Systems Packaging\", IISC Bangalore by Professor G.V.Mahesh"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 4,
@@ -2861,10 +2534,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Power Electronics Devices",
           "Controlled rectifiers",
@@ -2882,9 +2552,7 @@
           "Mohan N., Power Electronics Converters, Applications and Design, John Wiley and Sons.INC, 1995",
           "Singh M.D., Power Electronics, Tata McGraw Hill, 2007"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2896,10 +2564,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Maximum Unambiguous Range",
           "Simple form of Radar Equation",
@@ -2939,9 +2604,7 @@
           "Mark A. Richards, James A. Scheer, William A.Holm, \u201cPrinciples of Modern Radar: Basic Principles, SciTech Publishing Inc, 2013.",
           "Hofmann-Wellenhof, B., Lichtenegger, H., Verlag Wien, Collins, J \u201cGlobal Positioning System Theory and Practice\u201d Springer 2001."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -2953,10 +2616,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Energy Bands in Semiconductors",
           "Device modeling basics and charge transport",
@@ -2993,9 +2653,7 @@
           "Tar Fjeldly, Trond Ytterdal and Michael S. Shur \u201cIntroduction to Device Modeling and Circuit Simulation\u201d Wiley-Blackwell, 1997.",
           "Giuseppe Massabrio and Paolo Antognetti \u201cSemiconductor Device Modeling with Spice\u201d Tata McHill, 2010."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -3007,10 +2665,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "The advent of spintronics",
           "Quantum Mechanics of Spin: Pauli Spin Matrices. Spin-orbit interaction, spin polarized drift/diffusion",
@@ -3028,9 +2683,7 @@
           "D. D. Awschalom, R. A. Buhrman, J. M. Daughton, S.V. Molnar, and M.L. Roukes, \u201cSpin Electronics\u201d, Kluwer Academic Publishers, 2004",
           "Suri Manan, \u201cApplications of Emerging Memory Technology\u201d, Springer Series in Advanced Microelectronics, 2020"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -3042,10 +2695,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Digital modulation and spectral efficiency",
           "Direct sequence and frequency hopping spread spectrum principles",
@@ -3062,9 +2712,7 @@
           "R. C. Dixon, \u201cSpread Spectrum Communication\u201d, IEEE press, John Wiley and Sons, 1976.",
           "Sklar B, \u201cDigital Communication Fundamentals and Applications\u201d, Pearson Education, 2001."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -3076,10 +2724,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Boolean algebra, logic functions and their Representations",
           "Optimization of and-or two-level logic networks: N-Dimensional Cube, Karnaugh Map, Prime Implicate, Quine-McCuskey Method",
@@ -3096,9 +2741,7 @@
           "Gary D. Hachtel, Fabio Somenzi , \u201cLogic Synthesis and Verification D.D. Gajski, N.D. Dutt, A.C. Wu and A.Y. Yin, \u201cHigh-level synthesis: introduction to chip and system design\u201d, Kluwer Academic Publishers",
           "Switching Theory and Logic Design-A. Anand Kumar, PHI, 2nd Edition"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -3110,10 +2753,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Time frequency analysis and wavelet transforms, STFT",
           "Continuous wavelet transforms and their properties",
@@ -3131,9 +2771,7 @@
           "Narasimhan S. V., Basumallick N., S. Veena, Introduction to Wavelet Transform: A Signal Processing Approach, Narosa Publishing House, 2012",
           "Vaidyanathan P. P., Multirate Systems and Filter Banks, Pearson, 2012"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -3145,9 +2783,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Material properties and Crystal Growth",
           "Silicon Oxidation, dry and wet oxidation, Deal-Grove Model, Oxide thickness characterization",
@@ -3167,10 +2803,7 @@
           "Zant P. V., Microchip Fabrication, McGraw Hill, 2013",
           "Campbell S., The Science and Engineering of Microelectronic Fabrication, Oxford Press, Cambridge, 2013"
         ],
-        "flags": [
-          "missing_sem",
-          "uncertain_tags"
-        ]
+        "flags": ["missing_sem", "uncertain_tags"]
       },
       {
         "sem": null,
@@ -3182,10 +2815,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Key Enablers for LTE features",
           "Wireless Fundamentals",
@@ -3205,9 +2835,7 @@
           "B. Kumbhani and R. S. Kshetrimayum, \u201cMIMO Wireless Communications over Generalized Fading Channels\u201d, CRC Press, 2017",
           "T. L. Marzetta, E. G. Larsson, H. Yang and H. Q. Ngo, \u201cFundamentals of Massive MIMO\u201d, Cambridge University Press, 2016."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -3219,10 +2847,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Cellular vs Ad hoc Wireless Networks",
           "Applications",
@@ -3253,9 +2878,7 @@
           "Anna Hac \"Wireless Sensor Network Designs\" John Wiley 2003",
           "https://archive.nptel.ac.in/courses/106/105/106105160/"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 4,
@@ -3267,10 +2890,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Microphones, headphones and hearing aids",
           "Loudspeakers, loudspeaker systems",
@@ -3317,10 +2937,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Industrial design",
           "Product life cycle and reliability",
@@ -3352,9 +2969,7 @@
           "https://www.digimat.in/nptel/courses/video/108108031/L01.html",
           "Lecture series on electronic systems packaging"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": null,
@@ -3366,10 +2981,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Model of communication systems and types of electronic communication",
           "Telephone system, signaling tones, DTMF",
@@ -3387,9 +2999,7 @@
           "Keiser G., \u201cOptical Fiber Communication\u201d, McGraw Hill, 1991.",
           "Kennedy G. and Davis B., \u201cElectronic Communication Systems\u201d, Tata McGraw Hill, 1999."
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       },
       {
         "sem": 4,
@@ -3401,10 +3011,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Historical background of MEMS",
           "Introduction to Micromachining, Bulk micromachining, surface micromachining, wafer Bonding, LIGA",
@@ -3427,9 +3034,7 @@
           "WangW., SoperS.A., Bio-MEMS-Technologies and Applications, CRC Press, 2007",
           "Rebeiz G.M., RF MEMS: Theory, Design, and Technology, John Wiley & Sons, 2003"
         ],
-        "flags": [
-          "semester_inferred_from_course_code"
-        ]
+        "flags": ["semester_inferred_from_course_code"]
       },
       {
         "sem": 4,
@@ -3441,10 +3046,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Crystal structure of common materials \u2013 cubic lattice systems",
           "Surface to volume ratio",
@@ -3479,10 +3081,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Transducer review",
           "Automation system",
@@ -3503,9 +3102,7 @@
           "Patrick H. Garrett, \u201cHigh performance Instrumentation and Automation\u201d, CRC Press, Taylor & Francis Group, 2005",
           "D. Patranabis, \u201cSensors and Transducers\u201d, PHI Learning Private Limited, 2004"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": 4,
@@ -3517,10 +3114,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Computational Intelligence",
           "Historical views of Computational Intelligence",
@@ -3538,9 +3132,7 @@
           "A llen D.T and Shonnard D.R, \u201cSustainable engineering, Concepts, Design and case studies\u201d, Pearson publication, 1st edition,2011.",
           "Qihao Weng , \u201cAn introduction to Contemporary Remote sensing\u201d, McGraw-Hill Publication, 2012."
         ],
-        "flags": [
-          "sem_inferred_from_code"
-        ]
+        "flags": ["sem_inferred_from_code"]
       },
       {
         "sem": null,
@@ -3552,10 +3144,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basics of multimodal signals",
           "Types of signals in real time applications",
@@ -3582,9 +3171,7 @@
           "Rabiner L.R and Schaffer R.W, Digital Processing of Speech Signals, Prentice Hall, NJ, 2007",
           "Thomas F. Quatieri, Discrete Time Speech Signal Processing\u2014Principles and Practice, Pearson Education, Inc., 2004"
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "code": "ECE 4320",
@@ -3595,10 +3182,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Biosensor classification",
           "Main elements in biosensors",
@@ -3637,9 +3221,7 @@
           "Manoj Kumar Ram, Venkat R, Bhethanabolta, \u201cSensors for chemical and biological Applications\u201d, CRC Press, 2017.",
           "C.S Kumar, \u201cNano materials for biosensors\u201d, Wiley \u2013 VCH, 1st Edition, 2007."
         ],
-        "flags": [
-          "missing_semester"
-        ]
+        "flags": ["missing_semester"]
       },
       {
         "sem": null,
@@ -3651,10 +3233,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "A Preliminary Taxonomy for Machine learning in VLSI CAD",
           "Machine learning taxonomy",
@@ -3680,9 +3259,7 @@
           "Gary D. Hachtel, Fabio Somenzi, Logic Synthesis and Verification Algorithm, Kluwer Academic Publication, Boston,2002",
           "M.J.S.Smith , Application Specific ICs, Addison Wesley,2002"
         ],
-        "flags": [
-          "missing_sem"
-        ]
+        "flags": ["missing_sem"]
       }
     ]
   }
