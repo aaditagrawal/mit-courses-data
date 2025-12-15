@@ -11,7 +11,7 @@ export default function Home() {
       <div className="fixed top-6 right-6 z-50">
         <ModeToggle />
       </div>
-      
+
       <div className="z-10 w-full max-w-3xl flex flex-col items-center gap-8 text-center animate-in fade-in zoom-in duration-700 slide-in-from-bottom-5">
 
         <div className="space-y-4">
@@ -29,6 +29,23 @@ export default function Home() {
             Press <kbd className="border rounded px-1">Ctrl</kbd> + <kbd className="border rounded px-1">K</kbd> to search
           </p>
         </div>
+
+        {/* Explore Graph Link */}
+        <a
+          href="/explore"
+          className="group inline-flex items-center gap-2 px-4 py-2 bg-secondary/50 hover:bg-secondary border border-border/50 rounded-lg text-sm font-mono text-muted-foreground hover:text-foreground transition-all duration-300"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="opacity-60 group-hover:opacity-100 transition-opacity">
+            <circle cx="12" cy="12" r="2" />
+            <circle cx="6" cy="6" r="2" />
+            <circle cx="18" cy="6" r="2" />
+            <circle cx="6" cy="18" r="2" />
+            <circle cx="18" cy="18" r="2" />
+            <path d="M12 10V8M12 14v2M10 12H8M14 12h2M7.5 7.5 10 10M14 14l2.5 2.5M7.5 16.5 10 14M14 10l2.5-2.5" />
+          </svg>
+          <span>Explore Graph</span>
+          <span className="opacity-0 group-hover:opacity-60 transition-opacity">→</span>
+        </a>
 
         <div className="mt-12 space-y-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm font-mono text-muted-foreground opacity-50 hover:opacity-100 transition-opacity">
@@ -49,13 +66,13 @@ export default function Home() {
               <span>Manipal</span>
             </div>
           </div>
-          
+
           <div className="space-y-4 text-sm text-muted-foreground">
             <div className="p-4 bg-secondary/20 rounded-lg border border-border/50 max-w-md mx-auto">
               <p className="text-sm mb-3 opacity-80">
                 Data has been extracted from curriculum published by Manipal Institute of Technology, Manipal.
               </p>
-              <a 
+              <a
                 href="mailto:aadit.mitmpl2023@learner.manipal.edu?subject=COURSE%20WEBSITE%20BUG%20REPORT&body=Hey!%0A%0AFound%20the%20following%20issues%20in%20the%20site%20data%3A%0A%0ACourse%20Code%3A%0AIssue%20found%3A"
                 className="inline-flex items-center gap-2 text-xs bg-background border border-border/50 px-3 py-2 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
               >
