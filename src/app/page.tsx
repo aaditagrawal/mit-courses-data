@@ -1,11 +1,17 @@
 import { getAllCourses } from '@/lib/courses';
 import { CommandMenu } from '@/components/CommandMenu';
+import { ModeToggle } from '@/components/mode-toggle';
 
 export default function Home() {
   const courses = getAllCourses();
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-6 bg-background text-foreground transition-colors duration-300">
+      {/* Theme toggle in top-right corner */}
+      <div className="fixed top-6 right-6 z-50">
+        <ModeToggle />
+      </div>
+      
       <div className="z-10 w-full max-w-3xl flex flex-col items-center gap-8 text-center animate-in fade-in zoom-in duration-700 slide-in-from-bottom-5">
 
         <div className="space-y-4">
