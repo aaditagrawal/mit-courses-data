@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Course Explorer
+
+A modern course exploration platform built with Next.js, featuring an interactive network graph visualization of course relationships and a clean, responsive UI.
+
+## Features
+
+- Interactive course network visualization
+- Search and explore courses
+- Clean, modern UI with dark mode support
+- Responsive design for all devices
+- Built with Next.js and TypeScript
+
+## Live Demo
+
+The application is live at: [https://courses.coolstuff.work](https://courses.coolstuff.work)
 
 ## Getting Started
 
