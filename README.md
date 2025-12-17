@@ -2,21 +2,84 @@
 
 A modern course exploration platform built with Next.js, featuring an interactive network graph visualization of course relationships and a clean, responsive UI.
 
+## About the Project
+
+Course Explorer is designed to help students and educators visualize and explore course relationships across different academic disciplines. The platform provides an intuitive way to understand course prerequisites, dependencies, and connections through an interactive network graph.
+
 ## Features
 
-- Interactive course network visualization
-- Search and explore courses
-- Clean, modern UI with dark mode support
-- Responsive design for all devices
-- Built with Next.js and TypeScript
+- **Interactive Course Network Visualization**: Explore course relationships through an interactive graph powered by vis-network
+- **Advanced Search**: Quickly find courses using the command menu with fuzzy search capabilities
+- **Course Details**: View comprehensive information about each course including prerequisites and descriptions
+- **Dark/Light Mode**: Toggle between themes for comfortable viewing
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
+- **Modern UI**: Built with Radix UI components and Tailwind CSS for a polished user experience
 
 ## Live Demo
 
 The application is live at: [https://courses.coolstuff.work](https://courses.coolstuff.work)
 
+## Technology Stack
+
+- **Framework**: Next.js 16 with App Router
+- **Language**: TypeScript
+- **UI Components**: Radix UI, shadcn/ui
+- **Styling**: Tailwind CSS
+- **Visualization**: vis-network for course relationship graphs
+- **Icons**: Lucide React
+- **State Management**: React Context API
+- **Deployment**: Vercel
+
+## Project Structure
+
+```
+/
+├── public/                  # Static assets
+├── src/
+│   ├── app/                 # Next.js app routes
+│   ├── components/          # Reusable UI components
+│   ├── lib/                 # Utility functions and types
+│   └── styles/              # Global styles
+├── branch-json/             # Course data in JSON format
+└── ...
+```
+
+## Key Components
+
+### Network Graph
+The interactive network graph visualizes course relationships using force-directed layout. Courses are represented as nodes and relationships as edges, allowing users to explore dependencies and connections.
+
+### Command Menu
+A powerful search interface that allows users to quickly find courses using fuzzy search. The command menu supports keyboard navigation and provides instant results.
+
+### Course Details
+Detailed course information including title, code, description, prerequisites, and related courses. The interface is designed to be clean and easy to navigate.
+
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+ or Bun 1.0+
+- npm, yarn, pnpm, or bun package manager
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/course-web.git
+cd course-web
+
+# Install dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+```
+
+### Running the Development Server
 
 ```bash
 npm run dev
@@ -30,21 +93,99 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+# or
+yarn build
+# or
+pnpm build
+# or
+bun run build
+```
 
-## Learn More
+### Running the Production Server
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm start
+# or
+yarn start
+# or
+pnpm start
+# or
+bun run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Linting
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run lint
+```
 
-## Deploy on Vercel
+### Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project is configured for deployment on Vercel. You can deploy using:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run deploy
+```
+
+## Data Structure
+
+Course data is stored in JSON files in the `branch-json/` directory. Each file represents a different academic branch and contains:
+
+- Course codes
+- Course titles
+- Prerequisites
+- Descriptions
+- Relationships to other courses
+
+## Development Guidelines
+
+### Adding New Courses
+
+1. Create a new JSON file in the `branch-json/` directory
+2. Follow the existing data structure format
+3. Update the course data loader in `src/lib/courses.ts`
+
+### Customizing the UI
+
+- Modify components in the `src/components/` directory
+- Update styles in the `src/styles/` directory
+- Configure theme in `src/components/theme-provider.tsx`
+
+### Adding New Features
+
+1. Create a new branch for your feature
+2. Implement the feature following existing patterns
+3. Add appropriate tests
+4. Update documentation if needed
+5. Submit a pull request
+
+## Contributing
+
+We welcome contributions! Please see our [CONTRIBUTING.md](contributing.md) file for detailed guidelines on how to contribute to this project.
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Contact
+
+For questions or support, please open an issue on the GitHub repository.
+
+## Acknowledgements
+
+- Built with [Next.js](https://nextjs.org)
+- UI components from [Radix UI](https://www.radix-ui.com)
+- Network visualization powered by [vis-network](https://visjs.github.io/vis-network/docs/network/)
+- Icons from [Lucide](https://lucide.dev)
+
+## Future Roadmap
+
+- Add user authentication
+- Implement course bookmarking
+- Add course reviews and ratings
+- Expand course database
+- Add academic planning tools
