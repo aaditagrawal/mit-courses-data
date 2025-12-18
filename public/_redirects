@@ -1,2 +1,0 @@
-# Serve course pages through the placeholder (SPA fallback)
-/course/* /course/_placeholder.html 200

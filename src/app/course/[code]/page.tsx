@@ -10,15 +10,11 @@ interface Props {
     params: Promise<{ code: string }>;
 }
 
-// Disable dynamic params - all routes are pre-generated
-export const dynamicParams = false;
+// Force dynamic SSR - no static generation at build time
+export const dynamic = 'force-dynamic';
 
-// Generate static params for all courses
-export async function generateStaticParams() {
-    const courses = getAllCourses();
-    const uniqueCodes = Array.from(new Set(courses.map(c => c.code))).filter(Boolean);
-    return uniqueCodes.map((code) => ({ code }));
-}
+// Use Edge runtime for Cloudflare Workers
+export const runtime = 'edge';
 
 export default async function CoursePage({ params }: Props) {
     const { code } = await params;
