@@ -1,11 +1,11 @@
 import { getAllCourses } from '@/lib/courses';
 import { CreditStructure } from '@/lib/types';
 import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { ModeToggle } from '@/components/mode-toggle';
-import { MoveLeft, BookOpen, Share2, Printer } from 'lucide-react';
+import { ShareButton, SearchReferenceButton } from '@/components/course-actions';
+import { MoveLeft, BookOpen } from 'lucide-react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
@@ -46,9 +46,7 @@ export default async function CoursePage({ params }: Props) {
                 </Link>
                 <div className="flex items-center gap-2">
                     <ModeToggle />
-                    <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-foreground">
-                        <Share2 className="w-4 h-4" />
-                    </Button>
+                    <ShareButton />
                 </div>
             </nav>
 
@@ -112,8 +110,9 @@ export default async function CoursePage({ params }: Props) {
                                 <h2 className="text-xl font-semibold mb-4">References</h2>
                                 <ul className="grid gap-3">
                                     {course.references.map((ref, i) => (
-                                        <li key={i} className="text-sm p-4 rounded-md bg-secondary/30 border border-transparent hover:border-border transition-colors text-muted-foreground">
-                                            {ref}
+                                        <li key={i} className="text-sm p-4 rounded-md bg-secondary/30 border border-transparent hover:border-border transition-colors text-muted-foreground flex items-center justify-between">
+                                            <span>{ref}</span>
+                                            <SearchReferenceButton reference={ref} />
                                         </li>
                                     ))}
                                 </ul>

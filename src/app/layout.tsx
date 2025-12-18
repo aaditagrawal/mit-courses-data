@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link href="https://cdn.jsdelivr.net/npm/commit-mono@1.143.0/commit-mono.min.css" rel="stylesheet" />
         <script defer src="https://stat.sys256.com/script.js"></script>
