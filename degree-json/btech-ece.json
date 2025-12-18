@@ -1,0 +1,184 @@
+{
+  "degree_metadata": {
+    "title": "B.Tech Electronics and Communication Engineering",
+    "department": "The Department of Electronics and Communication Engineering",
+    "handbook_version": "2025-2026",
+    "total_credits_required": 170
+  },
+  "structure": {
+    "semesters": [
+      {
+        "sem_index": 3,
+        "year": "II",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "MAT 2122",
+          "ECE 2121",
+          "ECE 2122",
+          "ECE 2123",
+          "ECE 2124",
+          "ECE 2125",
+          "ECE 2141",
+          "ECE 2142"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 4,
+        "year": "II",
+        "total_contact_hours": 28,
+        "total_credits": 22,
+        "core_courses": [
+          "MAT 2227",
+          "ECE 2221",
+          "ECE 2222",
+          "ECE 2223",
+          "ECE 2224",
+          "ECE 2225",
+          "ECE 2241",
+          "ECE 2242"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 5,
+        "year": "III",
+        "total_contact_hours": 28,
+        "total_credits": 22,
+        "core_courses": [
+          "HUM 3021",
+          "ECE 3121",
+          "ECE 3122",
+          "ECE 3123",
+          "IPE 4302",
+          "ECE 3141",
+          "ECE 3142"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "FLEX_CORE_1",
+            "label": "Flexible Core - 1 (A1/ B1/ C1/ D1)",
+            "pool_ref": "flexible_core_i"
+          }
+        ]
+      },
+      {
+        "sem_index": 6,
+        "year": "III",
+        "total_contact_hours": 24,
+        "total_credits": 20,
+        "core_courses": ["HUM 3022", "ECE 3221", "ECE 3241", "ECE 3242"],
+        "elective_slots": [
+          {
+            "slot_id": "FLEX_CORE_2",
+            "label": "Flexible Core - 2 (A2/ B2/ C2/ D2)",
+            "pool_ref": "flexible_core_ii"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_1",
+            "label": "Program Elective - I / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_2",
+            "label": "Program Elective - II / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "OPEN_ELECTIVE_2",
+            "label": "Open Elective - 2",
+            "pool_ref": "open_electives"
+          }
+        ]
+      }
+    ],
+    "elective_pools": {
+      "flexible_core_i": ["ECE 3124", "ECE 3125", "ECE 3126", "ELE 3127"],
+      "flexible_core_ii": ["ECE 3222", "ECE 3223", "ECE 3224", "ELE 3225"],
+      "minor_specializations": [
+        {
+          "track_name": "Computational Intelligence",
+          "courses": ["ELE 4409", "ECE 4409", "ELE 4410", "ECE 4410"]
+        },
+        {
+          "track_name": "Embedded Systems",
+          "courses": ["ECE 4411", "ELE 4411", "ECE 4412", "ELE 4412"]
+        },
+        {
+          "track_name": "Signal Processing",
+          "courses": ["ECE 4413", "ELE 4413", "ECE 4414", "ELE 4414"]
+        },
+        {
+          "track_name": "Communication Systems",
+          "courses": ["ECE 4401", "ECE 4402", "ECE 4403", "ECE 4404"]
+        },
+        {
+          "track_name": "VLSI Design",
+          "courses": ["ECE 4405", "ECE 4406", "ECE 4407", "ECE 4408"]
+        }
+      ],
+      "programme_electives": [
+        "ECE 4441",
+        "ECE 4442",
+        "ECE 4443",
+        "ECE 4444",
+        "ECE 4445",
+        "ECE 4446",
+        "ECE 4447",
+        "ECE 4448",
+        "ECE 4449",
+        "ECE 4450",
+        "ECE 4451",
+        "ECE 4452",
+        "ECE 4453",
+        "ECE 4454",
+        "ECE 4455",
+        "ECE 4456",
+        "ECE 4457",
+        "ECE 4458",
+        "ECE 4459",
+        "ECE 4460",
+        "ECE 4461",
+        "ECE 4462",
+        "ECE 4463",
+        "ECE 4464",
+        "ECE 4465",
+        "ECE 4466",
+        "ECE 4467",
+        "ECE 4468",
+        "ECE 4469",
+        "ECE 4470",
+        "ECE 4471",
+        "ECE 4472",
+        "ECE 4473",
+        "ECE 4498"
+      ],
+      "open_electives": [
+        "ECE 4311",
+        "ECE 4312",
+        "ECE 4313",
+        "ECE 4314",
+        "ECE 4315",
+        "ECE 4316",
+        "ECE 4317",
+        "ECE 4318",
+        "ECE 4319",
+        "ECE 4320",
+        "ECE 4321",
+        "ECE 4322",
+        "ECE 4323"
+      ]
+    }
+  },
+  "footnotes": [
+    {
+      "symbol": "*",
+      "text": "Applicable to students who opted for minor specialization"
+    },
+    {
+      "symbol": "**",
+      "text": "Applicable to eligible students who opted for and successfully completed the B Tech – Honours requirements"
+    }
+  ]
+}

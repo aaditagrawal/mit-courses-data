@@ -3,7 +3,6 @@ import { CreditStructure } from '@/lib/types';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { ModeToggle } from '@/components/mode-toggle';
 import { ShareButton, SearchReferenceButton } from '@/components/course-actions';
 import { MoveLeft, BookOpen } from 'lucide-react';
 import Link from 'next/link';
@@ -45,7 +44,6 @@ export default async function CoursePage({ params }: Props) {
                     <span className="font-mono text-xs sm:text-sm">Back to Search</span>
                 </Link>
                 <div className="flex items-center gap-2">
-                    <ModeToggle />
                     <ShareButton />
                 </div>
             </nav>

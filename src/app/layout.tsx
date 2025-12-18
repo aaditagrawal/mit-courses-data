@@ -1,3 +1,5 @@
+import { getAllCourses } from '@/lib/courses';
+import { GlobalLayout } from '@/components/GlobalLayout';
 import type { Metadata } from "next";
 import { Instrument_Sans } from "next/font/google";
 import "./globals.css";
@@ -18,6 +20,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const courses = getAllCourses();
+
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -33,7 +37,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <GlobalLayout courses={courses}>
+            {children}
+          </GlobalLayout>
         </ThemeProvider>
       </body>
     </html>

@@ -1,0 +1,197 @@
+{
+  "degree_metadata": {
+    "title": "B.Tech. Chemical Engineering",
+    "department": "The Department of Chemical Engineering",
+    "handbook_version": "2025-2026",
+    "total_credits_required": 170
+  },
+  "structure": {
+    "semesters": [
+      {
+        "sem_index": 3,
+        "year": "II",
+        "total_contact_hours": 24,
+        "total_credits": 22,
+        "core_courses": [
+          "MAT 2124",
+          "CHE 2121",
+          "CHE 2122",
+          "CHE 2123",
+          "CHE 2124",
+          "CHM 2121",
+          "CHM 2141"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 4,
+        "year": "II",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "MAT 2224",
+          "CHE 2221",
+          "CHE 2222",
+          "CHE 2223",
+          "CHE 2224",
+          "CHE 2225",
+          "CHE 2241",
+          "CHE 2242"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 5,
+        "year": "III",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "HUM 3021",
+          "CHE 3121",
+          "CHE 3122",
+          "CHE 3123",
+          "CHE 3124",
+          "IPE 4302",
+          "CHE 3141",
+          "CHE 3142"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 6,
+        "year": "III",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": ["HUM 3022", "CHE 3241", "CHE 3242"],
+        "elective_slots": [
+          {
+            "slot_id": "FLEX_CORE_1",
+            "label": "Flexible Core - 1 (A1/B1)",
+            "pool_ref": "flexible_core_a_b"
+          },
+          {
+            "slot_id": "FLEX_CORE_2",
+            "label": "Flexible Core - 2 (A2/B2)",
+            "pool_ref": "flexible_core_a_b"
+          },
+          {
+            "slot_id": "PROG_ELEC_I",
+            "label": "Program Elective - I / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELEC_II",
+            "label": "Program Elective - II / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "OPEN_ELEC_2",
+            "label": "Open Elective - 2",
+            "pool_ref": "open_electives"
+          }
+        ]
+      },
+      {
+        "sem_index": 7,
+        "year": "IV",
+        "total_contact_hours": 18,
+        "total_credits": 18,
+        "core_courses": ["CHE 4191"],
+        "elective_slots": [
+          {
+            "slot_id": "PROG_ELEC_III",
+            "label": "Program Elective - III / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELEC_IV",
+            "label": "Program Elective - IV / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELEC_V",
+            "label": "Program Elective - V",
+            "pool_ref": "other_program_electives"
+          },
+          {
+            "slot_id": "PROG_ELEC_VI",
+            "label": "Program Elective - VI",
+            "pool_ref": "other_program_electives"
+          },
+          {
+            "slot_id": "PROG_ELEC_VII",
+            "label": "Program Elective - VII",
+            "pool_ref": "other_program_electives"
+          },
+          {
+            "slot_id": "OPEN_ELEC_3",
+            "label": "Open Elective - 3",
+            "pool_ref": "open_electives"
+          }
+        ]
+      },
+      {
+        "sem_index": 8,
+        "year": "IV",
+        "total_contact_hours": 0,
+        "total_credits": 13,
+        "core_courses": ["CHE 4291", "CHE 4292"],
+        "elective_slots": [
+          {
+            "slot_id": "HONOURS_PROJECT",
+            "label": "Project Work (B.Tech Honours)**",
+            "pool_ref": "honours_requirements"
+          }
+        ]
+      }
+    ],
+    "elective_pools": {
+      "flexible_core_a_b": ["CHE 3221", "CHE 3223", "CHE 3222", "CHE 3224"],
+      "minor_specializations": [
+        {
+          "track_name": "Petroleum Engineering",
+          "courses": ["CHE 4401", "CHE 4402", "CHE 4403", "CHE 4404"]
+        },
+        {
+          "track_name": "Pollution Control Engineering",
+          "courses": ["CHE 4405", "CHE 4406", "CHE 4407", "CHE 4408"]
+        },
+        {
+          "track_name": "Renewable Energy Engineering",
+          "courses": ["CHE 4409", "CHE 4410", "CHE 4411", "CHE 4412"]
+        }
+      ],
+      "other_program_electives": [
+        "CHE 4441",
+        "CHE 4442",
+        "CHE 4443",
+        "CHE 4444",
+        "CHE 4445",
+        "CHE 4446",
+        "CHE 4447",
+        "CHE 4448",
+        "CHE 4449",
+        "CHE 4450",
+        "CHE 4451",
+        "CHE 4452",
+        "CHE 4453",
+        "CHE 4454",
+        "CHE 4455",
+        "CHE 4456",
+        "CHM 4441"
+      ],
+      "open_electives": ["CHE 4311", "CHE 4312", "CHE 4313", "CHE 4314"],
+      "honours_requirements": ["CHE 4293", "CHE ****", "CHE ****", "CHE ****"]
+    }
+  },
+  "footnotes": [
+    {
+      "symbol": "*",
+      "text": "Applicable to students who opted for minor specialization"
+    },
+    {
+      "symbol": "**",
+      "text": "Applicable to eligible students who opted for and successfully completed the B Tech – Honours requirements"
+    }
+  ]
+}

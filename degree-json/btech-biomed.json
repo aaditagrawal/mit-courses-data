@@ -1,0 +1,198 @@
+{
+  "degree_metadata": {
+    "title": "B.Tech. Biomedical Engineering",
+    "department": "The Department of Aeronautical and Automobile Engineering",
+    "handbook_version": "2025-2026",
+    "total_credits_required": 170
+  },
+  "structure": {
+    "semesters": [
+      {
+        "sem_index": 3,
+        "year": "II",
+        "total_contact_hours": 27,
+        "total_credits": 21,
+        "core_courses": [
+          "MAT 2122",
+          "BME 2121",
+          "BME 2122",
+          "BME 2123",
+          "BME 2124",
+          "BME 2125",
+          "BME 2141",
+          "BME 2142"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 4,
+        "year": "II",
+        "total_contact_hours": 26,
+        "total_credits": 22,
+        "core_courses": [
+          "MAT 2223",
+          "BME 2221",
+          "BME 2222",
+          "BME 2223",
+          "BME 2224",
+          "BME 2225",
+          "BME 2241",
+          "BME 2242"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 5,
+        "year": "III",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "HUM 3021",
+          "BME 3121",
+          "BME 3122",
+          "BME 3123",
+          "IPE 4302",
+          "BME 3141",
+          "BME 3142"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "FLEX_CORE_1",
+            "label": "Flexible Core - 1 (A1 /B1)",
+            "pool_ref": "flexible_core_1"
+          }
+        ]
+      },
+      {
+        "sem_index": 6,
+        "year": "III",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": ["HUM 3022", "BME 3221", "BME 3241", "BME 3242"],
+        "elective_slots": [
+          {
+            "slot_id": "FLEX_CORE_2",
+            "label": "Flexible Core - 2 (A2/B2)",
+            "pool_ref": "flexible_core_2"
+          },
+          {
+            "slot_id": "PROG_ELEC_I",
+            "label": "Program Elective - I / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELEC_II",
+            "label": "Program Elective - II / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "OPEN_ELEC_2",
+            "label": "Open Elective - 2",
+            "pool_ref": "open_electives"
+          }
+        ]
+      },
+      {
+        "sem_index": 7,
+        "year": "IV",
+        "total_contact_hours": 18,
+        "total_credits": 18,
+        "core_courses": ["BME 4191"],
+        "elective_slots": [
+          {
+            "slot_id": "PROG_ELEC_III",
+            "label": "Program Elective - III / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELEC_IV",
+            "label": "Program Elective - IV / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELEC_V",
+            "label": "Program Elective - V",
+            "pool_ref": "other_program_electives"
+          },
+          {
+            "slot_id": "PROG_ELEC_VI",
+            "label": "Program Elective - VI",
+            "pool_ref": "other_program_electives"
+          },
+          {
+            "slot_id": "PROG_ELEC_VII",
+            "label": "Program Elective - VII",
+            "pool_ref": "other_program_electives"
+          },
+          {
+            "slot_id": "OPEN_ELEC_3",
+            "label": "Open Elective - 3",
+            "pool_ref": "open_electives"
+          }
+        ]
+      },
+      {
+        "sem_index": 8,
+        "year": "IV",
+        "total_contact_hours": 0,
+        "total_credits": 13,
+        "core_courses": ["BME 4291", "BME 4292"],
+        "elective_slots": [
+          {
+            "slot_id": "HONOURS_PROJECT",
+            "label": "Project Work (B.Tech Honours)**",
+            "pool_ref": "honours_requirements"
+          }
+        ]
+      }
+    ],
+    "elective_pools": {
+      "flexible_core_1": ["BME 3124", "BME 3125"],
+      "flexible_core_2": ["BME 3222", "BME 3223"],
+      "minor_specializations": [
+        {
+          "track_name": "Biomaterials",
+          "courses": ["BME 4401", "BME 4402", "BME 4403", "BME 4404"]
+        },
+        {
+          "track_name": "Informatics",
+          "courses": ["BME 4405", "BME 4406", "BME 4407", "BME 4408"]
+        }
+      ],
+      "other_program_electives": [
+        "BME 4441",
+        "BME 4442",
+        "BME 4443",
+        "BME 4444",
+        "BME 4445",
+        "BME 4446",
+        "BME 4447",
+        "BME 4448",
+        "BME 4449",
+        "BME 4450",
+        "BME 4451",
+        "BME 4452",
+        "BME 4453"
+      ],
+      "open_electives": [
+        "BME 4311",
+        "BME 4312",
+        "BME 4313",
+        "BME 4314",
+        "BME 4315",
+        "BME 4316"
+      ],
+      "honours_requirements": ["BME 4293", "BME ****", "BME ****", "BME ****"]
+    }
+  },
+  "footnotes": [
+    {
+      "symbol": "*",
+      "text": "Applicable to students who opted for minor specialization"
+    },
+    {
+      "symbol": "**",
+      "text": "Applicable to eligible students who opted for and successfully completed the B Tech – Honours requirements"
+    }
+  ]
+}

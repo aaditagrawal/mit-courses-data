@@ -4,6 +4,7 @@ import { useEffect, useRef, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import { Network, Options } from 'vis-network';
 import { DataSet } from 'vis-data';
+import { getCourseLink } from '@/lib/utils';
 
 interface CourseNode {
     code: string;
@@ -11,8 +12,15 @@ interface CourseNode {
     department: string;
 }
 
+interface DegreeInfo {
+    slug: string;
+    title: string;
+    courses: string[]; // Course codes in this degree
+}
+
 interface NetworkGraphProps {
     courses: CourseNode[];
+    degrees?: DegreeInfo[];
 }
 
 // Generate distinct colors for departments using HSL
@@ -29,14 +37,14 @@ function generateDepartmentColors(departments: string[]): Map<string, string> {
     return colorMap;
 }
 
-export function NetworkGraph({ courses }: NetworkGraphProps) {
+export function NetworkGraph({ courses, degrees = [] }: NetworkGraphProps) {
     const containerRef = useRef<HTMLDivElement>(null);
     const networkRef = useRef<Network | null>(null);
     const router = useRouter();
 
     const handleNodeClick = useCallback((code: string) => {
         // Navigate to course page
-        router.push(`/course/${encodeURIComponent(code)}`);
+        router.push(getCourseLink(code));
     }, [router]);
 
     useEffect(() => {
@@ -166,6 +174,83 @@ export function NetworkGraph({ courses }: NetworkGraphProps) {
 
         // Add hub nodes to the dataset
         hubNodes.forEach(hub => nodes.add(hub as any));
+
+        // Create course code to node index map for degree linking
+        const codeToIndex = new Map<string, number>();
+        courses.forEach((course, index) => {
+            codeToIndex.set(course.code, index);
+        });
+
+        // Add degree hub nodes and connect courses within same degree
+        if (degrees.length > 0) {
+            const degreeHubNodes: typeof hubNodes = [];
+
+            degrees.forEach((degree, degIdx) => {
+                // Generate a distinct color for each degree
+                const degreeHue = (degIdx * 360) / degrees.length;
+                const degreeColor = `hsl(${degreeHue}, 60%, 45%)`;
+
+                // Find which course indices belong to this degree
+                const degreeNodeIndices: number[] = [];
+                degree.courses.forEach(code => {
+                    const idx = codeToIndex.get(code);
+                    if (idx !== undefined) {
+                        degreeNodeIndices.push(idx);
+                    }
+                });
+
+                if (degreeNodeIndices.length > 0) {
+                    degreeHubNodes.push({
+                        id: hubNodeId,
+                        label: degree.slug.replace('btech-', '').toUpperCase(),
+                        title: `${degree.title}\n${degreeNodeIndices.length} courses`,
+                        color: {
+                            background: degreeColor,
+                            border: 'rgba(255,255,255,0.5)',
+                            highlight: {
+                                background: degreeColor,
+                                border: '#fff',
+                            },
+                            hover: {
+                                background: degreeColor,
+                                border: '#fff',
+                            },
+                        },
+                        font: {
+                            color: '#fff',
+                            size: 12,
+                            face: 'Commit Mono, monospace',
+                            bold: { color: '#fff', size: 12 },
+                        },
+                        shape: 'diamond' as any,
+                        size: 20 + Math.min(degreeNodeIndices.length / 2, 15),
+                        borderWidth: 2,
+                        shadow: {
+                            enabled: true,
+                            color: 'rgba(0,0,0,0.4)',
+                            size: 12,
+                            x: 0,
+                            y: 4,
+                        },
+                    });
+
+                    // Create edges from courses to degree hub
+                    degreeNodeIndices.forEach(nodeIndex => {
+                        edges.add({
+                            id: `${nodeIndex}-degree-${hubNodeId}`,
+                            from: nodeIndex,
+                            to: hubNodeId,
+                            color: { color: degreeColor, opacity: 0.15 },
+                        });
+                    });
+
+                    hubNodeId++;
+                }
+            });
+
+            // Add degree hub nodes to the dataset
+            degreeHubNodes.forEach(hub => nodes.add(hub as any));
+        }
 
         const options: Options = {
             nodes: {
@@ -297,6 +382,11 @@ export function NetworkGraph({ courses }: NetworkGraphProps) {
                 <div>• Drag to pan</div>
                 <div>• Click node to view course</div>
                 <div>• Hover for details</div>
+                <div className="mt-2 pt-2 border-t border-border/50">
+                    <div className="font-semibold text-foreground mb-1">Node Types</div>
+                    <div>● Circles = Courses & Dept Hubs</div>
+                    <div>◆ Diamonds = Degree Programs</div>
+                </div>
             </div>
         </div>
     );

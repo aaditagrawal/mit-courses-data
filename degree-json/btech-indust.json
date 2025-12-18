@@ -1,0 +1,255 @@
+{
+  "degree_metadata": {
+    "title": "B.Tech. Industrial Engineering",
+    "department": "Department of Industrial Engineering",
+    "handbook_version": "2025-2026",
+    "total_credits_required": 170
+  },
+  "structure": {
+    "semesters": [
+      {
+        "sem_index": 3,
+        "year": "II",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "MAT 2121",
+          "MIE 2126",
+          "MIE 2127",
+          "MIE 2128",
+          "MIE 2129",
+          "MIE 2130",
+          "MIE 2143",
+          "MIE 2144"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 4,
+        "year": "II",
+        "total_contact_hours": 26,
+        "total_credits": 22,
+        "core_courses": [
+          "MAT 2229",
+          "MIE 2226",
+          "MIE 2227",
+          "MIE 2228",
+          "MIE 2229",
+          "MIE 2230",
+          "MIE 2243",
+          "MIE 2244"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 5,
+        "year": "III",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "HUM 3021",
+          "MIE 3127",
+          "MIE 3128",
+          "MIE 3129",
+          "IPE 4302",
+          "MIE 3143",
+          "MIE 3144"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "FLEX_CORE_1",
+            "label": "Flexible Core - 1 (A1 / B1 / C1 )",
+            "pool_ref": "flexible_core_pools"
+          }
+        ]
+      },
+      {
+        "sem_index": 6,
+        "year": "III",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "HUM 3022",
+          "MIE 3227",
+          "MIE 3243",
+          "MIE 3244"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "FLEX_CORE_2",
+            "label": "Flexible Core - 2 ( A2 / B2 / C2 )",
+            "pool_ref": "flexible_core_pools"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_1",
+            "label": "Program Elective - I / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_2",
+            "label": "Program Elective - II / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "OPEN_ELECTIVE_2",
+            "label": "Open Elective - 2",
+            "pool_ref": "open_electives"
+          }
+        ]
+      },
+      {
+        "sem_index": 7,
+        "year": "IV",
+        "total_contact_hours": 18,
+        "total_credits": "18/26",
+        "core_courses": [],
+        "elective_slots": [
+          {
+            "slot_id": "PROG_ELECTIVE_3",
+            "label": "Program Elective - III / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_4",
+            "label": "Program Elective - IV / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_5",
+            "label": "Program Elective - V",
+            "pool_ref": "programme_electives"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_6",
+            "label": "Program Elective - VI",
+            "pool_ref": "programme_electives"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_7",
+            "label": "Program Elective - VII",
+            "pool_ref": "programme_electives"
+          },
+          {
+            "slot_id": "OPEN_ELECTIVE_3",
+            "label": "Open Elective - 3",
+            "pool_ref": "open_electives"
+          },
+          {
+            "slot_id": "MINI_PROJECT",
+            "label": "Mini Project (Minor Specialization)*",
+            "course_code": "MIE 4191"
+          }
+        ]
+      },
+      {
+        "sem_index": 8,
+        "year": "IV",
+        "total_contact_hours": null,
+        "total_credits": "13/33",
+        "core_courses": [
+          "MIE 4291",
+          "MIE 4292"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "HONOURS_TRACK",
+            "label": "B.Tech Honours Requirements**",
+            "courses": [
+              "MIE 4293",
+              "MIE ****",
+              "MIE ****",
+              "MIE ****"
+            ]
+          }
+        ]
+      }
+    ],
+    "elective_pools": {
+      "flexible_core_pools": {
+        "Group_A_Financial_Management": [
+          "MIE 3130",
+          "MIE 3228"
+        ],
+        "Group_B_Industrial_Management": [
+          "MIE 3131",
+          "MIE 3229"
+        ],
+        "Group_C_Human_Resource_Management": [
+          "MIE 3132",
+          "MIE 3230"
+        ]
+      },
+      "minor_specializations": [
+        {
+          "track_name": "I. Industrial Internet of Things",
+          "courses": [
+            "MIE 4433",
+            "MIE 4434",
+            "MIE 4435",
+            "MIE 4436"
+          ]
+        },
+        {
+          "track_name": "II. Computer Organization and Programming",
+          "courses": [
+            "MIE 4437",
+            "MIE 4438",
+            "MIE 4439",
+            "MIE 4440"
+          ]
+        },
+        {
+          "track_name": "III. EV Technology",
+          "courses": [
+            "ELE 4415",
+            "AAE 4420",
+            "ELE 4417",
+            "AAE 4421"
+          ]
+        }
+      ],
+      "programme_electives": [
+        "MIE 4457",
+        "MIE 4461",
+        "MIE 4462",
+        "MIE 4463",
+        "MIE 4464",
+        "MIE 4465",
+        "MIE 4466",
+        "MIE 4467",
+        "MIE 4468",
+        "MIE 4469",
+        "MIE 4470",
+        "MIE 4471",
+        "MIE 4472",
+        "MIE 4473",
+        "MIE 4474",
+        "MIE 4475",
+        "MIE 4476",
+        "MIE 4477",
+        "MIE 4478",
+        "MIE 4479",
+        "MIE 4480"
+      ],
+      "open_electives": [
+        "MIE 4311",
+        "MIE 4312",
+        "MIE 4313",
+        "MIE 4314",
+        "MIE 4315",
+        "MIE 4316",
+        "MIE 4317"
+      ]
+    }
+  },
+  "footnotes": [
+    {
+      "symbol": "*",
+      "text": "Applicable to students who opted for minor specialization"
+    },
+    {
+      "symbol": "**",
+      "text": "Applicable to eligible students who opted for and successfully completed the B Tech – Honours requirements"
+    }
+  ]
+}

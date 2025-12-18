@@ -1,0 +1,116 @@
+{
+  "degree_metadata": {
+    "title": "B.Tech. in Computer Science & Financial Technology",
+    "department": "Not explicitly stated (likely School of Computer Science / Finance)",
+    "handbook_version": "2024 Scheme",
+    "total_credits_required": 170
+  },
+  "structure": {
+    "semesters": [
+      {
+        "sem_index": 3,
+        "year": "II",
+        "total_contact_hours": 28,
+        "total_credits": 22,
+        "core_courses": [
+          "MAT 2132",
+          "CSS 2180",
+          "CSS 2106",
+          "CSS 2109",
+          "CSS 2107",
+          "CSS 2181",
+          "CSS 2108",
+          "CSS 2105"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 4,
+        "year": "II",
+        "total_contact_hours": 28,
+        "total_credits": 21,
+        "core_courses": [
+          "MAT 2232",
+          "HUM 2221",
+          "CSS 2205",
+          "CSS 2206",
+          "CSS 2207",
+          "HUM 2222",
+          "CSS 2280"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 5,
+        "year": "III",
+        "total_contact_hours": 24,
+        "total_credits": 21,
+        "core_courses": [
+          "CSS 3106",
+          "CSS 3105",
+          "CSS 3103",
+          "CSS 3108",
+          "CSS 3102",
+          "IPE 4302",
+          "CSS 3107",
+          "CSS 3104"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 6,
+        "year": "III",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "CSS 3201",
+          "HUM 3022",
+          "CSS 3202",
+          "CSS 3203",
+          "CSS 3204"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "PE_1",
+            "label": "PE – 1 / Minor Specialisation",
+            "pool_ref": "minor_specialisations"
+          },
+          {
+            "slot_id": "PE_2",
+            "label": "PE – 2 / Minor Specialisation",
+            "pool_ref": "minor_specialisations"
+          },
+          {
+            "slot_id": "OPEN_ELECTIVE_2",
+            "label": "Open Elective - 2",
+            "pool_ref": "open_electives"
+          }
+        ]
+      }
+    ],
+    "elective_pools": {
+      "minor_specialisations": [
+        {
+          "track_name": "BFSI TRACK",
+          "courses": ["CSP 4434", "CSP 4435", "CSP 4436", "CSP 4437"]
+        },
+        {
+          "track_name": "INVESTMENT MANAGEMENT",
+          "courses": ["CSP 4438", "CSP 4439", "CSP 4440", "CSP 4441"]
+        }
+      ],
+      "programme_electives": ["CSS 4441", "CSS 4443", "CSS 4404"],
+      "open_electives": ["CSS 4121"]
+    }
+  },
+  "footnotes": [
+    {
+      "symbol": "*",
+      "text": "Applicable to students who opted for minor specialization"
+    },
+    {
+      "symbol": "**",
+      "text": "Applicable to eligible students who opted for and successfully completed the B Tech – Honours requirements"
+    }
+  ]
+}

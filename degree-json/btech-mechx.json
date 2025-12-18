@@ -1,0 +1,193 @@
+{
+  "degree_metadata": {
+    "title": "B.Tech. Mechatronics",
+    "department": "Department of Mechatronics",
+    "handbook_version": "2025-2026",
+    "total_credits_required": 170
+  },
+  "structure": {
+    "semesters": [
+      {
+        "sem_index": 3,
+        "year": "II",
+        "total_contact_hours": 27,
+        "total_credits": 21,
+        "core_courses": [
+          "MAT 2121",
+          "MTE 2121",
+          "MTE 2122",
+          "MTE 2123",
+          "MTE 2124",
+          "MTE 2125",
+          "MTE 2141",
+          "MTE 2142",
+          "MTE 2143"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 4,
+        "year": "II",
+        "total_contact_hours": 28,
+        "total_credits": 22,
+        "core_courses": [
+          "MAT 2231",
+          "MTE 2221",
+          "MTE 2222",
+          "MTE 2223",
+          "MTE 2224",
+          "MTE 2225",
+          "MTE 2241",
+          "MTE 2242",
+          "MTE 2243"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 5,
+        "year": "III",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "HUM 3021",
+          "MTE 3121",
+          "MTE 3122",
+          "MTE 3124",
+          "IPE 4302",
+          "MTE 3141",
+          "MTE 3142"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "FLEX_CORE_1",
+            "label": "Flexible Core-1 (A1/B1)",
+            "pool_ref": "flexible_core_pools"
+          }
+        ]
+      },
+      {
+        "sem_index": 6,
+        "year": "III",
+        "total_contact_hours": 27,
+        "total_credits": 21,
+        "core_courses": [
+          "HUM 3022",
+          "MTE 3221",
+          "MTE 3241",
+          "MTE 3242",
+          "MTE 3243"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "FLEX_CORE_2",
+            "label": "Flexible Core-2 (A2/B2)",
+            "pool_ref": "flexible_core_pools"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_1",
+            "label": "Program Elective - I / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_2",
+            "label": "Program Elective - II / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "OPEN_ELECTIVE_2",
+            "label": "Open Elective - 2",
+            "pool_ref": "open_electives"
+          }
+        ]
+      }
+    ],
+    "elective_pools": {
+      "flexible_core_pools": {
+        "Group_A": ["MTE ****", "MTE ****"],
+        "Group_B": ["MTE ****", "MTE ****"]
+      },
+      "minor_specializations": [
+        {
+          "track_name": "Electric Vehicle Technology",
+          "courses": ["ELE 4415", "AAE 4420", "ELE 4417", "AAE 4421"]
+        },
+        {
+          "track_name": "Industrial IoT Systems",
+          "courses": ["MTE 4405", "MTE 4406", "MTE 4407", "MTE 4408"]
+        },
+        {
+          "track_name": "Robotics and Automation",
+          "courses": ["MTE 4409", "MTE 4410", "MTE 4411", "MTE 4412"]
+        },
+        {
+          "track_name": "Micro and Nano Systems",
+          "courses": ["MTE 4413", "MTE 4414", "MTE 4415", "MTE 4416"]
+        },
+        {
+          "track_name": "Precision Agriculture Technology",
+          "courses": ["MTE 4417", "MTE 4418", "MTE 4419", "MTE 4420"]
+        },
+        {
+          "track_name": "Computational Mathematics",
+          "courses": ["MAT 4401", "MAT 4402", "MAT 4403", "MAT 4404"]
+        },
+        {
+          "track_name": "Business Management",
+          "courses": ["HUM 4401", "HUM 4402", "HUM 4403", "HUM 4404"]
+        }
+      ],
+      "programme_electives": [
+        "MTE 4441",
+        "MTE 4442",
+        "MTE 4443",
+        "MTE 4444",
+        "MTE 4445",
+        "MTE 4446",
+        "MTE 4447",
+        "MTE 4448",
+        "MTE 4449",
+        "MTE 4450",
+        "MTE 4451",
+        "MTE 4452",
+        "MTE 4453",
+        "MTE 4454",
+        "MTE 4455",
+        "MTE 4456",
+        "MTE 4457",
+        "MTE 4458",
+        "MTE 4459",
+        "MTE 4460",
+        "MTE 4461",
+        "MTE 4462",
+        "MTE 4463",
+        "MTE 4464",
+        "MTE 4465",
+        "MTE 4466",
+        "MTE 4467",
+        "MTE 4468",
+        "MTE 4469",
+        "MTE 4470",
+        "MTE 4471",
+        "MTE 4076",
+        "MTE ****"
+      ],
+      "open_electives": [
+        "MTE 4311",
+        "MTE 4312",
+        "MTE 4313",
+        "MTE 4314",
+        "MTE 4315"
+      ]
+    }
+  },
+  "footnotes": [
+    {
+      "symbol": "*",
+      "text": "Applicable to students who opted for minor specialization"
+    },
+    {
+      "symbol": "**",
+      "text": "Applicable to eligible students who opted for and successfully completed the B Tech – Honours requirements"
+    }
+  ]
+}

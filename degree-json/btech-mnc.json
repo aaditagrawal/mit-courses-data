@@ -1,0 +1,129 @@
+{
+  "degree_metadata": {
+    "title": "B.Tech. Mathematics and Computing",
+    "department": "Department of Mathematics jointly with the Department of Data Science and Computer Applications",
+    "handbook_version": "2025-2026",
+    "total_credits_required": 170
+  },
+  "structure": {
+    "semesters": [
+      {
+        "sem_index": 3,
+        "year": "II",
+        "total_contact_hours": 26,
+        "total_credits": 22,
+        "core_courses": [
+          "MAT 2135",
+          "MAT 2136",
+          "DSE 2122",
+          "MAT 2137",
+          "DSE 2125",
+          "MAT 2138",
+          "DSE 2144",
+          "DSE 2142"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 4,
+        "year": "II",
+        "total_contact_hours": 27,
+        "total_credits": 21,
+        "core_courses": [
+          "MAT 2235",
+          "DSE 2223",
+          "MAT 2236",
+          "MAT 2237",
+          "MAT 2238",
+          "DSE 2222",
+          "DSE 2243",
+          "DSE 2244"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 5,
+        "year": "III",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "HUM 3021",
+          "DSE 3123",
+          "MAT 3131",
+          "MAT 3132",
+          "DSE 3124",
+          "IPE 4302",
+          "DSE 3143",
+          "DSE 3144"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 6,
+        "year": "III",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": ["HUM 3022", "MAT 3231", "MAT 3232", "MAT 3241"],
+        "elective_slots": [
+          {
+            "slot_id": "PROG_ELECTIVE_1",
+            "label": "Program Elective - I / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_2",
+            "label": "Program Elective - II / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "OPEN_ELECTIVE_2",
+            "label": "Open Elective - 2",
+            "pool_ref": "open_electives"
+          }
+        ]
+      }
+    ],
+    "elective_pools": {
+      "minor_specializations": [
+        {
+          "track_name": "Applied Mathematics",
+          "courses": ["MAT 4405", "MAT 4406", "MAT 4407", "MAT 4408"]
+        },
+        {
+          "track_name": "Advanced Mathematics",
+          "courses": ["MAT 4409", "MAT 4410", "MAT 4411", "MAT 4412"]
+        },
+        {
+          "track_name": "Multimodal Intelligent System",
+          "courses": ["DSE 4401", "DSE 4402", "DSE 4403", "DSE 4404"]
+        },
+        {
+          "track_name": "Network Analytics",
+          "courses": ["DSE 4405", "DSE 4406", "DSE 4407", "DSE 4408"]
+        }
+      ],
+      "programme_electives": [
+        "MAT 4444",
+        "MAT 4446",
+        "MAT 4447",
+        "MAT 4448",
+        "MAT 4450",
+        "MAT 4453",
+        "MAT 4455",
+        "MAT 4456",
+        "MAT 4457"
+      ],
+      "open_electives": []
+    }
+  },
+  "footnotes": [
+    {
+      "symbol": "*",
+      "text": "Applicable to students who opted for minor specialization"
+    },
+    {
+      "symbol": "**",
+      "text": "Applicable to eligible students who opted for and successfully completed the B Tech - Honours requirements"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "degree_metadata": {
+    "title": "B.Tech Electronics and Instrumentation Engineering",
+    "department": "The Department of Electronics and Instrumentation Engineering",
+    "handbook_version": "2025-2026",
+    "total_credits_required": 170
+  },
+  "structure": {
+    "semesters": [
+      {
+        "sem_index": 3,
+        "year": "II",
+        "total_contact_hours": 26,
+        "total_credits": 22,
+        "core_courses": [
+          "MAT 2122",
+          "ICE 2121",
+          "ICE 2122",
+          "ICE 2123",
+          "ICE 2124",
+          "ICE 2125",
+          "ICE 2141",
+          "ICE 2142"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 4,
+        "year": "II",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "MAT 2228",
+          "ICE 2221",
+          "ICE 2222",
+          "ICE 2223",
+          "ICE 2224",
+          "ICE 2229",
+          "ICE 2241",
+          "ICE 2242"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 5,
+        "year": "III",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "HUM 3022",
+          "ICE 3121",
+          "ICE 3122",
+          "ICE 3123",
+          "IPE 4302",
+          "ICE 3141",
+          "ICE 3142"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "FLEX_CORE_1",
+            "label": "Flexible Core - 1 (A1/B1/C1)",
+            "pool_ref": "flexible_core_a_b_c"
+          }
+        ]
+      },
+      {
+        "sem_index": 6,
+        "year": "III",
+        "total_contact_hours": 27,
+        "total_credits": 21,
+        "core_courses": [
+          "HUM 3021",
+          "ICE 3241",
+          "ICE 3242",
+          "ICE 3243"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "FLEX_CORE_2",
+            "label": "Flexible Core - 2 (A2/B2/C2)",
+            "pool_ref": "flexible_core_a_b_c"
+          },
+          {
+            "slot_id": "FLEX_CORE_3",
+            "label": "Flexible Core - 3 (A3/B3)",
+            "pool_ref": "flexible_core_a_b_c"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_1",
+            "label": "Program Elective - I / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_2",
+            "label": "Program Elective - II / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "OPEN_ELECTIVE_2",
+            "label": "Open Elective - 2",
+            "pool_ref": "open_electives"
+          }
+        ]
+      }
+    ],
+    "elective_pools": {
+      "flexible_core_a_b_c": {
+        "Instrumentation_A": [
+          "ICE 3124",
+          "ICE 3221",
+          "ICE 3223"
+        ],
+        "Applied_Electronics_B": [
+          "ICE 3125",
+          "ICE 3222",
+          "ICE 3224"
+        ],
+        "E_Mobility_C": [
+          "ELE 3127",
+          "ELE 3225"
+        ]
+      },
+      "minor_specializations": [
+        {
+          "track_name": "Computational Intelligence",
+          "courses": [
+            "ELE 4409",
+            "ECE 4409",
+            "ELE 4410",
+            "ECE 4410"
+          ]
+        },
+        {
+          "track_name": "Control Systems",
+          "courses": [
+            "ICE 4401",
+            "ICE 4402",
+            "ICE 4403",
+            "ICE 4404"
+          ]
+        },
+        {
+          "track_name": "Embedded Systems",
+          "courses": [
+            "ECE 4411",
+            "ELE 4411",
+            "ECE 4412",
+            "ELE 4412"
+          ]
+        },
+        {
+          "track_name": "Sensor Technology",
+          "courses": [
+            "ICE 4405",
+            "ICE 4406",
+            "ICE 4407",
+            "ICE 4408"
+          ]
+        },
+        {
+          "track_name": "Systems Engineering",
+          "courses": [
+            "ICE 4409",
+            "ICE 4410",
+            "ICE 4411",
+            "ICE 4412"
+          ]
+        },
+        {
+          "track_name": "Smart Transportation Systems",
+          "courses": [
+            "ICE 4413",
+            "ICE 4414",
+            "ICE 4415",
+            "ICE 4416"
+          ]
+        },
+        {
+          "track_name": "E-Mobility",
+          "courses": [
+            "ELE 4415",
+            "ELE 4416",
+            "ELE 4417",
+            "ELE 4418"
+          ]
+        }
+      ],
+      "programme_electives": [
+        "ICE 4441",
+        "ICE 4442",
+        "ICE 4443",
+        "ICE 4444",
+        "ICE 4445",
+        "ICE 4446",
+        "ICE 4447",
+        "ICE 4448",
+        "ICE 4449",
+        "ICE 4450",
+        "ICE 4451",
+        "ICE 4452",
+        "ICE 4453",
+        "ICE 4454",
+        "ICE 4455"
+      ],
+      "open_electives": [
+        "ICE 4311",
+        "ICE 4312",
+        "ICE 4313",
+        "ICE 4314",
+        "ICE 4315",
+        "ICE 4316",
+        "ICE 4317",
+        "ICE 4318"
+      ]
+    }
+  },
+  "footnotes": [
+    {
+      "symbol": "*",
+      "text": "Applicable to students who opted for minor specialization"
+    },
+    {
+      "symbol": "**",
+      "text": "Applicable to eligible students who opted for and successfully completed the B Tech – Honours requirements"
+    }
+  ]
+}

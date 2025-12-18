@@ -12,10 +12,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "The geometry of linear equations, elimination with matrices, multiplication and inverse matrices, factorisation into A=LU, Transpose, permutation of matrices, vector space, Column Space and Null Space, Solving Ax=0: Pivot variables, special solutions; Solving Ax=b: Row reduced form, independence, basis and dimension, independence, basis and dimension, Projection matrices and least squares, orthogonal matrices and Gram- Schmidt orthogonalization, Eigen Values and Eigen vectors, Diagonalisation and powers of matrix A, Markov matrices, Symmetric matrices and positive definite matrices, similar matrices and Jordan form, Singular value decomposition, Linear transformation, and their matrices",
           "Introduction to systems of first-order linear differential equations, Solution techniques: Matrix methods, eigenvalues, eigenvectors, Applications in finance and technology: modeling interconnected systems, Markov chains, etc. Modeling financial derivatives using differential equations (Black-Scholes equation, etc.). Differential equations in risk management and portfolio optimization",
@@ -42,10 +39,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Imperative Programming: Assignments, side effects, memory models, control structures, branching, procedures, parameter passing (Discussions using C and Go)",
           "Object-Oriented Programming: Concepts of objects, classes, inheritance, specialization of methods, covariance and contravariance, type parametrization, reflective and meta programming (Discussions using Java and Go)",
@@ -74,10 +68,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction - Pointers and Pointer Application",
           "Accessing variables through pointers",
@@ -157,10 +148,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Database-System Applications",
           "Database Languages",
@@ -213,10 +201,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Banking and Financial Services",
           "Evolution of Banking",
@@ -265,10 +250,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "core",
-          "lab"
-        ],
+        "tags": ["core", "lab"],
         "syllabus": [
           "Parameter passing and safety. Memory models and pointers.",
           "Inheritance, overriding, covariance, contravariance, Reflective",
@@ -283,9 +265,7 @@
           "D. Flanagan. \"JavaScript: The Definitive Guide,\" 7th Edition, O'Reily 2020",
           "M. Odersky et.al. \"Programming in Scala,\" 5th Edition, Goel's Computer Hut, 2022"
         ],
-        "flags": [
-          "credits_discrepancy"
-        ]
+        "flags": ["credits_discrepancy"]
       },
       {
         "sem": 3,
@@ -297,9 +277,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Data Definition Language",
           "Data manipulation language",
@@ -322,9 +300,7 @@
           "Ivan Bayross, SQL, PL/SQL - The Programming Language of Oracle, (3e), BPB Publications, 2010",
           "G, Reese, Database Programming with JDBC and Java, (2e), O'REILLY, 2000"
         ],
-        "flags": [
-          "structure_mismatch"
-        ]
+        "flags": ["structure_mismatch"]
       },
       {
         "sem": 4,
@@ -336,9 +312,7 @@
           "p": 3,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Reviewing the concepts of pointers, structures and recursion",
           "Studying the operation of stacks and queues and the associated application programs",
@@ -371,9 +345,7 @@
           "Ellis Horowitz and Sartaj Sahni, Computer Algorithms/C++, (2e), University Press, 2007",
           "Thomas H. Cormen, Charles E. Leiserson, Ronal L, Rivest, Clifford Stein, Introduction to Algorithms, (2e), PHI, 2006"
         ],
-        "flags": [
-          "semester_mismatch"
-        ]
+        "flags": ["semester_mismatch"]
       },
       {
         "sem": 3,
@@ -385,10 +357,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Basic Probability theory & applications",
           "Applications of Probability in Finance",
@@ -421,10 +390,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Accounting concepts & conventions",
           "accounting cycle",
@@ -458,10 +424,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "OWL Ontologies in Cybersecurity: Conceptual Modeling of Cyber-Knowledge: Introduction to Knowledge Engineering in Cybersecurity, Cybersecurity Taxonomies, Upper Ontologies for Cybersecurity, Formal Knowledge Representation for Cyber-Situational Awareness-Representing Network Knowledge Using Ontology Definition",
           "Representing Network Data Provenance, Vulnerability and Exploit Analysis- Likelihood of Exploitation, Time-Based Analysis, Vendor-/Platform-Based Analysis, Experimental Setup-Performance Evaluation",
@@ -478,6 +441,25 @@
         "flags": []
       },
       {
+        "sem": 4,
+        "code": "CSS 2280",
+        "title": "FINTECH LAB",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 6,
+          "c": 2
+        },
+        "tags": [],
+        "syllabus": [
+          "Introduction to Fintech Application, Aspects of development",
+          "demonstrate a sample of Schema, LDM, API's, UI Screens, Cloud deployment etc",
+          "Use cases, Standards of coding, Reusability, Audit, History, Regulation, Error Handling, Logging, Customer Creation retrieval /KYC."
+        ],
+        "references": ["Material developed by MIT-FIS"],
+        "flags": []
+      },
+      {
         "sem": 3,
         "code": "CSS 2206",
         "title": "INTRODUCTION TO FINTECH",
@@ -487,10 +469,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to FinTech",
           "History of FinTech and Stages",
@@ -521,10 +500,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Operating Systems: Operating system fundamentals and its components, introduction to process management, memory management, resource management, virtualization, security, embedded and mobile operating systems, case studies (Unix, MS Windows, MacOS, Android, iOS)",
           "Computer Networks: Fundamentals of computer networks, network layers and protocols, transmission and error control, network applications, software-defined networks, wireless protocols",
@@ -550,10 +526,7 @@
           "p": 2,
           "c": 2
         },
-        "tags": [
-          "theory",
-          "lab"
-        ],
+        "tags": ["theory", "lab"],
         "syllabus": [
           "Fundamentals of Design Thinking - Need, Importance, History",
           "Human centric approach & Customer centric approach",
@@ -602,10 +575,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Evolution from an art form to an engineering discipline",
           "Software development Projects",
@@ -679,9 +649,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "InsurTech Definition",
           "Digital Transformation in Insurance",
@@ -717,10 +685,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Banking Core Product Lines (Deposits, Lending etc)",
           "Key Geography Variations (currency, language, taxation, regulatory etc.)",
@@ -769,10 +734,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction statistics, data, data Types",
           "Measures of central tendency and dispersion",
@@ -806,10 +768,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Artificial Intelligence",
           "Superintelligence",
@@ -841,15 +800,10 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
@@ -861,9 +815,7 @@
           "p": 21,
           "c": null
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Rational Rose",
           "Star UML",
@@ -884,9 +836,7 @@
         "references": [
           "Rajib Mall, Fundamentals of Software Engineering (5e), PHI Learning, 2019"
         ],
-        "flags": [
-          "structure_mismatch"
-        ]
+        "flags": ["structure_mismatch"]
       },
       {
         "sem": 6,
@@ -898,9 +848,7 @@
           "p": 2,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Categories",
           "Core Banking Platform",
@@ -910,10 +858,7 @@
           "Enterprise / Cloud Native Services"
         ],
         "references": [],
-        "flags": [
-          "semester_mismatch",
-          "missing_references"
-        ]
+        "flags": ["semester_mismatch", "missing_references"]
       },
       {
         "sem": 3,
@@ -925,10 +870,7 @@
           "p": 0,
           "c": 4
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction: Background Big Data-Big Compute in Finance, Fintech, Machine Learning and Prediction, Entropy, Neural Networks, Statistical Modeling vs. Machine Learning, Modeling Paradigms, Financial Econometrics and Machine Learning, Over-fitting, Reinforcement Learning, Examples of Supervised Machine Learning in Practice, Algorithmic Trading, High-Frequency Trade Execution, Mortgage Modeling",
           "Data Preprocessing for Finance- Financial Data Types: Stock prices, time series, high-frequency data, sentiment analysis data; Data Cleaning and Transformation: Handling missing data, Outlier detection, Feature scaling; Feature Engineering for Finance, Feature selection techniques, Domain-specific feature engineering for financial datasets",
@@ -964,10 +906,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to Business",
           "Classification of Industries",
@@ -1004,10 +943,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Indian Capital Market",
           "Authorities Governing Capital Markets in India",
@@ -1060,9 +996,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Azure DevOps Fundamentals",
           "Infrastructure as Code (IaC) with Azure Resource Manager (ARM)",
@@ -1087,10 +1021,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Introduction to Software Reliability",
           "Reliability Engineering for Financial Software",
@@ -1119,15 +1050,10 @@
           "p": 2,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [],
         "references": [],
-        "flags": [
-          "missing_syllabus",
-          "missing_references"
-        ]
+        "flags": ["missing_syllabus", "missing_references"]
       },
       {
         "sem": 3,
@@ -1139,9 +1065,7 @@
           "p": 2,
           "c": 1
         },
-        "tags": [
-          "lab"
-        ],
+        "tags": ["lab"],
         "syllabus": [
           "Data Preprocessing for Financial Data",
           "Feature Selection for Financial Data",
@@ -1160,9 +1084,7 @@
           "Luigi Troiano, Arjun Bhandari, Elena Mejuto Villa, HANDS-ON DEEP LEARNING FOR FINANCE, Packt Publishing Ltd. Publication, 2020",
           "Pradeep Singh, FUNDAMENTALS AND METHODS OF MACHINE AND DEEP LEARNING ALGORITHMS, Tools and Applications, Scrivener Publishing LLC, 2022"
         ],
-        "flags": [
-          "semester_mismatch"
-        ]
+        "flags": ["semester_mismatch"]
       },
       {
         "sem": 3,
@@ -1174,9 +1096,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction to Software Quality Assurance",
           "Software quality assurance system - overview and Assuring the Quality of Software Maintenance Components",
@@ -1189,9 +1109,7 @@
           "Harold Kerzner \"Project Management: A Systems Approach to Planning, Scheduling, and Controlling\". JOHN WILEY. 2017",
           "Ken Schwaber. \"Agile Project Management with Scrum\". Microsoft Press US. 2004"
         ],
-        "flags": [
-          "multiple_courses_present"
-        ]
+        "flags": ["multiple_courses_present"]
       },
       {
         "sem": 3,
@@ -1203,10 +1121,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction, Scope of HRM, Objectives of HRM, Functions, Activities, Roles, HRD organization and responsibilities",
           "Evolution of HRM, global trends shaping HR practices. Influence of various factors on HRM",
@@ -1225,9 +1140,7 @@
           "Aswathappa K, Human Resource Management,Text & Cases McGraw Hill 7th Edition, 2006",
           "N G Nair and Latha Nair., Personnel Management and Industrial Relations, S. Chand Company, 1995"
         ],
-        "flags": [
-          "course_code_suggests_different_semester"
-        ]
+        "flags": ["course_code_suggests_different_semester"]
       },
       {
         "sem": 3,
@@ -1239,10 +1152,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Marketing definition, scope and concepts",
           "Adapting marketing to the New Economy",
@@ -1280,10 +1190,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction and objectives of financial management",
           "Evolution of corporate finance",
@@ -1319,10 +1226,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introductions to operations management",
           "Forecasting \u2013 qualitative and quantitative methods of forecasting, and forecast errors",
@@ -1339,9 +1243,7 @@
           "Khanna R. B., Production and Operations Management, 2nd edition, PHI Learning Private Limited, 2015.",
           "Stevenson, W. J., Operations management. McGraw Hill, 2020."
         ],
-        "flags": [
-          "code_sem_mismatch"
-        ]
+        "flags": ["code_sem_mismatch"]
       },
       {
         "sem": 3,
@@ -1353,10 +1255,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction and objectives of financial management",
           "Evolution of corporate finance",
@@ -1392,10 +1291,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction to financial market",
           "Stock markets trading mechanism",
@@ -1444,10 +1340,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Accounting information and regression analysis",
@@ -1484,10 +1377,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Project finance and its importance",
           "Development of project finance",
@@ -1537,9 +1427,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction, FinTech history, initiatives ecosystem, and challenges",
           "Technology Enablers for Fintech, Digital Transformation and Disruption",
@@ -1566,9 +1454,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction to Banking and Financial Services",
           "Evolution of Banking",
@@ -1595,9 +1481,7 @@
           "Indian Institute of Banking and Finance. Principles & Practices of Banking, New Delhi, Macmillan Education. 2011.",
           "Bindseil, U., & Pantelopoulos, G. Introduction to Payments and Financial Market Infrastructures. Springer Nature. 2023."
         ],
-        "flags": [
-          "missing_core_elective_tag"
-        ]
+        "flags": ["missing_core_elective_tag"]
       },
       {
         "sem": 3,
@@ -1609,10 +1493,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Econometrics",
           "Structure of economic data",
@@ -1646,10 +1527,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction and objectives of financial management",
           "Evolution of corporate finance",
@@ -1673,9 +1551,7 @@
           "Eugene F Brigham & Michael C E. Financial Management: Theory and Practice, 12e. Cengage Learning, India, 2008.",
           "R. Narayanaswamy. Financial Accounting: A Managerial Perspective, 6e. PHI Learning Pvt. Ltd., New Delhi, 2017."
         ],
-        "flags": [
-          "department_mismatch"
-        ]
+        "flags": ["department_mismatch"]
       },
       {
         "sem": 3,
@@ -1687,10 +1563,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "The Entrepreneurial mind-set",
           "Startup eco-system",
@@ -1729,10 +1602,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "History of design thinking",
           "Value of design thinking",
@@ -1758,9 +1628,7 @@
           "Diderich, Claude. Design Thinking for Strategy. Springer International Publishing, Switzerland, 2020.",
           "Nixon, Natalie W., ed. Strategic Design Thinking: Innovation in Products, Services, Experiences and Beyond. Fairchild Books, United States, 2015."
         ],
-        "flags": [
-          "reference_formatting_issue"
-        ]
+        "flags": ["reference_formatting_issue"]
       },
       {
         "sem": 3,
@@ -1772,9 +1640,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Fundamentals of intellectual property rights- creating value by generating innovation, capturing value by protecting innovation, types of intellectual property rights",
           "Protection strategies-patent strategies in general, offensive, and defensive patent strategies, core dimensions of patent strategies, cost of patents, complementary strategies to patenting",
@@ -1801,10 +1667,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Evolution",
           "Significance",
@@ -1839,10 +1702,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Perception",
           "Attributes",
@@ -1879,10 +1739,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Theoretical underpinnings - psycho social theories of moral development",
           "Characteristics of a professional \u2013 who is a professional",
@@ -1915,10 +1772,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Trait theories",
           "Behavioural theories",
@@ -1951,9 +1805,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction to Public speaking",
           "Voice modulation",
@@ -2005,9 +1857,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "The challenges of intercultural communication - interacting in a diverse world, understanding cultures, alternative views of reality",
           "Intercultural Communication concepts, assumptions and norms",
@@ -2034,10 +1884,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Concepts and principles, tools, definition, nature and scope, structure and management",
           "Media management, convergence",
@@ -2069,10 +1916,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Principles, techniques, and skills for preparing scientific, technical, or business writing",
           "Writing of reports and letters",
@@ -2101,9 +1945,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Evolution and Development of literary forms: Poetry, Drama, Fiction",
           "Major themes: allegory, satire, romanticism, realism, modernism and post modernism",
@@ -2135,10 +1977,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Background: social context, political context and literary movements",
           "World Wars and its influence on Literature",
@@ -2170,10 +2009,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Comparative Literature: Aims, features and theory",
           "Themes: fate and chance, individual and society, freedom and enslavement, boundaries and borders, sexuality and gender roles, and identity in literature",
@@ -2200,10 +2036,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "elective",
-          "theory"
-        ],
+        "tags": ["elective", "theory"],
         "syllabus": [
           "Beginning of Indian Writing in English",
           "The Gandhian Influence; Partition and Independence",
@@ -2220,9 +2053,7 @@
           "Iyengar, Srinivasa K.R.: Indian Writing in English. Sterling Publishers Private Limited. Reprint 1994.",
           "Naik, M.K. A History of Indian English Literature. Sahitya Academy, 1982, reprint."
         ],
-        "flags": [
-          "reference_formatting_issue"
-        ]
+        "flags": ["reference_formatting_issue"]
       },
       {
         "sem": 3,
@@ -2234,10 +2065,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Phonetics: Transcription",
           "Word Accent",
@@ -2281,10 +2109,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "History of invention of motion pictures - Daguerre, Muybridge, Edison, Skaldanowsky Brothers, Lumieres",
           "Evolution of film \u2013 Lumieres, Melies, Porter, Griffith",
@@ -2319,9 +2144,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction to the German alphabet and the German language",
           "dialogues & conversations",
@@ -2336,9 +2159,7 @@
           "Sally Johnson, Natalie Braber, 2008 Exploring the German Language, Second Edition, Cambridge University Press",
           "Charles Russ, 1994 The German Language Today: A Linguistic Introduction, Routledge"
         ],
-        "flags": [
-          "unclear_course_type"
-        ]
+        "flags": ["unclear_course_type"]
       },
       {
         "sem": 3,
@@ -2350,10 +2171,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "The challenges of Intercultural communication - interacting in a diverse world, understanding cultures, alternative views of reality, cultural stereotyping",
           "Foundational Theories in Intercultural Communication - Edward Hall, Samovar, G Hofstede",
@@ -2375,10 +2193,7 @@
         "code": "HUM 4325",
         "title": "INTERPRETATION OF LITERARY TEXTS",
         "credits": null,
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Texts-static, dynamic, cryptic and delphic",
           "Language of literature",
@@ -2432,9 +2247,7 @@
           "Carter, R. (ed.) (1982). Language and Literature: An introductory Reader in Stylistics, Allen and Unwin, London.",
           "Cook, G. (1994). Discourse and Literature, Oxford University Press, London."
         ],
-        "flags": [
-          "missing_credits"
-        ]
+        "flags": ["missing_credits"]
       },
       {
         "sem": 3,
@@ -2446,9 +2259,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Introduction to Public speaking",
           "Voice modulation",
@@ -2497,9 +2308,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Essay Writing: Narrative - Instructional and Process narratives",
           "Descriptive",
@@ -2520,9 +2329,7 @@
           "Dorothy Seyler, (2009), Read, Reason and Write, Sixth Edition, McGraw-Hill Higher Education, NY.",
           "Thomas S. Kane, (1994), The Oxford Essential Guide To Writing, Oxford University."
         ],
-        "flags": [
-          "semester_mismatch"
-        ]
+        "flags": ["semester_mismatch"]
       },
       {
         "sem": 3,
@@ -2534,9 +2341,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Definition, terminology",
           "Emergence",
@@ -2578,10 +2383,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Art and ideas within broader context of art, history and cultural studies",
           "Culture and creativity across historical 'time and space' engagements",
@@ -2615,10 +2417,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory",
-          "core"
-        ],
+        "tags": ["theory", "core"],
         "syllabus": [
           "Survey of writing by women from various time periods, geographic regions, and social classes of India and the world",
           "History and development of women's rights and issues from classical period to present",
@@ -2649,9 +2448,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Themes of religion, individual and collective identity, morality and society, boundaries and borders, sexuality and gender roles in literatures of different nations",
           "Cultural constructions of identities and values through analysis of representations",
@@ -2680,9 +2477,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Psychology - Meaning, Nature and Scope",
           "Defining Psychology",
@@ -2714,10 +2509,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Notions of Philosophy",
           "The Origin and Development of Philosophy",
@@ -2761,9 +2553,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "theory"
-        ],
+        "tags": ["theory"],
         "syllabus": [
           "Various literary/prose forms and their characteristics: Longform Journalism, Travelogue, Short Fiction, Memoir, Autobiography, Novel",
           "Critical Concepts and Terms in Literary Writing: Narrator, Tone, Voice, Style",
@@ -2778,9 +2568,7 @@
           "James Moffet, Ed., Points of View, University of Chicago Press, 2000",
           "M.H. Abrams, A Glossary of Literary Terms, Seventh Edition, Macmillan, 2005"
         ],
-        "flags": [
-          "tags_inferred_as_theory_only"
-        ]
+        "flags": ["tags_inferred_as_theory_only"]
       },
       {
         "sem": 3,
@@ -2792,10 +2580,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "The History of Comic Books: Developing a Medium",
           "The History of Comic Books: The Maturation of the Medium",
@@ -2829,10 +2614,7 @@
           "p": 0,
           "c": 3
         },
-        "tags": [
-          "core",
-          "theory"
-        ],
+        "tags": ["core", "theory"],
         "syllabus": [
           "Introduction",
           "Problem Definition",

@@ -1,0 +1,190 @@
+{
+  "degree_metadata": {
+    "title": "B.Tech Computer Science and Engineering",
+    "department": "The Department of Computer Science and Engineering",
+    "handbook_version": "2025-2026",
+    "total_credits_required": 170
+  },
+  "structure": {
+    "semesters": [
+      {
+        "sem_index": 3,
+        "year": "II",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "MAT 2101",
+          "CSS 2101",
+          "CSS 2102",
+          "CSS 2103",
+          "CSS 2104",
+          "CSS 2111",
+          "CSS 2112"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 4,
+        "year": "II",
+        "total_contact_hours": 27,
+        "total_credits": 22,
+        "core_courses": [
+          "MAT 2201",
+          "CSS 2201",
+          "CSS 2202",
+          "CSS 2203",
+          "CSS 2204",
+          "CSS 2211",
+          "CSS 2212",
+          "CSS 2213"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 5,
+        "year": "III",
+        "total_contact_hours": 28,
+        "total_credits": 22,
+        "core_courses": ["HUM 3101", "CSS 3101"],
+        "elective_slots": [
+          {
+            "slot_id": "CS_SPEC_S1",
+            "label": "CS Specialization (S1)",
+            "pool_ref": "major_specializations"
+          },
+          {
+            "slot_id": "CS_SPEC_S2",
+            "label": "CS Specialization (S2)",
+            "pool_ref": "major_specializations"
+          },
+          {
+            "slot_id": "CS_SPEC_S3",
+            "label": "CS Specialization (S3)",
+            "pool_ref": "major_specializations"
+          },
+          {
+            "slot_id": "OPEN_ELECTIVE_1",
+            "label": "Open Elective - 1 (MLC)",
+            "pool_ref": "open_electives"
+          }
+        ]
+      }
+    ],
+    "elective_pools": {
+      "major_specializations": [
+        {
+          "track_name": "Artificial Intelligence and Machine Learning",
+          "courses": [
+            "CSO 3101",
+            "CSO 3102",
+            "CSO 3103",
+            "CSO 3201",
+            "CSO 3202"
+          ]
+        },
+        {
+          "track_name": "Networks and IoT",
+          "courses": [
+            "CSO 3111",
+            "CSO 3112",
+            "CSO 3113",
+            "CSO 3211",
+            "CSO 3212"
+          ]
+        },
+        {
+          "track_name": "Data Science",
+          "courses": [
+            "CSO 3121",
+            "CSO 3102",
+            "CSO 3103",
+            "CSO 3201",
+            "CSO 3222"
+          ]
+        },
+        {
+          "track_name": "Software Engineering",
+          "courses": [
+            "CSO 3131",
+            "CSO 3132",
+            "CSO 3133",
+            "CSO 3231",
+            "CSO 3232"
+          ]
+        },
+        {
+          "track_name": "Cyber Security",
+          "courses": [
+            "CSO 3141",
+            "CSO 3142",
+            "CSO 3143",
+            "CSO 3241",
+            "CSO 3242"
+          ]
+        },
+        {
+          "track_name": "Quantum Computing",
+          "courses": [
+            "CSO 3151",
+            "CSO 3152",
+            "CSO 3153",
+            "CSO 3251",
+            "CSO 3252"
+          ]
+        }
+      ],
+      "minor_specializations": [
+        {
+          "track_name": "Multimodal Data Analytics",
+          "courses": ["CSP 4401", "CSP 4402", "CSP 4403", "CSP 4404"]
+        },
+        {
+          "track_name": "Health Care Analytics",
+          "courses": ["CSP 4405", "CSP 4406", "CSP 4407", "CSP 4408"]
+        }
+      ],
+      "programme_electives": [
+        "CSP 4409",
+        "CSP 4410",
+        "CSP 4411",
+        "CSP 4412",
+        "CSP 4413",
+        "CSP 4414",
+        "CSP 4415",
+        "CSP 4416",
+        "CSP 4417",
+        "CSP 4418",
+        "CSP 4419",
+        "CSP 4420",
+        "CSP 4421",
+        "CSP 4422",
+        "CSP 4423",
+        "CSP 4424",
+        "CSP 4425",
+        "CSP 4426",
+        "CSP 4427",
+        "CSP 4428",
+        "CSP 4429",
+        "CSP 4430",
+        "CSP 4431",
+        "CSP 4432",
+        "CSP 4433"
+      ],
+      "open_electives": ["IOE 33XX"]
+    }
+  },
+  "footnotes": [
+    {
+      "symbol": "*",
+      "text": "Applicable to students who opted for minor specialization"
+    },
+    {
+      "symbol": "**",
+      "text": "Applicable to eligible students who opted for and successfully completed the B Tech - Honours requirements"
+    },
+    {
+      "symbol": "^",
+      "text": "Applicable to students who opted for Honours"
+    }
+  ]
+}

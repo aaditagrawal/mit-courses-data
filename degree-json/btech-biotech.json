@@ -1,0 +1,182 @@
+{
+  "degree_metadata": {
+    "title": "B.Tech. Biotechnology",
+    "department": "The Department of Biotechnology",
+    "handbook_version": "2025-2026",
+    "total_credits_required": 170
+  },
+  "structure": {
+    "semesters": [
+      {
+        "sem_index": 3,
+        "year": "II",
+        "total_contact_hours": 27,
+        "total_credits": 21,
+        "core_courses": [
+          "MAT 2124",
+          "BIO 2121",
+          "BIO 2122",
+          "BIO 2123",
+          "BIO 2124",
+          "BIO 2125",
+          "BIO 2141",
+          "BIO 2142"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 4,
+        "year": "II",
+        "total_contact_hours": 30,
+        "total_credits": 22,
+        "core_courses": [
+          "MAT 2224",
+          "BIO 2221",
+          "BIO 2222",
+          "BIO 2223",
+          "BIO 2224",
+          "BIO 2225",
+          "BIO 2241",
+          "BIO 2242"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 5,
+        "year": "III",
+        "total_contact_hours": 27,
+        "total_credits": 21,
+        "core_courses": [
+          "HUM 3021",
+          "BIO 3121",
+          "BIO 3122",
+          "BIO 3123",
+          "BIO 3124",
+          "IPE 4302",
+          "BIO 3141",
+          "BIO 3142"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 6,
+        "year": "III",
+        "total_contact_hours": 27,
+        "total_credits": 21,
+        "core_courses": [
+          "HUM 3022",
+          "BIO 3221",
+          "BIO 3222",
+          "BIO 3241",
+          "BIO 3242"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "PROG_ELEC_I",
+            "label": "Program Elective - I / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELEC_II",
+            "label": "Program Elective - II / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "OPEN_ELEC_2",
+            "label": "Open Elective - 2",
+            "pool_ref": "open_electives"
+          }
+        ]
+      },
+      {
+        "sem_index": 7,
+        "year": "IV",
+        "total_contact_hours": 18,
+        "total_credits": 18,
+        "core_courses": ["BIO 4191"],
+        "elective_slots": [
+          {
+            "slot_id": "PROG_ELEC_III",
+            "label": "Program Elective - III / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELEC_IV",
+            "label": "Program Elective - IV / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELEC_V",
+            "label": "Program Elective - V",
+            "pool_ref": "other_program_electives"
+          },
+          {
+            "slot_id": "PROG_ELEC_VI",
+            "label": "Program Elective - VI",
+            "pool_ref": "other_program_electives"
+          },
+          {
+            "slot_id": "PROG_ELEC_VII",
+            "label": "Program Elective - VII",
+            "pool_ref": "other_program_electives"
+          },
+          {
+            "slot_id": "OPEN_ELEC_3",
+            "label": "Open Elective - 3",
+            "pool_ref": "open_electives"
+          }
+        ]
+      },
+      {
+        "sem_index": 8,
+        "year": "IV",
+        "total_contact_hours": 13,
+        "total_credits": 13,
+        "core_courses": ["BIO 4291", "BIO 4292"],
+        "elective_slots": [
+          {
+            "slot_id": "HONOURS_PROJECT",
+            "label": "Project Work (B.Tech Honours)**",
+            "pool_ref": "honours_requirements"
+          }
+        ]
+      }
+    ],
+    "elective_pools": {
+      "minor_specializations": [
+        {
+          "track_name": "Environmental Biotechnology",
+          "courses": ["BIO 4401", "BIO 4402", "BIO 4403", "BIO 4404"]
+        },
+        {
+          "track_name": "Pharmaceutical Biotechnology",
+          "courses": ["BIO 4405", "BIO 4406", "BIO 4407", "BIO 4408"]
+        }
+      ],
+      "other_program_electives": [
+        "BIO 4441",
+        "BIO 4442",
+        "BIO 4443",
+        "BIO 4444",
+        "BIO 4445",
+        "BIO 4446",
+        "BIO 4447",
+        "BIO 4448",
+        "BIO 4449",
+        "BIO 4450"
+      ],
+      "open_electives": ["BIO 4311", "BIO 4312", "BIO 4313"],
+      "honours_requirements": ["BIO 4293", "BIO ****", "BIO ****", "BIO ****"]
+    }
+  },
+  "footnotes": [
+    {
+      "symbol": "*",
+      "text": "Applicable to students who opted for minor specialization"
+    },
+    {
+      "symbol": "**",
+      "text": "Applicable to eligible students who opted for and successfully completed the B Tech – Honours requirements"
+    }
+  ]
+}

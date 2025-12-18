@@ -1,0 +1,159 @@
+{
+  "degree_metadata": {
+    "title": "B.Tech in Electronics Engineering (VLSI Design and Technology)",
+    "department": "The Department of Electronics and Communication Engineering",
+    "handbook_version": "2025-2026",
+    "total_credits_required": 170
+  },
+  "structure": {
+    "semesters": [
+      {
+        "sem_index": 3,
+        "year": "II",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "MAT 2122",
+          "ECE 2126",
+          "ECE 2122",
+          "ECE 2123",
+          "ECE 2127",
+          "ECE 2125",
+          "ECE 2143",
+          "ECE 2144"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 4,
+        "year": "II",
+        "total_contact_hours": 26,
+        "total_credits": 22,
+        "core_courses": [
+          "MAT 2227",
+          "ECE 2226",
+          "ECE 2221",
+          "ECE 2228",
+          "ECE 2229",
+          "ECE 2222",
+          "ECE 2243",
+          "ECE 2244"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 5,
+        "year": "III",
+        "total_contact_hours": 27,
+        "total_credits": 21,
+        "core_courses": [
+          "HUM 3021",
+          "ECE 3127",
+          "ECE 3128",
+          "ECE 3129",
+          "ECE 3130",
+          "IPE 4302",
+          "ECE 3143",
+          "ECE 3144"
+        ],
+        "elective_slots": []
+      },
+      {
+        "sem_index": 6,
+        "year": "III",
+        "total_contact_hours": 25,
+        "total_credits": 21,
+        "core_courses": [
+          "HUM 3022",
+          "ECE 3225",
+          "ECE 3226",
+          "ECE 3243",
+          "ECE 3244"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "PROG_ELECTIVE_1",
+            "label": "Program Elective - I / (Minor Specialization)",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_2",
+            "label": "Program Elective - II / (Minor Specialization)",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "OPEN_ELECTIVE_2",
+            "label": "Open Elective - II",
+            "pool_ref": "open_electives"
+          }
+        ]
+      }
+    ],
+    "elective_pools": {
+      "minor_specializations": [
+        {
+          "track_name": "Semiconductor Devices and packaging",
+          "courses": ["ECE 4415", "ECE 4416", "ECE 4406", "ECE 4417"]
+        },
+        {
+          "track_name": "Advanced Solid-State Devices",
+          "courses": ["ECE 4452", "ECE 4418", "ECE 4419", "ECE 4420"]
+        },
+        {
+          "track_name": "Computational Intelligent VLSI System",
+          "courses": ["ELE 4409", "ELE 4410", "ECE 4421", "ECE 4422"]
+        },
+        {
+          "track_name": "Advanced VLSI Architecture",
+          "courses": ["ECE 4443", "ECE 4459", "ECE 4423", "ECE 4424"]
+        }
+      ],
+      "programme_electives": [
+        "ECE 3222",
+        "ECE 4405",
+        "ECE 4409",
+        "ECE 4444",
+        "ECE 4447",
+        "ECE 4457",
+        "ECE 4461",
+        "ELE 4410",
+        "ECE 4467",
+        "ECE 4469",
+        "ECE 4498",
+        "ECE 4499",
+        "ECE 4500",
+        "ECE 4501",
+        "ECE 4502",
+        "ECE 4503",
+        "ECE 4504",
+        "ECE 4505",
+        "ECE 4506",
+        "ECE 4507",
+        "ECE 4508"
+      ],
+      "open_electives": [
+        "ECE 4311",
+        "ECE 4312",
+        "ECE 4313",
+        "ECE 4315",
+        "ECE 4316",
+        "ECE 4317",
+        "ECE 4318",
+        "ECE 4319",
+        "ECE 4320",
+        "ECE 4322",
+        "ECE 4323"
+      ]
+    }
+  },
+  "footnotes": [
+    {
+      "symbol": "*",
+      "text": "Applicable to students who opted for minor specialization"
+    },
+    {
+      "symbol": "**",
+      "text": "Applicable to eligible students who opted for and successfully completed the B Tech - Honours requirements"
+    }
+  ]
+}

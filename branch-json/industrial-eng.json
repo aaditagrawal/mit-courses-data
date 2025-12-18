@@ -1301,6 +1301,53 @@
         ]
       },
       {
+        "code": "MIE 4191",
+        "title": "MINI PROJECT (MINOR SPECIALISATION)",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 0,
+          "c": 8
+        },
+        "tags": [
+          "elective",
+          "project"
+        ],
+        "syllabus": [
+          "Carry out a mini project in the area of minor specialization",
+          "Demonstrate application of concepts learned in minor specialization tracks"
+        ],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_references"
+        ]
+      },
+      {
+        "code": "MIE 4293",
+        "title": "PROJECT WORK (B.TECH HONOURS)",
+        "credits": {
+          "l": 0,
+          "t": 0,
+          "p": 0,
+          "c": 20
+        },
+        "tags": [
+          "elective",
+          "project",
+          "honours"
+        ],
+        "syllabus": [
+          "Advanced project work for B.Tech Honours candidates",
+          "In-depth research and implementation in a specific domain of Industrial Engineering"
+        ],
+        "references": [],
+        "flags": [
+          "missing_sem",
+          "missing_references"
+        ]
+      },
+      {
         "sem": null,
         "code": "MIE 4457",
         "title": "ENGINEERING ASSET MANAGEMENT",
