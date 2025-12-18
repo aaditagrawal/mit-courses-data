@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "bun run scripts/generate-data.ts && next build",
     "start": "next start",
     "lint": "eslint",
     "deploy": "bun run build && wrangler deploy"
