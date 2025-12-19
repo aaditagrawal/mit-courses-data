@@ -31,29 +31,26 @@ export default function DegreesIndexPage() {
           </div>
         </header>
 
-        <div className="grid gap-4 sm:grid-cols-1 max-w-3xl mx-auto">
+        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {degrees.map((degree) => (
             <Link
               key={degree.slug}
               href={`/degree/${degree.slug}`}
-              className="group"
+              className="group h-full"
             >
-              <div className="flex items-center p-4 rounded-xl border bg-card hover:bg-muted/50 transition-all duration-200 hover:border-primary/30 hover:shadow-sm group-active:scale-[0.99]">
-                <div className="flex-shrink-0 mr-4 p-3 bg-secondary rounded-lg group-hover:bg-background transition-colors border border-transparent group-hover:border-border/50">
-                  <Book className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
-                </div>
-
-                <div className="flex-1 min-w-0">
-                  <h2 className="text-base font-semibold text-foreground group-hover:text-primary transition-colors truncate pr-4">
+              <div className="flex flex-col h-full p-6 rounded-2xl border bg-card hover:bg-muted/50 transition-all duration-300 hover:border-primary/30 hover:shadow-md group-active:scale-[0.98]">
+                <div className="flex-1 space-y-2">
+                  <h2 className="text-lg font-bold text-foreground group-hover:text-primary transition-colors leading-tight">
                     {degree.title}
                   </h2>
-                  <p className="text-xs text-muted-foreground truncate">
+                  <p className="text-xs text-muted-foreground font-medium uppercase tracking-wider">
                     {degree.department}
                   </p>
                 </div>
 
-                <div className="flex items-center text-muted-foreground/30 group-hover:text-primary/50 transition-colors">
-                  <ChevronRight className="w-5 h-5" />
+                <div className="mt-8 flex items-center justify-between text-xs font-mono text-muted-foreground/50">
+                  <span className="group-hover:text-primary/70 transition-colors">View Structure</span>
+                  <ChevronRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
                 </div>
               </div>
             </Link>

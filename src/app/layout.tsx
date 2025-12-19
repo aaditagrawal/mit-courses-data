@@ -1,4 +1,5 @@
 import { getAllCourses } from '@/lib/courses';
+import { getAllDegreeSummaries } from '@/lib/degrees';
 import { GlobalLayout } from '@/components/GlobalLayout';
 import type { Metadata } from "next";
 import { Instrument_Sans } from "next/font/google";
@@ -21,6 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const courses = getAllCourses();
+  const degrees = getAllDegreeSummaries();
 
   return (
     <html lang="en" suppressHydrationWarning>
@@ -37,7 +39,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <GlobalLayout courses={courses}>
+          <GlobalLayout courses={courses} degrees={degrees}>
             {children}
           </GlobalLayout>
         </ThemeProvider>

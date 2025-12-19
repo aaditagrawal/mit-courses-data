@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { ShareButton, SearchReferenceButton } from '@/components/course-actions';
-import { MoveLeft, BookOpen, Loader2 } from 'lucide-react';
+import { MoveLeft, BookOpen, Loader2, FileX2 } from 'lucide-react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 
@@ -67,14 +67,21 @@ export default function CoursePageClient() {
                         <span className="font-mono text-xs sm:text-sm">Back to Search</span>
                     </Link>
                 </nav>
-                <main className="pt-24 pb-12 px-6 max-w-4xl mx-auto text-center">
-                    <h1 className="text-2xl font-bold mb-4">Course Not Found</h1>
-                    <p className="text-muted-foreground mb-6">
-                        The course &quot;{code}&quot; could not be found in the database.
-                    </p>
-                    <p className="text-sm text-muted-foreground">
-                        Subject Data Not Properly Published in the Handbook
-                    </p>
+                <main className="pt-24 pb-12 px-6 max-w-4xl mx-auto text-center space-y-6">
+                    <div className="flex justify-center">
+                        <div className="p-4 rounded-full bg-destructive/10 border border-destructive/20">
+                            <FileX2 className="w-12 h-12 text-destructive" />
+                        </div>
+                    </div>
+                    <div>
+                        <h1 className="text-2xl font-bold mb-4">Course Not Found</h1>
+                        <p className="text-muted-foreground mb-6">
+                            The course &quot;{code}&quot; could not be found in the database.
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                            Subject Data Not Properly Published in the Handbook
+                        </p>
+                    </div>
                 </main>
             </div>
         );

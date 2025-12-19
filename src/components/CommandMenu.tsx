@@ -2,30 +2,34 @@
 
 import * as React from 'react';
 import { useRouter } from 'next/navigation';
-import { Search, BookOpen } from 'lucide-react';
+import { Search, BookOpen, GraduationCap } from 'lucide-react';
 import {
     CommandDialog,
     CommandEmpty,
     CommandList,
     CommandItem,
+    CommandGroup,
 } from '@/components/ui/command';
 import { SearchResult } from '@/lib/courses';
+import { DegreeSummary } from '@/lib/degrees';
 import { useCommandMenu } from '@/lib/command-menu-context';
 import { getCourseLink } from '@/lib/utils';
 
 interface Props {
-    data: SearchResult[];
+    courses: SearchResult[];
+    degrees: DegreeSummary[];
 }
 
-export function GlobalCommandDialog({ data }: Props) {
+export function GlobalCommandDialog({ courses, degrees }: Props) {
     const { open, setOpen } = useCommandMenu();
     const [query, setQuery] = React.useState("");
     const router = useRouter();
-    const [randomizedData, setRandomizedData] = React.useState<SearchResult[]>([]);
+
+    const [randomizedCourses, setRandomizedCourses] = React.useState<SearchResult[]>([]);
 
     React.useEffect(() => {
-        setRandomizedData([...data].sort(() => 0.5 - Math.random()));
-    }, [data]);
+        setRandomizedCourses([...courses].sort(() => 0.5 - Math.random()));
+    }, [courses]);
 
     React.useEffect(() => {
         const down = (e: KeyboardEvent) => {
@@ -38,11 +42,20 @@ export function GlobalCommandDialog({ data }: Props) {
         return () => document.removeEventListener('keydown', down);
     }, [open, setOpen]);
 
+    const filteredDegrees = React.useMemo(() => {
+        if (!query) return degrees.slice(0, 10);
+        const lowerQuery = query.toLowerCase();
+        return degrees.filter(degree =>
+            degree.title.toLowerCase().includes(lowerQuery) ||
+            degree.department.toLowerCase().includes(lowerQuery)
+        ).slice(0, 10);
+    }, [query, degrees]);
+
     const filteredCourses = React.useMemo(() => {
-        if (!query) return randomizedData.slice(0, 50);
+        if (!query) return randomizedCourses.slice(0, 40);
         const lowerQuery = query.toLowerCase();
 
-        return data.filter(course => {
+        return courses.filter(course => {
             const matchesCode = course.code.toLowerCase().includes(lowerQuery);
             const matchesTitle = course.title.toLowerCase().includes(lowerQuery);
             const matchesDepartment = course.department?.toLowerCase().includes(lowerQuery);
@@ -50,8 +63,8 @@ export function GlobalCommandDialog({ data }: Props) {
             const matchesTags = course.tags?.some(t => t.toLowerCase().includes(lowerQuery));
 
             return matchesCode || matchesTitle || matchesSyllabus || matchesTags || matchesDepartment;
-        }).slice(0, 50);
-    }, [query, data, randomizedData]);
+        }).slice(0, 40);
+    }, [query, courses, randomizedCourses]);
 
     const getSnippet = (course: SearchResult, q: string) => {
         if (!q) return course.department;
@@ -66,9 +79,14 @@ export function GlobalCommandDialog({ data }: Props) {
         return course.department;
     }
 
-    const handleSelect = (courseCode: string) => {
+    const handleSelectCourse = (courseCode: string) => {
         setOpen(false);
         router.push(getCourseLink(courseCode));
+    };
+
+    const handleSelectDegree = (slug: string) => {
+        setOpen(false);
+        router.push(`/degree/${slug}`);
     };
 
     return (
@@ -81,37 +99,59 @@ export function GlobalCommandDialog({ data }: Props) {
                 <Search className="mr-2 h-4 w-4 shrink-0 opacity-50" />
                 <input
                     className="flex h-11 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
-                    placeholder="Search by course code, title, or content..."
+                    placeholder="Search courses, degrees, or content..."
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                 />
             </div>
             <CommandList>
-                {filteredCourses.length === 0 && <CommandEmpty>No results found.</CommandEmpty>}
+                {filteredCourses.length === 0 && filteredDegrees.length === 0 && <CommandEmpty>No results found.</CommandEmpty>}
 
-                {filteredCourses.map((course) => (
-                    <CommandItem
-                        key={`${course.code}-${course.title}`}
-                        value={`${course.code} ${course.title}`}
-                        onSelect={() => handleSelect(course.code)}
-                    >
-                        <BookOpen className="mr-2 h-4 w-4 shrink-0 opacity-50" />
-                        <div className="flex flex-col min-w-0 flex-1">
-                            <div className="flex items-center gap-2 flex-wrap">
-                                <span className="font-mono text-xs font-semibold text-foreground/80">{course.code}</span>
-                                <span className="text-sm font-medium truncate">{course.title}</span>
-                                {course.department && (
-                                    <span className="ml-auto text-[10px] text-muted-foreground/60 shrink-0">
-                                        {course.department.split(' ').map(w => w[0]).join('')}
+                {filteredDegrees.length > 0 && (
+                    <CommandGroup heading="Degrees">
+                        {filteredDegrees.map((degree) => (
+                            <CommandItem
+                                key={degree.slug}
+                                value={degree.title}
+                                onSelect={() => handleSelectDegree(degree.slug)}
+                            >
+                                <GraduationCap className="mr-2 h-4 w-4 shrink-0 opacity-50" />
+                                <div className="flex flex-col min-w-0 flex-1">
+                                    <span className="text-sm font-medium truncate">{degree.title}</span>
+                                    <span className="text-[10px] text-muted-foreground truncate">{degree.department}</span>
+                                </div>
+                            </CommandItem>
+                        ))}
+                    </CommandGroup>
+                )}
+
+                {filteredCourses.length > 0 && (
+                    <CommandGroup heading="Courses">
+                        {filteredCourses.map((course) => (
+                            <CommandItem
+                                key={`${course.code}-${course.title}`}
+                                value={`${course.code} ${course.title}`}
+                                onSelect={() => handleSelectCourse(course.code)}
+                            >
+                                <BookOpen className="mr-2 h-4 w-4 shrink-0 opacity-50" />
+                                <div className="flex flex-col min-w-0 flex-1">
+                                    <div className="flex items-center gap-2 flex-wrap">
+                                        <span className="font-mono text-xs font-semibold text-foreground/80">{course.code}</span>
+                                        <span className="text-sm font-medium truncate">{course.title}</span>
+                                        {course.department && (
+                                            <span className="ml-auto text-[10px] text-muted-foreground/60 shrink-0">
+                                                {course.department.split(' ').map(w => w[0]).join('')}
+                                            </span>
+                                        )}
+                                    </div>
+                                    <span className="text-[10px] text-muted-foreground truncate max-w-full sm:max-w-md">
+                                        {getSnippet(course, query)}
                                     </span>
-                                )}
-                            </div>
-                            <span className="text-[10px] text-muted-foreground truncate max-w-full sm:max-w-md">
-                                {getSnippet(course, query)}
-                            </span>
-                        </div>
-                    </CommandItem>
-                ))}
+                                </div>
+                            </CommandItem>
+                        ))}
+                    </CommandGroup>
+                )}
             </CommandList>
         </CommandDialog>
     );

@@ -63,7 +63,12 @@
         "year": "III",
         "total_contact_hours": 25,
         "total_credits": 21,
-        "core_courses": ["HUM 3022", "MAT 3231", "MAT 3232", "MAT 3241"],
+        "core_courses": [
+          "HUM 3022",
+          "MAT 3231",
+          "MAT 3232",
+          "MAT 3241"
+        ],
         "elective_slots": [
           {
             "slot_id": "PROG_ELECTIVE_1",
@@ -81,25 +86,118 @@
             "pool_ref": "open_electives"
           }
         ]
+      },
+      {
+        "sem_index": 7,
+        "year": "IV",
+        "total_contact_hours": 18,
+        "total_credits": 18,
+        "core_courses": [
+          "MAT 4191"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "PROG_ELECTIVE_3",
+            "label": "Program Elective - III / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_4",
+            "label": "Program Elective - IV / Minor Specialization",
+            "pool_ref": "minor_specializations"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_5",
+            "label": "Program Elective - V",
+            "pool_ref": "programme_electives"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_6",
+            "label": "Program Elective - VI",
+            "pool_ref": "programme_electives"
+          },
+          {
+            "slot_id": "PROG_ELECTIVE_7",
+            "label": "Program Elective - VII",
+            "pool_ref": "programme_electives"
+          },
+          {
+            "slot_id": "OPEN_ELECTIVE_3",
+            "label": "Open Elective - 3",
+            "pool_ref": "open_electives"
+          }
+        ]
+      },
+      {
+        "sem_index": 8,
+        "year": "IV",
+        "total_contact_hours": 0,
+        "total_credits": 13,
+        "core_courses": [
+          "MAT 4291",
+          "MAT 4292"
+        ],
+        "elective_slots": [
+          {
+            "slot_id": "PROJECT_WORK_HONOURS",
+            "label": "Project Work (B.Tech Honours)",
+            "pool_ref": "honours_courses"
+          },
+          {
+            "slot_id": "HONOURS_THEORY_1",
+            "label": "B.Tech Honours (Theory 1)",
+            "pool_ref": "honours_courses"
+          },
+          {
+            "slot_id": "HONOURS_THEORY_2",
+            "label": "B.Tech Honours (Theory 2)",
+            "pool_ref": "honours_courses"
+          },
+          {
+            "slot_id": "HONOURS_THEORY_3",
+            "label": "B.Tech Honours (Theory 3)",
+            "pool_ref": "honours_courses"
+          }
+        ]
       }
     ],
     "elective_pools": {
       "minor_specializations": [
         {
           "track_name": "Applied Mathematics",
-          "courses": ["MAT 4405", "MAT 4406", "MAT 4407", "MAT 4408"]
+          "courses": [
+            "MAT 4405",
+            "MAT 4406",
+            "MAT 4407",
+            "MAT 4408"
+          ]
         },
         {
           "track_name": "Advanced Mathematics",
-          "courses": ["MAT 4409", "MAT 4410", "MAT 4411", "MAT 4412"]
+          "courses": [
+            "MAT 4409",
+            "MAT 4410",
+            "MAT 4411",
+            "MAT 4412"
+          ]
         },
         {
           "track_name": "Multimodal Intelligent System",
-          "courses": ["DSE 4401", "DSE 4402", "DSE 4403", "DSE 4404"]
+          "courses": [
+            "DSE 4401",
+            "DSE 4402",
+            "DSE 4403",
+            "DSE 4404"
+          ]
         },
         {
           "track_name": "Network Analytics",
-          "courses": ["DSE 4405", "DSE 4406", "DSE 4407", "DSE 4408"]
+          "courses": [
+            "DSE 4405",
+            "DSE 4406",
+            "DSE 4407",
+            "DSE 4408"
+          ]
         }
       ],
       "programme_electives": [
@@ -113,7 +211,10 @@
         "MAT 4456",
         "MAT 4457"
       ],
-      "open_electives": []
+      "open_electives": [],
+      "honours_courses": [
+        "MAT 4293"
+      ]
     }
   },
   "footnotes": [

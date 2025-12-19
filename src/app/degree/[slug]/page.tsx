@@ -157,8 +157,8 @@ function SemesterBlock({
             <div className="space-y-8">
                 {/* Core Courses Table */}
                 <div>
-                    <div className="relative overflow-hidden rounded-sm border border-border">
-                        <table className="w-full text-sm text-left">
+                    <div className="relative overflow-hidden rounded-sm border border-border overflow-x-auto">
+                        <table className="w-full text-sm text-left min-w-[600px] sm:min-w-full">
                             <thead className="text-xs text-muted-foreground uppercase bg-muted/30 border-b border-border">
                                 <tr>
                                     <th className="px-4 py-2 font-medium w-32 border-r border-border">Code</th>
@@ -347,9 +347,6 @@ function ElectiveItem({
                 <div className="flex flex-col gap-1">
                     <div className="flex items-center gap-2">
                         <span className="font-semibold text-sm text-foreground">{slot.label}</span>
-                        <Badge variant="secondary" className="text-[10px] font-mono text-muted-foreground bg-background border border-border">
-                            {slot.slot_id}
-                        </Badge>
                     </div>
                     {displayMode === 'tracks' && <span className="text-xs text-muted-foreground">Contains {tracks.length} specialization tracks</span>}
                     {displayMode === 'simple' && simpleCourses.length > 0 && <span className="text-xs text-muted-foreground">{simpleCourses.length} course options available</span>}

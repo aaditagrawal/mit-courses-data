@@ -13,8 +13,8 @@ export default function NotFound() {
         <div className="min-h-screen bg-background text-foreground font-sans flex items-center justify-center p-6">
             <div className="max-w-md w-full text-center space-y-8 animate-in fade-in slide-in-from-bottom-10 duration-500">
                 <div className="flex justify-center">
-                    <div className="p-4 rounded-full bg-muted/50 border border-border">
-                        <FileX2 className="w-12 h-12 text-muted-foreground" />
+                    <div className="p-4 rounded-full bg-destructive/10 border border-destructive/20">
+                        <FileX2 className="w-12 h-12 text-destructive" />
                     </div>
                 </div>
 
