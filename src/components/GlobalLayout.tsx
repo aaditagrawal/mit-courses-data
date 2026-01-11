@@ -19,7 +19,7 @@ export function GlobalLayout({ children, courses, degrees }: Props) {
             <GlobalCommandDialog courses={courses} degrees={degrees} />
 
             {/* Global Header */}
-            <div className="fixed top-4 right-4 z-[100] flex gap-2">
+            <div className="fixed top-4 right-4 z-[100] flex gap-3">
                 <ModeToggle />
             </div>
 

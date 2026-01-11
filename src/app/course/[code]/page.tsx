@@ -1,7 +1,7 @@
 import { getAllCourses } from '@/lib/courses';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ShareButton, SearchReferenceButton } from '@/components/course-actions';
+import { SearchReferenceButton } from '@/components/course-actions';
 import { MoveLeft, BookOpen } from 'lucide-react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -35,8 +35,7 @@ export default async function CoursePage({ params }: Props) {
                     <MoveLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
                     <span className="font-mono text-xs sm:text-sm">Back to Search</span>
                 </Link>
-                <div className="flex items-center gap-2">
-                    <ShareButton />
+                <div className="flex items-center">
                 </div>
             </nav>
 

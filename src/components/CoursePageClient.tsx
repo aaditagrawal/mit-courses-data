@@ -3,7 +3,8 @@
 import { useState, useEffect } from 'react';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ShareButton, SearchReferenceButton } from '@/components/course-actions';
+import { SearchReferenceButton } from '@/components/course-actions';
+import { ModeToggle } from '@/components/mode-toggle';
 import { MoveLeft, BookOpen, Loader2, FileX2 } from 'lucide-react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
@@ -66,6 +67,7 @@ export default function CoursePageClient() {
                         <MoveLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
                         <span className="font-mono text-xs sm:text-sm">Back to Search</span>
                     </Link>
+                    <ModeToggle />
                 </nav>
                 <main className="pt-24 pb-12 px-6 max-w-4xl mx-auto text-center space-y-6">
                     <div className="flex justify-center">
@@ -96,8 +98,8 @@ export default function CoursePageClient() {
                     <MoveLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
                     <span className="font-mono text-xs sm:text-sm">Back to Search</span>
                 </Link>
-                <div className="flex items-center gap-2">
-                    <ShareButton />
+                <div className="flex items-center">
+                    <ModeToggle />
                 </div>
             </nav>
 
