@@ -929,9 +929,9 @@
         "title": "ANALOG AND MIXED SIGNAL IC DESIGN",
         "credits": {
           "l": 3,
-          "t": 0,
+          "t": 1,
           "p": 0,
-          "c": 3
+          "c": 4
         },
         "tags": ["core", "theory"],
         "syllabus": [
