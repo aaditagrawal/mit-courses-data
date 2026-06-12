@@ -55,6 +55,18 @@ export default function Home() {
             <span>Degree Plans</span>
             <span className="opacity-0 group-hover:opacity-60 transition-opacity">→</span>
           </Link>
+
+          <Link
+            href="/api-docs"
+            className="group inline-flex items-center gap-2 px-4 py-2 bg-secondary/50 hover:bg-secondary border border-border/50 rounded-lg text-sm font-mono text-muted-foreground hover:text-foreground transition-all duration-300"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="opacity-60 group-hover:opacity-100 transition-opacity">
+              <polyline points="16 18 22 12 16 6" />
+              <polyline points="8 6 2 12 8 18" />
+            </svg>
+            <span>Agent API</span>
+            <span className="opacity-0 group-hover:opacity-60 transition-opacity">→</span>
+          </Link>
         </div>
 
         <div className="mt-12 space-y-8">
