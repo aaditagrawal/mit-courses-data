@@ -84,6 +84,8 @@ export default function Home() {
             </div>
             <p className="text-xs opacity-60">
               Made by <a href="https://aadit.cc" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-accent-foreground transition-colors">Aadit</a>
+              <span className="mx-2 text-muted-foreground/50">/</span>
+              <a href="https://github.com/aaditagrawal/mit-courses-data" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-accent-foreground transition-colors">GitHub</a>
             </p>
           </div>
         </div>
