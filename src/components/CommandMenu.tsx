@@ -20,9 +20,23 @@ interface Props {
     degrees: DegreeSummary[];
 }
 
+interface SearchApiResponse {
+    data?: {
+        courses?: {
+            data?: SearchResult[];
+        };
+        degrees?: {
+            data?: DegreeSummary[];
+        };
+    };
+}
+
 export function GlobalCommandDialog({ courses, degrees }: Props) {
     const { open, setOpen } = useCommandMenu();
     const [query, setQuery] = React.useState("");
+    const [apiCourses, setApiCourses] = React.useState<SearchResult[]>([]);
+    const [apiDegrees, setApiDegrees] = React.useState<DegreeSummary[]>([]);
+    const [isSearching, setIsSearching] = React.useState(false);
     const router = useRouter();
 
     const [randomizedCourses, setRandomizedCourses] = React.useState<SearchResult[]>([]);
@@ -42,29 +56,61 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
         return () => document.removeEventListener('keydown', down);
     }, [open, setOpen]);
 
+    React.useEffect(() => {
+        const trimmedQuery = query.trim();
+
+        if (!trimmedQuery) {
+            setApiCourses([]);
+            setApiDegrees([]);
+            setIsSearching(false);
+            return;
+        }
+
+        const controller = new AbortController();
+        setIsSearching(true);
+
+        const timeout = window.setTimeout(async () => {
+            try {
+                const response = await fetch(`/api/v1/search?q=${encodeURIComponent(trimmedQuery)}&type=all&limit=40`, {
+                    signal: controller.signal,
+                });
+
+                if (!response.ok) {
+                    setApiCourses([]);
+                    setApiDegrees([]);
+                    return;
+                }
+
+                const payload = (await response.json()) as SearchApiResponse;
+                setApiCourses(payload.data?.courses?.data ?? []);
+                setApiDegrees(payload.data?.degrees?.data ?? []);
+            } catch (error) {
+                if ((error as Error).name !== 'AbortError') {
+                    setApiCourses([]);
+                    setApiDegrees([]);
+                }
+            } finally {
+                if (!controller.signal.aborted) {
+                    setIsSearching(false);
+                }
+            }
+        }, 120);
+
+        return () => {
+            controller.abort();
+            window.clearTimeout(timeout);
+        };
+    }, [query]);
+
     const filteredDegrees = React.useMemo(() => {
         if (!query) return degrees.slice(0, 10);
-        const lowerQuery = query.toLowerCase();
-        return degrees.filter(degree =>
-            degree.title.toLowerCase().includes(lowerQuery) ||
-            degree.department.toLowerCase().includes(lowerQuery)
-        ).slice(0, 10);
-    }, [query, degrees]);
+        return apiDegrees.slice(0, 10);
+    }, [query, degrees, apiDegrees]);
 
     const filteredCourses = React.useMemo(() => {
         if (!query) return randomizedCourses.slice(0, 40);
-        const lowerQuery = query.toLowerCase();
-
-        return courses.filter(course => {
-            const matchesCode = course.code.toLowerCase().includes(lowerQuery);
-            const matchesTitle = course.title.toLowerCase().includes(lowerQuery);
-            const matchesDepartment = course.department?.toLowerCase().includes(lowerQuery);
-            const matchesSyllabus = course.syllabus?.some(s => s.toLowerCase().includes(lowerQuery));
-            const matchesTags = course.tags?.some(t => t.toLowerCase().includes(lowerQuery));
-
-            return matchesCode || matchesTitle || matchesSyllabus || matchesTags || matchesDepartment;
-        }).slice(0, 40);
-    }, [query, courses, randomizedCourses]);
+        return apiCourses.slice(0, 40);
+    }, [query, apiCourses, randomizedCourses]);
 
     const getSnippet = (course: SearchResult, q: string) => {
         if (!q) return course.department;
@@ -98,6 +144,7 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
             <div className="flex items-center border-b px-3">
                 <Search className="mr-2 h-4 w-4 shrink-0 opacity-50" />
                 <input
+                    aria-label="Search courses, degrees, or content"
                     className="flex h-11 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
                     placeholder="Search courses, degrees, or content..."
                     value={query}
@@ -105,7 +152,9 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
                 />
             </div>
             <CommandList>
-                {filteredCourses.length === 0 && filteredDegrees.length === 0 && <CommandEmpty>No results found.</CommandEmpty>}
+                {filteredCourses.length === 0 && filteredDegrees.length === 0 && (
+                    <CommandEmpty>{isSearching ? 'Searching...' : 'No results found.'}</CommandEmpty>
+                )}
 
                 {filteredDegrees.length > 0 && (
                     <CommandGroup heading="Degrees">
@@ -161,7 +210,8 @@ export function CommandMenuTrigger() {
     const { setOpen } = useCommandMenu();
 
     return (
-        <div
+        <button
+            type="button"
             onClick={() => setOpen(true)}
             className="flex items-center gap-2 px-4 py-2 text-sm text-muted-foreground bg-secondary/50 border border-input rounded-md cursor-pointer hover:bg-secondary/80 transition-colors w-full max-w-lg mx-auto"
         >
@@ -170,6 +220,6 @@ export function CommandMenuTrigger() {
             <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
                 <span className="text-xs">⌘</span>K
             </kbd>
-        </div>
+        </button>
     );
 }
