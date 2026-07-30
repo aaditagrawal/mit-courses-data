@@ -45,20 +45,47 @@ const allDepartments: Array<{ data: { department: Department }, file: string }> 
     { data: vlsiData as { department: Department }, file: 'vlsi' },
 ];
 
+// file identifier -> department, so lookups are O(1) instead of a linear scan
+const departmentsByFile = new Map<string, Department>(
+    allDepartments.map(({ data, file }) => [file, data.department]),
+);
+
 export interface SearchResult extends Course {
     department: string;
     branchFile: string;
     matchType?: 'code' | 'title' | 'content';
 }
 
+// A course as it appeared in one department file, before it wins/loses deduplication.
+// Keeping the raw parts avoids materialising a SearchResult for entries that lose.
+interface CourseCandidate {
+    course: Course;
+    code: string;
+    department: string;
+    branchFile: string;
+}
+
+// Total length of every entry, without building the joined string.
+// The branch JSON is type-asserted rather than validated, and the `join('')`
+// this replaces coerced non-string entries instead of throwing, so a malformed
+// syllabus entry must not take down every page that loads the course index.
+function totalLength(values: readonly string[]): number {
+    let total = 0;
+    for (const value of values) {
+        total += (typeof value === 'string' ? value : String(value ?? '')).length;
+    }
+    return total;
+}
+
 // Helper function to calculate data completeness score
-function calculateDataScore(course: SearchResult): number {
+function calculateDataScore(candidate: CourseCandidate): number {
+    const course = candidate.course;
     let score = 0;
 
-    if (course.department && course.department.trim().length > 0) score += 10;
+    if (candidate.department && candidate.department.trim().length > 0) score += 10;
     if (course.syllabus && course.syllabus.length > 0) {
         score += course.syllabus.length;
-        score += course.syllabus.join('').length / 100;
+        score += totalLength(course.syllabus) / 100;
     }
     if (course.references && course.references.length > 0) {
         score += course.references.length * 2;
@@ -78,57 +105,94 @@ function calculateDataScore(course: SearchResult): number {
     return score;
 }
 
-// Cache the processed courses
-let cachedCourses: SearchResult[] | null = null;
-
-export function getAllCourses(): SearchResult[] {
-    if (cachedCourses) return cachedCourses;
-
-    const courseMap = new Map<string, SearchResult>();
-
-    allDepartments.forEach(({ data, file }) => {
-        const dept = data.department;
-        if (dept && dept.courses) {
-            dept.courses.forEach(c => {
-                const normalizedCode = c.code.trim();
-                const existing = courseMap.get(normalizedCode);
-                const currentCourse: SearchResult = {
-                    ...c,
-                    code: normalizedCode,
-                    department: dept.name,
-                    branchFile: file
-                };
-
-                if (!existing) {
-                    courseMap.set(normalizedCode, currentCourse);
-                } else {
-                    const existingScore = calculateDataScore(existing);
-                    const currentScore = calculateDataScore(currentCourse);
-                    if (currentScore > existingScore) {
-                        courseMap.set(normalizedCode, currentCourse);
-                    }
-                }
-            });
-        }
-    });
-
-    cachedCourses = Array.from(courseMap.values());
-    return cachedCourses;
+interface CourseIndex {
+    courses: SearchResult[];
+    byCode: Map<string, SearchResult>;
 }
 
-export function searchCourses(query: string, limit = 50): SearchResult[] {
-    const courses = getAllCourses();
-    if (!query) return courses.slice(0, limit);
+// Cache the processed courses
+let cachedIndex: CourseIndex | null = null;
 
-    const lowerQuery = query.toLowerCase();
+function buildCourseIndex(): CourseIndex {
+    const winners = new Map<string, CourseCandidate>();
+    // Only populated for codes that actually collide, so the ~900 courses that
+    // appear in a single file never pay for a completeness score at all.
+    const winningScores = new Map<string, number>();
 
-    return courses.filter(course => {
-        return (
-            course.code?.toLowerCase().includes(lowerQuery) ||
-            course.title?.toLowerCase().includes(lowerQuery) ||
-            course.syllabus?.some(s => s.toLowerCase().includes(lowerQuery))
-        );
-    }).slice(0, limit);
+    for (const { data, file } of allDepartments) {
+        const dept = data.department;
+        if (!dept || !dept.courses) continue;
+
+        for (const course of dept.courses) {
+            const code = course.code.trim();
+            const candidate: CourseCandidate = {
+                course,
+                code,
+                department: dept.name,
+                branchFile: file,
+            };
+
+            const incumbent = winners.get(code);
+            if (incumbent === undefined) {
+                // Map keeps first-insertion order even when the value is replaced
+                // later, so the final ordering matches first-occurrence order.
+                winners.set(code, candidate);
+                continue;
+            }
+
+            let incumbentScore = winningScores.get(code);
+            if (incumbentScore === undefined) {
+                incumbentScore = calculateDataScore(incumbent);
+                winningScores.set(code, incumbentScore);
+            }
+
+            const candidateScore = calculateDataScore(candidate);
+            if (candidateScore > incumbentScore) {
+                winners.set(code, candidate);
+                winningScores.set(code, candidateScore);
+            }
+        }
+    }
+
+    const courses: SearchResult[] = [];
+    const byCode = new Map<string, SearchResult>();
+
+    for (const candidate of winners.values()) {
+        const resolved: SearchResult = {
+            ...candidate.course,
+            code: candidate.code,
+            department: candidate.department,
+            branchFile: candidate.branchFile,
+        };
+        courses.push(resolved);
+        byCode.set(candidate.code, resolved);
+    }
+
+    return { courses, byCode };
+}
+
+function getCourseIndex(): CourseIndex {
+    cachedIndex ??= buildCourseIndex();
+    return cachedIndex;
+}
+
+export function getAllCourses(): SearchResult[] {
+    return getCourseIndex().courses;
+}
+
+/**
+ * Shared code -> course index. Callers that need many lookups should read this
+ * once instead of rebuilding their own map over every course.
+ */
+export function getCourseMap(): ReadonlyMap<string, SearchResult> {
+    return getCourseIndex().byCode;
+}
+
+/**
+ * O(1) lookup by exact (already trimmed) course code.
+ */
+export function getCourseByCode(code: string): SearchResult | undefined {
+    return getCourseIndex().byCode.get(code);
 }
 
 // Re-export for compatibility
@@ -138,6 +202,5 @@ export function getAllFiles(): string[] {
 
 export function getDepartmentData(filename: string): Department | null {
     const baseName = filename.replace('.json', '');
-    const found = allDepartments.find(d => d.file === baseName);
-    return found ? found.data.department : null;
+    return departmentsByFile.get(baseName) ?? null;
 }

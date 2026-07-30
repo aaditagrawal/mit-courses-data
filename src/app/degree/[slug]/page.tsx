@@ -1,5 +1,5 @@
 import { getDegreeData, getAllDegrees, DegreeData, Semester, ElectiveSlot } from '@/lib/degrees';
-import { getAllCourses, SearchResult } from '@/lib/courses';
+import { getCourseMap, SearchResult } from '@/lib/courses';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Badge } from '@/components/ui/badge';
@@ -39,10 +39,8 @@ export default async function DegreePage({ params }: PageProps) {
         notFound();
     }
 
-    // Pre-fetch all courses to check existence and get details
-    const allCourses = getAllCourses();
-    const courseMap = new Map<string, SearchResult>();
-    allCourses.forEach(c => courseMap.set(c.code.trim(), c));
+    // Shared code -> course index; course codes are already normalised by the loader
+    const courseMap = getCourseMap();
 
     const { degree_metadata, structure, footnotes } = data;
 
@@ -111,7 +109,7 @@ export default async function DegreePage({ params }: PageProps) {
 
 
 // Helper functions for consistent display of course data
-function getCourseTitle(code: string, courseMap: Map<string, SearchResult>): string {
+function getCourseTitle(code: string, courseMap: ReadonlyMap<string, SearchResult>): string {
     const cleanCode = code.trim();
     const course = courseMap.get(cleanCode);
     if (course) return course.title;
@@ -123,7 +121,7 @@ function getCourseTitle(code: string, courseMap: Map<string, SearchResult>): str
     return 'Course data not found';
 }
 
-function getCourseCredits(code: string, courseMap: Map<string, SearchResult>): string | number {
+function getCourseCredits(code: string, courseMap: ReadonlyMap<string, SearchResult>): string | number {
     const cleanCode = code.trim();
     const course = courseMap.get(cleanCode);
     if (course) return course.credits?.c ?? '-';
@@ -141,7 +139,7 @@ function SemesterBlock({
     pools
 }: {
     semester: Semester;
-    courseMap: Map<string, SearchResult>;
+    courseMap: ReadonlyMap<string, SearchResult>;
     pools: Record<string, any>;
 }) {
     return (
@@ -206,7 +204,7 @@ function SemesterBlock({
     );
 }
 
-function CourseRow({ code, courseMap }: { code: string; courseMap: Map<string, SearchResult> }) {
+function CourseRow({ code, courseMap }: { code: string; courseMap: ReadonlyMap<string, SearchResult> }) {
     const course = courseMap.get(code.trim());
     const isMissing = !course;
     const cleanCode = code.trim();
@@ -292,7 +290,7 @@ function ElectiveItem({
 }: {
     slot: ElectiveSlot;
     pools: Record<string, any>;
-    courseMap: Map<string, SearchResult>;
+    courseMap: ReadonlyMap<string, SearchResult>;
 }) {
     let poolData = slot.pool_ref ? pools[slot.pool_ref] : null;
 

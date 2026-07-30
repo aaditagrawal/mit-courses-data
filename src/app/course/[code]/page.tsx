@@ -1,4 +1,4 @@
-import { getAllCourses } from '@/lib/courses';
+import { getCourseByCode } from '@/lib/courses';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { SearchReferenceButton } from '@/components/course-actions';
@@ -19,8 +19,7 @@ export const runtime = 'edge';
 export default async function CoursePage({ params }: Props) {
     const { code } = await params;
     const decodedCode = decodeURIComponent(code);
-    const courses = getAllCourses();
-    const course = courses.find((c) => c.code === decodedCode);
+    const course = getCourseByCode(decodedCode);
 
     if (!course) {
         notFound();
