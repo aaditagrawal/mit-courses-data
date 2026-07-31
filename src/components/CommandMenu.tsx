@@ -10,13 +10,22 @@ import {
     CommandItem,
     CommandGroup,
 } from '@/components/ui/command';
-import { SearchResult } from '@/lib/courses';
+import { CourseSummary, SearchResult } from '@/lib/courses';
 import { DegreeSummary } from '@/lib/degrees';
 import { useCommandMenu } from '@/lib/command-menu-context';
 import { getCourseLink } from '@/lib/utils';
 
+/**
+ * A rendered row. The snippet is resolved when the row is built rather than on
+ * every render, so nothing downstream needs the syllabus text and the cache
+ * below never retains it.
+ */
+interface PaletteCourse extends CourseSummary {
+    snippet: string;
+}
+
 interface Props {
-    courses: SearchResult[];
+    courses: CourseSummary[];
     degrees: DegreeSummary[];
 }
 
@@ -31,18 +40,76 @@ interface SearchApiResponse {
     };
 }
 
+interface SearchHit {
+    courses: PaletteCourse[];
+    degrees: DegreeSummary[];
+}
+
+const EMPTY_HIT: SearchHit = { courses: [], degrees: [] };
+const PREVIEW_COUNT = 40;
+const QUERY_CACHE_LIMIT = 64;
+
+/** The syllabus line that matched, windowed around the match. */
+function buildSnippet(course: SearchResult, query: string): string {
+    if (!query) return course.department;
+
+    const lowerQuery = query.toLowerCase();
+    const matchingSyllabus = course.syllabus?.find(s => s.toLowerCase().includes(lowerQuery));
+    if (!matchingSyllabus) return course.department;
+
+    const index = matchingSyllabus.toLowerCase().indexOf(lowerQuery);
+    const start = Math.max(0, index - 20);
+    const end = Math.min(matchingSyllabus.length, index + lowerQuery.length + 50);
+    return "..." + matchingSyllabus.substring(start, end) + "...";
+}
+
+function toPaletteCourse(course: SearchResult, query: string): PaletteCourse {
+    return {
+        code: course.code,
+        title: course.title,
+        department: course.department,
+        snippet: buildSnippet(course, query),
+    };
+}
+
+/**
+ * `count` uniformly random items, via a partial Fisher-Yates over a copy.
+ *
+ * Only the first `count` positions are resolved, so this is O(count) rather
+ * than the O(n log n) of sorting. It also actually shuffles: comparing with
+ * `() => 0.5 - Math.random()` is not a consistent comparator, so the resulting
+ * order depends on the sort algorithm and is far from uniform.
+ */
+function sample<T>(items: T[], count: number): T[] {
+    const pool = items.slice();
+    const take = Math.min(count, pool.length);
+    for (let i = 0; i < take; i++) {
+        const j = i + Math.floor(Math.random() * (pool.length - i));
+        const swap = pool[i];
+        pool[i] = pool[j];
+        pool[j] = swap;
+    }
+    pool.length = take;
+    return pool;
+}
+
 export function GlobalCommandDialog({ courses, degrees }: Props) {
     const { open, setOpen } = useCommandMenu();
     const [query, setQuery] = React.useState("");
-    const [apiCourses, setApiCourses] = React.useState<SearchResult[]>([]);
-    const [apiDegrees, setApiDegrees] = React.useState<DegreeSummary[]>([]);
+    const [hit, setHit] = React.useState<SearchHit>(EMPTY_HIT);
     const [isSearching, setIsSearching] = React.useState(false);
     const router = useRouter();
 
-    const [randomizedCourses, setRandomizedCourses] = React.useState<SearchResult[]>([]);
+    // Responses keyed by query. The palette fires a request per keystroke, so
+    // backspacing or retyping otherwise refetches results already in memory.
+    const cache = React.useRef(new Map<string, SearchHit>());
+
+    // Only the rows that get rendered are ever sampled. Deferred to an effect so
+    // the server-rendered markup and the first client render agree.
+    const [preview, setPreview] = React.useState<PaletteCourse[]>([]);
 
     React.useEffect(() => {
-        setRandomizedCourses([...courses].sort(() => 0.5 - Math.random()));
+        setPreview(sample(courses, PREVIEW_COUNT).map((course) => ({ ...course, snippet: course.department })));
     }, [courses]);
 
     React.useEffect(() => {
@@ -60,8 +127,14 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
         const trimmedQuery = query.trim();
 
         if (!trimmedQuery) {
-            setApiCourses([]);
-            setApiDegrees([]);
+            setHit(EMPTY_HIT);
+            setIsSearching(false);
+            return;
+        }
+
+        const cached = cache.current.get(trimmedQuery);
+        if (cached) {
+            setHit(cached);
             setIsSearching(false);
             return;
         }
@@ -71,23 +144,33 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
 
         const timeout = window.setTimeout(async () => {
             try {
-                const response = await fetch(`/api/v1/search?q=${encodeURIComponent(trimmedQuery)}&type=all&limit=40`, {
+                const response = await fetch(`/api/v1/search?q=${encodeURIComponent(trimmedQuery)}&type=all&limit=${PREVIEW_COUNT}`, {
                     signal: controller.signal,
                 });
 
                 if (!response.ok) {
-                    setApiCourses([]);
-                    setApiDegrees([]);
+                    setHit(EMPTY_HIT);
                     return;
                 }
 
                 const payload = (await response.json()) as SearchApiResponse;
-                setApiCourses(payload.data?.courses?.data ?? []);
-                setApiDegrees(payload.data?.degrees?.data ?? []);
+                // Projected before caching: retaining raw results would hold the
+                // syllabus and reference text this PR exists to stop shipping.
+                const next: SearchHit = {
+                    courses: (payload.data?.courses?.data ?? []).map((course) => toPaletteCourse(course, trimmedQuery)),
+                    degrees: payload.data?.degrees?.data ?? [],
+                };
+
+                if (cache.current.size >= QUERY_CACHE_LIMIT) {
+                    const oldest = cache.current.keys().next();
+                    if (!oldest.done) cache.current.delete(oldest.value);
+                }
+                cache.current.set(trimmedQuery, next);
+
+                setHit(next);
             } catch (error) {
                 if ((error as Error).name !== 'AbortError') {
-                    setApiCourses([]);
-                    setApiDegrees([]);
+                    setHit(EMPTY_HIT);
                 }
             } finally {
                 if (!controller.signal.aborted) {
@@ -104,26 +187,13 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
 
     const filteredDegrees = React.useMemo(() => {
         if (!query) return degrees.slice(0, 10);
-        return apiDegrees.slice(0, 10);
-    }, [query, degrees, apiDegrees]);
+        return hit.degrees.slice(0, 10);
+    }, [query, degrees, hit]);
 
-    const filteredCourses = React.useMemo(() => {
-        if (!query) return randomizedCourses.slice(0, 40);
-        return apiCourses.slice(0, 40);
-    }, [query, apiCourses, randomizedCourses]);
-
-    const getSnippet = (course: SearchResult, q: string) => {
-        if (!q) return course.department;
-        const lowerQ = q.toLowerCase();
-        const matchingSyllabus = course.syllabus?.find(s => s.toLowerCase().includes(lowerQ));
-        if (matchingSyllabus) {
-            const index = matchingSyllabus.toLowerCase().indexOf(lowerQ);
-            const start = Math.max(0, index - 20);
-            const end = Math.min(matchingSyllabus.length, index + lowerQ.length + 50);
-            return "..." + matchingSyllabus.substring(start, end) + "...";
-        }
-        return course.department;
-    }
+    const filteredCourses = React.useMemo<PaletteCourse[]>(() => {
+        if (!query) return preview;
+        return hit.courses.slice(0, PREVIEW_COUNT);
+    }, [query, hit, preview]);
 
     const handleSelectCourse = (courseCode: string) => {
         setOpen(false);
@@ -194,7 +264,7 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
                                         )}
                                     </div>
                                     <span className="text-[10px] text-muted-foreground truncate max-w-full sm:max-w-md">
-                                        {getSnippet(course, query)}
+                                        {course.snippet}
                                     </span>
                                 </div>
                             </CommandItem>

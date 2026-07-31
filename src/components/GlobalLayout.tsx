@@ -3,13 +3,12 @@
 import { ModeToggle } from '@/components/mode-toggle';
 import { GlobalCommandDialog } from '@/components/CommandMenu';
 import { CommandMenuProvider } from '@/lib/command-menu-context';
-import { SearchResult } from '@/lib/courses';
+import { CourseSummary } from '@/lib/courses';
 import { DegreeSummary } from '@/lib/degrees';
-import Link from 'next/link';
 
 interface Props {
     children: React.ReactNode;
-    courses: SearchResult[];
+    courses: CourseSummary[];
     degrees: DegreeSummary[];
 }
 

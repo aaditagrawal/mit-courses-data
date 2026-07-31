@@ -1,4 +1,4 @@
-import { getAllCourses } from '@/lib/courses';
+import { getAllCourseSummaries } from '@/lib/courses';
 import { getAllDegreeSummaries } from '@/lib/degrees';
 import { GlobalLayout } from '@/components/GlobalLayout';
 import type { Metadata } from "next";
@@ -21,7 +21,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const courses = getAllCourses();
+  // Summaries only: this crosses into a client component, so every field here
+  // is serialised into the RSC payload of every route in the app.
+  const courses = getAllCourseSummaries();
   const degrees = getAllDegreeSummaries();
 
   return (

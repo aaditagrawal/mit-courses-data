@@ -56,6 +56,19 @@ export interface SearchResult extends Course {
     matchType?: 'code' | 'title' | 'content';
 }
 
+/**
+ * The only fields a client component needs to render a course in a list.
+ *
+ * A full `SearchResult` carries the syllabus and reference text, which together
+ * are ~84% of the corpus by size. Anything crossing a server/client boundary
+ * should use this instead so that text is not serialised into the RSC payload.
+ */
+export interface CourseSummary {
+    code: string;
+    title: string;
+    department: string;
+}
+
 // A course as it appeared in one department file, before it wins/loses deduplication.
 // Keeping the raw parts avoids materialising a SearchResult for entries that lose.
 interface CourseCandidate {
@@ -108,6 +121,7 @@ function calculateDataScore(candidate: CourseCandidate): number {
 interface CourseIndex {
     courses: SearchResult[];
     byCode: Map<string, SearchResult>;
+    summaries: CourseSummary[];
 }
 
 // Cache the processed courses
@@ -156,6 +170,7 @@ function buildCourseIndex(): CourseIndex {
 
     const courses: SearchResult[] = [];
     const byCode = new Map<string, SearchResult>();
+    const summaries: CourseSummary[] = [];
 
     for (const candidate of winners.values()) {
         const resolved: SearchResult = {
@@ -166,9 +181,14 @@ function buildCourseIndex(): CourseIndex {
         };
         courses.push(resolved);
         byCode.set(candidate.code, resolved);
+        summaries.push({
+            code: candidate.code,
+            title: candidate.course.title,
+            department: candidate.department,
+        });
     }
 
-    return { courses, byCode };
+    return { courses, byCode, summaries };
 }
 
 function getCourseIndex(): CourseIndex {
@@ -193,6 +213,14 @@ export function getCourseMap(): ReadonlyMap<string, SearchResult> {
  */
 export function getCourseByCode(code: string): SearchResult | undefined {
     return getCourseIndex().byCode.get(code);
+}
+
+/**
+ * Every course reduced to the fields a list view renders. Use this, not
+ * `getAllCourses()`, when the value is passed to a client component.
+ */
+export function getAllCourseSummaries(): CourseSummary[] {
+    return getCourseIndex().summaries;
 }
 
 // Re-export for compatibility
