@@ -14,7 +14,7 @@ interface Props {
 
 export function GlobalLayout({ children, courses, degrees }: Props) {
     return (
-        <CommandMenuProvider>
+        <CommandMenuProvider courses={courses}>
             <GlobalCommandDialog courses={courses} degrees={degrees} />
 
             {/* Global Header */}
