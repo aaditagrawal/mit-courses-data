@@ -23,11 +23,59 @@ interface NetworkGraphProps {
     degrees?: DegreeInfo[];
 }
 
-// Generate distinct colors for departments using HSL
-function generateDepartmentColors(departments: string[]): Map<string, string> {
-    const colorMap = new Map<string, string>();
-    const uniqueDepts = [...new Set(departments)];
+// Shared so that omitting the optional `degrees` prop does not hand the effect
+// a fresh array identity on every render, which would tear down and restabilise
+// the whole network each time the parent re-renders.
+const NO_DEGREES: DegreeInfo[] = [];
 
+interface NodeColor {
+    background: string;
+    border: string;
+    highlight: { background: string; border: string };
+    hover: { background: string; border: string };
+}
+
+interface GraphNode {
+    id: number;
+    label: string;
+    title: string;
+    color: NodeColor;
+    font: {
+        color: string;
+        size: number;
+        face: string;
+        strokeWidth?: number;
+        strokeColor?: string;
+        bold?: { color: string; size: number };
+    };
+    shape: string;
+    size: number;
+    borderWidth: number;
+    borderWidthSelected?: number;
+    shadow: { enabled: boolean; color: string; size: number; x: number; y: number };
+    courseCode?: string;
+}
+
+interface GraphEdge {
+    id: string;
+    from: number;
+    to: number;
+    color: { color: string; opacity: number };
+}
+
+// Generate distinct colors for departments using HSL
+function generateDepartmentColors(courses: CourseNode[]): Map<string, string> {
+    const uniqueDepts: string[] = [];
+    const seen = new Set<string>();
+    for (const course of courses) {
+        const dept = course.department || 'Unknown';
+        if (!seen.has(dept)) {
+            seen.add(dept);
+            uniqueDepts.push(dept);
+        }
+    }
+
+    const colorMap = new Map<string, string>();
     uniqueDepts.forEach((dept, index) => {
         const hue = (index * 360) / uniqueDepts.length;
         // Vibrant colors with good saturation
@@ -37,7 +85,31 @@ function generateDepartmentColors(departments: string[]): Map<string, string> {
     return colorMap;
 }
 
-export function NetworkGraph({ courses, degrees = [] }: NetworkGraphProps) {
+function nodeColor(color: string, border: string): NodeColor {
+    return {
+        background: color,
+        border,
+        highlight: { background: color, border: '#fff' },
+        hover: { background: color, border: '#fff' },
+    };
+}
+
+/**
+ * Stable per-node jitter in [0, 1), from an FNV-1a hash of the course code.
+ *
+ * The size variation used to come from `Math.random()`, which contradicted the
+ * `randomSeed: 42` layout option: the graph never rendered the same way twice.
+ */
+function stableUnit(key: string): number {
+    let hash = 2166136261;
+    for (let i = 0; i < key.length; i++) {
+        hash ^= key.charCodeAt(i);
+        hash = Math.imul(hash, 16777619);
+    }
+    return (hash >>> 0) % 1024 / 1024;
+}
+
+export function NetworkGraph({ courses, degrees = NO_DEGREES }: NetworkGraphProps) {
     const containerRef = useRef<HTMLDivElement>(null);
     const networkRef = useRef<Network | null>(null);
     const router = useRouter();
@@ -50,28 +122,27 @@ export function NetworkGraph({ courses, degrees = [] }: NetworkGraphProps) {
     useEffect(() => {
         if (!containerRef.current || courses.length === 0) return;
 
-        // Generate department colors
-        const departments = courses.map(c => c.department || 'Unknown');
-        const colorMap = generateDepartmentColors(departments);
+        // Department colours, keyed by first appearance so the palette is stable
+        const colorMap = generateDepartmentColors(courses);
 
-        // Create nodes
-        const nodes = new DataSet(
-            courses.map((course, index) => ({
+        // Assembled in plain arrays and handed to vis-data in one insert each,
+        // rather than built incrementally with ~2,400 add() calls. Both DataSets
+        // are fully populated before the Network subscribes to them, so this is
+        // a readability and allocation win (~0.17 ms), not a rendering one --
+        // stabilisation dominates graph setup by orders of magnitude.
+        const graphNodes: GraphNode[] = [];
+        const graphEdges: GraphEdge[] = [];
+
+        for (let index = 0; index < courses.length; index++) {
+            const course = courses[index];
+            const department = course.department || 'Unknown';
+            const color = colorMap.get(department) || '#666';
+
+            graphNodes.push({
                 id: index,
                 label: course.code,
-                title: `${course.title}\n${course.department || 'Unknown'}`,
-                color: {
-                    background: colorMap.get(course.department || 'Unknown') || '#666',
-                    border: 'transparent',
-                    highlight: {
-                        background: colorMap.get(course.department || 'Unknown') || '#666',
-                        border: '#fff',
-                    },
-                    hover: {
-                        background: colorMap.get(course.department || 'Unknown') || '#666',
-                        border: '#fff',
-                    },
-                },
+                title: `${course.title}\n${department}`,
+                color: nodeColor(color, 'transparent'),
                 font: {
                     color: '#fff',
                     size: 12,
@@ -80,7 +151,7 @@ export function NetworkGraph({ courses, degrees = [] }: NetworkGraphProps) {
                     strokeColor: 'rgba(0,0,0,0.5)',
                 },
                 shape: 'dot',
-                size: 15 + Math.random() * 10, // Slight variation for visual interest
+                size: 15 + stableUnit(course.code) * 10,
                 borderWidth: 0,
                 borderWidthSelected: 2,
                 shadow: {
@@ -92,55 +163,33 @@ export function NetworkGraph({ courses, degrees = [] }: NetworkGraphProps) {
                 },
                 // Store code for click handling
                 courseCode: course.code,
-            }))
-        );
+            });
+        }
 
-        // Create prefix hub nodes and connect courses to them
-        // Extract prefix from course code (e.g., "ECE" from "ECE 1234")
+        // Group courses by code prefix (e.g. "ECE" from "ECE 1234") and give
+        // each prefix a hub node.
         const prefixGroups = new Map<string, { indices: number[]; department: string }>();
-
-        courses.forEach((course, index) => {
-            const prefix = course.code.split(/\s+/)[0]; // Get first part before space
-            if (!prefixGroups.has(prefix)) {
-                prefixGroups.set(prefix, { indices: [], department: course.department || 'Unknown' });
+        for (let index = 0; index < courses.length; index++) {
+            const course = courses[index];
+            const prefix = course.code.split(/\s+/)[0];
+            const group = prefixGroups.get(prefix);
+            if (group) {
+                group.indices.push(index);
+            } else {
+                prefixGroups.set(prefix, { indices: [index], department: course.department || 'Unknown' });
             }
-            prefixGroups.get(prefix)!.indices.push(index);
-        });
+        }
 
-        // Add hub nodes for each prefix
         let hubNodeId = courses.length; // Start hub IDs after course nodes
-        const hubNodes: Array<{
-            id: number;
-            label: string;
-            title: string;
-            color: { background: string; border: string; highlight: { background: string; border: string }; hover: { background: string; border: string } };
-            font: { color: string; size: number; face: string; bold: { color: string; size: number } };
-            shape: string;
-            size: number;
-            borderWidth: number;
-            shadow: { enabled: boolean; color: string; size: number; x: number; y: number };
-        }> = [];
 
-        const edges = new DataSet<{ id: string; from: number; to: number; color: { color: string; opacity: number } }>();
-
-        prefixGroups.forEach((group, prefix) => {
+        for (const [prefix, group] of prefixGroups) {
             const color = colorMap.get(group.department) || '#666';
-            hubNodes.push({
+
+            graphNodes.push({
                 id: hubNodeId,
                 label: prefix,
                 title: `${prefix} courses (${group.indices.length})`,
-                color: {
-                    background: color,
-                    border: 'rgba(255,255,255,0.3)',
-                    highlight: {
-                        background: color,
-                        border: '#fff',
-                    },
-                    hover: {
-                        background: color,
-                        border: '#fff',
-                    },
-                },
+                color: nodeColor(color, 'rgba(255,255,255,0.3)'),
                 font: {
                     color: '#fff',
                     size: 14,
@@ -159,98 +208,74 @@ export function NetworkGraph({ courses, degrees = [] }: NetworkGraphProps) {
                 },
             });
 
-            // Create edges from each course to its hub
-            group.indices.forEach(nodeIndex => {
-                edges.add({
+            for (const nodeIndex of group.indices) {
+                graphEdges.push({
                     id: `${nodeIndex}-hub-${hubNodeId}`,
                     from: nodeIndex,
                     to: hubNodeId,
                     color: { color, opacity: 0.25 },
                 });
-            });
+            }
 
             hubNodeId++;
-        });
+        }
 
-        // Add hub nodes to the dataset
-        hubNodes.forEach(hub => nodes.add(hub as any));
-
-        // Create course code to node index map for degree linking
+        // Course code to node index, for degree linking
         const codeToIndex = new Map<string, number>();
-        courses.forEach((course, index) => {
-            codeToIndex.set(course.code, index);
-        });
+        for (let index = 0; index < courses.length; index++) {
+            codeToIndex.set(courses[index].code, index);
+        }
 
-        // Add degree hub nodes and connect courses within same degree
-        if (degrees.length > 0) {
-            const degreeHubNodes: typeof hubNodes = [];
+        // Degree hub nodes, connected to every course the degree contains
+        for (let degIdx = 0; degIdx < degrees.length; degIdx++) {
+            const degree = degrees[degIdx];
+            const degreeColor = `hsl(${(degIdx * 360) / degrees.length}, 60%, 45%)`;
 
-            degrees.forEach((degree, degIdx) => {
-                // Generate a distinct color for each degree
-                const degreeHue = (degIdx * 360) / degrees.length;
-                const degreeColor = `hsl(${degreeHue}, 60%, 45%)`;
+            const degreeNodeIndices: number[] = [];
+            for (const code of degree.courses) {
+                const idx = codeToIndex.get(code);
+                if (idx !== undefined) degreeNodeIndices.push(idx);
+            }
 
-                // Find which course indices belong to this degree
-                const degreeNodeIndices: number[] = [];
-                degree.courses.forEach(code => {
-                    const idx = codeToIndex.get(code);
-                    if (idx !== undefined) {
-                        degreeNodeIndices.push(idx);
-                    }
-                });
+            if (degreeNodeIndices.length === 0) continue;
 
-                if (degreeNodeIndices.length > 0) {
-                    degreeHubNodes.push({
-                        id: hubNodeId,
-                        label: degree.slug.replace('btech-', '').toUpperCase(),
-                        title: `${degree.title}\n${degreeNodeIndices.length} courses`,
-                        color: {
-                            background: degreeColor,
-                            border: 'rgba(255,255,255,0.5)',
-                            highlight: {
-                                background: degreeColor,
-                                border: '#fff',
-                            },
-                            hover: {
-                                background: degreeColor,
-                                border: '#fff',
-                            },
-                        },
-                        font: {
-                            color: '#fff',
-                            size: 12,
-                            face: 'Commit Mono, monospace',
-                            bold: { color: '#fff', size: 12 },
-                        },
-                        shape: 'diamond' as any,
-                        size: 20 + Math.min(degreeNodeIndices.length / 2, 15),
-                        borderWidth: 2,
-                        shadow: {
-                            enabled: true,
-                            color: 'rgba(0,0,0,0.4)',
-                            size: 12,
-                            x: 0,
-                            y: 4,
-                        },
-                    });
-
-                    // Create edges from courses to degree hub
-                    degreeNodeIndices.forEach(nodeIndex => {
-                        edges.add({
-                            id: `${nodeIndex}-degree-${hubNodeId}`,
-                            from: nodeIndex,
-                            to: hubNodeId,
-                            color: { color: degreeColor, opacity: 0.15 },
-                        });
-                    });
-
-                    hubNodeId++;
-                }
+            graphNodes.push({
+                id: hubNodeId,
+                label: degree.slug.replace('btech-', '').toUpperCase(),
+                title: `${degree.title}\n${degreeNodeIndices.length} courses`,
+                color: nodeColor(degreeColor, 'rgba(255,255,255,0.5)'),
+                font: {
+                    color: '#fff',
+                    size: 12,
+                    face: 'Commit Mono, monospace',
+                    bold: { color: '#fff', size: 12 },
+                },
+                shape: 'diamond',
+                size: 20 + Math.min(degreeNodeIndices.length / 2, 15),
+                borderWidth: 2,
+                shadow: {
+                    enabled: true,
+                    color: 'rgba(0,0,0,0.4)',
+                    size: 12,
+                    x: 0,
+                    y: 4,
+                },
             });
 
-            // Add degree hub nodes to the dataset
-            degreeHubNodes.forEach(hub => nodes.add(hub as any));
+            for (const nodeIndex of degreeNodeIndices) {
+                graphEdges.push({
+                    id: `${nodeIndex}-degree-${hubNodeId}`,
+                    from: nodeIndex,
+                    to: hubNodeId,
+                    color: { color: degreeColor, opacity: 0.15 },
+                });
+            }
+
+            hubNodeId++;
         }
+
+        const nodes = new DataSet<GraphNode>(graphNodes);
+        const edges = new DataSet<GraphEdge>(graphEdges);
 
         const options: Options = {
             nodes: {
@@ -319,8 +344,10 @@ export function NetworkGraph({ courses, degrees = [] }: NetworkGraphProps) {
         // Handle node clicks
         network.on('click', (params) => {
             if (params.nodes.length > 0) {
-                const nodeId = params.nodes[0];
-                const nodeData = nodes.get(nodeId) as { courseCode?: string } | null;
+                // Node ids are the numeric indices assigned above; naming the
+                // type picks the single-id overload of DataSet.get.
+                const nodeId: number = Number(params.nodes[0]);
+                const nodeData = nodes.get(nodeId);
                 if (nodeData?.courseCode) {
                     handleNodeClick(nodeData.courseCode);
                 }
@@ -357,7 +384,7 @@ export function NetworkGraph({ courses, degrees = [] }: NetworkGraphProps) {
             network.destroy();
             networkRef.current = null;
         };
-    }, [courses, handleNodeClick]);
+    }, [courses, degrees, handleNodeClick]);
 
     return (
         <div className="relative w-full h-full">

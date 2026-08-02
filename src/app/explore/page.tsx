@@ -1,6 +1,6 @@
-import { getAllCourses } from '@/lib/courses';
+import { getAllCourses, getCourseMap } from '@/lib/courses';
 import { getAllDegrees, getDegreeData, DegreeData } from '@/lib/degrees';
-import { NetworkGraph } from '@/components/NetworkGraph';
+import { ExploreGraph } from '@/components/ExploreGraph';
 import Link from 'next/link';
 
 export const metadata = {
@@ -51,8 +51,10 @@ function extractDegreeCourses(data: DegreeData): string[] {
 
 export default function ExplorePage() {
     const courses = getAllCourses();
+    const courseMap = getCourseMap();
 
-    // Get degree data for graph linking
+    // Get degree data for graph linking. Codes with no matching course are
+    // dropped here rather than serialised and discarded on the client.
     const degreeSlugs = getAllDegrees();
     const degreeData = degreeSlugs.map(slug => {
         const data = getDegreeData(slug);
@@ -60,16 +62,12 @@ export default function ExplorePage() {
         return {
             slug,
             title: data.degree_metadata.title,
-            courses: extractDegreeCourses(data),
+            courses: extractDegreeCourses(data).filter(code => courseMap.has(code)),
         };
     }).filter((d): d is { slug: string; title: string; courses: string[] } => d !== null);
 
-    // Transform to the shape needed by NetworkGraph
-    const graphData = courses.map(c => ({
-        code: c.code,
-        title: c.title,
-        department: c.department || 'Unknown',
-    }));
+    // The course list itself comes from the root layout via context, so it is
+    // not sent a second time here.
 
     return (
         <main className="min-h-screen bg-background text-foreground">
@@ -98,7 +96,7 @@ export default function ExplorePage() {
 
             {/* Graph container - full viewport */}
             <div className="pt-20 h-screen">
-                <NetworkGraph courses={graphData} degrees={degreeData} />
+                <ExploreGraph degrees={degreeData} />
             </div>
         </main>
     );
