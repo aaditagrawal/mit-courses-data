@@ -8,11 +8,12 @@
     "start": "next start",
     "format": "oxfmt --write \"src/**/*.{ts,tsx}\" \"scripts/**/*.{ts}\" \"*.{ts,json,jsonc}\" \"!branch-json/**\" \"!degree-json/**\" --ignore-path .gitignore --no-error-on-unmatched-pattern",
     "format:check": "oxfmt --check \"src/**/*.{ts,tsx}\" \"scripts/**/*.{ts}\" \"*.{ts,json,jsonc}\" \"!branch-json/**\" \"!degree-json/**\" --ignore-path .gitignore --no-error-on-unmatched-pattern",
-    "lint": "oxlint . --ignore-path .gitignore --react-plugin --nextjs-plugin --jsx-a11y-plugin --import-plugin",
-    "lint:fix": "bun run lint -- --fix",
+    "lint": "oxlint .",
+    "lint:fix": "oxlint . --fix",
     "pages:build": "npx @cloudflare/next-on-pages",
     "pages:deploy": "bun run pages:build && wrangler pages deploy .vercel/output/static",
-    "pages:preview": "bun run pages:build && wrangler pages dev .vercel/output/static"
+    "pages:preview": "bun run pages:build && wrangler pages dev .vercel/output/static",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@radix-ui/react-collapsible": "^1.1.20",

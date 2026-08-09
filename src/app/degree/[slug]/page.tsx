@@ -1,11 +1,9 @@
-import { getDegreeData, getAllDegrees, DegreeData, Semester, ElectiveSlot } from "@/lib/degrees";
+import { getDegreeData, getAllDegrees, Semester, ElectiveSlot } from "@/lib/degrees";
 import { getCourseMap, SearchResult } from "@/lib/courses";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Badge } from "@/components/ui/badge";
-import { cn, getCourseLink } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
-import { ChevronDown, ChevronRight, Info } from "lucide-react";
+import { getCourseLink } from "@/lib/utils";
+import { ChevronDown } from "lucide-react";
 import * as Collapsible from "@radix-ui/react-collapsible";
 
 // Next.js 15+ Page Props Interface

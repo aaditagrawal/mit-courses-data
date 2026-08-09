@@ -11,7 +11,7 @@ export function ShareButton() {
           title: document.title,
           url: window.location.href,
         });
-      } catch (err) {
+      } catch {
         // User cancelled or share failed
         console.log("Share cancelled");
       }

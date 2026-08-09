@@ -18,7 +18,7 @@ interface Course {
   } | null;
 }
 
-interface Department {
+interface _Department {
   name: string;
   courses: Course[];
 }

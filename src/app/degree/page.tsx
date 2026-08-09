@@ -1,7 +1,6 @@
 import { getAllDegreeSummaries } from "@/lib/degrees";
 import Link from "next/link";
-import { Badge } from "@/components/ui/badge";
-import { Book, GraduationCap, ChevronRight } from "lucide-react";
+import { GraduationCap, ChevronRight } from "lucide-react";
 
 export const metadata = {
   title: "Degrees | MIT Manipal",
