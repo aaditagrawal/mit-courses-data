@@ -10,7 +10,7 @@
     "format:check": "oxfmt --check \"src/**/*.{ts,tsx}\" \"scripts/**/*.{ts}\" \"*.{ts,json,jsonc}\" \"!branch-json/**\" \"!degree-json/**\" --ignore-path .gitignore --no-error-on-unmatched-pattern",
     "lint": "oxlint .",
     "lint:fix": "oxlint . --fix",
-    "pages:build": "npx @cloudflare/next-on-pages",
+    "pages:build": "bunx @cloudflare/next-on-pages",
     "pages:deploy": "bun run pages:build && wrangler pages deploy .vercel/output/static",
     "pages:preview": "bun run pages:build && wrangler pages dev .vercel/output/static",
     "typecheck": "tsc --noEmit"
