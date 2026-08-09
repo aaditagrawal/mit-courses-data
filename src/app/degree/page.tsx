@@ -25,19 +25,13 @@ export default function DegreesIndexPage() {
             <div className="inline-flex items-center justify-center p-3 bg-primary/5 rounded-full mb-4">
               <GraduationCap className="w-8 h-8 text-primary" />
             </div>
-            <h1 className="text-4xl sm:text-5xl font-bold tracking-tight pb-2">
-              Degree Programs
-            </h1>
+            <h1 className="text-4xl sm:text-5xl font-bold tracking-tight pb-2">Degree Programs</h1>
           </div>
         </header>
 
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {degrees.map((degree) => (
-            <Link
-              key={degree.slug}
-              href={`/degree/${degree.slug}`}
-              className="group h-full"
-            >
+            <Link key={degree.slug} href={`/degree/${degree.slug}`} className="group h-full">
               <div className="flex flex-col h-full p-6 rounded-2xl border bg-card hover:bg-muted/50 transition-all duration-300 hover:border-primary/30 hover:shadow-md group-active:scale-[0.98]">
                 <div className="flex-1 space-y-2">
                   <h2 className="text-lg font-bold text-foreground group-hover:text-primary transition-colors leading-tight">
@@ -49,7 +43,9 @@ export default function DegreesIndexPage() {
                 </div>
 
                 <div className="mt-8 flex items-center justify-between text-xs font-mono text-muted-foreground/50">
-                  <span className="group-hover:text-primary/70 transition-colors">View Structure</span>
+                  <span className="group-hover:text-primary/70 transition-colors">
+                    View Structure
+                  </span>
                   <ChevronRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
                 </div>
               </div>

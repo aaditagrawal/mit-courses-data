@@ -1,4 +1,3 @@
-
 export interface CreditStructure {
   l: number;
   t: number;

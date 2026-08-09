@@ -1,14 +1,14 @@
-import { optionsResponse, apiSuccess } from '@/lib/api/response';
-import { getDepartmentSummaries } from '@/lib/api/search';
+import { optionsResponse, apiSuccess } from "@/lib/api/response";
+import { getDepartmentSummaries } from "@/lib/api/search";
 
-export const runtime = 'edge';
+export const runtime = "edge";
 
 export async function GET() {
-    const departments = getDepartmentSummaries();
+  const departments = getDepartmentSummaries();
 
-    return apiSuccess(departments, { count: departments.length });
+  return apiSuccess(departments, { count: departments.length });
 }
 
 export async function OPTIONS() {
-    return optionsResponse();
+  return optionsResponse();
 }

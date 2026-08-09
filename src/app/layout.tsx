@@ -1,6 +1,6 @@
-import { getAllCourseSummaries } from '@/lib/courses';
-import { getAllDegreeSummaries } from '@/lib/degrees';
-import { GlobalLayout } from '@/components/GlobalLayout';
+import { getAllCourseSummaries } from "@/lib/courses";
+import { getAllDegreeSummaries } from "@/lib/degrees";
+import { GlobalLayout } from "@/components/GlobalLayout";
 import type { Metadata } from "next";
 import { Instrument_Sans } from "next/font/google";
 import "./globals.css";
@@ -29,7 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link href="https://cdn.jsdelivr.net/npm/commit-mono@1.143.0/commit-mono.min.css" rel="stylesheet" />
+        <link
+          href="https://cdn.jsdelivr.net/npm/commit-mono@1.143.0/commit-mono.min.css"
+          rel="stylesheet"
+        />
         <script defer src="https://stat.sys256.com/script.js"></script>
       </head>
       <body

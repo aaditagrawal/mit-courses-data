@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import { NetworkGraph } from '@/components/NetworkGraph';
-import { useCommandMenu } from '@/lib/command-menu-context';
+import { NetworkGraph } from "@/components/NetworkGraph";
+import { useCommandMenu } from "@/lib/command-menu-context";
 
 interface DegreeInfo {
-    slug: string;
-    title: string;
-    courses: string[];
+  slug: string;
+  title: string;
+  courses: string[];
 }
 
 /**
@@ -16,7 +16,7 @@ interface DegreeInfo {
  * second, byte-identical copy into the same document.
  */
 export function ExploreGraph({ degrees }: { degrees: DegreeInfo[] }) {
-    const { courses } = useCommandMenu();
+  const { courses } = useCommandMenu();
 
-    return <NetworkGraph courses={courses} degrees={degrees} />;
+  return <NetworkGraph courses={courses} degrees={degrees} />;
 }

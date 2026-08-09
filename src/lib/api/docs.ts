@@ -1,7 +1,7 @@
 export function getApiDocsMarkdown(baseUrl: string): string {
-    const origin = baseUrl.replace(/\/$/, '');
+  const origin = baseUrl.replace(/\/$/, "");
 
-    return `# Course Web API (v1)
+  return `# Course Web API (v1)
 
 Queryable REST API for MIT Manipal course catalogs and degree plans.
 

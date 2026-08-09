@@ -1,10 +1,10 @@
-import { ApiDocsPage } from '@/components/ApiDocsPage';
+import { ApiDocsPage } from "@/components/ApiDocsPage";
 
 export const metadata = {
-    title: 'API Docs | Course Web',
-    description: 'REST API documentation for querying course and degree data',
+  title: "API Docs | Course Web",
+  description: "REST API documentation for querying course and degree data",
 };
 
 export default function ApiDocsRoute() {
-    return <ApiDocsPage />;
+  return <ApiDocsPage />;
 }
