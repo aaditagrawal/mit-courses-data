@@ -1,4 +1,12 @@
-import { getDegreeData, getAllDegrees, Semester, ElectiveSlot } from "@/lib/degrees";
+import {
+  getDegreeData,
+  getAllDegrees,
+  isElectivePoolTrack,
+  ElectivePool,
+  ElectivePoolTrack,
+  ElectiveSlot,
+  Semester,
+} from "@/lib/degrees";
 import { getCourseMap, SearchResult } from "@/lib/courses";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -150,7 +158,7 @@ function SemesterBlock({
 }: {
   semester: Semester;
   courseMap: ReadonlyMap<string, SearchResult>;
-  pools: Record<string, any>;
+  pools: Record<string, ElectivePool>;
 }) {
   return (
     <div className="flex flex-col">
@@ -333,10 +341,10 @@ function ElectiveItem({
   courseMap,
 }: {
   slot: ElectiveSlot;
-  pools: Record<string, any>;
+  pools: Record<string, ElectivePool>;
   courseMap: ReadonlyMap<string, SearchResult>;
 }) {
-  let poolData = slot.pool_ref ? pools[slot.pool_ref] : null;
+  let poolData: ElectivePool | null = slot.pool_ref ? (pools[slot.pool_ref] ?? null) : null;
 
   // Use direct courses if pool_ref is missing or pool doesn't exist
   if (!poolData) {
@@ -347,31 +355,32 @@ function ElectiveItem({
     }
   }
 
-  // Determine pool type
-  const isArray = Array.isArray(poolData);
-  // Case 1: Simple list of strings
-  const isSimpleList = isArray && (poolData.length === 0 || typeof poolData[0] === "string");
-  // Case 2: Array of Track objects
-  const isTrackArray = isArray && poolData.length > 0 && typeof poolData[0] !== "string";
-  // Case 3: Object (Dictionary) of tracks (e.g. Civil Engineering)
-  const isTrackDict = !isArray && poolData && typeof poolData === "object";
-
   let displayMode: "simple" | "tracks" | "none" = "none";
   let simpleCourses: string[] = [];
-  let tracks: { track_name: string; courses: string[] }[] = [];
+  let tracks: ElectivePoolTrack[] = [];
 
-  if (isSimpleList) {
-    displayMode = "simple";
-    simpleCourses = (poolData as string[]) || [];
-  } else if (isTrackArray) {
+  if (poolData !== null && Array.isArray(poolData)) {
+    // Case 1 and 2: a pool array holds either plain course codes or track objects.
+    const poolTracks: ElectivePoolTrack[] = [];
+    const poolCourses: string[] = [];
+    for (const entry of poolData) {
+      if (isElectivePoolTrack(entry)) poolTracks.push(entry);
+      else poolCourses.push(entry);
+    }
+
+    if (poolTracks.length > 0) {
+      displayMode = "tracks";
+      tracks = poolTracks;
+    } else {
+      displayMode = "simple";
+      simpleCourses = poolCourses;
+    }
+  } else if (poolData !== null) {
+    // Case 3: dictionary of tracks (e.g. Civil Engineering), normalised to an array.
     displayMode = "tracks";
-    tracks = poolData as { track_name: string; courses: string[] }[];
-  } else if (isTrackDict) {
-    displayMode = "tracks";
-    // Normalize dict to tracks array
     tracks = Object.entries(poolData).map(([key, value]) => ({
       track_name: key.replace(/_/g, " "),
-      courses: value as string[],
+      courses: value,
     }));
   }
 

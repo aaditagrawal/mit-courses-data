@@ -32,6 +32,31 @@ export interface ElectivePoolTrack {
 
 export type ElectivePool = string[] | ElectivePoolTrack[] | Record<string, string[]>;
 
+/**
+ * Tells a track object apart from a bare course code inside a pool array.
+ *
+ * The degree JSON stores an elective pool either as course codes or as named
+ * tracks, and the two never mix within one pool.
+ */
+export function isElectivePoolTrack(entry: string | ElectivePoolTrack): entry is ElectivePoolTrack {
+  // SAFETY: `entry` is a course code or a track object. Reading `courses` off a
+  // string primitive yields undefined instead of throwing, so this probe is
+  // total and only a track answers with an array.
+  return Array.isArray((entry as Partial<ElectivePoolTrack>).courses);
+}
+
+/** Every course code an elective pool contributes, flattened across its three shapes. */
+export function electivePoolCourseCodes(pool: ElectivePool): string[] {
+  if (!Array.isArray(pool)) return Object.values(pool).flat();
+
+  const codes: string[] = [];
+  for (const entry of pool) {
+    if (isElectivePoolTrack(entry)) codes.push(...entry.courses);
+    else codes.push(entry);
+  }
+  return codes;
+}
+
 export interface DegreeStructure {
   semesters: Semester[];
   elective_pools: Record<string, ElectivePool>;
@@ -68,36 +93,38 @@ import btechMech from "../../degree-json/btech-mech.json";
 import btechMechx from "../../degree-json/btech-mechx.json";
 import btechMnc from "../../degree-json/btech-mnc.json";
 
-const degreeMap: Record<string, DegreeData> = {
-  "btech-aero": btechAero as unknown as DegreeData,
-  "btech-auto": btechAuto as unknown as DegreeData,
-  "btech-biomed": btechBiomed as unknown as DegreeData,
-  "btech-biotech": btechBiotech as unknown as DegreeData,
-  "btech-chem": btechChem as unknown as DegreeData,
-  "btech-civil": btechCivil as unknown as DegreeData,
-  "btech-cps": btechCps as unknown as DegreeData,
-  "btech-cse": btechCse as unknown as DegreeData,
-  "btech-csft": btechCsft as unknown as DegreeData,
-  "btech-ece-vlsi": btechEceVlsi as unknown as DegreeData,
-  "btech-ece": btechEce as unknown as DegreeData,
-  "btech-eee": btechEee as unknown as DegreeData,
-  "btech-eie": btechEie as unknown as DegreeData,
-  "btech-indust": btechIndust as unknown as DegreeData,
-  "btech-mech": btechMech as unknown as DegreeData,
-  "btech-mechx": btechMechx as unknown as DegreeData,
-  "btech-mnc": btechMnc as unknown as DegreeData,
-};
+// Slug -> degree, keyed by a Map so lookups by an arbitrary request slug stay a
+// plain string key without needing an open `Record<string, ...>` annotation.
+const degreeMap = new Map<string, DegreeData>([
+  ["btech-aero", btechAero],
+  ["btech-auto", btechAuto],
+  ["btech-biomed", btechBiomed],
+  ["btech-biotech", btechBiotech],
+  ["btech-chem", btechChem],
+  ["btech-civil", btechCivil],
+  ["btech-cps", btechCps],
+  ["btech-cse", btechCse],
+  ["btech-csft", btechCsft],
+  ["btech-ece-vlsi", btechEceVlsi],
+  ["btech-ece", btechEce],
+  ["btech-eee", btechEee],
+  ["btech-eie", btechEie],
+  ["btech-indust", btechIndust],
+  ["btech-mech", btechMech],
+  ["btech-mechx", btechMechx],
+  ["btech-mnc", btechMnc],
+]);
 
 export function getDegreeData(slug: string): DegreeData | null {
-  return degreeMap[slug] || null;
+  return degreeMap.get(slug) ?? null;
 }
 
 export function getAllDegrees(): string[] {
-  return Object.keys(degreeMap);
+  return [...degreeMap.keys()];
 }
 
 export function getAllDegreeSummaries(): DegreeSummary[] {
-  return Object.entries(degreeMap)
+  return [...degreeMap]
     .map(([slug, data]) => ({
       slug,
       title: data.degree_metadata.title,

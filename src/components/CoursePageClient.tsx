@@ -21,8 +21,9 @@ interface Course {
 }
 
 export default function CoursePageClient() {
-  const params = useParams();
-  const code = typeof params.code === "string" ? decodeURIComponent(params.code) : "";
+  // `/course/[code]` has a single dynamic segment, so `code` is always a string.
+  const params = useParams<{ code: string }>();
+  const code = decodeURIComponent(params.code);
 
   const [course, setCourse] = useState<Course | null>(null);
   const [loading, setLoading] = useState(true);

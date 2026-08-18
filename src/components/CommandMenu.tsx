@@ -158,6 +158,11 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
           return;
         }
 
+        // SAFETY: the response comes from this app's own /api/v1/search route,
+        // whose envelope SearchApiResponse mirrors. Every field below is read
+        // through optional chaining with an empty-array fallback, so a payload
+        // that ever drifts from the contract degrades to "no results" rather
+        // than throwing.
         const payload = (await response.json()) as SearchApiResponse;
         // Projected before caching: retaining raw results would hold the
         // syllabus and reference text this PR exists to stop shipping.
@@ -176,7 +181,8 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
 
         setHit(next);
       } catch (error) {
-        if ((error as Error).name !== "AbortError") {
+        const aborted = error instanceof Error && error.name === "AbortError";
+        if (!aborted) {
           setHit(EMPTY_HIT);
         }
       } finally {

@@ -1,5 +1,5 @@
 import { getAllCourses, getCourseMap } from "@/lib/courses";
-import { getAllDegrees, getDegreeData, DegreeData } from "@/lib/degrees";
+import { getAllDegrees, getDegreeData, DegreeData, electivePoolCourseCodes } from "@/lib/degrees";
 import { ExploreGraph } from "@/components/ExploreGraph";
 import Link from "next/link";
 
@@ -18,32 +18,18 @@ function extractDegreeCourses(data: DegreeData): string[] {
 
     // Check elective slots for specific courses
     sem.elective_slots?.forEach((slot) => {
-      if ((slot as { course_code?: string }).course_code) {
-        codes.push((slot as { course_code?: string }).course_code!);
+      if (slot.course_code) {
+        codes.push(slot.course_code);
       }
-      if ((slot as { courses?: string[] }).courses) {
-        codes.push(...(slot as { courses?: string[] }).courses!);
+      if (slot.courses) {
+        codes.push(...slot.courses);
       }
     });
   });
 
   // Get courses from elective pools
   Object.values(data.structure.elective_pools || {}).forEach((pool) => {
-    if (Array.isArray(pool)) {
-      pool.forEach((item) => {
-        if (typeof item === "string") {
-          codes.push(item);
-        } else if (item && typeof item === "object" && "courses" in item) {
-          codes.push(...(item as { courses: string[] }).courses);
-        }
-      });
-    } else if (typeof pool === "object") {
-      Object.values(pool).forEach((subPool) => {
-        if (Array.isArray(subPool)) {
-          codes.push(...subPool);
-        }
-      });
-    }
+    codes.push(...electivePoolCourseCodes(pool));
   });
 
   return [...new Set(codes)]; // Deduplicate

@@ -14,7 +14,10 @@ const NetworkGraph = dynamic(
   {
     ssr: false,
     loading: () => (
-      <div className="relative w-full h-full flex items-center justify-center" style={{ minHeight: "600px" }}>
+      <div
+        className="relative w-full h-full flex items-center justify-center"
+        style={{ minHeight: "600px" }}
+      >
         <div className="text-muted-foreground text-sm font-mono">Loading graph...</div>
       </div>
     ),

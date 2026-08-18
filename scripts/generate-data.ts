@@ -18,7 +18,6 @@ interface Course {
   syllabus: string[];
   references: string[];
   flags: string[];
-  [key: string]: any;
 }
 
 interface Department {
@@ -42,6 +41,9 @@ function getDepartmentData(filename: string): Department | null {
     const fileContent = fs.readFileSync(filePath, "utf-8");
     const json = JSON.parse(fileContent);
     if (json.department) {
+      // SAFETY: branch-json is repository-owned build input, and the same files
+      // are imported as modules in src/lib/courses.ts where `bun run typecheck`
+      // checks them against this exact shape. Drift fails the typecheck first.
       return json.department as Department;
     }
     return null;
