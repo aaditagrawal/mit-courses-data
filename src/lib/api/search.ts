@@ -1,6 +1,7 @@
 import MiniSearch, { SearchResult as MiniSearchResult } from "minisearch";
 import { getAllCourses, getAllFiles, getDepartmentData, SearchResult } from "@/lib/courses";
 import { DegreeSummary, getAllDegreeSummaries } from "@/lib/degrees";
+import { Page } from "@/lib/api/params";
 import {
   CourseCorpus,
   FieldBuffer,
@@ -468,7 +469,7 @@ function rankedPage(
   filters: CourseFilters,
   limit: number,
   offset: number,
-): { data: SearchResult[]; total: number } {
+): Page<SearchResult> {
   const { ordinals, scores, count } = candidates;
   const applyFilters = hasFilters(filters);
 
@@ -504,7 +505,7 @@ function selectCourses(
   options: CourseSearchOptions,
   limit: number,
   offset: number,
-): { data: SearchResult[]; total: number } {
+): Page<SearchResult> {
   const corpus = getCourseCorpus();
   const query = normalizeSearchText(options.q);
   const filters = readFilters(options);
@@ -565,11 +566,7 @@ function degreeDirectScore(entry: DegreeSearchEntry, query: string, compactQuery
   return 0;
 }
 
-function selectDegrees(
-  query: string,
-  limit: number,
-  offset: number,
-): { data: DegreeSummary[]; total: number } {
+function selectDegrees(query: string, limit: number, offset: number): Page<DegreeSummary> {
   const entries = getDegreeEntries();
 
   if (!query) {
@@ -624,7 +621,19 @@ export function searchDegrees(options: DegreeSearchOptions) {
   };
 }
 
-export function generalSearch(options: GeneralSearchOptions) {
+/** A results page that also echoes the query it was produced from. */
+export interface QueriedPage<T> extends Page<T> {
+  query: string | null;
+}
+
+export interface GeneralSearchResult {
+  type: "all" | "courses" | "degrees";
+  query: string | null;
+  courses: QueriedPage<SearchResult>;
+  degrees: QueriedPage<DegreeSummary>;
+}
+
+export function generalSearch(options: GeneralSearchOptions): GeneralSearchResult {
   const type = options.type ?? "all";
   const limit = options.limit ?? 50;
   const offset = options.offset ?? 0;
@@ -642,7 +651,7 @@ export function generalSearch(options: GeneralSearchOptions) {
       type,
       query,
       courses: { ...selectCourses(courseOptions, limit, offset), query },
-      degrees: { data: [] as DegreeSummary[], total: 0, query },
+      degrees: { data: [], total: 0, query },
     };
   }
 
@@ -650,7 +659,7 @@ export function generalSearch(options: GeneralSearchOptions) {
     return {
       type,
       query,
-      courses: { data: [] as SearchResult[], total: 0, query },
+      courses: { data: [], total: 0, query },
       degrees: { ...selectDegrees(normalizeSearchText(options.q), limit, offset), query },
     };
   }

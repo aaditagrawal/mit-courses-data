@@ -23,15 +23,44 @@ interface _Department {
   courses: Course[];
 }
 
+interface ElectiveSlot {
+  slot_id?: string;
+  label?: string;
+  pool_ref?: string;
+  course_code?: string;
+  courses?: string[];
+}
+
+interface Semester {
+  sem_index: number;
+  core_courses?: string[];
+  elective_slots?: ElectiveSlot[];
+}
+
+interface ElectivePoolTrack {
+  track_name: string;
+  courses?: string[];
+}
+
+type ElectivePool = string[] | ElectivePoolTrack[] | Record<string, string[]>;
+
 interface DegreeData {
   degree_metadata: {
     title: string;
     department: string;
   };
   structure: {
-    semesters: any[];
-    elective_pools: Record<string, any>;
+    semesters: Semester[];
+    elective_pools: Record<string, ElectivePool>;
   };
+}
+
+/** Tells a track object apart from a bare course code inside a pool array. */
+function isElectivePoolTrack(entry: string | ElectivePoolTrack): entry is ElectivePoolTrack {
+  // SAFETY: `entry` is a course code or a track object. Reading `track_name` off
+  // a string primitive yields undefined instead of throwing, so this probe is
+  // total and only a track answers with a name.
+  return (entry as Partial<ElectivePoolTrack>).track_name !== undefined;
 }
 
 function getAllCourses() {
@@ -83,7 +112,7 @@ function checkData() {
 
       data.structure.semesters.forEach((sem) => {
         // Check core courses
-        (sem.core_courses || []).forEach((code: string) => {
+        (sem.core_courses || []).forEach((code) => {
           const normalized = code.trim();
           if (normalized.includes("****")) {
             results.placeholder_codes.push({
@@ -108,7 +137,7 @@ function checkData() {
         });
 
         // Check elective slots
-        (sem.elective_slots || []).forEach((slot: any) => {
+        (sem.elective_slots || []).forEach((slot) => {
           if (slot.course_code) {
             const normalized = slot.course_code.trim();
             if (normalized.includes("****")) {
@@ -146,7 +175,7 @@ function checkData() {
 
           // Check inline courses in elective slots (if any)
           if (slot.courses) {
-            slot.courses.forEach((code: string) => {
+            slot.courses.forEach((code) => {
               const normalized = code.trim();
               if (normalized.includes("****")) {
                 results.placeholder_codes.push({
@@ -197,24 +226,28 @@ function checkData() {
         };
 
         if (Array.isArray(poolData)) {
-          if (poolData.length > 0 && typeof poolData[0] === "string") {
-            checkCourseList(poolData as string[], `Pool ${poolName}`);
-          } else {
-            // Array of tracks
-            (poolData as any[]).forEach((track) => {
-              checkCourseList(track.courses || [], `Track ${track.track_name} in Pool ${poolName}`);
-            });
+          const codes: string[] = [];
+          for (const entry of poolData) {
+            if (isElectivePoolTrack(entry)) {
+              checkCourseList(entry.courses || [], `Track ${entry.track_name} in Pool ${poolName}`);
+            } else {
+              codes.push(entry);
+            }
           }
-        } else if (typeof poolData === "object" && poolData !== null) {
+          if (codes.length > 0) checkCourseList(codes, `Pool ${poolName}`);
+        } else {
           // Object of tracks
           Object.entries(poolData).forEach(([trackName, courses]) => {
-            checkCourseList(courses as string[], `Track ${trackName} in Pool ${poolName}`);
+            checkCourseList(courses, `Track ${trackName} in Pool ${poolName}`);
           });
         }
       });
     } catch (e) {
       console.error(`Error processing ${degreeFile}:`, e);
-      results.data_inconsistencies.push({ file: degreeFile, error: (e as Error).message });
+      results.data_inconsistencies.push({
+        file: degreeFile,
+        error: e instanceof Error ? e.message : String(e),
+      });
     }
   });
 

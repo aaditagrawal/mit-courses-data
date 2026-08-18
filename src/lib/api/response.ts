@@ -8,11 +8,7 @@ export function corsHeaders(): HeadersInit {
   return CORS_HEADERS;
 }
 
-export function jsonResponse(
-  body: unknown,
-  status = 200,
-  extraHeaders: HeadersInit = {},
-): Response {
+export function jsonResponse<T>(body: T, status = 200, extraHeaders: HeadersInit = {}): Response {
   return Response.json(body, {
     status,
     headers: {
@@ -22,15 +18,29 @@ export function jsonResponse(
   });
 }
 
-export function apiSuccess<T>(data: T, meta: Record<string, unknown> = {}): Response {
+/** Counters and echoed query parameters returned alongside a successful payload. */
+export interface ApiMeta {
+  count?: number;
+  total?: number;
+  query?: string | null;
+  limit?: number;
+  offset?: number;
+  coursesTotal?: number;
+  degreesTotal?: number;
+}
+
+export function apiSuccess<T>(data: T, meta: ApiMeta = {}): Response {
   return jsonResponse({ data, meta });
 }
+
+/** Extra JSON-scalar fields merged into the error envelope by a specific route. */
+export type ApiErrorDetails = Record<string, string | number | boolean | null>;
 
 export function apiError(
   message: string,
   code: string,
   status = 400,
-  details?: Record<string, unknown>,
+  details?: ApiErrorDetails,
 ): Response {
   return jsonResponse({ error: { message, code, ...details } }, status);
 }

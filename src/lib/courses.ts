@@ -25,24 +25,24 @@ import vlsiData from "../../branch-json/vlsi.json";
 
 // All department data with file identifiers
 const allDepartments: Array<{ data: { department: Department }; file: string }> = [
-  { data: mathData as { department: Department }, file: "Math" },
-  { data: aeroAutoData as { department: Department }, file: "aero-auto" },
-  { data: biomedData as { department: Department }, file: "biomed" },
-  { data: chemEleData as { department: Department }, file: "chem-ele" },
-  { data: chemData as { department: Department }, file: "chem" },
-  { data: civilData as { department: Department }, file: "civil" },
-  { data: cpsData as { department: Department }, file: "cps" },
-  { data: eceData as { department: Department }, file: "ece" },
-  { data: eeeData as { department: Department }, file: "eee" },
-  { data: humData as { department: Department }, file: "hum" },
-  { data: iceData as { department: Department }, file: "ice" },
-  { data: ictData as { department: Department }, file: "ict" },
-  { data: industrialEngData as { department: Department }, file: "industrial-eng" },
-  { data: mechData as { department: Department }, file: "mech" },
-  { data: mechxData as { department: Department }, file: "mechx" },
-  { data: phyData as { department: Department }, file: "phy" },
-  { data: sceData as { department: Department }, file: "sce" },
-  { data: vlsiData as { department: Department }, file: "vlsi" },
+  { data: mathData, file: "Math" },
+  { data: aeroAutoData, file: "aero-auto" },
+  { data: biomedData, file: "biomed" },
+  { data: chemEleData, file: "chem-ele" },
+  { data: chemData, file: "chem" },
+  { data: civilData, file: "civil" },
+  { data: cpsData, file: "cps" },
+  { data: eceData, file: "ece" },
+  { data: eeeData, file: "eee" },
+  { data: humData, file: "hum" },
+  { data: iceData, file: "ice" },
+  { data: ictData, file: "ict" },
+  { data: industrialEngData, file: "industrial-eng" },
+  { data: mechData, file: "mech" },
+  { data: mechxData, file: "mechx" },
+  { data: phyData, file: "phy" },
+  { data: sceData, file: "sce" },
+  { data: vlsiData, file: "vlsi" },
 ];
 
 // file identifier -> department, so lookups are O(1) instead of a linear scan
@@ -79,13 +79,10 @@ interface CourseCandidate {
 }
 
 // Total length of every entry, without building the joined string.
-// The branch JSON is type-asserted rather than validated, and the `join('')`
-// this replaces coerced non-string entries instead of throwing, so a malformed
-// syllabus entry must not take down every page that loads the course index.
 function totalLength(values: readonly string[]): number {
   let total = 0;
   for (const value of values) {
-    total += (typeof value === "string" ? value : String(value ?? "")).length;
+    total += value.length;
   }
   return total;
 }

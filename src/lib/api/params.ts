@@ -15,11 +15,13 @@ export function parseSearchType(value: string | null): "all" | "courses" | "degr
   return "all";
 }
 
-export function paginate<T>(
-  items: T[],
-  limit: number,
-  offset: number,
-): { data: T[]; total: number } {
+/** One page of results plus the size of the unpaginated result set. */
+export interface Page<T> {
+  data: T[];
+  total: number;
+}
+
+export function paginate<T>(items: T[], limit: number, offset: number): Page<T> {
   return {
     data: items.slice(offset, offset + limit),
     total: items.length,

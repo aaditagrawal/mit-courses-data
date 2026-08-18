@@ -60,7 +60,8 @@ const ENDPOINTS = [
 
 export function ApiDocsPage() {
   const [copied, setCopied] = useState(false);
-  const baseUrl = typeof window !== "undefined" ? window.location.origin : "";
+  // Undefined while server-rendering; optional chaining keeps the SSR value "".
+  const baseUrl = globalThis.window?.location.origin ?? "";
 
   const handleCopy = async () => {
     await navigator.clipboard.writeText(getApiDocsMarkdown(baseUrl));

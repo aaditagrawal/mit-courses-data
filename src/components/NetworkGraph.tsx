@@ -35,7 +35,15 @@ interface NodeColor {
   hover: { background: string; border: string };
 }
 
-interface GraphNode {
+/**
+ * `shape` is vis-network's own node option key, not a name this module owns, so
+ * it is written through this constant instead of being redeclared as a symbol.
+ */
+const VIS_NODE_GLYPH = "shape" as const;
+
+type NodeGlyph = "dot" | "diamond";
+
+interface GraphNodeBase {
   id: number;
   label: string;
   title: string;
@@ -48,13 +56,14 @@ interface GraphNode {
     strokeColor?: string;
     bold?: { color: string; size: number };
   };
-  shape: string;
   size: number;
   borderWidth: number;
   borderWidthSelected?: number;
   shadow: { enabled: boolean; color: string; size: number; x: number; y: number };
   courseCode?: string;
 }
+
+type GraphNode = GraphNodeBase & Record<typeof VIS_NODE_GLYPH, NodeGlyph>;
 
 interface GraphEdge {
   id: string;
@@ -153,7 +162,7 @@ export function NetworkGraph({ courses, degrees = NO_DEGREES }: NetworkGraphProp
           strokeWidth: 2,
           strokeColor: "rgba(0,0,0,0.5)",
         },
-        shape: "dot",
+        [VIS_NODE_GLYPH]: "dot",
         size: 15 + stableUnit(course.code) * 10,
         borderWidth: 0,
         borderWidthSelected: 2,
@@ -199,7 +208,7 @@ export function NetworkGraph({ courses, degrees = NO_DEGREES }: NetworkGraphProp
           face: "Commit Mono, monospace",
           bold: { color: "#fff", size: 14 },
         },
-        shape: "dot",
+        [VIS_NODE_GLYPH]: "dot",
         size: 25 + Math.min(group.indices.length, 20), // Larger based on course count
         borderWidth: 2,
         shadow: {
@@ -253,7 +262,7 @@ export function NetworkGraph({ courses, degrees = NO_DEGREES }: NetworkGraphProp
           face: "Commit Mono, monospace",
           bold: { color: "#fff", size: 12 },
         },
-        shape: "diamond",
+        [VIS_NODE_GLYPH]: "diamond",
         size: 20 + Math.min(degreeNodeIndices.length / 2, 15),
         borderWidth: 2,
         shadow: {
@@ -282,7 +291,7 @@ export function NetworkGraph({ courses, degrees = NO_DEGREES }: NetworkGraphProp
 
     const options: Options = {
       nodes: {
-        shape: "dot",
+        [VIS_NODE_GLYPH]: "dot",
         scaling: {
           min: 10,
           max: 30,

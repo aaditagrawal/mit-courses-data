@@ -15,33 +15,35 @@ export function cn(...inputs: ClassValue[]) {
 export function abbreviateDepartment(department: string): string {
   if (!department) return "";
 
-  // Common abbreviations map
-  const commonAbbreviations: Record<string, string> = {
-    "Computer Science and Engineering": "CSE",
-    "Electronics and Communication Engineering": "ECE",
-    "Electrical and Electronics Engineering": "EEE",
-    "Mechanical and Industrial Engineering": "MIE",
-    "Mechanical Engineering": "ME",
-    "Civil Engineering": "CE",
-    "Chemical Engineering": "ChE",
-    Biotechnology: "BT",
-    "Information Technology": "IT",
-    "Aeronautical Engineering": "AE",
-    "Automobile Engineering": "Auto",
-    "Biomedical Engineering": "BME",
-    "Industrial and Production Engineering": "IPE",
-    "Instrumentation and Control Engineering": "ICE",
-    Mathematics: "Math",
-    Physics: "Phy",
-    Chemistry: "Chem",
-    Humanities: "Hum",
-    Management: "Mgmt",
-    Sciences: "Sci",
-  };
+  // Keyed by a Map so an arbitrary department string stays a plain lookup key
+  // instead of an open `Record<string, string>` annotation over known entries.
+  const commonAbbreviations = new Map<string, string>([
+    ["Computer Science and Engineering", "CSE"],
+    ["Electronics and Communication Engineering", "ECE"],
+    ["Electrical and Electronics Engineering", "EEE"],
+    ["Mechanical and Industrial Engineering", "MIE"],
+    ["Mechanical Engineering", "ME"],
+    ["Civil Engineering", "CE"],
+    ["Chemical Engineering", "ChE"],
+    ["Biotechnology", "BT"],
+    ["Information Technology", "IT"],
+    ["Aeronautical Engineering", "AE"],
+    ["Automobile Engineering", "Auto"],
+    ["Biomedical Engineering", "BME"],
+    ["Industrial and Production Engineering", "IPE"],
+    ["Instrumentation and Control Engineering", "ICE"],
+    ["Mathematics", "Math"],
+    ["Physics", "Phy"],
+    ["Chemistry", "Chem"],
+    ["Humanities", "Hum"],
+    ["Management", "Mgmt"],
+    ["Sciences", "Sci"],
+  ]);
 
   // Check if we have a direct match
-  if (commonAbbreviations[department]) {
-    return commonAbbreviations[department];
+  const directMatch = commonAbbreviations.get(department);
+  if (directMatch) {
+    return directMatch;
   }
 
   // If not, create abbreviation from capital letters or first letters of words
