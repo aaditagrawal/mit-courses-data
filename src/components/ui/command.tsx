@@ -103,9 +103,8 @@ function CommandList({
   );
 }
 
-function CommandEmpty({
-  ...props
-}: StyledProps<React.ComponentProps<typeof CommandPrimitive.Empty>>) {
+// Preserve the original className replacement API; this primitive has no xstyle prop.
+function CommandEmpty({ ...props }: React.ComponentProps<typeof CommandPrimitive.Empty>) {
   return (
     <CommandPrimitive.Empty
       data-slot="command-empty"
