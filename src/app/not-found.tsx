@@ -1,5 +1,7 @@
 "use client";
 
+import { styleClass } from "@/styles/classes";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FileX2, Home, Search } from "lucide-react";
@@ -10,57 +12,57 @@ export default function NotFound() {
   const isCoursePath = pathname?.startsWith("/course/");
 
   return (
-    <div className="min-h-screen bg-background text-foreground font-sans flex items-center justify-center p-6">
-      <div className="max-w-md w-full text-center space-y-8 animate-in fade-in slide-in-from-bottom-10 duration-500">
-        <div className="flex justify-center">
-          <div className="p-4 rounded-full bg-destructive/10 border border-destructive/20">
-            <FileX2 className="w-12 h-12 text-destructive" />
+    <div className={styleClass("appNotFoundStyle1")}>
+      <div className={styleClass("appNotFoundStyle2")}>
+        <div className={styleClass("appNotFoundStyle3")}>
+          <div className={styleClass("appNotFoundStyle4")}>
+            <FileX2 className={styleClass("appNotFoundStyle5")} />
           </div>
         </div>
 
-        <div className="space-y-3">
-          <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">
+        <div className={styleClass("appCourseCodePageStyle26")}>
+          <h1 className={styleClass("appNotFoundStyle7")}>
             {isCoursePath
               ? "Subject Data Not Properly Published in the Handbook"
               : "Page Not Found"}
           </h1>
-          <p className="text-muted-foreground text-sm leading-relaxed">
+          <p className={styleClass("appMiniProjectsPageStyle20")}>
             {isCoursePath
               ? "The course you're looking for hasn't been published yet or the data may be incomplete. Please check back later or search for another course."
               : "The page you are looking for doesn't exist or has been moved."}
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+        <div className={styleClass("appNotFoundStyle9")}>
           <Button asChild variant="default">
-            <Link href="/" className="flex items-center gap-2">
-              <Home className="w-4 h-4" />
+            <Link href="/" className={styleClass("appDegreeSlugPageStyle73")}>
+              <Home className={styleClass("appNotFoundStyle11")} />
               Back to Home
             </Link>
           </Button>
           <Button asChild variant="outline">
-            <Link href="/explore" className="flex items-center gap-2">
-              <Search className="w-4 h-4" />
+            <Link href="/explore" className={styleClass("appDegreeSlugPageStyle73")}>
+              <Search className={styleClass("appNotFoundStyle11")} />
               Explore Courses
             </Link>
           </Button>
         </div>
 
         {isCoursePath && (
-          <div className="pt-6 border-t border-border/50">
-            <p className="text-sm text-muted-foreground mb-3 font-medium">
+          <div className={styleClass("appNotFoundStyle14")}>
+            <p className={styleClass("appNotFoundStyle15")}>
               If you think this is a mistake, kindly reach out
             </p>
             <a
               href="mailto:aadit.mitmpl2023@learner.manipal.edu?subject=COURSE%20WEBSITE%20BUG%20REPORT&body=Hey!%0A%0AFound%20the%20following%20issues%20in%20the%20site%20data%3A%0A%0ACourse%20Code%3A%0AIssue%20found%3A"
-              className="inline-flex items-center gap-2 text-xs bg-secondary/50 hover:bg-secondary border border-border/50 px-4 py-2 rounded-lg text-muted-foreground hover:text-foreground transition-all duration-300"
+              className={styleClass("appNotFoundStyle16")}
             >
               Report Discrepancies (via Email)
             </a>
           </div>
         )}
 
-        <p className="text-xs text-muted-foreground/60 font-mono pt-4">
+        <p className={styleClass("appNotFoundStyle17")}>
           Error 404 • {isCoursePath ? "Course not found" : "Null route"}
         </p>
       </div>

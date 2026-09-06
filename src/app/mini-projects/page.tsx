@@ -1,3 +1,5 @@
+import { styles } from "@/styles/site.stylex";
+import { styleClass } from "@/styles/classes";
 import { ModeToggle } from "@/components/mode-toggle";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -12,91 +14,101 @@ export const metadata = {
 
 export default function MiniProjectsPage() {
   return (
-    <div className="min-h-screen bg-background text-foreground font-sans selection:bg-accent selection:text-accent-foreground">
+    <div className={styleClass("appCourseCodePageStyle5")}>
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-4 sm:p-6 bg-background/80 backdrop-blur-sm border-b border-border/50">
-        <Link
-          href="/"
-          className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors group"
-        >
-          <MoveLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-          <span className="font-mono text-xs sm:text-sm">Back to Home</span>
+      <nav className={styleClass("appCourseCodePageStyle6")}>
+        <Link href="/" className={styleClass("appCourseCodePageStyle7")}>
+          <MoveLeft className={styleClass("appCourseCodePageStyle8")} />
+          <span className={styleClass("appCourseCodePageStyle9")}>Back to Home</span>
         </Link>
         <ModeToggle />
       </nav>
 
       {/* Main Content */}
-      <main className="pt-20 sm:pt-24 pb-8 sm:pb-12 px-4 sm:px-6 max-w-4xl mx-auto space-y-6 sm:space-y-8 animate-in fade-in slide-in-from-bottom-10 duration-500">
+      <main className={styleClass("appCourseCodePageStyle11")}>
         {/* Header */}
-        <header className="space-y-4">
-          <div className="flex flex-wrap gap-2 items-center">
+        <header className={styleClass("appCourseCodePageStyle12")}>
+          <div className={styleClass("appMiniProjectsPageStyle8")}>
             <Badge
               variant="outline"
-              className="font-mono text-xs uppercase tracking-wider text-muted-foreground border-accent-foreground/20"
+              xstyle={styles.appMiniProjectsPageStyle9}
+              className="sx-appMiniProjectsPageStyle9 ui-text-defined"
             >
               Academic Information
             </Badge>
-            <Badge variant="secondary" className="font-mono text-xs">
+            <Badge
+              variant="secondary"
+              xstyle={styles.appCourseCodePageStyle16}
+              className="sx-appCourseCodePageStyle16 ui-text-defined"
+            >
               Minor Specialisation
             </Badge>
           </div>
 
-          <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold tracking-tight text-foreground leading-tight">
+          <h1 className={styleClass("appCourseCodePageStyle17")}>
             Mini Projects for Minor Specialisation
           </h1>
-          <div className="flex items-center gap-4 text-lg font-mono text-muted-foreground">
-            <span className="text-accent-foreground font-semibold">XXX 4191</span>
+          <div className={styleClass("appCourseCodePageStyle18")}>
+            <span className={styleClass("appCourseCodePageStyle19")}>XXX 4191</span>
           </div>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className={styleClass("appCourseCodePageStyle20")}>
           {/* Left Column: Main Content */}
-          <div className="md:col-span-2 space-y-8">
+          <div className={styleClass("appCourseCodePageStyle21")}>
             {/* Overview */}
             <section>
-              <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
-                <BookOpen className="w-5 h-5 text-accent-foreground" />
+              <h2 className={styleClass("appCourseCodePageStyle22")}>
+                <BookOpen className={styleClass("appCourseCodePageStyle23")} />
                 What are 4191 Courses?
               </h2>
-              <Card className="border-border/50 bg-card/50 shadow-sm">
-                <CardContent className="p-6 space-y-4">
-                  <p className="text-sm leading-relaxed text-muted-foreground">
+              <Card
+                xstyle={styles.appCourseCodePageStyle24}
+                className="sx-appCourseCodePageStyle24"
+              >
+                <CardContent
+                  xstyle={styles.appMiniProjectsPageStyle19}
+                  className="sx-appMiniProjectsPageStyle19"
+                >
+                  <p className={styleClass("appMiniProjectsPageStyle20")}>
                     Courses with the code{" "}
-                    <span className="font-mono text-accent-foreground">XXX 4191</span> are{" "}
-                    <strong className="text-foreground">
+                    <span className={styleClass("appMiniProjectsPageStyle21")}>XXX 4191</span> are{" "}
+                    <strong className={styleClass("appMiniProjectsPageStyle22")}>
                       Mini Projects for Minor Specialisation
                     </strong>
                     . These are specialized project-based courses designed for students pursuing a
                     minor in a specific discipline.
                   </p>
-                  <p className="text-sm leading-relaxed text-muted-foreground">
+                  <p className={styleClass("appMiniProjectsPageStyle20")}>
                     The "XXX" prefix varies based on the department offering the minor. For example:
                   </p>
-                  <ul className="space-y-2 ml-4">
-                    <li className="flex gap-3 text-sm leading-relaxed text-muted-foreground">
-                      <span className="font-mono text-accent-foreground shrink-0">•</span>
+                  <ul className={styleClass("appMiniProjectsPageStyle24")}>
+                    <li className={styleClass("appMiniProjectsPageStyle25")}>
+                      <span className={styleClass("appMiniProjectsPageStyle26")}>•</span>
                       <span>
-                        <span className="font-mono text-accent-foreground">AAE 4191</span> -
+                        <span className={styleClass("appMiniProjectsPageStyle21")}>AAE 4191</span> -
                         Aerospace Engineering Mini Project
                       </span>
                     </li>
-                    <li className="flex gap-3 text-sm leading-relaxed text-muted-foreground">
-                      <span className="font-mono text-accent-foreground shrink-0">•</span>
+                    <li className={styleClass("appMiniProjectsPageStyle25")}>
+                      <span className={styleClass("appMiniProjectsPageStyle26")}>•</span>
                       <span>
-                        <span className="font-mono text-accent-foreground">BIO 4191</span> -
+                        <span className={styleClass("appMiniProjectsPageStyle21")}>BIO 4191</span> -
                         Biotechnology Mini Project
                       </span>
                     </li>
-                    <li className="flex gap-3 text-sm leading-relaxed text-muted-foreground">
-                      <span className="font-mono text-accent-foreground shrink-0">•</span>
+                    <li className={styleClass("appMiniProjectsPageStyle25")}>
+                      <span className={styleClass("appMiniProjectsPageStyle26")}>•</span>
                       <span>
-                        <span className="font-mono text-accent-foreground">CIE 4191</span> - Civil
-                        Engineering Mini Project
+                        <span className={styleClass("appMiniProjectsPageStyle21")}>CIE 4191</span> -
+                        Civil Engineering Mini Project
                       </span>
                     </li>
-                    <li className="flex gap-3 text-sm leading-relaxed text-muted-foreground">
-                      <span className="font-mono text-accent-foreground shrink-0">•</span>
-                      <span className="text-xs italic">and similarly for other departments...</span>
+                    <li className={styleClass("appMiniProjectsPageStyle25")}>
+                      <span className={styleClass("appMiniProjectsPageStyle26")}>•</span>
+                      <span className={styleClass("appMiniProjectsPageStyle36")}>
+                        and similarly for other departments...
+                      </span>
                     </li>
                   </ul>
                 </CardContent>
@@ -105,40 +117,56 @@ export default function MiniProjectsPage() {
 
             {/* Key Features */}
             <section>
-              <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
-                <GraduationCap className="w-5 h-5 text-accent-foreground" />
+              <h2 className={styleClass("appCourseCodePageStyle22")}>
+                <GraduationCap className={styleClass("appCourseCodePageStyle23")} />
                 Key Features
               </h2>
-              <Card className="border-border/50 bg-card/50 shadow-sm">
-                <CardContent className="p-6">
-                  <ul className="space-y-3">
-                    <li className="flex gap-3 text-sm leading-relaxed text-muted-foreground hover:text-foreground transition-colors">
-                      <span className="font-mono text-accent-foreground/50 shrink-0 mt-1">01</span>
+              <Card
+                xstyle={styles.appCourseCodePageStyle24}
+                className="sx-appCourseCodePageStyle24"
+              >
+                <CardContent
+                  xstyle={styles.appCourseCodePageStyle25}
+                  className="sx-appCourseCodePageStyle25"
+                >
+                  <ul className={styleClass("appCourseCodePageStyle26")}>
+                    <li className={styleClass("appCourseCodePageStyle27")}>
+                      <span className={styleClass("appCourseCodePageStyle28")}>01</span>
                       <span>
-                        <strong className="text-foreground">8 Credits:</strong> These courses carry
-                        8 credits, reflecting the substantial project work involved.
+                        <strong className={styleClass("appMiniProjectsPageStyle22")}>
+                          8 Credits:
+                        </strong>{" "}
+                        These courses carry 8 credits, reflecting the substantial project work
+                        involved.
                       </span>
                     </li>
-                    <li className="flex gap-3 text-sm leading-relaxed text-muted-foreground hover:text-foreground transition-colors">
-                      <span className="font-mono text-accent-foreground/50 shrink-0 mt-1">02</span>
+                    <li className={styleClass("appCourseCodePageStyle27")}>
+                      <span className={styleClass("appCourseCodePageStyle28")}>02</span>
                       <span>
-                        <strong className="text-foreground">Project-Based Learning:</strong> Focus
-                        on hands-on, practical application of knowledge in the minor discipline.
+                        <strong className={styleClass("appMiniProjectsPageStyle22")}>
+                          Project-Based Learning:
+                        </strong>{" "}
+                        Focus on hands-on, practical application of knowledge in the minor
+                        discipline.
                       </span>
                     </li>
-                    <li className="flex gap-3 text-sm leading-relaxed text-muted-foreground hover:text-foreground transition-colors">
-                      <span className="font-mono text-accent-foreground/50 shrink-0 mt-1">03</span>
+                    <li className={styleClass("appCourseCodePageStyle27")}>
+                      <span className={styleClass("appCourseCodePageStyle28")}>03</span>
                       <span>
-                        <strong className="text-foreground">Minor Requirements:</strong> These
-                        courses are specifically for students who have declared and are completing a
-                        minor specialisation.
+                        <strong className={styleClass("appMiniProjectsPageStyle22")}>
+                          Minor Requirements:
+                        </strong>{" "}
+                        These courses are specifically for students who have declared and are
+                        completing a minor specialisation.
                       </span>
                     </li>
-                    <li className="flex gap-3 text-sm leading-relaxed text-muted-foreground hover:text-foreground transition-colors">
-                      <span className="font-mono text-accent-foreground/50 shrink-0 mt-1">04</span>
+                    <li className={styleClass("appCourseCodePageStyle27")}>
+                      <span className={styleClass("appCourseCodePageStyle28")}>04</span>
                       <span>
-                        <strong className="text-foreground">Department-Specific:</strong> The
-                        project work is supervised by faculty from the respective department and
+                        <strong className={styleClass("appMiniProjectsPageStyle22")}>
+                          Department-Specific:
+                        </strong>{" "}
+                        The project work is supervised by faculty from the respective department and
                         aligns with that discipline's focus areas.
                       </span>
                     </li>
@@ -149,20 +177,27 @@ export default function MiniProjectsPage() {
           </div>
 
           {/* Right Column: Quick Info */}
-          <div className="space-y-6">
+          <div className={styleClass("appCourseCodePageStyle32")}>
             {/* Credits Card */}
-            <Card className="border-border/50 overflow-hidden">
-              <CardHeader className="bg-muted/50 pb-3 border-b border-border/50 px-6">
-                <CardTitle className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
+            <Card xstyle={styles.appCourseCodePageStyle33} className="sx-appCourseCodePageStyle33">
+              <CardHeader
+                xstyle={styles.appCourseCodePageStyle34}
+                className="sx-appCourseCodePageStyle34 ui-border-b"
+              >
+                <CardTitle
+                  xstyle={styles.appCourseCodePageStyle35}
+                  className="sx-appCourseCodePageStyle35 ui-text-defined"
+                >
                   Credit Structure
                 </CardTitle>
               </CardHeader>
-              <CardContent className="p-6 text-center">
-                <div className="text-5xl font-bold font-mono text-accent-foreground mb-2">8</div>
-                <div className="text-xs uppercase tracking-widest text-muted-foreground">
-                  Total Credits
-                </div>
-                <p className="text-xs text-muted-foreground mt-4 leading-relaxed">
+              <CardContent
+                xstyle={styles.appMiniProjectsPageStyle58}
+                className="sx-appMiniProjectsPageStyle58 ui-text-defined"
+              >
+                <div className={styleClass("appMiniProjectsPageStyle59")}>8</div>
+                <div className={styleClass("appMiniProjectsPageStyle60")}>Total Credits</div>
+                <p className={styleClass("appMiniProjectsPageStyle61")}>
                   Project-based course with no traditional lecture/tutorial/practical split
                 </p>
               </CardContent>

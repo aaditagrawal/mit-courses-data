@@ -1,34 +1,28 @@
+import { styleClass } from "@/styles/classes";
 import Link from "next/link";
 import { CommandMenuTrigger } from "@/components/CommandMenu";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-4 sm:p-6 bg-background text-foreground transition-colors duration-300">
-      <div className="z-10 w-full max-w-3xl flex flex-col items-center gap-6 sm:gap-8 text-center animate-in fade-in zoom-in duration-700 slide-in-from-bottom-5">
-        <div className="space-y-4">
-          <h1 className="text-4xl sm:text-6xl font-sans font-bold tracking-tight bg-gradient-to-br from-foreground to-muted-foreground bg-clip-text text-transparent">
-            Course Web
-          </h1>
-          <p className="text-muted-foreground text-lg sm:text-xl font-light tracking-wide max-w-md mx-auto">
-            MIT Manipal Academic Year 2025-2026
-          </p>
+    <main className={styleClass("appPageStyle1")}>
+      <div className={styleClass("appPageStyle2")}>
+        <div className={styleClass("appCourseCodePageStyle12")}>
+          <h1 className={styleClass("appPageStyle4")}>Course Web</h1>
+          <p className={styleClass("appPageStyle5")}>MIT Manipal Academic Year 2025-2026</p>
         </div>
 
-        <div className="w-full max-w-xl">
+        <div className={styleClass("appPageStyle6")}>
           <CommandMenuTrigger />
-          <p className="mt-4 text-xs text-muted-foreground font-mono opacity-60">
-            Press <kbd className="border rounded px-1">Ctrl</kbd> +{" "}
-            <kbd className="border rounded px-1">K</kbd> to search
+          <p className={styleClass("appPageStyle7")}>
+            Press <kbd className={styleClass("appPageStyle8")}>Ctrl</kbd> +{" "}
+            <kbd className={styleClass("appPageStyle8")}>K</kbd> to search
           </p>
         </div>
 
         {/* Explore Graph Link */}
-        <div className="flex flex-wrap gap-4 justify-center">
+        <div className={styleClass("appPageStyle10")}>
           {/* Explore Graph Link */}
-          <Link
-            href="/explore"
-            className="group inline-flex items-center gap-2 px-4 py-2 bg-secondary/50 hover:bg-secondary border border-border/50 rounded-lg text-sm font-mono text-muted-foreground hover:text-foreground transition-all duration-300"
-          >
+          <Link href="/explore" className={styleClass("appPageStyle11")}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -39,7 +33,7 @@ export default function Home() {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="opacity-60 group-hover:opacity-100 transition-opacity"
+              className={styleClass("appPageStyle12")}
             >
               <circle cx="12" cy="12" r="2" />
               <circle cx="6" cy="6" r="2" />
@@ -49,14 +43,11 @@ export default function Home() {
               <path d="M12 10V8M12 14v2M10 12H8M14 12h2M7.5 7.5 10 10M14 14l2.5 2.5M7.5 16.5 10 14M14 10l2.5-2.5" />
             </svg>
             <span>Explore Graph</span>
-            <span className="opacity-0 group-hover:opacity-60 transition-opacity">→</span>
+            <span className={styleClass("appPageStyle13")}>→</span>
           </Link>
 
           {/* Degree Structure Link */}
-          <Link
-            href="/degree"
-            className="group inline-flex items-center gap-2 px-4 py-2 bg-secondary/50 hover:bg-secondary border border-border/50 rounded-lg text-sm font-mono text-muted-foreground hover:text-foreground transition-all duration-300"
-          >
+          <Link href="/degree" className={styleClass("appPageStyle11")}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -67,19 +58,16 @@ export default function Home() {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="opacity-60 group-hover:opacity-100 transition-opacity"
+              className={styleClass("appPageStyle12")}
             >
               <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
               <path d="M6 12v5c3 3 9 3 12 0v-5" />
             </svg>
             <span>Degree Plans</span>
-            <span className="opacity-0 group-hover:opacity-60 transition-opacity">→</span>
+            <span className={styleClass("appPageStyle13")}>→</span>
           </Link>
 
-          <Link
-            href="/api-docs"
-            className="group inline-flex items-center gap-2 px-4 py-2 bg-secondary/50 hover:bg-secondary border border-border/50 rounded-lg text-sm font-mono text-muted-foreground hover:text-foreground transition-all duration-300"
-          >
+          <Link href="/api-docs" className={styleClass("appPageStyle11")}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -90,46 +78,46 @@ export default function Home() {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="opacity-60 group-hover:opacity-100 transition-opacity"
+              className={styleClass("appPageStyle12")}
             >
               <polyline points="16 18 22 12 16 6" />
               <polyline points="8 6 2 12 8 18" />
             </svg>
             <span>Agent API</span>
-            <span className="opacity-0 group-hover:opacity-60 transition-opacity">→</span>
+            <span className={styleClass("appPageStyle13")}>→</span>
           </Link>
         </div>
 
-        <div className="mt-12 space-y-8">
-          <div className="space-y-4 text-sm text-muted-foreground">
-            <div className="p-4 bg-secondary/20 rounded-lg border border-border/50 max-w-md mx-auto">
-              <p className="text-sm mb-3 opacity-80">
+        <div className={styleClass("appPageStyle20")}>
+          <div className={styleClass("appPageStyle21")}>
+            <div className={styleClass("appPageStyle22")}>
+              <p className={styleClass("appPageStyle23")}>
                 Data has been extracted from curriculum published by Manipal Institute of
                 Technology, Manipal.
               </p>
               <a
                 href="mailto:aadit.mitmpl2023@learner.manipal.edu?subject=COURSE%20WEBSITE%20BUG%20REPORT&body=Hey!%0A%0AFound%20the%20following%20issues%20in%20the%20site%20data%3A%0A%0ACourse%20Code%3A%0AIssue%20found%3A"
-                className="inline-flex items-center gap-2 text-xs bg-background border border-border/50 px-3 py-2 rounded-md hover:bg-accent hover:text-accent-foreground transition-colors"
+                className={styleClass("appPageStyle24")}
               >
                 Report Discrepancies (via Email)
               </a>
             </div>
-            <p className="text-xs opacity-60">
+            <p className={styleClass("appPageStyle25")}>
               Made by{" "}
               <a
                 href="https://aadit.cc"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-foreground hover:text-accent-foreground transition-colors"
+                className={styleClass("appPageStyle26")}
               >
                 Aadit
               </a>
-              <span className="mx-2 text-muted-foreground/50">/</span>
+              <span className={styleClass("appPageStyle27")}>/</span>
               <a
                 href="https://github.com/aaditagrawal/mit-courses-data"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-foreground hover:text-accent-foreground transition-colors"
+                className={styleClass("appPageStyle26")}
               >
                 GitHub
               </a>

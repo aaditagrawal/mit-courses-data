@@ -1,6 +1,16 @@
+import stylexOptions from "./stylex.config.cjs";
+
 const config = {
   plugins: {
-    "@tailwindcss/postcss": {},
+    "@stylexjs/postcss-plugin": {
+      include: ["src/**/*.stylex.js"],
+      babelConfig: {
+        babelrc: false,
+        configFile: false,
+        plugins: [["@stylexjs/babel-plugin", stylexOptions]],
+      },
+      useCSSLayers: false,
+    },
   },
 };
 

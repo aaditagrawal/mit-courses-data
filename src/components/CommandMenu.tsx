@@ -1,5 +1,7 @@
 "use client";
 
+import { styleClass } from "@/styles/classes";
+
 import * as React from "react";
 import { useRouter } from "next/navigation";
 import { Search, BookOpen, GraduationCap } from "lucide-react";
@@ -220,11 +222,11 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
 
   return (
     <CommandDialog open={open} onOpenChange={setOpen} shouldFilter={false}>
-      <div className="flex items-center border-b px-3">
-        <Search className="mr-2 h-4 w-4 shrink-0 opacity-50" />
+      <div className={styleClass("componentsCommandMenuStyle1")}>
+        <Search className={styleClass("componentsCommandMenuStyle2")} />
         <input
           aria-label="Search courses, degrees, or content"
-          className="flex h-11 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50"
+          className={styleClass("componentsCommandMenuStyle3")}
           placeholder="Search courses, degrees, or content..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
@@ -243,10 +245,10 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
                 value={degree.title}
                 onSelect={() => handleSelectDegree(degree.slug)}
               >
-                <GraduationCap className="mr-2 h-4 w-4 shrink-0 opacity-50" />
-                <div className="flex flex-col min-w-0 flex-1">
-                  <span className="text-sm font-medium truncate">{degree.title}</span>
-                  <span className="text-[10px] text-muted-foreground truncate">
+                <GraduationCap className={styleClass("componentsCommandMenuStyle2")} />
+                <div className={styleClass("componentsCommandMenuStyle5")}>
+                  <span className={styleClass("componentsCommandMenuStyle6")}>{degree.title}</span>
+                  <span className={styleClass("componentsCommandMenuStyle7")}>
                     {degree.department}
                   </span>
                 </div>
@@ -263,15 +265,17 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
                 value={`${course.code} ${course.title}`}
                 onSelect={() => handleSelectCourse(course.code)}
               >
-                <BookOpen className="mr-2 h-4 w-4 shrink-0 opacity-50" />
-                <div className="flex flex-col min-w-0 flex-1">
-                  <div className="flex items-center gap-2 flex-wrap">
-                    <span className="font-mono text-xs font-semibold text-foreground/80">
+                <BookOpen className={styleClass("componentsCommandMenuStyle2")} />
+                <div className={styleClass("componentsCommandMenuStyle5")}>
+                  <div className={styleClass("appMiniProjectsPageStyle8")}>
+                    <span className={styleClass("componentsCommandMenuStyle11")}>
                       {course.code}
                     </span>
-                    <span className="text-sm font-medium truncate">{course.title}</span>
+                    <span className={styleClass("componentsCommandMenuStyle6")}>
+                      {course.title}
+                    </span>
                     {course.department && (
-                      <span className="ml-auto text-[10px] text-muted-foreground/60 shrink-0">
+                      <span className={styleClass("componentsCommandMenuStyle13")}>
                         {course.department
                           .split(" ")
                           .map((w) => w[0])
@@ -279,7 +283,7 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
                       </span>
                     )}
                   </div>
-                  <span className="text-[10px] text-muted-foreground truncate max-w-full sm:max-w-md">
+                  <span className={styleClass("componentsCommandMenuStyle14")}>
                     {course.snippet}
                   </span>
                 </div>
@@ -299,12 +303,12 @@ export function CommandMenuTrigger() {
     <button
       type="button"
       onClick={() => setOpen(true)}
-      className="flex items-center gap-2 px-4 py-2 text-sm text-muted-foreground bg-secondary/50 border border-input rounded-md cursor-pointer hover:bg-secondary/80 transition-colors w-full max-w-lg mx-auto"
+      className={styleClass("componentsCommandMenuStyle15")}
     >
-      <Search className="w-4 h-4" />
-      <span className="flex-1 text-left">Search courses...</span>
-      <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
-        <span className="text-xs">⌘</span>K
+      <Search className={styleClass("appNotFoundStyle11")} />
+      <span className={styleClass("componentsCommandMenuStyle17")}>Search courses...</span>
+      <kbd className={styleClass("componentsCommandMenuStyle18")}>
+        <span className={styleClass("componentsApiDocsPageStyle27")}>⌘</span>K
       </kbd>
     </button>
   );

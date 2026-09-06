@@ -1,3 +1,4 @@
+import { styleClass } from "@/styles/classes";
 import { getAllCourses, getCourseMap } from "@/lib/courses";
 import { getAllDegrees, getDegreeData, DegreeData, electivePoolCourseCodes } from "@/lib/degrees";
 import { ExploreGraph } from "@/components/ExploreGraph";
@@ -58,21 +59,18 @@ export default function ExplorePage() {
   // not sent a second time here.
 
   return (
-    <main className="min-h-screen bg-background text-foreground">
+    <main className={styleClass("appExplorePageStyle1")}>
       {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 px-6 py-4 bg-background/80 backdrop-blur-md border-b border-border/50">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-4">
-            <Link
-              href="/"
-              className="text-muted-foreground hover:text-foreground transition-colors text-sm font-mono"
-            >
+      <header className={styleClass("appExplorePageStyle2")}>
+        <div className={styleClass("appExplorePageStyle3")}>
+          <div className={styleClass("appExplorePageStyle4")}>
+            <Link href="/" className={styleClass("appExplorePageStyle5")}>
               ← Home
             </Link>
-            <div className="h-4 w-px bg-border" />
+            <div className={styleClass("appExplorePageStyle6")} />
             <div>
-              <h1 className="text-lg font-semibold tracking-tight">Explore Courses</h1>
-              <p className="text-xs text-muted-foreground font-mono">
+              <h1 className={styleClass("appExplorePageStyle7")}>Explore Courses</h1>
+              <p className={styleClass("appDegreeSlugPageStyle26")}>
                 {courses.length} courses • {degreeData.length} degrees • 17 departments
               </p>
             </div>
@@ -81,7 +79,7 @@ export default function ExplorePage() {
       </header>
 
       {/* Graph container - full viewport */}
-      <div className="pt-20 h-screen">
+      <div className={styleClass("appExplorePageStyle9")}>
         <ExploreGraph degrees={degreeData} />
       </div>
     </main>

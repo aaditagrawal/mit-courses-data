@@ -1,5 +1,8 @@
 "use client";
 
+import { styles } from "@/styles/site.stylex";
+import { styleClass } from "@/styles/classes";
+
 import { useState, useEffect } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -54,37 +57,34 @@ export default function CoursePageClient() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center">
-        <Loader2 className="w-8 h-8 animate-spin text-muted-foreground" />
+      <div className={styleClass("componentsCoursePageClientStyle5")}>
+        <Loader2 className={styleClass("componentsCoursePageClientStyle6")} />
       </div>
     );
   }
 
   if (error || !course) {
     return (
-      <div className="min-h-screen bg-background text-foreground font-sans">
-        <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-4 sm:p-6 bg-background/80 backdrop-blur-sm border-b border-border/50">
-          <Link
-            href="/"
-            className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors group"
-          >
-            <MoveLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-            <span className="font-mono text-xs sm:text-sm">Back to Search</span>
+      <div className={styleClass("appDegreePageStyle1")}>
+        <nav className={styleClass("appCourseCodePageStyle6")}>
+          <Link href="/" className={styleClass("appCourseCodePageStyle7")}>
+            <MoveLeft className={styleClass("appCourseCodePageStyle8")} />
+            <span className={styleClass("appCourseCodePageStyle9")}>Back to Search</span>
           </Link>
           <ModeToggle />
         </nav>
-        <main className="pt-24 pb-12 px-6 max-w-4xl mx-auto text-center space-y-6">
-          <div className="flex justify-center">
-            <div className="p-4 rounded-full bg-destructive/10 border border-destructive/20">
-              <FileX2 className="w-12 h-12 text-destructive" />
+        <main className={styleClass("componentsCoursePageClientStyle12")}>
+          <div className={styleClass("appNotFoundStyle3")}>
+            <div className={styleClass("appNotFoundStyle4")}>
+              <FileX2 className={styleClass("appNotFoundStyle5")} />
             </div>
           </div>
           <div>
-            <h1 className="text-2xl font-bold mb-4">Course Not Found</h1>
-            <p className="text-muted-foreground mb-6">
+            <h1 className={styleClass("componentsCoursePageClientStyle16")}>Course Not Found</h1>
+            <p className={styleClass("componentsCoursePageClientStyle17")}>
               The course &quot;{code}&quot; could not be found in the database.
             </p>
-            <p className="text-sm text-muted-foreground">
+            <p className={styleClass("componentsApiDocsPageStyle34")}>
               Subject Data Not Properly Published in the Handbook
             </p>
           </div>
@@ -94,29 +94,27 @@ export default function CoursePageClient() {
   }
 
   return (
-    <div className="min-h-screen bg-background text-foreground font-sans selection:bg-accent selection:text-accent-foreground">
+    <div className={styleClass("appCourseCodePageStyle5")}>
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-4 sm:p-6 bg-background/80 backdrop-blur-sm border-b border-border/50">
-        <Link
-          href="/"
-          className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors group"
-        >
-          <MoveLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
-          <span className="font-mono text-xs sm:text-sm">Back to Search</span>
+      <nav className={styleClass("appCourseCodePageStyle6")}>
+        <Link href="/" className={styleClass("appCourseCodePageStyle7")}>
+          <MoveLeft className={styleClass("appCourseCodePageStyle8")} />
+          <span className={styleClass("appCourseCodePageStyle9")}>Back to Search</span>
         </Link>
-        <div className="flex items-center">
+        <div className={styleClass("appCourseCodePageStyle10")}>
           <ModeToggle />
         </div>
       </nav>
 
       {/* Main Content */}
-      <main className="pt-20 sm:pt-24 pb-8 sm:pb-12 px-4 sm:px-6 max-w-4xl mx-auto space-y-6 sm:space-y-8 animate-in fade-in slide-in-from-bottom-10 duration-500">
+      <main className={styleClass("appCourseCodePageStyle11")}>
         {/* Header */}
-        <header className="space-y-4">
-          <div className="flex flex-wrap gap-2 items-center max-w-full">
+        <header className={styleClass("appCourseCodePageStyle12")}>
+          <div className={styleClass("appCourseCodePageStyle13")}>
             <Badge
               variant="outline"
-              className="font-mono text-xs uppercase tracking-wider text-muted-foreground border-accent-foreground/20 max-w-[200px] truncate"
+              xstyle={styles.appCourseCodePageStyle14}
+              className="sx-appCourseCodePageStyle14 ui-text-defined"
               title={course.department}
             >
               {course.department}
@@ -125,44 +123,50 @@ export default function CoursePageClient() {
               <Badge
                 key={tag}
                 variant="secondary"
-                className="font-mono text-xs max-w-[150px] sm:max-w-[200px]"
+                xstyle={styles.appCourseCodePageStyle15}
+                className="sx-appCourseCodePageStyle15 ui-text-defined"
               >
                 {tag}
               </Badge>
             ))}
             {course.sem && (
-              <Badge variant="outline" className="font-mono text-xs">
+              <Badge
+                variant="outline"
+                xstyle={styles.appCourseCodePageStyle16}
+                className="sx-appCourseCodePageStyle16 ui-text-defined"
+              >
                 Sem {course.sem}
               </Badge>
             )}
           </div>
 
-          <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold tracking-tight text-foreground leading-tight">
-            {course.title}
-          </h1>
-          <div className="flex items-center gap-4 text-lg font-mono text-muted-foreground">
-            <span className="text-accent-foreground font-semibold">{course.code}</span>
+          <h1 className={styleClass("appCourseCodePageStyle17")}>{course.title}</h1>
+          <div className={styleClass("appCourseCodePageStyle18")}>
+            <span className={styleClass("appCourseCodePageStyle19")}>{course.code}</span>
           </div>
         </header>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className={styleClass("appCourseCodePageStyle20")}>
           {/* Left Column: Details */}
-          <div className="md:col-span-2 space-y-8">
+          <div className={styleClass("appCourseCodePageStyle21")}>
             {/* Syllabus */}
             <section>
-              <h2 className="text-xl font-semibold mb-4 flex items-center gap-2">
-                <BookOpen className="w-5 h-5 text-accent-foreground" />
+              <h2 className={styleClass("appCourseCodePageStyle22")}>
+                <BookOpen className={styleClass("appCourseCodePageStyle23")} />
                 Syllabus
               </h2>
-              <Card className="border-border/50 bg-card/50 shadow-sm">
-                <CardContent className="p-6">
-                  <ul className="space-y-3">
+              <Card
+                xstyle={styles.appCourseCodePageStyle24}
+                className="sx-appCourseCodePageStyle24"
+              >
+                <CardContent
+                  xstyle={styles.appCourseCodePageStyle25}
+                  className="sx-appCourseCodePageStyle25"
+                >
+                  <ul className={styleClass("appCourseCodePageStyle26")}>
                     {course.syllabus?.map((topic, index) => (
-                      <li
-                        key={index}
-                        className="flex gap-3 text-sm leading-relaxed text-muted-foreground hover:text-foreground transition-colors"
-                      >
-                        <span className="font-mono text-accent-foreground/50 shrink-0 mt-1">
+                      <li key={index} className={styleClass("appCourseCodePageStyle27")}>
+                        <span className={styleClass("appCourseCodePageStyle28")}>
                           {(index + 1).toString().padStart(2, "0")}
                         </span>
                         <span>{topic}</span>
@@ -176,13 +180,10 @@ export default function CoursePageClient() {
             {/* References */}
             {course.references && course.references.length > 0 && (
               <section>
-                <h2 className="text-xl font-semibold mb-4">References</h2>
-                <ul className="grid gap-3">
+                <h2 className={styleClass("appCourseCodePageStyle29")}>References</h2>
+                <ul className={styleClass("appCourseCodePageStyle30")}>
                   {course.references.map((ref, i) => (
-                    <li
-                      key={i}
-                      className="text-sm p-4 rounded-md bg-secondary/30 border border-transparent hover:border-border transition-colors text-muted-foreground flex items-center justify-between"
-                    >
+                    <li key={i} className={styleClass("appCourseCodePageStyle31")}>
                       <span>{ref}</span>
                       <SearchReferenceButton reference={ref} />
                     </li>
@@ -193,16 +194,25 @@ export default function CoursePageClient() {
           </div>
 
           {/* Right Column: Credits & Meta */}
-          <div className="space-y-6">
+          <div className={styleClass("appCourseCodePageStyle32")}>
             {/* Credits Card */}
-            <Card className="border-border/50 overflow-hidden">
-              <CardHeader className="bg-muted/50 pb-3 border-b border-border/50 px-6">
-                <CardTitle className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
+            <Card xstyle={styles.appCourseCodePageStyle33} className="sx-appCourseCodePageStyle33">
+              <CardHeader
+                xstyle={styles.appCourseCodePageStyle34}
+                className="sx-appCourseCodePageStyle34 ui-border-b"
+              >
+                <CardTitle
+                  xstyle={styles.appCourseCodePageStyle35}
+                  className="sx-appCourseCodePageStyle35 ui-text-defined"
+                >
                   Credits Structure
                 </CardTitle>
               </CardHeader>
-              <CardContent className="p-0">
-                <div className="grid grid-cols-2 sm:grid-cols-4 divide-x divide-y sm:divide-y-0 divide-border/50">
+              <CardContent
+                xstyle={styles.appCourseCodePageStyle36}
+                className="sx-appCourseCodePageStyle36"
+              >
+                <div className={styleClass("appCourseCodePageStyle37")}>
                   <CreditItem label="Lecture" value={course.credits?.l || 0} />
                   <CreditItem label="Tutorial" value={course.credits?.t || 0} />
                   <CreditItem label="Practical" value={course.credits?.p || 0} />
@@ -227,17 +237,11 @@ function CreditItem({
   isTotal?: boolean;
 }) {
   return (
-    <div
-      className={`flex flex-col items-center justify-center p-3 sm:p-4 transition-colors ${isTotal ? "bg-accent/10" : "hover:bg-muted/30"}`}
-    >
-      <span
-        className={`text-2xl sm:text-3xl font-bold font-mono tracking-tighter ${isTotal ? "text-accent-foreground" : "text-foreground"}`}
-      >
+    <div className={styleClass(isTotal ? "appCourseCodePageStyle1" : "appCourseCodePageStyle2")}>
+      <span className={styleClass(isTotal ? "appCourseCodePageStyle3" : "appCourseCodePageStyle4")}>
         {value}
       </span>
-      <span className="text-[9px] sm:text-[10px] uppercase tracking-widest text-muted-foreground mt-1 sm:mt-2 font-medium">
-        {label}
-      </span>
+      <span className={styleClass("appCourseCodePageStyle38")}>{label}</span>
     </div>
   );
 }

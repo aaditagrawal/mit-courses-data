@@ -1,3 +1,5 @@
+import { styleClass } from "@/styles/classes";
+import { cn } from "@/lib/utils";
 import { getAllCourseSummaries } from "@/lib/courses";
 import { getAllDegreeSummaries } from "@/lib/degrees";
 import { GlobalLayout } from "@/components/GlobalLayout";
@@ -35,9 +37,7 @@ export default function RootLayout({
         />
         <script defer src="https://stat.sys256.com/script.js"></script>
       </head>
-      <body
-        className={`${instrumentSans.variable} font-sans antialiased bg-background text-foreground`}
-      >
+      <body className={cn(instrumentSans.variable, styleClass("appLayoutStyle1"))}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

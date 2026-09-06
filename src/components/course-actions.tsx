@@ -1,5 +1,8 @@
 "use client";
 
+import { styles } from "@/styles/site.stylex";
+import { styleClass } from "@/styles/classes";
+
 import { Button } from "@/components/ui/button";
 import { Share2, Search } from "lucide-react";
 
@@ -26,10 +29,11 @@ export function ShareButton() {
     <Button
       variant="ghost"
       size="icon"
-      className="h-8 w-8 text-muted-foreground hover:text-foreground"
+      xstyle={styles.componentsCourseActionsStyle1}
+      className="sx-componentsCourseActionsStyle1 ui-text-defined"
       onClick={handleShare}
     >
-      <Share2 className="w-4 h-4" />
+      <Share2 className={styleClass("appNotFoundStyle11")} />
     </Button>
   );
 }
@@ -43,10 +47,11 @@ export function SearchReferenceButton({ reference }: { reference: string }) {
     <Button
       variant="ghost"
       size="icon"
-      className="h-6 w-6 text-muted-foreground hover:text-foreground ml-2"
+      xstyle={styles.componentsCourseActionsStyle3}
+      className="sx-componentsCourseActionsStyle3 ui-text-defined"
       onClick={handleSearch}
     >
-      <Search className="w-4 h-4" />
+      <Search className={styleClass("appNotFoundStyle11")} />
     </Button>
   );
 }
