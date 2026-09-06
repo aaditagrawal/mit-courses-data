@@ -1,49 +1,80 @@
 "use client";
 
+import * as stylex from "@stylexjs/stylex";
+import { styles } from "@/styles/site.stylex";
+import { type StyledProps, type XStyle } from "@/styles/classes";
+
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
-import { cva, type VariantProps } from "class-variance-authority";
+import type { ClassValue } from "clsx";
 
 import { cn } from "@/lib/utils";
 
-const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
-  {
-    variants: {
-      variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90",
-        destructive:
-          "bg-destructive text-white hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
-        outline:
-          "border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
-        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
-        ghost: "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
-        link: "text-primary underline-offset-4 hover:underline",
-      },
-      size: {
-        default: "h-9 px-4 py-2 has-[>svg]:px-3",
-        sm: "h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5",
-        lg: "h-10 rounded-md px-6 has-[>svg]:px-4",
-        icon: "size-9",
-        "icon-sm": "size-8",
-        "icon-lg": "size-10",
-      },
-    },
-    defaultVariants: {
-      variant: "default",
-      size: "default",
-    },
-  },
-);
+const variantStyles = {
+  default: styles.buttonvariantdefault,
+  destructive: styles.buttonvariantdestructive,
+  outline: styles.buttonvariantoutline,
+  secondary: styles.buttonvariantsecondary,
+  ghost: styles.buttonvariantghost,
+  link: styles.buttonvariantlink,
+};
+const variantMarkers = {
+  default: "sx-buttonvariantdefault ui-text-defined",
+  destructive: "sx-buttonvariantdestructive ui-text-defined",
+  outline: "sx-buttonvariantoutline ui-text-defined",
+  secondary: "sx-buttonvariantsecondary ui-text-defined",
+  ghost: "sx-buttonvariantghost ui-text-defined",
+  link: "sx-buttonvariantlink ui-text-defined",
+};
+const sizeStyles = {
+  default: styles.buttonsizedefault,
+  sm: styles.buttonsizesm,
+  lg: styles.buttonsizelg,
+  icon: styles.buttonsizeicon,
+  "icon-sm": styles.buttonsizeicon_sm,
+  "icon-lg": styles.buttonsizeicon_lg,
+};
+const sizeMarkers = {
+  default: "sx-buttonsizedefault",
+  sm: "sx-buttonsizesm",
+  lg: "sx-buttonsizelg",
+  icon: "sx-buttonsizeicon ui-size-defined",
+  "icon-sm": "sx-buttonsizeicon_sm ui-size-defined",
+  "icon-lg": "sx-buttonsizeicon_lg ui-size-defined",
+};
+type Variant = keyof typeof variantStyles;
+type Size = keyof typeof sizeStyles;
+type VariantOptions = { variant?: Variant | null; size?: Size | null };
+/** Preserve the public class builder while compiling its atomic styles. */
+function buttonVariants({
+  variant = "default",
+  size = "default",
+  className,
+  class: extraClass,
+  xstyle,
+}: VariantOptions & { className?: ClassValue; class?: ClassValue; xstyle?: XStyle } = {}) {
+  return cn(
+    stylex.props(
+      variant ? variantStyles[variant] : styles.buttonBase,
+      size && sizeStyles[size],
+      xstyle,
+    ).className,
+    variant ? variantMarkers[variant] : "sx-buttonBase",
+    size && sizeMarkers[size],
+    className,
+    extraClass,
+  );
+}
 
 function Button({
   className,
+  xstyle,
   variant = "default",
   size = "default",
   asChild = false,
   ...props
-}: React.ComponentProps<"button"> &
-  VariantProps<typeof buttonVariants> & {
+}: StyledProps<React.ComponentProps<"button">> &
+  VariantOptions & {
     asChild?: boolean;
   }) {
   const Comp = asChild ? Slot : "button";
@@ -53,7 +84,7 @@ function Button({
       data-slot="button"
       data-variant={variant}
       data-size={size}
-      className={cn(buttonVariants({ variant, size, className }))}
+      className={cn(buttonVariants({ variant, size, className, xstyle }))}
       {...props}
     />
   );

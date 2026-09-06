@@ -1,5 +1,7 @@
 "use client";
 
+import { styleClass } from "@/styles/classes";
+
 import { useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { Network, Options } from "vis-network";
@@ -399,31 +401,28 @@ export function NetworkGraph({ courses, degrees = NO_DEGREES }: NetworkGraphProp
   }, [courses, degrees, handleNodeClick]);
 
   return (
-    <div className="relative w-full h-full">
+    <div className={styleClass("componentsNetworkGraphStyle1")}>
       {/* Graph container */}
       <div
         ref={containerRef}
-        className="w-full h-full cursor-grab"
+        className={styleClass("componentsNetworkGraphStyle2")}
         style={{ minHeight: "600px" }}
       />
 
       {/* Loading indicator shown initially */}
-      <div
-        className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 transition-opacity duration-500"
-        id="graph-loading"
-      >
-        <div className="text-muted-foreground text-sm font-mono">Initializing graph...</div>
+      <div className={styleClass("componentsNetworkGraphStyle3")} id="graph-loading">
+        <div className={styleClass("componentsExploreGraphStyle2")}>Initializing graph...</div>
       </div>
 
       {/* Legend */}
-      <div className="absolute bottom-4 left-4 p-3 bg-background/80 backdrop-blur-sm border border-border/50 rounded-lg text-xs font-mono text-muted-foreground max-w-xs">
-        <div className="mb-2 font-semibold text-foreground">Controls</div>
+      <div className={styleClass("componentsNetworkGraphStyle5")}>
+        <div className={styleClass("componentsNetworkGraphStyle6")}>Controls</div>
         <div>• Scroll to zoom</div>
         <div>• Drag to pan</div>
         <div>• Click node to view course</div>
         <div>• Hover for details</div>
-        <div className="mt-2 pt-2 border-t border-border/50">
-          <div className="font-semibold text-foreground mb-1">Node Types</div>
+        <div className={styleClass("componentsNetworkGraphStyle7")}>
+          <div className={styleClass("componentsNetworkGraphStyle8")}>Node Types</div>
           <div>● Circles = Courses & Dept Hubs</div>
           <div>◆ Diamonds = Degree Programs</div>
         </div>

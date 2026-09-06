@@ -1,5 +1,7 @@
 "use client";
 
+import { styleClass } from "@/styles/classes";
+
 import { ModeToggle } from "@/components/mode-toggle";
 import { GlobalCommandDialog } from "@/components/CommandMenu";
 import { CommandMenuProvider } from "@/lib/command-menu-context";
@@ -18,7 +20,7 @@ export function GlobalLayout({ children, courses, degrees }: Props) {
       <GlobalCommandDialog courses={courses} degrees={degrees} />
 
       {/* Global Header */}
-      <div className="fixed top-4 right-4 z-[100] flex gap-3">
+      <div className={styleClass("componentsGlobalLayoutStyle1")}>
         <ModeToggle />
       </div>
 

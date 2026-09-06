@@ -1,5 +1,7 @@
 "use client";
 
+import { styleClass } from "@/styles/classes";
+
 import dynamic from "next/dynamic";
 import { useCommandMenu } from "@/lib/command-menu-context";
 
@@ -14,11 +16,8 @@ const NetworkGraph = dynamic(
   {
     ssr: false,
     loading: () => (
-      <div
-        className="relative w-full h-full flex items-center justify-center"
-        style={{ minHeight: "600px" }}
-      >
-        <div className="text-muted-foreground text-sm font-mono">Loading graph...</div>
+      <div className={styleClass("componentsExploreGraphStyle1")} style={{ minHeight: "600px" }}>
+        <div className={styleClass("componentsExploreGraphStyle2")}>Loading graph...</div>
       </div>
     ),
   },
