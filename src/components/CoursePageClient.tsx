@@ -25,12 +25,20 @@ export default function CoursePageClient() {
   const code = typeof params.code === "string" ? decodeURIComponent(params.code) : "";
 
   const [course, setCourse] = useState<Course | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(() => Boolean(code && code !== "_placeholder"));
   const [error, setError] = useState(false);
+  const [prevCode, setPrevCode] = useState(code);
+
+  // Adjust state during render when the route param changes.
+  if (prevCode !== code) {
+    setPrevCode(code);
+    setCourse(null);
+    setError(false);
+    setLoading(Boolean(code && code !== "_placeholder"));
+  }
 
   useEffect(() => {
     if (!code || code === "_placeholder") {
-      setLoading(false);
       return;
     }
 

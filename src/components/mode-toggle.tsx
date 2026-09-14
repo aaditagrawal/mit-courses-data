@@ -8,11 +8,13 @@ import { Button } from "@/components/ui/button";
 
 export function ModeToggle() {
   const { setTheme, theme } = useTheme();
-  const [mounted, setMounted] = React.useState(false);
-
-  React.useEffect(() => {
-    setMounted(true);
-  }, []);
+  // SSR snapshot is false so the server render and hydration agree; the
+  // client snapshot flips it on after mount.
+  const mounted = React.useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
 
   if (!mounted) {
     return null;

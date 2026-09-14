@@ -96,23 +96,40 @@ function sample<T>(items: T[], count: number): T[] {
 export function GlobalCommandDialog({ courses, degrees }: Props) {
   const { open, setOpen } = useCommandMenu();
   const [query, setQuery] = React.useState("");
-  const [hit, setHit] = React.useState<SearchHit>(EMPTY_HIT);
-  const [isSearching, setIsSearching] = React.useState(false);
+  // Fetch results keyed by the query that produced them; the rendered hit is
+  // derived below so clearing the query or hitting the cache never needs a
+  // synchronous setState.
+  const [result, setResult] = React.useState<{ query: string; hit: SearchHit } | null>(null);
   const router = useRouter();
 
   // Responses keyed by query. The palette fires a request per keystroke, so
   // backspacing or retyping otherwise refetches results already in memory.
-  const cache = React.useRef(new Map<string, SearchHit>());
+  const [cache] = React.useState(() => new Map<string, SearchHit>());
 
-  // Only the rows that get rendered are ever sampled. Deferred to an effect so
-  // the server-rendered markup and the first client render agree.
-  const [preview, setPreview] = React.useState<PaletteCourse[]>([]);
+  const trimmedQuery = query.trim();
+  const hit: SearchHit = !trimmedQuery
+    ? EMPTY_HIT
+    : (cache.get(trimmedQuery) ?? (result?.query === trimmedQuery ? result.hit : EMPTY_HIT));
+  const isSearching =
+    Boolean(trimmedQuery) && !cache.has(trimmedQuery) && result?.query !== trimmedQuery;
 
-  React.useEffect(() => {
-    setPreview(
-      sample(courses, PREVIEW_COUNT).map((course) => ({ ...course, snippet: course.department })),
-    );
-  }, [courses]);
+  // Only the rows that get rendered are ever sampled. The server snapshot is
+  // empty so the server-rendered markup and the first client render agree.
+  const isClient = React.useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
+  const preview = React.useMemo<PaletteCourse[]>(
+    () =>
+      isClient
+        ? sample(courses, PREVIEW_COUNT).map((course) => ({
+            ...course,
+            snippet: course.department,
+          }))
+        : [],
+    [isClient, courses],
+  );
 
   React.useEffect(() => {
     const down = (e: KeyboardEvent) => {
@@ -126,23 +143,11 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
   }, [open, setOpen]);
 
   React.useEffect(() => {
-    const trimmedQuery = query.trim();
-
-    if (!trimmedQuery) {
-      setHit(EMPTY_HIT);
-      setIsSearching(false);
-      return;
-    }
-
-    const cached = cache.current.get(trimmedQuery);
-    if (cached) {
-      setHit(cached);
-      setIsSearching(false);
+    if (!trimmedQuery || cache.has(trimmedQuery)) {
       return;
     }
 
     const controller = new AbortController();
-    setIsSearching(true);
 
     const timeout = window.setTimeout(async () => {
       try {
@@ -154,7 +159,7 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
         );
 
         if (!response.ok) {
-          setHit(EMPTY_HIT);
+          setResult({ query: trimmedQuery, hit: EMPTY_HIT });
           return;
         }
 
@@ -168,20 +173,16 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
           degrees: payload.data?.degrees?.data ?? [],
         };
 
-        if (cache.current.size >= QUERY_CACHE_LIMIT) {
-          const oldest = cache.current.keys().next();
-          if (!oldest.done) cache.current.delete(oldest.value);
+        if (cache.size >= QUERY_CACHE_LIMIT) {
+          const oldest = cache.keys().next();
+          if (!oldest.done) cache.delete(oldest.value);
         }
-        cache.current.set(trimmedQuery, next);
+        cache.set(trimmedQuery, next);
 
-        setHit(next);
+        setResult({ query: trimmedQuery, hit: next });
       } catch (error) {
         if ((error as Error).name !== "AbortError") {
-          setHit(EMPTY_HIT);
-        }
-      } finally {
-        if (!controller.signal.aborted) {
-          setIsSearching(false);
+          setResult({ query: trimmedQuery, hit: EMPTY_HIT });
         }
       }
     }, 120);
@@ -190,7 +191,7 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
       controller.abort();
       window.clearTimeout(timeout);
     };
-  }, [query]);
+  }, [trimmedQuery, cache]);
 
   const filteredDegrees = React.useMemo(() => {
     if (!query) return degrees.slice(0, 10);
