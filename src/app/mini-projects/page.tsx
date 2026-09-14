@@ -30,15 +30,8 @@ export default function MiniProjectsPage() {
         {/* Header */}
         <header className="space-y-4">
           <div className="flex flex-wrap gap-2 items-center">
-            <Badge
-              variant="outline"
-              className="font-mono text-xs uppercase tracking-wider text-muted-foreground border-accent-foreground/20"
-            >
-              Academic Information
-            </Badge>
-            <Badge variant="secondary" className="font-mono text-xs">
-              Minor Specialisation
-            </Badge>
+            <Badge variant="outline">Academic Information</Badge>
+            <Badge variant="secondary">Minor Specialisation</Badge>
           </div>
 
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold tracking-tight text-foreground leading-tight">
@@ -58,8 +51,8 @@ export default function MiniProjectsPage() {
                 <BookOpen className="w-5 h-5 text-accent-foreground" />
                 What are 4191 Courses?
               </h2>
-              <Card className="border-border/50 bg-card/50 shadow-sm">
-                <CardContent className="p-6 space-y-4">
+              <Card>
+                <CardContent>
                   <p className="text-sm leading-relaxed text-muted-foreground">
                     Courses with the code{" "}
                     <span className="font-mono text-accent-foreground">XXX 4191</span> are{" "}
@@ -69,10 +62,10 @@ export default function MiniProjectsPage() {
                     . These are specialized project-based courses designed for students pursuing a
                     minor in a specific discipline.
                   </p>
-                  <p className="text-sm leading-relaxed text-muted-foreground">
+                  <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
                     The "XXX" prefix varies based on the department offering the minor. For example:
                   </p>
-                  <ul className="space-y-2 ml-4">
+                  <ul className="mt-4 space-y-2 ml-4">
                     <li className="flex gap-3 text-sm leading-relaxed text-muted-foreground">
                       <span className="font-mono text-accent-foreground shrink-0">•</span>
                       <span>
@@ -109,8 +102,8 @@ export default function MiniProjectsPage() {
                 <GraduationCap className="w-5 h-5 text-accent-foreground" />
                 Key Features
               </h2>
-              <Card className="border-border/50 bg-card/50 shadow-sm">
-                <CardContent className="p-6">
+              <Card>
+                <CardContent>
                   <ul className="space-y-3">
                     <li className="flex gap-3 text-sm leading-relaxed text-muted-foreground hover:text-foreground transition-colors">
                       <span className="font-mono text-accent-foreground/50 shrink-0 mt-1">01</span>
@@ -151,13 +144,11 @@ export default function MiniProjectsPage() {
           {/* Right Column: Quick Info */}
           <div className="space-y-6">
             {/* Credits Card */}
-            <Card className="border-border/50 overflow-hidden">
-              <CardHeader className="bg-muted/50 pb-3 border-b border-border/50 px-6">
-                <CardTitle className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
-                  Credit Structure
-                </CardTitle>
+            <Card className="overflow-hidden">
+              <CardHeader>
+                <CardTitle>Credit Structure</CardTitle>
               </CardHeader>
-              <CardContent className="p-6 text-center">
+              <CardContent className="text-center">
                 <div className="text-5xl font-bold font-mono text-accent-foreground mb-2">8</div>
                 <div className="text-xs uppercase tracking-widest text-muted-foreground">
                   Total Credits

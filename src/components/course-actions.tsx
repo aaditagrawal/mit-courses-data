@@ -23,12 +23,7 @@ export function ShareButton() {
   };
 
   return (
-    <Button
-      variant="ghost"
-      size="icon"
-      className="h-8 w-8 text-muted-foreground hover:text-foreground"
-      onClick={handleShare}
-    >
+    <Button variant="ghost" size="icon" className="h-8 w-8" onClick={handleShare}>
       <Share2 className="w-4 h-4" />
     </Button>
   );
@@ -40,12 +35,7 @@ export function SearchReferenceButton({ reference }: { reference: string }) {
   };
 
   return (
-    <Button
-      variant="ghost"
-      size="icon"
-      className="h-6 w-6 text-muted-foreground hover:text-foreground ml-2"
-      onClick={handleSearch}
-    >
+    <Button variant="ghost" size="icon" className="h-6 w-6 ml-2" onClick={handleSearch}>
       <Search className="w-4 h-4" />
     </Button>
   );

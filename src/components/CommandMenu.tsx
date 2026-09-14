@@ -240,7 +240,7 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
                 <GraduationCap className="mr-2 h-4 w-4 shrink-0 opacity-50" />
                 <div className="flex flex-col min-w-0 flex-1">
                   <span className="text-sm font-medium truncate">{degree.title}</span>
-                  <span className="text-[10px] text-muted-foreground truncate">
+                  <span className="text-xs text-muted-foreground truncate">
                     {degree.department}
                   </span>
                 </div>
@@ -265,7 +265,7 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
                     </span>
                     <span className="text-sm font-medium truncate">{course.title}</span>
                     {course.department && (
-                      <span className="ml-auto text-[10px] text-muted-foreground/60 shrink-0">
+                      <span className="ml-auto text-xs text-muted-foreground/60 shrink-0">
                         {course.department
                           .split(" ")
                           .map((w) => w[0])
@@ -273,7 +273,7 @@ export function GlobalCommandDialog({ courses, degrees }: Props) {
                       </span>
                     )}
                   </div>
-                  <span className="text-[10px] text-muted-foreground truncate max-w-full sm:max-w-md">
+                  <span className="text-xs text-muted-foreground truncate max-w-full sm:max-w-md">
                     {course.snippet}
                   </span>
                 </div>
@@ -297,7 +297,7 @@ export function CommandMenuTrigger() {
     >
       <Search className="w-4 h-4" />
       <span className="flex-1 text-left">Search courses...</span>
-      <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
+      <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-xs font-medium text-muted-foreground opacity-100">
         <span className="text-xs">⌘</span>K
       </kbd>
     </button>

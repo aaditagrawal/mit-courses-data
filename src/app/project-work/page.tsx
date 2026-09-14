@@ -29,15 +29,8 @@ export default function ProjectWorkPage() {
         {/* Header */}
         <header className="space-y-4">
           <div className="flex flex-wrap gap-2 items-center">
-            <Badge
-              variant="outline"
-              className="font-mono text-xs uppercase tracking-wider text-muted-foreground border-accent-foreground/20"
-            >
-              Academic Information
-            </Badge>
-            <Badge variant="secondary" className="font-mono text-xs">
-              Major Project
-            </Badge>
+            <Badge variant="outline">Academic Information</Badge>
+            <Badge variant="secondary">Major Project</Badge>
           </div>
 
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold tracking-tight text-foreground leading-tight">
@@ -57,19 +50,19 @@ export default function ProjectWorkPage() {
                 <BookOpen className="w-5 h-5 text-accent-foreground" />
                 Overview
               </h2>
-              <Card className="border-border/50 bg-card/50 shadow-sm">
-                <CardContent className="p-6 space-y-4">
+              <Card>
+                <CardContent>
                   <p className="text-sm leading-relaxed text-muted-foreground">
                     The Project Work (
                     <span className="font-mono text-accent-foreground">XXX 4292</span>) is a major
                     academic requirement for B.Tech students. It provides an opportunity to apply
                     theoretical knowledge to solve real-world engineering problems.
                   </p>
-                  <p className="text-sm leading-relaxed text-muted-foreground font-medium text-foreground">
+                  <p className="mt-4 text-sm leading-relaxed text-muted-foreground font-medium text-foreground">
                     Note: This course is for students pursuing the regular B.Tech degree (without
                     Honours).
                   </p>
-                  <div className="flex items-start gap-3 p-4 rounded-lg bg-accent/5 border border-accent/10 italic text-sm text-muted-foreground">
+                  <div className="mt-4 flex items-start gap-3 p-4 rounded-lg bg-accent/5 border border-accent/10 italic text-sm text-muted-foreground">
                     <Building2 className="w-5 h-5 text-accent-foreground shrink-0 mt-0.5" />
                     <span>
                       The project work may be carried out in the institution, industry, research
@@ -86,8 +79,8 @@ export default function ProjectWorkPage() {
                 <Clock className="w-5 h-5 text-accent-foreground" />
                 Duration & Evaluation
               </h2>
-              <Card className="border-border/50 bg-card/50 shadow-sm">
-                <CardContent className="p-6">
+              <Card>
+                <CardContent>
                   <ul className="space-y-4">
                     <li className="flex gap-3 text-sm leading-relaxed text-muted-foreground">
                       <span className="font-mono text-accent-foreground/50 shrink-0 mt-1">01</span>
@@ -128,13 +121,11 @@ export default function ProjectWorkPage() {
           {/* Right Column: Quick Info */}
           <div className="space-y-6">
             {/* Credits Card */}
-            <Card className="border-border/50 overflow-hidden">
-              <CardHeader className="bg-muted/50 pb-3 border-b border-border/50 px-6">
-                <CardTitle className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
-                  Credits Structure
-                </CardTitle>
+            <Card className="overflow-hidden">
+              <CardHeader>
+                <CardTitle>Credits Structure</CardTitle>
               </CardHeader>
-              <CardContent className="p-6 text-center">
+              <CardContent className="text-center">
                 <div className="text-5xl font-bold font-mono text-accent-foreground mb-2">12</div>
                 <div className="text-xs uppercase tracking-widest text-muted-foreground">
                   Total Credits

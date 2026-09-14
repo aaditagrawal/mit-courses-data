@@ -31,7 +31,7 @@ export default function DegreesIndexPage() {
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {degrees.map((degree) => (
             <Link key={degree.slug} href={`/degree/${degree.slug}`} className="group h-full">
-              <div className="flex flex-col h-full p-6 rounded-2xl border bg-card hover:bg-muted/50 transition-all duration-300 hover:border-primary/30 hover:shadow-md group-active:scale-[0.98]">
+              <div className="flex flex-col h-full p-6 rounded-2xl border bg-card hover:bg-muted/50 transition-all duration-300 hover:border-primary/30 hover:shadow-md group-active:scale-98">
                 <div className="flex-1 space-y-2">
                   <h2 className="text-lg font-bold text-foreground group-hover:text-primary transition-colors leading-tight">
                     {degree.title}

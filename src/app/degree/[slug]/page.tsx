@@ -46,7 +46,7 @@ export default async function DegreePage({ params }: PageProps) {
     <div className="min-h-screen bg-background text-foreground font-sans selection:bg-accent selection:text-accent-foreground">
       {/* Header */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-md border-border">
-        <div className="container flex h-14 items-center pl-6 max-w-[1400px] mx-auto">
+        <div className="container flex h-14 items-center pl-6 max-w-350 mx-auto">
           <Link
             href="/degree"
             className="mr-6 flex items-center space-x-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
@@ -64,7 +64,7 @@ export default async function DegreePage({ params }: PageProps) {
         </div>
       </header>
 
-      <main className="container max-w-[1400px] mx-auto p-4 sm:p-8 lg:p-12">
+      <main className="container max-w-350 mx-auto p-4 sm:p-8 lg:p-12">
         <div className="space-y-12">
           {/* Header Block */}
           <div className="border-b border-border pb-8">
@@ -168,7 +168,7 @@ function SemesterBlock({
         {/* Core Courses Table */}
         <div>
           <div className="relative overflow-hidden rounded-sm border border-border overflow-x-auto">
-            <table className="w-full text-sm text-left min-w-[600px] sm:min-w-full">
+            <table className="w-full text-sm text-left min-w-150 sm:min-w-full">
               <thead className="text-xs text-muted-foreground uppercase bg-muted/30 border-b border-border">
                 <tr>
                   <th className="px-4 py-2 font-medium w-32 border-r border-border">Code</th>

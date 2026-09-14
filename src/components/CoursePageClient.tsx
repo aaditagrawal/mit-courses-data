@@ -113,27 +113,15 @@ export default function CoursePageClient() {
         {/* Header */}
         <header className="space-y-4">
           <div className="flex flex-wrap gap-2 items-center max-w-full">
-            <Badge
-              variant="outline"
-              className="font-mono text-xs uppercase tracking-wider text-muted-foreground border-accent-foreground/20 max-w-[200px] truncate"
-              title={course.department}
-            >
+            <Badge variant="outline" className="max-w-50" title={course.department}>
               {course.department}
             </Badge>
             {course.tags?.map((tag) => (
-              <Badge
-                key={tag}
-                variant="secondary"
-                className="font-mono text-xs max-w-[150px] sm:max-w-[200px]"
-              >
+              <Badge key={tag} variant="secondary" className="max-w-37.5 sm:max-w-50">
                 {tag}
               </Badge>
             ))}
-            {course.sem && (
-              <Badge variant="outline" className="font-mono text-xs">
-                Sem {course.sem}
-              </Badge>
-            )}
+            {course.sem && <Badge variant="outline">Sem {course.sem}</Badge>}
           </div>
 
           <h1 className="text-2xl sm:text-4xl md:text-5xl font-bold tracking-tight text-foreground leading-tight">
@@ -153,8 +141,8 @@ export default function CoursePageClient() {
                 <BookOpen className="w-5 h-5 text-accent-foreground" />
                 Syllabus
               </h2>
-              <Card className="border-border/50 bg-card/50 shadow-sm">
-                <CardContent className="p-6">
+              <Card>
+                <CardContent>
                   <ul className="space-y-3">
                     {course.syllabus?.map((topic, index) => (
                       <li
@@ -194,13 +182,11 @@ export default function CoursePageClient() {
           {/* Right Column: Credits & Meta */}
           <div className="space-y-6">
             {/* Credits Card */}
-            <Card className="border-border/50 overflow-hidden">
-              <CardHeader className="bg-muted/50 pb-3 border-b border-border/50 px-6">
-                <CardTitle className="text-sm font-mono uppercase tracking-widest text-muted-foreground">
-                  Credits Structure
-                </CardTitle>
+            <Card className="overflow-hidden">
+              <CardHeader>
+                <CardTitle>Credits Structure</CardTitle>
               </CardHeader>
-              <CardContent className="p-0">
+              <CardContent>
                 <div className="grid grid-cols-2 sm:grid-cols-4 divide-x divide-y sm:divide-y-0 divide-border/50">
                   <CreditItem label="Lecture" value={course.credits?.l || 0} />
                   <CreditItem label="Tutorial" value={course.credits?.t || 0} />
@@ -234,7 +220,7 @@ function CreditItem({
       >
         {value}
       </span>
-      <span className="text-[9px] sm:text-[10px] uppercase tracking-widest text-muted-foreground mt-1 sm:mt-2 font-medium">
+      <span className="text-xs uppercase tracking-widest text-muted-foreground mt-1 sm:mt-2 font-medium">
         {label}
       </span>
     </div>

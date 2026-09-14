@@ -92,7 +92,7 @@ export function ApiDocsPage() {
           </div>
 
           <div className="flex flex-wrap gap-3">
-            <Button variant="outline" size="sm" className="font-mono text-xs" onClick={handleCopy}>
+            <Button variant="outline" size="sm" onClick={handleCopy}>
               {copied ? (
                 <>
                   <Check className="w-3.5 h-3.5" />
@@ -105,12 +105,7 @@ export function ApiDocsPage() {
                 </>
               )}
             </Button>
-            <Button
-              variant="ghost"
-              size="sm"
-              className="font-mono text-xs text-muted-foreground"
-              asChild
-            >
+            <Button variant="ghost" size="sm" asChild>
               <a href="/api/v1" target="_blank" rel="noopener noreferrer">
                 Open /api/v1
               </a>

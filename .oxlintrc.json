@@ -1,5 +1,6 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "jsPlugins": ["@shadcn/lint"],
   "plugins": [
     "react",
     "react-perf",
@@ -49,7 +50,13 @@
     "unicorn/no-empty-file": "off",
     "oxc/approx-constant": "warn",
     "oxc/no-map-spread": "warn",
-    "react/no-array-index-key": "warn"
+    "react/no-array-index-key": "warn",
+    "shadcn/no-restyle": ["error", { "allow": ["layout"] }],
+    "shadcn/no-raw-colors": "error",
+    "shadcn/no-arbitrary-values": "error",
+    "shadcn/no-inline-styles": "error",
+    "shadcn/no-unknown-classes": "error",
+    "shadcn/require-static-classes": "error"
   },
   "overrides": [
     {
@@ -60,7 +67,10 @@
         "react-perf/jsx-no-new-function-as-prop": "off",
         "jsx-a11y/click-events-have-key-events": "off",
         "jsx-a11y/no-static-element-interactions": "off",
-        "jsx-a11y/interactive-supports-focus": "off"
+        "jsx-a11y/interactive-supports-focus": "off",
+        "shadcn/no-restyle": "off",
+        "shadcn/no-arbitrary-values": "off",
+        "shadcn/require-static-classes": "off"
       }
     }
   ],
