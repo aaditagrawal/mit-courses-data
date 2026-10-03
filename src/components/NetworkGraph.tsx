@@ -122,7 +122,6 @@ function stableUnit(key: string): number {
 
 export function NetworkGraph({ courses, degrees = NO_DEGREES }: NetworkGraphProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const networkRef = useRef<Network | null>(null);
   const router = useRouter();
 
   const handleNodeClick = useCallback(
@@ -353,7 +352,6 @@ export function NetworkGraph({ courses, degrees = NO_DEGREES }: NetworkGraphProp
 
     // Create network
     const network = new Network(containerRef.current, { nodes, edges }, options);
-    networkRef.current = network;
 
     // Handle node clicks
     network.on("click", (params) => {
@@ -396,7 +394,6 @@ export function NetworkGraph({ courses, degrees = NO_DEGREES }: NetworkGraphProp
     // Cleanup
     return () => {
       network.destroy();
-      networkRef.current = null;
     };
   }, [courses, degrees, handleNodeClick]);
 

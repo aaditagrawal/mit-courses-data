@@ -20,10 +20,3 @@ export interface Page<T> {
   data: T[];
   total: number;
 }
-
-export function paginate<T>(items: T[], limit: number, offset: number): Page<T> {
-  return {
-    data: items.slice(offset, offset + limit),
-    total: items.length,
-  };
-}

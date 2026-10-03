@@ -128,7 +128,7 @@ npm run lint
 The project is configured for deployment on Vercel. You can deploy using:
 
 ```bash
-npm run deploy
+bun run pages:deploy
 ```
 
 ## Data Structure
@@ -152,7 +152,7 @@ Course data is stored in JSON files in the `branch-json/` directory. Each file r
 ### Customizing the UI
 
 - Modify components in the `src/components/` directory
-- Update styles in the `src/styles/` directory
+- Update styles in the `src/styles/` StyleX modules and `src/app/globals.css`
 - Configure theme in `src/components/theme-provider.tsx`
 
 ### Adding New Features
