@@ -63,7 +63,7 @@ function isElectivePoolTrack(entry: string | ElectivePoolTrack): entry is Electi
   return (entry as Partial<ElectivePoolTrack>).track_name !== undefined;
 }
 
-function getAllCourses() {
+function getAllCourses(errors: { file: string; error: string }[]) {
   const courseMap = new Map<string, Course>();
   if (!fs.existsSync(DATA_DIR)) return courseMap;
 
@@ -83,6 +83,7 @@ function getAllCourses() {
       });
     } catch (e) {
       console.error(`Error reading ${file}:`, e);
+      errors.push({ file, error: e instanceof Error ? e.message : String(e) });
     }
   });
   return courseMap;
@@ -94,14 +95,15 @@ function getAllDegrees() {
 }
 
 function checkData() {
-  const courseMap = getAllCourses();
+  const parseErrors: { file: string; error: string }[] = [];
+  const courseMap = getAllCourses(parseErrors);
   const degrees = getAllDegrees();
 
   const results: any = {
     missing_courses: [],
     missing_pools: [],
     placeholder_codes: [],
-    data_inconsistencies: [],
+    data_inconsistencies: parseErrors,
   };
 
   degrees.forEach((degreeFile) => {
@@ -295,7 +297,8 @@ function checkData() {
   if (
     results.missing_courses.length === 0 &&
     results.missing_pools.length === 0 &&
-    results.placeholder_codes.length === 0
+    results.placeholder_codes.length === 0 &&
+    results.data_inconsistencies.length === 0
   ) {
     console.log("No broken links or missing data found! 🎉");
   }

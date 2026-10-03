@@ -38,6 +38,7 @@ function extractDegreeCourses(data: DegreeData): string[] {
 
 export default function ExplorePage() {
   const courses = getAllCourses();
+  const departmentCount = new Set(courses.map((course) => course.department)).size;
   const courseMap = getCourseMap();
 
   // Get degree data for graph linking. Codes with no matching course are
@@ -71,7 +72,8 @@ export default function ExplorePage() {
             <div>
               <h1 className={styleClass("appExplorePageStyle7")}>Explore Courses</h1>
               <p className={styleClass("appDegreeSlugPageStyle26")}>
-                {courses.length} courses • {degreeData.length} degrees • 17 departments
+                {courses.length} courses • {degreeData.length} degrees • {departmentCount}{" "}
+                departments
               </p>
             </div>
           </div>

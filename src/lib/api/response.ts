@@ -4,10 +4,6 @@ const CORS_HEADERS = {
   "Access-Control-Allow-Headers": "Content-Type",
 };
 
-export function corsHeaders(): HeadersInit {
-  return CORS_HEADERS;
-}
-
 export function jsonResponse<T>(body: T, status = 200, extraHeaders: HeadersInit = {}): Response {
   return Response.json(body, {
     status,
