@@ -135,6 +135,8 @@ The root `_routes.json` keeps `/`, `/index.html`, and `/index.rsc` outside Pages
 
 On `courses.coolstuff.work`, a Cloudflare URL Rewrite Rule maps `GET` and `HEAD` requests for `/` with the `RSC: 1` header to `/index.rsc`, preserving the query string. This preserves Next.js client navigation when the homepage is served statically. `public/_headers` supplies the RSC response's `text/x-component` content type. Configure the same rewrite when moving the production site to another custom domain.
 
+Navigation links disable automatic prefetching. The deployed Next.js adapter repeatedly refetched visible links while a page was idle, consuming Function requests. Links still fetch their destination when clicked.
+
 ## Data Structure
 
 Course data is stored in JSON files in the `branch-json/` directory. Each file represents a different academic branch and contains:

@@ -31,7 +31,7 @@ export default async function CoursePage({ params }: Props) {
     <div className={styleClass("appCourseCodePageStyle5")}>
       {/* Navigation */}
       <nav className={styleClass("appCourseCodePageStyle6")}>
-        <Link href="/" className={styleClass("appCourseCodePageStyle7")}>
+        <Link prefetch={false} href="/" className={styleClass("appCourseCodePageStyle7")}>
           <MoveLeft className={styleClass("appCourseCodePageStyle8")} />
           <span className={styleClass("appCourseCodePageStyle9")}>Back to Search</span>
         </Link>

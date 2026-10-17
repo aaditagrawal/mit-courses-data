@@ -76,7 +76,7 @@ export function ApiDocsPage() {
     <div className={styleClass("appDegreePageStyle1")}>
       <div className={styleClass("componentsApiDocsPageStyle2")}>
         <header className={styleClass("appCourseCodePageStyle32")}>
-          <Link href="/" className={styleClass("componentsApiDocsPageStyle4")}>
+          <Link prefetch={false} href="/" className={styleClass("componentsApiDocsPageStyle4")}>
             <MoveLeft className={styleClass("componentsApiDocsPageStyle5")} />
             Back to Home
           </Link>
