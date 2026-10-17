@@ -125,11 +125,15 @@ npm run lint
 
 ### Deployment
 
-The project is configured for deployment on Vercel. You can deploy using:
+The project deploys to Cloudflare Pages using `@cloudflare/next-on-pages`:
 
 ```bash
 bun run pages:deploy
 ```
+
+The root `_routes.json` keeps `/`, `/index.html`, and `/index.rsc` outside Pages Functions so homepage requests do not consume the Workers daily request allowance. API routes and dynamic course pages still run through Functions.
+
+On `courses.coolstuff.work`, a Cloudflare URL Rewrite Rule maps `GET` and `HEAD` requests for `/` with the `RSC: 1` header to `/index.rsc`, preserving the query string. This preserves Next.js client navigation when the homepage is served statically. `public/_headers` supplies the RSC response's `text/x-component` content type. Configure the same rewrite when moving the production site to another custom domain.
 
 ## Data Structure
 

@@ -1,0 +1,5 @@
+/index.rsc
+  Content-Type: text/x-component
+  Cache-Control: public, max-age=0, must-revalidate
+  X-Nextjs-Prerender: 1
+  X-Nextjs-Stale-Time: 300
