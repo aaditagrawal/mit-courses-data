@@ -56,7 +56,7 @@ export default async function DegreePage({ params }: PageProps) {
       {/* Header */}
       <header className={styleClass("appDegreeSlugPageStyle2")}>
         <div className={styleClass("appDegreeSlugPageStyle3")}>
-          <Link href="/degree" className={styleClass("appDegreeSlugPageStyle4")}>
+          <Link prefetch={false} href="/degree" className={styleClass("appDegreeSlugPageStyle4")}>
             <span className={styleClass("appDegreeSlugPageStyle5")}>← Degrees</span>
           </Link>
           <div className={styleClass("appDegreeSlugPageStyle6")}>
@@ -230,12 +230,12 @@ function CourseRow({
     return (
       <tr className={styleClass("appDegreeSlugPageStyle42")}>
         <td className={styleClass("appDegreeSlugPageStyle43")}>
-          <Link href={link} className={styleClass("appDegreeSlugPageStyle44")}>
+          <Link prefetch={false} href={link} className={styleClass("appDegreeSlugPageStyle44")}>
             {code}
           </Link>
         </td>
         <td className={styleClass("appDegreeSlugPageStyle45")}>
-          <Link href={link} className={styleClass("appDegreeSlugPageStyle46")}>
+          <Link prefetch={false} href={link} className={styleClass("appDegreeSlugPageStyle46")}>
             {title}
           </Link>
         </td>
@@ -252,12 +252,12 @@ function CourseRow({
     return (
       <tr className={styleClass("appDegreeSlugPageStyle42")}>
         <td className={styleClass("appDegreeSlugPageStyle43")}>
-          <Link href={link} className={styleClass("appDegreeSlugPageStyle44")}>
+          <Link prefetch={false} href={link} className={styleClass("appDegreeSlugPageStyle44")}>
             {code}
           </Link>
         </td>
         <td className={styleClass("appDegreeSlugPageStyle54")}>
-          <Link href={link} className={styleClass("appDegreeSlugPageStyle46")}>
+          <Link prefetch={false} href={link} className={styleClass("appDegreeSlugPageStyle46")}>
             Course data not found
           </Link>
         </td>
@@ -275,12 +275,12 @@ function CourseRow({
   return (
     <tr className={styleClass("appDegreeSlugPageStyle42")}>
       <td className={styleClass("appDegreeSlugPageStyle43")}>
-        <Link href={courseLink} className={styleClass("appDegreeSlugPageStyle44")}>
+        <Link prefetch={false} href={courseLink} className={styleClass("appDegreeSlugPageStyle44")}>
           {code}
         </Link>
       </td>
       <td className={styleClass("appDegreeSlugPageStyle45")}>
-        <Link href={courseLink} className={styleClass("appDegreeSlugPageStyle46")}>
+        <Link prefetch={false} href={courseLink} className={styleClass("appDegreeSlugPageStyle46")}>
           {course.title}
         </Link>
       </td>
@@ -380,7 +380,11 @@ function ElectiveItem({
               <div key={`${c}-${idx}`} className={styleClass("appDegreeSlugPageStyle81")}>
                 <div className={styleClass("appDegreeSlugPageStyle82")}>
                   <span className={styleClass("appDegreeSlugPageStyle83")}>{c}</span>
-                  <Link href={getCourseLink(c)} className={styleClass("appDegreeSlugPageStyle84")}>
+                  <Link
+                    prefetch={false}
+                    href={getCourseLink(c)}
+                    className={styleClass("appDegreeSlugPageStyle84")}
+                  >
                     {getCourseTitle(c, courseMap)}
                   </Link>
                 </div>
@@ -402,6 +406,7 @@ function ElectiveItem({
                         <div className={styleClass("appDegreeSlugPageStyle82")}>
                           <span className={styleClass("appDegreeSlugPageStyle83")}>{c}</span>
                           <Link
+                            prefetch={false}
                             href={getCourseLink(c)}
                             className={styleClass("appDegreeSlugPageStyle84")}
                           >

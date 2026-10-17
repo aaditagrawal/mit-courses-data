@@ -65,7 +65,7 @@ export default function ExplorePage() {
       <header className={styleClass("appExplorePageStyle2")}>
         <div className={styleClass("appExplorePageStyle3")}>
           <div className={styleClass("appExplorePageStyle4")}>
-            <Link href="/" className={styleClass("appExplorePageStyle5")}>
+            <Link prefetch={false} href="/" className={styleClass("appExplorePageStyle5")}>
               ← Home
             </Link>
             <div className={styleClass("appExplorePageStyle6")} />

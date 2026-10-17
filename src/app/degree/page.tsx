@@ -15,7 +15,7 @@ export default function DegreesIndexPage() {
     <div className={styleClass("appDegreePageStyle1")}>
       <div className={styleClass("appDegreePageStyle2")}>
         <header className={styleClass("appDegreePageStyle3")}>
-          <Link href="/" className={styleClass("appDegreePageStyle4")}>
+          <Link prefetch={false} href="/" className={styleClass("appDegreePageStyle4")}>
             ← Back to Home
           </Link>
           <div className={styleClass("appCourseCodePageStyle12")}>
@@ -29,6 +29,7 @@ export default function DegreesIndexPage() {
         <div className={styleClass("appDegreePageStyle9")}>
           {degrees.map((degree) => (
             <Link
+              prefetch={false}
               key={degree.slug}
               href={`/degree/${degree.slug}`}
               className={styleClass("appDegreePageStyle10")}

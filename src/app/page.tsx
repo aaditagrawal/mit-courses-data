@@ -22,7 +22,7 @@ export default function Home() {
         {/* Explore Graph Link */}
         <div className={styleClass("appPageStyle10")}>
           {/* Explore Graph Link */}
-          <Link href="/explore" className={styleClass("appPageStyle11")}>
+          <Link prefetch={false} href="/explore" className={styleClass("appPageStyle11")}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -47,7 +47,7 @@ export default function Home() {
           </Link>
 
           {/* Degree Structure Link */}
-          <Link href="/degree" className={styleClass("appPageStyle11")}>
+          <Link prefetch={false} href="/degree" className={styleClass("appPageStyle11")}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -67,7 +67,7 @@ export default function Home() {
             <span className={styleClass("appPageStyle13")}>→</span>
           </Link>
 
-          <Link href="/api-docs" className={styleClass("appPageStyle11")}>
+          <Link prefetch={false} href="/api-docs" className={styleClass("appPageStyle11")}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"

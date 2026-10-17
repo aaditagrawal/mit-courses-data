@@ -35,13 +35,17 @@ export default function NotFound() {
 
         <div className={styleClass("appNotFoundStyle9")}>
           <Button asChild variant="default">
-            <Link href="/" className={styleClass("appDegreeSlugPageStyle73")}>
+            <Link prefetch={false} href="/" className={styleClass("appDegreeSlugPageStyle73")}>
               <Home className={styleClass("appNotFoundStyle11")} />
               Back to Home
             </Link>
           </Button>
           <Button asChild variant="outline">
-            <Link href="/explore" className={styleClass("appDegreeSlugPageStyle73")}>
+            <Link
+              prefetch={false}
+              href="/explore"
+              className={styleClass("appDegreeSlugPageStyle73")}
+            >
               <Search className={styleClass("appNotFoundStyle11")} />
               Explore Courses
             </Link>
