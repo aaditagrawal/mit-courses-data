@@ -1,10 +1,13 @@
 "use client";
 
-import { useEffect, useRef, useCallback } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Network, Options } from "vis-network";
-import { DataSet } from "vis-data";
+import { useTheme } from "next-themes";
+import Graph from "graphology";
+import { Sigma } from "sigma";
 import { getCourseLink } from "@/lib/utils";
+import { buildGraphStructure, DegreeGraphInfo, stableUnit } from "@/lib/graph-structure";
+import layoutJson from "@/lib/generated/graph-layout.json";
 
 interface CourseNode {
   code: string;
@@ -12,399 +15,246 @@ interface CourseNode {
   department: string;
 }
 
-interface DegreeInfo {
-  slug: string;
-  title: string;
-  courses: string[]; // Course codes in this degree
-}
-
 interface NetworkGraphProps {
   courses: CourseNode[];
-  degrees?: DegreeInfo[];
+  degrees?: DegreeGraphInfo[];
 }
 
 // Shared so that omitting the optional `degrees` prop does not hand the effect
-// a fresh array identity on every render, which would tear down and restabilise
-// the whole network each time the parent re-renders.
-const NO_DEGREES: DegreeInfo[] = [];
+// a fresh array identity on every render, which would tear down and rebuild
+// the whole renderer each time the parent re-renders.
+const NO_DEGREES: DegreeGraphInfo[] = [];
 
-interface NodeColor {
-  background: string;
-  border: string;
-  highlight: { background: string; border: string };
-  hover: { background: string; border: string };
+// Positions precomputed by scripts/generate-graph-layout.ts. Shipping the
+// layout instead of simulating it client-side is what makes the graph appear
+// instantly: no physics ever runs in the browser.
+const LAYOUT: Record<string, number[]> = layoutJson;
+
+interface TooltipState {
+  x: number;
+  y: number;
+  lines: string[];
 }
 
-interface GraphNode {
-  id: number;
-  label: string;
-  title: string;
-  color: NodeColor;
-  font: {
-    color: string;
-    size: number;
-    face: string;
-    strokeWidth?: number;
-    strokeColor?: string;
-    bold?: { color: string; size: number };
-  };
-  shape: string;
-  size: number;
-  borderWidth: number;
-  borderWidthSelected?: number;
-  shadow: { enabled: boolean; color: string; size: number; x: number; y: number };
-  courseCode?: string;
-}
-
-interface GraphEdge {
-  id: string;
-  from: number;
-  to: number;
-  color: { color: string; opacity: number };
-}
-
-// Generate distinct colors for departments using HSL
-function generateDepartmentColors(courses: CourseNode[]): Map<string, string> {
-  const uniqueDepts: string[] = [];
-  const seen = new Set<string>();
-  for (const course of courses) {
-    const dept = course.department || "Unknown";
-    if (!seen.has(dept)) {
-      seen.add(dept);
-      uniqueDepts.push(dept);
-    }
-  }
-
-  const colorMap = new Map<string, string>();
-  uniqueDepts.forEach((dept, index) => {
-    const hue = (index * 360) / uniqueDepts.length;
-    // Vibrant colors with good saturation
-    colorMap.set(dept, `hsl(${hue}, 70%, 55%)`);
+function departmentHues(departments: string[]): Map<string, number> {
+  const hues = new Map<string, number>();
+  departments.forEach((dept, index) => {
+    hues.set(dept, Math.round((index * 360) / departments.length));
   });
-
-  return colorMap;
+  return hues;
 }
 
-function nodeColor(color: string, border: string): NodeColor {
-  return {
-    background: color,
-    border,
-    highlight: { background: color, border: "#fff" },
-    hover: { background: color, border: "#fff" },
+// Sigma's WebGL colour parser only understands hex and rgb()/rgba() strings,
+// so the HSL palette is converted before it reaches the graph attributes.
+function hslToRgb(h: number, s: number, l: number, alpha?: number): string {
+  const sat = s / 100;
+  const light = l / 100;
+  const f = (n: number) => {
+    const k = (n + h / 30) % 12;
+    const c = light - sat * Math.min(light, 1 - light) * Math.max(-1, Math.min(k - 3, 9 - k, 1));
+    return Math.round(c * 255);
   };
+  const r = f(0);
+  const g = f(8);
+  const b = f(4);
+  return alpha === undefined ? `rgb(${r}, ${g}, ${b})` : `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
 
 /**
- * Stable per-node jitter in [0, 1), from an FNV-1a hash of the course code.
- *
- * The size variation used to come from `Math.random()`, which contradicted the
- * `randomSeed: 42` layout option: the graph never rendered the same way twice.
+ * WebGL-rendered course graph (sigma.js) over a build-time ForceAtlas2 layout.
+ * The browser only draws: no stabilization phase, no per-frame physics.
  */
-function stableUnit(key: string): number {
-  let hash = 2166136261;
-  for (let i = 0; i < key.length; i++) {
-    hash ^= key.charCodeAt(i);
-    hash = Math.imul(hash, 16777619);
-  }
-  return ((hash >>> 0) % 1024) / 1024;
-}
-
 export function NetworkGraph({ courses, degrees = NO_DEGREES }: NetworkGraphProps) {
   const containerRef = useRef<HTMLDivElement>(null);
-  const networkRef = useRef<Network | null>(null);
+  const sigmaRef = useRef<Sigma | null>(null);
+  // Read inside the reducers on every refresh; kept in a ref so hover updates
+  // never re-run the setup effect or re-render React.
+  const hoverRef = useRef<{ node: string | null; neighbors: Set<string>; forceLabels: boolean }>({
+    node: null,
+    neighbors: new Set(),
+    forceLabels: false,
+  });
+  const [tooltip, setTooltip] = useState<TooltipState | null>(null);
   const router = useRouter();
+  const { resolvedTheme } = useTheme();
 
   const handleNodeClick = useCallback(
     (code: string) => {
-      // Navigate to course page
       router.push(getCourseLink(code));
     },
     [router],
   );
 
   useEffect(() => {
-    if (!containerRef.current || courses.length === 0) return;
+    const container = containerRef.current;
+    if (!container || courses.length === 0) return;
 
-    // Department colours, keyed by first appearance so the palette is stable
-    const colorMap = generateDepartmentColors(courses);
+    const structure = buildGraphStructure(courses, degrees);
+    const deptHue = departmentHues(structure.departments);
+    const degreeHue = new Map<string, number>();
+    structure.degreeSlugs.forEach((slug, index) => {
+      degreeHue.set(slug, Math.round((index * 360) / structure.degreeSlugs.length));
+    });
 
-    // Assembled in plain arrays and handed to vis-data in one insert each,
-    // rather than built incrementally with ~2,400 add() calls. Both DataSets
-    // are fully populated before the Network subscribes to them, so this is
-    // a readability and allocation win (~0.17 ms), not a rendering one --
-    // stabilisation dominates graph setup by orders of magnitude.
-    const graphNodes: GraphNode[] = [];
-    const graphEdges: GraphEdge[] = [];
+    const graph = new Graph({ type: "undirected", multi: true });
 
-    for (let index = 0; index < courses.length; index++) {
-      const course = courses[index];
-      const department = course.department || "Unknown";
-      const color = colorMap.get(department) || "#666";
+    for (const node of structure.nodes) {
+      // Fallback ring for nodes added since the layout was last generated,
+      // so data drift degrades gracefully instead of crashing.
+      const position = LAYOUT[node.id] ?? [
+        Math.cos(2 * Math.PI * stableUnit(node.id)) * 1500,
+        Math.sin(2 * Math.PI * stableUnit(node.id)) * 1500,
+      ];
 
-      graphNodes.push({
-        id: index,
-        label: course.code,
-        title: `${course.title}\n${department}`,
-        color: nodeColor(color, "transparent"),
-        font: {
-          color: "#fff",
-          size: 12,
-          face: "Commit Mono, monospace",
-          strokeWidth: 2,
-          strokeColor: "rgba(0,0,0,0.5)",
-        },
-        shape: "dot",
-        size: 15 + stableUnit(course.code) * 10,
-        borderWidth: 0,
-        borderWidthSelected: 2,
-        shadow: {
-          enabled: true,
-          color: "rgba(0,0,0,0.3)",
-          size: 10,
-          x: 0,
-          y: 3,
-        },
-        // Store code for click handling
-        courseCode: course.code,
-      });
-    }
-
-    // Group courses by code prefix (e.g. "ECE" from "ECE 1234") and give
-    // each prefix a hub node.
-    const prefixGroups = new Map<string, { indices: number[]; department: string }>();
-    for (let index = 0; index < courses.length; index++) {
-      const course = courses[index];
-      const prefix = course.code.split(/\s+/)[0];
-      const group = prefixGroups.get(prefix);
-      if (group) {
-        group.indices.push(index);
+      let color: string;
+      if (node.kind === "degree-hub") {
+        color = hslToRgb(degreeHue.get(node.degreeSlug ?? "") ?? 0, 60, 45);
       } else {
-        prefixGroups.set(prefix, { indices: [index], department: course.department || "Unknown" });
+        color = hslToRgb(deptHue.get(node.department ?? "") ?? 0, 70, 55);
       }
-    }
 
-    let hubNodeId = courses.length; // Start hub IDs after course nodes
-
-    for (const [prefix, group] of prefixGroups) {
-      const color = colorMap.get(group.department) || "#666";
-
-      graphNodes.push({
-        id: hubNodeId,
-        label: prefix,
-        title: `${prefix} courses (${group.indices.length})`,
-        color: nodeColor(color, "rgba(255,255,255,0.3)"),
-        font: {
-          color: "#fff",
-          size: 14,
-          face: "Commit Mono, monospace",
-          bold: { color: "#fff", size: 14 },
-        },
-        shape: "dot",
-        size: 25 + Math.min(group.indices.length, 20), // Larger based on course count
-        borderWidth: 2,
-        shadow: {
-          enabled: true,
-          color: "rgba(0,0,0,0.4)",
-          size: 15,
-          x: 0,
-          y: 5,
-        },
+      graph.addNode(node.id, {
+        x: position[0],
+        y: position[1],
+        size: node.size,
+        label: node.label,
+        color,
+        kind: node.kind,
+        courseCode: node.courseCode,
+        tooltip: node.tooltip,
       });
-
-      for (const nodeIndex of group.indices) {
-        graphEdges.push({
-          id: `${nodeIndex}-hub-${hubNodeId}`,
-          from: nodeIndex,
-          to: hubNodeId,
-          color: { color, opacity: 0.25 },
-        });
-      }
-
-      hubNodeId++;
     }
 
-    // Course code to node index, for degree linking
-    const codeToIndex = new Map<string, number>();
-    for (let index = 0; index < courses.length; index++) {
-      codeToIndex.set(courses[index].code, index);
-    }
-
-    // Degree hub nodes, connected to every course the degree contains
-    for (let degIdx = 0; degIdx < degrees.length; degIdx++) {
-      const degree = degrees[degIdx];
-      const degreeColor = `hsl(${(degIdx * 360) / degrees.length}, 60%, 45%)`;
-
-      const degreeNodeIndices: number[] = [];
-      for (const code of degree.courses) {
-        const idx = codeToIndex.get(code);
-        if (idx !== undefined) degreeNodeIndices.push(idx);
-      }
-
-      if (degreeNodeIndices.length === 0) continue;
-
-      graphNodes.push({
-        id: hubNodeId,
-        label: degree.slug.replace("btech-", "").toUpperCase(),
-        title: `${degree.title}\n${degreeNodeIndices.length} courses`,
-        color: nodeColor(degreeColor, "rgba(255,255,255,0.5)"),
-        font: {
-          color: "#fff",
-          size: 12,
-          face: "Commit Mono, monospace",
-          bold: { color: "#fff", size: 12 },
-        },
-        shape: "diamond",
-        size: 20 + Math.min(degreeNodeIndices.length / 2, 15),
-        borderWidth: 2,
-        shadow: {
-          enabled: true,
-          color: "rgba(0,0,0,0.4)",
-          size: 12,
-          x: 0,
-          y: 4,
-        },
+    for (const edge of structure.edges) {
+      const hue =
+        edge.degreeSlug !== undefined
+          ? (degreeHue.get(edge.degreeSlug) ?? 0)
+          : (deptHue.get(edge.department ?? "") ?? 0);
+      const saturation = edge.degreeSlug !== undefined ? 60 : 70;
+      graph.addEdge(edge.source, edge.target, {
+        color: hslToRgb(hue, saturation, 50, 0.18),
+        activeColor: hslToRgb(hue, saturation, 55, 0.65),
+        size: 1,
       });
-
-      for (const nodeIndex of degreeNodeIndices) {
-        graphEdges.push({
-          id: `${nodeIndex}-degree-${hubNodeId}`,
-          from: nodeIndex,
-          to: hubNodeId,
-          color: { color: degreeColor, opacity: 0.15 },
-        });
-      }
-
-      hubNodeId++;
     }
 
-    const nodes = new DataSet<GraphNode>(graphNodes);
-    const edges = new DataSet<GraphEdge>(graphEdges);
+    const labelColor = resolvedTheme === "light" ? "#171717" : "#e5e5e5";
 
-    const options: Options = {
-      nodes: {
-        shape: "dot",
-        scaling: {
-          min: 10,
-          max: 30,
-        },
+    const sigma = new Sigma(graph, container, {
+      primitives: {
+        nodes: { label: { font: { family: '"Commit Mono", monospace', weight: "500" } } },
       },
-      edges: {
-        width: 1,
-        smooth: {
-          enabled: true,
-          type: "continuous",
-          roundness: 0.5,
-        },
-        color: {
-          inherit: false,
-          opacity: 0.15,
-        },
+      styles: {
+        nodes: { labelFont: '"Commit Mono", monospace', labelSize: 11, labelColor },
       },
-      physics: {
-        enabled: true,
-        solver: "forceAtlas2Based",
-        forceAtlas2Based: {
-          gravitationalConstant: -50,
-          centralGravity: 0.01,
-          springLength: 100,
-          springConstant: 0.02,
-          damping: 0.4,
-          avoidOverlap: 0.5,
-        },
-        stabilization: {
-          enabled: true,
-          iterations: 200,
-          updateInterval: 25,
-          fit: true,
-        },
-        maxVelocity: 50,
-        minVelocity: 0.1,
+      settings: {
+        // Preserve v3's pixel sizing and label visibility thresholds.
+        itemSizesReference: "screen",
+        labelRenderedSizeThreshold: 8,
+        minCameraRatio: 0.03,
+        maxCameraRatio: 3,
+        stagePadding: 40,
+        allowInvalidContainer: true,
       },
-      interaction: {
-        hover: true,
-        tooltipDelay: 100,
-        hideEdgesOnDrag: true,
-        hideEdgesOnZoom: true,
-        zoomView: true,
-        dragView: true,
-        navigationButtons: false,
-        keyboard: {
-          enabled: true,
-          speed: { x: 10, y: 10, zoom: 0.02 },
-          bindToWindow: false,
-        },
-      },
-      layout: {
-        improvedLayout: true,
-        randomSeed: 42, // Consistent layout
-      },
-    };
-
-    // Create network
-    const network = new Network(containerRef.current, { nodes, edges }, options);
-    networkRef.current = network;
-
-    // Handle node clicks
-    network.on("click", (params) => {
-      if (params.nodes.length > 0) {
-        // Node ids are the numeric indices assigned above; naming the
-        // type picks the single-id overload of DataSet.get.
-        const nodeId: number = Number(params.nodes[0]);
-        const nodeData = nodes.get(nodeId);
-        if (nodeData?.courseCode) {
-          handleNodeClick(nodeData.courseCode);
+      nodeReducer: (node, data) => {
+        const hover = hoverRef.current;
+        if (!hover.node) return data;
+        if (node === hover.node) {
+          return { ...data, highlighted: true };
         }
-      }
+        if (hover.neighbors.has(node)) {
+          return hover.forceLabels ? { ...data, labelVisibility: "visible" } : data;
+        }
+        return { ...data, color: "rgba(128,128,128,0.4)", label: "" };
+      },
+      edgeReducer: (edge, data, attributes) => {
+        const hover = hoverRef.current;
+        if (!hover.node) return data;
+        if (graph.hasExtremity(edge, hover.node)) {
+          return {
+            ...data,
+            color: typeof attributes.activeColor === "string" ? attributes.activeColor : data.color,
+          };
+        }
+        return { ...data, visibility: "hidden" };
+      },
+    });
+    sigmaRef.current = sigma;
+
+    sigma.on("clickNode", ({ node }) => {
+      const code: string | undefined = graph.getNodeAttribute(node, "courseCode");
+      if (code) handleNodeClick(code);
     });
 
-    // Change cursor on hover
-    network.on("hoverNode", () => {
-      if (containerRef.current) {
-        containerRef.current.style.cursor = "pointer";
-      }
+    sigma.on("enterNode", ({ node }) => {
+      container.style.cursor = "pointer";
+      const neighbors = new Set(graph.neighbors(node));
+      // Forced neighbour labels are readable for a course's handful of links
+      // but overlap into noise around a hub with dozens.
+      hoverRef.current = { node, neighbors, forceLabels: neighbors.size <= 12 };
+
+      const attrs = graph.getNodeAttributes(node);
+      const viewport = sigma.graphToViewport({ x: attrs.x as number, y: attrs.y as number });
+      setTooltip({
+        x: viewport.x,
+        y: viewport.y,
+        lines: [attrs.label as string, ...(attrs.tooltip as string[])],
+      });
+
+      sigma.refresh({ skipIndexation: true });
     });
 
-    network.on("blurNode", () => {
-      if (containerRef.current) {
-        containerRef.current.style.cursor = "grab";
-      }
+    sigma.on("leaveNode", () => {
+      container.style.cursor = "grab";
+      hoverRef.current = { node: null, neighbors: new Set(), forceLabels: false };
+      setTooltip(null);
+      sigma.refresh({ skipIndexation: true });
     });
 
-    network.on("dragStart", () => {
-      if (containerRef.current) {
-        containerRef.current.style.cursor = "grabbing";
-      }
+    sigma.on("downStage", () => {
+      container.style.cursor = "grabbing";
+    });
+    sigma.on("upStage", () => {
+      container.style.cursor = "grab";
     });
 
-    network.on("dragEnd", () => {
-      if (containerRef.current) {
-        containerRef.current.style.cursor = "grab";
-      }
-    });
+    // The tooltip is anchored in viewport space; hide it as soon as the
+    // camera moves rather than trying to track the node every frame.
+    const camera = sigma.getCamera();
+    const hideTooltip = () => setTooltip((current) => (current ? null : current));
+    camera.on("updated", hideTooltip);
 
-    // Cleanup
     return () => {
-      network.destroy();
-      networkRef.current = null;
+      camera.off("updated", hideTooltip);
+      sigma.kill();
+      sigmaRef.current = null;
     };
-  }, [courses, degrees, handleNodeClick]);
+  }, [courses, degrees, handleNodeClick, resolvedTheme]);
 
   return (
     <div className="relative w-full h-full">
       {/* Graph container */}
-      <div
-        ref={containerRef}
-        className="w-full h-full cursor-grab"
-        style={{ minHeight: "600px" }}
-      />
+      <div ref={containerRef} className="w-full h-full min-h-150 cursor-grab" />
 
-      {/* Loading indicator shown initially */}
-      <div
-        className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 transition-opacity duration-500"
-        id="graph-loading"
-      >
-        <div className="text-muted-foreground text-sm font-mono">Initializing graph...</div>
-      </div>
+      {/* Hover tooltip */}
+      {tooltip && (
+        <div
+          className="absolute z-10 left-(--tooltip-x) top-(--tooltip-y) -translate-x-1/2 -translate-y-full -mt-3 pointer-events-none px-3 py-2 bg-background/90 backdrop-blur-sm border border-border/50 rounded-md text-xs font-mono shadow-lg max-w-xs"
+          style={
+            {
+              "--tooltip-x": `${tooltip.x}px`,
+              "--tooltip-y": `${tooltip.y}px`,
+            } as React.CSSProperties
+          }
+        >
+          <div className="font-semibold text-foreground">{tooltip.lines[0]}</div>
+          {tooltip.lines.slice(1).map((line) => (
+            <div key={line} className="text-muted-foreground">
+              {line}
+            </div>
+          ))}
+        </div>
+      )}
 
       {/* Legend */}
       <div className="absolute bottom-4 left-4 p-3 bg-background/80 backdrop-blur-sm border border-border/50 rounded-lg text-xs font-mono text-muted-foreground max-w-xs">
@@ -412,11 +262,12 @@ export function NetworkGraph({ courses, degrees = NO_DEGREES }: NetworkGraphProp
         <div>• Scroll to zoom</div>
         <div>• Drag to pan</div>
         <div>• Click node to view course</div>
-        <div>• Hover for details</div>
+        <div>• Hover to highlight connections</div>
         <div className="mt-2 pt-2 border-t border-border/50">
           <div className="font-semibold text-foreground mb-1">Node Types</div>
-          <div>● Circles = Courses & Dept Hubs</div>
-          <div>◆ Diamonds = Degree Programs</div>
+          <div>• Small dots = Courses</div>
+          <div>• Large dots = Department hubs</div>
+          <div>• Mid dots (CSE, ECE…) = Degree programs</div>
         </div>
       </div>
     </div>

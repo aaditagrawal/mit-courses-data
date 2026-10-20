@@ -1,5 +1,5 @@
 import { getAllCourses, getCourseMap } from "@/lib/courses";
-import { getAllDegrees, getDegreeData, DegreeData } from "@/lib/degrees";
+import { getAllDegrees, getDegreeData, extractDegreeCourseCodes } from "@/lib/degrees";
 import { ExploreGraph } from "@/components/ExploreGraph";
 import Link from "next/link";
 
@@ -7,47 +7,6 @@ export const metadata = {
   title: "Explore Courses | MIT Manipal",
   description: "Interactive network graph visualization of MIT Manipal courses",
 };
-
-// Extract all course codes from a degree structure
-function extractDegreeCourses(data: DegreeData): string[] {
-  const codes: string[] = [];
-
-  // Get courses from semesters
-  data.structure.semesters.forEach((sem) => {
-    codes.push(...sem.core_courses);
-
-    // Check elective slots for specific courses
-    sem.elective_slots?.forEach((slot) => {
-      if ((slot as { course_code?: string }).course_code) {
-        codes.push((slot as { course_code?: string }).course_code!);
-      }
-      if ((slot as { courses?: string[] }).courses) {
-        codes.push(...(slot as { courses?: string[] }).courses!);
-      }
-    });
-  });
-
-  // Get courses from elective pools
-  Object.values(data.structure.elective_pools || {}).forEach((pool) => {
-    if (Array.isArray(pool)) {
-      pool.forEach((item) => {
-        if (typeof item === "string") {
-          codes.push(item);
-        } else if (item && typeof item === "object" && "courses" in item) {
-          codes.push(...(item as { courses: string[] }).courses);
-        }
-      });
-    } else if (typeof pool === "object") {
-      Object.values(pool).forEach((subPool) => {
-        if (Array.isArray(subPool)) {
-          codes.push(...subPool);
-        }
-      });
-    }
-  });
-
-  return [...new Set(codes)]; // Deduplicate
-}
 
 export default function ExplorePage() {
   const courses = getAllCourses();
@@ -63,7 +22,7 @@ export default function ExplorePage() {
       return {
         slug,
         title: data.degree_metadata.title,
-        courses: extractDegreeCourses(data).filter((code) => courseMap.has(code)),
+        courses: extractDegreeCourseCodes(data).filter((code) => courseMap.has(code)),
       };
     })
     .filter((d): d is { slug: string; title: string; courses: string[] } => d !== null);

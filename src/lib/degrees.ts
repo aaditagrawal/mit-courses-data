@@ -96,6 +96,47 @@ export function getAllDegrees(): string[] {
   return Object.keys(degreeMap);
 }
 
+/**
+ * Extract every course code referenced by a degree structure: semester cores,
+ * fixed elective slots, and elective pools. Deduplicated.
+ */
+export function extractDegreeCourseCodes(data: DegreeData): string[] {
+  const codes: string[] = [];
+
+  data.structure.semesters.forEach((sem) => {
+    codes.push(...sem.core_courses);
+
+    sem.elective_slots?.forEach((slot) => {
+      if (slot.course_code) {
+        codes.push(slot.course_code);
+      }
+      if (slot.courses) {
+        codes.push(...slot.courses);
+      }
+    });
+  });
+
+  Object.values(data.structure.elective_pools || {}).forEach((pool) => {
+    if (Array.isArray(pool)) {
+      pool.forEach((item) => {
+        if (typeof item === "string") {
+          codes.push(item);
+        } else if (item && typeof item === "object" && "courses" in item) {
+          codes.push(...item.courses);
+        }
+      });
+    } else if (typeof pool === "object") {
+      Object.values(pool).forEach((subPool) => {
+        if (Array.isArray(subPool)) {
+          codes.push(...subPool);
+        }
+      });
+    }
+  });
+
+  return [...new Set(codes)];
+}
+
 export function getAllDegreeSummaries(): DegreeSummary[] {
   return Object.entries(degreeMap)
     .map(([slug, data]) => ({

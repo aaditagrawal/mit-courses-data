@@ -3,5 +3,6 @@
   "name": "mit-courses-data",
   "compatibility_date": "2024-12-16",
   "compatibility_flags": ["nodejs_compat"],
-  "pages_build_output_dir": ".vercel/output/static",
+  "main": "vinext/server/app-router-entry",
+  "assets": { "not_found_handling": "none" },
 }

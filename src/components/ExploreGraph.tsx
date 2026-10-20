@@ -14,7 +14,7 @@ const NetworkGraph = dynamic(
   {
     ssr: false,
     loading: () => (
-      <div className="relative w-full h-full flex items-center justify-center" style={{ minHeight: "600px" }}>
+      <div className="relative w-full h-full min-h-150 flex items-center justify-center">
         <div className="text-muted-foreground text-sm font-mono">Loading graph...</div>
       </div>
     ),
@@ -27,7 +27,7 @@ const NetworkGraph = dynamic(
  * Passing the course list down from `/explore` as a prop would serialise a
  * second, byte-identical copy into the same document.
  *
- * NetworkGraph (vis-network) is loaded client-side only so the heavy
+ * NetworkGraph (sigma.js/WebGL) is loaded client-side only so the
  * visualization bundle stays off the initial explore-page JS.
  */
 export function ExploreGraph({ degrees }: { degrees: DegreeInfo[] }) {

@@ -8,7 +8,7 @@ Course Explorer is designed to help students and educators visualize and explore
 
 ## Features
 
-- **Interactive Course Network Visualization**: Explore course relationships through an interactive graph powered by vis-network
+- **Interactive Course Network Visualization**: Explore course relationships through an interactive graph powered by Sigma.js 4
 - **Advanced Search**: Quickly find courses using the command menu with fuzzy search capabilities
 - **Course Details**: View comprehensive information about each course including prerequisites and descriptions
 - **Dark/Light Mode**: Toggle between themes for comfortable viewing
@@ -25,10 +25,10 @@ The application is live at: [https://courses.coolstuff.work](https://courses.coo
 - **Language**: TypeScript
 - **UI Components**: Radix UI, shadcn/ui
 - **Styling**: Tailwind CSS
-- **Visualization**: vis-network for course relationship graphs
+- **Visualization**: Sigma.js 4 for course relationship graphs
 - **Icons**: Lucide React
 - **State Management**: React Context API
-- **Deployment**: Vercel
+- **Deployment**: Cloudflare Workers via vinext
 
 ## Project Structure
 
@@ -123,13 +123,34 @@ bun run start
 npm run lint
 ```
 
-### Deployment
+### Cloudflare build and preview
 
-The project is configured for deployment on Vercel. You can deploy using:
+The deprecated `@cloudflare/next-on-pages` adapter does not support Next.js 16.
+The Cloudflare build uses vinext and the Cloudflare Vite plugin. The standard
+Next.js development and production build commands still work.
 
 ```bash
-npm run deploy
+bun install --frozen-lockfile
+bun run workers:build
+bunx wrangler deploy --dry-run
+bun run workers:preview
 ```
+
+`workers:build` compiles the client assets and server bundle in `dist/`, generates
+Next route types, and checks the application with tsrs. Wrangler reads the Vite
+generated deployment config automatically. CI checks this build on every change.
+
+The local config targets the Cloudflare Worker named `mit-courses-data`, with
+`nodejs_compat` and the existing `2024-12-16` compatibility date. No bindings or
+cloud resources are required for the app's bundled course data.
+
+`bun run workers:deploy` builds and deploys to Workers. It does not update an
+existing Pages site or move `courses.coolstuff.work` to the Worker. Moving that
+custom domain from Pages is a separate hosting cutover; this dependency migration
+has not changed any live deployment or domain configuration.
+
+References: [vinext migration](https://github.com/cloudflare/vinext/tree/main/.agents/skills/migrate-to-vinext),
+[Cloudflare Pages to Workers](https://developers.cloudflare.com/workers/static-assets/migration-guides/migrate-from-pages/).
 
 ## Data Structure
 
@@ -179,7 +200,7 @@ For questions or support, please open an issue on the GitHub repository.
 
 - Built with [Next.js](https://nextjs.org)
 - UI components from [Radix UI](https://www.radix-ui.com)
-- Network visualization powered by [vis-network](https://visjs.github.io/vis-network/docs/network/)
+- Network visualization powered by [Sigma.js 4](https://www.sigmajs.org/)
 - Icons from [Lucide](https://lucide.dev)
 
 ## Future Roadmap
