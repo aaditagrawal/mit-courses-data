@@ -152,6 +152,16 @@ has not changed any live deployment or domain configuration.
 References: [vinext migration](https://github.com/cloudflare/vinext/tree/main/.agents/skills/migrate-to-vinext),
 [Cloudflare Pages to Workers](https://developers.cloudflare.com/workers/static-assets/migration-guides/migrate-from-pages/).
 
+### Transitive security patch
+
+vinext 1.2.1 uses `@vercel/og` 1.0.3, whose Satori 0.33.5 pins `fflate` 0.7.3.
+The version-scoped Bun override selects 0.7.5 for affected 0.7 requests to fix
+[GHSA-px8p-9vwx-vf98](https://github.com/advisories/GHSA-px8p-9vwx-vf98), a malformed
+ZIP64 denial of service in `unzipSync`. It leaves 0.8 consumers unchanged. Remove
+the override when upstream requests a patched release. This uses
+[Bun's version-scoped overrides](https://bun.sh/docs/pm/overrides#version-scoped-overrides).
+Bun writes lockfile version 3 for this selector; use current Bun, as CI does.
+
 ## Data Structure
 
 Course data is stored in JSON files in the `branch-json/` directory. Each file represents a different academic branch and contains:
