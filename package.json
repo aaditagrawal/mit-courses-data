@@ -15,7 +15,8 @@
     "typecheck": "next typegen && bunx --bun tsrs --noEmit",
     "workers:build": "vite build && bun run typecheck",
     "workers:preview": "bun run workers:build && wrangler dev",
-    "workers:deploy": "bun run workers:build && wrangler deploy"
+    "workers:deploy": "bun run workers:build && wrangler deploy",
+    "test:security": "node scripts/security-braces.mjs"
   },
   "dependencies": {
     "@radix-ui/react-collapsible": "^1.2.1",
@@ -57,5 +58,8 @@
   },
   "overrides": {
     "fflate@>=0.7.0 <0.7.5": "0.7.5"
+  },
+  "patchedDependencies": {
+    "braces@3.0.3": "patches/braces@3.0.3.patch"
   }
 }
