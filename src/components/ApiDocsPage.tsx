@@ -3,7 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Copy, Check, Terminal, MoveLeft } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 import { getApiDocsMarkdown } from "@/lib/api/docs";
 
 const ENDPOINTS = [
@@ -105,11 +106,17 @@ export function ApiDocsPage() {
                 </>
               )}
             </Button>
-            <Button variant="ghost" size="sm" asChild>
-              <a href="/api/v1" target="_blank" rel="noopener noreferrer">
-                Open /api/v1
-              </a>
-            </Button>
+            <a
+              href="/api/v1"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-slot="button"
+              data-variant="ghost"
+              data-size="sm"
+              className={cn(buttonVariants({ variant: "ghost", size: "sm" }))}
+            >
+              Open /api/v1
+            </a>
           </div>
         </header>
 

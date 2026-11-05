@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FileX2, Home, Search } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
+
+import { cn } from "@/lib/utils";
 
 export default function NotFound() {
   const pathname = usePathname();
@@ -32,18 +34,28 @@ export default function NotFound() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button asChild variant="default">
-            <Link href="/" className="flex items-center gap-2">
-              <Home className="w-4 h-4" />
-              Back to Home
-            </Link>
-          </Button>
-          <Button asChild variant="outline">
-            <Link href="/explore" className="flex items-center gap-2">
-              <Search className="w-4 h-4" />
-              Explore Courses
-            </Link>
-          </Button>
+          <Link
+            href="/"
+            data-slot="button"
+            data-variant="default"
+            data-size="default"
+            className={[cn(buttonVariants()), "flex items-center gap-2"].join(" ")}
+          >
+            <Home className="w-4 h-4" />
+            Back to Home
+          </Link>
+          <Link
+            href="/explore"
+            data-slot="button"
+            data-variant="outline"
+            data-size="default"
+            className={[cn(buttonVariants({ variant: "outline" })), "flex items-center gap-2"].join(
+              " ",
+            )}
+          >
+            <Search className="w-4 h-4" />
+            Explore Courses
+          </Link>
         </div>
 
         {isCoursePath && (

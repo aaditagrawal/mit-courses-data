@@ -1,8 +1,13 @@
-import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
-export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs));
+type ClassName = string | false | null | undefined;
+
+export function cn(...inputs: ClassName[]) {
+  let classes = "";
+  for (const input of inputs) {
+    if (input) classes += classes ? ` ${input}` : input;
+  }
+  return twMerge(classes);
 }
 
 /**
