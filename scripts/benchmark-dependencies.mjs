@@ -80,7 +80,7 @@ const fixtures = `
 import React from ${JSON.stringify(join(root, "node_modules/react/index.js"))};
 import { flushSync } from ${JSON.stringify(join(root, "node_modules/react-dom/index.js"))};
 import { createRoot, hydrateRoot } from ${JSON.stringify(join(root, "node_modules/react-dom/client.js"))};
-import { renderToStaticMarkup } from ${JSON.stringify(join(root, "node_modules/react-dom/server.browser.js"))};
+import { renderToStaticMarkup, renderToString } from ${JSON.stringify(join(root, "node_modules/react-dom/server.browser.js"))};
 import * as oldButton from ${JSON.stringify(join(baseline, "src/components/ui/button.tsx"))};
 import * as oldBadge from ${JSON.stringify(join(baseline, "src/components/ui/badge.tsx"))};
 import * as oldUtils from ${JSON.stringify(join(baseline, "src/lib/utils.ts"))};
@@ -132,7 +132,7 @@ export function mountTimed(candidate,kind,count){if(mounted){flushSync(()=>mount
 export function updateTimed(candidate,kind,count){const start=performance.now();flushSync(()=>mounted.render(tree(candidate,kind,count,1)));const height=document.body.offsetHeight;return {ms:performance.now()-start,height}}
 export function unmountTimed(){const start=performance.now();flushSync(()=>mounted.unmount());mounted=null;const height=document.body.offsetHeight;return {ms:performance.now()-start,height}}
 export function closeTimed(){return new Promise((resolve,reject)=>{const start=performance.now();let cpu;let timeout;const observer=new MutationObserver(()=>{if(document.querySelectorAll("main a").length===0){observer.disconnect();clearTimeout(timeout);resolve({ms:cpu,completionMs:performance.now()-start})}});observer.observe(document.getElementById("app"),{childList:true,subtree:true});timeout=setTimeout(()=>{observer.disconnect();reject(Error("Closing panels did not unmount"))},2000);cpu=toggle().ms})}
-export function hydrate(candidate){if(mounted)flushSync(()=>mounted.unmount());document.body.innerHTML='<div id="app">'+render(candidate,"disclosure",1)+'</div>';mounted=hydrateRoot(document.getElementById("app"),tree(candidate,"disclosure",1),{onRecoverableError(error){throw error}})}
+export function hydrate(candidate){if(mounted)flushSync(()=>mounted.unmount());document.body.innerHTML='<div id="app">'+renderToString(tree(candidate,"disclosure",1))+'</div>';mounted=hydrateRoot(document.getElementById("app"),tree(candidate,"disclosure",1),{onRecoverableError(error){throw error}})}
 export function batchToggle(){flushSync(()=>{const button=document.querySelector("button");button.click();button.click();button.click()});return document.querySelector("button").getAttribute("aria-expanded")}
 export function toggle(){const buttons=[...document.querySelectorAll("button[aria-expanded]")];const start=performance.now();flushSync(()=>buttons.forEach(b=>b.click()));const height=document.body.offsetHeight;return {ms:performance.now()-start,height}}
 if(typeof window!=="undefined")window.fixture={render,verify,helpers,mount,hydrate,batchToggle,toggle,mountTimed,updateTimed,unmountTimed,closeTimed};
