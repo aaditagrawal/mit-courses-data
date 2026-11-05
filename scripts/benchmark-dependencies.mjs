@@ -432,3 +432,7 @@ try {
   await browser.close();
   await rm(temp, { recursive: true, force: true });
 }
+
+// React server.browser can retain its scheduler MessagePort in Bun. All browser
+// and fixture cleanup above is awaited before this standalone CLI exits.
+process.exit(0);

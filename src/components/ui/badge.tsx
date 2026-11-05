@@ -14,13 +14,12 @@ type BadgeStyle = {
   variant?: keyof typeof variantClasses | null;
 };
 
+const baseClassName =
+  "inline-flex items-center justify-center rounded-full border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden max-w-full text-ellipsis";
+
 function badgeVariants({ variant = "default" }: BadgeStyle = {}) {
-  return [
-    "inline-flex items-center justify-center rounded-full border px-2 py-0.5 text-xs font-medium w-fit whitespace-nowrap shrink-0 [&>svg]:size-3 gap-1 [&>svg]:pointer-events-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive transition-[color,box-shadow] overflow-hidden max-w-full text-ellipsis",
-    variant && variantClasses[variant],
-  ]
-    .filter(Boolean)
-    .join(" ");
+  const variantClass = variant && variantClasses[variant];
+  return variantClass ? `${baseClassName} ${variantClass}` : baseClassName;
 }
 
 function Badge({ className, variant, ...props }: React.ComponentProps<"span"> & BadgeStyle) {
