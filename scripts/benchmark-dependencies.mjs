@@ -4,6 +4,7 @@
 // Set MIT_BENCH_PLAYWRIGHT to its module path and MIT_BENCH_CHROME to the executable.
 // MIT_BENCH_VALIDATE_ONLY=1 skips timings. MIT_BENCH_SAMPLES defaults to 31.
 // MIT_BENCH_OUTPUT chooses the JSON report path, default /tmp/mit-dependency-benchmark.json.
+// MIT_BENCH_VISUAL_OUTPUT saves and compares baseline/candidate PNGs during validation.
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
 import { mkdtemp, mkdir, readFile, writeFile, symlink, rm } from "node:fs/promises";
@@ -271,9 +272,57 @@ try {
   );
   await page.setContent("<!doctype html><html><head></head><body></body></html>");
   await page.addStyleTag({ content: css.css });
-  await page.addScriptTag({ content: await readFile(await bundle("browser"), "utf8") });
+  const browserScript = await readFile(await bundle("browser"), "utf8");
+  await page.addScriptTag({ content: browserScript });
   console.error("Checking browser compatibility");
   await page.evaluate("window.fixture.verify()");
+  const visualChecks = [];
+  const visualOutput = process.env.MIT_BENCH_VISUAL_OUTPUT;
+  if (visualOutput) {
+    await mkdir(visualOutput, { recursive: true });
+    for (const width of [375, 1280])
+      for (const theme of ["light", "dark"])
+        for (const [kind, count, expanded] of [
+          ["button", 36, false],
+          ["badge", 4, false],
+          ["link", 3, false],
+          ["link-custom", 2, false],
+          ["disclosure", 1, false],
+          ["disclosure", 1, true],
+        ]) {
+          const name = `${width}-${theme}-${kind}-${expanded ? "open" : "closed"}`;
+          const screenshots = [];
+          // Independent fresh pages keep paint history and focus identical.
+          // A second baseline capture also checks the renderer's repeatability.
+          for (const version of ["baseline", "control", "candidate"]) {
+            const visualPage = await browser.newPage({ viewport: { width, height: 900 } });
+            visualPage.on("pageerror", error => errors.push(String(error)));
+            try {
+              await visualPage.setContent("<!doctype html><html><head></head><body></body></html>");
+              await visualPage.addStyleTag({ content: css.css });
+              await visualPage.addScriptTag({ content: browserScript });
+              await visualPage.evaluate(`document.documentElement.className=${JSON.stringify(theme)}`);
+              await visualPage.evaluate(`window.fixture.mount(${version === "candidate"},${count},${JSON.stringify(kind)})`);
+              await visualPage.mouse.move(width - 1, 899);
+              if (expanded) await visualPage.locator("button").click();
+              await visualPage.evaluate(async () => {
+                await Promise.all(document.getAnimations().map(animation => animation.finished.catch(() => {})));
+                await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+              });
+              screenshots.push(await visualPage.screenshot({
+                path: join(visualOutput, `${name}-${version}.png`),
+                fullPage: true,
+                animations: "disabled",
+              }));
+            } finally {
+              await visualPage.close();
+            }
+          }
+          assert.ok(screenshots[0].equals(screenshots[1]), `${name} baseline repeatability`);
+          assert.ok(screenshots[0].equals(screenshots[2]), `${name} pixel parity`);
+          visualChecks.push({ name, identical: true, baselineRepeatable: true });
+        }
+  }
   const dimensions = [];
   for (const width of [375, 1280])
     for (const theme of ["light", "dark"]) {
@@ -408,6 +457,7 @@ try {
     compatibility:
       "all variant classes and 1/36/256 button/badge SSR match; API/custom link SSR match; hydration and mobile/desktop/light/dark dimensions match; 1000 conditional/conflict classes; Enter/Space, aria linkage, lazy panels, close/reopen race and unmount cleanup pass",
     dimensions,
+    visualChecks,
     rows,
   };
   const output = process.env.MIT_BENCH_OUTPUT || join(tmpdir(), "mit-dependency-benchmark.json");
