@@ -16,15 +16,11 @@
     "workers:build": "vite build && bun run typecheck",
     "workers:preview": "bun run workers:build && wrangler dev",
     "workers:deploy": "bun run workers:build && wrangler deploy",
-    "test:security": "node scripts/security-braces.mjs"
+    "test:security": "node scripts/security-braces.mjs",
+    "benchmark:dependencies": "bun scripts/benchmark-dependencies.mjs"
   },
   "dependencies": {
-    "@radix-ui/react-collapsible": "^1.2.1",
     "@radix-ui/react-dialog": "^1.3.1",
-    "@radix-ui/react-scroll-area": "^1.4.0",
-    "@radix-ui/react-separator": "^1.2.0",
-    "@radix-ui/react-slot": "^1.5.0",
-    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "graphology": "^0.26.0",

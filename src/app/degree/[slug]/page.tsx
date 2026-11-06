@@ -3,8 +3,7 @@ import { getCourseMap, SearchResult } from "@/lib/courses";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCourseLink } from "@/lib/utils";
-import { ChevronDown } from "lucide-react";
-import * as Collapsible from "@radix-ui/react-collapsible";
+import { Disclosure } from "@/components/ui/disclosure";
 
 // Next.js 15+ Page Props Interface
 interface PageProps {
@@ -384,8 +383,8 @@ function ElectiveItem({
   }
 
   return (
-    <Collapsible.Root className="border border-border rounded-lg bg-card shadow-sm overflow-hidden group">
-      <Collapsible.Trigger className="w-full flex items-center justify-between p-4 bg-muted/30 hover:bg-muted/50 transition-colors text-left">
+    <Disclosure
+      trigger={
         <div className="flex flex-col gap-1">
           <div className="flex items-center gap-2">
             <span className="font-semibold text-sm text-foreground">{slot.label}</span>
@@ -401,74 +400,69 @@ function ElectiveItem({
             </span>
           )}
         </div>
-        <div className="p-1 rounded-md text-muted-foreground group-hover:text-foreground transition-colors">
-          <ChevronDown className="w-4 h-4 transition-transform duration-200 ease-out group-data-[state=open]:rotate-180" />
-        </div>
-      </Collapsible.Trigger>
+      }
+    >
+      <div className="p-2 bg-background">
+        {/* Simple List */}
+        {displayMode === "simple" &&
+          simpleCourses.map((c, idx) => (
+            <div
+              key={`${c}-${idx}`}
+              className="flex items-center justify-between p-2 rounded hover:bg-muted/30 group/item transition-colors"
+            >
+              <div className="flex items-center gap-3">
+                <span className="font-mono text-xs font-semibold text-muted-foreground w-20">
+                  {c}
+                </span>
+                <Link
+                  href={getCourseLink(c)}
+                  className="text-sm font-medium text-foreground hover:underline"
+                >
+                  {getCourseTitle(c, courseMap)}
+                </Link>
+              </div>
+              <div className="text-xs font-mono text-muted-foreground">
+                {getCourseCredits(c, courseMap)}C
+              </div>
+            </div>
+          ))}
 
-      <Collapsible.Content className="border-t border-border data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 duration-200">
-        <div className="p-2 bg-background">
-          {/* Simple List */}
-          {displayMode === "simple" &&
-            simpleCourses.map((c, idx) => (
-              <div
-                key={`${c}-${idx}`}
-                className="flex items-center justify-between p-2 rounded hover:bg-muted/30 group/item transition-colors"
-              >
-                <div className="flex items-center gap-3">
-                  <span className="font-mono text-xs font-semibold text-muted-foreground w-20">
-                    {c}
-                  </span>
-                  <Link
-                    href={getCourseLink(c)}
-                    className="text-sm font-medium text-foreground hover:underline"
-                  >
-                    {getCourseTitle(c, courseMap)}
-                  </Link>
-                </div>
-                <div className="text-xs font-mono text-muted-foreground">
-                  {getCourseCredits(c, courseMap)}C
+        {/* Tracks Grid */}
+        {displayMode === "tracks" && (
+          <div className="grid grid-cols-1 gap-6 p-2">
+            {tracks.map((track, idx) => (
+              <div key={idx} className="space-y-3">
+                <h4 className="text-xs font-bold uppercase tracking-wider text-muted-foreground border-b border-border/50 pb-1">
+                  {track.track_name}
+                </h4>
+                <div className="space-y-1">
+                  {track.courses.map((c, i) => (
+                    <div
+                      key={`${c}-${i}`}
+                      className="flex items-center justify-between p-2 rounded hover:bg-muted/30 transition-colors"
+                    >
+                      <div className="flex items-center gap-3">
+                        <span className="font-mono text-xs font-semibold text-muted-foreground w-20">
+                          {c}
+                        </span>
+                        <Link
+                          href={getCourseLink(c)}
+                          className="text-sm font-medium text-foreground hover:underline"
+                        >
+                          {getCourseTitle(c, courseMap)}
+                        </Link>
+                      </div>
+                      <div className="text-xs font-mono text-muted-foreground">
+                        {getCourseCredits(c, courseMap)}C
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             ))}
-
-          {/* Tracks Grid */}
-          {displayMode === "tracks" && (
-            <div className="grid grid-cols-1 gap-6 p-2">
-              {tracks.map((track, idx) => (
-                <div key={idx} className="space-y-3">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-muted-foreground border-b border-border/50 pb-1">
-                    {track.track_name}
-                  </h4>
-                  <div className="space-y-1">
-                    {track.courses.map((c, i) => (
-                      <div
-                        key={`${c}-${i}`}
-                        className="flex items-center justify-between p-2 rounded hover:bg-muted/30 transition-colors"
-                      >
-                        <div className="flex items-center gap-3">
-                          <span className="font-mono text-xs font-semibold text-muted-foreground w-20">
-                            {c}
-                          </span>
-                          <Link
-                            href={getCourseLink(c)}
-                            className="text-sm font-medium text-foreground hover:underline"
-                          >
-                            {getCourseTitle(c, courseMap)}
-                          </Link>
-                        </div>
-                        <div className="text-xs font-mono text-muted-foreground">
-                          {getCourseCredits(c, courseMap)}C
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-          )}
-        </div>
-      </Collapsible.Content>
-    </Collapsible.Root>
+          </div>
+        )}
+      </div>
+    </Disclosure>
   );
 }
