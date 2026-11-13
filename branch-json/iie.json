@@ -9,7 +9,13 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "How to read a visual, how to enjoy or feel an art form, what is Creative Thinking? Indian Art: Heritage & Culture; Art Appreciation: Western Art, Artist & Art Movements: Raja Ravi Verma, Tagore, Da Vinci, Van Gogh; Aesthetics: Beauty, Feel & Expression; Art & Science; Art & Film; Art: Freedom & Society, to be an art literate. A journey to immerse in the world of Art."
+          "How to read a visual, how to enjoy or feel an art form, what is Creative Thinking?",
+          "Indian Art: Heritage & Culture",
+          "Art Appreciation: Western Art, Artist & Art Movements: Raja Ravi Verma, Tagore, Da Vinci, Van Gogh",
+          "Aesthetics: Beauty, Feel & Expression",
+          "Art & Science",
+          "Art & Film",
+          "Art: Freedom & Society, to be an art literate. A journey to immerse in the world of Art."
         ],
         "references": [],
         "flags": ["missing_semester", "historical_syllabus"],
@@ -32,7 +38,12 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "Introduction to Idea of Culture, Identity and tradition, Indian Cultural History, Indian cultural history, Time and space, Indian Art and heritage, Indus valley civilization – Indian Independence, Post-colonial India, Modern India, Indian Cinema, Body, language and feel, Film and culture, Evolution, Interpretation and Reflection, Indian Cinema, Media and the medium, Pioneers and classical films, Culture and art of cinema, Culture, Cinema and Society, Revolutions, ideas, innovations, Culture, Cinema and Peace, Message, purpose and the challenge."
+          "Introduction to Idea of Culture, Identity and tradition",
+          "Indian Cultural History, Indian cultural history, Time and space, Indian Art and heritage, Indus valley civilization – Indian Independence, Post-colonial India, Modern India",
+          "Indian Cinema, Body, language and feel, Film and culture, Evolution, Interpretation and Reflection",
+          "Indian Cinema, Media and the medium, Pioneers and classical films, Culture and art of cinema",
+          "Culture, Cinema and Society, Revolutions, ideas, innovations",
+          "Culture, Cinema and Peace, Message, purpose and the challenge."
         ],
         "references": [],
         "flags": ["missing_semester", "historical_syllabus"],
@@ -55,7 +66,14 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "Introduction to Corporate Finance, Financial Goal, Agency Problems, Managers vs Shareholders Goals, Concepts of Value and Return, Capital Budgeting Decisions, Cost of Capital, Calculation of the Cost of Capital in Practice, Financial and Operating Leverage, Capital Structure, Relevance of Capital Structure, Irrelevance of Capital Structure, Relevance of Capital Structure, Dividend Theory, Dividend Relevance, Dividend Relevance, Dividend and Uncertainty, Dividend Irrelevance, Principles of Working Capital Management."
+          "Introduction to Corporate Finance, Financial Goal, Agency Problems, Managers vs Shareholders Goals",
+          "Concepts of Value and Return",
+          "Capital Budgeting Decisions",
+          "Cost of Capital, Calculation of the Cost of Capital in Practice",
+          "Financial and Operating Leverage",
+          "Capital Structure, Relevance of Capital Structure, Irrelevance of Capital Structure, Relevance of Capital Structure",
+          "Dividend Theory, Dividend Relevance, Dividend Relevance, Dividend and Uncertainty, Dividend Irrelevance",
+          "Principles of Working Capital Management."
         ],
         "references": [
           "Brealey, R., Myers, S., Allen, F., & Mohanty, P. (2014). Principles of Corporate Finance (11e). New Delhi : Mc Graw Hill Education (India) Private Limited,.",
@@ -83,7 +101,15 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "Historical perspective of international business, International business environment, Modes of entering international business, Cross-Culture and dynamic market understanding, Differences in Culture, Theories of international business, World Bank, World trade organization, Multinational Corporations and their involvement in International Business, Tariffs and quotas, Balance of Payment Account."
+          "Historical perspective of international business",
+          "International business environment",
+          "Modes of entering international business",
+          "Cross-Culture and dynamic market understanding, Differences in Culture",
+          "Theories of international business",
+          "World Bank, World trade organization",
+          "Multinational Corporations and their involvement in International Business",
+          "Tariffs and quotas",
+          "Balance of Payment Account."
         ],
         "references": [
           "Hill Charles, W. L., & Jain Arun, K. (2011). International Business: Competing in the Global Marketplace. (8e), Tata McGraw Hill.",
@@ -109,7 +135,13 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "Introduction to brand management, Developing a brand strategy, Brand resonance and brand value chain, Designing and implementing brand marketing programs to build brand equity, Measuring and interpreting brand performance, Designing and implementing brand architecture strategies, Managing brands."
+          "Introduction to brand management",
+          "Developing a brand strategy",
+          "Brand resonance and brand value chain",
+          "Designing and implementing brand marketing programs to build brand equity",
+          "Measuring and interpreting brand performance",
+          "Designing and implementing brand architecture strategies",
+          "Managing brands."
         ],
         "references": [
           "Keller, K. L., Parameswaran, M. G., Jacob, I. (2015). Strategic Brand Management (4e). Noida, India: Pearson Prentice Hall Publication.",
@@ -136,7 +168,11 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "Aim, Obiectives, Meanings and Definitions of Yoga, History of Yoga, Concepts and misconcepts of Yoga, Schools of Yoga, Ashtanga Yoga"
+          "Aim, Obiectives, Meanings and Definitions of Yoga",
+          "History of Yoga",
+          "Concepts and misconcepts of Yoga",
+          "Schools of Yoga",
+          "Ashtanga Yoga"
         ],
         "references": [],
         "flags": ["missing_semester", "historical_syllabus"],
@@ -160,7 +196,13 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "Economics: Understanding Economics, Efficiency, Rational decision making, Opportunity costs, Supply and demand, Price discovery, Health economics: Defining health, Human capital, what does supply and demand mean in the context of health? Arrow on the uncertainty and welfare economics, The Moral hazard, DALY and QALY, Efficiency: The Production possibility frontiers. The production function for health care. Health policy, Defining equity, Standards of healthcare provision Epidemiology, The Healthcare sector, The demand for health, Disease prevalence, The pharmaceuticals market, Cross country case studies."
+          "Economics: Understanding Economics, Efficiency, Rational decision making, Opportunity costs, Supply and demand, Price discovery",
+          "Health economics: Defining health, Human capital, what does supply and demand mean in the context of health? Arrow on the uncertainty and welfare economics, The Moral hazard, DALY and QALY",
+          "Efficiency: The Production possibility frontiers. The production function for health care.",
+          "Health policy, Defining equity, Standards of healthcare provision Epidemiology",
+          "The Healthcare sector, The demand for health, Disease prevalence",
+          "The pharmaceuticals market",
+          "Cross country case studies."
         ],
         "references": [
           "Sloan, Frank A., and Chee-Ruey Hsieh. Health economics. MIT Press, 2012",
@@ -187,7 +229,14 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "Present day practice of medicine. Limitations of scalability in the present framework. Introduction to computing, algorithms, big data, semantic web, mobility. Communication-WAN/LAN, 3G/4G and 5G. Patient/Electronic Health records. Experience with these records elsewhere Wearables, the physics of data capture. Practical demonstration of wearables Genomics, an introduction. Computational genomics including the software. Imaging –an introduction-ionizing and non-ionizing. Imaging software and science of diagnosis. How all the four 4 pillars-PHR/EHR, Wearables, Genomics and Imaging come together with software as the glue to change the world of medicine."
+          "Present day practice of medicine. Limitations of scalability in the present framework.",
+          "Introduction to computing, algorithms, big data, semantic web, mobility.",
+          "Communication-WAN/LAN, 3G/4G and 5G.",
+          "Patient/Electronic Health records. Experience with these records elsewhere",
+          "Wearables, the physics of data capture. Practical demonstration of wearables",
+          "Genomics, an introduction. Computational genomics including the software.",
+          "Imaging –an introduction-ionizing and non-ionizing. Imaging software and science of diagnosis.",
+          "How all the four 4 pillars-PHR/EHR, Wearables, Genomics and Imaging come together with software as the glue to change the world of medicine."
         ],
         "references": [
           "David Mount. Bioinformatics: Sequence and Genome Analysis. CSHL, 2001",
@@ -213,7 +262,13 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "Introduction to Indian cuisine, Basic Indian gravies, Rice cooking, Preparation of various rice products, Tandoor Cooking, Indian sweets, Comfort Food, Regional and sub-regional cuisine."
+          "Introduction to Indian cuisine",
+          "Basic Indian gravies",
+          "Rice cooking, Preparation of various rice products",
+          "Tandoor Cooking",
+          "Indian sweets",
+          "Comfort Food",
+          "Regional and sub-regional cuisine."
         ],
         "references": [],
         "flags": ["missing_semester", "historical_syllabus"],
@@ -236,7 +291,12 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "Introduction to Patisserie and Baking Principles, Special emphasis placed on the study of ingredient functions, Students will have the opportunity to apply basic baking techniques, Understanding fundamentals of yeast dough production, Emphasis on the application of ingredient functions, product identification and recipe interpretation occurs throughout the course, Pastry Basics and Pie dough, The fundamental production of classical European pastry based desserts are included, Techniques of Cake Making, Techniques of Cookie making, The course emphasizes the preparation and makeup techniques of various cookies."
+          "Introduction to Patisserie and Baking Principles, Special emphasis placed on the study of ingredient functions",
+          "Students will have the opportunity to apply basic baking techniques",
+          "Understanding fundamentals of yeast dough production, Emphasis on the application of ingredient functions, product identification and recipe interpretation occurs throughout the course",
+          "Pastry Basics and Pie dough, The fundamental production of classical European pastry based desserts are included",
+          "Techniques of Cake Making",
+          "Techniques of Cookie making, The course emphasizes the preparation and makeup techniques of various cookies."
         ],
         "references": [
           "Wayne Gisslen – Professional Baking, (5e), John Wiley USA.",
@@ -271,7 +331,15 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "European Cuisine: Familiarization of ingredients, recipes and preparation of different countries. North American Cuisine: Familiarization of ingredients, recipes and preparation of different countries. South American Cuisine: Familiarization of ingredients, recipes and preparation of different countries. Asian Cuisine: Familiarization of ingredients, recipes and preparation of different countries. Australian Cuisine: Familiarization of ingredients, recipes and preparation of different countries. African Cuisine: Familiarization of ingredients, recipes and preparation of different countries. Molecular Gastronomy: Additives, Tools, and Recipes. Processed Food: Comparison and Critiquing. Mediterranean and European cuisine: Familiarization of ingredients, recipes and preparation of different countries."
+          "European Cuisine: Familiarization of ingredients, recipes and preparation of different countries.",
+          "North American Cuisine: Familiarization of ingredients, recipes and preparation of different countries.",
+          "South American Cuisine: Familiarization of ingredients, recipes and preparation of different countries.",
+          "Asian Cuisine: Familiarization of ingredients, recipes and preparation of different countries.",
+          "Australian Cuisine: Familiarization of ingredients, recipes and preparation of different countries.",
+          "African Cuisine: Familiarization of ingredients, recipes and preparation of different countries.",
+          "Molecular Gastronomy: Additives, Tools, and Recipes.",
+          "Processed Food: Comparison and Critiquing.",
+          "Mediterranean and European cuisine: Familiarization of ingredients, recipes and preparation of different countries."
         ],
         "references": [
           "The Professional Chef - The Culinary Institute of America",
@@ -301,7 +369,13 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "Introduction to advertising; Evolution and history of advertising; Influence of advertising on society and ethics. Advertising as part of marketing mix; Structure and types of ad agencies; Advertising planning; creative strategy and implementation (media strategy). The essentials of advertising on different media platforms – print, broadcast, internet and new media; discuss the difference in planning and execution using examples or campaign case studies. Public Relations-scope; definition; evolution; establish difference between PR and advertising; Identifying stakeholders and various Public Relation tools. Steps in developing a PR program/campaign-stating the problem, planning and programming, action and evaluation; Crisis communication; Ethical issues in Public Relations."
+          "Introduction to advertising; Evolution and history of advertising; Influence of advertising on society and ethics.",
+          "Advertising as part of marketing mix; Structure and types of ad agencies; Advertising planning; creative strategy and implementation (media strategy).",
+          "The essentials of advertising on different media platforms – print, broadcast, internet and new media; discuss the difference in planning and execution using examples or campaign case studies.",
+          "Public Relations-scope; definition; evolution; establish difference between PR and advertising; Identifying stakeholders and various Public Relation tools.",
+          "Steps in developing a PR program/campaign-stating the problem, planning and programming, action and evaluation",
+          "Crisis communication",
+          "Ethical issues in Public Relations."
         ],
         "references": [
           "Butterick, K (2012): Introducing Public Relations: Theory and Practice. New Delhi: SAGE Publications India Pvt. Ltd.",
@@ -330,7 +404,12 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "Photo Journalism: History of Photography and Photo Journalism. Photo Journalism: Definition, Nature, Scope and Functions of Photo Journalism – Qualification and Responsibilities of Photo Journalists, News Photographers and News Value, Types and Sources. Selection, Criteria for News Photographs – Channels of News Pictures – viz., Wire, Satellite, Agency, Stock, Picture Library, Freelancer, Photo Editing, Caption Writing, Photo – Presentation. Legal and Ethical aspects of Photography – Professional Organizations – Camera – Components and Types of Camera – Types of Lens, Types of Films, Types of Filters – Importance of Light and Lighting Equipments – Camera Accessories – Picture appreciation. Digital Camera – Digital Technology and its future – Darkroom Infrastructure – Film developing and Printing"
+          "Photo Journalism: History of Photography and Photo Journalism.",
+          "Photo Journalism: Definition, Nature, Scope and Functions of Photo Journalism – Qualification and Responsibilities of Photo Journalists, News Photographers and News Value, Types and Sources.",
+          "Selection, Criteria for News Photographs – Channels of News Pictures – viz., Wire, Satellite, Agency, Stock, Picture Library, Freelancer, Photo Editing, Caption Writing, Photo – Presentation.",
+          "Legal and Ethical aspects of Photography – Professional Organizations",
+          "Camera – Components and Types of Camera – Types of Lens, Types of Films, Types of Filters – Importance of Light and Lighting Equipments – Camera Accessories – Picture appreciation.",
+          "Digital Camera – Digital Technology and its future – Darkroom Infrastructure – Film developing and Printing"
         ],
         "references": [
           "Basic Photography – Newnes",
@@ -365,8 +444,16 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [
-          "Basic Art Principles: Element of Art & Design, Contour Drawing, Composition Principles, Pencil shading, creating geometry model and shading. Basic Perspective: Still life sketching & Drawing, Styles of shading, Introduction to colors, color still life painting, Layout Design, Creating concepts for Design. Skeleton System, Body Proportions, Upper Body, Lower Body, Back, Hands and Legs. Text: Human Anatomy by Victor Perard, Dynamic Anatomy by Burne Hogarth. Gesture Drawing Tips, Line of Action, Dynamic Poses, Body Weight and Gravity, Clothing. Text: Figure Drawing by Anthony Ryder.",
-          "List of Practical's: 10 Drawings of Human Anatomy Study In Pencil; 50 Drawings of Gesture Drawing In Pencil; 5 Contour Drawing; 2 Still Life Pencil Shading; 2 Color Still Life; 2 Layout Design"
+          "Basic Art Principles: Element of Art & Design, Contour Drawing, Composition Principles, Pencil shading, creating geometry model and shading.",
+          "Basic Perspective: Still life sketching & Drawing, Styles of shading, Introduction to colors, color still life painting, Layout Design, Creating concepts for Design.",
+          "Skeleton System, Body Proportions, Upper Body, Lower Body, Back, Hands and Legs. Text: Human Anatomy by Victor Perard, Dynamic Anatomy by Burne Hogarth.",
+          "Gesture Drawing Tips, Line of Action, Dynamic Poses, Body Weight and Gravity, Clothing. Text: Figure Drawing by Anthony Ryder.",
+          "List of Practical's: 10 Drawings of Human Anatomy Study In Pencil",
+          "50 Drawings of Gesture Drawing In Pencil",
+          "5 Contour Drawing",
+          "2 Still Life Pencil Shading",
+          "2 Color Still Life",
+          "2 Layout Design"
         ],
         "references": [
           "Mastering Composition: Techniques and Principles to Dramatically Improve Your Painting (Mastering (North Light Books)) Hardcover – 25 Jan 2008 by Ian Roberts",
@@ -420,7 +507,23 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute"],
         "syllabus": [
-          "Principles of First Aid, First aid kit and equipment, emergency drugs, scene assessment, safety and identifying hazards, patient assessment, Basic Life Support and AED, triage, extrication/stretchers, ambulance. Describe the causes, signs and symptoms and management of respiratory emergencies, acute gastro-intestinal emergencies, musculoskeletal emergencies, dental, ENT and eye emergencies, renal emergencies, nervous system emergencies, hematological emergencies, endocrine emergencies, toxicological emergencies, environmental emergencies, pediatric emergencies, psychiatric emergencies, obstetrical emergencies"
+          "Principles of First Aid, First aid kit and equipment, emergency drugs",
+          "scene assessment, safety and identifying hazards, patient assessment",
+          "Basic Life Support and AED",
+          "triage, extrication/stretchers, ambulance.",
+          "Describe the causes, signs and symptoms and management of respiratory emergencies",
+          "acute gastro-intestinal emergencies",
+          "musculoskeletal emergencies",
+          "dental, ENT and eye emergencies",
+          "renal emergencies",
+          "nervous system emergencies",
+          "hematological emergencies",
+          "endocrine emergencies",
+          "toxicological emergencies",
+          "environmental emergencies",
+          "pediatric emergencies",
+          "psychiatric emergencies",
+          "obstetrical emergencies"
         ],
         "references": [
           "Pollak, A.N. (2005). Emergency care and transportation of the sick and injured. Massachusetts: Jones and Bartlett publishers.",
@@ -458,7 +561,14 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute"],
         "syllabus": [
-          "Principles and concepts of life style modification and various complementary and alternative therapies, Demonstrate skill in performing different yoga aasanas, guided imagery/Progressive muscle relaxation, meditation & Pranayama, reflexology, massage therapy, aerobics, laughter therapy"
+          "Principles and concepts of life style modification and various complementary and alternative therapies",
+          "Demonstrate skill in performing different yoga aasanas",
+          "guided imagery/Progressive muscle relaxation",
+          "meditation & Pranayama",
+          "reflexology",
+          "massage therapy",
+          "aerobics",
+          "laughter therapy"
         ],
         "references": [
           "Bhat Krishna K. The power of yoga. Suyoga publications; DK, 2006",
@@ -493,7 +603,11 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute"],
         "syllabus": [
-          "Introduction to news writing news in different media, news, definition of news, news values; types of news other theoretical issues relating to news writing. News Reporting Basic of news writing: structure of news reports; writing the lead; the changes in the composition of the lead; techniques of news gathering; sources of news. Reporting various types of reporting (Objective, Interpretative, Investigative,) General assignment reporting/working on a beat. Reporting for news agency, periodicals and magazines. Interviewing: doing the research, conducting the interview, types and formats of interviews, writing interviews"
+          "Introduction to news writing news in different media, news, definition of news, news values; types of news other theoretical issues relating to news writing.",
+          "News Reporting Basic of news writing: structure of news reports; writing the lead; the changes in the composition of the lead; techniques of news gathering; sources of news.",
+          "Reporting various types of reporting (Objective, Interpretative, Investigative,) General assignment reporting/working on a beat.",
+          "Reporting for news agency, periodicals and magazines.",
+          "Interviewing: doing the research, conducting the interview, types and formats of interviews, writing interviews"
         ],
         "references": [
           "Mencher, Melvin (2006): News Reporting and Writing, Mac-Graw Hill, Boston.",
@@ -528,7 +642,11 @@
         "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
         "tags": ["open elective", "inter-institute"],
         "syllabus": [
-          "Print design elements – typography, colours, spacing, pictures, logos, graphics, principles of layout and design – basic writing skills. Photography – SLR camera, Lenses, Apertures and Shutter speeds, Exposure, Understanding light, Filters and assessories, composing a picture, developing and printing, creating special effects. Digital photography – digital camera – digital technology and its future. Television – Introduction to AV Media-pre-production, production, post-production. Show packaging-Camera-characteristics, parts and functions; Mounting accessories and movements. Shots-Types and Uses; Basic composition. Practical video recording process. Radio – Introduction to Radio-Microphone types, characteristics and uses; Cables and Connectors. Recording device-Types and Characters, Audio editing, Programme formats-news, drama, feature and PSA's and Advertising."
+          "Print design elements – typography, colours, spacing, pictures, logos, graphics, principles of layout and design – basic writing skills.",
+          "Photography – SLR camera, Lenses, Apertures and Shutter speeds, Exposure, Understanding light, Filters and assessories, composing a picture, developing and printing, creating special effects.",
+          "Digital photography – digital camera – digital technology and its future.",
+          "Television – Introduction to AV Media-pre-production, production, post-production. Show packaging-Camera-characteristics, parts and functions; Mounting accessories and movements. Shots-Types and Uses; Basic composition. Practical video recording process.",
+          "Radio – Introduction to Radio-Microphone types, characteristics and uses; Cables and Connectors. Recording device-Types and Characters, Audio editing, Programme formats-news, drama, feature and PSA's and Advertising."
         ],
         "references": [
           "Gerald Millerson, “Effective TV production”",
@@ -570,10 +688,13 @@
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [],
         "references": [],
-        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "archive_listing"],
+        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "archive_listing", "search_index_excerpt"],
         "notes": [
           "The official MIT Central Library archive lists Healthcare Information Technology (IIE 4321) in the V semester December 2021–January 2022 session, and Health Care IT (IIE-4321) regular and makeup papers in the VI semester May–June 2023 session. These are archive labels, not independently verified PDF headings or exact examination dates; current availability is unknown.",
           "The linked examination PDFs require SSO and returned Access Denied during research. No syllabus, credit structure, or permanent semester placement is inferred from the archive labels.",
+          "Public search-index excerpts attributed to the old official library PDF explicitly pair HEALTH CARE IT [IIE-4321] with sixth-semester B.Tech end-semester examinations, May–June 2023, 50 marks and 180 minutes. This is indexed text, not downloaded or independently inspected PDF content.",
+          "Indexed examination coverage, not a formal syllabus: electronic health records (2023 question: Analyze the use of Electronic Health Records, with an example.); healthcare interoperability (2023 question: What is Interoperability in Health Care? Illustrate with an example); consumer health informatics (2023 fragment: What is Consumer Health Informatics).",
+          "Further indexed examination coverage from an official-library PDF under the 2024 archive path: components of health-information-technology systems (Describe the components of Health Information Technology Systems?); consumer healthcare informatics (How does Consumer Healthcare Informatics help in healthcare?); remote patient monitoring (truncated fragment: How Remote Patient Monitoring is done in). The indexed heading reads OPEN ELECTIVE-HEALTH CARE IT [IIE4321], 50 marks. The excerpt does not establish an exact examination date; no missing continuation is supplied.",
           "Related official curriculum: the CSE 2022 outline publishes Healthcare IT with placeholder code IIE XXXX and [3 0 0 3]. Its topics cover healthcare delivery and financing, electronic health records, clinical decision support, patient monitoring, medical imaging, consumer informatics, health-information exchange, privacy and security, HIT deployment, AI/ML applications, and Open APIs. It references HealthIT.gov component guides 1, 6, and 7. No explicit numeric-code bridge to IIE 4321 was established, so that syllabus, credits, and reading list have not been assigned to this record."
         ],
         "sources": [
@@ -581,6 +702,16 @@
             "title": "MIT Central Library: historical question-paper catalogue",
             "url": "https://mitmpllibportal.manipal.edu/question-papers-1",
             "note": "Public listing labels for IIE 4321; linked PDFs require SSO. Session labels are not exact examination dates."
+          },
+          {
+            "title": "MIT library: Health Care IT [IIE-4321], May–June 2023 (search-index excerpts)",
+            "url": "https://libportal.manipal.edu/RootFolder/2023/May%20-%20Jun%202023/B.Tech/VI%20Sem/Computer%20Science/Health%20Care%20IT%20(IIE-4321).pdf",
+            "note": "Public search-index heading and selected question fragments recovered November 2026. Old host could not be reached directly; not fulltext or an approved syllabus."
+          },
+          {
+            "title": "MIT library: Open Elective — Health Care IT [IIE4321], 2024 archive path (search-index excerpts)",
+            "url": "https://libportal.manipal.edu/RootFolder/2024/May-June%202024/B.Tech/VI%20Sem/Computer/CSE/Health%20Care%20IT%20(IIE4321).pdf",
+            "note": "Public search-index heading and selected question fragments recovered November 2026. Archive year comes from the URL; browser-print metadata is not treated as an examination date. Direct PDF access was unavailable."
           },
           {
             "title": "MIT B.Tech. Computer Science and Engineering 2022: Healthcare IT",
@@ -783,16 +914,25 @@
         "tags": ["open elective", "inter-institute", "historical"],
         "syllabus": [],
         "references": [],
-        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "archive_listing"],
+        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "archive_listing", "secondary_preview"],
         "notes": [
           "The official MIT Central Library catalogue lists Digital Medicine ( IIE 5202) RCS under the VI semester Biotechnology folder in its June 2019 question-paper archive. This is archive-label evidence only; the PDF requires SSO and returned Access Denied, so its internal heading and exact examination date could not be checked. Current availability, credits, and syllabus remain unknown.",
-          "The historical curriculum separately lists Digital Medicine as IIE 4309. No official equivalence between IIE 5202 and IIE 4309 was established; the other code's syllabus and credits have not been copied. The archive folder does not establish permanent semester placement or programme eligibility."
+          "The historical curriculum separately lists Digital Medicine as IIE 4309. No official equivalence between IIE 5202 and IIE 4309 was established; the other code's syllabus and credits have not been copied. The archive folder does not establish permanent semester placement or programme eligibility.",
+          "A publicly indexed Filo preview contains one readable examination page headed MANIPAL INSTITUTE OF TECHNOLOGY, VI SEMESTER B.TECH. END SEMESTER EXAMINATIONS APR 2019, SUBJECT: DIGITAL MEDICINE [IIE 5202], REVISED CREDIT SYSTEM, with printed date (06/05/2019). The preview was visually inspected, but it is an unauthenticated third-party mirror, not an official publication or an approved syllabus. The exam footer says Page 1 of 2; the following exam image is blurred and cannot establish the remaining questions.",
+          "Readable examination coverage in the secondary preview, not a formal syllabus: history of genomics; DNA blueprint, genes and their features; DNA changes and diseases, identification using ML and sequencing, and technologies to cause DNA changes.",
+          "Further readable examination coverage: imaging informatics; digital technology in imaging; basic principle of MRI; photoacoustic imaging; digital biomedical image management and open-source software.",
+          "Further readable examination coverage: types of clustering and the role of a centroid in K-means clustering. No topics are inferred from the blurred second exam page."
         ],
         "sources": [
           {
             "title": "MIT Central Library: June 2019 question-paper catalogue",
             "url": "https://mitmpllibportal.manipal.edu/question-papers-1",
             "note": "Public archive label Digital Medicine ( IIE 5202) RCS.pdf; PDF access requires SSO."
+          },
+          {
+            "title": "Filo: Digital Medicine [IIE 5202] examination preview (secondary mirror)",
+            "url": "https://filo-exam-content.cdn.askfilo.com/preview-design2/17ea1cd3f4cc6df34c4b60dcad75bae3203841afc30d9fb07c572c69dfbdafdf530082f930f4cfd8e17989d5e8e5a346409bd5cd1f5496cb1d9d959190ead1f2_preview.pdf",
+            "note": "One readable exam page visually checked November 2026; subsequent exam image is blurred. Third-party provenance is unauthenticated; question coverage is not formal syllabus or credit evidence."
           }
         ]
       }

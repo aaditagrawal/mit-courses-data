@@ -11,6 +11,13 @@ test("IIE courses are available through the catalogue and course search", () => 
   assert.ok(meditation.sources?.some((source) => source.url.startsWith("https://")));
   assert.ok(getDepartmentData("iie.json")?.courses.some((course) => course.code === "IIE 4333"));
   assert.ok(getAllCourseSummaries().some((course) => course.code === "IIE 4334"));
+  const artTopics = getCourseByCode("IIE 4301")?.syllabus;
+  assert.ok(artTopics);
+  assert.ok(artTopics.includes("Art & Science"));
+  assert.ok(artTopics.includes("Art & Film"));
+  assert.ok(
+    artTopics.some((topic) => topic.includes("Raja Ravi Verma") && topic.includes("Van Gogh")),
+  );
   assert.equal(searchCourses({ q: "meditation" }).data[0]?.code, "IIE 4333");
   assert.equal(searchCourses({ q: "Tulunadu" }).data[0]?.code, "IIE 4334");
   assert.equal(getCourseByCode("IIE 9999"), undefined);
