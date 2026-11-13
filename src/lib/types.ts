@@ -28,6 +28,12 @@ export interface Course {
   syllabus?: string[];
   references?: string[];
   flags: string[] | null;
+  notes?: string[];
+  sources?: {
+    title: string;
+    url: string;
+    note?: string;
+  }[];
 }
 
 export interface Department {

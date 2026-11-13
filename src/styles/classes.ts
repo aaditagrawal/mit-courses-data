@@ -5,6 +5,8 @@ export type XStyle = stylex.StyleXStyles<Record<string, string | number | null>>
 export type StyledProps<T> = T & { xstyle?: XStyle };
 
 const markers = {
+  courseDataNote: "sx-courseDataNote",
+  courseSourceLink: "sx-courseSourceLink",
   appCourseCodePageStyle1: "sx-appCourseCodePageStyle1",
   appCourseCodePageStyle2: "sx-appCourseCodePageStyle2",
   appCourseCodePageStyle3: "sx-appCourseCodePageStyle3 ui-text-defined",

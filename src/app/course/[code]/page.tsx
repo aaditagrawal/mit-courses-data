@@ -61,6 +61,15 @@ export default async function CoursePage({ params }: Props) {
                 {tag}
               </Badge>
             ))}
+            {course.flags?.includes("historical_syllabus") && (
+              <Badge
+                variant="outline"
+                xstyle={styles.appCourseCodePageStyle16}
+                className="sx-appCourseCodePageStyle16 ui-text-defined"
+              >
+                Historical syllabus and credits
+              </Badge>
+            )}
             {course.sem && (
               <Badge
                 variant="outline"
@@ -96,6 +105,11 @@ export default async function CoursePage({ params }: Props) {
                   className="sx-appCourseCodePageStyle25"
                 >
                   <ul className={styleClass("appCourseCodePageStyle26")}>
+                    {!course.syllabus?.length && (
+                      <li className={styleClass("appCourseCodePageStyle27")}>
+                        A verified syllabus is not yet available for this course.
+                      </li>
+                    )}
                     {course.syllabus?.map((topic, index) => (
                       <li key={index} className={styleClass("appCourseCodePageStyle27")}>
                         <span className={styleClass("appCourseCodePageStyle28")}>
@@ -123,6 +137,40 @@ export default async function CoursePage({ params }: Props) {
                 </ul>
               </section>
             )}
+
+            {course.notes?.length || course.sources?.length ? (
+              <section>
+                <h2 className={styleClass("appCourseCodePageStyle29")}>Data notes and sources</h2>
+                <ul className={styleClass("appCourseCodePageStyle30")}>
+                  {course.notes?.map((note) => (
+                    <li
+                      key={note}
+                      className={styleClass("appCourseCodePageStyle31", styles.courseDataNote)}
+                    >
+                      <span>{note}</span>
+                    </li>
+                  ))}
+                  {course.sources?.map((source) => (
+                    <li
+                      key={source.url}
+                      className={styleClass("appCourseCodePageStyle31", styles.courseDataNote)}
+                    >
+                      <span>
+                        <a
+                          className={styleClass("courseSourceLink")}
+                          href={source.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {source.title}
+                        </a>
+                        {source.note && <> — {source.note}</>}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ) : null}
           </div>
 
           {/* Right Column: Credits & Meta */}
@@ -145,10 +193,10 @@ export default async function CoursePage({ params }: Props) {
                 className="sx-appCourseCodePageStyle36"
               >
                 <div className={styleClass("appCourseCodePageStyle37")}>
-                  <CreditItem label="Lecture" value={course.credits?.l || 0} />
-                  <CreditItem label="Tutorial" value={course.credits?.t || 0} />
-                  <CreditItem label="Practical" value={course.credits?.p || 0} />
-                  <CreditItem label="Total" value={course.credits?.c || 0} isTotal />
+                  <CreditItem label="Lecture" value={course.credits?.l ?? null} />
+                  <CreditItem label="Tutorial" value={course.credits?.t ?? null} />
+                  <CreditItem label="Practical" value={course.credits?.p ?? null} />
+                  <CreditItem label="Total" value={course.credits?.c ?? null} isTotal />
                 </div>
               </CardContent>
             </Card>
@@ -165,13 +213,16 @@ function CreditItem({
   isTotal,
 }: {
   label: string;
-  value: number;
+  value: number | null;
   isTotal?: boolean;
 }) {
   return (
     <div className={styleClass(isTotal ? "appCourseCodePageStyle1" : "appCourseCodePageStyle2")}>
-      <span className={styleClass(isTotal ? "appCourseCodePageStyle3" : "appCourseCodePageStyle4")}>
-        {value}
+      <span
+        className={styleClass(isTotal ? "appCourseCodePageStyle3" : "appCourseCodePageStyle4")}
+        aria-label={value === null ? `${label} credits unknown` : undefined}
+      >
+        {value ?? "—"}
       </span>
       <span className={styleClass("appCourseCodePageStyle38")}>{label}</span>
     </div>

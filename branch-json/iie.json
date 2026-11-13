@@ -1,0 +1,732 @@
+{
+  "department": {
+    "name": "INTER-INSTITUTE ELECTIVES",
+    "courses": [
+      {
+        "sem": null,
+        "code": "IIE 4301",
+        "title": "ART APPRECIATION",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "How to read a visual, how to enjoy or feel an art form, what is Creative Thinking? Indian Art: Heritage & Culture; Art Appreciation: Western Art, Artist & Art Movements: Raja Ravi Verma, Tagore, Da Vinci, Van Gogh; Aesthetics: Beauty, Feel & Expression; Art & Science; Art & Film; Art: Freedom & Society, to be an art literate. A journey to immerse in the world of Art."
+        ],
+        "references": [],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: Centre for Creative and Cultural Studies (CCCS), Manipal. No separate references listed in the source."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=26",
+            "note": "Official PDF page 26, printed p.285; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4302",
+        "title": "INDIAN CULTURE AND CINEMA - AN INTRODUCTION",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "Introduction to Idea of Culture, Identity and tradition, Indian Cultural History, Indian cultural history, Time and space, Indian Art and heritage, Indus valley civilization – Indian Independence, Post-colonial India, Modern India, Indian Cinema, Body, language and feel, Film and culture, Evolution, Interpretation and Reflection, Indian Cinema, Media and the medium, Pioneers and classical films, Culture and art of cinema, Culture, Cinema and Society, Revolutions, ideas, innovations, Culture, Cinema and Peace, Message, purpose and the challenge."
+        ],
+        "references": [],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: Centre for Creative and Cultural Studies (CCCS), Manipal. No separate references listed in the source."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=26",
+            "note": "Official PDF page 26, printed p.285; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4304",
+        "title": "CORPORATE FINANCE",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "Introduction to Corporate Finance, Financial Goal, Agency Problems, Managers vs Shareholders Goals, Concepts of Value and Return, Capital Budgeting Decisions, Cost of Capital, Calculation of the Cost of Capital in Practice, Financial and Operating Leverage, Capital Structure, Relevance of Capital Structure, Irrelevance of Capital Structure, Relevance of Capital Structure, Dividend Theory, Dividend Relevance, Dividend Relevance, Dividend and Uncertainty, Dividend Irrelevance, Principles of Working Capital Management."
+        ],
+        "references": [
+          "Brealey, R., Myers, S., Allen, F., & Mohanty, P. (2014). Principles of Corporate Finance (11e). New Delhi : Mc Graw Hill Education (India) Private Limited,.",
+          "Pandey, I. M. (2014). Financial Management (10e). New Delhi: Vikas publishers.",
+          "Ross, S. A., Westerfield, R. W., Jaffe, J., & Kakani, R. K. (2014). Corporate Finance (10e). New Delhi: Mc Graw Hill Education (India) Private Limited.",
+          "Parasuraman, N. R. (2014). Financial Management - A Step-by-Step Approach (1e.). New Delhi: Cengage Learning India Private Limited."
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: Manipal Institute of Management, Manipal. Repeated topic phrases are preserved from the source."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=26",
+            "note": "Official PDF page 26, printed p.285; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4305",
+        "title": "INTERNATIONAL BUSINESS MANAGEMENT",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "Historical perspective of international business, International business environment, Modes of entering international business, Cross-Culture and dynamic market understanding, Differences in Culture, Theories of international business, World Bank, World trade organization, Multinational Corporations and their involvement in International Business, Tariffs and quotas, Balance of Payment Account."
+        ],
+        "references": [
+          "Hill Charles, W. L., & Jain Arun, K. (2011). International Business: Competing in the Global Marketplace. (8e), Tata McGraw Hill.",
+          "Kumar, S. P., & Sanchari, S. (2012). International Business Management-AGlobal Perspective. New Delhi: Excel Books."
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: Manipal Institute of Management, Manipal."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=26",
+            "note": "Official PDF page 26, printed p.285; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4306",
+        "title": "BRAND MANAGEMENT",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "Introduction to brand management, Developing a brand strategy, Brand resonance and brand value chain, Designing and implementing brand marketing programs to build brand equity, Measuring and interpreting brand performance, Designing and implementing brand architecture strategies, Managing brands."
+        ],
+        "references": [
+          "Keller, K. L., Parameswaran, M. G., Jacob, I. (2015). Strategic Brand Management (4e). Noida, India: Pearson Prentice Hall Publication.",
+          "Rowles, D., (2014). Digital Branding (1e.). UK: Kogan Page Limited.",
+          "Kapferer, J. N., (2012). The New Strategic Brand Management: Advanced Insights and Strategic Thinking (5e). UK: Kogan Page Limited"
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: Manipal Institute of Management, Manipal."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=26",
+            "note": "Official PDF page 26, printed p.285; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4307",
+        "title": "YOGA",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "Aim, Obiectives, Meanings and Definitions of Yoga, History of Yoga, Concepts and misconcepts of Yoga, Schools of Yoga, Ashtanga Yoga"
+        ],
+        "references": [],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: Centre for Integrative Medicine & Research (CIMR). No separate references listed in the source.",
+          "Kept separate from IIE 4324 Yoga: no official code equivalence or renumbering has been established. Source spellings Obiectives and misconcepts are preserved."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=26",
+            "note": "Official PDF page 26, printed p.285; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits under IIE 4307 only."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4308",
+        "title": "HEALTH ECONOMICS",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "Economics: Understanding Economics, Efficiency, Rational decision making, Opportunity costs, Supply and demand, Price discovery, Health economics: Defining health, Human capital, what does supply and demand mean in the context of health? Arrow on the uncertainty and welfare economics, The Moral hazard, DALY and QALY, Efficiency: The Production possibility frontiers. The production function for health care. Health policy, Defining equity, Standards of healthcare provision Epidemiology, The Healthcare sector, The demand for health, Disease prevalence, The pharmaceuticals market, Cross country case studies."
+        ],
+        "references": [
+          "Sloan, Frank A., and Chee-Ruey Hsieh. Health economics. MIT Press, 2012",
+          "Annemans, L. Health economics for non-economists. An introduction to the concepts, methods and pitfalls of health economic evaluations. Academia Press, 2008",
+          "Jeffery, Roger. The politics of health in India. University of California Press, 1988."
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider grouping: Subjects by Industry Experts; no individual institute or instructor is identified."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=26",
+            "note": "Official PDF page 26, printed p.285; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4309",
+        "title": "DIGITAL MEDICINE",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "Present day practice of medicine. Limitations of scalability in the present framework. Introduction to computing, algorithms, big data, semantic web, mobility. Communication-WAN/LAN, 3G/4G and 5G. Patient/Electronic Health records. Experience with these records elsewhere Wearables, the physics of data capture. Practical demonstration of wearables Genomics, an introduction. Computational genomics including the software. Imaging –an introduction-ionizing and non-ionizing. Imaging software and science of diagnosis. How all the four 4 pillars-PHR/EHR, Wearables, Genomics and Imaging come together with software as the glue to change the world of medicine."
+        ],
+        "references": [
+          "David Mount. Bioinformatics: Sequence and Genome Analysis. CSHL, 2001",
+          "Durbin, Richard, Sean Eddy, Anders Krogh, and Graeme. Biological Sequence Analysis: Probabilistic Models of Proteins and Nucleic Acids. Cambridge University Press, 1999"
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider grouping: Subjects by Industry Experts; no individual institute or instructor is identified."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=26",
+            "note": "Official PDF page 26, printed p.285; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4312",
+        "title": "INDIAN CUISINE AND CULTURE PRACTICAL",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "Introduction to Indian cuisine, Basic Indian gravies, Rice cooking, Preparation of various rice products, Tandoor Cooking, Indian sweets, Comfort Food, Regional and sub-regional cuisine."
+        ],
+        "references": [],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: Welcomegroup Graduate School of Hotel Administration, Manipal. No separate references listed in the source. The source explicitly prints [3 0 0 3] despite PRACTICAL in the title."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=27",
+            "note": "Official PDF page 27, printed p.286; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4313",
+        "title": "FOUNDATION COURSE IN BAKING AND PATISSERIE PRACTICAL",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "Introduction to Patisserie and Baking Principles, Special emphasis placed on the study of ingredient functions, Students will have the opportunity to apply basic baking techniques, Understanding fundamentals of yeast dough production, Emphasis on the application of ingredient functions, product identification and recipe interpretation occurs throughout the course, Pastry Basics and Pie dough, The fundamental production of classical European pastry based desserts are included, Techniques of Cake Making, Techniques of Cookie making, The course emphasizes the preparation and makeup techniques of various cookies."
+        ],
+        "references": [
+          "Wayne Gisslen – Professional Baking, (5e), John Wiley USA.",
+          "Haneman L.J. Bakery: Flour Confectionery HEINMAN.",
+          "Mermaid Books The Book Of Ingredients DOWELL PHILIP.",
+          "John Wiley Understanding Baking AMENDOLA JOSEPH.",
+          "New Age International, A Professional Text to Bakery and Confectionery, KINGSLEE JOHN.",
+          "Virtue And Company Ltd., The New International Confectioner: WILFRED J. FRANCE.",
+          "Charrette Jacques, Great Cakes and Pastries, TEUBNER CHRISTIAN.",
+          "Joseph Amendola, Baker's Manual, (5e), NICOLE REES.",
+          "Joseph Amendola, Understanding Baking, (3e), NICOLE REES.",
+          "Culinary Institute Of America, Baking and Pastry: Mastering the Art and Craft, JOHN WILEY."
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: Welcomegroup Graduate School of Hotel Administration, Manipal. The source explicitly prints [3 0 0 3] despite PRACTICAL in the title.",
+          "The paragraph continues from the left column to the right column on printed p.286; its continuation and all ten references are included here."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=27",
+            "note": "Official PDF page 27, printed p.286; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details. Read across both columns."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4314",
+        "title": "GLOBAL CUISINE & CULTURE- PRACTICAL",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "European Cuisine: Familiarization of ingredients, recipes and preparation of different countries. North American Cuisine: Familiarization of ingredients, recipes and preparation of different countries. South American Cuisine: Familiarization of ingredients, recipes and preparation of different countries. Asian Cuisine: Familiarization of ingredients, recipes and preparation of different countries. Australian Cuisine: Familiarization of ingredients, recipes and preparation of different countries. African Cuisine: Familiarization of ingredients, recipes and preparation of different countries. Molecular Gastronomy: Additives, Tools, and Recipes. Processed Food: Comparison and Critiquing. Mediterranean and European cuisine: Familiarization of ingredients, recipes and preparation of different countries."
+        ],
+        "references": [
+          "The Professional Chef - The Culinary Institute of America",
+          "Practical Cookery - Kinton, Ceserani and Foskett",
+          "Food Production Operation - Parvinder S. Bali",
+          "Professional Cooking - Wayne Gisslen",
+          "Cookery for the Hospitality Industry - Dodgshun Peters",
+          "Modern Cookery - Thangam E Phillips"
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: Welcomegroup Graduate School of Hotel Administration, Manipal. The source explicitly prints [3 0 0 3] despite PRACTICAL in the title."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=27",
+            "note": "Official PDF page 27, printed p.286; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4316",
+        "title": "INTRODUCTION TO ADVERTISING & PUBLIC RELATIONS",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "Introduction to advertising; Evolution and history of advertising; Influence of advertising on society and ethics. Advertising as part of marketing mix; Structure and types of ad agencies; Advertising planning; creative strategy and implementation (media strategy). The essentials of advertising on different media platforms – print, broadcast, internet and new media; discuss the difference in planning and execution using examples or campaign case studies. Public Relations-scope; definition; evolution; establish difference between PR and advertising; Identifying stakeholders and various Public Relation tools. Steps in developing a PR program/campaign-stating the problem, planning and programming, action and evaluation; Crisis communication; Ethical issues in Public Relations."
+        ],
+        "references": [
+          "Butterick, K (2012): Introducing Public Relations: Theory and Practice. New Delhi: SAGE Publications India Pvt. Ltd.",
+          "Cutlip, Center & Broom, (2000): Effective Public Relations.USA: Prentice Hall International.",
+          "Jaishri Jethwaney and Shruti Jain, (2012): Advertising Management. New Delhi: Oxford University Press",
+          "Reddi, C.V.N. (2009): Effective Public Relations and Media Strategy. New Delhi: PHI Learning Pvt. Ltd.",
+          "Sharma, S. & Singh, R. (2009): Advertising Planning and Implementation. New Delhi: PHI Learning Pvt. Ltd."
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: School of Communication, Manipal."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=28",
+            "note": "Official PDF page 28, printed p.287; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4317",
+        "title": "BASIC PHOTOGRAPHY",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "Photo Journalism: History of Photography and Photo Journalism. Photo Journalism: Definition, Nature, Scope and Functions of Photo Journalism – Qualification and Responsibilities of Photo Journalists, News Photographers and News Value, Types and Sources. Selection, Criteria for News Photographs – Channels of News Pictures – viz., Wire, Satellite, Agency, Stock, Picture Library, Freelancer, Photo Editing, Caption Writing, Photo – Presentation. Legal and Ethical aspects of Photography – Professional Organizations – Camera – Components and Types of Camera – Types of Lens, Types of Films, Types of Filters – Importance of Light and Lighting Equipments – Camera Accessories – Picture appreciation. Digital Camera – Digital Technology and its future – Darkroom Infrastructure – Film developing and Printing"
+        ],
+        "references": [
+          "Basic Photography – Newnes",
+          "The Hamlyn Basic Guide to Photography – Hamlyn",
+          "Hamlyn Encyclopedia of Photography – Hamlyn",
+          "Photographing People – Guglielmezei",
+          "History of Photography – Cyernshem G R",
+          "Photo Journalism – Rothsteline",
+          "Techniques of Photo Journalism – Milten Feinberg",
+          "Freelance Photography – Jechsend Gedsey",
+          "Picture Editing – Stanley E Kalish and Clifton C Edom",
+          "News Photography – Jack Price",
+          "1000 Ideas for better News Picture – High Sidley and Rodney Fox"
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: School of Communication, Manipal. Reference spellings are transcribed as printed."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=28",
+            "note": "Official PDF page 28, printed p.287; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4319",
+        "title": "GRAPHIC & SKETCHING",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [
+          "Basic Art Principles: Element of Art & Design, Contour Drawing, Composition Principles, Pencil shading, creating geometry model and shading. Basic Perspective: Still life sketching & Drawing, Styles of shading, Introduction to colors, color still life painting, Layout Design, Creating concepts for Design. Skeleton System, Body Proportions, Upper Body, Lower Body, Back, Hands and Legs. Text: Human Anatomy by Victor Perard, Dynamic Anatomy by Burne Hogarth. Gesture Drawing Tips, Line of Action, Dynamic Poses, Body Weight and Gravity, Clothing. Text: Figure Drawing by Anthony Ryder.",
+          "List of Practical's: 10 Drawings of Human Anatomy Study In Pencil; 50 Drawings of Gesture Drawing In Pencil; 5 Contour Drawing; 2 Still Life Pencil Shading; 2 Color Still Life; 2 Layout Design"
+        ],
+        "references": [
+          "Mastering Composition: Techniques and Principles to Dramatically Improve Your Painting (Mastering (North Light Books)) Hardcover – 25 Jan 2008 by Ian Roberts",
+          "Layout Essentials: 100 Design Principles for Using Grids (Design Essentials) Paperback – 1 by Beth Tondreau",
+          "Pencil Drawing: Learn how to develp drawings from start to finish with techniques for shading, contrast, texture, and detail (Artist's Library) Paperback – 1 Jan 1988 by Gene Franks",
+          "Drawing the Head and Figure – Jack Hamm",
+          "Dynamic Anatomy – Burne Hogarth",
+          "The artists complete guide to Human figure Drawing – Anthony Ryder",
+          "Human Anatomy – Victor Perard"
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: School of Communication, Manipal. Practical counts are 10, 50, 5, 2, 2, 2; the PDF bullet glyph extracted as 4 is not a count or multiplier.",
+          "Distinct from MED 4302 Graphic Designing. Reference spellings are transcribed as printed."
+        ],
+        "sources": [
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=28",
+            "note": "Official PDF page 28, printed p.287; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4320",
+        "title": "FINANCIAL STATEMENT ANALYSIS LINKING ACCOUNTING NUMBERS TO BUSINESS DECISIONS",
+        "credits": null,
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [],
+        "references": [],
+        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "secondary_listing"],
+        "notes": [
+          "Historical secondary listing only; no official syllabus, credits, references or current offering details have been verified.",
+          "MTTN editorial description, not a formal syllabus: The course offers an insight into the functions of the financial department in a business firm, as well as teaches accounting principles to prepare financial statements. This elective is ideal for those who want to learn various financing choices, investments, and funding alternatives.",
+          "The guide is headed Open Electives (V Semester) 2021 but its URL slug says 2020. This entry has no Course Summary block; the article's general attribution of Course Summaries to the Academic Handbook does not establish an official syllabus for this editorial description."
+        ],
+        "sources": [
+          {
+            "title": "MTTN Freshers' Guide: Open Electives (V Semester) 2021",
+            "url": "https://freshers.manipalthetalk.org/articles/open-electives-v-semester-2020",
+            "note": "Secondary guide by Alankriti Singh and Naintara Singh; heading says 2021, slug says 2020. Supports code/title and an editorial description only, not verified credits or formal syllabus."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4310",
+        "title": "MEDICAL EMERGENCY AND FIRST AID",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute"],
+        "syllabus": [
+          "Principles of First Aid, First aid kit and equipment, emergency drugs, scene assessment, safety and identifying hazards, patient assessment, Basic Life Support and AED, triage, extrication/stretchers, ambulance. Describe the causes, signs and symptoms and management of respiratory emergencies, acute gastro-intestinal emergencies, musculoskeletal emergencies, dental, ENT and eye emergencies, renal emergencies, nervous system emergencies, hematological emergencies, endocrine emergencies, toxicological emergencies, environmental emergencies, pediatric emergencies, psychiatric emergencies, obstetrical emergencies"
+        ],
+        "references": [
+          "Pollak, A.N. (2005). Emergency care and transportation of the sick and injured. Massachusetts: Jones and Bartlett publishers.",
+          "Keen, J. H. (1996). Mosby's Critical Care and Emergency Drug Reference. Missouri: Mosby's year book.",
+          "Walsh, M. (1990). Accident and emergency nursing. A new approach. Oxford: Butterworth Heinemann Ltd.",
+          "Sbaih, L. (1992). Accident and emergency Nursing. A nursing model. London: Chapman and Hall.",
+          "Sbaih, L. (1994). Issues in accident and emergency Nursing. London: Chapman and Hall.",
+          "Bourg, P., & Rosen, S. P. (1986). Standardized nursing care plans for emergency departments. Missouri: The C. V. Mosby Company.",
+          "Howard, P.K., &Steinmann, R. A. (2010). Sheehy's Emergency Nursing principles and practice. Missouri: Mosby Elsevier.",
+          "Sira.S, (2017). First Aid Manual for Nurses (First ed.), New Delhi: CBS Publishers & Distributors Pvt. Ltd."
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Listed in the VI semester allocation dataset for AY 2025–26. This confirms a past allocation, not current availability or a verified syllabus.",
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: Manipal College of Nursing Manipal."
+        ],
+        "sources": [
+          {
+            "title": "VI semester elective allocations, AY 2025–26",
+            "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/sixth-semester.json#L239-L308",
+            "note": "Public course-level allocation aggregates; code and title only, not an official curriculum publication."
+          },
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=27",
+            "note": "Official PDF page 27, printed p.286; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details. PDF metadata modification date 2020-04-03 is not an established publication date."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4311",
+        "title": "LIFE STYLE MODIFICATION AND COMPLEMENTARY AND ALTERNATIVE THERAPIES",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute"],
+        "syllabus": [
+          "Principles and concepts of life style modification and various complementary and alternative therapies, Demonstrate skill in performing different yoga aasanas, guided imagery/Progressive muscle relaxation, meditation & Pranayama, reflexology, massage therapy, aerobics, laughter therapy"
+        ],
+        "references": [
+          "Bhat Krishna K. The power of yoga. Suyoga publications; DK, 2006",
+          "M.M.Gore. Anatomy & Physiology of yogic practices; (5e), New age book.",
+          "K N Udupa. Stress and its management by yoga. (2e). Motilal Banarsidas publishers Pvt. Ltd, Delhi, 2007.",
+          "Yoga and total health. A monthly journal on the yoga a way of life.",
+          "Swami Satyananda Saraswati. Dynamics of yoga. (2e), Bihar school of yoga, Bihar 1997."
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Listed in the VII semester allocation dataset for AY 2026–27. This confirms an allocation, not availability in every term or a verified syllabus.",
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: Manipal College of Nursing Manipal."
+        ],
+        "sources": [
+          {
+            "title": "VII semester elective allocations, AY 2026–27",
+            "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/seventh-semester.json#L249-L308",
+            "note": "Public course-level allocation aggregates; code and title only, not an official curriculum publication."
+          },
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=27",
+            "note": "Official PDF page 27, printed p.286; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4315",
+        "title": "REPORTING AND WRITING",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute"],
+        "syllabus": [
+          "Introduction to news writing news in different media, news, definition of news, news values; types of news other theoretical issues relating to news writing. News Reporting Basic of news writing: structure of news reports; writing the lead; the changes in the composition of the lead; techniques of news gathering; sources of news. Reporting various types of reporting (Objective, Interpretative, Investigative,) General assignment reporting/working on a beat. Reporting for news agency, periodicals and magazines. Interviewing: doing the research, conducting the interview, types and formats of interviews, writing interviews"
+        ],
+        "references": [
+          "Mencher, Melvin (2006): News Reporting and Writing, Mac-Graw Hill, Boston.",
+          "Scalnan, Christopher (2000): Reporting and Writing: Basics for the 21st Century, Harcourt College Publishers.",
+          "Harrington Walt (1997) Intimate Journalism: The Art and Craft of Reporting Everyday Life, Sage Publications.",
+          "Carole, Rich (2007), Writing and Reporting News: A Coaching Method, Thomson Learning Inc.Kamath, K.V. (1993): Journalists' Handbook, Vikas Publishing House.",
+          "Aggarwal, Vir Bala (2006): Essentials of Practical Journalism, Concept Publishing Company."
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Listed in the VI semester allocation dataset for AY 2025–26 as OPEN ELCTIVE - REPORTING AND WRITING. This confirms a past allocation, not current availability or a verified syllabus.",
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: School of Communication, Manipal. Reference item 4 combines Carole Rich and Kamath in the source; its wording is preserved."
+        ],
+        "sources": [
+          {
+            "title": "VI semester elective allocations, AY 2025–26",
+            "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/sixth-semester.json#L239-L308",
+            "note": "Public course-level allocation aggregates; code and title only, not an official curriculum publication."
+          },
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=27",
+            "note": "Official PDF page 27, printed p.286; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4318",
+        "title": "MEDIA PRODUCTION TECHNIQUES",
+        "credits": { "l": 3, "t": 0, "p": 0, "c": 3 },
+        "tags": ["open elective", "inter-institute"],
+        "syllabus": [
+          "Print design elements – typography, colours, spacing, pictures, logos, graphics, principles of layout and design – basic writing skills. Photography – SLR camera, Lenses, Apertures and Shutter speeds, Exposure, Understanding light, Filters and assessories, composing a picture, developing and printing, creating special effects. Digital photography – digital camera – digital technology and its future. Television – Introduction to AV Media-pre-production, production, post-production. Show packaging-Camera-characteristics, parts and functions; Mounting accessories and movements. Shots-Types and Uses; Basic composition. Practical video recording process. Radio – Introduction to Radio-Microphone types, characteristics and uses; Cables and Connectors. Recording device-Types and Characters, Audio editing, Programme formats-news, drama, feature and PSA's and Advertising."
+        ],
+        "references": [
+          "Gerald Millerson, “Effective TV production”",
+          "Peter Jarvis, “The Essential TV director's Handbook",
+          "Hamlyn “Basic guide to photography”",
+          "Ralph Milton “Radio programming – a basic training manual”",
+          "Tomlinson Holman “Sound for film and television”",
+          "Reporting and writing by Melwin Mencher"
+        ],
+        "flags": ["missing_semester", "historical_syllabus"],
+        "notes": [
+          "Listed in the VI semester allocation dataset for AY 2025–26 and VII semester dataset for AY 2026–27. Offering semesters can vary by academic year.",
+          "Syllabus and credits are from the historical 2018–2022 curriculum, explicitly [3 0 0 3]; current offering details may differ.",
+          "Historical provider: School of Communication, Manipal."
+        ],
+        "sources": [
+          {
+            "title": "VI semester elective allocations, AY 2025–26",
+            "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/sixth-semester.json#L239-L308",
+            "note": "Public course-level allocation aggregates; not a syllabus."
+          },
+          {
+            "title": "VII semester elective allocations, AY 2026–27",
+            "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/seventh-semester.json#L249-L308",
+            "note": "Public course-level allocation aggregates; not a syllabus."
+          },
+          {
+            "title": "MIT B.Tech. Aeronautical Course Outline (2018–2022): Inter Institute Open Electives",
+            "url": "https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=28",
+            "note": "Official PDF page 28, printed p.287; provenance link label 2018–2022. Historical [3 0 0 3] syllabus and credits, not current allocation details."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4324",
+        "title": "YOGA",
+        "credits": null,
+        "tags": ["open elective", "inter-institute"],
+        "syllabus": [],
+        "references": [],
+        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "secondary_listing"],
+        "notes": [
+          "Listed in the VI semester allocation dataset for AY 2025–26 and VII semester dataset for AY 2026–27. Offering semesters can vary by academic year.",
+          "Older sources list Yoga as IIE 4307. No official equivalence between IIE 4307 and IIE 4324 has been established, so the older syllabus and credits have not been copied."
+        ],
+        "sources": [
+          {
+            "title": "VI semester elective allocations, AY 2025–26",
+            "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/sixth-semester.json#L239-L308",
+            "note": "Public course-level allocation aggregates; not a syllabus."
+          },
+          {
+            "title": "VII semester elective allocations, AY 2026–27",
+            "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/seventh-semester.json#L249-L308",
+            "note": "Public course-level allocation aggregates; not a syllabus."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4333",
+        "title": "MEDITATION AND CONSCIOUS LIVING COURSE",
+        "credits": null,
+        "tags": ["open elective", "inter-institute"],
+        "syllabus": [],
+        "references": [],
+        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "secondary_listing"],
+        "notes": [
+          "Listed in the VI semester allocation dataset for AY 2025–26 and independently in a student-posted elective list. Current availability and the MIT elective syllabus have not been verified.",
+          "An official MAHE retrospective report describes a certificate course with this title, organised by the Manipal Health Literacy Unit, Department of Social and Health Innovation, PSPH, with Darshan Education Foundation in April–May 2024. This is related course information, not confirmation of the IIE syllabus."
+        ],
+        "sources": [
+          {
+            "title": "VI semester elective allocations, AY 2025–26",
+            "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/sixth-semester.json#L279-L288",
+            "note": "Public course-level allocation aggregates; code and title only, not a syllabus."
+          },
+          {
+            "title": "Manipal Academics: sixth-semester inter-institute elective list",
+            "url": "https://www.reddit.com/r/Manipal_Academics/comments/1pcauym/what_are_all_the_oes_offered_by_colleges_other/",
+            "note": "Student-posted evidence for the IIE code and title, not an official syllabus."
+          },
+          {
+            "title": "MAHE PSPH: Meditation and Conscious Living Course (2024)",
+            "url": "https://www.manipal.edu/psph/news-events/Meditation-and-Conscious-Living-Course-April-18-2024-to-May-30-2024.html",
+            "note": "Official retrospective report for a similarly named certificate course."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4334",
+        "title": "DISCERNING INDIA: LIVING CULTURES OF TULUNADU",
+        "credits": null,
+        "tags": ["open elective", "inter-institute"],
+        "syllabus": [],
+        "references": [],
+        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "secondary_listing"],
+        "notes": [
+          "Listed in the VI semester allocation dataset for AY 2025–26 and independently in a student-posted elective list. Current availability and the MIT elective syllabus have not been verified.",
+          "MAHE describes a similarly named online course introducing the cultural heritage of Tulunadu through lectures, video documentaries, and reading materials. Its published units are Yakshagana, Kambala, Naga Worship, Bhuta Worship, Siri Worship, and Pilivesha. Equivalence to the MIT elective has not been verified.",
+          "The related certificate is offered by the Centre for Intercultural Studies and Dialogue (CISD), housed in Manipal Centre for European Studies. CISD documents an original two-credit/four-unit version and a three-credit/six-unit version from February 2025. Neither establishes the credit structure of IIE 4334.",
+          "Related reading: Living Cultures of Tulunadu, Praveen Shetty and Nithesh Anchan, Manipal Universal Press. The book has not been verified as prescribed reading for the MIT elective."
+        ],
+        "sources": [
+          {
+            "title": "VI semester elective allocations, AY 2025–26",
+            "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/sixth-semester.json#L289-L298",
+            "note": "Public course-level allocation aggregates; code and title only, not a syllabus."
+          },
+          {
+            "title": "Manipal Academics: sixth-semester inter-institute elective list",
+            "url": "https://www.reddit.com/r/Manipal_Academics/comments/1pcauym/what_are_all_the_oes_offered_by_colleges_other/",
+            "note": "Student-posted evidence for the IIE code and title, not an official syllabus."
+          },
+          {
+            "title": "MAHE CISD: Discerning India — Living Cultures of Tulunadu",
+            "url": "https://cia.manipal.edu/mu/important-links/centres-mahe/cisd/DiscerningIndia.html",
+            "note": "Official description and six units for the online course; the page does not identify an IIE code."
+          },
+          {
+            "title": "MAHE: Centre for Intercultural Studies and Dialogue",
+            "url": "https://cia.manipal.edu/mu/important-links/centres-mahe/cisd.html",
+            "note": "Official provider and certificate-course version history; not proof of MIT elective credits."
+          },
+          {
+            "title": "Manipal Universal Press: Living Cultures of Tulunadu",
+            "url": "https://mup.manipal.edu/product/living-cultures-of-tulunadu-2",
+            "note": "Related book and table of contents, not a confirmed prescribed textbook."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4335",
+        "title": "INTRODUCTION TO FOREIGN LANGUAGE - FRENCH I",
+        "credits": null,
+        "tags": ["open elective", "inter-institute"],
+        "syllabus": [],
+        "references": [],
+        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "secondary_listing"],
+        "notes": [
+          "Listed in the VI semester allocation dataset for AY 2025–26 and VII semester dataset for AY 2026–27. Offering semesters can vary by academic year."
+        ],
+        "sources": [
+          {
+            "title": "VI semester elective allocations, AY 2025–26",
+            "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/sixth-semester.json#L239-L308",
+            "note": "Public course-level allocation aggregates; not a syllabus."
+          },
+          {
+            "title": "VII semester elective allocations, AY 2026–27",
+            "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/seventh-semester.json#L249-L308",
+            "note": "Public course-level allocation aggregates; not a syllabus."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4340",
+        "title": "YAKSHAGANA FOR BEGINNERS",
+        "credits": null,
+        "tags": ["open elective", "inter-institute"],
+        "syllabus": [],
+        "references": [],
+        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "secondary_listing"],
+        "notes": [
+          "Listed in the VII semester allocation dataset for AY 2026–27. This confirms an allocation, not availability in every term or a verified syllabus."
+        ],
+        "sources": [
+          {
+            "title": "VII semester elective allocations, AY 2026–27",
+            "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/seventh-semester.json#L249-L308",
+            "note": "Public course-level allocation aggregates; code and title only, not an official curriculum publication."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 4341",
+        "title": "COMMUNICATIVE KANNADA",
+        "credits": null,
+        "tags": ["open elective", "inter-institute"],
+        "syllabus": [],
+        "references": [],
+        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "secondary_listing"],
+        "notes": [
+          "Listed in the VII semester allocation dataset for AY 2026–27. This confirms an allocation, not availability in every term or a verified syllabus."
+        ],
+        "sources": [
+          {
+            "title": "VII semester elective allocations, AY 2026–27",
+            "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/seventh-semester.json#L249-L308",
+            "note": "Public course-level allocation aggregates; code and title only, not an official curriculum publication."
+          }
+        ]
+      }
+    ]
+  }
+}

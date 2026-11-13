@@ -16,6 +16,7 @@ import eeeData from "../../branch-json/eee.json";
 import humData from "../../branch-json/hum.json";
 import iceData from "../../branch-json/ice.json";
 import ictData from "../../branch-json/ict.json";
+import iieData from "../../branch-json/iie.json";
 import industrialEngData from "../../branch-json/industrial-eng.json";
 import mechData from "../../branch-json/mech.json";
 import mechxData from "../../branch-json/mechx.json";
@@ -37,6 +38,7 @@ const allDepartments: Array<{ data: { department: Department }; file: string }> 
   { data: humData, file: "hum" },
   { data: iceData, file: "ice" },
   { data: ictData, file: "ict" },
+  { data: iieData, file: "iie" },
   { data: industrialEngData, file: "industrial-eng" },
   { data: mechData, file: "mech" },
   { data: mechxData, file: "mechx" },

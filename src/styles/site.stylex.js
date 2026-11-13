@@ -5,6 +5,13 @@
 import * as stylex from "@stylexjs/stylex";
 
 export const styles = stylex.create({
+  "courseDataNote": {
+    "color": "var(--foreground)"
+  },
+  "courseSourceLink": {
+    "textDecorationLine": "underline",
+    "textUnderlineOffset": "4px"
+  },
   "appCourseCodePageStyle1": {
     "display": "flex",
     "flexDirection": "column",
@@ -434,7 +441,7 @@ export const styles = stylex.create({
     "display": "grid",
     "gridTemplateColumns": {
       "default": "repeat(2,minmax(0,1fr))",
-      "@media (min-width:40rem)": "repeat(4,minmax(0,1fr))"
+      "@media (40rem <= width < 48rem)": "repeat(4,minmax(0,1fr))"
     }
   },
   "appCourseCodePageStyle38": {
