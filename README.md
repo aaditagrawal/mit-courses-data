@@ -149,9 +149,11 @@ Course data is stored in JSON files in the `branch-json/` directory. Each file r
 
 ### Inter-institute electives
 
-`branch-json/iie.json` combines historical MIT curriculum records with recent public elective-allocation listings. Every IIE record includes `sources` (title, URL, and scope) and `notes` that distinguish historical syllabi, recent allocation evidence, and related MAHE certificate courses. Sources are also displayed on the course page and included in the course API response.
+`branch-json/iie.json` combines historical MIT curriculum records with recent public elective-allocation listings and official library archive labels. Every IIE record includes `sources` (title, URL, and scope) and `notes` that distinguish historical syllabi, recent allocation evidence, archive labels, and related MAHE certificate courses. Sources are also displayed on the course page and included in the course API response.
 
 The official [2018–2022 Aeronautical course outline](https://cia.manipal.edu/content/dam/manipal/mu/mit/documents/B.Tech.%20Aeronautical-Structure.pdf#page=26) contains the historical inter-institute syllabi on PDF pages 26–28 (printed pages 285–287). Its credit structures describe that curriculum, not a guarantee of current credits or availability. Recent allocation evidence comes from the revision-pinned [VI and VII semester datasets](https://github.com/aaditagrawal/elective-cutoffs/tree/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data). Allocation listings establish course codes and titles, not syllabi or credits.
+
+Records flagged `archive_listing` are supported only by public labels in the [MIT Central Library question-paper catalogue](https://mitmpllibportal.manipal.edu/question-papers-1). Their PDFs require SSO; the labels do not verify internal PDF headings, exact examination dates, syllabi, or credits. Related curriculum with a placeholder code is not assigned to a numeric IIE code without an explicit mapping.
 
 Unknown credits remain `null`, missing syllabi remain empty, and data-quality `flags` identify incomplete or historical records. A single offering semester is left unknown where the evidence is limited to dated allocation lists or varies by year. Related certificate-course descriptions belong in `notes`, not the MIT `syllabus`; related books are not listed as prescribed `references` without evidence. In particular, historical Yoga (`IIE 4307`) and recent Yoga (`IIE 4324`) remain separate until an official equivalence is established. These records do not automatically change any degree's elective pool.
 

@@ -564,6 +564,33 @@
       },
       {
         "sem": null,
+        "code": "IIE 4321",
+        "title": "HEALTHCARE INFORMATION TECHNOLOGY",
+        "credits": null,
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [],
+        "references": [],
+        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "archive_listing"],
+        "notes": [
+          "The official MIT Central Library archive lists Healthcare Information Technology (IIE 4321) in the V semester December 2021–January 2022 session, and Health Care IT (IIE-4321) regular and makeup papers in the VI semester May–June 2023 session. These are archive labels, not independently verified PDF headings or exact examination dates; current availability is unknown.",
+          "The linked examination PDFs require SSO and returned Access Denied during research. No syllabus, credit structure, or permanent semester placement is inferred from the archive labels.",
+          "Related official curriculum: the CSE 2022 outline publishes Healthcare IT with placeholder code IIE XXXX and [3 0 0 3]. Its topics cover healthcare delivery and financing, electronic health records, clinical decision support, patient monitoring, medical imaging, consumer informatics, health-information exchange, privacy and security, HIT deployment, AI/ML applications, and Open APIs. It references HealthIT.gov component guides 1, 6, and 7. No explicit numeric-code bridge to IIE 4321 was established, so that syllabus, credits, and reading list have not been assigned to this record."
+        ],
+        "sources": [
+          {
+            "title": "MIT Central Library: historical question-paper catalogue",
+            "url": "https://mitmpllibportal.manipal.edu/question-papers-1",
+            "note": "Public listing labels for IIE 4321; linked PDFs require SSO. Session labels are not exact examination dates."
+          },
+          {
+            "title": "MIT B.Tech. Computer Science and Engineering 2022: Healthcare IT",
+            "url": "https://compliance.manipal.edu/wp-content/uploads/2023/naac/Criteria-1/1-1-2/Syllabus-post-revision/1_1_2-Syllabus-post-revision-B_Tech-CSE-2022.pdf#page=77",
+            "note": "Official PDF page 77 uses placeholder code IIE XXXX, not IIE 4321; related curriculum only."
+          }
+        ]
+      },
+      {
+        "sem": null,
         "code": "IIE 4324",
         "title": "YOGA",
         "credits": null,
@@ -724,6 +751,48 @@
             "title": "VII semester elective allocations, AY 2026–27",
             "url": "https://github.com/aaditagrawal/elective-cutoffs/blob/60b3c1186d4f93b27c2da8e57a3a994127bf913c/data/seventh-semester.json#L249-L308",
             "note": "Public course-level allocation aggregates; code and title only, not an official curriculum publication."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 5201",
+        "title": "HEALTH ECONOMICS",
+        "credits": null,
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [],
+        "references": [],
+        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "archive_listing"],
+        "notes": [
+          "The official MIT Central Library catalogue lists Health Economics (IIE 5201) under the VI semester Biotechnology folder in its June 2019 question-paper archive. This is archive-label evidence only; the PDF requires SSO and returned Access Denied, so its internal heading and exact examination date could not be checked. Current availability, credits, and syllabus remain unknown.",
+          "The historical curriculum separately lists Health Economics as IIE 4308. No official equivalence between IIE 5201 and IIE 4308 was established; the other code's syllabus and credits have not been copied. The archive folder does not establish permanent semester placement or programme eligibility."
+        ],
+        "sources": [
+          {
+            "title": "MIT Central Library: June 2019 question-paper catalogue",
+            "url": "https://mitmpllibportal.manipal.edu/question-papers-1",
+            "note": "Public archive label Health Economics (IIE 5201).pdf; PDF access requires SSO."
+          }
+        ]
+      },
+      {
+        "sem": null,
+        "code": "IIE 5202",
+        "title": "DIGITAL MEDICINE",
+        "credits": null,
+        "tags": ["open elective", "inter-institute", "historical"],
+        "syllabus": [],
+        "references": [],
+        "flags": ["missing_semester", "missing_credits", "missing_syllabus", "archive_listing"],
+        "notes": [
+          "The official MIT Central Library catalogue lists Digital Medicine ( IIE 5202) RCS under the VI semester Biotechnology folder in its June 2019 question-paper archive. This is archive-label evidence only; the PDF requires SSO and returned Access Denied, so its internal heading and exact examination date could not be checked. Current availability, credits, and syllabus remain unknown.",
+          "The historical curriculum separately lists Digital Medicine as IIE 4309. No official equivalence between IIE 5202 and IIE 4309 was established; the other code's syllabus and credits have not been copied. The archive folder does not establish permanent semester placement or programme eligibility."
+        ],
+        "sources": [
+          {
+            "title": "MIT Central Library: June 2019 question-paper catalogue",
+            "url": "https://mitmpllibportal.manipal.edu/question-papers-1",
+            "note": "Public archive label Digital Medicine ( IIE 5202) RCS.pdf; PDF access requires SSO."
           }
         ]
       }
