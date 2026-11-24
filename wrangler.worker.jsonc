@@ -1,0 +1,35 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mit-courses-data",
+  "account_id": "9aadf54c657ec2e0abcf1192acfb5c9a",
+  "main": ".vercel/worker/entry/index.js",
+  "compatibility_date": "2024-12-16",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "routes": [{ "pattern": "courses.coolstuff.work", "custom_domain": true }],
+  "assets": {
+    "directory": ".vercel/output/static",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "run_worker_first": ["/*", "!/", "!/index.html", "!/index.rsc", "!/_next/static/*"],
+  },
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 0.1,
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 0.05,
+    },
+  },
+  "no_bundle": true,
+  "rules": [
+    {
+      "type": "ESModule",
+      "globs": ["**/*.js"],
+      "fallthrough": true,
+    },
+  ],
+}
